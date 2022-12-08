@@ -1,31 +1,10 @@
-§a§lVersion Beta§r§f 0.0.1:
-
-- Added Gold Processing line for LV.
-
-- Gold does not generate in OW anymore, instead, collect Precious Metal.
-
-- Added Quests regarding this new Processing Line
-
-- Better Integrated Extra Utilities 2 in the Pack, providing Recipes and such
-
-- All Xtones can now be chiseled.
-
-§3§lMod updates§r§f:
-
-- AE2 Extended
-
-- AE2 Fluid Crafting
-
-- JEI Utilities
+§a§lVersion Beta§r§f 1.0.0:
 
 §b§lAdditions§r§f:
 
 §2§lFixes§r§f:
 
-- OW Ore Veins don't overlap the Twilight Forest anymore. (there are exlusive veins for each)
-
 §5§lMiscellaneous§r§f:
-
 
 Ideas to be implemented NOW!:
 
