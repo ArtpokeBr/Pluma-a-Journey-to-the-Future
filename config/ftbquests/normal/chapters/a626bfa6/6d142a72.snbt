@@ -1,0 +1,110 @@
+{
+	title: "An Alloy specifically for Circuits!",
+	icon: "gregtech:meta_ingot 1 320",
+	x: 6.5d,
+	y: 1.5d,
+	description: "Lets make some Soldering Alloy!",
+	text: [
+		"Currently you don't have acess to an §6Circuit Assembler§f, but once you do so... §3Soldering Alloy§f will be very important!",
+		"",
+		"- It is used in order to more efficiently craft §6Circuits§f but also §3certain recipes might require§f you to have some of it."
+	],
+	dependencies: [
+		"a3b416bc"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "d0ad9139",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustTin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustTin"
+				}
+			}
+		}],
+		count: 6L
+	},
+	{
+		uid: "e84d79b8",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustLead"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustLead"
+				}
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "d7da5304",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustAntimony"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustAntimony"
+				}
+			}
+		}]
+	},
+	{
+		uid: "6962ad8d",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustSolderingAlloy"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustSolderingAlloy"
+				}
+			}
+		}],
+		count: 10L
+	},
+	{
+		uid: "fba78fc5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 320"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "320d3605",
+		type: "item",
+		item: "gregtech:meta_ingot 1 320",
+		random_bonus: 9
+	},
+	{
+		uid: "731eb881",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Lets make an Ender Plastic §6Part II§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "fermented_enderlyne",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 7.0d,
+	y: -1.5d,
+	description: "Fermenting the Enderlyne!",
+	text: [
+		"§aThis Step§f is §2pretty simple§f, hook up your §dEnderlyne production§f to an §6Fermenter§f, and lets continue the §2processing chain§f!"
+	],
+	dependencies: [
+		"5528da72"
+	],
+	tasks: [{
+		uid: "527c187a",
+		type: "fluid",
+		fluid: "fermented_enderlyne"
+	}],
+	rewards: [{
+		uid: "a0e98fab",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

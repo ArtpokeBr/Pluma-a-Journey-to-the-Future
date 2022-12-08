@@ -1,0 +1,42 @@
+{
+	title: "Lets automate PTFE (Teflon) §6Final Part§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "polytetrafluoroethylene",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 2.0d,
+	y: -5.5d,
+	description: "Tetrafluoroethylene + Oxygen = Polytetrafluoroethylene",
+	text: [
+		"§6Chemistry§f is Fun!",
+		"",
+		"- Just like you've done with §7Polyethylene§f, mix this Fluid with §bOxygen§f or §bAir§f to get its §6\"Poly\"§f version.",
+		"",
+		"- §2PTFE or Teflon§f if you prefer, is a special type of §aPlastic§f that can be used in a variety of ways."
+	],
+	dependencies: [
+		"41449140"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "4ce4fc99",
+		type: "fluid",
+		fluid: "polytetrafluoroethylene"
+	}],
+	rewards: [{
+		uid: "0fb62660",
+		type: "item",
+		item: "gregtech:machine 1 1575"
+	},
+	{
+		uid: "6481b4e4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

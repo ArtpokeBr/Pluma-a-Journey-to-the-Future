@@ -1,0 +1,49 @@
+{
+	title: "A Runic Metal",
+	x: 11.5d,
+	y: 0.0d,
+	description: "An Important Resource from Roots!",
+	text: [
+		"With some Runic Dust inside a High Oven with some other components, you can make Runic Steel!",
+		"",
+		"- This Metal will e used in some Important Crafts soon! Stockpile some.",
+		"",
+		"- Oh and please note that you'll need a solidifier, as this metal can't solidify itself in Tinker's Tables.",
+		"",
+		"~ There's an Quest for the High Oven in the Chapter 2."
+	],
+	dependencies: [
+		"94d2f1e3",
+		"9dc70611"
+	],
+	tasks: [{
+		uid: "71b4dbef",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotRunicSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotRunicSteel"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "87373df5",
+		type: "item",
+		item: "roots:wildewheet_bread 4",
+		count: 4
+	},
+	{
+		uid: "96af17dc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

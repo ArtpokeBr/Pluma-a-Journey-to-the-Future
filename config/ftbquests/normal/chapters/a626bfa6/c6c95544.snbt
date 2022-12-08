@@ -1,0 +1,53 @@
+{
+	title: "Wrough Iron",
+	icon: "gregtech:meta_ingot 1 335",
+	x: -3.0d,
+	y: 1.5d,
+	description: "A Material for Better Steel Processing",
+	text: [
+		"Wrough Iron is an Interesting Material.",
+		"",
+		"- To make it, Simply Smelt Iron Ingots into Hot Iron Ingots and them use a Forge Hammer to turn it into Wrough Iron.",
+		"",
+		"- It can be used instead of normal Iron to increse the Speed of wich you make Steel.",
+		"",
+		"- But it is also used in the LV Machine Hull Recipe, so you're gonna need it anyway.",
+		"",
+		"~ Personal Recommendation, ASAP set a Wrough Iron Production."
+	],
+	dependencies: [
+		"a45b245e"
+	],
+	tasks: [{
+		uid: "5a5d9c7e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "7055f6f3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hot_iron_ingot"
+		}]
+	},
+	{
+		uid: "baeddd0e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}]
+	}],
+	rewards: [{
+		uid: "9d0cd8c5",
+		type: "item",
+		item: "gregtech:meta_ingot 1 335",
+		count: 8
+	},
+	{
+		uid: "7e3b431d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

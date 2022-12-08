@@ -1,0 +1,43 @@
+{
+	title: "The Best ULV Circuit",
+	x: 3.5d,
+	y: -3.5d,
+	description: "Time to make some NAND Chips!",
+	text: [
+		"These will be the §bbest ones§f that you'll get in §6ULV Tier§f, pherhaps it is a good idea to §aautomate them§f.",
+		"",
+		"- If you forgot about it, every §eVoltage§f will have §2different tiers§f of §6Circuits§f, §athere will always be the best one§f."
+	],
+	dependencies: [
+		"1d896d72"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b0805b21",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 626"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "83b1dd72",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "soldering_alloy",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "6803d491",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

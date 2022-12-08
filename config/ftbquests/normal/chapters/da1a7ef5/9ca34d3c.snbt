@@ -1,0 +1,66 @@
+{
+	title: "Sulfur Vein",
+	x: 6.5d,
+	y: -1.0d,
+	description: "Always Look at JEI for more Info",
+	text: [
+		"This vein contains important resources such as Sphalerite and Sulfur Itself!",
+		"",
+		"- Sulfur will be used A LOT so stockpile some.",
+		"",
+		"- Sphalerite is a precious ore that you can extract Gallium from Ore Processing."
+	],
+	dependencies: [
+		"f2026ad7"
+	],
+	tasks: [{
+		uid: "00430d2e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sulfur_0 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ba2006aa",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e9614780",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sphalerite_0 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0b2ff627",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:ore_sulfur_0 1 1",
+		count: 8
+	},
+	{
+		uid: "c1eba4ef",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:ore_pyrite_0 1 1",
+		count: 8
+	},
+	{
+		uid: "96c1d956",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:ore_sphalerite_0 1 1",
+		count: 8
+	},
+	{
+		uid: "0d7a1ece",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Lets automate Polymer Clay §6Part II§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "phthalic_acid",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 12.5d,
+	y: -10.5d,
+	description: "Chemically Reacting Phthalic Acid",
+	text: [
+		"Now, Get that §3Napthalene§f of yours and mix it with some §cSulfuric Acid§f and a tiny pile of §9Potassium§f in an §6LCR§f.",
+		"",
+		"- This will result in an special acid called §6Phthalic§6.",
+		"",
+		"§8§o(LCR = Large Chemical Reactor)§r§f"
+	],
+	dependencies: [
+		"e95d4526"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "7373dbe7",
+		type: "fluid",
+		fluid: "phthalic_acid"
+	}],
+	rewards: [{
+		uid: "0164962a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 629",
+		count: 4
+	},
+	{
+		uid: "3c640dae",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

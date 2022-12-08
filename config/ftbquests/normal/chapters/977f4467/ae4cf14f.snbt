@@ -1,0 +1,46 @@
+{
+	title: "The Twilight Forest!",
+	icon: "twilightforest:block_storage 1 2",
+	x: -2.0d,
+	y: -1.0d,
+	description: "It is truly a brand new world!",
+	text: [
+		"The &3Twilight Forest&f is a key &5dimension&f for many &dmagical purposes&f, it is the lair of &dMagic&f!",
+		"",
+		"- Don't worry, &6Boss Progression&f is not &cenforced&f.",
+		"",
+		"- You can &2take your time&f to &acollect the resources&f as you need.",
+		"",
+		"- Also, keep in mind that &bOverworld Ore Veins also spawn here&f, and can be &6very rewarding to mine them&f."
+	],
+	dependencies: [
+		"22352735"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "defaa981",
+		type: "dimension",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "df89c4c1",
+		type: "item",
+		item: "twilightforest:magic_map_empty"
+	},
+	{
+		uid: "b623dc7f",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:long_night_vision"
+			}
+		}
+	},
+	{
+		uid: "5ce21e80",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "{pluma.craftlogi.title}",
+	icon: "logisticspipes:pipe_crafting",
+	x: -3.5d,
+	y: 0.0d,
+	description: "{pluma.craftlogi.subtitle}",
+	text: [
+		"{pluma.craftlogi.desc1}",
+		"",
+		"{pluma.craftlogi.desc2}",
+		"",
+		"{pluma.craftlogi.desc3}",
+		"",
+		"{pluma.craftlogi.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "f641c959",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_crafting"
+		}]
+	},
+	{
+		uid: "837f833a",
+		type: "item",
+		items: [{
+			item: "logisticspipes:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "6e8add1a",
+		type: "item",
+		item: "logisticspipes:crafting_table",
+		count: 2
+	},
+	{
+		uid: "e5beaaf4",
+		type: "item",
+		item: "logisticspipes:pipe_crafting",
+		count: 2
+	},
+	{
+		uid: "bb354fd3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

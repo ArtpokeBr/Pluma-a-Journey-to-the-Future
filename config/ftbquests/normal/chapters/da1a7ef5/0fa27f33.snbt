@@ -1,0 +1,71 @@
+{
+	title: "The Ritual of the Wildroot Growth!",
+	icon: "roots:ritual_wildroot_growth",
+	x: 13.5d,
+	y: 2.0d,
+	description: "Transforming Wildroot into the Ancient Wildwood!",
+	text: [
+		"By having some FULL grown Wildroot Crops nearby, you'll be able to perform this ritual and enhance them!",
+		"",
+		"- Wildwood is an Important Crafting Material, and you'll need it soon.",
+		"",
+		"- And yes, IT DOESN'T drop its sapplings."
+	],
+	dependencies: [
+		"34c7ed17",
+		"9144d596"
+	],
+	tasks: [{
+		uid: "4ed36e7e",
+		type: "item",
+		items: [{
+			item: "roots:spirit_herb"
+		}]
+	},
+	{
+		uid: "f245bc20",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "bdce3a55",
+		type: "item",
+		items: [{
+			item: "roots:bark_dark_oak"
+		}]
+	},
+	{
+		uid: "251583fc",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 15"
+		}]
+	},
+	{
+		uid: "e8f5de47",
+		type: "item",
+		items: [{
+			item: "roots:dewgonia"
+		}]
+	},
+	{
+		uid: "811f2440",
+		type: "item",
+		items: [{
+			item: "roots:wildwood_log"
+		}]
+	}],
+	rewards: [{
+		uid: "9982e2b3",
+		type: "item",
+		item: "roots:wildwood_sapling",
+		random_bonus: 2
+	},
+	{
+		uid: "973f63ae",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Slicing'N'Splicing",
+	x: 9.0d,
+	y: 1.0d,
+	description: "Time to make advanced EnderIO Components",
+	text: [
+		"The §6Slice'N'Splice§f from §3EnderIO§f will be §2essential§f for you to automate/utilize to obtain those §aAdvanced Components§f from §3EnderIO§f.",
+		"",
+		"- Remember that it will require §dShears§f and an §5Axe§f to work, it is advised to §emake good and durable ones§f."
+	],
+	dependencies: [
+		"0c91ecac"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "eac33917",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "45ad9e6f",
+		type: "item",
+		item: {
+			id: "enderio:item_dark_steel_axe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 70
+				}],
+				RepairCost: 1
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "34d8dd1e",
+		type: "item",
+		item: {
+			id: "enderio:item_dark_steel_shears",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 70
+				}],
+				RepairCost: 1
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "079a33a7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

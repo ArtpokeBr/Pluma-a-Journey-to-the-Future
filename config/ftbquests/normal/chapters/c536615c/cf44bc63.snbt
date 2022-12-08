@@ -1,0 +1,42 @@
+{
+	title: "Time to Automate Empowered Canola Oil §6Part I",
+	x: -8.5d,
+	y: -10.0d,
+	description: "Farming up the Canola Itself",
+	text: [
+		"There's some quests detailing how you can Automate 100% of an Canola Production in Chapter 2, read them if you need.",
+		"",
+		"- Soon enough you'll need Canola Oil for certain Operations, start by automating the Crop itself!",
+		"",
+		"- It is usefull to Store the Canola Itself and also the Seeds, as they can be used to produce Seed Oil aswell."
+	],
+	dependencies: [
+		"8e7b2dd4"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a33e96b3",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 13"
+		}]
+	},
+	{
+		uid: "e0917441",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_canola_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "7fba2687",
+		type: "item",
+		item: "forestry:fertilizer_compound",
+		count: 64
+	},
+	{
+		uid: "78741202",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

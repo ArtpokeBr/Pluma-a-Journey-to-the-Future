@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	description: "§aTier 1§f §6ULV Circuit§f",
+	text: [
+		""
+	],
+	dependencies: [
+		"96e10802"
+	],
+	tasks: [{
+		uid: "ae730fd9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 626"
+		}]
+	}]
+}

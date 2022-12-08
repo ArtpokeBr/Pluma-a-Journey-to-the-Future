@@ -1,0 +1,50 @@
+{
+	title: "Going for New Wafers!",
+	icon: "gregtech:meta_item_1 1 567",
+	x: 6.0d,
+	y: -13.0d,
+	description: "Lets make some RAM Wafers!",
+	text: [
+		"Unfortunatly you can't improve your §2§mMinecraft Performance§r§f by making a ton of these.",
+		"",
+		"- You'll basically need these §6Wafers§f for your First §6HV Circuit§f!",
+		"",
+		"- Also notice that you'll need an §aEmerald Lens§f for this type of §6Wafer§f."
+	],
+	dependencies: [
+		"fef6c00d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8ddb1639",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_lens 1 278"
+		}]
+	},
+	{
+		uid: "4527722f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 567"
+		}]
+	},
+	{
+		uid: "ebfe83c2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 592"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "6de6b91a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 567"
+	},
+	{
+		uid: "78887934",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

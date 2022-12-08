@@ -1,0 +1,35 @@
+{
+	title: "Improving your Flute!",
+	x: 1.0d,
+	y: -4.0d,
+	description: "You're becoming a Rat Flautist!",
+	text: [
+		"Now it is time to perform the Serenade for Syrinx!",
+		"",
+		"- When this Ritual is Complete, you'll be converting all flutes nearby (including your inventory) into Better Flutes!",
+		"",
+		"- Those Flutes can be used to make mobs follow you and to produce more melody!"
+	],
+	dependencies: [
+		"74f4f1b8",
+		"06e72fa9"
+	],
+	tasks: [{
+		uid: "e2c911cb",
+		type: "item",
+		items: [{
+			id: "totemic:flute",
+			Damage: 1s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c844125a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

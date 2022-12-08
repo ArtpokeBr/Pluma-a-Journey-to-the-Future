@@ -1,0 +1,34 @@
+{
+	title: "Automated Bellows",
+	x: 14.5d,
+	y: -4.5d,
+	description: "Automatic Air flow!",
+	text: [
+		"Remember those old Bellows that require you to jump on them? no need for that anymore!",
+		"",
+		"- Mechanical Bellows will automatically activate themselves when provided with a Cog.",
+		"",
+		"- Diferent Cogs will have diferent stats."
+	],
+	dependencies: [
+		"df224012"
+	],
+	tasks: [{
+		uid: "de5c42e0",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_bellows"
+		}]
+	}],
+	rewards: [{
+		uid: "4c79eeac",
+		type: "item",
+		item: "pyrotech:carrot_roasted",
+		count: 8
+	},
+	{
+		uid: "30190426",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

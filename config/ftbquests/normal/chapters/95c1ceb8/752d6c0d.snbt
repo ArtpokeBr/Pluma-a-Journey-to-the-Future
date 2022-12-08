@@ -1,0 +1,60 @@
+{
+	title: "Sooty Machinery",
+	x: 10.5d,
+	y: -9.0d,
+	description: "Time to make a Soot Machine Casing!",
+	text: [
+		"With your recent §2acquisition§f, time to start making some §cSooty Redstone§f and §5Sooty Plates§f!",
+		"",
+		"- After you obtain them, lets make a §3Machine Casing§f out of that!",
+		"",
+		"- Time to get into §bDML§f! Lets go!",
+		"",
+		"§l§8(DML = Deep Mob Learning)§r§f"
+	],
+	dependencies: [
+		"e28dc296"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1f2dee4c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:soot_covered_plate"
+		}],
+		count: 8L
+	},
+	{
+		uid: "f080ea06",
+		type: "item",
+		items: [{
+			item: "contenttweaker:soot_covered_redstone"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a5f54c28",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:machine_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "4ecf64fc",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "deepmoblearning:book"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "c3e09b7c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "Avengers, Assemble!",
+	x: 3.5d,
+	y: -2.0d,
+	description: "LV Assembler",
+	text: [
+		"Time to finally make an Assembler! it is an essential machine for this Pack!",
+		"",
+		"- It will allow you to assemble many items and materials.",
+		"",
+		"- And it can also be used to automate some cheaper alternative recipes.",
+		"",
+		"~ Want an Example of utility? All recipes normally done in a Forestry Carpenter, are now done inside of this guy."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf",
+		"de02f604"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "9d6b97ba",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 110"
+		}]
+	}],
+	rewards: [{
+		uid: "d3d55d1d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 187",
+		random_bonus: 1
+	},
+	{
+		uid: "998df3da",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		random_bonus: 1
+	},
+	{
+		uid: "d361838e",
+		type: "item",
+		item: {
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {
+					storedTime: 0
+				}
+			}
+		}
+	},
+	{
+		uid: "384dd658",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,62 @@
+{
+	title: "A Totemic Band",
+	x: 1.0d,
+	y: -1.0d,
+	description: "Lets make some Instruments! Not for a Band (Or Maybe yes) but for Rituals!",
+	text: [
+		"The way that totemic works is basically based on Native American Rituals, so... You'll be playing a bunch of Instruments together.",
+		"",
+		"Those instruments when played correctly and with an Ritual process started, will contribute for the Ritual Progress Bar.",
+		"",
+		"(You just need to smash and play all the instruments required for that specific ritual and stop playing certain ones when they emit a white particle)",
+		"",
+		"Also, the Wind Chimes are a Passive Instrument, you just need to place it in the Correct Spot.",
+		"",
+		"You must place the Chimes correctly beacuse they cancel each other effects when place to close to each other.",
+		"",
+		"Please refer to the Quest bellow for more Info"
+	],
+	dependencies: [
+		"95de1517",
+		"2330acee"
+	],
+	tasks: [{
+		uid: "eb7e620c",
+		type: "item",
+		items: [{
+			item: "totemic:drum"
+		}]
+	},
+	{
+		uid: "2b67b1d9",
+		type: "item",
+		items: [{
+			item: "totemic:wind_chime"
+		}]
+	},
+	{
+		uid: "50ce816a",
+		type: "item",
+		items: [{
+			id: "totemic:flute",
+			tag: {
+				cooldown: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f319e95",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "71151337",
+		type: "item",
+		item: "totemic:wind_chime"
+	}]
+}

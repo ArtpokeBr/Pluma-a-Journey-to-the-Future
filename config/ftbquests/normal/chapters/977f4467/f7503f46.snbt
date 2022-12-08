@@ -1,0 +1,81 @@
+{
+	title: "Lets Finish this!",
+	x: 11.25d,
+	y: -0.75d,
+	shape: "octagon",
+	description: "Lets Raid the White Castle!",
+	text: [
+		"With your brand new §6lamp of cinders§f, you'll be able to §cburn down§f the §2thorns§f that are surrounding it.",
+		"",
+		"- §3Normally, it would have anything at the top§f, but §athis modpack is different§f!",
+		"",
+		"- As you go trough the structure, it is a §agood idea§f to §2collect some blocks§f, §bthey'll be usefull later§f.",
+		"",
+		"- Also, be prepared! the §6final boss§f is §3really resistent§f!"
+	],
+	dependencies: [
+		"03cc5848"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "9b25d71c",
+		type: "item",
+		items: [{
+			item: "twilightforest:castle_rune_brick 1 3"
+		}]
+	},
+	{
+		uid: "a1a9b944",
+		type: "item",
+		items: [{
+			item: "twilightforest:castle_rune_brick 1 2"
+		}]
+	},
+	{
+		uid: "dab8bd4b",
+		type: "item",
+		items: [{
+			item: "twilightforest:castle_rune_brick"
+		}]
+	},
+	{
+		uid: "cecce509",
+		type: "item",
+		items: [{
+			item: "twilightforest:castle_rune_brick 1 1"
+		}]
+	},
+	{
+		uid: "02c78765",
+		type: "item",
+		items: [{
+			item: "twilightforest:castle_brick"
+		}]
+	},
+	{
+		uid: "01963f89",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 7"
+		}]
+	},
+	{
+		uid: "769d06cd",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_sapling 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "8a5913fc",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 16
+	},
+	{
+		uid: "48c0ae8e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

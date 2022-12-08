@@ -1,0 +1,47 @@
+{
+	title: "Purifying Rock Crystal's!",
+	x: -3.0d,
+	y: 0.5d,
+	description: "Ordo into Rock Crystal's",
+	text: [
+		"§6Ordo Infused Ore's§f can be found in the §dTwilight Forest§f... what you do with them? §dVis Crystal's§f! but most importantly, §3Rock Crystal's§f aswell!",
+		"",
+		"- Place them near your §ePure Daisy§f and watch the §atransformation§f! you'll get a §3Rock Crystal ore§f.",
+		"",
+		"- §aSimply Mine§f it and voilá!"
+	],
+	dependencies: [
+		"72d51beb"
+	],
+	tasks: [{
+		uid: "28c0ddec",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ordo_infused_0"
+		}]
+	},
+	{
+		uid: "952c184b",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 400,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c34a8e8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

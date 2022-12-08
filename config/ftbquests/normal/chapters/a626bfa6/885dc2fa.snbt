@@ -1,0 +1,50 @@
+{
+	title: "The Process of Obtaining Zinc §6Final Part§f",
+	x: 7.5d,
+	y: 5.5d,
+	description: "Thermally Correct!",
+	text: [
+		"Okay, this is the Final Step to obtain a decent supply of Zinc! simply use a Thermal Centrifuge!",
+		"",
+		"- You'll get 3 Tiny Piles of it and 9 = 1 Normal Dust.",
+		"",
+		"- Oh, and your Centrifuged Tins can simply be Smelted into Tin ingots!"
+	],
+	dependencies: [
+		"6b86f027"
+	],
+	tasks: [{
+		uid: "6280aff2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 605"
+		}]
+	},
+	{
+		uid: "663b59e6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_tiny 1 122"
+		}],
+		count: 96L
+	},
+	{
+		uid: "7c9d6a64",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed_centrifuged 1 112"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d0d607df",
+		type: "item",
+		item: "gregtech:meta_dust 1 122",
+		count: 4
+	},
+	{
+		uid: "afb19c8e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

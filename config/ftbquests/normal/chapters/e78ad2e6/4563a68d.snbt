@@ -1,0 +1,27 @@
+{
+	title: "Click Here to Acess the Wiki!",
+	x: 3.0d,
+	y: -1.5d,
+	shape: "gear",
+	description: "You'll be redirected to the FTB Wiki Page",
+	text: [
+		""
+	],
+	custom_click: "https://ftbwiki.org/Bee_Breeding",
+	dependencies: [
+		"e38ce5bc"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a338fb5f",
+		type: "item",
+		items: [{
+			id: "forestry:imprinter",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "{pluma.logprovider.title}",
+	x: -1.5d,
+	y: -1.0d,
+	description: "{pluma.logprovider.subtitle}",
+	text: [
+		"{pluma.logprovider.desc1}",
+		"",
+		"{pluma.logprovider.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	tasks: [{
+		uid: "acb0a200",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_provider"
+		}]
+	}],
+	rewards: [{
+		uid: "85d6156c",
+		type: "item",
+		item: "logisticspipes:module_provider"
+	},
+	{
+		uid: "925e2176",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

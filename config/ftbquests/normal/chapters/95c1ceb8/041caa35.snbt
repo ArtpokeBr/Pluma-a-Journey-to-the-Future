@@ -1,0 +1,45 @@
+{
+	title: "Plastic Circuit Boards!",
+	x: 2.0d,
+	y: -7.5d,
+	description: "Time to improve your Circuits once again!",
+	text: [
+		"Besides being used to get into §6EV Circuits§f, §3Plastic Circuit Boards§f will also be usefull for improving §eLow Tier Circuits§f such as §6LV§f or §6ULV§f.",
+		"",
+		"- Also, to make them you'll have a §2few options§f, you can choose the type of §3Plastic§f you're going to use, §3better the Plastic§f §2better the outputs§f.",
+		"",
+		"- In this case, since you had to automate §5Teflon§f for §aprogression§f, it is probally a good idea to §duse it§f!"
+	],
+	dependencies: [
+		"827a0c46",
+		"84e52f72"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "54e262d1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 383"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e7ccc83d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 403"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1bc51bfa",
+		type: "item",
+		item: "gregtech:meta_item_1 1 403",
+		count: 4
+	},
+	{
+		uid: "16cdb83b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Resistors and Red Alloy Cables",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Circuit Materials III",
+	text: [
+		"These are now the Last Materials to assemble an Circuit!",
+		"",
+		"- There are many recipes that you can choose to make those Resistors, choose the one that you prefer."
+	],
+	dependencies: [
+		"430c813f"
+	],
+	tasks: [{
+		uid: "271e562a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 519"
+		}],
+		count: 2L
+	},
+	{
+		uid: "6424422d",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2517"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "4e0c2b60",
+		type: "item",
+		item: "gregtech:meta_item_1 1 519",
+		count: 4
+	},
+	{
+		uid: "1d143fc7",
+		type: "item",
+		item: "gregtech:cable_single 1 2517",
+		count: 6
+	},
+	{
+		uid: "7b812aa3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

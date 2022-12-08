@@ -1,0 +1,19 @@
+{
+	title: "A Rough Explanation of P2P Tunnel's",
+	icon: "appliedenergistics2:part 1 470",
+	x: 2.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "Click to be redirected to AE's Wiki",
+	text: [
+		""
+	],
+	custom_click: "https://appliedenergistics.github.io/features/me-network/misc/p2p-tunnel",
+	dependencies: [
+		"9fff9a3a"
+	],
+	tasks: [{
+		uid: "c2cba133",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Aluminium Already?",
+	x: 13.0d,
+	y: 3.0d,
+	description: "Obtaining Aluminium Gravel!",
+	text: [
+		"The Mission is Simple. Aluminium Brass requires Aluminium to craft.",
+		"",
+		"- Earch 3 Aluminium Gravel are equal to an Ingot of Aluminium Brass.",
+		"",
+		"- 1 Aluminium Brass = 1 cast.",
+		"",
+		"- And of course, you'll need Casts to use your future Smeltery.",
+		"",
+		"~ Don't even try to obtain Aluminium Ingots this way, you'll not be able to do that ;p"
+	],
+	dependencies: [
+		"f7a19676"
+	],
+	tasks: [{
+		uid: "bd6fee9c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:aluminiumgravel"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "38caaa5d",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "d190fdf0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,201 @@
+
+material.black_quartz=§bBlack Quartz§f
+material.biotite=§5Biotite§f
+material.obscure_compound=§5Obscure§f
+material.slaked_composite=Slaked Composite
+
+item.material.oreprefix.oreClump=%s Clump
+item.material.oreprefix.oreCluster=Native %s Cluster
+item.material.oreprefix.oreCrystal=%s Crystal
+item.material.oreprefix.oreShard=%s Shard
+item.material.oreprefix.lightPlate=Light %s Plate
+item.material.oreprefix.heavyPlate=Heavy %s Plate
+item.material.oreprefix.orePurified=Purified %s Ore
+item.material.oreprefix.enrichedEgg=%s Enriched Egg
+
+material.astral_starmetal=Starmetal
+
+material.lumium=Lumium
+material.enderium=Enderium
+material.signalum=Signalum
+
+material.electrotine=Electrotine
+
+material.triberium=Triberium
+
+material.osram=Osram
+
+material.iox=Iox
+
+material.honeycomb=Honey-Comb
+
+material.modularium=Modularium
+
+material.stygian=Stygian
+
+material.fluix=Fluix
+
+material.sigberium=Sigberium
+
+material.Dbreath=Dragon's Breath
+
+material.enderlyne=Enderlyne
+
+material.polyenderlyne=Polyenderlyne
+
+material.chorus_flower=Chorus Flower
+
+material.enbiotic=Enbiotic
+
+material.wyrmwood=Wyrmwood
+
+material.refinedglue=Refined Glue
+
+material.tough=Tough Alloy
+
+material.hslasteel=HSLA Steel
+
+material.extreme=Extreme Alloy
+
+material.thermoconducting=Thermoconducting Alloy
+
+material.boronnitride=Boron Nitride
+
+material.hardcarbon=Hard Carbon
+
+material.zircaloy=Zircaloy
+
+material.sicsiccmc=SiC-SiC Ceramic Matrix Composite
+
+material.ardite=Ardite
+
+material.manyullyn=Manyullyn
+
+material.treated_wood=Treated Wood
+
+material.peridot=Peridot
+
+
+
+material.nc_boron=Boron
+
+material.ovium=Ovium
+
+material.terrastone=Terrastone
+
+material.runic_steel=Runic Steel
+
+material.dark_steel=Dark Steel
+
+material.electrical_steel=Electrical Steel
+
+material.pulsating_iron=Pulsating Iron
+
+material.conductive_iron=Conductive Iron
+
+material.energetic_alloy=Energetic Alloy
+
+material.vibrant_alloy=Vibrant Alloy
+
+material.end_steel=End Steel
+
+material.ardite=Ardite
+
+material.menril=Menril
+material.chorus=Chorus
+
+material.scorched=Scorched
+
+material.honey_steel=Honey-Steel
+
+material.refined_obsidian=Refined Obsidian
+
+material.construction_alloy=Iron Alloy
+
+material.stellar_alloy=Stellar Alloy
+
+material.fossil=Fossil
+
+material.lignite_coal=Lignite Coal
+
+material.amber=Amber
+
+material.beneath_gas=The Beneath Air
+
+material.modularium=Modularium
+
+material.time_vortex_fluid=Time Vortex Fluid
+
+material.glitch_infused=§bGlitch Infused§f
+
+material.soularium=Soularium
+
+material.manasteel=Manasteel
+material.elementium=Elementium
+material.terrasteel=Terrasteel
+
+material.ember=Ember
+material.dawnstone=Dawnstone
+
+material.demonlord=Demonlord
+material.diabolic_carbide=Diabolic Carbide
+
+material.dwarven_solution=Dwarven Solution
+
+material.unstable_mana=Unstable Mana
+
+material.liquid_nightmares=Nightmares
+
+material.vinteum=Vinteum
+
+material.red_sand=Red Sand
+
+material.twilight_metal=Twilight Metal
+
+material.dark_fluid=Liquid Darkness
+
+material.ender_mixture=Ender Mixture
+
+material.aquamarine=Aquamarine
+
+material.draconium=Draconium
+
+material.awakened_draconium=Awakened Draconium
+
+material.enderlyne=Enderlyne
+material.fermented_enderlyne=Fermented Enderlyne
+material.polyenderlyne=Polyenderlyne
+
+material.infinity_metal=Infinity
+
+material.ancient_metal=§4Ancient Metal
+
+material.refined_glue=Refined Glue
+material.super_glue=Super Glue
+
+material.cobalt_steel=Cobalt Steel
+
+material.copper_magnetic=Magnetic Copper
+
+material.aer_infused=Aer Infused
+material.terra_infused=Terra Infused
+material.aqua_infused=Aqua Infused
+material.ignis_infused=Ignis Infused
+material.ordo_infused=Ordo Infused
+material.entropy_infused=Entropy Infused
+
+material.concentrated_titanium=Concentrated Titanium
+
+material.abyssal_stone=Abyssal
+material.dread_stone=Dread
+material.abyssalnite_stone=Abyssalnite
+material.omothol_stone=Omothol
+
+material.moon=Moon
+
+material.gold_alloy=Gold Alloy
+material.precious_metal=Precious Metal
+material.gold_leach=Gold Leach
+material.copper_leach=Leached Copper
+material.chloroauric_acid=Chloroauric Acid
+material.potassium_metabisulfite=Potassium Metabisulfite

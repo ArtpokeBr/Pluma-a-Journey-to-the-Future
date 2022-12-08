@@ -1,0 +1,38 @@
+{
+	title: "Apiarist's Preparation §6Part II",
+	x: -2.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	description: "Cease your resistance!",
+	text: [
+		"Actually this step is not required but it can be good to not get attacked by Bee's right?",
+		"",
+		"The Smoker can be used against hives in order to calm down bees and make your life as an Apiarist not risky."
+	],
+	dependencies: [
+		"451dcdd3"
+	],
+	tasks: [{
+		uid: "8b8cd500",
+		type: "item",
+		items: [{
+			id: "forestry:smoker",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b2f67e2",
+		type: "item",
+		item: "harvestcraft:honeylemonlambitem",
+		count: 2
+	},
+	{
+		uid: "dde41bdc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,91 @@
+{
+	title: "Wildwood Armor!",
+	x: 14.5d,
+	y: 3.0d,
+	description: "A Real Improvement to your Sylvan Armor",
+	text: [
+		"Unfortunatly It does not give you the Discount in spells anymore, but, instead a much more valuable buff",
+		"",
+		"- With any piece of this Amor, you'll get a little health regen, with all the armor set, you'll be able to heal yourself passively!",
+		"",
+		"- Also, this armor gives you much more protection than the Sylvan one."
+	],
+	dependencies: [
+		"0fa27f33",
+		"ced47586"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fb23f592",
+		type: "item",
+		items: [{
+			id: "roots:wildwood_helmet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "81bbe2ac",
+		type: "item",
+		items: [{
+			id: "roots:wildwood_chestplate",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d6e78025",
+		type: "item",
+		items: [{
+			id: "roots:wildwood_leggings",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d743d62d",
+		type: "item",
+		items: [{
+			id: "roots:wildwood_boots",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cffc8790",
+		type: "item",
+		item: "harvestcraft:frenchtoastitem",
+		count: 4
+	},
+	{
+		uid: "89b6e2fd",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 70s
+				}]
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "db420bd0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

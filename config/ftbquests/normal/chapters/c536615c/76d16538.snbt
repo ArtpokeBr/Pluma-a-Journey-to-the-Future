@@ -1,0 +1,35 @@
+{
+	title: "A Simple Machine Chassis",
+	x: -3.5d,
+	y: -8.5d,
+	description: "The First Chassis of Ender IO!",
+	text: [
+		"By having §7Electrical Steel§f in your hands, you'll be able to make this Chassis!",
+		"",
+		"- You'll need to further improve it to start crafting §3Ender IO§f Machines, but this is the First Step.",
+		"",
+		"- You'll need §8Grains of Infinity§f for this §2Recipe/Quest§f, and there's a questline about it in §3Chapter 3§f."
+	],
+	dependencies: [
+		"d0e88b2c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2b9c0b63",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}],
+	rewards: [{
+		uid: "3975e709",
+		type: "item",
+		item: "enderio:item_material 1 20",
+		count: 4
+	},
+	{
+		uid: "273e57f9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

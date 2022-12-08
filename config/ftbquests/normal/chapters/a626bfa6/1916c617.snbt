@@ -1,0 +1,31 @@
+{
+	title: "LV Electric Alloy Smelter",
+	x: 1.5d,
+	y: 4.5d,
+	description: "Smelting Alloys with EU!",
+	text: [
+		"Better Efficiency, Better Speed, Better Automations!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "1078d6cd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 80"
+		}]
+	}],
+	rewards: [{
+		uid: "df048c4c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "10fe5f8b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

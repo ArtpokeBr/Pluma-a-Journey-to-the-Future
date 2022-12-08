@@ -1,0 +1,47 @@
+{
+	title: "Lets get some Methane",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "methane",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -1.0d,
+	y: -7.0d,
+	description: "Please, Don't Fart.",
+	text: [
+		"You're going to need §dMethane§f for some important §6Chemicals§f, lets start making it!",
+		"",
+		"You have a few options to do so, but some good ones are:",
+		"",
+		"- §6Centrifuging§f a §eFood§f Item. More §eSaturation§f = more §dMethane§f.",
+		"",
+		"- §6Chemical Reacting§f §7Carbon§f and §9Hydrogen§f.",
+		"",
+		"~ They're not the only options, but I personally would go with the first one, just remember to automate §efood§f."
+	],
+	dependencies: [
+		"cde1ea4c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "3abbc946",
+		type: "fluid",
+		fluid: "methane"
+	}],
+	rewards: [{
+		uid: "9fe66543",
+		type: "item",
+		item: "gregtech:meta_item_1 1 625",
+		random_bonus: 1
+	},
+	{
+		uid: "40ad0abd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

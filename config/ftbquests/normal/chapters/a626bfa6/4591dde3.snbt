@@ -1,0 +1,53 @@
+{
+	title: "Time to start using Conduits!",
+	icon: "enderio:item_power_conduit",
+	x: 5.5d,
+	y: 1.5d,
+	description: "EU has direct compatibility with RF, but not the other way around tho...",
+	text: [
+		"Yep! perhaps you like Conduits just like myself and want to start using them... and you finally can!",
+		"",
+		"- You'll not have acess to ALL conduits, but, you can start with some early ones.",
+		"",
+		"- And remember what the subtitle said, EU cables can power most RF Machines, but NOT THE OTHER WAY."
+	],
+	dependencies: [
+		"a3b416bc"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "bec6806d",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 22"
+		}],
+		count: 6L
+	},
+	{
+		uid: "ba69f64a",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 4"
+		}],
+		count: 12L
+	},
+	{
+		uid: "09a0252e",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "a7a46af5",
+		type: "item",
+		item: "harvestcraft:orangejellysandwichitem",
+		count: 3
+	},
+	{
+		uid: "31bdb505",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

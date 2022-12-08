@@ -1,0 +1,29 @@
+{
+	title: "Time to Automate Empowered Canola Oil §6Part II",
+	x: -7.0d,
+	y: -10.0d,
+	description: "Producing and Refining Canola Oil",
+	text: [
+		"With your Canola Farm working, use an Extractor to get the Oil out of it and refine it with a Distillery!",
+		"",
+		"- Remember, you can always revisit your setups in the future to improve them."
+	],
+	dependencies: [
+		"cf44bc63"
+	],
+	tasks: [{
+		uid: "69be09c6",
+		type: "fluid",
+		fluid: "refinedcanolaoil"
+	}],
+	rewards: [{
+		uid: "e0c96d11",
+		type: "item",
+		item: "gregtech:machine 1 1612"
+	},
+	{
+		uid: "b240f819",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

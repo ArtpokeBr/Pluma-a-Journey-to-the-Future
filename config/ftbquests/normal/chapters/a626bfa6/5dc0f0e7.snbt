@@ -1,0 +1,22 @@
+{
+	title: "LV Centrifuge",
+	x: 1.5d,
+	y: 0.5d,
+	description: "Separating Materials with EU!",
+	text: [
+		"The Centrifugue will allow you to separate some materials into their Subcomponents by using EU!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "bf2742b3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 185"
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "{pluma.logchass1.title}",
+	x: 4.0d,
+	y: -3.5d,
+	description: "{pluma.logchass1.subtitle}",
+	text: [
+		"{pluma.logchass1.desc1}",
+		"",
+		"{pluma.logchass1.desc2}",
+		"",
+		"{pluma.logchass1.desc3}"
+	],
+	dependencies: [
+		"ba9953a3"
+	],
+	tasks: [{
+		uid: "9def65a4",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_chassis_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "772d888e",
+		type: "item",
+		item: "logisticspipes:pipe_chassis_mk1",
+		count: 2
+	},
+	{
+		uid: "1a611158",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "A Liquid from Time and Space!",
+	x: 9.0d,
+	y: -1.5d,
+	description: "Legends say that the Multiverse itself is a giant living being...",
+	text: [
+		"Now, with all that work that you've done to obtain §dDNA§f. ",
+		"",
+		"- §6Chemical React§f it with some §3Carbon§f inside an §6LCR§f and start manipulating §eTime§f!",
+		"",
+		"§8§oLCR = (Large Chemical Reactor)§r§f"
+	],
+	dependencies: [
+		"6f6e1805"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "f1b4746d",
+		type: "fluid",
+		fluid: "time_vortex_fluid"
+	}],
+	rewards: [{
+		uid: "b981aff3",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "time_vortex_fluid",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "eee51f8d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

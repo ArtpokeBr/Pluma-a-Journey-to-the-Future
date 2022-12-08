@@ -1,0 +1,45 @@
+{
+	title: "The Empowerer!",
+	icon: "actuallyadditions:block_empowerer",
+	x: -5.005102040816325d,
+	y: -7.497448979591837d,
+	description: "An Energy Based Crafting Device!",
+	text: [
+		"You'll actually need 5 Display Stands as the Empowerer Requires one aswell.",
+		"",
+		"- The Empowerer will be the way that you obtain advanced materials from Actually Additions!",
+		"",
+		"- Place an Empowerer and place 4 Display Stands 2 blocks away to each cardinal direction.",
+		"",
+		"- Only the Display Stands need to be Powered."
+	],
+	dependencies: [
+		"5445b847"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9dcb6133",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "719df127",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1b87e777",
+		type: "item",
+		item: "actuallyadditions:item_chest_to_crate_upgrade"
+	},
+	{
+		uid: "637ed1ef",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

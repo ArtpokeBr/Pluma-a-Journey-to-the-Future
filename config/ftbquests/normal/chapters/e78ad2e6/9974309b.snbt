@@ -1,0 +1,37 @@
+{
+	title: "Welcome to the Bee Breeding Tab!               §e§oBzzzz",
+	icon: {
+		id: "forestry:book_forester",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -5.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	description: "Bees are actually usefull in this Pack!",
+	text: [
+		"As the subtitle said, Bees are very usefull in this Pack, They're slightly required for direct progression and they can also be used to produce resources in order to skip some grind.",
+		"",
+		"Also, keep in mind that unfortunatly FTB Quests doesn't work very well with Forestry Bee's so you'll be completing Checkmark quests (Please be Honest with yourself)."
+	],
+	dependencies: [
+		"a45b245e"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2e0d2ff0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a1bb760c",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "forestry:book_forester",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

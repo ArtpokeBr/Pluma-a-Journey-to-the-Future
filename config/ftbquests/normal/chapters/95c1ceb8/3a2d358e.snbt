@@ -1,0 +1,60 @@
+{
+	title: "Better Conduits and Cables!",
+	x: 7.0d,
+	y: -1.0d,
+	description: "Time to upgrade your current ones!",
+	text: [
+		"By using some §aVibrant Alloy§f you'll finally get acess to some neat stuff!",
+		"",
+		"- With an §aHeavy Vibrant Alloy Plate§f you'll be able to make the best §9Fluid Conduits§f that you can get.",
+		"",
+		"- Also, with some §aVibrant Alloy Wires§f, you'll be able to get better §eEnergy Conduits§f and also §6The Best Energy Cable for HV Power in GT§f!"
+	],
+	dependencies: [
+		"9a37198d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "657fdc41",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 32006"
+		}],
+		count: 3L
+	},
+	{
+		uid: "33bba1fe",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 2"
+		}],
+		count: 3L
+	},
+	{
+		uid: "0bf848b3",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 2"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "e53ff007",
+		type: "item",
+		item: "enderio:item_power_conduit 1 2",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		uid: "b5daf684",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		uid: "0ab881e5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

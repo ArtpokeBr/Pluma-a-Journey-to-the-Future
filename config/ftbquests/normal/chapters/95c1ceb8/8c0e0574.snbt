@@ -1,0 +1,67 @@
+{
+	title: "Expanding your GP Generation",
+	x: 8.5d,
+	y: 6.0d,
+	description: "More Efficiency! More GP Power!",
+	text: [
+		"Now that you can make some &3Stoneburnt&f in your &6Resonator&f, perhaps its a good idea to expand your &eGP Generation Infrastructure&f.",
+		"",
+		"- You can craft any of the following:",
+		"",
+		"▬ &9Water Mill&f: Generates &eGP&f based on the amount of &9flowing water&f surrounding it.",
+		"",
+		"▬ &cLava Mill&f: Generates &eGP&f based on the amount of &cfull lava blocks&f surrounding it.",
+		"",
+		"▬ &cFire Mill&f: Generates &eGP&f when placed over &cfire&f.",
+		"",
+		"▬ &bWind Mill&f: Generates &eGP&f based on the &baltitude&f and also gets &aboosted when raining&f. &8&o(North and South Blocks must be clear)&f&r",
+		"",
+		"▬ &5Solar/Lunar Panel&f: Generates &eGP&f when its &5day/night&f. ",
+		"&8&o(they must have a clear line of sight to the sky).&r&f",
+		"",
+		"&8&o(GP Numbers and Efficiencies have been tweaked for this Pack, some nerfs and some buffs where applied).&r&f"
+	],
+	dependencies: [
+		"1f69ab74"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1038c90b",
+		type: "item",
+		title: "Any GP Generator",
+		items: [{
+			item: "extrautils2:passivegenerator 1 4"
+		},
+		{
+			item: "extrautils2:passivegenerator 1 5"
+		},
+		{
+			item: "extrautils2:passivegenerator 1 2"
+		},
+		{
+			item: "extrautils2:passivegenerator 1 3"
+		},
+		{
+			item: "extrautils2:passivegenerator"
+		},
+		{
+			item: "extrautils2:passivegenerator 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "275e0e80",
+		type: "item",
+		item: {
+			id: "extrautils2:luxsaber",
+			Damage: 5s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "343faaf1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

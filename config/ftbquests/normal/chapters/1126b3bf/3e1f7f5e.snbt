@@ -1,0 +1,76 @@
+{
+	title: "Tier 1 Essences",
+	x: 15.0d,
+	y: -4.0d,
+	description: "Time to get Started with Alchemy Wizardry!",
+	text: [
+		"§3Blood Magic§f has many special §6Essence's§f, and subsequentially, the main ones will be §bdocumented§f in the §2following quests§f.",
+		"",
+		"- Lets start with the §aTier 1§f ones!",
+		"",
+		"- You should be able to make them now if you just unlocked this quest.",
+		" if you can't, §5don't forget to come back later§f!",
+		"",
+		"- All §6Essence's§f will also require a §bCatalyst§f to be made, make sure to §2automate§f it beforehand.",
+		"",
+		"§b▬ §nAether§r§f: Some interesting materials are used for this one, including an §bAir Cell§f, Feather, §3Cloud Berries§f, §dGhast Tear§f and also a §eGlowstone§f.",
+		"",
+		"§9▬ §nAquasalus§r§f: The Materials for this one are very simple to obtain. Simply §9Water§f, §3Dewgonia§f, a §2Lilly Pad§f and also a §8Squid's Ink Sac§f.",
+		"",
+		"§c▬ §nIncendium§r§f: Essentially, just §6Pyrotheum§f, §cLava§f, an §3Infernal Bulb§f and a block of §cNetherrack§f.",
+		"",
+		"§e▬ §nTerrae§r§f:A Variety of §2Compressed \"Soil\" Materials§f and a piece of §3Wildroot§f, pretty simple.",
+		"",
+		"§8§oInteresting how Reagents are much more complicated and complex than essence's, right?§r§f"
+	],
+	dependencies: [
+		"97d57940"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "ec933e7a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:aether"
+		}]
+	},
+	{
+		uid: "ad84d8fb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:aquasalus"
+		}]
+	},
+	{
+		uid: "9fe62050",
+		type: "item",
+		items: [{
+			item: "contenttweaker:incendium"
+		}]
+	},
+	{
+		uid: "2859c8b4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:terrae"
+		}]
+	},
+	{
+		uid: "f9756923",
+		type: "item",
+		items: [{
+			item: "contenttweaker:simple_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "84b74c7a",
+		type: "item",
+		item: "bloodmagic:alchemy_table",
+		random_bonus: 3
+	},
+	{
+		uid: "ec89cfee",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

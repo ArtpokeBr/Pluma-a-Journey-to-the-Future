@@ -1,0 +1,37 @@
+{
+	title: "Automation with Feys?",
+	x: 13.5d,
+	y: 1.0d,
+	description: "A Runic Crafter!",
+	text: [
+		"This Crafter can be an \"Enhanced\" Version of the normal Fey Crafter.",
+		"",
+		"- It allows you to configure a Recipe, and it will craft until it runs out of materials.",
+		"",
+		"- Set the recipe by placing the Output item on it",
+		"",
+		"- After the recipe being set, it will consume items in an Inventory bellow it",
+		"",
+		"- Remember to use a Mechnical User or other methods of automatically right click with an Knife."
+	],
+	dependencies: [
+		"34c7ed17"
+	],
+	tasks: [{
+		uid: "d13fad94",
+		type: "item",
+		items: [{
+			item: "roots:runic_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "09179d1f",
+		type: "item",
+		item: "extrautils2:user"
+	},
+	{
+		uid: "80173a72",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

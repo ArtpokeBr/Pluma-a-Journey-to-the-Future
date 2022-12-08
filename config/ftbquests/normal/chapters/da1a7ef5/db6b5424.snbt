@@ -1,0 +1,26 @@
+{
+	title: "Drying it all up!",
+	x: 11.5d,
+	y: -2.0d,
+	description: "Wait.. but this looks like a Clay Plate!",
+	text: [
+		"Time to melt some rotten flesh or.... You! in the Smeltery.",
+		"",
+		"- Simply cast some Blood into an Empty Casting Table and make some Blood \"Balls\""
+	],
+	dependencies: [
+		"3efd3472"
+	],
+	tasks: [{
+		uid: "04704317",
+		type: "item",
+		items: [{
+			item: "tconstruct:edible 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "60ac78ad",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

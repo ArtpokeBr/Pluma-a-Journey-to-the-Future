@@ -1,0 +1,33 @@
+{
+	title: "A Comb full of Drip",
+	icon: "forestry:bee_combs 1 5",
+	x: 8.5d,
+	y: -2.5d,
+	shape: "rsquare",
+	description: "A Comb Capable of Producing a Special Resource",
+	text: [
+		"With a Dripping Com, you'll have a Chance to Produce Honey Dew! A Special Resource that can be Used to get Acess to some Special Bee Machinery!"
+	],
+	dependencies: [
+		"3ae21efe"
+	],
+	tasks: [{
+		uid: "59beadcc",
+		type: "item",
+		items: [{
+			item: "forestry:bee_combs 1 5"
+		}]
+	},
+	{
+		uid: "dc8f6a0d",
+		type: "item",
+		items: [{
+			item: "forestry:honeydew"
+		}]
+	}],
+	rewards: [{
+		uid: "cbcc1aab",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Very Strong Enemies",
+	icon: "fossil:anubite_statue",
+	x: 3.75d,
+	y: -1.5d,
+	description: "Anubites and the Ancient one Itself!",
+	text: [
+		"Once you've start raiding the §6Ancient Castle of Anu§f, you'll notice that §3Strong Guards§f will be there to stop you.",
+		"",
+		"- Also, after you reach the §2center arena§f, you'll see an §6Giant Sarcophagus§f. §c§mbe aware of the consequences...§r§f",
+		"",
+		"- §2Right click§f with an §eScarab Gem§f to open the Seal of the §6Sarcophagus§f, you'll free an §4§lAncient One§r§f! ",
+		"",
+		"- §4Anu§f has 2 §2Stances§f and many §2Abilities§f, it is §cnot§f going to be an §cEasy fight§f, specially beacuse you don't have acess to Jetpacks.",
+		"",
+		"- Prepare §bPotions§f, Prepare a Strong §bBow§f and also... a Good §bPickaxe§f... why? you'll see."
+	],
+	dependencies: [
+		"51f03bff"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "a2cff49b",
+		type: "kill",
+		icon: "fossil:anubite_statue",
+		entity: "fossil:fossil.anubite",
+		value: 5L
+	},
+	{
+		uid: "53c51c8b",
+		type: "kill",
+		icon: "fossil:anu_statue",
+		entity: "fossil:fossil.anu",
+		value: 1L
+	}]
+}

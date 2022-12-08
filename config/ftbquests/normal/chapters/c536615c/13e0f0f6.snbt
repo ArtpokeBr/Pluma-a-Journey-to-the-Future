@@ -1,0 +1,37 @@
+{
+	title: "A Decent Sag Mill",
+	x: 6.0d,
+	y: -9.5d,
+	description: "Time to truly get into Ender IO!",
+	text: [
+		"The §6Sag Mill§f from §3Ender IO§f is capable of handling certain dust recipes but most importanly, it can be used with §6Grinding Balls to further improve its efficiency§f!",
+		"",
+		"- Also, Remember that §eGregTech Cables can transfer RF§f, but not the other way around."
+	],
+	dependencies: [
+		"7efb13b3"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "d97c68d8",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "a54bd82a",
+		type: "item",
+		item: {
+			id: "enderio:item_ender_food",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "3185903a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

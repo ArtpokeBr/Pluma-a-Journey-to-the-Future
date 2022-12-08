@@ -1,0 +1,42 @@
+{
+	title: "Good Ol' Mekanism Machinery!",
+	x: 14.5d,
+	y: 5.0d,
+	description: "Lets make an Metallurgic Infuser!",
+	text: [
+		"Now that you have acess to §aOsgloglas§f, time to make this guy! The §6Metallurgic Infuser§f.",
+		"",
+		"- It will grant you acess to §3Mekanism Circuits and Alloys§f, wich means, pretty §2good gadgets and automation§f options!",
+		"",
+		"- Also, you'll be able to expand your §bOre Processing Capabilities§f.",
+		"",
+		"- And there's a neat §9Multiblock Tower§f awaiting you."
+	],
+	dependencies: [
+		"b3c89d80"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "efcb4936",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			Damage: 8s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a92333da",
+		type: "item",
+		item: "railcraft:circuit",
+		count: 4
+	},
+	{
+		uid: "9b01bfa5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

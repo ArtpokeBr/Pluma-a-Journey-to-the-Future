@@ -1,0 +1,47 @@
+{
+	title: "Lets automate Growth Medium §6Final Part§f",
+	x: 8.0d,
+	y: -5.5d,
+	description: "Lets get some Growth Medium!",
+	text: [
+		"Well, at this point, I have to say, §6GregTech's§f §eGrowth Medium§f is not the one that we are looking for, it is the §6Binnies§f one!",
+		"",
+		"- It is a kinda interesting Recipe, you'll need a §2LCR (Large Chemical Reactor)§f with 2 §6HV§f Energy Inputs, as this recipe requires §6EV§f Power.",
+		"",
+		"- Struggling for §aCalcium§f? well.. Simply §6Electrolyze§f §bBone Meal§f!",
+		"",
+		"~ Later in this Pack, you'll Automate the real §eGrowth Medium§f from §6GregTech§f! a much more elaborate process is required for that tho..."
+	],
+	dependencies: [
+		"d0ada228"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "98ca8d0b",
+		type: "item",
+		items: [{
+			item: "genetics:misc 1 4"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "229acc9b",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 80s,
+			tag: {
+				Fluid: {
+					FluidName: "mutagen",
+					Amount: 8000
+				}
+			}
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "ad2a44f0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

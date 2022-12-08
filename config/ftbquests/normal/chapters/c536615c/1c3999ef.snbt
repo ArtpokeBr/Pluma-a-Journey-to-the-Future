@@ -1,0 +1,95 @@
+{
+	title: "Converting RF to EU and Vice Versa!",
+	x: -5.5d,
+	y: -11.0d,
+	description: "There are GTCEu EU and RF Converters!",
+	text: [
+		"§eEnergy Converters§f aren't that Expensive and are very usefull!",
+		"",
+		"- You can easily switch between §9RF§f and §3EU§f conversion by using a §6Soft Hammer§f.",
+		"",
+		"- There are §e4 types§f for each §evoltage§f, this is beacuse they can output §3different§f amounts of §3Amps§f."
+	],
+	dependencies: [
+		"7e379f4f"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "479ab822",
+		type: "item",
+		title: "Any ULV up to HV Converter",
+		items: [{
+			item: "gregtech:machine 1 1670"
+		},
+		{
+			item: "gregtech:machine 1 1671"
+		},
+		{
+			item: "gregtech:machine 1 1672"
+		},
+		{
+			item: "gregtech:machine 1 1673"
+		},
+		{
+			item: "gregtech:machine 1 1674"
+		},
+		{
+			item: "gregtech:machine 1 1675"
+		},
+		{
+			item: "gregtech:machine 1 1676"
+		},
+		{
+			item: "gregtech:machine 1 1677"
+		},
+		{
+			item: "gregtech:machine 1 1678"
+		},
+		{
+			item: "gregtech:machine 1 1679"
+		},
+		{
+			item: "gregtech:machine 1 1680"
+		},
+		{
+			item: "gregtech:machine 1 1681"
+		},
+		{
+			item: "gregtech:machine 1 1682"
+		},
+		{
+			item: "gregtech:machine 1 1683"
+		},
+		{
+			item: "gregtech:machine 1 1684"
+		},
+		{
+			item: "gregtech:machine 1 1685"
+		}]
+	}],
+	rewards: [{
+		uid: "bc5b0017",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 7s,
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 512,
+					DigSpeed: 4.0f,
+					AttackDamage: 1.0f,
+					Material: "plastic",
+					HarvestLevel: 1
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "01069a16",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

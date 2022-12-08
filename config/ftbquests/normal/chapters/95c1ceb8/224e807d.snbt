@@ -1,0 +1,50 @@
+{
+	x: 7.0d,
+	y: -12.0d,
+	text: [
+		"It is time to start §bSimulating Mobs§f!",
+		"",
+		"- The §bSimulation Chamber§f will be one to produce §aMatter§f and §6Pristine Matter§f.",
+		"",
+		"- §6Pristine Matter§f can be processed in a §eLoot Fabricator§f into More §2Mob Drops§f!",
+		"",
+		"- Depending of the §cMob§f, it will produce a different type of §aMatter§f. §aOverworldian§f, §4Hellish§f or §5Extraterrestrial§f."
+	],
+	dependencies: [
+		"bfca627a",
+		"1893323e"
+	],
+	size: 1.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "19d19287",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	},
+	{
+		uid: "8be94fa7",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "f9a7e733",
+		type: "item",
+		item: "harvestcraft:creepercookieitem",
+		count: 8
+	},
+	{
+		uid: "8ea4afb3",
+		type: "item",
+		item: "harvestcraft:creeperwingsitem",
+		count: 8
+	},
+	{
+		uid: "54fea0d3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

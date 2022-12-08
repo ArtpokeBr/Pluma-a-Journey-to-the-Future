@@ -1,0 +1,40 @@
+{
+	title: "Time to Automate Empowered Canola Oil §6Part III",
+	x: -6.0d,
+	y: -10.0d,
+	description: "Transforming Refined Canola Oil into Crystallized Oil",
+	text: [
+		"Remember those Canola Seeds that you're probally overproducing? Well, lets use them!",
+		"",
+		"- Simply use an Atomic Reconstructor to convert Canola Seeds into Crystallized Canola Seeds",
+		"",
+		"- Them, simply Drop them inside of a Pool of Refined Canola Oil... Or.... Use a Mixer!"
+	],
+	dependencies: [
+		"d53256d7"
+	],
+	tasks: [{
+		uid: "cfb62a22",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 23"
+		}]
+	},
+	{
+		uid: "8e0021ff",
+		type: "fluid",
+		fluid: "crystaloil"
+	}],
+	rewards: [{
+		uid: "2347df4a",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 23",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "dd9a352b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

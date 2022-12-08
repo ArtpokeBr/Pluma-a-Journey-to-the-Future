@@ -1,0 +1,92 @@
+{
+	title: "Fluid Drilling I",
+	icon: "gregtech:machine 1 1032",
+	x: -3.0d,
+	y: -6.0d,
+	description: "Lets collect some Salt Water!",
+	text: [
+		"With this §6Multiblock Structure§f, you'll be able to start collect §9Fluids§f from reservoirs beneath the Bedrock!",
+		"",
+		"- In this particular case, lets set it up in an §6Ocean Type Biome§f, it can be:",
+		"",
+		"▬ §9Normal Ocean§f",
+		"▬ §bFrozen Ocean§f",
+		"▬ §1Deep Ocean§f",
+		"",
+		"- By building in one of this §6Biomes§f, you'll be able to start collecting §3Salt Water§f! a key Fluid for automating §aSalt§f!",
+		"",
+		"- Also, remember that you can use an §aProspector§f to ensure that you're §eDrilling§f the correct §9Fluid§f, as §3Oil§f can also be found in these §2Biomes§f.",
+		"",
+		"~ Oh, don't try to §eOverclock§f this §6Multiblock§f too much, it can only be overclocked up to §6HV§f."
+	],
+	dependencies: [
+		"9b6e3684",
+		"fae83b9a"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "945768d1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1032"
+		}]
+	},
+	{
+		uid: "3fff7f02",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 7L
+	},
+	{
+		uid: "e1fc61d0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_20 1 4"
+		}],
+		count: 15L
+	},
+	{
+		uid: "9ff29c78",
+		type: "item",
+		title: "An MV or HV Energy Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1213"
+		},
+		{
+			item: "gregtech:machine 1 1212"
+		}]
+	},
+	{
+		uid: "c73445e7",
+		type: "item",
+		title: "An LV up to HV Fluid Output Hatch",
+		items: [{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		},
+		{
+			item: "gregtech:machine 1 1198"
+		}]
+	}],
+	rewards: [{
+		uid: "f0f304b7",
+		type: "item",
+		item: "extrautils2:drum 1 2"
+	},
+	{
+		uid: "88e82d81",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 4
+	},
+	{
+		uid: "8e33009a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

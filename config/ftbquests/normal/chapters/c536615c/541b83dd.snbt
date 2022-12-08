@@ -1,0 +1,66 @@
+{
+	title: "Clippings and Dropplets",
+	x: -0.5d,
+	y: -8.5d,
+	description: "Time to make Organic Dyes!",
+	text: [
+		"With your §6Simple Sagmill§f, you'll need to process some §8Ink Sacs§f and also some §2\"Plants\"§f",
+		"",
+		"- When making §2Clippings and Trimmings§f, Cacti are a really good source of it.",
+		"",
+		"- Don't worry, once you have a better Sag Mill, you'll be able to use §6Grinding Balls to increse the outputs of this recipes§f."
+	],
+	dependencies: [
+		"6f1b998b"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "13d8e4f5",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 46"
+		}],
+		count: 12L
+	},
+	{
+		uid: "ba8c6d3d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ink_dropplet"
+		}],
+		count: 2L
+	},
+	{
+		uid: "bafc85db",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 48"
+		}],
+		count: 4L
+	},
+	{
+		uid: "cf295a65",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 50"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "407bd563",
+		type: "item",
+		item: "minecraft:dye",
+		count: 8
+	},
+	{
+		uid: "7a04a3e1",
+		type: "item",
+		item: "minecraft:cactus",
+		count: 8
+	},
+	{
+		uid: "0a16de93",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

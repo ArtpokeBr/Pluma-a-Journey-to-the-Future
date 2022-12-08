@@ -1,0 +1,137 @@
+{
+	title: "A Special Solution for Ore Processing!",
+	x: 9.5d,
+	y: 2.5d,
+	description: "Time to start playing with the custom ore processing of this pack!",
+	text: [
+		"This §6Dwarven Solution§f will require more than §6Dwarven Oil§f, you'll need to start §2planting/automating§f §bMenril§f aswell.",
+		"",
+		"- By mixing an §2Ore with this Solution§f, you'll §aPurify the ore§f.",
+		"",
+		"- An §aPurified Ore§f can be §2processed§f inside of an §3Chemical Injection Chamber from Mekanism§f to get a §dShard§f of it.",
+		"",
+		"- With that §dShard§f, you'll be able to §acontinue§f with the §2Chain to obtain even more of it§f, but for now, you'll be able to §3enrich it§f into a §eCluster§f.",
+		"",
+		"- §eClusters§f can be §3macerated§f for §5Crushed Ores§f, and if you with, you can §2hook up an normal§f §bGregTech ore processing chain§f to get §c§lMORE RESOURCES!§f§r"
+	],
+	dependencies: [
+		"13e139c1"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "088f6215",
+		type: "fluid",
+		fluid: "dwarven_solution"
+	},
+	{
+		uid: "d3d200e3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreCopper"
+				}
+			}
+		}]
+	},
+	{
+		uid: "0f51b482",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any orePurifiedCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "orePurifiedCopper"
+				}
+			}
+		}]
+	},
+	{
+		uid: "4a202ccf",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreShardCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreShardCopper"
+				}
+			}
+		}]
+	},
+	{
+		uid: "cbd1e261",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreClusterCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreClusterCopper"
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "ef327255",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any crushedCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "crushedCopper"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "62e50b41",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 80s,
+			tag: {
+				Fluid: {
+					FluidName: "dwarven_solution",
+					Amount: 8000
+				}
+			}
+		}
+	},
+	{
+		uid: "0890aa3b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

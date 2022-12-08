@@ -1,0 +1,41 @@
+{
+	title: "Observating the Stars!",
+	x: -2.0d,
+	y: 1.5d,
+	description: "Time to Discover Constellations!",
+	text: [
+		"§3Astral Sorcery§f has an interesting mechanic related to §bConstellations§f!",
+		"",
+		"- §9Use this Device§f to spot bright starts in the sky and §ddraw the corresponding constellations§f!",
+		"",
+		"- §2As you progress§f, different constelations will be \"spotable\" in the §5night sky§f.",
+		"",
+		"- §aStart discovering them§f, as you'll need them for §battunement§f."
+	],
+	dependencies: [
+		"16059cea",
+		"4f7ed011"
+	],
+	tasks: [{
+		uid: "a23a0908",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "e6fcf329",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemilluminationwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	},
+	{
+		uid: "7ef5e3b4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

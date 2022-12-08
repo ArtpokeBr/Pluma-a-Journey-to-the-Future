@@ -1,0 +1,47 @@
+{
+	title: "Finally, A Crafting Table!",
+	x: 17.0d,
+	y: 0.0d,
+	description: "No need to hammer recipes anymore!",
+	text: [
+		"That's right! now that you finally have Treated Wood, you can make yourself a normal Crafting Table!",
+		"",
+		"- Also, if you use a Saw, you can convert it into a Crafting Station!"
+	],
+	dependencies: [
+		"67345fdc"
+	],
+	tasks: [{
+		uid: "f43b36af",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "cb76807e",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "jecalculation:item_calculator",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "0bce330c",
+		type: "gamestage",
+		team_reward: false,
+		auto: "invisible",
+		stage: "OutOfPrimal"
+	},
+	{
+		uid: "fff376d4",
+		type: "gamestage",
+		team_reward: false,
+		auto: "invisible",
+		stage: "WorktableJEI",
+		remove: true
+	}]
+}

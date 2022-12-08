@@ -1,0 +1,38 @@
+{
+    "weight": 50,
+    "density": 0.2,
+    "max_height": 70,
+    "min_height": 50,
+    "dimension_filter":
+    [
+      "dimension_id:10"
+    ],
+    "vein_populator": {
+      "type": "surface_rock",
+      "material": "calcite"
+    },
+    "generator": {
+      "type": "layered",
+      "radius": [
+        17,
+        24
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+          "primary": "ore:calcite"
+        },
+        {
+          "secondary": "ore:lignite_coal"
+        },
+        {
+          "between": "ore:fossil"
+        },
+        {
+          "sporadic": "ore:amber"
+        }
+      ]
+    }
+  }

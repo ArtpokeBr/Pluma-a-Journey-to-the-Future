@@ -1,0 +1,90 @@
+{
+	title: "An Fossil Ore Processing Plant",
+	icon: "gregtech:machine 1 32001",
+	x: -1.0d,
+	y: -3.0d,
+	description: "Time to get special resources out of Fossil Ores!",
+	text: [
+		"You're going to need a little bit of §3Modularium§f for this and a little bit more of resources, but it is worth it!",
+		"",
+		"- With this §6Multiblock§f you'll be able to extract many types of resources out of §aFossil Ores§f.",
+		"",
+		"- Also, keep in mind that this §bHatches§f and §bBuses§f are the §brecommended§f but §cnot the required ones to work§f, you can always have more space.",
+		"",
+		"~ Don't know how to get §3Modularium§f? There's a Quest for it in §6Chapter 7§f!"
+	],
+	dependencies: [
+		"e534879a"
+	],
+	min_width: 320,
+	tasks: [{
+		uid: "6825f005",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 32001"
+		}]
+	},
+	{
+		uid: "0ddc3cca",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		}]
+	},
+	{
+		uid: "12c3f136",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		}]
+	},
+	{
+		uid: "91226988",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1167"
+		}]
+	},
+	{
+		uid: "3b54ddda",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1212"
+		}]
+	},
+	{
+		uid: "97720f93",
+		type: "item",
+		items: [{
+			item: "contenttweaker:modular_casing"
+		}],
+		count: 28L
+	},
+	{
+		uid: "e5251a2d",
+		type: "item",
+		items: [{
+			item: "gregtech:transparent_casing"
+		}],
+		count: 9L
+	},
+	{
+		uid: "4351dbb8",
+		type: "item",
+		items: [{
+			item: "chisel:technical"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "f0094dbf",
+		type: "item",
+		item: "harvestcraft:friedfeastitem",
+		count: 4
+	},
+	{
+		uid: "de64291a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

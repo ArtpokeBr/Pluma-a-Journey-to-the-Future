@@ -1,0 +1,32 @@
+{
+	title: "LV Lathe",
+	x: 3.5d,
+	y: 3.5d,
+	description: "Producing Rods with EU!",
+	text: [
+		"Lathes are essential for crafting with Rods as they make the process really cheaper."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "8e5a057d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 440"
+		}]
+	}],
+	rewards: [{
+		uid: "fd2e2de5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "77aceba0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

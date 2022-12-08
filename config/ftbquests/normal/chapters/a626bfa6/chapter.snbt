@@ -1,0 +1,117 @@
+{
+	title: "Chapter 2: Steam is the Key",
+	icon: "gregtech:machine 1 1653",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 2.5d,
+		y: 5.5d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.5d,
+		y: 1.5d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.5d,
+		y: 2.5d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.5d,
+		y: 3.5d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.5d,
+		y: 4.5d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.5d,
+		y: 0.5d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: 2.5d,
+		width: 4.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 5.5d,
+		y: 3.5d,
+		width: 4.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 3.5d,
+		y: -0.5d,
+		width: 1.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/verticalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 3.5d,
+		y: 6.5d,
+		width: 1.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/verticalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

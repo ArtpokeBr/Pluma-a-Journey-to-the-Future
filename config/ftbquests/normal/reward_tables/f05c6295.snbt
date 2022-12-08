@@ -1,0 +1,12 @@
+{
+	title: "Choose a Blood Infuser Upgrade!",
+	loot_size: 1,
+	rewards: [{
+		item: "evilcraft:promise 1 4",
+		count: 2
+	},
+	{
+		item: "evilcraft:promise 1 3",
+		count: 2
+	}]
+}

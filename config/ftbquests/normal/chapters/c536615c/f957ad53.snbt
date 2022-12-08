@@ -1,0 +1,26 @@
+{
+	x: -3.5d,
+	y: -4.5d,
+	description: "{pluma.actspedupg.subtitle}",
+	text: [
+		"{pluma.actspedupg.desc1}",
+		"",
+		"{pluma.actspedupg.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "cfaa3f5c",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_action_speed"
+		}]
+	}],
+	rewards: [{
+		uid: "c61fb9f9",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

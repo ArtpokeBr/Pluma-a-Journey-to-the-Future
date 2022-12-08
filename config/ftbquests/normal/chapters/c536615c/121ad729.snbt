@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: -3.5d,
+	description: "{pluma.logchass3.subtitle}",
+	text: [
+		"{pluma.logchass3.desc}"
+	],
+	dependencies: [
+		"02ccc05f"
+	],
+	tasks: [{
+		uid: "1046710d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_chassis_mk3"
+		}]
+	}],
+	rewards: [{
+		uid: "377f2ad7",
+		type: "item",
+		item: "logisticspipes:pipe_chassis_mk3",
+		count: 2
+	},
+	{
+		uid: "cc543e26",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

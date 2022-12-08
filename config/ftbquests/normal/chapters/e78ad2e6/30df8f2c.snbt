@@ -1,0 +1,34 @@
+{
+	title: "Honey-Steel!",
+	x: 8.5d,
+	y: -3.5d,
+	shape: "rsquare",
+	description: "A Reinforced Type of Steel made out of Bee's!",
+	text: [
+		"With you recent Honey-Comb ingots, mix them with some Steel and lets start producing Honey-Steel!",
+		"",
+		"- Honey-Steel is an Essential resource for Gendustry."
+	],
+	dependencies: [
+		"b6f3208b"
+	],
+	tasks: [{
+		uid: "b58a3e3c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32019"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "bc2daa6b",
+		type: "item",
+		item: "harvestcraft:taiyakiitem",
+		count: 4
+	},
+	{
+		uid: "550ed8a9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

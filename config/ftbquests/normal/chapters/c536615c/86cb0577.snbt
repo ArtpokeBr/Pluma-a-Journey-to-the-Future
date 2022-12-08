@@ -1,0 +1,31 @@
+{
+	x: 2.0d,
+	y: 1.5d,
+	description: "{pluma.enchsink.subtitle}",
+	text: [
+		"{pluma.enchsink.desc1}",
+		"",
+		"{pluma.enchsink.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "de63e7ca",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_enchantment_sink"
+		}]
+	}],
+	rewards: [{
+		uid: "6b9dd11a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "742842a5",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

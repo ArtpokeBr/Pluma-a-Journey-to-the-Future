@@ -1,0 +1,37 @@
+{
+	title: "An Industrial Type of Leather!",
+	x: -0.5d,
+	y: -16.0d,
+	description: "Time to make a very processed type of Leather!",
+	text: [
+		"By §6mixing§f some different types of §eLeather§f, §3Calcium§f and §bPolyethylene§f, §6Industrial Leather§f!",
+		"",
+		"- If you didn't automate §bPolyethylene§f yet, you should progress trough the §eMV Electrolyzer§f and also the §eMV Centrifugue§f Questlines.",
+		"",
+		"~ §6Industrial Leather§f will be the key to unlock a §avery special item soon§f."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5c43a2ea",
+		"6af8a25e"
+	],
+	tasks: [{
+		uid: "a1917b84",
+		type: "item",
+		items: [{
+			item: "contenttweaker:industrial_leather"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d274f2fb",
+		type: "item",
+		item: "contenttweaker:industrial_leather",
+		random_bonus: 3
+	},
+	{
+		uid: "1d243d84",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Generating EU for the First Time!",
+	icon: "gregtech:machine 1 950",
+	x: -1.5d,
+	y: 5.5d,
+	description: "Time to really get into Machines!",
+	text: [
+		"Remember your Steam Production? Well, now it is time to hook it to this guy!",
+		"",
+		"- This Turbine will burn Steam and generate 32 EU/t for that. 1 Amp per Turbine. (the output is the dot)",
+		"",
+		"- And Hey, also make some Conductive Iron! As it is the Best Material for LV Wires.",
+		"",
+		"- In the Next Quest you'll learn how to use GTCEu Electricity System, dont worry."
+	],
+	dependencies: [
+		"ffc88aa1",
+		"8324a27b",
+		"142ce383"
+	],
+	tasks: [{
+		uid: "74941434",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 950"
+		}]
+	},
+	{
+		uid: "83087fe9",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotConductiveIron"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotConductiveIron"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b94697d1",
+		type: "item",
+		item: "gregtech:cable_single 1 32004",
+		count: 8
+	},
+	{
+		uid: "0a4c11a8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

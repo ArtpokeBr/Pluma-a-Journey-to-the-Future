@@ -1,0 +1,47 @@
+{
+	title: "§aA Twilight Crystal§f",
+	x: 13.5d,
+	y: -1.5d,
+	description: "The Peak of Alchemy!",
+	text: [
+		"With your §bAlchemically Imbued Nautilus§f and your brand new §6Dwarven Alchemy setup§f, time to really use it!",
+		"",
+		"- You'll a lot of §2materials§f, but it will be §erewarding§f, as you'll get the §aTwilight Crystal§f!",
+		"",
+		"- The §aTwilight Crystall§f will be your Key to the §3Twilight Forest§f! §5The Next Dimension§f of this Pack.",
+		"",
+		"- You know how to get into the §3Twilight Forest§f right? simply make a §92x2 Water Pool§f and surround it with §adirt/grass blocks§f with §eflowers§f on them.",
+		"",
+		"- After doing that, simply §bdrop the Crystall§f in order to §aopen the passage§f! don't try this at the Overworld tho, as you'll need §6The Dwarven Magic§f that can only be found in §5The Beneath§f.",
+		"",
+		"§8§o(The§r§f§3§o Twilight Forest§r§f §8§ois also the key for§r§f §b§oBotania)§r§f!"
+	],
+	dependencies: [
+		"6fbac706",
+		"723d4b1b"
+	],
+	size: 1.5d,
+	min_width: 260,
+	tasks: [{
+		uid: "16885e3a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:twilight_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "af9090dd",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "7ba315d2",
+		type: "item",
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "fierymetal"
+			}
+		}
+	}]
+}

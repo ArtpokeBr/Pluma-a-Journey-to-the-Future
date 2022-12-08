@@ -1,0 +1,45 @@
+{
+	title: "A Hostile and Dark Dimension",
+	x: 8.0d,
+	y: -12.0d,
+	description: "The Beneath!",
+	text: [
+		"This §6Dimension§f is the next one that you're going to visit in order to §6progress§f in this Pack.",
+		"",
+		"- There you'll find some known §3Ore Veins§f, but there are some §3exclusive§f ones.",
+		"",
+		"- Also, it is known that this Dimensions has some concentration of §7Natural Gas§f.",
+		"",
+		"- And Bring §eTorches§f! Darkness will §4kill you§f."
+	],
+	dependencies: [
+		"eb249210"
+	],
+	size: 2.0d,
+	min_width: 260,
+	tasks: [{
+		uid: "4928788b",
+		type: "item",
+		items: [{
+			item: "beneath:teleporterbeneath"
+		}]
+	}],
+	rewards: [{
+		uid: "8200fed7",
+		type: "item",
+		item: "tconstruct:stone_torch",
+		count: 64
+	},
+	{
+		uid: "0b3feaf4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "53e91dce",
+		type: "gamestage",
+		team_reward: false,
+		auto: "invisible",
+		stage: "BeneathDimensionUnlock"
+	}]
+}

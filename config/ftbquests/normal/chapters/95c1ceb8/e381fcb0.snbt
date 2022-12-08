@@ -1,0 +1,97 @@
+{
+	title: "Lets Automate Platinum §6Part III§f",
+	x: 2.5d,
+	y: -10.5d,
+	description: "Obtaining a bunch of Byproducts!",
+	text: [
+		"Now, lets simply §6Centrifuge§f the §5Sludgy Dust§f with the §6Aqua Regia§f you've made!",
+		"",
+		"- §2The Results§f will be §bInteresting§f:",
+		"",
+		"- §bRaw Platinum Powder§f will be turned into §bPlatinum§f ",
+		"§8§o(your main objective right now).§r§f",
+		"",
+		"- §eRaw Palladium Powder§f will be turned into §ePalladium§f",
+		" §8§o(Store it, you'll use it eventually).§r§f",
+		"",
+		"- §3Inert Metal Mixture§f will be turned into §3Ruthenium§f",
+		" §8§o(Store it, you'll use it eventualy).§r§f",
+		"",
+		"- §aRarest Metal Mixture§f will be turned into §aIridium§f",
+		"§8§o(store it, as you'll use it eventually aswell).§r§f",
+		"",
+		"- §dPlatinum Sludge Residue§f is the only exeption, §6centrifuge it§f to get some §2extra materials§f such as §eGold§f.",
+		"",
+		"§8§o~ In the end, a this chemical process is very important since it will give you acess to very desirable dusts.",
+		"",
+		"currently you'll not be able to process most of them, but trust me in this one.§r§f"
+	],
+	dependencies: [
+		"6f750fbe"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6c8a0847",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 299"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e9d7795c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2058"
+		}],
+		count: 3L
+	},
+	{
+		uid: "ebb172af",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 433"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7f5e7dd7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2059"
+		}]
+	},
+	{
+		uid: "7ce4c0e0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2057"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4d7cf0ea",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 92s,
+			tag: {
+				Fluid: {
+					FluidName: "propane",
+					Amount: 1000
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "0d331f46",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

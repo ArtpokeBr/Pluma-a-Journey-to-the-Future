@@ -1,0 +1,48 @@
+{
+	title: "A Circuit Board",
+	icon: "gregtech:meta_item_1 1 401",
+	x: -3.0d,
+	y: 4.0d,
+	description: "Circuit Materials II",
+	text: [
+		"Circuit Boards and also pretty much all Circuit Materials will change and improve over time.",
+		"",
+		"- Currently, you'll need this Basic one made out of Sticky Resin and Wood Planks."
+	],
+	dependencies: [
+		"20870189"
+	],
+	tasks: [{
+		uid: "6e677fc1",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 25"
+		}],
+		count: 8L
+	},
+	{
+		uid: "00055be8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 381"
+		}]
+	},
+	{
+		uid: "7d04c776",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 401"
+		}]
+	}],
+	rewards: [{
+		uid: "c0bfa649",
+		type: "item",
+		item: "gregtech:meta_item_1 1 401",
+		count: 3
+	},
+	{
+		uid: "160dc335",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

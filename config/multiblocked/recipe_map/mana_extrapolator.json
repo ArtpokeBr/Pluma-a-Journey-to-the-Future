@@ -1,0 +1,68 @@
+{
+  "name": "mana_extrapolator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "2d0d0948-1bfe-432a-a2f9-f534e7a4418a",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,tag:{Configuration:0},Damage:461s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquid_mana\",Amount:100}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ef828c29-badd-4850-9b03-9729c2e63f25",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,tag:{Configuration:1},Damage:461s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquid_mana\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ]
+      }
+    }
+  ]
+}

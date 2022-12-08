@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	description: "§aTier 1§f §6LV Circuit§f",
+	text: [
+		""
+	],
+	dependencies: [
+		"2aeef3a9"
+	],
+	tasks: [{
+		uid: "038b46ab",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 623"
+		}]
+	}]
+}

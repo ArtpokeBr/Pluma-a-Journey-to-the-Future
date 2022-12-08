@@ -1,0 +1,49 @@
+{
+	title: "A Special Type of Processor's!",
+	x: -2.0d,
+	y: 0.0d,
+	description: "AE2 Processor's!",
+	text: [
+		"Also by using a §6Cleanroom§f, §3AE2 Processor's§f! they're §every important§f for the §aRecipes of this Mod§f.",
+		"",
+		"- Consider §bPassive Automation§f for them in the §dFuture§f.",
+		"",
+		"§8§o~ Also, in this pack there are A LOT of different types of Processor's, but this ones are the basic ones.§r§f"
+	],
+	dependencies: [
+		"597da915"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "06d1c540",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 24"
+		}]
+	},
+	{
+		uid: "32f9c623",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 22"
+		}]
+	},
+	{
+		uid: "5acd178c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 23"
+		}]
+	}],
+	rewards: [{
+		uid: "2395b31c",
+		type: "item",
+		item: "gregtech:machine 1 562",
+		random_bonus: 1
+	},
+	{
+		uid: "a59ff366",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

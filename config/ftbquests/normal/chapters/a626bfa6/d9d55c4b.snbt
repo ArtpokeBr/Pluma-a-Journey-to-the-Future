@@ -1,0 +1,34 @@
+{
+	title: "Finally Ore Doubling?",
+	x: -1.5d,
+	y: -3.0d,
+	description: "A Steam Macerator!",
+	text: [
+		"I don't recommend you to try to set up an very compex Ore Processing System right now, but technically yes.",
+		"",
+		"- With a Steam Macerator you'll be able to somewhat process some ores but most importantly, make dusts out of materials!",
+		"",
+		"- This Steam Macerator will require Steam to operate and it will only process ULV and LV level Recipes."
+	],
+	dependencies: [
+		"e59a6abe"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d56f0447",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "7e3c0e03",
+		type: "item",
+		item: "harvestcraft:applepieitem"
+	},
+	{
+		uid: "d5060b1d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "A Primitive Automatic Compactor",
+	x: 14.5d,
+	y: -3.5d,
+	description: "Cogs are Fun!",
+	text: [
+		"Simply provide a Cog that will determine its velocity and such and voilá! you'll be able to automaticaly compact stuff."
+	],
+	dependencies: [
+		"df224012"
+	],
+	tasks: [{
+		uid: "7bd0a204",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_compacting_bin"
+		}]
+	}],
+	rewards: [{
+		uid: "2ca3af86",
+		type: "item",
+		item: {
+			id: "pyrotech:cog_diamond",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "b401e17d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

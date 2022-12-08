@@ -1,0 +1,47 @@
+{
+	title: "A Forge from Hell!",
+	x: 13.0d,
+	y: -2.0d,
+	description: "The Hellfire Forge",
+	text: [
+		"Another Important §e\"Machine\"§f from §cBlood Magic§f!",
+		"",
+		"- In order for it to §eWork§f, you'll need §bWill§f! make sure to §acollect some§f.",
+		"",
+		"- After having §bEnough Will§f, simply §2input the needed Item's§f and Voilá!",
+		"",
+		"§8§o~ Soon you'll unlock a way to fully Automate will.§r§f",
+		"",
+		"§8§o~ Also, maybe it is a good idea to start automating it, as you'll use more and more Reagents over time.§r§f"
+	],
+	dependencies: [
+		"50807baf",
+		"c696d89d"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "43c3aea3",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "fcaa7fac",
+		type: "item",
+		item: "bloodmagic:blood_rune",
+		count: 8
+	},
+	{
+		uid: "22d8f8ff",
+		type: "item",
+		item: "tconevo:metal 1 25",
+		count: 4
+	},
+	{
+		uid: "5ecd9cf7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

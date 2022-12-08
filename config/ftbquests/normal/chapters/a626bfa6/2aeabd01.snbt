@@ -1,0 +1,46 @@
+{
+	title: "LV Bending Machine",
+	x: 3.5d,
+	y: 0.5d,
+	description: "Bending Metals with EU!",
+	text: [
+		"That's right! it is finally time to properly make plates!",
+		"",
+		"- Make a Programmed Circuit and set it to the respective number that you desire.",
+		"",
+		"- Each number will represent a type of operation, Plates, Foils or even Small Coils"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "546eeb38",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 140"
+		}]
+	}],
+	rewards: [{
+		uid: "1b564447",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621"
+	},
+	{
+		uid: "0146dd7e",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 461s,
+			tag: {
+				Configuration: 1
+			}
+		}
+	},
+	{
+		uid: "f4541f2a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

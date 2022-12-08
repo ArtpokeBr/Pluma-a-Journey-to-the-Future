@@ -1,0 +1,61 @@
+{
+	title: "Time to Hunt Ghasts!",
+	icon: {
+		id: "minecraft:skull",
+		Damage: 3s,
+		tag: {
+			SkullOwner: {
+				Id: "807f287f-6499-4e93-a887-0a298ab3091f",
+				Properties: {
+					textures: [{
+						Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19"
+					}]
+				}
+			},
+			display: {
+				Name: "Ghast"
+			}
+		}
+	},
+	x: 7.5d,
+	y: -2.0d,
+	description: "Now that you have an Incredible Bow, lets hunt some Ghasts!",
+	text: [
+		"By killing ghasts, becarefull with them tho, you'll have the chance to obtain its Bladder!",
+		"",
+		"- The Ghast Bladder is an Important Drop for crafting."
+	],
+	dependencies: [
+		"f2026ad7"
+	],
+	tasks: [{
+		uid: "8c9b7587",
+		type: "kill",
+		icon: {
+			id: "minecraft:iron_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		entity: "minecraft:ghast",
+		value: 1L
+	},
+	{
+		uid: "65dd385a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ghasbladder"
+		}]
+	}],
+	rewards: [{
+		uid: "2613da6c",
+		type: "item",
+		item: "minecraft:ghast_tear",
+		random_bonus: 4
+	},
+	{
+		uid: "bfcb68ac",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

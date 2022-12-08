@@ -1,0 +1,50 @@
+{
+	title: "An Vibrant Alloy",
+	x: 6.0d,
+	y: -0.5d,
+	description: "Time to upgrade your Ender IO Infrastructure!",
+	text: [
+		"By mixing §6Energetic Alloy§f, §2Terrastone§f and an §3Ender Pearl§f... §aVibrant Alloy§f!",
+		"",
+		"- Keep in mind that you'll need §cEmpowered Oil§f and §5Kanthal Coils§f installed in your §6Blast Furnace§f + some §eHV Energy§f.",
+		"",
+		"- This Material will give you acess to §9improved conduits§f and §3EnderIO utilities§f in general.",
+		"",
+		"~ Oh, §6Always look at JEI§f, since you've probally have acess to an better way to make §2Terrastone Ingots§f."
+	],
+	dependencies: [
+		"63ca77f4"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "97cc5af9",
+		type: "item",
+		title: "Vibrant Alloy Ingot",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotVibrantAlloy"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotVibrantAlloy"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "92429272",
+		type: "item",
+		item: "gregtech:meta_ingot 1 32017",
+		count: 8
+	},
+	{
+		uid: "4692cf5d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

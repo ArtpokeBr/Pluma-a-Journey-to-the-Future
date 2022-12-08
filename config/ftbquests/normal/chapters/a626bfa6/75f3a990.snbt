@@ -1,0 +1,99 @@
+{
+	title: "The Gold Processing Line §6Part II.V§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hydrochloric_acid",
+			Amount: 1000
+		}
+	},
+	x: 10.0d,
+	y: 3.5d,
+	description: "Making Hydrochloric Acid",
+	text: [
+		"§3Hydrochloric Acid§f is also a §avery important§f §6Chemical§f for the §e§nGold Processing line§r§f.",
+		"",
+		"- Unfortunatly §3Chlorine§f isn't §arenewable§f currently, but it will be once you've start collecting §9Salt Water§f from §9Oceans§f in §5Chapter 7§f.",
+		"",
+		"- For now, §6Electrolyze§f some §aSalt or Rock Salt§f to get §3Chlorine§f, and also use another §6Eletrolyzer§f to get §9Hydrogen§f from §9Water§f.",
+		"",
+		"- Then §6Chemically React§f them into §3Hydrochloric Acid§f! ",
+		"",
+		"§8§o(This Gold Processing Line can look a bit scary since you've just started playing with machines, but trust me, it is worth it!)§r§f"
+	],
+	dependencies: [
+		"2f37e0ea"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "67597485",
+		type: "item",
+		title: "Salt or Rock Salt Dust",
+		items: [{
+			item: "gregtech:meta_dust 1 312"
+		},
+		{
+			item: "gregtech:meta_dust 1 309"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c10712fe",
+		type: "fluid",
+		fluid: "chlorine"
+	},
+	{
+		uid: "864638b7",
+		type: "item",
+		title: "An LV to HV Electrolyzer",
+		items: [{
+			item: "gregtech:machine 1 275"
+		},
+		{
+			item: "gregtech:machine 1 276"
+		},
+		{
+			item: "gregtech:machine 1 277"
+		}]
+	},
+	{
+		uid: "6b5e84bf",
+		type: "fluid",
+		fluid: "hydrogen"
+	},
+	{
+		uid: "6772545f",
+		type: "item",
+		title: "An LV to HV Chemical Reactor",
+		items: [{
+			item: "gregtech:machine 1 215"
+		},
+		{
+			item: "gregtech:machine 1 216"
+		},
+		{
+			item: "gregtech:machine 1 217"
+		}]
+	},
+	{
+		uid: "d757643e",
+		type: "fluid",
+		fluid: "hydrochloric_acid"
+	}],
+	rewards: [{
+		uid: "afbc59ff",
+		type: "item",
+		item: "gregtech:machine 1 275"
+	},
+	{
+		uid: "e62efdc4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 4
+	},
+	{
+		uid: "1504ad33",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

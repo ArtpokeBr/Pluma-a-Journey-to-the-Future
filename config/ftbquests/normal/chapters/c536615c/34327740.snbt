@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	description: "{pluma.logpipecont.subtitle}",
+	text: [
+		"{pluma.logpipecont.desc}"
+	],
+	dependencies: [
+		"ba9953a3"
+	],
+	tasks: [{
+		uid: "1016933d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "33ab5373",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

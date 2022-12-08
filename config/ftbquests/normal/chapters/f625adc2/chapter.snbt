@@ -1,0 +1,7 @@
+{
+	title: "1. Where all the White Magic Begins",
+	icon: "botania:fertilizer",
+	always_invisible: false,
+	group: 1060121166,
+	default_quest_shape: ""
+}

@@ -1,0 +1,39 @@
+{
+	title: "Prospecting for Ores!",
+	x: 3.5d,
+	y: 8.0d,
+	description: "Finding ores easily!",
+	text: [
+		"§3The Prospector§f is very self explanatory, you'll be able to §2Prospect Chunks around you§f!",
+		"",
+		"- Simply §6Right Click§f with reveal all the §eores§f that are around you in a specific §a3 chunk radius§f.",
+		"",
+		"- Unfortunatly, you'll not be able to reveal §9Fluid Veins§f with this §3Device§f, wait until §6HV§f."
+	],
+	dependencies: [
+		"ebe548c1"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "2a4d31e4",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 466s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad8cdd67",
+		type: "item",
+		item: "gregtech:machine 1 1316"
+	},
+	{
+		uid: "30a1186e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

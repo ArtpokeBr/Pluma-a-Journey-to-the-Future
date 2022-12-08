@@ -1,0 +1,32 @@
+{
+	title: "Making Flint Shards!",
+	x: 5.5d,
+	y: -0.5d,
+	description: "Want Flint Tools? You'll Shards for them!",
+	text: [
+		"Now that you have a Granite Anvil, you'll be finally able to make Flint Tools, wich are much better than Crude!",
+		"",
+		"- Simply use a Flint and hit it with your Pickaxe in the Anvil to obtain Shards!"
+	],
+	dependencies: [
+		"6aa61e3b"
+	],
+	tasks: [{
+		uid: "3ab630a0",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "2a2082ac",
+		type: "item",
+		item: "pyrotech:material 1 10",
+		count: 9
+	},
+	{
+		uid: "40f81294",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

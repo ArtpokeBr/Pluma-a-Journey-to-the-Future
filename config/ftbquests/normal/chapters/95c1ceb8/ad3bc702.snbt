@@ -1,0 +1,53 @@
+{
+	title: "Lets automate Growth Medium §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "gelatin_mixture",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 6.0d,
+	y: -5.5d,
+	description: "Lets Make a Gelating Mixture!",
+	text: [
+		"Wait what? §3Gelatin§f? yup, we are automating §eFood§f now!",
+		"",
+		"- Jokes apart we are going to start playing with a little bit of §2Biology§f for the next few quests.",
+		"",
+		"- Start by making some §3Gelatin§f and them §6Centrifuge§f it to get its §3dust§f.",
+		"",
+		"- Also, don't know how to get §cCollagen§f? you already have acess to §eSulfuric Acid§f, simply hook that up with a §cMeat farm§f."
+	],
+	dependencies: [
+		"adbdc444"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "7e581f10",
+		type: "fluid",
+		fluid: "gelatin_mixture"
+	},
+	{
+		uid: "b143449a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1607"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f2785edf",
+		type: "item",
+		item: "gregtech:meta_dust 1 1607",
+		count: 8
+	},
+	{
+		uid: "9e7c49a8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

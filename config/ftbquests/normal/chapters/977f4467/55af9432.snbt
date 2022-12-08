@@ -1,0 +1,65 @@
+{
+	title: "Special Types of Ores",
+	icon: "gregtech:ore_vinteum_0",
+	x: -2.0d,
+	y: 1.5d,
+	description: "Time to find some Ore Veins!",
+	text: [
+		"This vein will be essential for the §5§nDark Magic Progression§r§f! collect some of its ores.",
+		"",
+		"▬ §5Dark Ore§f will grant you acess to §5Dark Gems§f, they'll be used to start in §4EvilCraft§f.",
+		"§8§o(Found in an Entropy Infused Vein)§r§f",
+		"",
+		"▬ §bVinteum§f is required for §aEnder Eyes§f, and it will be a key §3Magical Gem Material§f.",
+		"§8§o(Found in an Aqua Infused Vein)§r§f",
+		"",
+		"▬ §3Coralium§f will grant you acess to §3Coralium Gems§f, they'll be used to start in §2AbyssalCraft§f.",
+		"§8§o(Found in an Terra Infused Vein)§r§f",
+		"",
+		"▬ §eTrona§f is a §eversatile ore§f, it can give you acess to §9usefull materials once you electrolyze it§f.",
+		"§8§o(Found in an Terra Infused Vein)§r§f"
+	],
+	dependencies: [
+		"ae4cf14f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "4f63d8b1",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_ore"
+		}]
+	},
+	{
+		uid: "aa0bfc4a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_vinteum_0"
+		}]
+	},
+	{
+		uid: "5c66e031",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:coraliumore"
+		}]
+	},
+	{
+		uid: "704fe141",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_trona_0"
+		}]
+	}],
+	rewards: [{
+		uid: "f4940681",
+		type: "item",
+		item: "harvestcraft:deviledeggitem",
+		count: 13
+	},
+	{
+		uid: "dae879d3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

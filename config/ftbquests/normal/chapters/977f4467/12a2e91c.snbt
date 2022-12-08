@@ -1,0 +1,146 @@
+{
+	title: "A Thaumic Advance",
+	icon: "thaumcraft:crystal_aqua",
+	x: -2.0d,
+	y: -3.5d,
+	description: "What are those strange crystal's?",
+	text: [
+		"In the §3Twilight Forest§f you'll notice that many different types of §dMagic§f are present.",
+		"",
+		"And one of them is the §5Thaumaturgy§f! ",
+		"",
+		"- Collect some §6Infused Ore's§f.",
+		"",
+		"- Use a §bPure Daisy§f to start §2converting§f them into §6Crystal's§f.",
+		"§8§o(You might need to finish Twilight's Progression first)§r§f",
+		"",
+		"- Once you finish this up, write down your notes and lets begin our §6Thaumic Journey§f!"
+	],
+	dependencies: [
+		"ae4cf14f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "4e85c283",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreAerInfused"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreAerInfused"
+				}
+			}
+		}]
+	},
+	{
+		uid: "d30b6c13",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreAquaInfused"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreAquaInfused"
+				}
+			}
+		}]
+	},
+	{
+		uid: "90b32242",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreEntropyInfused"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreEntropyInfused"
+				}
+			}
+		}]
+	},
+	{
+		uid: "4d20a00f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreIgnisInfused"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreIgnisInfused"
+				}
+			}
+		}]
+	},
+	{
+		uid: "a4b92eb3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreOrdoInfused"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreOrdoInfused"
+				}
+			}
+		}]
+	},
+	{
+		uid: "a0ac14e7",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreTerraInfused"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreTerraInfused"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3656f2f2",
+		type: "item",
+		item: {
+			id: "thaumadditions:crystal_bag",
+			tag: {
+				Aspects: []
+			}
+		}
+	},
+	{
+		uid: "18572d7a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Sleeping like the Ancestrals",
+	x: 3.5d,
+	y: 0.5d,
+	description: "Sleeping on a Tipi!",
+	text: [
+		"Finally an \"Infinite\" way to sleep trough nights.",
+		"",
+		"- Remember that you need Shears to obtain the Wool for this."
+	],
+	dependencies: [
+		"ae6f233c"
+	],
+	tasks: [{
+		uid: "d549096e",
+		type: "item",
+		items: [{
+			id: "totemic:tipi",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da5c3857",
+		type: "item",
+		item: "quark:arrow_torch",
+		count: 16
+	},
+	{
+		uid: "f1774f1c",
+		type: "item",
+		team_reward: false,
+		item: "minecraft:pumpkin_pie"
+	}]
+}

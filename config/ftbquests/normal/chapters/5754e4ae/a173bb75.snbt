@@ -1,0 +1,15 @@
+{
+	x: 3.5d,
+	y: 6.0d,
+	description: "§aTier 0§f §6UV Circuit§f",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "87ceaf48",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 643"
+		}]
+	}]
+}

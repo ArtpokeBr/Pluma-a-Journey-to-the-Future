@@ -1,0 +1,53 @@
+{
+	title: "A Botanical Circuit §6Part I§f",
+	x: -1.0d,
+	y: -1.0d,
+	description: "Lets make a Livingwood Circuit Board!",
+	text: [
+		"Just like a normal §3GT§f Circuit Board, §bBotania§f has a §aType of Circuit§f too!",
+		"",
+		"- §6First§f, Use some §9Phthalic Acid§f with some §ePlastic§f and a §2Livingwood§f to make the §6Board itself§f.",
+		"",
+		"- §6Second§f, §bReact it§f with another §9Chemical§f and some §eDawnstone Foils§f to prepare the §6Circuitry of it§f.",
+		"",
+		"§8§o~ Maybe it is a good idea to automate this process, since you're already using this chemicals for other processes aswell.§r§f"
+	],
+	dependencies: [
+		"72d51beb"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6115384b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:livingwood_board"
+		}]
+	},
+	{
+		uid: "ecc8c0fa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:livingwood_circuit_board"
+		}]
+	}],
+	rewards: [{
+		uid: "06f40f6e",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 85s,
+			tag: {
+				Fluid: {
+					FluidName: "phthalic_acid",
+					Amount: 1000
+				}
+			}
+		},
+		random_bonus: 7
+	},
+	{
+		uid: "01d1c20c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

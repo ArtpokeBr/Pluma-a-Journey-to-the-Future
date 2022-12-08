@@ -1,0 +1,49 @@
+{
+	title: "Resonating!",
+	icon: "extrautils2:resonator",
+	x: 9.0d,
+	y: 5.0d,
+	description: "Time to make a Resonator!",
+	text: [
+		"The &6Resonator&f will be your first machine to get into &3Extra Utilities&f.",
+		"",
+		"- Some very usefull and &2key for automation blocks/items&f will &5soon enough be available&f.",
+		"",
+		"- But in order to start using your &6Resonator&f, you'll need &eGrid Power&f!",
+		"",
+		"- &eGP&f is an type of energy added by &3Extra Utilities&f that is basically onipresent.",
+		"",
+		"- Once you place an &eGP Generator&f, it will generate &eGP&f for all the blocks that require it. &cno matter where they are&f.",
+		"",
+		"- Your first &eGP Generator&f will be the &6Manual Mill&f.... not a very good one, but it is something!"
+	],
+	dependencies: [
+		"f580c215"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "93c8885a",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	},
+	{
+		uid: "0575c3fd",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "574cc93c",
+		type: "item",
+		item: "extrautils2:decorativesolid 1 3",
+		count: 16
+	},
+	{
+		uid: "cca989ab",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

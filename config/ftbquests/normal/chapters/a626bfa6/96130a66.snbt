@@ -1,0 +1,82 @@
+{
+	title: "The Gold Processing Line §6Part I§f",
+	icon: "gregtech:machine 1 530",
+	x: 9.0d,
+	y: 5.5d,
+	description: "Collecting Chemicals from the Atmosphere!",
+	text: [
+		"Want to get a lot more §eGold§f out of your §6Precious Metal Ores§f? Consider making a §e§nGold Processing Line§r§f!",
+		"",
+		"- It will be §brelevant for a while§f, since you can easily get more §eGold§f with it than normally and also, some §a§nmaterials are renewable§f in this line.",
+		"",
+		"- But for this §2current step§f, make sure to set up your §6Gas Collector§f, it will allow you to collect §3Air§f.",
+		"",
+		"- §3Air§f can then be §6centrifuged§f into §bNitrogen§f and §3Oxygen§f.",
+		"",
+		"- §b§nNitrogen and Oxygen are essential§f§f for this §eprocessing line§f."
+	],
+	dependencies: [
+		"885dc2fa"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "92825a21",
+		type: "item",
+		title: "A LV to HV Gas Collector",
+		items: [{
+			item: "gregtech:machine 1 530"
+		},
+		{
+			item: "gregtech:machine 1 531"
+		},
+		{
+			item: "gregtech:machine 1 532"
+		}]
+	},
+	{
+		uid: "daec74f3",
+		type: "item",
+		title: "A LV to HV Centrifuge",
+		items: [{
+			item: "gregtech:machine 1 185"
+		},
+		{
+			item: "gregtech:machine 1 186"
+		},
+		{
+			item: "gregtech:machine 1 187"
+		}]
+	},
+	{
+		uid: "9094fb15",
+		type: "fluid",
+		fluid: "nitrogen"
+	},
+	{
+		uid: "039cfd40",
+		type: "fluid",
+		fluid: "oxygen"
+	}],
+	rewards: [{
+		uid: "b2bcb6b5",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 461s,
+			tag: {
+				Configuration: 1
+			}
+		}
+	},
+	{
+		uid: "14766add",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 4
+	},
+	{
+		uid: "09ae570c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

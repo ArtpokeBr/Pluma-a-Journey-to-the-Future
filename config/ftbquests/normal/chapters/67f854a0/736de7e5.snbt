@@ -1,0 +1,33 @@
+{
+	title: "Time to get Thermical!",
+	x: 0.5d,
+	y: 3.5d,
+	description: "Enhancing your Chassis one more time!",
+	text: [
+		"By mixing §9Blue Steel§f and some §bEnergetic Silver§f, A §6Thermical Silver Chassis§f!",
+		"",
+		"- This will be your §eKey§f to get into §3Thermal Expansion's Machines§f!",
+		"",
+		"§8§o~ Thermal Expansion fits a special role in this pack, its machines could prove to be very usefull in certain tasks.§r§f"
+	],
+	dependencies: [
+		"951e31d6"
+	],
+	tasks: [{
+		uid: "6f513808",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "8237307e",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 35"
+	},
+	{
+		uid: "702ff467",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

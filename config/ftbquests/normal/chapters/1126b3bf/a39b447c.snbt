@@ -1,0 +1,48 @@
+{
+	title: "An Upgraded Empowerer!",
+	icon: "extendedcrafting:crafting_core",
+	x: 10.5d,
+	y: -6.0d,
+	description: "The Crafting Core!",
+	text: [
+		"§aVery Simple§f, just like an §6Empowerer§f from §3Actually Additions§f, but inverted!",
+		"",
+		"- §dSupply§f the correct §2item's§f to all §6pedestals§f, then place the §bcatalyst§f in the middle.",
+		"",
+		"- Oh, and don't forget to §aprovide§f the core with §eEnergy§f!",
+		"",
+		"§8§o(That's why it is like an Empowerer but Inverted!)§r§f",
+		"",
+		"- Consider §2automating this§f as it could help you with §3Actually Additions§f Recipes and other ones too."
+	],
+	dependencies: [
+		"bd73bb25"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "7664127a",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "06e6287d",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "999f6473",
+		type: "item",
+		item: "extendedcrafting:pedestal",
+		count: 4
+	},
+	{
+		uid: "d0559bcb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

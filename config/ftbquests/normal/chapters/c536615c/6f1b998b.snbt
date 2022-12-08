@@ -1,0 +1,36 @@
+{
+	title: "Simple Machines for a Simple Task!",
+	x: -2.0d,
+	y: -8.5d,
+	description: "Very Unefficient but required to get acess to better Ender IO Machines!",
+	text: [
+		"With these little guy, you'll be able to craft the required components for §3EnderIO's§f \"Decent\" Machines.",
+		"",
+		"- Remember that Simple Machines from §3Ender IO§f have some §4RF Leakage§f!",
+		"",
+		"- This §6Sag Mill share its recipes with its better version§f, but, why use it once you have acess to the Normal and Efficient version?"
+	],
+	dependencies: [
+		"76d16538",
+		"7bc4d4ed"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "e037407b",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "360ac866",
+		type: "item",
+		item: "enderio:item_alloy_ingot",
+		count: 16
+	},
+	{
+		uid: "95623331",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

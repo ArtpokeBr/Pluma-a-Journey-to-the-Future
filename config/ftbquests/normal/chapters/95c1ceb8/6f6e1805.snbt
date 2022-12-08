@@ -1,0 +1,44 @@
+{
+	title: "Automating DNA §6Final Part§f",
+	x: 9.0d,
+	y: -2.5d,
+	description: "Finally, lets complete the DNA Automation line!",
+	text: [
+		"Now, it is finally time to finish this §6Automation§f! use your recently obtained §eEnzyme's§f inside an §6Genepool§f.",
+		"",
+		"- But wait... this seems interesting, you'll need a §a\"living specimen\"§f from §3Forestry§f.",
+		"",
+		"Thats correct, And I strongly recommend that you make a §2Drone Farm§f, using The §4Majestic Species§f or other one with the chance of giving §b4 Drones per Cycle§f."
+	],
+	dependencies: [
+		"5f5a86ed"
+	],
+	min_width: 450,
+	tasks: [{
+		uid: "22210059",
+		type: "item",
+		items: [{
+			item: "genetics:lab_machine 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "1d78781f",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "binnie.dna.raw",
+					Amount: 1000
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "3f46e72b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

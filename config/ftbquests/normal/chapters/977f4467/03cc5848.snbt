@@ -1,0 +1,57 @@
+{
+	title: "A Lamp of Cinders!",
+	x: 8.25d,
+	y: -0.75d,
+	shape: "octagon",
+	description: "Time to break an Obsidian Vault",
+	text: [
+		"Now that you have a §3Giant Pickaxe§f, it is ideal to break an §5Giant Obsidian Vault§f!",
+		"",
+		"- Right below the §3giant's floating island§f, you'll find §auberous soil§f, this is the indication that §ccave trolls§f are living bellow it.",
+		"",
+		"- §aSimply dig down§f to find a §3huge cave system§f, at one point, §5you'll find the vault§f. inside of it? §6The Lamp of Cinders§f!",
+		"",
+		"§2Essential§f for §3Twilight Forest§f Progression."
+	],
+	dependencies: [
+		"aaa4ca12"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "ef109110",
+		type: "item",
+		items: [{
+			id: "twilightforest:lamp_of_cinders",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58636bab",
+		type: "item",
+		item: {
+			id: "embers:glimmer_lamp",
+			tag: {
+				light: 1200
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "9b9ab16e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

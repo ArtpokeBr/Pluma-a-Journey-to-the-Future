@@ -1,0 +1,58 @@
+{
+	title: "A Dwarven Solidifier!",
+	x: 10.5d,
+	y: -1.5d,
+	description: "I Call this one... Stompy!",
+	text: [
+		"Now that you're capable of §amoving and generating§f §eEmber§f, lets use it for something!",
+		"",
+		"- The §6Stamper§f will require §22 blocks§f to work properly, §21 Base§f, and a block above that, the §6Stamper§f itself.",
+		"",
+		"- §2The Base§f is where you're going to pretty much handle all the §9Items and Fluids§f, and the §6Stamper§f will be where you input §eEmber§f.",
+		"",
+		"- The §6Stamper§f is an §bImportant Machine to have§f, as some §2Materials§f from §3Embers§f will require this §eMachine Operating§f."
+	],
+	dependencies: [
+		"7e009b28",
+		"a8f0757f"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "a4e99d15",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	},
+	{
+		uid: "44771129",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	},
+	{
+		uid: "2376890b",
+		type: "item",
+		items: [{
+			item: "embers:stamp_flat"
+		}]
+	},
+	{
+		uid: "39c2131e",
+		type: "item",
+		items: [{
+			item: "embers:stamp_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "3cefc918",
+		type: "item",
+		item: "contenttweaker:empoweredemeradicplate"
+	},
+	{
+		uid: "6a62f1d1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

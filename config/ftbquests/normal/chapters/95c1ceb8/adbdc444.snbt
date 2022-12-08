@@ -1,0 +1,45 @@
+{
+	title: "Lets make some Phosphoric Acid",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "phosphoric_acid",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 5.0d,
+	y: -5.5d,
+	description: "Much more efficient in an Multiblock Chemical Reactor!",
+	text: [
+		"You could make this Recipe in an normal §6Chemical Reactor§f, but why? it is much more efficient and simple in a §2Multiblock Chemical Reactor§f!",
+		"",
+		"- §ePhosphorus§f can be obtained by §6Electrolyzing§f §ePhosphate§f, wich itself can be obtained by §aOre Processing§f §bApatite§f or by its own §aOre§f.",
+		"",
+		"- Inside a §2Multiblock Chemical Reactor§f, simply mix §bOxygen§f, §9Water§f and a little bit of §ePhosphorus§f and Voilá!",
+		"",
+		"- This Acid will be used in some Important §6Chemical Recipes§f."
+	],
+	dependencies: [
+		"2eefa7e6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f71d6c9d",
+		type: "fluid",
+		fluid: "phosphoric_acid"
+	}],
+	rewards: [{
+		uid: "3cc14365",
+		type: "item",
+		item: "gregtech:meta_dust 1 298",
+		count: 20
+	},
+	{
+		uid: "793b714a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

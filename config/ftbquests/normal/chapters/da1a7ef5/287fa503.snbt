@@ -1,0 +1,34 @@
+{
+	title: "An Brewing Stand!",
+	x: 10.5d,
+	y: 1.0d,
+	description: "Finally some Potion Brewing!",
+	text: [
+		"With some §3Runic Steel§f in your hands, it is finally time to unlock §6Potions§f!",
+		"",
+		"- Always Usefull, and there might be some §2special recipes§f that will require §6Specific Potions§f."
+	],
+	dependencies: [
+		"b3875efa",
+		"b6568fbc"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "91cd7556",
+		type: "item",
+		items: [{
+			item: "minecraft:brewing_stand"
+		}]
+	}],
+	rewards: [{
+		uid: "73806418",
+		type: "item",
+		item: "minecraft:blaze_powder",
+		random_bonus: 3
+	},
+	{
+		uid: "d020343a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

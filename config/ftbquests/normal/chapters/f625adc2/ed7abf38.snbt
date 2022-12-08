@@ -1,0 +1,39 @@
+{
+	title: "A Very Magical Fluid",
+	x: -3.0d,
+	y: -7.0d,
+	description: "Starlight + Gold Materials = Nacre!",
+	text: [
+		"It is strongly advised to start setting an §2Automation§f for this §9Fluid§f, as it is used in many §dmagical processes§f.",
+		"",
+		"- There's a §3Quest§f giving some §atips§f about §6automating Dwarven Alchemy§f in §5Chapter 6§f."
+	],
+	dependencies: [
+		"15781e6c"
+	],
+	tasks: [{
+		uid: "3c451ebf",
+		type: "fluid",
+		fluid: "nacre"
+	}],
+	rewards: [{
+		uid: "4c29e2fc",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "nacre",
+					Amount: 1000
+				}
+			}
+		},
+		random_bonus: 7
+	},
+	{
+		uid: "4b382e62",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

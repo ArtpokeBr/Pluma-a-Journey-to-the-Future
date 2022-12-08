@@ -1,0 +1,60 @@
+{
+	title: "Energy from the Ancients",
+	icon: {
+		id: "abyssalcraft:energypedestal",
+		tag: {
+			PotEnergy: 0.0f
+		}
+	},
+	x: 3.5d,
+	y: -1.0d,
+	description: "Time to Charge your Necronomicon!",
+	text: [
+		"Remember those §bStatues§f? well, place them §22 Blocks§f from an §6Energy Pedestal§f and §21 Block§f from §eeach other§f.",
+		"",
+		"- If everthing is right, particles of §ePE§f will be shot into the §6Pedestal§f.",
+		"",
+		"- If you then place your §cNecronomicon§f in the §6Pedestal§f, it will §echarge§f!",
+		"",
+		"- But keep some things in Mind, always keep your §cNecronomicon§f §echarged§f and don't forget that §6Statues§f require a §9clear view to the sky§f."
+	],
+	dependencies: [
+		"9ba15b52"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "5c7dd5da",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:energypedestal",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}]
+	},
+	{
+		uid: "b2ffbfc4",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:monolithpillar"
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "8b7025f0",
+		type: "item",
+		item: {
+			id: "abyssalcraft:chickenp",
+			tag: {
+				display: {
+					Name: "Chicken of Padaria"
+				}
+			}
+		}
+	},
+	{
+		uid: "1d82864a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

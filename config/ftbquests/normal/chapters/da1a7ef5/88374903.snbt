@@ -1,0 +1,39 @@
+{
+	title: "An Unique Method of Shearing!",
+	x: 14.5d,
+	y: 0.0d,
+	description: "Runic Shearing!",
+	text: [
+		"Runic Shears allow you to collect some special resources out of some certain entities and even blocks!",
+		"",
+		"- You can for example, shear Fey Leather out of an Cow",
+		"",
+		"- Shear Pearls out of Clams",
+		"",
+		"- Shear Aubergine out of Carrots",
+		"",
+		"- Spirit Herbs out of Beets",
+		"",
+		"And there's more! press \"U\" on it for more info in JEI."
+	],
+	dependencies: [
+		"b3875efa"
+	],
+	tasks: [{
+		uid: "3c977803",
+		type: "item",
+		items: [{
+			id: "roots:runic_shears",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9fac564f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

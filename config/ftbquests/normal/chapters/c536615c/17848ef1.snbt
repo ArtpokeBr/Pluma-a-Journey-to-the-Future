@@ -1,0 +1,59 @@
+{
+	title: "Logistical Chips",
+	x: 6.0d,
+	y: -7.0d,
+	description: "Logistic Pipes needs chips, time to make some!",
+	text: [
+		"First you'll need some §3Infused Silicon Balls§f, make some of them and start converting them into §6Logistical Raw Chips§f!",
+		"",
+		"- After obtaining the §6Raw Chips§f, you'll just need to process them in an §3Autoclave to refine them§f."
+	],
+	dependencies: [
+		"93a09201"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "b01b2caf",
+		type: "item",
+		items: [{
+			item: "logisticspipes:chip_fpga"
+		}]
+	},
+	{
+		uid: "f3ad5ed7",
+		type: "item",
+		items: [{
+			item: "logisticspipes:chip_advanced"
+		}]
+	},
+	{
+		uid: "647fd358",
+		type: "item",
+		items: [{
+			item: "logisticspipes:chip_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "13aa790d",
+		type: "item",
+		item: "logisticspipes:chip_fpga",
+		count: 4
+	},
+	{
+		uid: "3fef07b5",
+		type: "item",
+		item: "logisticspipes:chip_advanced",
+		count: 4
+	},
+	{
+		uid: "351df04a",
+		type: "item",
+		item: "logisticspipes:chip_basic",
+		count: 8
+	},
+	{
+		uid: "5c123f34",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,143 @@
+{
+	title: "An Special Alloy made out of Titanium!",
+	icon: "gregtech:meta_ingot 1 3020",
+	x: -0.7479591836734798d,
+	y: 1.7069727891156603d,
+	description: "HSLA Steel!",
+	text: [
+		"§6High-Strength Low-Alloy Steel§f or §6HSLA Steel§f is an Interesting type of §3Steel§f, by combining a §2few dusts§f and §dTitanium§f, you' should be able to get it!",
+		"",
+		"- §3Molybdenum§f can be found in a §cVein in The Nether§f.",
+		"",
+		"- §eInvar§f is simply §22 Iron + 1 Nickel§f.",
+		"",
+		"- §5Vanadium§f can be easily obtained by §6Centrifuging§f §5Vanadium Magnetite§f.",
+		"",
+		"- And §dTitanium§f... well, you've learned recently!"
+	],
+	dependencies: [
+		"0ef0d105"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1ef7db36",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustTitanium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustTitanium"
+				}
+			}
+		}]
+	},
+	{
+		uid: "4d336cc3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustVanadium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustVanadium"
+				}
+			}
+		}]
+	},
+	{
+		uid: "9080cbeb",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustInvar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustInvar"
+				}
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "08fef773",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustMolybdenum"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustMolybdenum"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ce7be3ca",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustHslaSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustHslaSteel"
+				}
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "88e30f0c",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotHslaSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotHslaSteel"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "64828b75",
+		type: "item",
+		item: "gregtech:meta_dust 1 3020",
+		random_bonus: 12
+	},
+	{
+		uid: "28898c99",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

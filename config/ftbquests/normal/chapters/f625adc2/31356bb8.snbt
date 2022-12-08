@@ -1,0 +1,39 @@
+{
+	title: "Extending your Tables!",
+	x: -3.765306122448976d,
+	y: -8.997959183673458d,
+	description: "More Space!",
+	text: [
+		"Now its time to get serious.",
+		"",
+		"By §2crafting§f a bunch of §bmaterials§f together, youl'll get an §eAdvanced Crafting Table§f!",
+		"",
+		"- From now on, §2there's a couple o recipes§f that will be done in this §eTable§f.",
+		"",
+		"- And also, expect to be able to §aautomate recipes§f in it in a near §bfuture§f."
+	],
+	dependencies: [
+		"4c626b0c",
+		"32d484cb"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "ecb1b499",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}],
+	rewards: [{
+		uid: "49cde29b",
+		type: "item",
+		item: "extendedcrafting:material 1 7",
+		count: 20
+	},
+	{
+		uid: "cfc01cf0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,72 @@
+{
+	title: "A Multiblock Steam Furnace!",
+	icon: "gregtech:machine 1 1024",
+	x: -1.0d,
+	y: -6.5d,
+	description: "A Steam Oven capable of processing 8 Items at a time",
+	text: [
+		"Remember, it only accepts the Inputs and Outputs specified on this Quest.",
+		"",
+		"- The Amount of Bronze Machine Casing's already counts the ones needed for the Controller Block.",
+		"",
+		"- Remember, you can share Walls between GregTech Multiblocks!"
+	],
+	dependencies: [
+		"8b36e363"
+	],
+	tasks: [{
+		uid: "1ff88089",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 12L
+	},
+	{
+		uid: "bd95ba47",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1024"
+		}]
+	},
+	{
+		uid: "39d87dfd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1653"
+		}]
+	},
+	{
+		uid: "ebcba0f1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1652"
+		}]
+	},
+	{
+		uid: "e0b45bf8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1651"
+		}]
+	},
+	{
+		uid: "1910d881",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "92a2a1f6",
+		type: "item",
+		item: "harvestcraft:tacoitem",
+		count: 4
+	},
+	{
+		uid: "8a53c7c8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Lets automate Polymer Clay §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "naphthalene",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 12.5d,
+	y: -9.0d,
+	description: "Distilling Napthtalene",
+	text: [
+		"You can use your §6Pyrolyse Oven§f to produce §3Coal Tar§f... After that, time to start §6Distilling§f it into §dNapthalene§f!",
+		"",
+		"- You can use both a normal §6Distillery§f or §bDistilling Tower§f, choose what §2fits you the best§f."
+	],
+	dependencies: [
+		"7076ce4f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b9c92ae3",
+		type: "fluid",
+		fluid: "naphthalene"
+	}],
+	rewards: [{
+		uid: "8d3676ab",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "coal_tar",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "66d19707",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

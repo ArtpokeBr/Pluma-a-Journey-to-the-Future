@@ -1,0 +1,33 @@
+{
+	title: "Heavy Iron Plates for an Iron Chassis!",
+	x: 7.5d,
+	y: 0.5d,
+	description: "Time to use your Hydraulic Press and your Wood Chassis's!",
+	text: [
+		"By using a Wood Chassis and some Heavy Iron Components, you'll be able to Assemble an Iron Chassis!",
+		"",
+		"- This Chassis will unlock a variety of Blocks and Machines from Actually Additions."
+	],
+	dependencies: [
+		"686795c2",
+		"2aeabd01"
+	],
+	tasks: [{
+		uid: "aae61f9b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "38e3f743",
+		type: "item",
+		item: "harvestcraft:guisoitem",
+		count: 2
+	},
+	{
+		uid: "900e5e85",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

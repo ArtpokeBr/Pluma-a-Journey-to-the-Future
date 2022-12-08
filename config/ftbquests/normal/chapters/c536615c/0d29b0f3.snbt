@@ -1,0 +1,20 @@
+{
+	title: "The Following Quests are heavily inspired by an Outstanding Job!",
+	icon: "minecraft:book",
+	x: 6.25d,
+	y: -6.0d,
+	shape: "gear",
+	description: "Text Format on the Following Quests are based on the Job of aaronhowser for the FTB University Pack, go check out his work.",
+	text: [
+		""
+	],
+	custom_click: "https://www.curseforge.com/members/aaronhowser1/projects",
+	dependencies: [
+		"d046fd4a"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "07ab5b85",
+		type: "checkmark"
+	}]
+}

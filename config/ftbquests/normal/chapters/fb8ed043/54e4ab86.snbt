@@ -1,0 +1,44 @@
+{
+	title: "A Place to Chop Wood!",
+	x: 0.5d,
+	y: 0.5d,
+	description: "A Chopping Block!",
+	text: [
+		"Simply use your Crude Axe with an log in the Crafting Grid and Voilá!",
+		"",
+		"But before using it, here are some considerations:",
+		"",
+		"- After using it, make sure to clean the Sawdust that will get generated",
+		"",
+		"- This Device has Durability",
+		"",
+		"- You Axe will loose durability when hiting this device",
+		"",
+		"- You'll get hunger when using this device"
+	],
+	dependencies: [
+		"3cb0f25f"
+	],
+	tasks: [{
+		uid: "a8600a36",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	}],
+	rewards: [{
+		uid: "362b5bff",
+		type: "item",
+		item: {
+			id: "pyrotech:flint_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "6c5cd088",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

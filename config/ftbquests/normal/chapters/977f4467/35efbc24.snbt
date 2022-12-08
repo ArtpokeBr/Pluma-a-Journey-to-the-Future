@@ -1,0 +1,47 @@
+{
+	title: "The Twilight Lich!",
+	icon: "twilightforest:trophy 1 1",
+	x: 2.25d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "Spoopy Scary Skeletons",
+	text: [
+		"Using your §6Magical Map§f will help you find its lair with ease..",
+		"",
+		"§2Lich's§f can be found inside of §3Giant Castle's§f, made of §3Stone Bricks§f.  §aIt is a Tricky Fight§f.",
+		"",
+		"- §aFirst§f you'll need to §elower its shields§f by §breturning his projectiles§f.",
+		"",
+		"- After that, simply §2watch out for his minions§f and §cgo for it§f!"
+	],
+	dependencies: [
+		"fccb1335"
+	],
+	size: 1.5d,
+	min_width: 260,
+	tasks: [{
+		uid: "4eac3218",
+		type: "kill",
+		icon: "twilightforest:trophy 1 1",
+		entity: "twilightforest:lich",
+		value: 1L
+	},
+	{
+		uid: "c51f9b94",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lich_bones"
+		}]
+	}],
+	rewards: [{
+		uid: "1955ff21",
+		type: "item",
+		item: "contenttweaker:lich_bones",
+		random_bonus: 3
+	},
+	{
+		uid: "caaa9749",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

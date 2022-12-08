@@ -1,0 +1,61 @@
+{
+	title: "An Urging Ghast!",
+	icon: "twilightforest:trophy 1 3",
+	x: 5.25d,
+	y: 0.75d,
+	shape: "octagon",
+	description: "Time slay an Special Giant Ghast in an Special Giant Tower!",
+	text: [
+		"Once you've slayed the §3Phantom, and also slayed a §3Lich§f, you'll be ready to face this §6Powerfull Ghast§f!",
+		"",
+		"- §aYou can technically skip the tower progression§f if you build block by block to the top, §bbut, you'll need to enter the tower at least once§f!",
+		"",
+		"- §2You'll need§f to collect §6Borer's Essence§f! a special drop that can be §cobtained by killing§f some §eTowerwood Borer's§f wich respectively §5spawn inside of the tower§f.",
+		"",
+		"- §bOnce you reach the top§f, by progressing correctly or not... §6you'll find the Ur-Ghast§f! §cthere will be some traps to help you kill it§f, but, if you have §aa good bow it will be enough tho§f."
+	],
+	dependencies: [
+		"d8223cd2"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "43d0eba9",
+		type: "kill",
+		icon: "twilightforest:trophy 1 3",
+		entity: "twilightforest:ur_ghast",
+		value: 1L
+	},
+	{
+		uid: "ada2a475",
+		type: "item",
+		items: [{
+			item: "twilightforest:borer_essence"
+		}]
+	},
+	{
+		uid: "4efc7831",
+		type: "item",
+		items: [{
+			item: "twilightforest:carminite"
+		}]
+	}],
+	rewards: [{
+		uid: "9d49409c",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 41
+				}]
+			}
+		}
+	},
+	{
+		uid: "99600745",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

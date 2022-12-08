@@ -1,0 +1,49 @@
+{
+	title: "An Upgrade to Dark Steel!",
+	x: 5.5d,
+	y: -3.0d,
+	description: "Directly from The End to your Blast Furnace!",
+	text: [
+		"By §6mixing§f a §5Small Pile of Tungstate§f, some §3Endstone dust§f and §9Dark Steel§f.... a §dSpecial Steel from the End§f!",
+		"",
+		"- §3End Steel§f will §2grant you acess§f to more §eAdvanced Ender IO Machines and Gadgets§f.",
+		"",
+		"- But it will also §2grant you acess§f to more §calloys§f that will be used for other §6components§f."
+	],
+	dependencies: [
+		"164b3c77",
+		"0e0ceb7e"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "6f1e4889",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotEndSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotEndSteel"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0c6400bd",
+		type: "item",
+		item: "gregtech:meta_item_1 1 311",
+		count: 2
+	},
+	{
+		uid: "c30b3983",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "A Website that converts Seconds into Ticks and vice versa",
+	icon: "extrautils2:redstoneclock",
+	x: 14.391666666666666d,
+	y: 2.523809523809497d,
+	shape: "gear",
+	description: "Click Here to be Redirected!",
+	text: [
+		""
+	],
+	custom_click: "https://mapmaking.fr/tick/",
+	dependencies: [
+		"9bc7ceff"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "1a4e77e8",
+		type: "checkmark"
+	}]
+}

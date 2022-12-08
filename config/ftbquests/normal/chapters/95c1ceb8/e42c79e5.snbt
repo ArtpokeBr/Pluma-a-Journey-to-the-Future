@@ -1,0 +1,133 @@
+{
+	title: "A §bDeep Learner§f",
+	icon: {
+		id: "deepmoblearning:deep_learner",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 10.5d,
+	y: -10.0d,
+	description: "Learning as you go",
+	text: [
+		"With an §3Deep Learner§f and a §bData Model§f, you'll be able to start in §bDML§f!",
+		"",
+		"- As you know, §bDML§f is all about §aSimulating Mob Kills§f and getting §2Resources§f out of that.",
+		"",
+		"- And to start that process, you'll need to §emanually max out§f a §bData Model§f.",
+		"",
+		"§8§o(Data Models start at the Faulty Level and go up to Self Aware tier)§r§f",
+		"",
+		"- Place the §bData Model§f inside of the §3Deep Learner§f and §5use it in your Offhand§f while §ckilling the same Mob§f that you've done a §bData Model§f for.",
+		"",
+		"- Each §cMob Kill of the same type§f of the §bData Model§f will soon or later §elevel up§f the §bModel§f, once you have at least §61 Maxed out§f, §ayou're good to go§f!"
+	],
+	dependencies: [
+		"752d6c0d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "c1c014d7",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:deep_learner",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "400c430b",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blank"
+		}]
+	},
+	{
+		uid: "243e63a2",
+		type: "item",
+		title: "Any Overworldian Data Model",
+		items: [{
+			id: "deepmoblearning:data_model_zombie",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_spider",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_tinker_slime",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_guardian",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_enderman",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_witch",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_creeper",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_slime",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_skeleton",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "deepmoblearning:data_model_thermal_elemental",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2d48ef8",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 16
+				}]
+			}
+		}
+	},
+	{
+		uid: "8f1d13b8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

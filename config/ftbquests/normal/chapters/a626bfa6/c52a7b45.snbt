@@ -1,0 +1,71 @@
+{
+	title: "The Gold Processing Line §6Final Part§f",
+	icon: "minecraft:gold_ingot",
+	x: 12.5d,
+	y: 3.0d,
+	shape: "hexagon",
+	description: "Came here to get Gold and.... I've Actually found Gold!",
+	text: [
+		"And with a last §6Chemical Reactor§f + §bPotassium Metabisulfite§f..... §e§n§lGOLD§r§f!",
+		"",
+		"- §bPotassium Metabisulfite§f can easily be made with a §6Mixer§f and it is §anot consumed§f during this process!"
+	],
+	dependencies: [
+		"a86151f0"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "5339a2de",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32079"
+		}]
+	},
+	{
+		uid: "e43beeff",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 41"
+		}]
+	},
+	{
+		uid: "0f2371a5",
+		type: "item",
+		title: "An LV to HV Chemical Reactor",
+		items: [{
+			item: "gregtech:machine 1 215"
+		},
+		{
+			item: "gregtech:machine 1 216"
+		},
+		{
+			item: "gregtech:machine 1 217"
+		}]
+	}],
+	rewards: [{
+		uid: "2598919a",
+		type: "command",
+		title: "Summon Rockets at the Player Position",
+		team_reward: false,
+		auto: "invisible",
+		command: "/summon fireworks_rocket ~ ~1 ~ {LifeTime:30,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:3,Flicker:1,Trail:1,Colors:[I;3887386,2651799],FadeColors:[I;6719955]}]}}}}"
+	},
+	{
+		uid: "4f5b2652",
+		type: "item",
+		team_reward: false,
+		item: "enderutilities:handybag"
+	},
+	{
+		uid: "b78e0d30",
+		type: "item",
+		team_reward: false,
+		item: "enderutilities:enderpart 1 51"
+	},
+	{
+		uid: "c566cfc0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

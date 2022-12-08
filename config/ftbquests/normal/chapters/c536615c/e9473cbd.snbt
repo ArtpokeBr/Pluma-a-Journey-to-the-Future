@@ -1,0 +1,31 @@
+{
+	title: "{pluma.itemsinkmodule.title}",
+	x: 4.0d,
+	y: -2.5d,
+	description: "{pluma.itemsinkmodule.subtitle}",
+	text: [
+		"{pluma.itemsinkmodule.desc1}",
+		"",
+		"{pluma.itemsinkmodule.desc2}"
+	],
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "bc9d5b04",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_item_sink"
+		}]
+	}],
+	rewards: [{
+		uid: "3f4e84fe",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2386c487",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

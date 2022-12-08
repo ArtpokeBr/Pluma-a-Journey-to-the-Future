@@ -1,0 +1,242 @@
+{
+  "name": "ender_molecular_manipulator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "f3bd9aa8-8f00-4a63-877a-bb09306e7935",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderutilities:enderpart\",Count:1b,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,tag:{Configuration:1},Damage:461s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ender_air\",Amount:2000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderutilities:enderpart\",Count:1b,Damage:15s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 520
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_end"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "f299c381-14e9-4782-8298-94f34b9c0a4b",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"botania:manabottle\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:chorus_flower\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ender_air\",Amount:250}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:2b,Damage:15s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_end"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "291b676f-81df-4a96-847f-e5d578d9883c",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderutilities:enderpart\",Count:1b,Damage:11s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,tag:{Configuration:1},Damage:461s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ender_air\",Amount:4000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderutilities:enderpart\",Count:1b,Damage:16s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 620
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_end"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "005dbfe0-eef5-479a-9b5c-1e7ae844b27f",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderutilities:enderpart\",Count:1b,Damage:12s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1b,tag:{Configuration:1},Damage:461s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ender_air\",Amount:8000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderutilities:enderpart\",Count:1b,Damage:17s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 720
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_end"
+          }
+        }
+      ]
+    }
+  ]
+}

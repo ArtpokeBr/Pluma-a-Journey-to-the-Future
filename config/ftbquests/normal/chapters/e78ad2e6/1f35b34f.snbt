@@ -1,0 +1,36 @@
+{
+	title: "Royal Jelly!",
+	x: 10.0d,
+	y: -0.5d,
+	shape: "hexagon",
+	description: "A Very Special Resource produced by the Most Delicate Bee \"Hands\"",
+	text: [
+		"Finally! Royal Jelly is a very important resource produced by Bees! ",
+		"",
+		"You can obtain it with other ones besides the Imperial, but the Imperial has the Most chances of doing so.",
+		"",
+		"So I Recommend that you set up a Pure Imperial Bee and let it produce Royal Jelly for you!"
+	],
+	dependencies: [
+		"914cf187"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4b14f687",
+		type: "item",
+		items: [{
+			item: "forestry:royal_jelly"
+		}]
+	}],
+	rewards: [{
+		uid: "0cae3653",
+		type: "item",
+		item: "forestry:royal_jelly",
+		random_bonus: 4
+	},
+	{
+		uid: "c3496703",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

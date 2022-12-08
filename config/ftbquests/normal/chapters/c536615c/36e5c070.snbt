@@ -1,0 +1,32 @@
+{
+	title: "Medium Voltage Factory Expanse!",
+	x: -2.0d,
+	y: -12.0d,
+	description: "It is finally time to get into MV! a tough stage where you start with the Chemistry!",
+	text: [
+		"With your EBF, Smelt some Aluminium! you'll be able to get Aluminium Dust easily soon.",
+		"",
+		"- With this Hull, you'll officially have acess to MV Level Machines!"
+	],
+	dependencies: [
+		"b6568fbc"
+	],
+	tasks: [{
+		uid: "ced560dc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 987"
+		}]
+	}],
+	rewards: [{
+		uid: "e7e9688d",
+		type: "item",
+		item: "gregtech:meta_dust 1 2",
+		count: 8
+	},
+	{
+		uid: "ec2dc736",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

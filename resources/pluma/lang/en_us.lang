@@ -1,0 +1,264 @@
+
+###Logistics Pipes
+###Many thanks to reddit user /u/suchtie for their guide here: https://www.reddit.com/r/feedthebeast/comments/c97545/guide_a_short_introduction_to_logistics_pipes_for/
+###Many thanks also to AaronHouser for the Magnificent Work on FTB University, as this texts are based on his Original Work!
+
+pluma.unroutedpipes.title=
+pluma.unroutedpipes.subtitle=Make Unrouted Transport Pipes
+pluma.unroutedpipes.desc1=&bUnrouted Transport Pipes&r are the most basic pipe available. They only serve to connect other pipes.
+pluma.unroutedpipes.desc2=If items try to pass through an Unrouted Transport Pipe that splits into multiple paths, the item will randomly choose a direction.
+pluma.unroutedpipes.desc3=All pipes that have any error will glow &cred&r.
+pluma.unroutedpipes.desc4=Logistics Pipes uses the MCMultiPart API, which means they can &6share a blockspace with Bits&r.
+
+pluma.highspeedpipes.title=Gotta Go Fast
+pluma.highspeedpipes.subtitle=Make Highspeed Tubes
+pluma.highspeedpipes.desc1=&bHighspeed Tubes&r are much, &omuch&r faster than regular pipes, and should to connect regular pipes at long distances.
+pluma.highspeedpipes.desc2=&bHighspeed Speedup Tubes&r are required at both ends. They will speed items up when coming from the near side, and slow down when coming from the far side.
+pluma.highspeedpipes.desc3=&bHighspeed Line Tubes&r should be used for straight lines, and cannot curve. The other tube names should be mostly self-explanatory.
+pluma.highspeedpipes.task3=Any non-straight Highspeed Tube
+
+pluma.logpipewrenches.title=Pipe Management
+pluma.logpipewrenches.subtitle=Make something that can manage pipes
+pluma.logpipewrenches.task=Items that can open pipe GUIs
+pluma.logpipewrenches.desc=Certain pipes have GUIs that can't be accessed normally. You can use a &bPipe Manager&r.
+
+pluma.basiclogpipes.subtitle=Make Basic Logistics Pipes
+pluma.basiclogpipes.desc1=&bBasic Logistics Pipes&r are one step above Unrouted Transport Pipes. They can connect to inventories and certain other blocks. 
+pluma.basiclogpipes.desc2=Open the Basic Logistics Pipe's GUI (with a Pipe Manager) to set what items are allowed to enter the inventory it is placed on. You can also toggle &6Default route&r, which allows all items through.
+pluma.basiclogpipes.desc3=&cIf the inventory is full, items will be dropped out of the pipe into the world.&r
+pluma.basiclogpipes.desc4=Basic Logistics Pipes should be used where Unrouted Transport Pipes &6intersect&r, items will move in the correct path intelligently.
+pluma.basiclogpipes.desc5=All intelligent pipes &6require energy to function&r.
+
+pluma.logpowerjunction.title=
+pluma.logpowerjunction.subtitle=Make a Logistics Power Junction
+pluma.logpowerjunction.desc1=Logistics Pipe networks require power to function. Place down a &bLogistics Power Junction&r and connect it to the network with a Basic Logistics Pipe, then &6provide it with RF or EU&r.
+pluma.logpowerjunction.desc2=You may need to place some pipes to update the network.
+
+pluma.logprogcomp.title=A Logistical Programmer
+pluma.logprogcomp.subtitle=Make a Logistics Program Compiler
+pluma.logprogcomp.desc1=Most Logistics Pipes require programs in their crafting recipes. These programs are made in the &bLogistics Program Compiler&r. Place one down and connect it to the LP network with a Basic Logistics Pipe.
+pluma.logprogcomp.desc2=Place a &bLogistics Disk&r in the upper left slot and a &bLogistics Programmer&r in the upper right.
+pluma.logprogcomp.desc3=On the left of the GUI, click one of the options and click &6Unlock&r. This will take some time and energy to unlock that tier of program.
+pluma.logprogcomp.desc4=After that tier has been unlocked, you can pick a program of that tier to &6Compile&r on the right. After it's been compiled, you can &6Flash&r it onto that the Logistics Programmer to use it in crafting recipes. The Programmer is reusable, though you can only have one program flashed on it at a time.
+
+####Routed Pipes
+pluma.routedpipes.title=Routed Pipes
+pluma.routedpipes.subtitle=Learn what Routed Pipes are
+pluma.routedpipes.desc1=Every pipe that isn't Unrouted is, by definition, routed. 
+pluma.routedpipes.desc2=Routed pipes are the only pipes that connect to inventories and other special blocks, and are also the only pipes that can accept upgrades.
+
+pluma.logprovider.title=Providing
+pluma.logprovider.subtitle=Make a Provider Logistics Pipe
+pluma.logprovider.desc1=The &bProvider Logistics Pipe&r will make the system treat its inventory as a source, &6allowing other pipes to pull from it&r. This can be a chest, machine, or even an ME Interface or Drawer Controller!
+pluma.logprovider.desc2=Open the Provider Logistics Pipe's GUI to set a blacklist or whitelist. You can also set it to keep the &6first and/or last stacks&r of the inventory, keep &61 item per stack&r, or keep &61 item per item type&r. 
+
+pluma.logsupplier.title=Supplying
+pluma.logsupplier.subtitle=Make a Supplier Logistics Pipe
+pluma.logsupplier.desc1=The &bSupplier Logistics Pipe&r will attempt to pull items into the inventory it is connected to from any source within the system.
+pluma.logsupplier.desc2=Open the Supplier Logistics Pipe's GUI to set a list of up to 9 items to keep stocked from Provider Pipes/Modules. If you place a stack of 32, it will try to keep it at 32 of that item in the inventory.
+pluma.logsupplier.desc3=• If it is set to &6Bulk 50&r, it will only retrieve more when the inventory is at 50%% of the specified amount.
+pluma.logsupplier.desc4=• &6Bulk 100&r is &nSUPPOSED&r to only refill when there's no remaining items, but it's bugged and works like Partial mode.
+pluma.logsupplier.desc5=• &6Infinite&r will make it pull regardless of how much is already in the inventory.
+pluma.logsupplier.desc6=• &6Partial&r will pull when any amount is removed.
+
+pluma.logrequest.title=Requesting
+pluma.logrequest.subtitle=Make a Request Logistics Pipe
+pluma.logrequest.desc1=The &bRequest Logistics Pipe&r will allow you to manually request any item from sources within the system. If the Pipe is connected to an inventory, the requested items will enter it. Otherwise, the items will be spit out into the world.
+pluma.logrequest.desc2=You can open the Pipe's GUI with just your hands.
+
+pluma.logordreq.subtitle=Make a Remote Orderer Logistics Pipe
+pluma.logordreq.desc1=The &bRemote Orderer&r can be connected to a &bRemote Orderer Logistics Pipe&r by sneak right-clicking.
+pluma.logordreq.desc2=Then, you can right-click the connected Remote Orderer, you can &6use it like a Request Logistics Pipe&r, and the items will be sent to the connected inventory.
+pluma.logordreq.desc3=If you connect it to an Ender Chest, you can request items from your base from anywhere and take them out using an Ender Pouch.
+
+pluma.logfire.subtitle=Make a Logistics Firewall Pipe
+pluma.logfire.desc1=You can open the &bLogistics Firewall Pipe&r's GUI to restrict specific connections from passing through it.
+pluma.logfire.desc2=You can set a blacklist/whitelist of 36 items, as well as toggling Providing, Crafting, and Sorting Logistics Pipes, as well as whether power flows through it.
+
+pluma.loginvsyscon.subtitle=Make a Logistics Inventory System Connector
+pluma.loginvsyscon.desc1=You can use a pair of &bLogistics Inventory System Connectors&r to wirelessly connect separate pipe systems together through the inventories they are placed on.
+pluma.loginvsyscon.desc2=Open the pipe's GUI and click &6Change&r at the top to set the channel. Click &6Add&r to create a channel, then click the channel and then &6Select&r to connect to it. All systems on the same channel will be connected.
+pluma.loginvsyscon.desc3=If an item on one end tries to pass through to the other end, it will be sent to the inventory the pipe is placed on. You should use some non-Logistics Pipes method to move items from that inventory to the inventory the connected pipe is placed on.
+pluma.loginvsyscon.desc4=An &6Ender Chest&r is the most simplest way to connect them.
+
+pluma.craftlogi.title=Simple Item Autocrafting
+pluma.craftlogi.subtitle=Make a Logistics Crafting setup
+pluma.craftlogi.desc1=The &bCrafting Logistics Pipe&r can be placed on a block and be set a recipe, and &6the output item will be show up in Request Pipes/Tables&r.
+pluma.craftlogi.desc2=You can connect it to a &bLogistics Crafting Table&r, then set the recipe inside there. Then, open the Pipe's GUI and click &6Import&r to automatically set the recipe there. You can then request the resulting item and the ingredients will be sent to the Table, and then the item will be sent to you.
+pluma.craftlogi.desc3=Nested recipes work; if you have a recipe for Logs→Planks, and Planks→Chests, you can make Chests from Logs. Any excess items will either jam or be sent back into the system, as if they were just added.
+pluma.craftlogi.desc4=If the machine it's placed on has separate input and output sides, &6see the Satellite Logistics Pipe quest&r.
+
+pluma.craftlogi2.title=The More You Know
+pluma.craftlogi2.subtitle=The other quest ran out of room, so...
+pluma.craftlogi2.desc1=Since you can only have one crafting recipe per pipe/table, you will likely end up with a wall of them. Best to dedicate the space now. If you have multiple recipes that give the same item, it will try using the &6highest priority one first&r.
+pluma.craftlogi2.desc2=You can connect it to a Furnace and have the recipe be Sand input, Glass output, and when you request Glass it will send the Sand to the Furnace to be smelted, then pull
+
+pluma.fuzcraftlog.subtitle=Make a Logistics Fuzzy Crafting Table
+pluma.fuzcraftlog.desc1=The &bLogistics Fuzzy Crafting Table&r allows you to craft items using non-specific ingredients. For instance, making Sticks out of any type of Planks.
+pluma.fuzcraftlog.desc2=&6Hover over the ingredients&r to toggle whether or not it should use the &bore dictionary&r, &bignore damage&r, &bignore NBT&r, and/or... &owhatever &bore prefix&r is.
+pluma.fuzcraftlog.desc3=The Crafting Logistics Pipe needs to have a &6Fuzzy Upgrade&r for it to actually send those items to the Table.
+
+pluma.logcraftsign.subtitle=Make a Crafting Sign Creator
+pluma.logcraftsign.desc1=You can use the &bCrafting Sign Creator&r on any side of a Crafting Logistics Pipe to place a sign on it, which will &6display which item it crafts&r.
+pluma.logcraftsign.desc2=It can place 250 signs. You can use it on an existing sign to remove it, adding one back to the Creator.
+
+pluma.satlog.subtitle=Make a Satellite Logistics Pipe
+pluma.satlog.desc1=The Crafting Logistics Pipe must be placed on the side of the machine that it can pull the finished item from. If that side cannot also &oaccept&r items, place a &bSatellite Logistics Pipe&r where it can.
+pluma.satlog.desc2=Open its GUI to give it a name, and then in the Crafting Pipe you can click &6Select&r and then choose a Satellite Pipe on the same system to send the highlighted items there.
+pluma.satlog.desc3=The &6Advanced Satellite Upgrade&r can allow you to set all 9 slots to go to Satellite Pipes. You can also set them to to go to separate Satellite Pipes, if you wish.
+
+pluma.logreqtable.title=Your Logistic Pipes "Terminal"
+pluma.logreqtable.subtitle=Make a Logistics Request Table
+pluma.logreqtable.desc1=The &bLogistics Request Table&r can request and store items, and has a built-in crafting table.
+pluma.logreqtable.desc2=You can set a crafting recipe then click one of the [+] buttons to request the items required for it.
+pluma.logreqtable.desc3=You can insert a Logistics Disk into the black-outlined slot, then click the &6Disk&r button at the bottom right. There, you can create macros (item sets) to request all at once.
+pluma.logreqtable.desc4=Click &6Add/Edit&r to create a macro. It will show all the items currently available, and you can click from them to add them to the macro. Left-click to increase the amount given by one, right-click to decrease by one.
+pluma.logreqtable.desc5=Name and save the macro, then it'll be added to the Disk's macro list. There you can select macros from the list and click &6Request&r to request all the items in the macro.
+pluma.logreqtable.desc6=Items that are placed into the &6Sort&r slot will be sent back into the system to be sorted.
+
+####Modules
+pluma.logchass1.title=Modular Logistics Pipes
+pluma.logchass1.subtitle=Make a Logistics Chassis Mk1
+pluma.logchass1.desc1=&bLogistics Chassis&r can hold &bModules&r, which can serve the same function as certain Logistics Pipes. Open the Chassis' GUI to insert a Module.
+pluma.logchass1.desc2=Not all Modules have a Pipe equivalent, and not all Pipes have a Module equivalent.
+pluma.logchass1.desc3=The &bLogistics Chassis Mk1&r can hold &6one Module&r.
+
+pluma.logchass2.subtitle=Make a Logistics Chassis Mk2
+pluma.logchass2.desc=The &bLogistics Chassis Mk2&r can hold &6two Modules&r.
+
+pluma.logchass3.subtitle=Make a Logistics Chassis Mk3
+pluma.logchass3.desc=The &bLogistics Chassis Mk3&r can hold &6three Modules&r.
+
+pluma.logchass4.subtitle=Make a Logistics Chassis Mk4
+pluma.logchass4.desc=The &bLogistics Chassis Mk4&r can hold &6four Modules&r.
+
+pluma.itemsinkmodule.title=Fill by Item
+pluma.itemsinkmodule.subtitle=Make an ItemSink Module
+pluma.itemsinkmodule.desc1=The &bItemSink Module&r is the Module equivalent of the Basic Logistics Pipe. However, if its inventory is full, items will not even try to enter, and thus &6won't be spit out into the world&r.
+pluma.itemsinkmodule.desc2=Click the [!] next to the installed Module to open its GUI to set a &6whitelist of up to 9 items&r, or enable it as a default route.
+
+pluma.modpolysink.title=Fill by Mod
+pluma.modpolysink.subtitle=Make a Mod Based ItemSink Module
+pluma.modpolysink.desc1=The &bMod Based ItemSink Module&r's whitelist works based on the &6mod the item is from&r, rather than the specific item itself.
+pluma.modpolysink.desc2=Open its GUI then add an item to the top slot. Click &6Add&r to add that item's mod to the whitelist. Similarly, click a mod from the list and click &6Remove&r to remove it.
+
+pluma.oredictsink.title=Fill by Item Type
+pluma.oredictsink.subtitle=Make an OreDict ItemSink Module
+pluma.oredictsink.desc1=The &bOreDict ItemSink Module&r's whitelist works based on the &6ore dictionary&r, rather than specific items.
+pluma.oredictsink.desc2=Open its GUI then add an item to the top slot, and the item's ore dictionary name will appear next to it. You can use the buttons to scroll if there are too many to fit.
+pluma.oredictsink.desc3=Click a name off the top list to add it to the whitelist. Click a name off the whitelist on the bottom to remove it.
+
+pluma.polysink.title=Fill by Already Stored Items
+pluma.polysink.subtitle=Make a Polymorphic ItemSink Module
+pluma.polysink.desc=The &bPolymorphic ItemSink Module&r works like a regular ItemSink Module, except it only accepts items that are already in the inventory.
+
+pluma.tabsup.title=Fill by Creativity
+pluma.tabsup.subtitle=Make a Creative Tab Based ItemSink Module
+pluma.tabsup.desc1=The &bCreative Tab Based ItemSink Module&r's whitelist works based on the creative mode tab the item is in, rather than the specific item itself.
+pluma.tabsup.desc2=Open its GUI then add an item to the top slot. Click &6Add&r to add that item's creative tab to the whitelist. Similarly, click a creative tab from the list and click &6Remove&r to remove it.
+pluma.tabsup.desc3=This is useful since you could make an inventory that automatically fills up with building blocks, since there's a creative tab for those.
+
+pluma.provmod.subtitle=Make a Provider Module
+pluma.provmod.desc1=The &bProvider Module&r is the Module equivalent of the Provider Logistics Pipe.
+pluma.provmod.desc2=It will make the system treat its inventory as a source, &6allowing other pipes to pull from it&r. This can be a chest, machine, or even an ME Interface or Drawer Controller!
+pluma.provmod.desc3=Open the Provider Module's GUI to set a blacklist or whitelist. You can also set it to keep the &6first and/or last stacks&r of the inventory, keep &61 item per stack&r, or keep &61 item per item type&r. 
+
+pluma.terminus.title=Dealing with Overflow
+pluma.terminus.subtitle=Make a Terminus Module
+pluma.terminus.desc1=The &bTerminus Module&r will &6catch items that have nowhere else to go&r, not including default routes. It has a whitelist in its GUI to choose which items will be sent there as overflow.
+pluma.terminus.desc2=If you have a Drawer full of Cobblestone connected to an ItemSink Module or a Basic Logistics Pipe, the Cobblestone will have nowhere to go, clogging the input chest or popping out into the world.
+pluma.terminus.desc3=However, if you have a Terminus Module with Cobblestone in its whitelist, the Cobblestone will move there instead. &6It's best to have a Trash Can or something similar here, so the overflow doesn't overflow.&r
+
+pluma.passsup.subtitle=Make a Passive Supplier Module
+pluma.passsup.desc1=The &bPassive Supplier Module&r works somewhat similarly to the ItemSink Module, with some extra options. &6It will not actively request items, but will allow items to enter it based on its whitelist&r.
+pluma.passsup.desc2=The Passive Supplier Module will &6try to keep the specific amount of each item&r in the whitelist. If you click half a stack of an item into it, it will stop requesting once half a stack of that item is in the inventory.
+pluma.passsup.desc3=You can also left/right-click the whitelist entry with the item to decrease/increase the amount by 1.
+
+pluma.actsup.subtitle=Make an Active Supplier Module
+pluma.actsup.desc1=The &bActive Supplier Module&r is the module equivalent of the Supplier Logistics Pipe.
+pluma.actsup.desc2=Open the Active Supply Module's GUI to set a list of up to 9 items to keep stocked from Provider Pipes/Modules. If you place a stack of 32, it will try to keep it at 32 of that item in the inventory.
+pluma.actsup.desc3=• If it is set to &6Bulk 50&r, it will only retrieve more when the inventory is at 50%% of the specified amount.
+pluma.actsup.desc4=• &6Bulk 100&r is &nSUPPOSED&r to only refill when there's no remaining items, but it's bugged and works like Partial mode.
+pluma.actsup.desc5=• &6Infinite&r will make it pull regardless of how much is already in the inventory.
+pluma.actsup.desc6=• &6Partial&r will pull when any amount is removed.
+
+pluma.extractmodule.subtitle=Make an Extractor Module
+pluma.extractmodule.desc1=The &bExtract Module&r extracts items out of the inventory its on and &6sends them to any valid destination&r.
+pluma.extractmodule.desc2=You can set it to extract items from any side of the block it's connected to, not only the side it's on.
+
+pluma.advextractmod.subtitle=Make an Advanced Extractor Module
+pluma.advextractmod.desc1=The &bAdvanced Extractor Module&r works like the Extract Module, except it has a &69-slot whitelist/blacklist&r.
+pluma.advextractmod.desc2=The &6Sneaky&r button allows you to choose which side of the inventory to extract from, instead of only the side it's on.
+
+pluma.quicksort.subtitle=Make a QuickSort Module
+pluma.quicksort.desc1=The &bQuickSort Module&r works like an Extractor Module, except it only sends items that have a non-default destination.
+pluma.quicksort.desc2=That means you can dump everything into the inventory it's on, and &6only items that have a set destination will be extracted&r.
+
+pluma.enchsink.subtitle=Make an Enchantment Sink Module
+pluma.enchsink.desc1=The &bEnchantment Sink Module&r works like an ItemSink Module, except for &6enchanted items&r.
+pluma.enchsink.desc2=Any enchanted item (&naside from books&r) pulled from an Extractor Module will go to the Enchantment Sink Module.
+
+pluma.enchsink2.subtitle=Make an Enchantment Sink Module Mk2
+pluma.enchsink2.desc1=The &bEnchantment Sink Module Mk2&r is an upgrade to the Enchantment Sink Module.
+pluma.enchsink2.desc2=The Mk2 has an &6item whitelist&r, so you can have one destination that fills up with enchanted Iron Pickaxes, and another with enchanted Gold Swords, etc.
+
+####Upgrades
+
+pluma.logpipecont.subtitle=Make a Pipe Controller
+pluma.logpipecont.desc=The &bPipe Controller&r allows you to see a pipe's statistics, upgrades, Security Cards, and more!
+
+pluma.logupgs.title=Upgrading
+pluma.logupgs.subtitle=Learn how Upgrades work
+pluma.logupgs.desc1=&6Upgrades&r enhance pipes in certain ways, depending on which upgrade you install.
+pluma.logupgs.desc2=Right-click a routed pipe with a &bPipe Controller&r, then install up to 9 upgrades in the second slot.
+
+pluma.logmodupg.subtitle=Make a Module Upgrade
+pluma.logmodupg.desc1=The &bModule Upgrade&r is installed to a Chassis to allow the Modules to be upgraded.
+pluma.logmodupg.desc2=When the Module Upgrade is installed, the &6Module menu will have two upgrade slots per Module&r.
+
+pluma.actspedupg.subtitle=Make an Action Speed Upgrade
+pluma.actspedupg.desc1=The &bAction Speed Upgrade&r can be installed onto Extractor Modules to &6make them work more often&r.
+pluma.actspedupg.desc2=The more you install, the more often it works. You can have up to 16 per slot.
+
+pluma.itmspedupg.title=Speeeeeed Boost!
+pluma.itmspedupg.subtitle=Make an Item Speed Upgrade
+pluma.itmspedupg.desc1=The &bItem Speed Upgrade&r speeds up items that pass through it.
+pluma.itmspedupg.desc2=They can be installed on any routed pipe. A single upgrade doesn't do much, but you can install up to 16 in a single slot, and there's 9 slots.
+
+pluma.itmextupg.subtitle=Make an Item Extraction Upgrade
+pluma.itmextupg.desc1=The &bItem Extraction Upgrade&r can be installed onto Extractor Modules to &6make them extract more items at a time&r.
+pluma.itmextupg.desc2=One upgrade will make it extract 8 items at a time, and two will &ksee mod author, bugged&r.
+
+pluma.itmstkupg.subtitle=Make an ItemStack Extraction Upgrade
+pluma.itmstkupg.desc1=
+
+pluma.logopq.title=What's Inside? Who knows!
+pluma.logopq.subtitle=Make an Opaque Upgrade
+pluma.logopq.desc1=The &bOpaque Upgrade&r will disable rendering for any item that's passing through it.
+pluma.logopq.desc2=The item will become visible again immediately after it's not in that specific pipe anymore, so... it's not exceedingly useful unless you make the entire line out of routed pipes and install the upgrade onto all of them.
+
+pluma.logfuzzy.title=Fuzzy Upgrade
+pluma.logfuzzy.subtitle=Make a Fuzzy Upgrade
+pluma.logfuzzy.desc1=The &bFuzzy Upgrade&r will allow certain pipes/modules to &6ignore metadata and/or NBT&r.
+pluma.logfuzzy.desc2=Hover over the item slot in the whitelist to show the options for what to ignore.
+pluma.logfuzzy.desc3=This can be used to keep all Wool colors or all Enchanted Books in the same inventory.
+
+pluma.logdisc.title=Disconnection Upgrade
+pluma.logdisc.subtitle=Make a Disconnection Upgrade
+pluma.logdisc.desc1=The &bDisconnection Upgrade&r allows you to prevent routed pipes from connecting on certain sides.
+pluma.logdisc.desc2=Use the Pipe Controller and open the Upgrades tab, then click the [!] under the installed upgrade to open its GUI.
+pluma.logdisc.desc3=Left-click and drag to rotate your perspective. Right-click on a side to toggle whether or not it can connect.
+
+pluma.logsneak.subtitle=Make a Sneaky Upgrade
+pluma.logsneak.desc1=&bSneaky Upgrades&r allow you to make pipes act as if they were connected to a different side of a block than they are.
+pluma.logsneak.desc2=Use the Pipe Controller and open the Upgrades tab, then click the [!] under the installed upgrade to open its GUI.
+pluma.logsneak.desc3=Left-click and drag to rotate your perspective. Right-click on the side of the block to choose to pull from that side.
+
+pluma.logsneakcomb.title=The More the Merrier
+pluma.logsneakcomb.subtitle=Make a Sneaky Combination Upgrade
+pluma.logsneakcomb.desc=The &bSneaky Combination Upgrade&r allows you to install up to 9 Sneaky Upgrades at once.
+
+#Changes to other mods
+entity.Villager.red_mechanic=Redstone Mechanic
+entity.Villager.shady_merchant=Shady Merchant
+ftbquests.task.ftbquests.checkmark=Click me

@@ -1,0 +1,48 @@
+{
+	title: "Making Coke Bricks",
+	icon: "gregtech:metal_casing 1 8",
+	x: 10.5d,
+	y: 0.5d,
+	description: "But... it requires a Mold!",
+	text: [
+		"Use your brand new Bronze Saw to make a Brick Mold!",
+		"",
+		"- Them, simply make a ton of Coke Clay, as you'll be using it to assemble a Coke Oven."
+	],
+	dependencies: [
+		"412de3db"
+	],
+	tasks: [{
+		uid: "ae1ecbd7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 348"
+		}]
+	},
+	{
+		uid: "cc6717ef",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 353"
+		}],
+		count: 116L
+	},
+	{
+		uid: "e9db1687",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 29L
+	}],
+	rewards: [{
+		uid: "93917fbd",
+		type: "item",
+		item: "actuallyadditions:item_food 1 4"
+	},
+	{
+		uid: "f51e3388",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

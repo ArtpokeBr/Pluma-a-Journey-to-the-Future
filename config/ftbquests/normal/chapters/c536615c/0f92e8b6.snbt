@@ -1,0 +1,35 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	description: "{pluma.loginvsyscon.subtitle}",
+	text: [
+		"{pluma.loginvsyscon.desc1}",
+		"",
+		"{pluma.loginvsyscon.desc2}",
+		"",
+		"{pluma.loginvsyscon.desc3}",
+		"",
+		"{pluma.loginvsyscon.desc4}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	tasks: [{
+		uid: "b40b933b",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_inventory_system_connector"
+		}]
+	}],
+	rewards: [{
+		uid: "a925029f",
+		type: "item",
+		item: "gregtech:machine 1 1627"
+	},
+	{
+		uid: "a25c92bd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

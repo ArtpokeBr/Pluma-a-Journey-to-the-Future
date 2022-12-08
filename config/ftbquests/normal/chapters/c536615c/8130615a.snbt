@@ -1,0 +1,44 @@
+{
+	title: "Electrolyzing at MV",
+	icon: "gregtech:machine 1 276",
+	x: -0.5d,
+	y: -12.0d,
+	description: "Very Rewarding and Excellent for Aluminium!",
+	text: [
+		"Now that you're at MV, you can finally upgrade your Electrolyzer and start automating some much needed materials!",
+		"",
+		"- This Electrolyzer has many usefull recipes, now that you're in MV, you should really take a look at some of them.",
+		"",
+		"- But for now, you should use it with some Clay Dusts in order to automate Aluminium!",
+		"",
+		"~ 13 Clay Dusts = 2 Sodium 1 Lithium 2 Aluminium 2 Silicon and you even get some excess water aswell."
+	],
+	dependencies: [
+		"36e5c070"
+	],
+	tasks: [{
+		uid: "37884143",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 276"
+		}]
+	},
+	{
+		uid: "0c396fd4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "e038b56d",
+		type: "item",
+		item: "extrautils2:trashcanfluid"
+	},
+	{
+		uid: "d3362622",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

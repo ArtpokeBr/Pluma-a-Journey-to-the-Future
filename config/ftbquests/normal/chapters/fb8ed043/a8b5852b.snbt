@@ -1,0 +1,32 @@
+{
+	title: "A Simplistic Drawer",
+	x: 2.5d,
+	y: 1.5d,
+	description: "The Stash!",
+	text: [
+		"The Stash is an Early Game alternative to Drawers!",
+		"",
+		"- They can store only 1 item, but up to 16 Stacks of that Item!"
+	],
+	dependencies: [
+		"c3dc0ea8"
+	],
+	tasks: [{
+		uid: "4523c5e3",
+		type: "item",
+		items: [{
+			item: "pyrotech:stash"
+		}]
+	}],
+	rewards: [{
+		uid: "211738f6",
+		type: "item",
+		item: "pyrotech:stash",
+		count: 2
+	},
+	{
+		uid: "04f469f6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

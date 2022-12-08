@@ -1,0 +1,32 @@
+{
+	title: "A Composite for Chips",
+	x: 6.0d,
+	y: -8.0d,
+	description: "Just like a Conduit Binder",
+	text: [
+		"By mixing some §3Ender IO's Materials§f, a §aSlimeball§f and more... A §6Chip Composite§f! cabable of being used to make §6Logistical Chips§f."
+	],
+	dependencies: [
+		"13e0f0f6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "292707f1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:chip_composite"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b5ea109c",
+		type: "item",
+		item: "harvestcraft:honeylemonlambitem",
+		count: 4
+	},
+	{
+		uid: "ee55e9e7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

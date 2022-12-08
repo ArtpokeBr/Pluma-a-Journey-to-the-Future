@@ -1,0 +1,44 @@
+{
+	title: "A Fluid Transfer Node!",
+	x: 12.5d,
+	y: 3.5d,
+	description: "Finally a Wireless Fluid Transfer Method!",
+	text: [
+		"With this §6node§f, §2many problems can be solved§f, perhaps you can finally move all that oil that you're collect to somewhere nearby.",
+		"",
+		"- Simply §aplace it§f as the §9Input§f and them use an §bGPS Marker§f to select where you wish §bto move the fluids§f to!",
+		"",
+		"- Yes, you can just §ashift+right click§f the §bGPS Marker§f on an §9Tank§f to mark its position, and them §5place it inside of the Node§f!",
+		"",
+		"- Yes, with that, all the §9Fluids§f will be §2automatically§f moved from the §9Internal Tank of the Node§f to the §aBlock Marked§f."
+	],
+	dependencies: [
+		"7b7080b7"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "4a8c12a5",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:cable_wireless_fluid"
+		}]
+	},
+	{
+		uid: "abb8843a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:card_location"
+		}]
+	}],
+	rewards: [{
+		uid: "dfc6b1b0",
+		type: "item",
+		item: "cyclicmagic:card_location",
+		random_bonus: 3
+	},
+	{
+		uid: "e8d5b39d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

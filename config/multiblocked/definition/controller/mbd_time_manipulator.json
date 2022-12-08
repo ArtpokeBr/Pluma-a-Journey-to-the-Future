@@ -1,0 +1,277 @@
+{
+  "version": 1,
+  "location": "mbd:time_manipulator",
+  "traits": {
+    "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 71,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "contenttweaker:vanadiumsteel_casing",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/vanadiumsteel_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_3",
+        "type": "gregtech"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/vanadiumsteel_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_3",
+        "type": "gregtech"
+      },
+      "lightEmissive": 8,
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "time_manipulator",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "       ",
+        " AB@BA ",
+        " B   B ",
+        " B   B ",
+        " B   B ",
+        " ABBBA ",
+        "       "
+      ],
+      [
+        "       ",
+        "ABCCCBA",
+        "BBDDDBB",
+        "BBDDDBB",
+        "BBDDDBB",
+        "ABCCCBA",
+        "  BBB  "
+      ],
+      [
+        "  EEE  ",
+        "BC   CB",
+        " D   D ",
+        " D   D ",
+        " D   D ",
+        "BC   CB",
+        " BEEEB "
+      ],
+      [
+        "  EEE  ",
+        "BC F CB",
+        " D G D ",
+        " D   D ",
+        " D   D ",
+        "BC   CB",
+        " BEEEB "
+      ],
+      [
+        "  EEE  ",
+        "BC   CB",
+        " D   D ",
+        " D   D ",
+        " D   D ",
+        "BC   CB",
+        " BEEEB "
+      ],
+      [
+        "       ",
+        "ABCCCBA",
+        "BBDDDBB",
+        "BBDDDBB",
+        "BBDDDBB",
+        "ABCCCBA",
+        "  BBB  "
+      ],
+      [
+        "       ",
+        " ABBBA ",
+        " B   B ",
+        " B   B ",
+        " B   B ",
+        " ABBBA ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "railcraft:brick_nether",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:time_manipulator",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:vanadiumsteel_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "randomthings:ancientbrick",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "fossil:ancient_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "fossil:ancient_stone_brick",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "fossil:ancient_wood_pillar",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "fossil:time_machine",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "items": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "fluids": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "energy": {
+        "capability": "gtce_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B",
+        "items",
+        "fluids",
+        "energy"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

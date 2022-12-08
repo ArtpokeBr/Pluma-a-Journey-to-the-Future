@@ -1,0 +1,54 @@
+{
+	title: "Lets automate PVC §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "vinyl_chloride",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 13.5d,
+	y: -9.0d,
+	description: "Lets make some Vinyl Chloride!",
+	text: [
+		"§6PVC§f will be an Good Alternative to §2PTFE§f, and will be specially used currently for §bDML§f, lets start making some!",
+		"",
+		"- The §aFirst step§f is kinda easy, simply hook up some §9Ethylene§f with §3Chlorine§f and you'll get this §6Chemical§f.",
+		"",
+		"§8§o(PVC = Polyvinyl Chloride, PTFE = Polytetrafluoroethylene, DML = Deep Mob Learning.)§r§f"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"54ca0e8a"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "34a65df2",
+		type: "fluid",
+		fluid: "vinyl_chloride"
+	}],
+	rewards: [{
+		uid: "54bbc6f1",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "ethylene",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "173b5c63",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,76 @@
+{
+	title: "System on Chip Wafers",
+	icon: "gregtech:meta_item_1 1 571",
+	x: 3.5d,
+	y: -2.5d,
+	description: "Lets make some Simple SoC's Wafers!",
+	text: [
+		"§bSoC's§f will be important for you to §2unlock§f better §6Circuit Alternatives§f, lets make some!",
+		"",
+		"- First, you'll need an §3Cyan Lens§f.",
+		"",
+		"they can be made by making some §3Chemical Cyan Dye§f and using a §6Chemical Bath§f to §apaint§f a §eGlass Lens§f!",
+		"",
+		"- After that, simply use at least an §6MV Engraver§f to get this §5wafer§f."
+	],
+	dependencies: [
+		"5c98b7a0"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "4b74041c",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingLensGlass"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingLensGlass"
+				}
+			}
+		}]
+	},
+	{
+		uid: "6c79fb1b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 829"
+		}]
+	},
+	{
+		uid: "8ff90bff",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 571"
+		}]
+	},
+	{
+		uid: "0fdbf5bc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 596"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "2792b037",
+		type: "item",
+		item: "gregtech:meta_item_1 1 430",
+		count: 32
+	},
+	{
+		uid: "5a6bc2e2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 571"
+	},
+	{
+		uid: "2e23b40b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

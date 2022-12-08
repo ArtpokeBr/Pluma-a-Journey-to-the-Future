@@ -1,0 +1,11 @@
+{
+  "canShared": true,
+  "location": "multiblocked:head",
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:head",
+    "type": "IModel"
+  },
+  "isOpaqueCube": false
+}

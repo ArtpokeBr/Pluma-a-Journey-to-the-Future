@@ -1,0 +1,38 @@
+{
+	title: "Upgrading Capacitors!",
+	x: 8.0d,
+	y: -8.0d,
+	description: "Making a Tier 2 EnderIO Capacitor",
+	text: [
+		"This Tier of §6Capacitor§f will be §2essential§f for the §eCapacitor Progression§f from §3EnderIO§f.",
+		"",
+		"- But it can be also very usefull for increasing the §dBuffers§f and overall §5efficiency§f of your §3EnderIO Machines§f.",
+		"",
+		"- As Always, you can use a §6Capacitor§f from the §bSilver Progression§f if you want."
+	],
+	dependencies: [
+		"eb249210"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b7f52ded",
+		type: "item",
+		title: "A Tier 2 EnderIO Capacitor",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 1"
+		},
+		{
+			item: "enderio:item_capacitor_energetic_silver"
+		}]
+	}],
+	rewards: [{
+		uid: "0de6236e",
+		type: "item",
+		item: "enderio:block_cap_bank 1 2"
+	},
+	{
+		uid: "4653a6ae",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Smelting with Style!",
+	icon: "magneticraft:big_electric_furnace",
+	x: 1.5d,
+	y: -2.0d,
+	description: "A Pretty Multiblock Furnace!",
+	text: [
+		"Not the Most efficient, but very pretty! a Multiblock Furnace from Magnetic Craft!",
+		"",
+		"- It fits very well with Conveyors ;p"
+	],
+	dependencies: [
+		"8b8ed045"
+	],
+	tasks: [{
+		uid: "bbf37faf",
+		type: "item",
+		items: [{
+			item: "magneticraft:big_electric_furnace"
+		}]
+	},
+	{
+		uid: "b30ad8a2",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 7L
+	},
+	{
+		uid: "fbdd3e13",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9ea7914e",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "134e6dac",
+		type: "item",
+		item: "harvestcraft:timpanoitem",
+		count: 2
+	},
+	{
+		uid: "fe9adbd6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

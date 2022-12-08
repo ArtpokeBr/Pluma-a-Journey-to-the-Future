@@ -1,0 +1,38 @@
+{
+	title: "Extruding at MV",
+	x: -2.0d,
+	y: -11.0d,
+	description: "Finally, and Efficient way to make certain Materials!",
+	text: [
+		"That's correct! with this MV Extruder, you'll finally be able to make Gears and other Materials in a Cheaper way!"
+	],
+	dependencies: [
+		"36e5c070"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "0284e95f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 321"
+		}]
+	},
+	{
+		uid: "ca9d6167",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "03da3fd6",
+		type: "choice",
+		title: "Choose your Reward!",
+		table: 4
+	},
+	{
+		uid: "efdc69c2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

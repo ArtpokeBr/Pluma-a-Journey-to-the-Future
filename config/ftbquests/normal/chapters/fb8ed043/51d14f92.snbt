@@ -1,0 +1,72 @@
+{
+	title: "Fermenting Liquids",
+	icon: "pyrotech:barrel",
+	x: 15.5d,
+	y: -1.5d,
+	description: "Just like TerrafirmaCraft!",
+	text: [
+		"The §3Pyrotech's§f §6Barrel§f will be used to make some §9Special Fluids§f, and §aTannin§f is included!",
+		"",
+		"- §9This Fluid§f is §2essential§f for §6Leather Processing§f.",
+		"",
+		"§dSo lets get started!§f",
+		"",
+		"- §2Collect§f those needed §aMaterials§f, §bmost importantly§f the §aTannin Mixture§f.",
+		"",
+		"- Then simply place a §9Bucket of Water§f and those §2Ingredients§f into the §6Barrel§f, §eclose it with a lid§f, and soon you'll have your §aTannin Fluid!§f",
+		"",
+		"§6The Barrel§f can be §5Automated§f, but it may be a §dtricky automation§f. ",
+		"In a near §bFuture§f tho, you'll be able to §aFully Automate this process§f."
+	],
+	dependencies: [
+		"df224012"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "99c2a118",
+		type: "item",
+		items: [{
+			item: "pyrotech:barrel"
+		}]
+	},
+	{
+		uid: "cc2cb4a9",
+		type: "item",
+		items: [{
+			item: "pyrotech:barrel_lid"
+		}]
+	},
+	{
+		uid: "3630df74",
+		type: "fluid",
+		fluid: "tannin"
+	}],
+	rewards: [{
+		uid: "aa4f0516",
+		type: "item",
+		item: "pyrotech:pyroberry_wine",
+		count: 3
+	},
+	{
+		uid: "083b7812",
+		type: "item",
+		item: "pyrotech:gloamberry_wine",
+		count: 3
+	},
+	{
+		uid: "885ce78b",
+		type: "item",
+		item: "pyrotech:freckleberry_wine",
+		count: 3
+	},
+	{
+		uid: "15a62837",
+		type: "item",
+		item: {
+			id: "pyrotech:bag_simple",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

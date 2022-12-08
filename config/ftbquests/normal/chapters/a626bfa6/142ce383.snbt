@@ -1,0 +1,67 @@
+{
+	title: "Low Voltage Machine Hull",
+	icon: "gregtech:machine 1 986",
+	x: -1.5d,
+	y: 1.5d,
+	description: "Electric Machines Here we go!",
+	text: [
+		"GregTech Machines will always require a corresponding Machine Hull.",
+		"",
+		"- With this LV one, you'll be able to finally craft and start playing with LV Level Machines!",
+		"",
+		"- You'll still need some Circuits to make them tho."
+	],
+	dependencies: [
+		"c6c95544",
+		"d47b02c5"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4c4524e6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 324"
+		}],
+		count: 9L
+	},
+	{
+		uid: "253cf7ff",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 335"
+		}],
+		count: 2L
+	},
+	{
+		uid: "794077ae",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 112"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1b62a44c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 1"
+		}]
+	},
+	{
+		uid: "5a825db2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	}],
+	rewards: [{
+		uid: "c3c25d0a",
+		type: "item",
+		item: "harvestcraft:chocolatesprinklecakeitem"
+	},
+	{
+		uid: "03a95f96",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Time to play with Alchemy!",
+	x: 13.0d,
+	y: -4.0d,
+	description: "A Bloody Alchemy!",
+	text: [
+		"This §6Alchemy Table§f is a must have §e\"machine\"§f from §cBlood Magic§f, you'll be required to §2automate it§f.",
+		"",
+		"- By §6Mixing§f a §acouple of materials§f inside of it and by also using §cLP§f.....",
+		"",
+		"A Ton of different §dEssence's§f!",
+		"",
+		"§8§o~ Don't forget to use your Blood Orb to generate some LP for your own LP Network.§r§f",
+		"",
+		"§8§o~ But, you can also place your Orb in your Altar for it to collect Blood and Convert it into LP.§r§f",
+		"",
+		"§8§o~ LP = Life Points, a type of \"energy\" added by Blood Magic, that can be generated out of Blood or Self Sacrifice via your Orb.§r§f"
+	],
+	dependencies: [
+		"50807baf"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "b48c5e0f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "596065ae",
+		type: "item",
+		item: {
+			id: "bloodmagic:lava_crystal",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "70d5ba19",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

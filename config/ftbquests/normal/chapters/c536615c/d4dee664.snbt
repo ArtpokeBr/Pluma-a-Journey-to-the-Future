@@ -1,0 +1,37 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	description: "{pluma.actsup.subtitle}",
+	text: [
+		"{pluma.actsup.desc1}",
+		"",
+		"{pluma.actsup.desc2}",
+		"",
+		"{pluma.actsup.desc3}",
+		"{pluma.actsup.desc4}",
+		"{pluma.actsup.desc5}",
+		"{pluma.actsup.desc6}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	min_width: 275,
+	tasks: [{
+		uid: "57cdd463",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_active_supplier"
+		}]
+	}],
+	rewards: [{
+		uid: "98a78f66",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f9a2e6d7",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

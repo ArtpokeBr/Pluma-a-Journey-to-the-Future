@@ -1,0 +1,85 @@
+{
+	title: "Crude Tools",
+	x: 0.5d,
+	y: -1.5d,
+	description: "The Simpliest ones that you can get!",
+	text: [
+		"Not much to say, they're very basic, but it is better than your bare hands!",
+		"",
+		"- Oh and you can't make a Sword currently! Watch out for Mobs!"
+	],
+	dependencies: [
+		"3cb0f25f"
+	],
+	tasks: [{
+		uid: "4c16133a",
+		type: "item",
+		items: [{
+			id: "pyrotech:crude_pickaxe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "36d9af78",
+		type: "item",
+		items: [{
+			id: "pyrotech:crude_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3176be9f",
+		type: "item",
+		items: [{
+			id: "pyrotech:crude_hoe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7a8a5485",
+		type: "item",
+		items: [{
+			id: "pyrotech:crude_shovel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a79d26c2",
+		type: "item",
+		items: [{
+			id: "pyrotech:crude_hammer",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1d3e689",
+		type: "item",
+		item: "pyrotech:rock",
+		count: 32
+	},
+	{
+		uid: "709551eb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

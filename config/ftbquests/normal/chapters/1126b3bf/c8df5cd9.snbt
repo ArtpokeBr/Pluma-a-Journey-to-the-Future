@@ -1,0 +1,73 @@
+{
+	title: "Tier 4 Essences",
+	x: 19.5d,
+	y: -4.0d,
+	description: "Better be ready! Things are expensive!",
+	text: [
+		"- Lets make the §aTier 4§f ones!",
+		"",
+		"- You should be able to make them now if you just unlocked this quest.",
+		" if you can't, §5don't forget to come back later§f!",
+		"",
+		"- All §6Essence's§f will also require a §bCatalyst§f to be made, make sure to §2automate§f it beforehand.",
+		"",
+		"§2▬ §nReductus§r§f: §2Orbis Terrae§f, §dMagicales§f, §aEmpowered Emeradic§f, §2Beryllium§f, §5Livingmatter§f.",
+		"",
+		"§8▬ §nTenebrae§r§f: §3Crepious§f, §dMagicales§f, §5Shifting Scales§f, §3Dark Steel Block§f, §8Black Dye§f.",
+		"",
+		"§3▬ §nPraesidium§r§f: §3Crepious§f, §eSanctus§f, §cSplash Potion of Strength§f, §3Coralium Infused Stone§f, §2Hardened Invar Glass§f. ",
+		"",
+		"§9▬ §nPotentia§r§f: §9Tempestas§f, §5Magicales§f, §9Lapis Lazuli Block§f, §ePotentiometer§f, §dWinding Gears§f."
+	],
+	dependencies: [
+		"899d3ab0"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "f7a6f76d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reductus"
+		}]
+	},
+	{
+		uid: "da0a0721",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tenebrae"
+		}]
+	},
+	{
+		uid: "f24c67a1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:praesidium"
+		}]
+	},
+	{
+		uid: "7f547580",
+		type: "item",
+		items: [{
+			item: "contenttweaker:potentia"
+		}]
+	},
+	{
+		uid: "7f677520",
+		type: "item",
+		items: [{
+			item: "contenttweaker:intensive_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "0ccdca77",
+		type: "item",
+		item: "contenttweaker:intensive_catalyst",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "65d96f82",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

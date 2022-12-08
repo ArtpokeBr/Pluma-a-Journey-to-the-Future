@@ -1,0 +1,110 @@
+{
+    "constants": {
+        "tip_interval": 10.0,
+        "tip_seed": "generate_seed()"
+    },
+    "renders": [
+        {
+			"image": {
+				"parent": "builtin/image",
+				"image": "mainmenu:textures/background.png",
+				"position_type": "CENTER",
+				"offset_pos": "CENTER",
+				"position":{
+					"x": "0",
+					"y": "0",
+					"width": "screen_width",
+					"height": "screen_height"
+				},
+				"texture": {
+					"x": "0",
+					"y": "0",
+					"width": "1",
+					"height": "1"
+				}
+			}
+		},
+		{
+			"image": {
+				"parent": "builtin/image",
+				"image": "mainmenu:textures/plumalogo.png",
+				"position_type": "TOP_CENTER",
+				"offset_pos": "TOP_CENTER",
+				"position":{
+					"x": "0",
+					"y": "40",
+					"width": "screen_height / 3.5",
+					"height": "screen_height / 3.5"
+				},
+				"texture": {
+					"x": "0",
+					"y": "0",
+					"width": "1",
+					"height": "1"
+				}
+			}
+        },
+		{
+			"image": {
+				"parent": "builtin/image",
+				"image": "mainmenu:textures/loading.gif",
+				"position_type": "CENTER",
+				"offset_pos": "CENTER",
+				"type": "DYNAMIC",
+				"position":{
+					"x": "0",
+					"y": "70 + (screen_height / 16)",
+					"width": "screen_height / 8",
+					"height": "screen_height / 8"
+				},
+				"texture": {
+					"x": "0",
+					"y": "0",
+					"width": "1",
+					"height": "1"
+				}
+			}
+        },
+		{
+			"image": {
+                "parent": "sample/text_status_white",
+				"position":{
+					"y": "25"
+				}
+			}
+        },
+		{
+			"image": {
+                "parent": "sample/text_sub_status_white",
+				"position":{
+					"y": "35"
+				}
+			}
+        },
+		{
+			"image": {
+                "parent": "sample/text_percentage_white",
+				"position":{
+					"y": "45"
+				}
+			}
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "text": "has_tips() ? tip(floor(time / 8)) : ''",
+                "position_type": "BOTTOM_CENTER",
+                "offset_pos": "BOTTOM_CENTER",
+                "position": { "x": 0, "y": -10 }
+            }
+        }
+    ],
+    "functions":[
+    ],
+    "factories":[
+    ],
+    "actions":[
+    ],
+    "variables":{
+    }
+}

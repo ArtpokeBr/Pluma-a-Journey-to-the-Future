@@ -1,0 +1,164 @@
+{
+	title: "The process to get Leather!",
+	x: 15.5d,
+	y: -2.5d,
+	description: "Expanded and Improved!",
+	text: [
+		"Lets §2process§f those §3Pelts§f and §bHides§f!",
+		"",
+		"§6§l1-§r§f §cScrap it§f with an §cKnife§f to obtain some §3Scraped Leather§f.",
+		"",
+		"§6§l2-§r§f §bWash it§f with some §9Water§f.",
+		"",
+		"§6§l3-§r§f §eMix it§f with some §dSalt§f to get a §3Salted Hide§f.",
+		"",
+		"§6§l4-§r§f §bWash it again§f, but now with §dTannin§f to obtain a §3Tanned Hide§f.",
+		"",
+		"§6§l5-§r§f §2Place§f your §3Tanned Hide§f in a §bTanning Rack§f. Once the §2process§f is done you'll have §6Leather§f!",
+		"",
+		"§8§o(This whole process is also applicable to Small Hides)§r§f",
+		"",
+		"§8§o~ Dont forget that you can convert Small Leather into Normal Leather by Compressing them.§r",
+		"",
+		"§8§o~ Don't know how to get salt? there's actually an Ore for it!§r§f",
+		"",
+		"§8§o~ Don't worry, you'll be able to Automate this process with GregTech in the Future.§r"
+	],
+	dependencies: [
+		"51d14f92"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "437fac7b",
+		type: "item",
+		title: "Any \"Raw Leather\"",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rawHide"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "rawHide"
+				}
+			}
+		},
+		{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rawSmallHide"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "rawSmallHide"
+				}
+			}
+		}]
+	},
+	{
+		uid: "f0fd7ab2",
+		type: "item",
+		title: "Any Scraped Hide",
+		items: [{
+			item: "pyrotech:hide_scraped"
+		},
+		{
+			item: "pyrotech:hide_small_scraped"
+		}]
+	},
+	{
+		uid: "35f53c75",
+		type: "item",
+		title: "Any Washed Hide",
+		items: [{
+			item: "pyrotech:hide_washed"
+		},
+		{
+			item: "pyrotech:hide_small_washed"
+		}]
+	},
+	{
+		uid: "edbd169c",
+		type: "item",
+		title: "Any Salted Hide",
+		items: [{
+			item: "contenttweaker:saltedhide"
+		},
+		{
+			item: "contenttweaker:small_hide_salted"
+		}]
+	},
+	{
+		uid: "47c46ff4",
+		type: "item",
+		title: "Any Tanned Hide",
+		items: [{
+			item: "pyrotech:hide_tanned"
+		},
+		{
+			item: "pyrotech:hide_small_tanned"
+		}]
+	},
+	{
+		uid: "bec5ac9f",
+		type: "item",
+		title: "Any Leather",
+		items: [{
+			item: "minecraft:leather"
+		},
+		{
+			item: "pyrotech:material 1 45"
+		}]
+	}],
+	rewards: [{
+		uid: "0e3f1a71",
+		type: "item",
+		item: {
+			id: "harvestcraft:hardenedleatherhelmitem",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "009222a3",
+		type: "item",
+		item: {
+			id: "harvestcraft:hardenedleatherchestitem",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "a28b9aeb",
+		type: "item",
+		item: {
+			id: "harvestcraft:hardenedleatherleggingsitem",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "f9d15ce7",
+		type: "item",
+		item: {
+			id: "harvestcraft:hardenedleatherbootsitem",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "0e4420eb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

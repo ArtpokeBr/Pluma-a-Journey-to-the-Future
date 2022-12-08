@@ -1,0 +1,45 @@
+{
+	title: "{pluma.logreqtable.title}                 ",
+	x: -2.5d,
+	y: 0.5d,
+	description: "{pluma.logreqtable.subtitle}",
+	text: [
+		"{pluma.logreqtable.desc1}",
+		"",
+		"{pluma.logreqtable.desc2}",
+		"",
+		"{pluma.logreqtable.desc3}",
+		"",
+		"{pluma.logreqtable.desc4}",
+		"",
+		"{pluma.logreqtable.desc5}",
+		"",
+		"{pluma.logreqtable.desc6}"
+	],
+	dependencies: [
+		"59e8425d",
+		"49e7a420"
+	],
+	tasks: [{
+		uid: "d481ae8d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request_table"
+		}]
+	}],
+	rewards: [{
+		uid: "ded54800",
+		type: "item",
+		item: "logisticspipes:pipe_crafting"
+	},
+	{
+		uid: "6cc318d4",
+		type: "item",
+		item: "logisticspipes:pipe_request_mk2"
+	},
+	{
+		uid: "decb6ada",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

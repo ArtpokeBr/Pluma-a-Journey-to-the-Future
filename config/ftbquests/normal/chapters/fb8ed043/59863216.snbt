@@ -1,0 +1,55 @@
+{
+	title: "Early Game Automations",
+	x: 5.5d,
+	y: 1.5d,
+	description: "Time to make an Mechanical Hopper!",
+	text: [
+		"Hoppers aren't that cheap currently, but you're able to automate still!",
+		"",
+		"- Mechanical Hoppers need Cogs to operate, different Cogs will offer diferent stats",
+		"",
+		"~ Tip: Use them in your Pyrotech Devices as most of them can be automated with these."
+	],
+	dependencies: [
+		"f9401412"
+	],
+	tasks: [{
+		uid: "6a4fc918",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_hopper"
+		}]
+	},
+	{
+		uid: "a4854145",
+		type: "item",
+		items: [{
+			id: "pyrotech:cog_flint",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3208fc86",
+		type: "item",
+		item: "pyrotech:mechanical_hopper"
+	},
+	{
+		uid: "92532c20",
+		type: "item",
+		item: {
+			id: "pyrotech:cog_flint",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "7a7844ef",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,62 @@
+{
+	title: "Let the Trials begin!",
+	x: 10.5d,
+	y: -11.0d,
+	description: "Please insert an Deep Mob Learning Activation Key",
+	text: [
+		"Now that you have at least a §eMaxed out§f §bData model§f, make some §3Trial Keys and the Keystone§f!",
+		"",
+		"- §3Trials§f will be actually a way to §2get resources from DML§f before you actually have a §eComputer§f.",
+		"",
+		"- §2But most importantly§f, you'll be looking for §bSystem Glitches§f, that's why you'll need a §eMaxed Out§f §bModel§f.",
+		"",
+		"- By carrying §3Trial Keys§f in your §ainventory§f, the next time you §ckill a mob§f of the §dsame type§f of the §bModel§f that you're §ecarrying aswell§f §8§o(I hope)§f§r, §9it will attune itself to it§f.",
+		"",
+		"- §3Trials§f will be basically §cEnemy Wave event§f, when you §dclear the wave§f, a §dnew one§f will soon §dcome§f and so on.",
+		"",
+		"- §aAt any time§f, a §bSystem Glitch§f can ocurr, be ready to §2take care of it§f!",
+		"",
+		"- §cRemember§f to bring §9Soul Vials§f! as §ayou'll need capture§f at least one §bSystem Glitch§f in order to start farming §bGlitch Hearts§f.",
+		"",
+		"- Oh, and if you didn't understand yet, simply place your §9Attuned Keys§f inside of the §3Trial Keystone§f, the Trial will be based on the level of it."
+	],
+	dependencies: [
+		"e42c79e5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a4d3756b",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	},
+	{
+		uid: "f68aceae",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:trial_key",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7d50eef",
+		type: "item",
+		item: {
+			id: "deepmoblearning:trial_key",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		random_bonus: 3
+	},
+	{
+		uid: "e03b7e3a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

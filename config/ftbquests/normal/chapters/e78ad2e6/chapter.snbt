@@ -1,0 +1,162 @@
+{
+	title: "Chapter 4: Beelive in your Dreams",
+	icon: {
+		id: "forestry:bee_queen_ge",
+		tag: {
+			MaxH: 20,
+			Mate: {
+				Chromosomes: [{
+					UID1: "forestry.speciesForest",
+					UID0: "forestry.speciesForest",
+					Slot: 0b
+				},
+				{
+					UID1: "forestry.speedSlowest",
+					UID0: "forestry.speedSlowest",
+					Slot: 1b
+				},
+				{
+					UID1: "forestry.lifespanShorter",
+					UID0: "forestry.lifespanShorter",
+					Slot: 2b
+				},
+				{
+					UID1: "forestry.fertilityHigh",
+					UID0: "forestry.fertilityHigh",
+					Slot: 3b
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 4b
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 5b
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 6b
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 7b
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 8b
+				},
+				{
+					UID1: "forestry.flowersVanilla",
+					UID0: "forestry.flowersVanilla",
+					Slot: 9b
+				},
+				{
+					UID1: "forestry.floweringSlower",
+					UID0: "forestry.floweringSlower",
+					Slot: 10b
+				},
+				{
+					UID1: "forestry.territoryAverage",
+					UID0: "forestry.territoryAverage",
+					Slot: 11b
+				},
+				{
+					UID1: "forestry.effectNone",
+					UID0: "forestry.effectNone",
+					Slot: 12b
+				}]
+			},
+			Health: 20,
+			IsAnalyzed: 0b,
+			Genome: {
+				Chromosomes: [{
+					UID1: "forestry.speciesForest",
+					UID0: "forestry.speciesForest",
+					Slot: 0b
+				},
+				{
+					UID1: "forestry.speedSlowest",
+					UID0: "forestry.speedSlowest",
+					Slot: 1b
+				},
+				{
+					UID1: "forestry.lifespanShorter",
+					UID0: "forestry.lifespanShorter",
+					Slot: 2b
+				},
+				{
+					UID1: "forestry.fertilityHigh",
+					UID0: "forestry.fertilityHigh",
+					Slot: 3b
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 4b
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 5b
+				},
+				{
+					UID1: "forestry.toleranceNone",
+					UID0: "forestry.toleranceNone",
+					Slot: 6b
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 7b
+				},
+				{
+					UID1: "forestry.boolFalse",
+					UID0: "forestry.boolFalse",
+					Slot: 8b
+				},
+				{
+					UID1: "forestry.flowersVanilla",
+					UID0: "forestry.flowersVanilla",
+					Slot: 9b
+				},
+				{
+					UID1: "forestry.floweringSlower",
+					UID0: "forestry.floweringSlower",
+					Slot: 10b
+				},
+				{
+					UID1: "forestry.territoryAverage",
+					UID0: "forestry.territoryAverage",
+					Slot: 11b
+				},
+				{
+					UID1: "forestry.effectNone",
+					UID0: "forestry.effectNone",
+					Slot: 12b
+				}]
+			}
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "hexagon",
+	images: [{
+		x: 2.0d,
+		y: -5.0d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/beebanner.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "The Start of your Empyre!",
+	x: 9.5d,
+	y: -2.0d,
+	description: "Not to be confusive but, This Pyre is specificaly for Magic Crafts! it is like a magic brother to the Campfire.",
+	text: [
+		"As it was hinted in the Subtitle, the Pyre will be required to make some Special Roots rituals ",
+		"",
+		"Aswell as crafting important crops and items required to progress in the Mod.",
+		"",
+		"To use it, simply right click with the correct items to place them into it and them light up a fire close to it!",
+		"",
+		"Quick tip for automation: The Pyre can be automated and you can light up the pyre itself or around it",
+		"",
+		"Also, the crafting process will continue if you keep providing it with the correct materials!"
+	],
+	dependencies: [
+		"f12701b1",
+		"20ad04a6"
+	],
+	tasks: [{
+		uid: "4a8a6aa6",
+		type: "item",
+		items: [{
+			item: "roots:pyre"
+		}]
+	}],
+	rewards: [{
+		uid: "bcdc31c5",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

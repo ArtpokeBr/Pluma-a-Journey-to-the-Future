@@ -1,0 +1,68 @@
+{
+	title: "Obtaining Better Circuit Boards!",
+	icon: "gregtech:meta_item_1 1 402",
+	x: -7.0d,
+	y: -12.5d,
+	description: "Prepare a Rubber Tree Orchard",
+	text: [
+		"For your Future MV Circuits, you'll need a Better Circuit Board... Lets make it!",
+		"",
+		"- First get some Sticky Resin and Centrifuge it into Glue.",
+		"",
+		"- With some Glue, use an Assembler and some Wood Pulp to make a Phenolic Circuit Board",
+		"",
+		"- Them, simply surround it with some Silver Wires and you'll get a Good Circuit Board!",
+		"",
+		"~ This is a Standart procedure in GregTech, Improved Circuit Components will be required as you progress."
+	],
+	dependencies: [
+		"79de99ac"
+	],
+	tasks: [{
+		uid: "67389cbd",
+		type: "fluid",
+		fluid: "glue"
+	},
+	{
+		uid: "a8672b8f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 382"
+		}]
+	},
+	{
+		uid: "143e812c",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 100"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5adf9147",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 402"
+		}]
+	}],
+	rewards: [{
+		uid: "d932f093",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "glue",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "9ef605fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

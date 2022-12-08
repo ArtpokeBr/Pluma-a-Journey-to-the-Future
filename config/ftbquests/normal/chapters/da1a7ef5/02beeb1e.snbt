@@ -1,0 +1,32 @@
+{
+	title: "Totems are awesome!",
+	icon: {
+		id: "totemic:totempedia",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 0.0d,
+	y: -3.0d,
+	description: "They can provide you with actually benefits!",
+	text: [
+		"Take your time, read the Totemic Manual for more knowladge about every totem buff that you can obtain",
+		"",
+		"But remember that the range is limited!",
+		"",
+		"For example, with a Bat totem, you can have a \"Glider\" effect when pressing shift mid air close to the Totem!"
+	],
+	dependencies: [
+		"2330acee"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3848904d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6b13a6c2",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "A Special Ingot out of Ender Itself!",
+	x: 1.5d,
+	y: 1.5d,
+	description: "Enderium!",
+	text: [
+		"A Special Ingot made of pure §dEnd Energy§f!",
+		"",
+		"- Specially usefull for §3Thermal Expansion Upgrades§f and §emore§f!"
+	],
+	dependencies: [
+		"5c91e6d0"
+	],
+	tasks: [{
+		uid: "d4c3193e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32031"
+		}]
+	},
+	{
+		uid: "2de52ed1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32031"
+		}]
+	}],
+	rewards: [{
+		uid: "d27c7451",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 3"
+	},
+	{
+		uid: "9224af7c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

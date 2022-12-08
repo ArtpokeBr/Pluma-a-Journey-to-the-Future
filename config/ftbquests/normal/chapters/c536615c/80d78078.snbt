@@ -1,0 +1,30 @@
+{
+	title: "{pluma.polysink.title}",
+	x: 4.5d,
+	y: 0.5d,
+	description: "{pluma.polysink.subtitle}",
+	text: [
+		"{pluma.polysink.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "5f456728",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_item_sink_polymorphic"
+		}]
+	}],
+	rewards: [{
+		uid: "b238f3d6",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "cc47e0ed",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

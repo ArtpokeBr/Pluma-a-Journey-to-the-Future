@@ -1,0 +1,54 @@
+{
+	title: "Cableman's Delight",
+	icon: "appliedenergistics2:part 1 16",
+	x: 1.0d,
+	y: 0.0d,
+	description: "AE2 Cables are very interesting!",
+	text: [
+		"There are a few things to keep in mind when routing your §dAE Network§f:",
+		"",
+		"- §aNormal Sized Cables§f can transfer up to §58 Channels§f.",
+		"",
+		"- §2Dense Sized Cables§f can transfer up to §532 Channels§f.",
+		"",
+		"- §6Cables§f can be §b\"Smart\"§f, this means that it can provide you with the exact amount of §2Channels§f that are §2currently in use§f.",
+		"",
+		"- §6Cables§f can be §9D§f§ay§f§ce§f§ed§f, use this in order to better organize your §dNetwork§f."
+	],
+	dependencies: [
+		"dce6647b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "54e0047f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}]
+	},
+	{
+		uid: "629d103c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}]
+	}],
+	rewards: [{
+		uid: "5c6694aa",
+		type: "item",
+		item: "appliedenergistics2:part 1 16",
+		count: 16
+	},
+	{
+		uid: "46a5c307",
+		type: "item",
+		item: "appliedenergistics2:part 1 140",
+		count: 8
+	},
+	{
+		uid: "562fb055",
+		type: "item",
+		item: "appliedenergistics2:part 1 120",
+		count: 32
+	}]
+}

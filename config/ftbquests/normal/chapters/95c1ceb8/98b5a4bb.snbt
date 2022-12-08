@@ -1,0 +1,127 @@
+{
+	title: "Clean yourself!",
+	icon: "gregtech:machine 1 1035",
+	x: 8.777210884353728d,
+	y: -7.502551020408163d,
+	description: "Time to make assemble a Cleanroom!",
+	text: [
+		"§6The Cleanroom§f is a very special Multiblock that is required for the most §aadvanced tech§f that you'll find.",
+		"",
+		"- §bComplex Circuits§f will require a §6Circuit Assembler inside§f of this §9enclosed and clean area§f.",
+		"",
+		"- §dFollow the JEI§f for structure guidelines, but here's some tips:",
+		"",
+		"~ You can use both a §eDiode§f and an §eHull§f to get §eEnergy In or Out§f.",
+		"",
+		"~ You can use §9Cleanroom Glass§f in the structure",
+		"",
+		"~ If you §eOverclock§f this Multiblock, it will §9clean itself faster§f.",
+		"",
+		"And to top it off:",
+		"",
+		"§c§l~ THE CONTROLLER IS SIDED, TRY TO ROTATE IT IF THE STRUCTURE DOESN'T FORM!§r§f"
+	],
+	dependencies: [
+		"4a71e386"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "9c2aa4a9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1035"
+		}]
+	},
+	{
+		uid: "b398a394",
+		type: "item",
+		items: [{
+			item: "gregtech:cleanroom_casing"
+		}],
+		count: 75L
+	},
+	{
+		uid: "24ea6cdc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1402"
+		}]
+	},
+	{
+		uid: "d168049b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1403"
+		}]
+	},
+	{
+		uid: "5821a9b9",
+		type: "item",
+		title: "A Maintenance Hatch",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		},
+		{
+			item: "gregtech:machine 1 1655"
+		},
+		{
+			item: "gregtech:machine 1 1656"
+		}]
+	},
+	{
+		uid: "97fab4be",
+		type: "item",
+		title: "A Hull to move energy in",
+		items: [{
+			item: "gregtech:machine 1 988"
+		},
+		{
+			item: "gregtech:machine 1 987"
+		},
+		{
+			item: "gregtech:machine 1 986"
+		}]
+	},
+	{
+		uid: "7e865e61",
+		type: "item",
+		title: "A Energy Hatch",
+		items: [{
+			item: "gregtech:machine 1 1211"
+		},
+		{
+			item: "gregtech:machine 1 1212"
+		},
+		{
+			item: "gregtech:machine 1 1213"
+		}]
+	},
+	{
+		uid: "fb1307e7",
+		type: "item",
+		items: [{
+			item: "gregtech:cleanroom_casing 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0fca562c",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 80s,
+			tag: {
+				Fluid: {
+					FluidName: "plastic",
+					Amount: 8000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "65f013c7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

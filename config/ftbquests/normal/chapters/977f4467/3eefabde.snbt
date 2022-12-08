@@ -1,0 +1,51 @@
+{
+	title: "Time to beat the Hydra!",
+	icon: "twilightforest:trophy 1 2",
+	x: 5.25d,
+	y: -0.75d,
+	shape: "octagon",
+	description: "Just like Hercules",
+	text: [
+		"Not far from §3Minotaurs§f, you'll find a §4Fire Swamps§f! And, if you didn't eat at least §e1 Stroganoff§f, you'll not have a §eimmunity to the fiery gas§f here present.",
+		"",
+		"- §6The Hydra§f will be inside of its lair, §asimply waiting§f.",
+		"",
+		"- It isn't an Easy Fight... as you'll pretty much be §cset on fire all the time§f, §5bring potions§f!",
+		"",
+		"- After you §ckill it§f, it will drop an §2Important material§f, §6Fiery Blood/Tears§f!"
+	],
+	dependencies: [
+		"8c8e23c3"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "0c720001",
+		type: "kill",
+		icon: "twilightforest:trophy 1 2",
+		entity: "twilightforest:hydra",
+		value: 1L
+	},
+	{
+		uid: "37b4acc0",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_blood"
+		},
+		{
+			item: "twilightforest:fiery_tears"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "b2dbf63f",
+		type: "item",
+		item: "twilightforest:fiery_ingot",
+		count: 8
+	},
+	{
+		uid: "bf85294c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

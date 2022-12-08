@@ -1,0 +1,50 @@
+{
+	title: "The Process of Making Dark Steel §6 Final Part§f",
+	x: 3.5d,
+	y: -9.5d,
+	description: "Finally, Dark Steel!",
+	text: [
+		"After all of your preparations, By Alloying some §5Refined Obsidian§f and some §8Black Steel§f inside a §6Blast Furnace§f, §3Dark Steel§f!",
+		"",
+		"- §3Dark Steel§f is a key Material for §9Ender IO§f, is advised for you to set a §6Passive Automation§f or §6Batch Craft it§f.",
+		"",
+		"- Also, you'll probally notice in §6JEI§f, but you didn't, You can use §bOxygen§f inside of a §6Blast Furnace§f to §4Speed up§f and §4decrease§f the §4Costs§f of this Recipe§f."
+	],
+	dependencies: [
+		"ba59c219",
+		"f057b9f1"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b5b61a70",
+		type: "item",
+		title: "Dark Steel",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotDarkSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotDarkSteel"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5b08c77a",
+		type: "item",
+		item: "gregtech:meta_ingot 1 32008",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "4b7610bf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

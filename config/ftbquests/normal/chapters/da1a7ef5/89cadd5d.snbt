@@ -1,0 +1,30 @@
+{
+	title: "Tier 0 Rituals are now a Thing!",
+	x: 10.5d,
+	y: -1.0d,
+	description: "With your Pyre, you can start making some simple Rituals!",
+	text: [
+		"Currently, with no Runestones, wich you'll unlock later, you can make some Tier 0 Rituals from Roots:",
+		"",
+		"- Groove Supplication: A Needed Ritual for the Fey Crafter to Work, and it is also know as a way to grow grass nearby.",
+		"",
+		"- Flower Growth: An Abundance of Varied Flowers will grow around the pyre, usefull for farming Dyes.",
+		"",
+		"- Gathering: Collects items around the Pyre (not beneath it) and stores in an Adjacent inventory, usefull for some farms!"
+	],
+	dependencies: [
+		"17db2348"
+	],
+	tasks: [{
+		uid: "b5be949f",
+		type: "item",
+		items: [{
+			item: "roots:grove_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "9af1beda",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

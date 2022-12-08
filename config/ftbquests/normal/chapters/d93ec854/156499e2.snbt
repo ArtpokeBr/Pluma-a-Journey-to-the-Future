@@ -1,0 +1,107 @@
+{
+	title: "An Ultra Rare Ancient Set!",
+	x: -1.0d,
+	y: -4.0d,
+	description: "Collect them all....... if you can!",
+	text: [
+		"These Tools are very rare to obtain, perhaps they'll have some use in the Future?",
+		"",
+		"- Overall, good luck trying to obtain all of them!"
+	],
+	dependencies: [
+		"3b7886af"
+	],
+	tasks: [{
+		uid: "ee3e93bc",
+		type: "item",
+		items: [{
+			id: "fossil:scarab_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b44af11e",
+		type: "item",
+		items: [{
+			id: "fossil:scarab_pickaxe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbd8793d",
+		type: "item",
+		items: [{
+			id: "fossil:scarab_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54981cb1",
+		type: "item",
+		items: [{
+			id: "fossil:scarab_hoe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff5de372",
+		type: "item",
+		items: [{
+			id: "fossil:scarab_shovel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e30cb5c",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 70s
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "b11cb905",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 34s
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "d8fdf221",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

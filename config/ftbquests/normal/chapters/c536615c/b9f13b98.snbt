@@ -1,0 +1,58 @@
+{
+	title: "Silicon Boules",
+	icon: "gregtech:meta_item_1 1 361",
+	x: -2.0d,
+	y: -13.0d,
+	description: "Looks like a Silicon Bullet, Doesn't it?",
+	text: [
+		"For your §3Future Circuits§f, you'll need some §6Silicon Wafers§f, and the first step is the §9Boule§f!",
+		"",
+		"- If you're wondering how to obtain a ton o §6Silicon Dust§f, maybe it is a good idea to make an §3MV Electrolyzer§f and use §9Clay Dust§f to get it!",
+		"",
+		"- Also, thank god this §9Boules§f actually reward you with §616 Wafers§f after you cut them, wich can last for a little bit."
+	],
+	dependencies: [
+		"36e5c070"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "75ed4dc6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 99"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7a655a13",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 351"
+		}]
+	},
+	{
+		uid: "3123a62e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 361"
+		}]
+	},
+	{
+		uid: "b588ded6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 371"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "78561c99",
+		type: "item",
+		item: "gregtech:meta_item_1 1 361"
+	},
+	{
+		uid: "5edba57b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

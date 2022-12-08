@@ -1,0 +1,34 @@
+{
+	title: "{pluma.tabsup.title}",
+	x: 3.0d,
+	y: -0.5d,
+	description: "{pluma.tabsup.subtitle}",
+	text: [
+		"{pluma.tabsup.desc1}",
+		"",
+		"{pluma.tabsup.desc2}",
+		"",
+		"{pluma.tabsup.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "a33e3dbe",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_item_sink_creativetab"
+		}]
+	}],
+	rewards: [{
+		uid: "d55c1e3a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "75f98a0d",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

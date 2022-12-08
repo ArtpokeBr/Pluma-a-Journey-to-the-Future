@@ -1,0 +1,37 @@
+{
+	title: "America! F*ck Yeah!",
+	x: 3.5d,
+	y: -4.0d,
+	description: "Time to make the Eagle dance! it will require all your patriotism and Melody available",
+	text: [
+		"As it was said in the Subtitle, time to make the Eagle Dance! it will convert 2 nearbly Parrots into Bald Eagles!",
+		"",
+		"- They can be tamed and breeded with Salmon.",
+		"",
+		"- Unfortunatly, you'll need to kill at least 1 eagle to obtain its precious drops!",
+		"",
+		"(Parrots Spawn Rates have been Increased, you should find them in jungles easily)"
+	],
+	dependencies: [
+		"97475e1d"
+	],
+	tasks: [{
+		uid: "05a6f054",
+		type: "item",
+		items: [{
+			item: "totemic:eagle_drops 1 1"
+		}]
+	},
+	{
+		uid: "12cb8ea6",
+		type: "item",
+		items: [{
+			item: "totemic:eagle_drops"
+		}]
+	}],
+	rewards: [{
+		uid: "90afca5b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

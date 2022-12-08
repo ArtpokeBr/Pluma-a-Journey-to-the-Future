@@ -1,0 +1,37 @@
+{
+	title: "A Vanilla Furnace",
+	x: 12.0d,
+	y: 3.5d,
+	description: "When you're a Simplistic Person",
+	text: [
+		"Now that you have acess to Seared Bricks, you can craft a Vanilla Furnace!",
+		"",
+		"- In terms of efficiency, the Pyrotech ones specially the Refractory one will be better at that.",
+		"",
+		"- But, this Furnace will be a key device for some Craftings actually.",
+		"",
+		"~ In the Next Quest you'll be able to craft a Seared Furnace for example, wich is INSANE for Smelting Stuff! :)"
+	],
+	dependencies: [
+		"f7a19676"
+	],
+	tasks: [{
+		uid: "aa684d7b",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "d18f6743",
+		type: "item",
+		team_reward: false,
+		item: "harvestcraft:lemonchickenitem",
+		count: 4
+	},
+	{
+		uid: "0a8fe63e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

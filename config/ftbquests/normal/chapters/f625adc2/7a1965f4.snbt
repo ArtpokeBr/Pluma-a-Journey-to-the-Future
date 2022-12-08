@@ -1,0 +1,36 @@
+{
+	title: "A Botanical Circuit §6Final Part§f",
+	x: 3.0d,
+	y: -3.0d,
+	description: "An Integrated Botanical Circuit at last!",
+	text: [
+		"Finally, a §bMajor Progress in Botania§f!",
+		"",
+		"- §aThis Circuit§f will be used in a lot of §5special recipes§f for §bAdvanced Botanical Components§f and for §aProgression§f!",
+		"",
+		"§8§o~ Better start thinking about automating Terrasteel!§r§f"
+	],
+	dependencies: [
+		"2be1c4c5",
+		"cb7427da"
+	],
+	size: 1.5d,
+	min_width: 200,
+	tasks: [{
+		uid: "9232be06",
+		type: "item",
+		items: [{
+			item: "contenttweaker:integrated_botanical_processor"
+		}]
+	}],
+	rewards: [{
+		uid: "688bc74c",
+		type: "item",
+		item: "botania_tweaks:compressed_tiny_potato_8"
+	},
+	{
+		uid: "100df100",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

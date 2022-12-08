@@ -1,0 +1,34 @@
+{
+	title: "EV Circuits!",
+	x: 10.5d,
+	y: -7.5d,
+	description: "Time to make some EV Circuits!",
+	text: [
+		"By using some §6HV Assembly's§f and a couple more of §2Materials§f, you'll obtain a §aWorkstation§f, this is your first §6EV Circuit§f!",
+		"",
+		"- §eCongrats§f! with this §3Circuit§f and a little bit of §dTitanium§f, you'll get officially to §6EV§f!"
+	],
+	dependencies: [
+		"98b5a4bb"
+	],
+	size: 1.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "b498379f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 630"
+		}]
+	}],
+	rewards: [{
+		uid: "90f52545",
+		type: "item",
+		item: "gregtech:meta_item_1 1 630",
+		count: 3
+	},
+	{
+		uid: "e243c92e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

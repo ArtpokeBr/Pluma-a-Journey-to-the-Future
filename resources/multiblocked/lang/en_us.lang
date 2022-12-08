@@ -1,0 +1,28 @@
+multiblocked.multiblock.formed= Formed!
+
+
+tile.multiblocked.fluid.any.name=§aAny Block§f Capable of Storing and Handling with §9Fluids§f
+tile.multiblocked.item.any.name=§aAny Block§f Capable of Storing and Handling with §2Items§f
+tile.multiblocked.gtce_energy.any.name=§aAny Block§f Capable of Storing and Handling with §eEU§f
+tile.multiblocked.bot_mana.any.name=§aAny Block§f Capable of Storing and Handling with §bBotania Mana§f
+
+
+tile.mbd.mana_extrapolator.name=Mana Extrapolator
+mana_extrapolator.name=Mana Extrapolator
+mbd.mana_extrapolator.description=Capable of Extrapolating §bMana§f into a §9Fluid§f Form and vice versa.
+multiblocked.recipe_map.mana_extrapolator=Mana Extrapolator
+
+tile.mbd.dwarven_matrix.name=Dwarven Matrix
+dwarven_matrix.name=Dwarven Matrix
+mbd.dwarven_matrix.description=Capable of Mixing §2Items§f with the raw powers of §6Ember§f! may end in varied results.
+multiblocked.recipe_map.dwarven_matrix=Dwarven Matrix
+
+tile.mbd.ender_molecular_manipulator.name=Ender Molecular Manipulator
+mbd.ender_molecular_manipulator.description=A Machine that Manipulates §3Ender Particles§f into usefull §2Results§f.
+ender_molecular_manipulator.name=Ender Molecular Manipulator
+multiblocked.recipe_map.ender_molecular_manipulator=Ender Molecular Manipulator
+
+tile.mbd.time_manipulator.name=Time Manipulator
+mbd.time_manipulator.description=A Machine that Manipulates §6Time Itself§f to convert items into their old §2forms§f.
+time_manipulator.name=Time Manipulator
+multiblocked.recipe_map.time_manipulator=Time Manipulator

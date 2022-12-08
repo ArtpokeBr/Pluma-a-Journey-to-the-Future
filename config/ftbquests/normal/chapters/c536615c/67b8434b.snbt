@@ -1,0 +1,33 @@
+{
+	x: -5.25d,
+	y: -0.5d,
+	shape: "square",
+	description: "{pluma.logcraftsign.subtitle}",
+	text: [
+		"{pluma.logcraftsign.desc1}",
+		"",
+		"{pluma.logcraftsign.desc2}"
+	],
+	dependencies: [
+		"59e8425d"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "5f36e117",
+		type: "item",
+		items: [{
+			id: "logisticspipes:sign_creator",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a5927d9",
+		type: "choice",
+		title: "Choose a Paint Spray!",
+		table: 5
+	}]
+}

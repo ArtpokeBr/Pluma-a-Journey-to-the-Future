@@ -1,0 +1,38 @@
+{
+	title: "With All the Powers Combined!",
+	x: 7.5d,
+	y: 4.5d,
+	description: "Cobalt Brass!",
+	text: [
+		"Now, with all the recent Dusts you've been gathering... it is time!",
+		"",
+		"- Cobalt can be mined in The Nether",
+		"",
+		"- Brass can be made out of the Zinc that you've recently acquired",
+		"",
+		"- Aluminium.... Yeah, you've recently Electrolyzed that aswell!"
+	],
+	dependencies: [
+		"680a4fb7",
+		"885dc2fa"
+	],
+	tasks: [{
+		uid: "994cb8cc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2014"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5d53272c",
+		type: "item",
+		item: "harvestcraft:hotdishcasseroleitem",
+		count: 2
+	},
+	{
+		uid: "1f1eb3f2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

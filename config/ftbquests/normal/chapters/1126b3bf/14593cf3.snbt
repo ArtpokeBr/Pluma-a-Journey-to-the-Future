@@ -1,0 +1,28 @@
+{
+	title: "The End?",
+	icon: "minecraft:end_portal_frame",
+	x: -2.0d,
+	y: -2.0d,
+	description: "The Cake is a Lie",
+	text: [
+		"Be ready to kill the §6Dragon§f and start §5The End Progression§f!",
+		"",
+		"Here, take some §3Empty Bottles§f to collect §dDragon's Breath§f."
+	],
+	dependencies: [
+		"afb86180"
+	],
+	size: 2.0d,
+	min_width: 250,
+	tasks: [{
+		uid: "0e18ae71",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "8b895279",
+		type: "item",
+		item: "minecraft:glass_bottle",
+		count: 64
+	}]
+}

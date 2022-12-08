@@ -1,0 +1,43 @@
+{
+	title: "Better LV Circuits!",
+	x: 3.0d,
+	y: -14.5d,
+	description: "Finally some Cheaper Circuits!",
+	text: [
+		"Currently they might not look that §acheaper§f, but once you progress and improve your infrastructure... you'll see!",
+		"",
+		"- Most importatly, as it was mentioned before, you'll need these for better §6MV Circuits§f aswell."
+	],
+	dependencies: [
+		"25408e7b"
+	],
+	size: 1.5d,
+	min_width: 260,
+	tasks: [{
+		uid: "326fd601",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 623"
+		}]
+	}],
+	rewards: [{
+		uid: "357a4aef",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "soldering_alloy",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "b6a184b2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

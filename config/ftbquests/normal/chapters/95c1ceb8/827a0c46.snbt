@@ -1,0 +1,54 @@
+{
+	title: "An Chemical for Coating Boards!",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "iron_iii_chloride",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 1.0d,
+	y: -7.5d,
+	description: "Hydrochloric Acid + Iron Dust = Iron III Chloride",
+	text: [
+		"Told ya §3Hydrochloric Acid§f would be usefull!, and it is usefull now!",
+		"",
+		"- §6Iron III Chloride§f is, together with §3Sodium Persulfate§f, the §9Chemical§f that you're going to use to coat §2Circuit Boards§f.",
+		"",
+		"- It has a §dsimple recipe§f, so I recommend that you §dAutomate it§f.",
+		"",
+		"- Also, it is a good idea to verify your §6Circuit Assembling Infrastructrure§f since using this §9Chemical§f will make things §2Cheaper§f."
+	],
+	dependencies: [
+		"cfce84a9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "d0cf90bf",
+		type: "fluid",
+		fluid: "iron_iii_chloride"
+	}],
+	rewards: [{
+		uid: "17ebdfb6",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "iron_iii_chloride",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "c94f64da",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	title: "A Rubbery Situation",
+	icon: "gregtech:meta_ingot 1 1068",
+	x: -1.5d,
+	y: 0.0d,
+	description: "Time to start making Rubber!",
+	text: [
+		"Rubber will be used for a variety of Recipes, but mainly for cable insulation.",
+		"",
+		"- Sulfur can be obtained in The Nether, don't have acess to it? Progress trough the Chapter 3 to unlock it.",
+		"",
+		"- Rubber Pulps can be obtained by extracting out of Slime or Sticky Resin.",
+		"",
+		"~ Time to Plant some Rubber Tree's!"
+	],
+	dependencies: [
+		"26a94e9b",
+		"9ca34d3c"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "d124b55c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 438"
+		}]
+	},
+	{
+		uid: "86967054",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1002"
+		}],
+		count: 3L
+	},
+	{
+		uid: "c9311891",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 103"
+		}]
+	},
+	{
+		uid: "4cfc2c0b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1068"
+		}]
+	}],
+	rewards: [{
+		uid: "5fb831c4",
+		type: "choice",
+		title: "Choose your Reward",
+		icon: "gregtech:meta_ingot 1 1068",
+		team_reward: false,
+		table: 2
+	},
+	{
+		uid: "a8147a28",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

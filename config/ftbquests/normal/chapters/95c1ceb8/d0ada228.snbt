@@ -1,0 +1,41 @@
+{
+	title: "Lets automate Growth Medium §6Part II§f",
+	icon: "gregtech:meta_dust 1 1608",
+	x: 7.0d,
+	y: -5.5d,
+	description: "Refining Gelatin into Agar",
+	text: [
+		"Now, it is time to §6Refine§f that §3Gelatin§f with an §6HV Autoclave§f!",
+		"",
+		"- Remember that you'll need also some §9Distilled Water§f."
+	],
+	dependencies: [
+		"ad3bc702"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "ab7798da",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1608"
+		}]
+	},
+	{
+		uid: "103fd912",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 127"
+		}]
+	}],
+	rewards: [{
+		uid: "30400d70",
+		type: "item",
+		item: "gregtech:meta_item_1 1 625",
+		random_bonus: 1
+	},
+	{
+		uid: "621674a9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

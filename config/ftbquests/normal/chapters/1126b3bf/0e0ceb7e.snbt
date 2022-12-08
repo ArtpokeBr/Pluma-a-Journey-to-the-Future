@@ -1,0 +1,105 @@
+{
+	title: "There are many types of Resources now!",
+	x: 3.5d,
+	y: -2.0d,
+	description: "Where's the Hardcore Ender Expansion for 1.12?",
+	text: [
+		"Now that you're pretty much §bfree to Explore§f §6The End§f and §2collect its resources§f, lets get a few §cimportant§f ones:",
+		"",
+		"- §3Chorus Flower§f and its §3Fruit§f are easy, simply use a §bGate§f to get teleported to a near §bIsland§f.",
+		"",
+		"- §5Raw Draconium§f is also simple, there will be §dDraconium Ores§f scattered in this §3Dimension§f, break some to get it.",
+		"",
+		"- §5Stygian Crystal's§f can easily be found in a §2varied of spots§f across most §dEnd Islands§f.",
+		"",
+		"- Now... §dStygian Acid§f is... another story, you might need a §aNature's Compass§f, since its §conly available§f in pools in the §eAcidic Plains Biome§f."
+	],
+	dependencies: [
+		"c5053f67"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "bd90dbcb",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:crystal_shard"
+		}],
+		count: 32L
+	},
+	{
+		uid: "e174b894",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}],
+		count: 16L
+	},
+	{
+		uid: "53d06834",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_flower"
+		}],
+		count: 4L
+	},
+	{
+		uid: "0928f6e3",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_fruit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0feb4ed8",
+		type: "fluid",
+		fluid: "endacid"
+	},
+	{
+		uid: "4dc03634",
+		type: "item",
+		icon: "minecraft:end_stone",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any endstone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "endstone"
+				}
+			}
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "c3a9b6f0",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 80s,
+			tag: {
+				Fluid: {
+					FluidName: "endacid",
+					Amount: 8000
+				}
+			}
+		}
+	},
+	{
+		uid: "b444a033",
+		type: "item",
+		item: "draconicevolution:dislocator_pedestal",
+		count: 2
+	},
+	{
+		uid: "68dde3fd",
+		type: "item",
+		item: "draconicevolution:dislocator",
+		count: 2
+	}]
+}

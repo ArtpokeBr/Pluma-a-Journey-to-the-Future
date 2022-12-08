@@ -1,0 +1,58 @@
+{
+	title: "An Reservoir!",
+	x: 8.5d,
+	y: -4.0d,
+	description: "A Huge Tank for your Huge needs!",
+	text: [
+		"Just like §6Railcraft§f, by assembling this §5Multiblock Structure§f, you'll have a pretty and actually efficient way to store tons of §9Fluids§f!",
+		"",
+		"- Start by placing the §3Reservoir Block§f to be a base for the structure. §8§o(It is 3x3x3).§f§r",
+		"",
+		"- Use §3Caminite Rings§f to extend vertically the structure and expand the amount of §9fluid§f that can be §2stored§f.",
+		"",
+		"- §3Caminite Valves§f may be also added as a way to get §amultiple IO's§f, since by default it only has one at the bottom.",
+		"",
+		"§8§o(Caminite Valves will work exactly like Caminite Rings, they will expand the tank).§f§r"
+	],
+	dependencies: [
+		"39ef6ea2"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "8149a2bd",
+		type: "item",
+		items: [{
+			item: "embers:large_tank"
+		}]
+	},
+	{
+		uid: "7b035d3d",
+		type: "item",
+		items: [{
+			item: "embers:stone_edge"
+		}]
+	},
+	{
+		uid: "0976415e",
+		type: "item",
+		items: [{
+			item: "embers:stone_valve"
+		}]
+	}],
+	rewards: [{
+		uid: "7c52ac89",
+		type: "item",
+		item: "embers:large_tank"
+	},
+	{
+		uid: "2b98f8d9",
+		type: "item",
+		item: "embers:stone_edge",
+		random_bonus: 1
+	},
+	{
+		uid: "b922dcb1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

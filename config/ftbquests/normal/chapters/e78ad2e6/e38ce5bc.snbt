@@ -1,0 +1,34 @@
+{
+	title: "A House for Bee's?",
+	icon: "forestry:bee_house",
+	x: 3.0d,
+	y: -0.5d,
+	shape: "rsquare",
+	description: "A Way to let them live near you!",
+	text: [
+		"The Bee House can be used simply to produce resources out of your Bee's, it will not let them Mutate with each other. ",
+		"",
+		"(Reffer to the Quest Above if you want to learn about Breeding them. I Will explain a little bit in the Quests after this One, but the Wiki will always contains more Info)"
+	],
+	dependencies: [
+		"2dacd34f"
+	],
+	tasks: [{
+		uid: "58677537",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}],
+	rewards: [{
+		uid: "6021805a",
+		type: "item",
+		item: "forestry:bee_house",
+		count: 3
+	},
+	{
+		uid: "d7dbe8d1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

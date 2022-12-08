@@ -1,0 +1,67 @@
+{
+	title: "A Very Luminous Dust",
+	icon: "extendedcrafting:material 1 7",
+	x: -6.0d,
+	y: -9.0d,
+	description: "This is not an Essence from Mystical Agriculture!",
+	text: [
+		"By §6Mixing§f different types of §eShiny Dusts§f, you'll get §bLuminessence§f! ",
+		"",
+		"- §eIllumination Powder§f can be crafted in a §3Luminous Crafting Table§f.",
+		"",
+		"- §eGarmonbozia§f is a little bit more tricky, as you'll need to progress in §cEvilCraft§f to get it.",
+		"",
+		"- And §eGlowstone Nano Particles§f are also §areally easy§f to obtain!"
+	],
+	dependencies: [
+		"ac3fabbc"
+	],
+	tasks: [{
+		uid: "54c0a877",
+		type: "item",
+		items: [{
+			item: "enderio:block_holier_fog"
+		}],
+		count: 2L
+	},
+	{
+		uid: "3bb43a3c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemusabledust"
+		}]
+	},
+	{
+		uid: "325d8bb1",
+		type: "item",
+		items: [{
+			item: "evilcraft:garmonbozia"
+		}]
+	},
+	{
+		uid: "02e60347",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 7"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "167a4eea",
+		type: "item",
+		item: {
+			id: "extendedcrafting:handheld_table",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "73b4f83f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

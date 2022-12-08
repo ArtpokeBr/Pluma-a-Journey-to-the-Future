@@ -1,0 +1,52 @@
+{
+	title: "Infinite Salt = Infinite Chlorine!",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "chlorine",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -1.0d,
+	y: -6.0d,
+	description: "Lets process Salt Water into Usefull components",
+	text: [
+		"Now you basically have 2 options of automation:",
+		"",
+		"- You can directly §6Electrolyze§f §2Salt Water§f into §3Chlorine§f. ",
+		"§7§o(36s, 1 bucket of Chlorine and Hydrogen + 3 Sodium Hydroxide)§r§f",
+		"",
+		"- You can §6Centrifuge§f it first into 2 §2Salt§f Dusts ↓",
+		"§7§o(2.55s, returns a bucket of water)§r§f",
+		"",
+		"then §6Electrolyze§f those 2 Dusts into 1 Bucket of §3Chlorine§f.",
+		"§7§o(2.80s, and you'll get a Sodium Dust as a Byproduct)§r§f",
+		"",
+		"~ Personally, the §dSecond option§f may be more expensive beacuse it uses more Machines, but it is §6faster§f. ",
+		"",
+		"~ But also, remember that §9Sodium Hydroxide§f will be used in §6Chemical Recipes§f in a near future aswell."
+	],
+	dependencies: [
+		"cde1ea4c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2c8d1a00",
+		type: "fluid",
+		fluid: "chlorine"
+	}],
+	rewards: [{
+		uid: "d5267460",
+		type: "item",
+		item: "gregtech:meta_item_1 1 625",
+		count: 2
+	},
+	{
+		uid: "a338109d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

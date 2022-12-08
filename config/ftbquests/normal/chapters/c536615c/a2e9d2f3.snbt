@@ -1,0 +1,47 @@
+{
+	title: "Starting to Play with Chemicals!",
+	x: 1.0d,
+	y: -12.0d,
+	description: "Lets Electrolyze Water into its subcomponents!",
+	text: [
+		"By Electrolyzing Water, you'll be able to split it into Oxygen and Hydrogen. ",
+		"",
+		"- Both Gases will be very usefull for later Chemical Automations."
+	],
+	dependencies: [
+		"8130615a"
+	],
+	tasks: [{
+		uid: "117ef26f",
+		type: "fluid",
+		fluid: "oxygen"
+	},
+	{
+		uid: "979ed5c2",
+		type: "fluid",
+		fluid: "hydrogen"
+	}],
+	rewards: [{
+		uid: "4b4b5592",
+		type: "item",
+		item: "railcraft:tank_iron_valve",
+		count: 2
+	},
+	{
+		uid: "3660a8a7",
+		type: "item",
+		item: "railcraft:tank_iron_wall",
+		count: 24
+	},
+	{
+		uid: "522cdfd6",
+		type: "item",
+		item: "railcraft:tank_iron_gauge",
+		count: 8
+	},
+	{
+		uid: "d256c5e6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

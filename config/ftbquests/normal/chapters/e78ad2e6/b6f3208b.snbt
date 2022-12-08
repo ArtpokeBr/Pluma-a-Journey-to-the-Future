@@ -1,0 +1,178 @@
+{
+	title: "Honey-Comb Ingot!",
+	x: 7.5d,
+	y: -3.5d,
+	shape: "rsquare",
+	description: "A Special Ingot made by Bees!",
+	text: [
+		"This Resource has actually 2 Recipes: ",
+		"",
+		"- The One that you can see in JEI is by Alloy Smelting Honey Dews.",
+		"",
+		"- But you can actually Obtain this Ingot by using a Honey Smelter Bee and some Iron."
+	],
+	dependencies: [
+		"95611c46"
+	],
+	tasks: [{
+		uid: "bcd14255",
+		type: "item",
+		items: [{
+			item: "careerbees:ingredients 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "af235d61",
+		type: "item",
+		item: {
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 20,
+				Mate: {
+					Chromosomes: [{
+						UID1: "extrabees.species.cyan",
+						UID0: "extrabees.species.cyan",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlowest",
+						UID0: "forestry.speedSlowest",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlowest",
+						UID0: "forestry.floweringSlowest",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				},
+				Health: 20,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "extrabees.species.cyan",
+						UID0: "extrabees.species.cyan",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlowest",
+						UID0: "forestry.speedSlowest",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlowest",
+						UID0: "forestry.floweringSlowest",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "0821126d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

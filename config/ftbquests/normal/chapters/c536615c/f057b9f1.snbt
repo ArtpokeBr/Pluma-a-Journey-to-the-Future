@@ -1,0 +1,82 @@
+{
+	title: "The Process of Making Refined Obsidian §6Final Part§f",
+	icon: "gregtech:meta_dust 1 32020",
+	x: 2.0d,
+	y: -9.0d,
+	description: "Mixing it all up!",
+	text: [
+		"§5Refined Obsidian§f can be a tricky Material to set up a §6Passive Automation§f, but don't worry about smelting it, you don't need that for now.",
+		"",
+		"- §9Kyanite§f can be found in a §3Mica Vein in the Overworld§f.",
+		"",
+		"- §5Obsidian Powder§f can be simply obtained with some §5Obsidian§f in the §6Macerator§f."
+	],
+	dependencies: [
+		"e0e7d900"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "e7d524bc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2527"
+		}]
+	},
+	{
+		uid: "6def1233",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 394"
+		}]
+	},
+	{
+		uid: "86ccad3e",
+		type: "item",
+		title: "Obsidian Dust",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustObsidian"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustObsidian"
+				}
+			}
+		}]
+	},
+	{
+		uid: "59b7bc0e",
+		type: "item",
+		title: "Refined Obsidian Dust",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustRefinedObsidian"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustRefinedObsidian"
+				}
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "c4fb111a",
+		type: "item",
+		item: "gregtech:meta_dust 1 32020",
+		count: 8
+	},
+	{
+		uid: "ada71f34",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

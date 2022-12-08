@@ -1,0 +1,50 @@
+{
+	title: "An Industrial Machine Chassis",
+	icon: "enderio:item_material 1 1",
+	x: -0.5d,
+	y: -10.0d,
+	description: "Ender IO, Lets go!",
+	text: [
+		"By mixing some §9Industrial Dye Blend§f, your old §7Simple Chassis§f and a little bit of §cEmpowered Oil§f, Voilá!",
+		"",
+		"- This §3Chassis§f will unlock most of §3Ender IO's Machinery§f, congrats! "
+	],
+	dependencies: [
+		"6bc53739",
+		"541b83dd"
+	],
+	tasks: [{
+		uid: "afeb1b3a",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 51"
+		}]
+	},
+	{
+		uid: "9381f363",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "9030fed9",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "empoweredoil",
+					Amount: 1000
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "d4073c51",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

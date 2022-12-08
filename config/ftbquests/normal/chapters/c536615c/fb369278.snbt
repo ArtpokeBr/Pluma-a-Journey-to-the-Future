@@ -1,0 +1,38 @@
+{
+	title: "HV Circuits!",
+	x: 8.0d,
+	y: -14.5d,
+	description: "Time to get into High Tech!",
+	text: [
+		"Well, after all of your Hard Work in §3MV§f, you'll finally be able to reach §3HV§f!",
+		"",
+		"- This §3Circuit§f is your key to start working on §6HV§f.",
+		"",
+		"- You'll still need some §3Stainless Steel§f for §6HV§f, but, having these will unlock more §6Tech§f aswell!"
+	],
+	dependencies: [
+		"3912e4ea",
+		"eb5c9e85"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "f5436ad7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 625"
+		}]
+	}],
+	rewards: [{
+		uid: "3821f8d9",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:meta_item_1 1 625",
+		random_bonus: 3
+	},
+	{
+		uid: "310d5198",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

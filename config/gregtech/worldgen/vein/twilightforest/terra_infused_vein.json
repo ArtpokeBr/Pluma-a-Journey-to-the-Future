@@ -1,0 +1,38 @@
+{
+  "weight": 40,
+  "density": 0.25,
+  "max_height": 30,
+  "min_height": 5,
+  "dimension_filter":
+  [
+    "dimension_id:7"
+  ],
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "terra_infused"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:terra_infused"
+      },
+      {
+        "secondary": "ore:amber"
+      },
+      {
+        "between": "ore:trona"
+      },
+      {
+        "sporadic": "ore_dict:oreCoralium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+	title: "An very interesting Electricity System",
+	x: 0.0d,
+	y: 5.5d,
+	shape: "gear",
+	description: "How does GregTech's Electricity System works?",
+	text: [
+		"I Will give you a §6brief explanation§f about what you'll need to worry about when using GT Machines and its §6wires§f.",
+		"",
+		"- §6First§f of all, GT uses a §6Voltage system§f, and that means that §ecertain recipes§f for example will require §ecertain amounts of energy§f that only a certain Voltage and Above",
+		"will be able to handle, for example: a Recipe that requires 32EU is a LV Recipe but it can be made in a MV Machine since the MV Machine can handle up to 128EU.",
+		"",
+		"- §6Second§f, this complements what I've said above, but there will be §edifferent Tiers of each machine, one for each Voltage§f.",
+		"",
+		"- §6Third§f, §c§lRESPECT the Voltages!§r§f If you connect a §eLV Wire into a MV Generator§f, the Wire will be set on §eFire!§f and §eLV Machines that receive a MV Voltage energy§f will §eExplode!§f",
+		"§3§oYou can provide LV Energy to an MV Machine§r§f (it will struggle to complete the craft since it isn't enough energy) but it will work. §3§lBUT NEVER the other way§r§f.",
+		"",
+		"- §6Fourth§f, there's also an §eAmperage Mechanic§f, where, a Cable that has §e4 Amperage can provide up to 4 machines§f. But be more exact, §3Machines request \"Energy Packages\"§f to a cable,",
+		"and if you have 4 machines and only a cable where 1 \"Package\" can travel, only 1 machine will be able to work at a time. ",
+		"",
+		"A §6Good tip§f is to §3§lalways have a little bit more of amperage§r§f, that way, if you're §3§lespecially overclocking§r§f, your machines will have 100% enough power."
+	],
+	dependencies: [
+		"2dcf88eb"
+	],
+	size: 1.5d,
+	min_width: 400,
+	tasks: [{
+		uid: "a62246d3",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 32004"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "69befd8f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

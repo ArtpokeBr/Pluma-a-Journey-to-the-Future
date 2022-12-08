@@ -1,0 +1,52 @@
+{
+	title: "Lets Automate Sulfuric Acid §6Final Part§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "sulfuric_acid",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 3.0d,
+	y: -11.0d,
+	description: "Finally, Sulfuric Acid!",
+	text: [
+		"And now, to finish it all up, simply use another §6Chemical Reactor§f to combine §9Water§f and §eSulfur Trioxide§f!",
+		"",
+		"- If you're not setting up an §6Passive automation§f along this Quests, you really should! §4§lSulfuric Acid is very important§f."
+	],
+	dependencies: [
+		"272a3010"
+	],
+	min_width: 280,
+	tasks: [{
+		uid: "84403ad8",
+		type: "fluid",
+		fluid: "sulfuric_acid"
+	},
+	{
+		uid: "1df72e84",
+		type: "item",
+		title: "An LV or MV Chemical Reactor",
+		items: [{
+			item: "gregtech:machine 1 215"
+		},
+		{
+			item: "gregtech:machine 1 216"
+		}]
+	}],
+	rewards: [{
+		uid: "918dc633",
+		type: "item",
+		item: "gregtech:meta_item_1 1 622",
+		count: 2
+	},
+	{
+		uid: "1924488b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

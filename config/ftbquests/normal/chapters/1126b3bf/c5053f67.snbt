@@ -1,0 +1,73 @@
+{
+	title: "Time for another Boss!",
+	icon: "minecraft:skull 1 5",
+	x: 0.6071428571428541d,
+	y: -1.9785714285714278d,
+	description: "This time, a good ol' Vanilla Boss!",
+	text: [
+		"§2Once you've start walking§f trough the §9Main island§f from §5The End§f, you're probally going to find this §dbig girl§f.",
+		"",
+		"- §cPrepare for a Fight§f! ",
+		"",
+		"- Oh, and don't forget to §2collect§f some of its §dBreath§f!",
+		"",
+		"- Once its all done, collect its §3Egg§f, §5Scales§f and its §6Heart§f."
+	],
+	dependencies: [
+		"14593cf3"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "e87d99b8",
+		type: "kill",
+		icon: "minecraft:skull 1 5",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	},
+	{
+		uid: "f21c1dbe",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}]
+	},
+	{
+		uid: "5b55e7da",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	},
+	{
+		uid: "2253eed2",
+		type: "item",
+		items: [{
+			item: "quark:enderdragon_scale"
+		}]
+	}],
+	rewards: [{
+		uid: "a4e4c58e",
+		type: "item",
+		item: "quark:enderdragon_scale",
+		random_bonus: 3
+	},
+	{
+		uid: "d1bf35d5",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 41
+				}]
+			}
+		}
+	},
+	{
+		uid: "2020f88f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

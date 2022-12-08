@@ -1,0 +1,45 @@
+{
+	title: "The Heart of the Woods!",
+	x: 9.5d,
+	y: -1.0d,
+	description: "Kinda Diabolic if you Think about it...",
+	text: [
+		"And Now, by mixing a bunch of resources that you've recently collected",
+		"",
+		"Time to Obtain the Heart of the Woods!",
+		"",
+		"You'll unlock a cheaper recipe later on, but currently, you're going to use it to start on Roots.",
+		"",
+		"Oh, and you might want to progress a little bit in the Forestry Chapter to Obtain some Refractory Wax."
+	],
+	dependencies: [
+		"b5b772fe"
+	],
+	tasks: [{
+		uid: "c23ce8fd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:heart_of_the_woods"
+		}]
+	}],
+	rewards: [{
+		uid: "498923af",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "binnie.turpentine",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "1001ebc7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

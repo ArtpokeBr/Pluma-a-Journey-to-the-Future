@@ -1,0 +1,58 @@
+§a§lVersion Beta§r§f 0.0.1:
+
+- Added Gold Processing line for LV.
+
+- Gold does not generate in OW anymore, instead, collect Precious Metal.
+
+- Added Quests regarding this new Processing Line
+
+- Better Integrated Extra Utilities 2 in the Pack, providing Recipes and such
+
+- All Xtones can now be chiseled.
+
+§3§lMod updates§r§f:
+
+- AE2 Extended
+
+- AE2 Fluid Crafting
+
+- JEI Utilities
+
+§b§lAdditions§r§f:
+
+§2§lFixes§r§f:
+
+- OW Ore Veins don't overlap the Twilight Forest anymore. (there are exlusive veins for each)
+
+§5§lMiscellaneous§r§f:
+
+
+Ideas to be implemented NOW!:
+
+- Convertion of Mekanism Chemicals to GT Chemicals
+
+- Finish Mekanism Balancing
+
+- Readd the Metallurgic Infuser with Custom Recipes for Meka Circuits and maybe Custom Infuse Materials. (Needs an Meka Addon tho)
+
+- Use Enriched Iron (From Meka) as different way to produce Steel
+
+- Revise Petro Petunia
+
+Current Long Term Plans:
+
+- Reimplementar as Traps do HarvestCraft com melhores receitas
+
+- Refinar Slag em Riched Slag usando uma Autoclave com Biomass ou algo do tipo
+
+- Fazer uma Print para a tela de Loading
+
+- Organizar novamente o Railcraft
+
+- RGB Steel, a mixtura de múltiplas cores de Steel
+
+- Add Utility to Troll related items and mobs in the Twilight Forest
+
+- Use the Deep Resonance Mod
+
+- Gold Processing Line for the LV Age. may need to reenable the LV Gas Collector. (make gold alloy and process it using Acids to get a final 3x gold)

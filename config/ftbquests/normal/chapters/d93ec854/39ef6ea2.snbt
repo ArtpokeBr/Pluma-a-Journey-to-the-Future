@@ -1,0 +1,31 @@
+{
+	title: "A Pretty Fluid Tank",
+	x: 8.5d,
+	y: -2.5d,
+	description: "Made out of Caminite and some Style!",
+	text: [
+		"§6This Tank§f is not one of those §aefficient ones§f, but it is pretty, you may find some §2utility§f for it probally."
+	],
+	dependencies: [
+		"f40ce7af"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "5f55aa11",
+		type: "item",
+		items: [{
+			item: "embers:block_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "d31bb14c",
+		type: "item",
+		item: "embers:brick_caminite",
+		count: 16
+	},
+	{
+		uid: "86597679",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

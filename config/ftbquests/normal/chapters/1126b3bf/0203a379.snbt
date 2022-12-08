@@ -1,0 +1,44 @@
+{
+	title: "Bloody Materials",
+	x: 0.0d,
+	y: 1.5d,
+	description: "Time to make some Dark Powered Gems and Blood Shards.",
+	text: [
+		"§5Once you have§f acess to an §cBlood Infuser§f, it will be much easier to make §6Dark Powered Gems§f.",
+		"",
+		"- But for now, place §95 buckets§f of §cBlood§f on the §2ground§f and drop an §5Dark Gem§f on it.",
+		"",
+		"- And to obtain §cHardened Blood Shards§f, simply let the §cBlood§f that you've §2placed§f on the §2ground§f... dry!"
+	],
+	dependencies: [
+		"d194a22a"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "c5091114",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_power_gem"
+		}],
+		count: 2L
+	},
+	{
+		uid: "790524ac",
+		type: "item",
+		items: [{
+			item: "evilcraft:hardened_blood_shard"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c0fd92bc",
+		type: "item",
+		item: "evilcraft:hardened_blood",
+		random_bonus: 3
+	},
+	{
+		uid: "2e83065d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

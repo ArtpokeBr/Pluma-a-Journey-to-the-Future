@@ -1,0 +1,38 @@
+{
+	title: "Your First Method of Crafting!",
+	x: 2.5d,
+	y: 0.5d,
+	description: "The Worktable!",
+	text: [
+		"You've probally already noticed, but you don't have acess to normal Crafting Tables Currently.",
+		"",
+		"- The Worktable has its own Durability",
+		"",
+		"- After laying down the Items for the Craft, you'll need to hit it with Pyrotechnic Hammers.",
+		"",
+		"- The Hammers will get their durability consumed and you'll also get a little bit of hunguer.",
+		"",
+		"- Theres 3 Handy Item storage slots bellow it for Hammers!"
+	],
+	dependencies: [
+		"c3dc0ea8"
+	],
+	tasks: [{
+		uid: "393e9fbe",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable"
+		}]
+	}],
+	rewards: [{
+		uid: "1a16ab9b",
+		type: "item",
+		item: "pyrotech:apple_baked",
+		count: 5
+	},
+	{
+		uid: "0429ad0d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

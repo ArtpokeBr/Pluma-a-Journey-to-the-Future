@@ -1,0 +1,59 @@
+{
+	title: "Tier 4 Reagent",
+	x: 19.5d,
+	y: -2.0d,
+	description: "Better be ready! Things are expensive!",
+	text: [
+		"§3Blood Magic§f has many special §6Reagents§f, and subsequentially, the main ones will be §bdocumented§f in the §2following quests§f.",
+		"",
+		"- Lets start with the §aTier 4§f ones!",
+		"",
+		"- You should be able to make them now if you just unlocked this quest.",
+		" if you can't, §5don't forget to come back later§f!",
+		"",
+		"§a▬ §aElasticity Reagent§r§f: §a2 Green Slime Blocks§f, §cBlood Infused Leather§f and a §2Silky Propolis§f.",
+		"",
+		"§5▬ §nVoid Reagent§r§f: §32 Enderium Ingots§f, §8Empowered Void Crystal§f and a §5Void Bucket§f.",
+		"",
+		"§d▬ §nSupression Reagent§r§f: §5Ender Chassis§f, §aDew of the Void Bucket§f, §3Vapor of Levity Bucket§f and an §5Sentient Ender§f.",
+		"",
+		"§9▬ §nPotent Reagent§r§f: §9Potion of Absorption§f, §3Empowered Palis Crystal§f, §5Pure Fluix Crystal§f and a §cRedstone Transmission Coil§f."
+	],
+	dependencies: [
+		"ffd325a1"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e4900c90",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 31"
+		}]
+	},
+	{
+		uid: "53253f1c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 4"
+		}]
+	},
+	{
+		uid: "047fef57",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 9"
+		}]
+	},
+	{
+		uid: "dfbf87e1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:potent_reagent"
+		}]
+	}],
+	rewards: [{
+		uid: "d3be5cde",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

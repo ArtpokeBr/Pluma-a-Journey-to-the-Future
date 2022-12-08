@@ -1,0 +1,35 @@
+{
+	title: "Osgloglas!",
+	x: 12.5d,
+	y: 5.0d,
+	description: "Os-Glo-Glas",
+	text: [
+		"Well, it is finally time to make this peculiar material! §aOsgloglas§f!",
+		"",
+		"- By mixing §eRefined Glowstone§f, §5Refined Obsidian§f and §2Enchanted Ingots§f, §aOgsloglas§f!",
+		"",
+		"§aOsgloglas§f will be another material that you're going to need to get acess to some interesting and usefull blocks from §3Extra Utilities§f."
+	],
+	dependencies: [
+		"1f69ab74"
+	],
+	tasks: [{
+		uid: "ea5a8eee",
+		type: "item",
+		items: [{
+			item: "plustic:osgloglasingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4e07261a",
+		type: "item",
+		item: "plustic:osgloglasingot",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "068692b4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

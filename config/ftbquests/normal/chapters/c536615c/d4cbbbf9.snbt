@@ -1,0 +1,151 @@
+{
+	title: "Producing Industrial Amounts of EU!",
+	icon: "gregtech:machine 1 2027",
+	x: 3.5d,
+	y: -8.0d,
+	description: "Lets assemble an Industrial Steam Engine!",
+	text: [
+		"Simple yet very effective.",
+		"",
+		"- This §6Engine§f can produce good amounts of §6EU§f out of §3Steam§f! Up to §eMV level Power§f.",
+		"",
+		"- It uses a §2Dynamo Hatch§f as an §eOutput of Energy§f, the one that you choose will §2determine§f the amount of §eEU outputted§f.",
+		"",
+		"- Also, this §6Multiblock§f will require §cMaintenance§f over time and don't forget to clean the §aMuffler Hatch§f from time to time!"
+	],
+	dependencies: [
+		"7efb13b3"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8baa8304",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2027"
+		}]
+	},
+	{
+		uid: "b5185962",
+		type: "item",
+		title: "An ULV up to MV Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		},
+		{
+			item: "gregtech:machine 1 1181"
+		},
+		{
+			item: "gregtech:machine 1 1182"
+		}]
+	},
+	{
+		uid: "784c0b39",
+		type: "item",
+		title: "An ULV up to MV Output Hatch",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		},
+		{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		}]
+	},
+	{
+		uid: "57e2874e",
+		type: "item",
+		title: "LV or MV Muffling Hatch",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		},
+		{
+			item: "gregtech:machine 1 1658"
+		}]
+	},
+	{
+		uid: "44e0d0cc",
+		type: "item",
+		title: "An ULV up to MV Dynamo Hatch",
+		items: [{
+			item: "gregtech:machine 1 1225"
+		},
+		{
+			item: "gregtech:machine 1 1226"
+		},
+		{
+			item: "gregtech:machine 1 1227"
+		}]
+	},
+	{
+		uid: "19ed3de8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "9febd50d",
+		type: "item",
+		items: [{
+			item: "gcym:large_multiblock_casing 1 12"
+		}],
+		count: 21L
+	},
+	{
+		uid: "4ebecf74",
+		type: "item",
+		items: [{
+			item: "gregtech:turbine_casing"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4de7df98",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "steam",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "c4a416a7",
+		type: "item",
+		item: {
+			id: "railcraft:armor_overalls",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 3s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}],
+				RepairCost: 7,
+				display: {
+					Name: "Engineer's Anti-Blast Trousers"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "51f2a690",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

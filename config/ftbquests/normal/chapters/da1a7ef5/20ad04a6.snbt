@@ -1,0 +1,33 @@
+{
+	title: "Ghastlycerin!",
+	x: 8.5d,
+	y: -2.0d,
+	description: "Squeezing all the Juice out of that Bladder!",
+	text: [
+		"Kinda weird recipe right? but there's always something weird in life, and ghasts make explosions thanks to Ghastlycerin.",
+		"",
+		"- Extract the Ghastlycerin out of the Bladder and lets use it for Crafting!",
+		"",
+		"- Oh and don't forget to progress in the Chapter 2, as you'll need a Forestry Squeezer for this Recipe!"
+	],
+	dependencies: [
+		"c012e604"
+	],
+	tasks: [{
+		uid: "5abf6a37",
+		type: "fluid",
+		title: "Gimme 1 Bucket of it",
+		fluid: "ghastlycerin"
+	}],
+	rewards: [{
+		uid: "cfdd43a7",
+		type: "item",
+		item: "contenttweaker:ghasbladder",
+		count: 4
+	},
+	{
+		uid: "c5711067",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

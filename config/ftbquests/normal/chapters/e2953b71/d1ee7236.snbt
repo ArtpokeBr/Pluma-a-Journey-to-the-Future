@@ -1,0 +1,29 @@
+{
+	title: "A Transmutation Gem",
+	x: 5.0d,
+	y: -2.5d,
+	description: "Just like ProjectE, but actually not that good.",
+	text: [
+		"§bThis Gem§f will be §2essential§f for certain §erecipes§f, and most importantly, §cit has a durability§f.",
+		"",
+		"§8§o~ And yes, unfortunatly it cannot be repaired by normal means.§r§f"
+	],
+	dependencies: [
+		"e24603c0"
+	],
+	tasks: [{
+		uid: "13c22a3c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:transmutationgem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92dfcd7d",
+		type: "item",
+		item: "abyssalcraft:methane",
+		count: 4
+	}]
+}

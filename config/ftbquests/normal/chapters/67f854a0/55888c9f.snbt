@@ -1,0 +1,46 @@
+{
+	title: "A Special Ingot made out of Glowstone Itself!",
+	x: 3.5d,
+	y: 1.5d,
+	description: "Lumium!",
+	text: [
+		"A Special Ingot made of pure §dLight§f!",
+		"",
+		"- Specially usefull for §3Thermal Expansion Gadgets§f and §emore§f!"
+	],
+	dependencies: [
+		"5c91e6d0"
+	],
+	tasks: [{
+		uid: "2386cb79",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32029"
+		}]
+	},
+	{
+		uid: "3cf62015",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32029"
+		}]
+	}],
+	rewards: [{
+		uid: "4508acd6",
+		type: "item",
+		item: {
+			id: "thermalfoundation:upgrade",
+			Damage: 33s,
+			tag: {
+				display: {
+					Name: "\"Lumium\" Conversion Kit"
+				}
+			}
+		}
+	},
+	{
+		uid: "afa0790b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

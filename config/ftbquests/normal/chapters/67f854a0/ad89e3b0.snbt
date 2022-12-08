@@ -1,0 +1,50 @@
+{
+	title: "Crops and Sapplings on demand!",
+	x: 3.5d,
+	y: 3.5d,
+	description: "Lets make a Phytogenic Insolator!",
+	text: [
+		"§2This is Simple§f, a Machine capable of using §ePower§f and §9Water§f to §aCultivate Crops and Sapplings§f!",
+		"",
+		"- Remember, you can use §aPhyto-Gro§f to increase the §2efficiency§f.",
+		"",
+		"- Also, don't forget that you'll need an §eUpgrade§f to make a §dclosed loop§f."
+	],
+	dependencies: [
+		"736de7e5",
+		"55888c9f"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "db3633b8",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 4s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c793cd9a",
+		type: "item",
+		item: "thermalexpansion:augment 1 324"
+	},
+	{
+		uid: "3c9bab77",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Bee Breeding!",
+	x: 5.0d,
+	y: -0.5d,
+	shape: "rsquare",
+	description: "Let the Show Begin!",
+	text: [
+		"Unfortunately it is Hard for me to Explain all of the Details involving Bee Breeding, So I Highly encourage you to check the Forestry Wiki (The InGame Book, or the FTB Wiki link provided in an Earlier Quest)",
+		"",
+		"- The Apiary can be used to Breed and Mutate your Bee's into other Species, Remeber to check out the Analyzer! As it is important to always have a Pure Backup Bee of each species that you Breed/Get."
+	],
+	dependencies: [
+		"6ad97bbd"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2bb2c705",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "c654e956",
+		type: "item",
+		item: "forestry:apiary",
+		count: 3
+	},
+	{
+		uid: "0fcc1efb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

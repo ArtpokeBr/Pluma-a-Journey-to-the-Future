@@ -1,0 +1,274 @@
+{
+    "images":
+    {
+		    
+            "gear":
+        {
+            "image" : "mainmenu:gears.png",
+            "posX" : -5,
+            "posY" : -257,
+            "width" : 125,
+            "height" : 375,
+            "alignment" : "left_center"
+        },
+
+        "gear2":
+        {
+            "image" : "mainmenu:gears2.png",
+            "posX" : -150,
+            "posY" : -20,
+            "width" : 375,
+            "height" : 375,
+            "alignment" : "right_center"
+        },
+            "title":
+        {
+            "image" : "mainmenu:plumalogo.png",
+            "posX" : -195,
+            "posY" : -87,
+            "width" : 128,
+            "height" : 128,
+            "alignment" : "center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Singleplayer",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:longbutton.png",
+            "posX" : -30,
+            "posY" : -75,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:longbutton.png",
+            "posX" : -30,
+            "posY" : -50,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:mods.png",
+			"tooltip" : "Mods",
+            "posX" : 0,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+		
+        "folder":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:gamefolder.png",
+			"tooltip" : "Installation Folder",
+            "posX" : 30,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openFolder",
+                "folderName" : "/"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:options.png",
+			"tooltip" : "Options",
+            "posX" : -30,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+        "discord":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:discord.png",
+			"tooltip" : "Discord",
+            "posX" : 150,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/FprwvNQ"
+            }
+        },
+
+        "curse":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:curse.png",
+			"tooltip" : "Curse Page",
+            "posX" : 120,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : ""
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Quit Game",
+			"tooltip" : "No, Don't Go!",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:longbutton.png",
+            "posX" : -30,
+            "posY" : 10,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+
+        "github":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:github.png",
+			"tooltip" : "Bug Report",
+            "posX" : 90,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/ArtpokeBr/Pluma/issues"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:language.png",
+			"tooltip" : "Language",
+            "posX" : 60,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+			"texture" : "mainmenu:reload.png",
+            "posX" : -75,
+            "posY" : 28,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        
+		"modpack":
+        {
+            "text" : "A Modpack by ArtpokeBr",
+            "posX" : 2,
+            "posY" : -32,
+            "color" : 98651,
+            "hoverColor" : 98651,
+            "alignment" : "bottom_left"
+        },
+
+		"mc-version":
+        {
+            "text" : "Minecraft 1.12.2",
+            "posX" : 2,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		
+        "modsactive":
+        {
+            "text" : "#modsloaded# Mods Loaded, #modsactive# Active",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

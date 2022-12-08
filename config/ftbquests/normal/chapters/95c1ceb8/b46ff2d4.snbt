@@ -1,0 +1,48 @@
+{
+	title: "A Modular Material!",
+	x: -0.5d,
+	y: -0.5d,
+	description: "Lets make Modularium!",
+	text: [
+		"§3Modularium§f is an Important Material for §6Chapter 6§f, you'll be using it to make some §3Multiblocks§f required there.",
+		"",
+		"- Also, notice that in order for you to get this Material, you'll need to §6Blast§f it with some §bNitrogen§f and §bCool§f it down.",
+		"",
+		"- You can §bCool§f it down with §bCryotheum§f, or with a §6Vacuum Freezer§f in the Future.",
+		"",
+		"- If you didn't notice already, §aChapter 7 and 6 are Tied Together§f!"
+	],
+	dependencies: [
+		"5c98b7a0",
+		"4e304f83",
+		"284c3857"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "794fd9fe",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32027"
+		}],
+		count: 4L
+	},
+	{
+		uid: "2b8fb326",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32027"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e7f60881",
+		type: "item",
+		item: "gregtech:meta_ingot 1 32027",
+		count: 8
+	},
+	{
+		uid: "9a2c64d2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

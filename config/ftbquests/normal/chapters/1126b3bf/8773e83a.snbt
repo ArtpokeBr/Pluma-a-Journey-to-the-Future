@@ -1,0 +1,40 @@
+{
+	title: "Descending into The Abyss!",
+	x: 8.5d,
+	y: -6.0d,
+	description: "§oUh'eog cthulhu ephainogephaii!§r",
+	text: [
+		"§8§oYar l' evolve§r§f",
+		"",
+		"With some §5strange material's§f, you find yourself a way to §6imbue§f a §cSanguine Pearl§f into...",
+		"",
+		"An §6Abyssal Pearl§f! §8§o(that's the name that you've found suiting).§r§f",
+		"",
+		"§2§oMaybe it will be usefull somehow?§r§f"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9ac09a4c",
+		"6794406e",
+		"a39b447c"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "5c839082",
+		type: "item",
+		items: [{
+			item: "contenttweaker:abyssal_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "ef1ff48b",
+		type: "item",
+		item: "abyssalcraft:decorativestatue"
+	},
+	{
+		uid: "2009bfad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

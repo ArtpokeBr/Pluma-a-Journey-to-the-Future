@@ -1,0 +1,17 @@
+{
+  "weight": 35,
+  "name": "Nether Sulfuric Gas Deposit",
+  "yield": {
+    "min": 150,
+    "max": 300
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 40
+  },
+  "fluid": "sulfuric_gas",
+  "dimension_filter": [
+    "name:the_nether"
+  ]
+}

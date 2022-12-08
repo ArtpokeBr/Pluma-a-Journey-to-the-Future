@@ -1,0 +1,26 @@
+{
+	x: -4.5d,
+	y: -4.0d,
+	description: "{pluma.itmextupg.subtitle}",
+	text: [
+		"{pluma.itmextupg.desc1}",
+		"",
+		"{pluma.itmextupg.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "25160fbd",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_item_extraction"
+		}]
+	}],
+	rewards: [{
+		uid: "00b9ab1f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

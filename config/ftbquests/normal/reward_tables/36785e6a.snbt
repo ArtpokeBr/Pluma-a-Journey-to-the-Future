@@ -1,0 +1,12 @@
+{
+	title: "Choice LV Pump or Conveyor",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 142",
+		count: 2
+	},
+	{
+		item: "gregtech:meta_item_1 1 157",
+		count: 2
+	}]
+}

@@ -1,0 +1,70 @@
+{
+	title: "Your First Electronic Circuit!",
+	icon: "gregtech:meta_item_1 1 621",
+	x: -1.5d,
+	y: 3.5d,
+	description: "The First of Many...",
+	text: [
+		"Congratulations! Now, with a LV Hull and this Circuit, you'll start your LV Journey!"
+	],
+	dependencies: [
+		"8f7103d6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5f1f48e2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7d55d205",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 519"
+		}],
+		count: 2L
+	},
+	{
+		uid: "703ff4cd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 324"
+		}]
+	},
+	{
+		uid: "20e0e290",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2517"
+		}],
+		count: 3L
+	},
+	{
+		uid: "ff9874e3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 401"
+		}]
+	},
+	{
+		uid: "78f455ac",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	}],
+	rewards: [{
+		uid: "be41d11e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "e1511cd3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

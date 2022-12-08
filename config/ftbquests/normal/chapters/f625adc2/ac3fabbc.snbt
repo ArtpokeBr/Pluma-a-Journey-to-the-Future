@@ -1,0 +1,61 @@
+{
+	title: "A Crafting Table from the Stars!",
+	icon: {
+		id: "astralsorcery:blockaltar",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -6.0d,
+	y: -7.0d,
+	description: "Time to use Stars to craft materials and blocks!",
+	text: [
+		"Now that you've recently obtained §3Archaic Bricks§f, and you also have a couple of other §2materials§f, lets §blook to the sky§f!",
+		"",
+		"- To make the §6Resonanting Wand§f, you'll need to craft it near an §bCelestial Crystal§f, that can be found in §3Big Astral Temples§f in the §dTwilight Forest§f.",
+		"",
+		"§8§o~ Astral Sorcery will be an Essential Magic Mod for this Pack, it is important for many automations and processes.§r§f"
+	],
+	dependencies: [
+		"1cc50779",
+		"7e704fa5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8dc2228f",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ffc8e128",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c473f7c",
+		type: "item",
+		item: "gregtech:meta_gem 1 314",
+		random_bonus: 7
+	},
+	{
+		uid: "9633ca58",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

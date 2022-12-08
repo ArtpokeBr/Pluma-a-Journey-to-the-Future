@@ -1,0 +1,45 @@
+{
+	title: "Time to Truly get into HV!",
+	icon: "gregtech:meta_ingot 1 323",
+	x: -3.0d,
+	y: -2.5d,
+	description: "Lets make Stainless Steel!",
+	text: [
+		"§3Stainless Steel§f can be a tricky Metal to obtain beacuse of its composition.",
+		"",
+		"- You can get §aManganese§f by §6Ore Processing§f some ores or even §6Electrolyzing§f some Dusts.",
+		"",
+		"- §cChrome§f can also be obtained via §6Ore Processing§f, but most importantly, you can obtain it easily by §6Electrolyzing§f §cRuby§f Dusts."
+	],
+	dependencies: [
+		"fb369278"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "ac39e98c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 323"
+		}],
+		count: 9L
+	},
+	{
+		uid: "ccff752c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 323"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "3b2c30d8",
+		type: "item",
+		item: "gregtech:meta_item_1 1 578"
+	},
+	{
+		uid: "e7777fcd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Spectre Materials",
+	x: 10.5d,
+	y: 3.5d,
+	description: "Ectoplasm can actually be turned into something!",
+	text: [
+		"By using §bEctoplasm§f you'll be able to make both §3Spectre String§f and §3Spectre Ingots§f!",
+		"",
+		"- These are some really usefull materials for some §2Advanced and neat blocks/gadgets§f from §6Random Things§f.",
+		"",
+		"- It is advised to set up an §bEctoplasm Farm§f. Start Planting those §3Spectre Trees§f!"
+	],
+	dependencies: [
+		"779f429f"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "fd5098d5",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 3"
+		}]
+	},
+	{
+		uid: "f387fa42",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "81d981bf",
+		type: "item",
+		item: "randomthings:spectrecoil_normal"
+	},
+	{
+		uid: "71f81bf7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

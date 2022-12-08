@@ -1,0 +1,58 @@
+{
+	title: "Castform's Task",
+	x: 5.5d,
+	y: 3.0d,
+	description: "A Weather Automation Process",
+	text: [
+		"In §5EvilCraft's Progression§f, you'll need some §6Weather Container's§f but you'l also need to use a §9Special Machine§f.",
+		"",
+		"- §3Enviromental Accumulator's§f can be found inside of §5Dark Temples§f, they §2generate§f troughout the §2Overworld§f.",
+		"",
+		"- But thankfully, once you have at least §a1 of each§f §6Weather Container's§f, you can §bdupe them§f inside of an §6Chemical Reactor§f.",
+		"",
+		"- §aTo get them is simple§f, once the desired §9Weather§f is... §5\"Ocurring\"§f §bdrop a Weather Container§f, wait a little, and voilá!"
+	],
+	dependencies: [
+		"01b7a41c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "7850c9fa",
+		type: "item",
+		items: [{
+			item: "evilcraft:weather_container"
+		}]
+	},
+	{
+		uid: "046d20dc",
+		type: "item",
+		items: [{
+			item: "evilcraft:weather_container 1 3"
+		}]
+	},
+	{
+		uid: "c2b15869",
+		type: "item",
+		items: [{
+			item: "evilcraft:weather_container 1 1"
+		}]
+	},
+	{
+		uid: "985655f9",
+		type: "item",
+		items: [{
+			item: "evilcraft:weather_container 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "269cb02e",
+		type: "item",
+		item: "enderio:item_material 1 18",
+		random_bonus: 3
+	},
+	{
+		uid: "00f7fdbb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

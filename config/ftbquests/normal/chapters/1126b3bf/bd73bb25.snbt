@@ -1,0 +1,48 @@
+{
+	title: "A Sentient Metal!",
+	x: 13.0d,
+	y: -6.0d,
+	description: "An Ingot made out of Will",
+	text: [
+		"Making this §2Ingot§f for the first time can be a demanding task, but once you've §eautomated the process§f, it gets §aeasier§f!",
+		"",
+		"- Simply make a §5Coalescence Matrix§f first. ",
+		"",
+		"§8§o(this special ingot will be used for all \"special\" types of Materials in Tinker's Evolution)§r§f",
+		"",
+		"- Then, simply mix it with some §bWill§f in the §6Hellfire Forge§f to assemble it!",
+		"",
+		"§8§o~ For now, maybe you'll not need to automate it, but trust me, start planning a room to automate processes in the hellfire forge.§r§f"
+	],
+	dependencies: [
+		"5f2ae876"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a423c136",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 30"
+		}]
+	}],
+	rewards: [{
+		uid: "eb41e5a3",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "sentient_metal",
+					Amount: 1000
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "39eada6f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

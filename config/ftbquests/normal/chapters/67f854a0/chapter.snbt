@@ -1,0 +1,7 @@
+{
+	title: "Chapter 12: Extremely Complex Factory Expanse",
+	icon: "gregtech:machine 1 989",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

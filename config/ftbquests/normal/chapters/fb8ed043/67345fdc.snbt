@@ -1,0 +1,32 @@
+{
+	title: "Treated Wood!",
+	x: 16.0d,
+	y: 0.5d,
+	description: "Wood Enhanced with Creosote!",
+	text: [
+		"Treated Wood is a much more resistent and more reliable Wood than normal Wood.",
+		"",
+		"- You'll notice that a bunch of key recipes are locked behind this material."
+	],
+	dependencies: [
+		"06c93fff"
+	],
+	tasks: [{
+		uid: "89ec9d7c",
+		type: "item",
+		items: [{
+			item: "gregtech:planks 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c358a5be",
+		type: "item",
+		item: "gregtech:planks 1 1",
+		count: 8
+	},
+	{
+		uid: "da8ee514",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

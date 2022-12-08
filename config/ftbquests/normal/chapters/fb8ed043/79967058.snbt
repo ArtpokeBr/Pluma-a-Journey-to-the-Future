@@ -1,0 +1,48 @@
+{
+	title: "A Multi-Tool of Stone",
+	x: 6.5d,
+	y: -2.5d,
+	description: "You can now Make your First AIOT!",
+	text: [
+		"You now have acess to Stone Tools... Why not mix them into a single powerfull tool?"
+	],
+	dependencies: [
+		"26b207db"
+	],
+	tasks: [{
+		uid: "bdfa3ce6",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:stone_paxel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af687b85",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "pyrotech:stone_shears",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "12f1dae7",
+		type: "item",
+		team_reward: false,
+		item: "actuallyadditions:item_food 1 13"
+	}]
+}

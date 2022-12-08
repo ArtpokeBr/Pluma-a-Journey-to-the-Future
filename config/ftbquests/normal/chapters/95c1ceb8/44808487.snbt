@@ -1,0 +1,153 @@
+{
+	title: "Bio Fabricating Mobs!",
+	icon: "gregtech:machine 1 32000",
+	x: 12.5d,
+	y: -2.5d,
+	description: "Just Like DML, but for Passive Mobs!",
+	text: [
+		"Thats exactly what it does!",
+		"",
+		"- By assembling it, you'll be able to use §6DNA's of Passive Mobs§f to §aGenerate some of their outputs§f.",
+		"",
+		"- It might be a §2good idea§f to set it up §2for§f some §2Specific Mobs§f.",
+		"",
+		"- §dWant to make it go Infinite?§f simply set an §bAnalyzer§f to receive part of the §2Outputs§f and it will grant you at least an §6DNA§f back.",
+		"",
+		"§8§o(In JEI it says that you'll require at least 1 Input Hatch, but most of the recipes will require 2 Fluids.)§f§r"
+	],
+	dependencies: [
+		"eefae462",
+		"63ca77f4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e6106ecf",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 32000"
+		}]
+	},
+	{
+		uid: "fd69dca3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:obsidian_glass"
+		}],
+		count: 8L
+	},
+	{
+		uid: "67457d8f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:modular_casing"
+		}],
+		count: 21L
+	},
+	{
+		uid: "3beecf6c",
+		type: "item",
+		title: "An HV or EV Energy Hatch",
+		items: [{
+			item: "gregtech:machine 1 1213"
+		},
+		{
+			item: "gregtech:machine 1 1214"
+		}]
+	},
+	{
+		uid: "8dd3a3a7",
+		type: "item",
+		title: "An ULV up to EV Input Bus",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		},
+		{
+			item: "gregtech:machine 1 1151"
+		},
+		{
+			item: "gregtech:machine 1 1152"
+		},
+		{
+			item: "gregtech:machine 1 1153"
+		},
+		{
+			item: "gregtech:machine 1 1154"
+		}]
+	},
+	{
+		uid: "850df66a",
+		type: "item",
+		title: "An ULV up to EV Output Bus",
+		items: [{
+			item: "gregtech:machine 1 1165"
+		},
+		{
+			item: "gregtech:machine 1 1166"
+		},
+		{
+			item: "gregtech:machine 1 1167"
+		},
+		{
+			item: "gregtech:machine 1 1168"
+		},
+		{
+			item: "gregtech:machine 1 1169"
+		}]
+	},
+	{
+		uid: "534e8c33",
+		type: "item",
+		title: "An ULV up to EV Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		},
+		{
+			item: "gregtech:machine 1 1181"
+		},
+		{
+			item: "gregtech:machine 1 1182"
+		},
+		{
+			item: "gregtech:machine 1 1183"
+		},
+		{
+			item: "gregtech:machine 1 1184"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "ed937559",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "mutagen",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "526f9fb5",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "distilled_water",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "6358c414",
+		type: "item",
+		item: "fossil:shell"
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Tar and Basalt",
+	x: -2.5d,
+	y: -3.0d,
+	description: "For sure, this is a gothic dimension!",
+	text: [
+		"In this §dDimension§f, you've probally will find tons and tons of this §32 Resources§f.",
+		"",
+		"- And both of them can be §6Centrifuged§f into §3Usefull Materials§f.",
+		"",
+		"~ §b§oBasalt§r§f §oactually needs to be converted into its §b§oDust§r§f§o form first.§r"
+	],
+	dependencies: [
+		"a6aa80c9"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "8b9db679",
+		type: "fluid",
+		fluid: "fossil_tar",
+		amount: 10000
+	},
+	{
+		uid: "19854abf",
+		type: "item",
+		items: [{
+			item: "gregtech:stone_smooth 1 3"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "53e9a237",
+		type: "item",
+		item: {
+			id: "mekanism:machineblock",
+			Damage: 12s,
+			tag: {
+				mekData: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "8c041068",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

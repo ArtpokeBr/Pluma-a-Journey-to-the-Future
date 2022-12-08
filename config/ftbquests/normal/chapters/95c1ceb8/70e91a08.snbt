@@ -1,0 +1,43 @@
+{
+	title: "Lets automate PTFE (Teflon) §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hydrofluoric_acid",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 0.0d,
+	y: -4.5d,
+	description: "Hydrofluoric Acid!",
+	text: [
+		"Remember when I said that your §6Air Collector§f could be used to get some valuable §2resources§f? well.. it is time.",
+		"",
+		"- If you §6centrifuge§f some §5The Beneath Air§f, you'll get a decent supply of §3Fluorine§f.",
+		"",
+		"- §6Chemical React§f that §3Fluorine with some §9Hydrogen§f and voilá! §bHydrofluoric Acid§f!"
+	],
+	dependencies: [
+		"a1adb8ba"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8b6f928e",
+		type: "fluid",
+		fluid: "hydrofluoric_acid"
+	}],
+	rewards: [{
+		uid: "30d334ea",
+		type: "item",
+		item: "gregtech:meta_item_1 1 625",
+		random_bonus: 2
+	},
+	{
+		uid: "d1f3bad5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

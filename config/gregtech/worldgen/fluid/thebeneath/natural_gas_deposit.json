@@ -1,0 +1,17 @@
+{
+  "weight": 35,
+  "name": "The Beneath Natural Gas Deposit",
+  "yield": {
+    "min": 150,
+    "max": 600
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 40
+  },
+  "fluid": "natural_gas",
+  "dimension_filter": [
+    "dimension_id:10"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+	title: "Lets Automate Platinum §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "aqua_regia",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -4833433468184046596L,
+				AS_Amulet_HolderMost: -8936466980767643917L
+			}
+		}
+	},
+	x: 0.0d,
+	y: -10.5d,
+	description: "Hydrochloric Acid + Nitric Acid = Aqua Regia!",
+	text: [
+		"Soon enough you'll need §bPlatinum§f! and to get it you'll need a §6Chemical Process§f!",
+		"",
+		"- In the §aFuture§f, you'll be able to extract §bPlatinum§f directly from §aOres§f, don't worry.",
+		"",
+		"§8§o~ But for now, lets play with Chemistry once more!§r§f",
+		"",
+		"- §eNitric Acid§f is a simple §eAcid§f to §2automate§f, prepare an §2Automation§f for it and them §dhook up to this one§f.",
+		"",
+		"- §3Hydrochloric Acid§f were §2required§f for the §3previous quest§f, so I presume that you've §dalready automated§f it or already §5know how to§f, §elets get to work§f!"
+	],
+	dependencies: [
+		"cfce84a9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a98f1a34",
+		type: "fluid",
+		fluid: "aqua_regia"
+	}],
+	rewards: [{
+		uid: "cbb965fd",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 85s,
+			tag: {
+				Fluid: {
+					FluidName: "aqua_regia",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "b3c8541c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

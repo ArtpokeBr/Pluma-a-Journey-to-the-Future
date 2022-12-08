@@ -1,0 +1,36 @@
+{
+	title: "Circuits, Assemble!",
+	x: -5.5d,
+	y: -13.5d,
+	description: "LV Circuit Assembler",
+	text: [
+		"A Special type of Assembler.",
+		"",
+		"- The Circuit Assembler is 100% focused on Crafting Circuits.",
+		"",
+		"- Most of GregTech's Circuits will be assembled here",
+		"",
+		"- Also, some other Circuits or Processors might also be done here."
+	],
+	dependencies: [
+		"7e379f4f"
+	],
+	tasks: [{
+		uid: "677b18d6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 635"
+		}]
+	}],
+	rewards: [{
+		uid: "91313c8e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "ba5a3759",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

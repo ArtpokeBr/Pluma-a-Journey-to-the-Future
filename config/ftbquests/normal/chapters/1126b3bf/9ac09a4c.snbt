@@ -1,0 +1,72 @@
+{
+	title: "Time to get Bloody!",
+	icon: "bloodmagic:altar",
+	x: 8.5d,
+	y: -3.0d,
+	description: "Blood Magic is up Ahead!",
+	text: [
+		"Now, with §3End Steel§f, §5Souls§f and a bunch of other §2materials§f, a §6Blood Altar§f!",
+		"",
+		"- This is the §aMain Mechanic§f of §6Blood Magic§f, Infuse stuff with §cBlood§f in the Altar to obtain other §2Materials§f!",
+		"",
+		"- There will be different §bTiers§f of §cBlood Altars§f, use the §bTome§f that you've been §arewarded§f to understand how to §aupgrade it§f.",
+		"",
+		"- Oh, and §ddon't forget§f that you need to fill it with §cBlood§f in order for it to work, how to do that? well, for now simply §4cut yourself near it§f to fill it.",
+		"",
+		"§8§o~ Soon you'll find ways to actually Automate an Blood/LP Production for Blood Magic.§r§f"
+	],
+	dependencies: [
+		"3ce941ad",
+		"31356bb8",
+		"32d484cb"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "37f69207",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "6ad5b49d",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a75b37e",
+		type: "item",
+		item: {
+			id: "bloodmagic:sanguine_book",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "a2ee9b40",
+		type: "item",
+		item: {
+			id: "guideapi:bloodmagic-guide",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "4f07a79d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

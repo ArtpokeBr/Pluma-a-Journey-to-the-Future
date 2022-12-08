@@ -1,0 +1,52 @@
+{
+	title: "The First Tenacity Upgrade!",
+	x: 5.5d,
+	y: 1.5d,
+	description: "More Blood, More Recipes!",
+	text: [
+		"§eTenacity Upgrades§f are §a§nEssential§r§f for the §6Blood Infuser§f.",
+		"",
+		"- Each Tier of §9Promise of Tenacity§f will §eincrease§f its §binternal buffer§f and §5amount of possible Upgrades§f.",
+		"",
+		"This is the §6First one§f out of §33§f."
+	],
+	dependencies: [
+		"01b7a41c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1c7cac46",
+		type: "item",
+		items: [{
+			id: "evilcraft:promise",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50995969",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "evilcraftblood",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "41e68cf0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

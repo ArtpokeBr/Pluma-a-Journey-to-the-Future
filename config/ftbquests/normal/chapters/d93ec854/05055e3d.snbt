@@ -1,0 +1,58 @@
+{
+	title: "Pottery Shards and Figurines",
+	x: 0.5d,
+	y: -5.0d,
+	description: "Every Research will grant you some Results!",
+	text: [
+		"Good or Not... it will be something!",
+		"",
+		"- Use your §6Relic Scrap§f in order to obtain these Materials/Items",
+		"",
+		"- §3Pottery Shards§f can be used to make well... §3Pottery§f! but also to repair these §bFigurines§f.",
+		"",
+		"- Also, try to collect at least 4 §bFigurines§f, as you'll need them later."
+	],
+	dependencies: [
+		"813207b8"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1f98ec1a",
+		type: "item",
+		items: [{
+			item: "fossil:pottery_shard"
+		}]
+	},
+	{
+		uid: "6b36631a",
+		type: "item",
+		title: "Any Damaged Figurine",
+		items: [{
+			item: "fossil:figurine 1 5"
+		},
+		{
+			item: "fossil:figurine 1 6"
+		},
+		{
+			item: "fossil:figurine 1 7"
+		},
+		{
+			item: "fossil:figurine 1 8"
+		},
+		{
+			item: "fossil:figurine 1 14"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f252e506",
+		type: "item",
+		item: "fossil:pottery_shard",
+		random_bonus: 1
+	},
+	{
+		uid: "d5a5d085",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

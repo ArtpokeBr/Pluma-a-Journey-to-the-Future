@@ -1,0 +1,50 @@
+{
+	title: "Refractorized Expanse!",
+	x: 14.0d,
+	y: 2.0d,
+	description: "Time to put those Refractory Bricks to use!",
+	text: [
+		"With some Refractory Bricks and some Iron Plates, better Pyrotech devices!",
+		"",
+		"- Recipes are Quicker",
+		"",
+		"- Stacks inside of them are bigger",
+		"",
+		"- The Fire is automatically extinguished when the operation finishes."
+	],
+	dependencies: [
+		"44076a01"
+	],
+	tasks: [{
+		uid: "e8b7206f",
+		type: "item",
+		items: [{
+			item: "pyrotech:brick_kiln"
+		}]
+	},
+	{
+		uid: "71d23020",
+		type: "item",
+		items: [{
+			item: "pyrotech:brick_oven"
+		}]
+	},
+	{
+		uid: "77105744",
+		type: "item",
+		items: [{
+			item: "pyrotech:brick_sawmill"
+		}]
+	}],
+	rewards: [{
+		uid: "d6752932",
+		type: "item",
+		item: "pyrotech:igniter 1 1",
+		count: 3
+	},
+	{
+		uid: "e5bb5729",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

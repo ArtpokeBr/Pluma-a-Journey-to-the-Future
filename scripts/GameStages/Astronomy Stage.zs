@@ -1,0 +1,2 @@
+# Hiding the Chemical Reactor from Advanced Rocketry, since it is annoying to see Armor Recipes on it before its needed.
+mods.ItemStages.stageRecipeCategory("AstronomyStage", "zmaster587.AR.chemicalReactor");

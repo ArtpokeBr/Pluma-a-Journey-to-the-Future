@@ -1,0 +1,46 @@
+{
+	title: "An Interesting Alloy",
+	x: 5.0d,
+	y: -8.0d,
+	description: "Time to make Iron Alloy!",
+	text: [
+		"By using your recent obtained §3Alloy Smelter§f, you'll be able to §6Alloy up to 3 Materials at a time§f.",
+		"",
+		"- Mix some §7Iron§f, §5Lead§f and §4Nether Bricks§f to obtain this §6Special Alloy§f!"
+	],
+	dependencies: [
+		"b6703e93"
+	],
+	tasks: [{
+		uid: "2c9d91fb",
+		type: "item",
+		title: "Iron Alloy",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotConstructionAlloy"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotConstructionAlloy"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "5f4cd4a7",
+		type: "item",
+		item: "harvestcraft:pumpkinmuffinitem",
+		count: 4
+	},
+	{
+		uid: "c1af88a0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

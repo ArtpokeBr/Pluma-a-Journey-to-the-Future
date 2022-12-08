@@ -1,0 +1,33 @@
+{
+	title: "LV Electrolyzer",
+	x: 3.5d,
+	y: 4.5d,
+	description: "Electrolyzing Materials with EU!",
+	text: [
+		"The Electrolyzer is a key machine in GT's Chemistry, you'll start using it more frequently!",
+		"",
+		"- This machine and the Chemical Reactor are best friends!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "24b006da",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 275"
+		}]
+	}],
+	rewards: [{
+		uid: "13d412b6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "0487ba36",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

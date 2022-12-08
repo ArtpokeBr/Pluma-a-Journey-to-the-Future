@@ -1,0 +1,48 @@
+{
+	title: "Producing Silk Wisp                                             §e§oSilky!",
+	icon: "forestry:bee_combs 1 6",
+	x: 1.5d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "A very important resource that can be produced by this Bee",
+	text: [
+		"With a Silky Comb and a Centrifugue you'll have the Chance to make Silk Wisp! ",
+		"",
+		"A special type of resource that can be used to make an Apiarist \"Armor\" and Also it will be used in other Craftings!"
+	],
+	dependencies: [
+		"74c48efe"
+	],
+	tasks: [{
+		uid: "ba5a2ce1",
+		type: "item",
+		items: [{
+			item: "forestry:bee_combs 1 6"
+		}]
+	},
+	{
+		uid: "87e5dbc4",
+		type: "item",
+		items: [{
+			item: "forestry:propolis 1 3"
+		}]
+	},
+	{
+		uid: "1e8b24d6",
+		type: "item",
+		items: [{
+			item: "forestry:crafting_material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "2fee65aa",
+		type: "item",
+		item: "forestry:crafting_material 1 3",
+		random_bonus: 4
+	},
+	{
+		uid: "eec2bd57",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

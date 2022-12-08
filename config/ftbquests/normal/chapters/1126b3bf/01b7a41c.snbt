@@ -1,0 +1,47 @@
+{
+	title: "A Bloody Fluid Infuser",
+	x: 3.5d,
+	y: 1.5d,
+	description: "The Most Important Machine from EvilCraft",
+	text: [
+		"This §cMachine§f is very interesting as it is truly an §3Fluid Infuser focused in Blood Recipes§f.",
+		"",
+		"- There are §eUpgrades§f and §9\"Upgrade Kits\"§f.",
+		"",
+		"§8§o~ The Following Quests will guide you trough just that.§r§f",
+		"",
+		"§8§o~ Oh and be aware that the IO's of this Machine are sided.§r§f"
+	],
+	dependencies: [
+		"58612b43"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "0a1e3257",
+		type: "item",
+		items: [{
+			id: "evilcraft:blood_infuser",
+			tag: {
+				x: 352,
+				y: 66,
+				z: 338
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c6a6fd6",
+		type: "item",
+		item: "bloodmagic:blood_tank 1 2"
+	},
+	{
+		uid: "92f77c94",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

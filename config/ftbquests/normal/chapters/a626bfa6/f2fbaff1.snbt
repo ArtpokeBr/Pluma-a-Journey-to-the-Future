@@ -1,0 +1,32 @@
+{
+	title: "It all starts somewhere",
+	x: -6.0d,
+	y: -1.5d,
+	description: "An Alloy Smelter to make Cheaper Bronze",
+	text: [
+		"Now that you have a Boiler, perhaps it is a good idea to have a way to make Cheaper Bronze.",
+		"",
+		"- This Steam Alloy Smelter will require Steam to operate and it will only process ULV and LV level Recipes."
+	],
+	dependencies: [
+		"77b68c9d"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9d16a155",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "0e89dc17",
+		type: "item",
+		item: "harvestcraft:raspberrypieitem"
+	},
+	{
+		uid: "e5c51ffe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

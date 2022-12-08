@@ -1,0 +1,54 @@
+{
+	title: "Time to make Plates!",
+	x: 13.0d,
+	y: -1.5d,
+	description: "Hammer Time!",
+	text: [
+		"You cant make plates with your bare hands, well... you'll need to use a Special table for that them!",
+		"",
+		"- Any GregTech hammer can be used to hammer down plates.",
+		"",
+		"- Simply place the item that will become a place on it, and hammer it down!"
+	],
+	dependencies: [
+		"006c576e"
+	],
+	tasks: [{
+		uid: "9272bb33",
+		type: "item",
+		items: [{
+			item: "magneticraft:crushing_table"
+		}]
+	},
+	{
+		uid: "300abaf0",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plateIron"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plateIron"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b883b189",
+		type: "item",
+		team_reward: false,
+		item: "pyrotech:egg_roasted",
+		count: 4
+	},
+	{
+		uid: "e162039b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,73 @@
+{
+	title: "Tier 3 Essences",
+	x: 18.0d,
+	y: -4.0d,
+	description: "Oh boy, this is really getting more complicated!",
+	text: [
+		"- Lets make the §aTier 3§f ones!",
+		"",
+		"- You should be able to make them now if you just unlocked this quest.",
+		" if you can't, §5don't forget to come back later§f!",
+		"",
+		"- All §6Essence's§f will also require a §bCatalyst§f to be made, make sure to §2automate§f it beforehand.",
+		"",
+		"§3▬ §nCrepious§r§f §2Terrae, Orbis Terrae§f a piece of §5Diabolic Carbide§f, a §32x Compressed Cobblestone§f and a §dGrains of Infinity§f.",
+		"",
+		"§9▬ §nTempestas§r§f: §3Aether§f, §bCrystallos§f, §3A Weather Container§f, §eSunflower§f and a §dLunar Reactive Dust§f.",
+		"",
+		"§c▬ §nOffensa§r§f: §cIncendium§f, §5Magicales§f, §3An Dark Steel Sword§f, §cDynamite§f, §dSplash Potion of Harming§f.",
+		"",
+		"§b▬ §nVirtus§r§f: §cIncendium§f, §eSanctus§f, §3A Crystalline Pink Slime§f, §cSoot Redstone§f, Empowered Enori."
+	],
+	dependencies: [
+		"b884cc83"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "57a4dc92",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crepitous"
+		}]
+	},
+	{
+		uid: "c8e08bbd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tempestas"
+		}]
+	},
+	{
+		uid: "b8e2fb78",
+		type: "item",
+		items: [{
+			item: "contenttweaker:offensa"
+		}]
+	},
+	{
+		uid: "d93001ff",
+		type: "item",
+		items: [{
+			item: "contenttweaker:virtus"
+		}]
+	},
+	{
+		uid: "6fbdfdd2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:concentrated_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "80ca35c7",
+		type: "item",
+		item: "contenttweaker:concentrated_catalyst",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "9891a0a2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

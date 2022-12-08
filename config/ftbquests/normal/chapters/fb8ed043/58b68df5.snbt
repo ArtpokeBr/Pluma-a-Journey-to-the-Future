@@ -1,0 +1,30 @@
+{
+	title: "Chests are also a Thing!",
+	x: 17.0d,
+	y: -1.0d,
+	description: "With Treated Wood, you'll be able to finally get normal chests!",
+	text: [
+		"There are much better options than a normal chest, but it is needed for some recipes and maybe you're a traditional person, right?"
+	],
+	dependencies: [
+		"67345fdc"
+	],
+	tasks: [{
+		uid: "b42ed549",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "48598a88",
+		type: "item",
+		item: "harvestcraft:chickenparmasanitem",
+		random_bonus: 3
+	},
+	{
+		uid: "4bb63849",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

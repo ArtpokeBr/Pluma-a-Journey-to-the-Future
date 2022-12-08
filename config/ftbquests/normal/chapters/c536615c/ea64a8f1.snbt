@@ -1,0 +1,29 @@
+{
+	x: 8.0d,
+	y: -3.5d,
+	description: "Make a Logistics Chassis Mk5",
+	text: [
+		"The &bLogistics Chassis Mk5&r can hold &6eight Modules&r."
+	],
+	dependencies: [
+		"401a444e"
+	],
+	tasks: [{
+		uid: "501de5ff",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_chassis_mk5"
+		}]
+	}],
+	rewards: [{
+		uid: "86b0669d",
+		type: "item",
+		item: "logisticspipes:pipe_chassis_mk5",
+		count: 2
+	},
+	{
+		uid: "fe6a764b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Polymer Clay!",
+	x: 13.0d,
+	y: -12.0d,
+	description: "A \"Fuel\" for mob simulations!",
+	text: [
+		"And finally, with some §9Phthalic Acid§f and a little bit of §3PVC§f, you'll get §6Polymer Clay§f!",
+		"",
+		"- §2Usefull§f for your §bArtistical§f needs",
+		"",
+		"- But also, §2essential§f to start §asimulating mobs§f with §bDML§f!",
+		"",
+		"§8§o(PVC = Polyvinyl Chloride, DML = Deep Mob Learning)§r§f"
+	],
+	dependencies: [
+		"393e30f2",
+		"5a0498dd"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "13ec659c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3358c572",
+		type: "item",
+		item: "deepmoblearning:polymer_clay",
+		random_bonus: 63
+	},
+	{
+		uid: "9ef8c521",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

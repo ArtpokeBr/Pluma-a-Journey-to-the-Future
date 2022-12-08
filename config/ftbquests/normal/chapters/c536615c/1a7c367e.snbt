@@ -1,0 +1,27 @@
+{
+	title: "{pluma.logopq.title}",
+	x: -2.5d,
+	y: -3.0d,
+	description: "{pluma.logopq.subtitle}",
+	text: [
+		"{pluma.logopq.desc1}",
+		"",
+		"{pluma.logopq.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "a21796e7",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_opaque"
+		}]
+	}],
+	rewards: [{
+		uid: "c10c8c90",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

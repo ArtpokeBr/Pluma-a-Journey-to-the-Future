@@ -1,0 +1,36 @@
+{
+	title: "A Better  Fluid Conduit",
+	x: 1.0d,
+	y: -8.0d,
+	description: "A Pressurized Fluid Conduit!",
+	text: [
+		"By using some §bBlue Alloy Plates§f and an §6MV Assembler§f, you'll be able to upgrade your §9Fluid Conduits§f!",
+		"",
+		"- These Conduits are not affected by §dGravity§f and §5Viscosity§f like the previous one",
+		"",
+		"- But unfortunatly it §2doesn't accept§f  §9Fluid Filters§f."
+	],
+	dependencies: [
+		"e0e7d900"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ba1003ec",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 1"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "ec09e4ed",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 9
+	},
+	{
+		uid: "d13cdd7d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

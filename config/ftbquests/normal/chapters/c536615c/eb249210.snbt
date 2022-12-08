@@ -1,0 +1,73 @@
+{
+	title: "The Best Material for MV Cables!",
+	x: 8.0d,
+	y: -9.5d,
+	description: "And also a good material for Conduits!",
+	text: [
+		"With an §6Alloy Smelter§f, you'll be able to reach the Peak of §6MV§f Cables! §eEnergetic Alloy§f!",
+		"",
+		"- Why is it the Best? It doesn't lose §eEU§f per block.",
+		"",
+		"- Also, §2Very good§f if you need §eEnergy Conduits§f."
+	],
+	dependencies: [
+		"b6703e93"
+	],
+	size: 1.2d,
+	min_width: 300,
+	tasks: [{
+		uid: "3c86d4a9",
+		type: "item",
+		title: "Energetic Alloy",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotEnergeticAlloy"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotEnergeticAlloy"
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "0570ab9d",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 32005"
+		}],
+		count: 8L
+	},
+	{
+		uid: "6e9bfc70",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 1"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "2f46b119",
+		type: "item",
+		item: "gregtech:meta_ingot 1 1068",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "e999e08d",
+		type: "item",
+		item: "enderio:item_power_conduit 1 1",
+		count: 3,
+		random_bonus: 6
+	},
+	{
+		uid: "139ea4a3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

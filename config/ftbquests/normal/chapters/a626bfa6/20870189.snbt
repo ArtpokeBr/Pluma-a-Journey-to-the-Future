@@ -1,0 +1,65 @@
+{
+	title: "Vacuum Tubes",
+	icon: "gregtech:meta_item_1 1 516",
+	x: -4.5d,
+	y: 4.0d,
+	description: "Circuit Materials I",
+	text: [
+		"Vacuum Tubes are an Essential Component to Craft your First Circuits.",
+		"",
+		"- Use some Steel to get yourself a Mold to make those Glass Tubes also."
+	],
+	dependencies: [
+		"a45b245e"
+	],
+	tasks: [{
+		uid: "43f4c284",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 17"
+		}]
+	},
+	{
+		uid: "b4bc36ea",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 517"
+		}],
+		count: 2L
+	},
+	{
+		uid: "8957b8e3",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 25"
+		}],
+		count: 6L
+	},
+	{
+		uid: "79901669",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_stick 1 324"
+		}],
+		count: 4L
+	},
+	{
+		uid: "45c1ead5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "ddcc627c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 516",
+		count: 4
+	},
+	{
+		uid: "b2aa4db5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Analyzing the World around you",
+	x: 5.5d,
+	y: 0.0d,
+	description: "The Ultimate Thaumaturge's Tool!",
+	text: [
+		"With a §6Thaumometer§f you'll start to §2research the world around you§f!",
+		"",
+		"- §bLook at chests full of items§f, at §bblocks around§f you and even §bentities§f!",
+		"",
+		"- §eEverytime that you've discover something new§f, you'll get §2research points§f!",
+		"",
+		"- §2These points§f can also be used to progress in the §6Thaumnomicon's quests§f.",
+		"",
+		"- §5And also§f, some of them may also require you to §dobserve a specific block/entity/thing§f.",
+		"",
+		"§8§o~ Oh and don't forget that you can also see in the left corner of the screen the amount of Vis and Flux in the current chunk!§r§f"
+	],
+	dependencies: [
+		"41b5df07"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a6dcc88a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "121ded9d",
+		type: "item",
+		item: "thaumadditions:thaumic_lectern"
+	},
+	{
+		uid: "d60fb35e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

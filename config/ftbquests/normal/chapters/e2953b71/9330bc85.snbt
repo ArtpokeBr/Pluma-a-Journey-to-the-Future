@@ -1,0 +1,56 @@
+{
+	title: "A Long search for the Long lost Powerstone!",
+	icon: "abyssalcraft:psdl",
+	x: 7.0d,
+	y: -2.5d,
+	description: "A Powerstone capable of letting you traverse the Abyssal Universe!",
+	text: [
+		"§5The Dimension§f that you're currently in has a §6special dungeon§f!",
+		"",
+		"- Make some §3Powerstone tracker's§f, they work just like §3Ender eye's§f.",
+		"",
+		"- Once you find the §6dungeon§f and subsequentially find the §cPowerstone§f, you'll need a §bCoralium Pickaxe§f to mine it!",
+		"",
+		"- §cThis Powerstone§f will be your §2Key to the next Abyssal Dimension§f!"
+	],
+	dependencies: [
+		"f60e4a4f"
+	],
+	tasks: [{
+		uid: "3ad94d95",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "refined_coralium"
+			}
+		}]
+	},
+	{
+		uid: "3f657dc5",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:powerstonetracker"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a2a585c3",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:psdl"
+		}]
+	}],
+	rewards: [{
+		uid: "c353af60",
+		type: "item",
+		item: "abyssalcraft:powerstonetracker",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "e7964d1e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

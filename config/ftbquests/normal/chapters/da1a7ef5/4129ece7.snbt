@@ -1,0 +1,32 @@
+{
+	title: "The Rite of Spring!",
+	x: 2.0d,
+	y: -1.0d,
+	description: "Using The power of the Gods to Make Mobs Breed and make a Red Cedar Tree!",
+	text: [
+		"You can always read the Totempedia for more specific Info.",
+		"",
+		"- But most importantly, you need this ritual to obtain the Red Cedar Tree!",
+		"",
+		"- Simply place a Vanilla Sapling (Some modded ones work, other don't) close to the totem",
+		"",
+		"- I Recommend that you place a block above that sapling so you can prevent its growing",
+		"",
+		"- After Completing the Ritual, the sapling will be converted and you'll be able to replant it/farm it."
+	],
+	dependencies: [
+		"7eae8885"
+	],
+	tasks: [{
+		uid: "03ee3a53",
+		type: "item",
+		items: [{
+			item: "totemic:cedar_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "a0c6fed1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

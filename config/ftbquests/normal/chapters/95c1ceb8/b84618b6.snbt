@@ -1,0 +1,50 @@
+{
+	title: "Automating DNA §6Part II§f",
+	icon: "genetics:lab_machine 1 2",
+	x: 9.0d,
+	y: -4.5d,
+	description: "Cultivating Bacteria",
+	text: [
+		"Now, use another §6Incubator§f, but this time, provide it with those §eGrowth Medium Fluid§f and §eWheat§f! you'll get some §3bacteria§f.",
+		"",
+		"~ There's also some recipes in the §6Incubator§f, just like this one, that you can §2multiply§f existent §9fluids§f inside of it.",
+		"",
+		"§9For example§f, if you place a bucket of §3bacteria§f inside of an Incubator, you can just provide it directly with §eGrowth Medium Dusts§f to §2multiply§f it."
+	],
+	dependencies: [
+		"664877b7"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e0414763",
+		type: "item",
+		items: [{
+			item: "genetics:lab_machine 1 2"
+		}]
+	},
+	{
+		uid: "829671ec",
+		type: "fluid",
+		fluid: "binnie.bacteria"
+	}],
+	rewards: [{
+		uid: "d6df5d9f",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "binnie.bacteria",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "bc50c05e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

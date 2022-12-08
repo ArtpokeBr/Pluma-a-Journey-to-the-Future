@@ -1,0 +1,52 @@
+{
+	title: "Important Shearables",
+	x: 14.5d,
+	y: 1.0d,
+	description: "Time to test drive that Runic Shears of yours",
+	text: [
+		"By following JEI you should have no Problem on obtaining these materials."
+	],
+	dependencies: [
+		"88374903"
+	],
+	tasks: [{
+		uid: "4ac0253f",
+		type: "item",
+		items: [{
+			item: "roots:spirit_herb"
+		}]
+	},
+	{
+		uid: "816a7a19",
+		type: "item",
+		items: [{
+			item: "roots:wildewheet"
+		}]
+	},
+	{
+		uid: "335234e0",
+		type: "item",
+		items: [{
+			item: "roots:fey_leather"
+		}]
+	},
+	{
+		uid: "1f781be5",
+		type: "item",
+		items: [{
+			item: "roots:mystic_feather"
+		}]
+	},
+	{
+		uid: "b2c811f2",
+		type: "item",
+		items: [{
+			item: "roots:strange_ooze"
+		}]
+	}],
+	rewards: [{
+		uid: "9912d65a",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

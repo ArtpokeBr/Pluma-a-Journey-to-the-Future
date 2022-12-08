@@ -1,0 +1,43 @@
+{
+	title: "A Better HV Circuit",
+	x: 7.0d,
+	y: -7.5d,
+	description: "Lets improve our situation at HV!",
+	text: [
+		"By using some §2Materials§f §c+§f some §eIntegrated Processors§f you'll get some §6Assembly's§f.",
+		"",
+		"- These will be essential to manufacture your First §bEV Circuits§f.",
+		"",
+		"- Also, if you've automated those §eIntegrated Processorsf, this recipe for an §6HV Circuit§f may be §abetter§f for ya."
+	],
+	dependencies: [
+		"bd8be3cf",
+		"041caa35"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "0cd90bca",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 629"
+		}]
+	}],
+	rewards: [{
+		uid: "e0e68fee",
+		type: "item",
+		item: "gregtech:meta_item_1 1 527",
+		count: 16
+	},
+	{
+		uid: "2bd9460b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 525",
+		count: 16
+	},
+	{
+		uid: "2f7135c2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "A Dwarven Mixer!",
+	x: 10.5d,
+	y: 0.5d,
+	description: "Mix it up like a Dwarf!",
+	text: [
+		"For the most advanced §3Embers§f components, you'll need §6Dawnstone§f!",
+		"",
+		"- §6Dawnstone§f is a mixture of §5Bronze§f, §5Rose Gold§f and §5Aluminium Brass§f.",
+		"",
+		"- And to properly mix it, you'll need a §2Mixer Centrifuge§f.",
+		"",
+		"- Each side of the §9bottom block is a valid Fluid Input§f, while the §atop one is meant to extract the Output§f.",
+		"",
+		"- Also, of course you'll need §eEmber§f for it, and §ethe Top Block is where you're going to provide it§f."
+	],
+	dependencies: [
+		"06fc0b12"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "c9018fd3",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "9d9c7717",
+		type: "item",
+		item: "gregtech:meta_ingot 1 301",
+		count: 8
+	},
+	{
+		uid: "97f4f4f5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

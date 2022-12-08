@@ -1,0 +1,58 @@
+{
+	title: "Terrastone Tools!",
+	x: 14.5d,
+	y: -1.0d,
+	description: "An Improvement from those Living ones!",
+	text: [
+		"Just like the Living Tools, Terrastone Tools can repair themselves over time but they have a better mining level assigned to them.",
+		"",
+		"- They can be repaired with Mossy Cobblestone."
+	],
+	dependencies: [
+		"1717c1b6",
+		"beb22594"
+	],
+	optional: true,
+	tasks: [{
+		uid: "92c61708",
+		type: "item",
+		title: "Make  Any Terrastone Tool",
+		items: [{
+			id: "roots:terrastone_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:terrastone_pickaxe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:terrastone_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:terrastone_shovel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:terrastone_hoe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc8f0a51",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,81 @@
+{
+	title: "Time to Become a Statue Collector!",
+	x: -0.5d,
+	y: -1.0d,
+	description: "§8§oOrr'e's ot mgepogor ones§r§f",
+	text: [
+		"§3AbyssalCraft§f is a mod all about §5ancient gods§f that once dominated this world.",
+		"",
+		"- But for now, they're just... sleeping in the §5Abyss§f.",
+		"",
+		"- And of course, it is your job to start praying for them and §2waking them up§f!",
+		"",
+		"- Well, at least, lets first make some §6Statues§f to actually be able to use their §espare energy§f that remains in this §9universe§f.",
+		"",
+		"§8§o~ Oh and don't worry, all bad effects that this mod could cause in your base have been disabled§r§f"
+	],
+	dependencies: [
+		"8773e83a"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "ee089c32",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:statue"
+		}]
+	},
+	{
+		uid: "a596d6ed",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:statue 1 1"
+		}]
+	},
+	{
+		uid: "032d1f6c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:statue 1 2"
+		}]
+	},
+	{
+		uid: "47642d98",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:statue 1 3"
+		}]
+	},
+	{
+		uid: "38227ba0",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:statue 1 4"
+		}]
+	},
+	{
+		uid: "07a0532c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:statue 1 5"
+		}]
+	},
+	{
+		uid: "2c321257",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:statue 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "71c5a472",
+		type: "item",
+		item: "abyssalcraft:shadowgem",
+		random_bonus: 7
+	},
+	{
+		uid: "09683271",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

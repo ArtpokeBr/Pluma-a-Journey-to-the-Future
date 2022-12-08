@@ -1,0 +1,51 @@
+{
+	title: "The Gold Processing Line §6Part IV§f",
+	x: 11.0d,
+	y: 3.0d,
+	description: "Lets make Chloroauric Acid!",
+	text: [
+		"§aFinally§f! you're almost done! this is the §alast required step§f before getting great amounts of §eGold§f.",
+		"",
+		"- Now, §6Chemically React§f your §3Hydrochloric Acid§f with a §eGold Leach Dust§f to get §e§nChloroauric Acid§r§f!",
+		"",
+		"§8§o(Also, keep in mind that if you wish, you could also Electrolyze it before this process, although I don't recommend it.)§r§f",
+		"",
+		"- Oh and §ddon't forget§f about those §dCopper Leach Dust's§f that you've obtained out of this process aswell.",
+		"",
+		"- You can simply §6Sift§f it to get some extra §3metals§f, Although in §eLV§f you'll not get all of them §5frequently§f."
+	],
+	dependencies: [
+		"3c9adc9b",
+		"75f3a990"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "61a81b30",
+		type: "fluid",
+		fluid: "chloroauric_acid"
+	},
+	{
+		uid: "1bd4e35c",
+		type: "item",
+		title: "An LV to HV Chemical Reactor",
+		items: [{
+			item: "gregtech:machine 1 215"
+		},
+		{
+			item: "gregtech:machine 1 216"
+		},
+		{
+			item: "gregtech:machine 1 217"
+		}]
+	}],
+	rewards: [{
+		uid: "200e8e4c",
+		type: "item",
+		item: "gregtech:machine 1 215"
+	},
+	{
+		uid: "09b03827",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

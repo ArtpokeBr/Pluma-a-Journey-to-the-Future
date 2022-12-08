@@ -1,0 +1,51 @@
+{
+	title: "Upgrading your Blast Furnace!",
+	icon: "gregtech:wire_coil 1 1",
+	x: 3.5d,
+	y: -0.5d,
+	description: "By using Kanthal Coils!",
+	text: [
+		"By using §316 Kanthal Coils§f in a §6Blast Furnace§f, you'll Increase its §cHeat Capacity to 2700K§f, wich it is §2essential§f for some recipes.",
+		"",
+		"- The §2Requirements§f for this quest have been §ecalculated§f, don't worry."
+	],
+	dependencies: [
+		"284c3857"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e116486d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 288"
+		}],
+		count: 128L
+	},
+	{
+		uid: "3777e020",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2"
+		}],
+		count: 32L
+	},
+	{
+		uid: "d21a553c",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5630f59d",
+		type: "item",
+		item: "gregtech:wire_coil 1 1",
+		count: 16
+	},
+	{
+		uid: "4715ab86",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

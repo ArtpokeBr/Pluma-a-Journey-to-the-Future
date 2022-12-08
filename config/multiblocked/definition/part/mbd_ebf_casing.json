@@ -1,0 +1,12 @@
+{
+  "canShared": true,
+  "location": "mbd:ebf_casing",
+  "traits": {},
+  "allowRotate": false,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:ebf_casing",
+    "type": "imodel"
+  },
+  "isOpaqueCube": true
+}

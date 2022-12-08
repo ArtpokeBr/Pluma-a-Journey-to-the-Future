@@ -1,0 +1,40 @@
+{
+	title: "Tarred Components",
+	x: 14.5d,
+	y: -1.5d,
+	description: "Creosote Oil and a Special Type of Wood = Tarred Wood!",
+	text: [
+		"Pyrotech has some Special Devices that can be crafted with these, make some! :)"
+	],
+	dependencies: [
+		"06c93fff"
+	],
+	tasks: [{
+		uid: "09f2bd41",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 23"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f78750a6",
+		type: "item",
+		items: [{
+			item: "pyrotech:planks_tarred"
+		}],
+		count: 4L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "0e0cc3ac",
+		type: "item",
+		item: "pyrotech:wool_tarred",
+		count: 8
+	},
+	{
+		uid: "ad23c3e9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

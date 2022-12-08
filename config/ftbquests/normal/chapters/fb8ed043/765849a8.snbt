@@ -1,0 +1,31 @@
+{
+	title: "A Way to light up flames!",
+	x: 3.5d,
+	y: -1.5d,
+	description: "A Flint and Tinder!",
+	text: [
+		"Not for Dating, but for Lighting up flames!",
+		"",
+		"Currently you don't have Steel to make a Flint and Steel, so this is your first way to light up fire!"
+	],
+	dependencies: [
+		"a9967abd"
+	],
+	tasks: [{
+		uid: "7587f080",
+		type: "item",
+		items: [{
+			id: "pyrotech:flint_and_tinder",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d1fa2fe",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

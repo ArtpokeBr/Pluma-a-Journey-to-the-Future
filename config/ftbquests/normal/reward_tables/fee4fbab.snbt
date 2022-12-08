@@ -1,0 +1,136 @@
+{
+	title: "Choose a Bronze Tool",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 9s,
+		tag: {
+			ench: [{
+				lvl: 3s,
+				id: 34s
+			}],
+			RepairCost: 1,
+			GT.ToolStats: {
+				Material: "bronze"
+			}
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 5s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 6s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 8s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 9s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 11s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 13s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

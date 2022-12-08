@@ -1,0 +1,34 @@
+{
+	title: "The Start of your LP Network!",
+	x: 5.5d,
+	y: -6.0d,
+	description: "It all starts with some Power",
+	text: [
+		"Logistics Pipe networks require power to function. Place down a &bLogistics Power Junction&r and connect it to the network with a Basic Logistics Pipe, then &6provide it with RF or EU&r.",
+		"",
+		"You may need to place some pipes to update the network."
+	],
+	dependencies: [
+		"17848ef1",
+		"54c44f7d"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "d0e45df5",
+		type: "item",
+		items: [{
+			item: "logisticspipes:power_junction"
+		}]
+	}],
+	rewards: [{
+		uid: "f48c982f",
+		type: "item",
+		item: "logisticspipes:pipe_basic",
+		count: 4
+	},
+	{
+		uid: "5c4b4216",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

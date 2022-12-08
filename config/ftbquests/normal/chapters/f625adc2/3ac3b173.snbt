@@ -1,0 +1,35 @@
+{
+	title: "Terrasteel!",
+	x: 3.0d,
+	y: -7.0d,
+	description: "An Essential Botanist Metal!",
+	text: [
+		"By Mixing a §bMana Pearl§f, §bMana Diamond§f and §9Manasteel§f in an §6Agglomeration Plate§f... §aTerrasteel§f!",
+		"",
+		"- Maybe it will be a §2wise decision§f to start considering an §2Automation§f for it, as it will be required in a §efollowing chapter§f."
+	],
+	dependencies: [
+		"cb7427da"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "38bde1e4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32036"
+		}]
+	}],
+	rewards: [{
+		uid: "9c07482a",
+		type: "item",
+		item: "gregtech:meta_ingot 1 32036",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "74d39546",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

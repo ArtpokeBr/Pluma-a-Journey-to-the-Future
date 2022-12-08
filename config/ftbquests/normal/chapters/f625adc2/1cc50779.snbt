@@ -1,0 +1,67 @@
+{
+	title: "Ad Astra per Fabrica",
+	x: -7.499999999999993d,
+	y: -6.982142857142858d,
+	description: "Let's get into Astral Sorcery!",
+	text: [
+		"You've probally already found some strange §bRefined Marble Structures§f in the §5Twilight Forest§f, collect some of them and §2find chests§f!",
+		"",
+		"- Inside of this §2Chest's§f you'll find §9Aquamarine§f and some §3Constellation Papers§f.",
+		"",
+		"- But most importantly, find some §dlarger structures§f! as they'll contain more §6Refined Marble§f and §2more loot§f!"
+	],
+	dependencies: [
+		"ae4cf14f"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "0086064b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}]
+	},
+	{
+		uid: "157ca1ff",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}]
+	},
+	{
+		uid: "40930d0f",
+		type: "item",
+		title: "Any Constellation Paper",
+		items: [{
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.armara"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c1801cc",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemjournal",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "e3e2995a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Potin",
+	icon: "gregtech:meta_ingot 1 2037",
+	x: -1.5093537414966036d,
+	y: -5.241836734693852d,
+	description: "A Material used for Multiblock Steam Machines!",
+	text: [
+		"With Potin in hands, you'll be able to reach the top progression of the Steam Machines, The Multiblock ones!",
+		"",
+		"- Well, at least the 2 of them, the Multiblock Steam Macerator and Multiblock Steam Oven."
+	],
+	dependencies: [
+		"d9d55c4b"
+	],
+	tasks: [{
+		uid: "51d5fb01",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2037"
+		}]
+	},
+	{
+		uid: "832163c9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2037"
+		}]
+	}],
+	rewards: [{
+		uid: "f29db950",
+		type: "item",
+		item: "gregtech:meta_ingot 1 2037",
+		count: 9
+	},
+	{
+		uid: "4ee66a25",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

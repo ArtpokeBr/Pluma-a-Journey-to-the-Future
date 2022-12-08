@@ -1,0 +1,57 @@
+{
+	title: "Engraving LPIC Wafers!",
+	icon: "gregtech:meta_item_1 1 578",
+	x: 5.0d,
+	y: -2.5d,
+	description: "Lets make some Low Power IC's!",
+	text: [
+		"With your §6HV Chemical Bath§f, you'll also be able to make some §eLPIC Wafers§f!",
+		"",
+		"- First, use it to §2paint§f a §3Glass Lens§f into an §6Orange§f one, remember to make some §6Chemical Orange Dye§f first.",
+		"",
+		"- You'll also require an §6HV Cutting Machine§f to cut these §3wafers§f, make that first aswell!"
+	],
+	dependencies: [
+		"5c98b7a0",
+		"32fa94b7"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ecc9a370",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 821"
+		}]
+	},
+	{
+		uid: "b5732be4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 578"
+		}]
+	},
+	{
+		uid: "a4e1c2f8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 603"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "50acc37d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 422",
+		count: 32
+	},
+	{
+		uid: "648597eb",
+		type: "item",
+		item: "gregtech:meta_item_1 1 578"
+	},
+	{
+		uid: "5b7c7cf0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

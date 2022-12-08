@@ -1,0 +1,60 @@
+{
+	title: "Time to Ghostbust in The End!",
+	x: 7.0d,
+	y: 3.0d,
+	description: "[Insert here the Theme Music]",
+	text: [
+		"§3Evilcraft§f has a special type of mob, §4Evil Spirits§f!",
+		"",
+		"- §aFirst§f, craft a §5special type of glasses§f, it will §5allow you to see them§f.",
+		"",
+		"- §aSecond§f, go to §dThe End§f and §ckill§f an §dEnderman§f! a §4Evil Spirit§f will be §dreleased§f.",
+		"",
+		"- §aThird§f, to actually §ckill§f the §4Evil Spirit§f, you'll need a §6Vengeance Focus§f. §8§o(Right click with it to kill it).§r§f"
+	],
+	dependencies: [
+		"90ad38dc",
+		"f5a3cd74"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "aa75b106",
+		type: "item",
+		items: [{
+			id: "evilcraft:spectral_glasses",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "595e88b2",
+		type: "item",
+		items: [{
+			item: "evilcraft:piercing_vengeance_focus"
+		}]
+	},
+	{
+		uid: "907baa3d",
+		type: "item",
+		items: [{
+			item: "evilcraft:vengeance_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "fb42d0b6",
+		type: "item",
+		item: "evilcraft:sceptre_of_thunder",
+		count: 2
+	},
+	{
+		uid: "64db6ba1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

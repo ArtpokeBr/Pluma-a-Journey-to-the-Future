@@ -1,0 +1,66 @@
+{
+	title: "Living Tools!",
+	x: 13.5d,
+	y: -1.0d,
+	description: "Not Insanely Good, but decently Good",
+	text: [
+		"Any Living tool from Roots have a downside wich is being low in Harvest level, but, they provide 1 Interesting atribute",
+		"",
+		"- Living Tools repair themselves over time",
+		"",
+		"- Living Arrows allows you to maintain your pacifist life beacuse they don't use feathers."
+	],
+	dependencies: [
+		"2ab08f70"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f04c4e49",
+		type: "item",
+		title: "Make Any Living Tool",
+		items: [{
+			id: "roots:living_pickaxe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:living_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:living_shovel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:living_hoe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:living_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3ea921f",
+		type: "item",
+		items: [{
+			item: "roots:living_arrow"
+		}]
+	}],
+	rewards: [{
+		uid: "41debb5f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

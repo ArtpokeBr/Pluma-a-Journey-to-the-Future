@@ -1,0 +1,41 @@
+{
+	title: "A Red Variant of Steel!",
+	x: 6.0d,
+	y: 5.0d,
+	description: "There are many variants of Steel in this World.",
+	text: [
+		"By Mixing §5Black Steel§f, §7Steel§f, §3Bismuth Bronze§f and §bSterling Silver§f, §6Red Steel§f!",
+		"",
+		"- §6Red Steel§f is an Interesting type of §7Steel§f that might prove itself to be §ausefull in certain recipes§f."
+	],
+	dependencies: [
+		"63ca77f4"
+	],
+	tasks: [{
+		uid: "1e7e0320",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2510"
+		}],
+		count: 8L
+	},
+	{
+		uid: "cc115afd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2510"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "9d9b72bd",
+		type: "item",
+		item: "gregtech:meta_ingot 1 2510",
+		random_bonus: 7
+	},
+	{
+		uid: "074f5a43",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

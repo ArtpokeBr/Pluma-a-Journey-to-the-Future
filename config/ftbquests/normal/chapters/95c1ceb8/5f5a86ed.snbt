@@ -1,0 +1,28 @@
+{
+	title: "Automating DNA §6Part III§f",
+	x: 9.0d,
+	y: -3.5d,
+	description: "Lets make some Enzyme's",
+	text: [
+		"Now, with your recently cultivated §3Bacteria§f, use an §6Incubator§f with §aSugar§f to make some §eEnzyme's§f!",
+		"",
+		"~ Dont forget about the §9tip§f on the §6previous quest§f, you can finish this whole §9automation§f line with only §a2§f §6Incubators§f if you use 1 to simply §2multiply§f §3bacteria§f."
+	],
+	dependencies: [
+		"b84618b6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "49ddb693",
+		type: "item",
+		items: [{
+			item: "genetics:misc 1 3"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7d7ab247",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

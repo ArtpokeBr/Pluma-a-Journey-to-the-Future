@@ -1,0 +1,55 @@
+{
+	title: "Lets Automate Ethanol! §6Final Part§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "bio.ethanol",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 3.0d,
+	y: -13.0d,
+	description: "Distilling Ethanol from Biomass!",
+	text: [
+		"You'll need an §6MV Distillery§f or above for this recipe, but with some §2Biomass§f and a Circuit 1 you'll get §6Ethanol§f!"
+	],
+	dependencies: [
+		"e9173954"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "5ba9599c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 261"
+		}]
+	},
+	{
+		uid: "6c8ef17c",
+		type: "fluid",
+		fluid: "bio.ethanol"
+	}],
+	rewards: [{
+		uid: "8acbd7a3",
+		type: "item",
+		item: {
+			id: "binniecore:glass",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "binnie.spirit.sugarcane",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "ea0bc701",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

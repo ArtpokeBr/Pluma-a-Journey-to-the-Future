@@ -1,0 +1,32 @@
+{
+	title: "LV Electric Macerator",
+	x: 3.5d,
+	y: 5.5d,
+	description: "Macerating with EU!",
+	text: [
+		"Essential specially for automation! much better than the steam version!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "29f89e9a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 65"
+		}]
+	}],
+	rewards: [{
+		uid: "d9579b43",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "feb62ffa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

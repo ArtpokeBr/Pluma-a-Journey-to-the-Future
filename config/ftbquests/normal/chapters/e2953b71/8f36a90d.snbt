@@ -1,0 +1,32 @@
+{
+	title: "A Key to another Dimension!",
+	x: 5.0d,
+	y: -3.5d,
+	description: "By the Powers of §4Oblivion§f",
+	text: [
+		"Combining your recent adquired §2resources§f from §3AbyssalCraft§f... a key!",
+		"",
+		"- This will be used to open a §5portal§f for you, a portal to a §dstrange dimension§f...",
+		"",
+		"- Oh, and don't forget that for §6this key§f and also the §4Oblivion Catalyst§f you'll require a §csacrifice§f!",
+		"",
+		"§8§o~ You can actually place a mob for the ritual to begin and them collect it again with a golden lasso, so you don't lose it!§r§f"
+	],
+	dependencies: [
+		"d1ee7236"
+	],
+	tasks: [{
+		uid: "eb1cf24f",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatewaykey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f67e741",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

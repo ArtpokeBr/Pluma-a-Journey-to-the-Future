@@ -1,0 +1,44 @@
+{
+	title: "Soul Binding",
+	icon: "enderio:block_soul_binder",
+	x: 9.0d,
+	y: 2.0d,
+	description: "Time to start Manipulating Souls!",
+	text: [
+		"The §6Sould Binder§f will use §aXP§f and a §5Soul Vial§f with a §dspecific Mob§f to craft certain items.",
+		"",
+		"- §2Essential§f for some really advanced §3EnderIO Crystals and Components§f.",
+		"",
+		"- You can Pipe §aLiquid XP§f directly to it."
+	],
+	dependencies: [
+		"0c91ecac"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "20033b44",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	},
+	{
+		uid: "e873c13e",
+		type: "item",
+		items: [{
+			item: "enderio:item_soul_vial"
+		}]
+	}],
+	rewards: [{
+		uid: "c84f8448",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "66ab6a3c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

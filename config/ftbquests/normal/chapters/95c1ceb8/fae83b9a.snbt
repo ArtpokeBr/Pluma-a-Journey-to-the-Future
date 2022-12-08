@@ -1,0 +1,43 @@
+{
+	title: "Prospecting Ores and Fluids!",
+	x: -3.5d,
+	y: -4.5d,
+	description: "A Very Handy Device!",
+	text: [
+		"Well, it is very self explanatory, but with this §aProspector§f your life will be easier.",
+		"",
+		"- You'll not need to hunt for §2Ore Samples§f, search in a big area and locate it precisely instead.",
+		"",
+		"- But most importantly, with this §aProspector§f, by §5shift + right clicking§f to change the mode, you'll be able to find §9Fluid Veins§f aswell!",
+		"",
+		"- It is an §bessential§f device to have when trying to find a specific §9Fluid Vein§f to Drill."
+	],
+	dependencies: [
+		"9909954b"
+	],
+	tasks: [{
+		uid: "86b777d3",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 467s,
+			tag: {
+				Mode: 1
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "969c6a60",
+		type: "item",
+		item: "gregtech:machine 1 1318"
+	},
+	{
+		uid: "d3adb45b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

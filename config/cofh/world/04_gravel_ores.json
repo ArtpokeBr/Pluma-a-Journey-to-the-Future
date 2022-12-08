@@ -1,0 +1,80 @@
+{
+	"populate": 
+	{
+		"gravel_spikes": {
+			"distribution": "surface",
+			"follow-terrain": "false",
+			"generator": [
+				{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "minecraft:gravel",
+							"weight": 55
+						},
+						{
+							"name": "minecraft:cobblestone",
+							"weight": 40
+						},
+						{
+							"name": "contenttweaker:aluminiumgravel",
+							"weight": 5
+						}
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 5,
+					"height-variance": 3,
+					"height-mod": 1,
+					"gen-size": 0,
+					"size-variance": 1
+				},
+				{
+					"weight": 30,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "minecraft:gravel",
+							"weight": 80
+						},
+						{
+							"name": "chisel:cobblestonemossy",
+							"weight": 15
+						},
+						{
+							"name": "contenttweaker:aluminiumgravel",
+							"weight": 5
+						}
+					],
+					"gen-body": "minecraft:air",
+					"smooth": false,
+					"fat": true,
+					"min-height": 5,
+					"height-variance": 3,
+					"height-mod": 1,
+					"gen-size": 0,
+					"size-variance": 1
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 100,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					},
+					{
+						"type": "dictionary",
+						"entry": "WATER"
+					}
+				]
+			},
+			"dimension": "0"
+		}
+	}
+}

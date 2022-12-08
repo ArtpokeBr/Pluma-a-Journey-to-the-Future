@@ -1,0 +1,51 @@
+{
+	title: "Mixing some Vanadiumsteel!",
+	x: -0.5d,
+	y: -15.0d,
+	description: "Lets make an MV Mixer to obtain a different type of Steel!",
+	text: [
+		"§7Vanadiumsteel§f is a required material for some special subcomponents and recipes, but most importantly, for a §6MV Cutting Machine§f.",
+		"",
+		"- You'll need an §6MV Mixer§f for this Job.",
+		"",
+		"- Struggling to understand how to get §dChrome§f? try to electrolyze some §cRuby Dusts§f!",
+		"",
+		"- §7Vanadium§f? you can get it by Centrifuging §3Vanadium Magnetite dusts§f."
+	],
+	dependencies: [
+		"b8babd89"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "94aff4f6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 471"
+		}]
+	},
+	{
+		uid: "e4da82f5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2036"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "c46e4a31",
+		type: "item",
+		item: "gregtech:ore_vanadium_magnetite_0",
+		count: 16
+	},
+	{
+		uid: "8f8cfd9c",
+		type: "item",
+		item: "gregtech:meta_dust 1 22",
+		count: 2
+	},
+	{
+		uid: "598b174d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

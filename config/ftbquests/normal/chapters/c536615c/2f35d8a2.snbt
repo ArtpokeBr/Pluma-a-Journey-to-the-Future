@@ -1,0 +1,31 @@
+{
+	x: 5.0d,
+	y: -0.5d,
+	description: "{pluma.extractmodule.subtitle}",
+	text: [
+		"{pluma.extractmodule.desc1}",
+		"",
+		"{pluma.extractmodule.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "5070db37",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "f2995857",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "954e71df",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

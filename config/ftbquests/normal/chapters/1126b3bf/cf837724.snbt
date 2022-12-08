@@ -1,0 +1,33 @@
+{
+	title: "Pain and Sorrow",
+	x: 8.5d,
+	y: 1.5d,
+	description: "Lets make a Garmonbozia dust!",
+	text: [
+		"By §6Mixing§f your §3Vengeance Essence§f with some §2special ingredients§f and them §6Infusing§f it with §cBlood§f.",
+		"",
+		"§dGarmonbozia§f! a special dust from §5EvilCraft§f, it will be §avery usefull§f."
+	],
+	dependencies: [
+		"67a815b3"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "648b1d21",
+		type: "item",
+		items: [{
+			item: "evilcraft:garmonbozia"
+		}]
+	}],
+	rewards: [{
+		uid: "83cde34f",
+		type: "item",
+		item: "evilcraft:vengeance_essence",
+		count: 16
+	},
+	{
+		uid: "948ca71a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "A Thermionic Fabricator",
+	x: 7.5d,
+	y: -1.5d,
+	description: "Using Molten Glass to make Thermionic Tubes!",
+	text: [
+		"With some Cobalt Brass and an Iron Chassis, you'll be able to assemble this Machine.",
+		"",
+		"- It will allow you to assemble Thermionic Tubes and other special Recipes with Molten Glass",
+		"",
+		"- Thermionic Tubes will be the Key to unlock Forestry and Actually Additions Gadgets and Machines.",
+		"",
+		"~ Yes, you can automate this guy."
+	],
+	dependencies: [
+		"fde27007"
+	],
+	tasks: [{
+		uid: "11c00546",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "062e2b7a",
+		type: "item",
+		item: "forestry:honeyed_slice",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "853f1f91",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

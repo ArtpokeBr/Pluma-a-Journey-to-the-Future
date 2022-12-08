@@ -1,0 +1,34 @@
+{
+	x: 5.5d,
+	y: 0.5d,
+	description: "{pluma.passsup.subtitle}",
+	text: [
+		"{pluma.passsup.desc1}",
+		"",
+		"{pluma.passsup.desc2}",
+		"",
+		"{pluma.passsup.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "44fc2404",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_passive_supplier"
+		}]
+	}],
+	rewards: [{
+		uid: "daa07cee",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8c0f704a",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

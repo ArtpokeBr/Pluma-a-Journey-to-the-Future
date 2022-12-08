@@ -1,0 +1,49 @@
+{
+	title: "Vanadium + Steel =",
+	icon: "gregtech:meta_ingot 1 2036",
+	x: -2.5d,
+	y: -4.5d,
+	description: "Vanadiumsteel once again!",
+	text: [
+		"§3Vanadiumsteel§f is a material made out of §bVanadium§f, §aSteel§f and a little bit of §dChrome§f.",
+		"",
+		"- You'll need it for an Upcoming §6important Multiblock§f Structure",
+		"",
+		"- This is also a very §6resistent material§f, it will be used in some §6recipes§f.",
+		"",
+		"~ §7§nVanadium§r§f can easily be §2centrifuged§f out of §8§nVanadium Magnetite§r§f Dusts.",
+		"",
+		"§8§o(~ You've probally already made some of it for an MV Cutting Machine, but this quest is a good reminder.)§f§r"
+	],
+	dependencies: [
+		"9909954b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "d93067bd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2036"
+		}],
+		count: 9L
+	},
+	{
+		uid: "4b4e0aa1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2036"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "766b03ba",
+		type: "item",
+		item: "gregtech:meta_ingot 1 2036",
+		random_bonus: 8
+	},
+	{
+		uid: "ff120d66",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

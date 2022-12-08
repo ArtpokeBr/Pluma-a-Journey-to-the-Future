@@ -1,0 +1,43 @@
+{
+	title: "Electric Motors and Pistons",
+	x: -4.5d,
+	y: 7.0d,
+	description: "LV Materials I",
+	text: [
+		"By reaching LV and beyond, you'll need Motors and Pistons for many recipes.",
+		"",
+		"- You'll use them in the next few quests",
+		"",
+		"- Machines Crafts will require these 2 fellas."
+	],
+	dependencies: [
+		"a45b245e"
+	],
+	tasks: [{
+		uid: "bb0cabc3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 172"
+		}],
+		count: 2L
+	},
+	{
+		uid: "0621ce72",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 127"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "829b964f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 127",
+		count: 4
+	},
+	{
+		uid: "249cfb20",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

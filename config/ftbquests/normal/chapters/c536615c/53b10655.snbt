@@ -1,0 +1,44 @@
+{
+	title: "An MV Lathe for Ruby Lens!",
+	x: -2.0d,
+	y: -14.0d,
+	description: "Lets start making Lenses!",
+	text: [
+		"Now that you're going to start using §6Silicon Wafers§f, you'll need a §3Laser Engraver§f but also some §cLenses§f.",
+		"",
+		"- First, you'll need an §3MV Lathe§3 for a §cRuby Lens§f.",
+		"",
+		"- Second, If you're wondering where to get §cRuby§f, it can be found in §cRedstone Veins§f at §4The Nether§f.",
+		"",
+		"- It is also good to have an §eBetter Voltage Machine§f, since you'll start §9Overclocking Recipes§f."
+	],
+	dependencies: [
+		"b9f13b98"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e68dd674",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 441"
+		}]
+	},
+	{
+		uid: "9d16d6c8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_lens 1 311"
+		}]
+	}],
+	rewards: [{
+		uid: "e6ca3141",
+		type: "item",
+		item: "gregtech:ore_ruby_0 1 1",
+		count: 8
+	},
+	{
+		uid: "c606d510",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

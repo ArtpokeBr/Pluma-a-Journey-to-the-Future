@@ -1,0 +1,24 @@
+{
+	title: "Chemical Bathing at HV",
+	x: 0.0d,
+	y: -2.5d,
+	description: "Time to start Bathing Materials!",
+	text: [
+		"The §6Chemical Bath§f is a very usefull machine for some recipes.",
+		"",
+		"- In our case, you'll see soon that it may be very good for §2painting§f certain items.",
+		"",
+		"- Also, after making it, you'll get acess to §bIntegrated Dynamics§f!"
+	],
+	dependencies: [
+		"9909954b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1b1be383",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 202"
+		}]
+	}]
+}

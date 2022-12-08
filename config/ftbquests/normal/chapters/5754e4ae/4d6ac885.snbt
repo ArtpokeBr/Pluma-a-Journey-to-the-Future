@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	description: "§aTier 0§f §6HV Circuit§f",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb369278"
+	],
+	tasks: [{
+		uid: "b5240b92",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 625"
+		}]
+	}]
+}

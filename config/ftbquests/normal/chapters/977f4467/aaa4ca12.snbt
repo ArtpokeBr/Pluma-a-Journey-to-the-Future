@@ -1,0 +1,67 @@
+{
+	title: "Time to fight Giants!",
+	icon: {
+		id: "twilightforest:giant_pickaxe",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -4833433468184046596L,
+				AS_Amulet_HolderMost: -8936466980767643917L
+			}
+		}
+	},
+	x: 6.75d,
+	y: -0.75d,
+	shape: "octagon",
+	description: "Prepare some cobblestone stacks!",
+	text: [
+		"We are close to the end of §3TF's progression§f! lets go!",
+		"",
+		"- Now, after you' §ckilled all of previous bosses§f, time to find a §bgiant cloud floating near a white castle§f.",
+		"",
+		"- §2Make yourself a giant block tower to reach it§f, once you're up there, there will be §agiants waiting for ya!§f",
+		"",
+		"- §cKill at least one Giant Miner§f to obtain its §6pickaxe§f! it will be §2essential§f."
+	],
+	dependencies: [
+		"3eefabde",
+		"5455c0cf",
+		"b5a75670"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "7b817d00",
+		type: "kill",
+		icon: {
+			id: "twilightforest:giant_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		entity: "twilightforest:giant_miner",
+		value: 1L
+	},
+	{
+		uid: "f7033d9f",
+		type: "item",
+		items: [{
+			id: "twilightforest:giant_pickaxe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d888419",
+		type: "item",
+		item: "twilightforest:giant_obsidian",
+		random_bonus: 3
+	},
+	{
+		uid: "028df705",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

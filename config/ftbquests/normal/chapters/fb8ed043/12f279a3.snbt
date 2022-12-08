@@ -1,0 +1,44 @@
+{
+	title: "GregTech Pipes!",
+	x: 13.5d,
+	y: -3.5d,
+	description: "Your First Method of  Fluid and Item Transportation!",
+	text: [
+		"§6GregTech§r adds diferent types of Fluid and Item Pipes, depending of the Material and size it will have diferent stats.",
+		"",
+		"- For the Early Game, §2Tin Pipes§r will be enough to §2Item transfer§r and §bBronze Pipes§r will be enough for §bFluid Transfer§r.",
+		"",
+		"- §cREMEMBER§r that §6GregTech Pipes do not extract by themselves§r, YOU'LL NEED A §bPUMP§r, §2ROBOTIC ARM§r OR §2CONVEYOR MODULE§r to §cextract automatically§r."
+	],
+	dependencies: [
+		"6163423f"
+	],
+	tasks: [{
+		uid: "a5e01c92",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_small 1 260"
+		}],
+		count: 6L
+	},
+	{
+		uid: "bd5331ca",
+		type: "item",
+		items: [{
+			item: "gregtech:item_pipe_small 1 112"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "e2a064f3",
+		type: "item",
+		title: "Thanks for Reading this Quest!",
+		auto: "enabled",
+		item: "enderio:block_tank"
+	},
+	{
+		uid: "6c907de9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

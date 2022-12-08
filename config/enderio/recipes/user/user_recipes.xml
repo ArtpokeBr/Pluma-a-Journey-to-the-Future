@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<!-- Removing OreDicts  -->
+
+    <recipe name="Alloy: Steel" required="false" disabled="true" />
+    <recipe name="Alloy: Signalum (Thermal Expansion)" required="false" disabled="true" />
+    <recipe name="Alloy: Lumium from dust (Thermal Expansion)" required="false" disabled="true" />
+    <recipe name="Alloy: Lumium (Thermal Expansion)" required="false" disabled="true" />
+    <recipe name="Alloy: Enderium (Thermal Expansion)" required="false" disabled="true" />
+    <recipe name="Alloy: Steel (Oredict)" required="false" disabled="true" />
+    <recipe name="Alloy: Enderium Blend" required="false" disabled="true" />
+    <recipe name="Alloy: Signalum Blend" required="false" disabled="true" />
+    <recipe name="Alloy: Lumium Blend" required="false" disabled="true" />
+
+    <recipe name="Alloy: Endergy Crude Steel" required="true" disabled="true" />
+    <recipe name="Alloy: Conductive Iron" required="true" disabled="true" />
+    <recipe name="Alloy: Redstone Alloy" required="true" disabled="true" />
+    <recipe name="Alloy: Electrical Steel" required="true" disabled="true" />
+    <recipe name="Alloy: Electrical Steel, variant" required="true" disabled="true" />
+    <recipe name="Alloy: Construction Alloy" required="false" disabled="true" />
+    <recipe name="Alloy: Dark Steel" required="true" disabled="true" />
+    <recipe name="Alloy: Dark Steel, Variant" required="false" disabled="true" />
+    <!-- <recipe name="Alloy: Energetic Alloy" required="true" disabled="true" /> -->
+    <recipe name="Alloy: Vibrant Alloy" required="true" disabled="true" />
+    <recipe name="Alloy: Pulsating Iron" required="true" disabled="true" />
+    <recipe name="Alloy: Soularium" required="true" disabled="true" />
+    <recipe name="Alloy: Vivid Alloy" required="false" disabled="true" />
+    <recipe name="Alloy: End Steel" required="true" disabled="true" />
+    <recipe name="Alloy: Cookie" required="true" disabled="true" />
+    <recipe name="Alloy: Enderium Base (Thermal Expansion)" required="true" disabled="true" />
+
+    <recipe required="true" name="Dark Steel Upgrade" disabled="true" />
+
+    <recipe name="Alloy: Black Dye" disabled="true" />
+    <recipe name="Alloy: Black Dye, Variant" disabled="true" />
+
+    <recipe name="Alloy: Green Dye" disabled="true" />
+    <recipe name="Alloy: Green Dye, Variant" disabled="true" />
+    <recipe name="Alloy: Green Dye, Oredict" disabled="true" />
+    <recipe name="Alloy: Green Dye, Oredict Variant" disabled="true" />
+
+    <recipe name="Alloy: Brown Dye" disabled="true" />
+    <recipe name="Alloy: Brown Dye, Variant" disabled="true" />
+    <recipe name="Alloy: Brown Dye, Oredict" disabled="true" />
+    <recipe name="Alloy: Brown Dye, Oredict Variant" disabled="true" />
+
+    <recipe name="Chassis" disabled="true" />
+    <recipe name="Soul Chassis" disabled="true" />
+    <recipe name="End Steel Chassis" disabled="true" />
+    <recipe name="Enhanced Chassis" disabled="true" />
+
+<!-- Ardite (TiC) -->
+  <recipe name="Ardite" required="false" disabled="true" />
+
+  <recipe name="Sagmill: oreArdite Ore" required="false" disabled="true" />
+  <recipe name="Sagmill: Dense Ardite Ore" required="false" disabled="true" />
+  <recipe name="Sagmill: Ardite Ingot" required="false" disabled="true" />
+  <recipe name="Smelting: Ardite Dust" required="false" disabled="true" />
+
+  <!-- Cobalt (TiC) -->
+  <recipe name="Cobalt" required="false" disabled="true" />
+
+  <recipe name="Sagmill: oreCobalt Ore" required="false" disabled="true" />
+  <recipe name="Sagmill: Dense Cobalt Ore" required="false" disabled="true" />
+  <recipe name="Sagmill: Cobalt Ingot" required="false" disabled="true" />
+  <recipe name="Smelting: Cobalt Dust" required="false" disabled="true" />
+
+  <recipe name="Tweak: Stick from Wood" disabled="true" />
+  <recipe name="Tweak: Chest from Wood" disabled="true" />
+  <recipe name="Tweak: Wood Hopper" disabled="true" />
+
+  <recipe name="Gear, Wood" disabled="true" />
+  <recipe name="Gear, ae2 messes things up" disabled="true" />
+  <recipe name="Gear, just to be sure" disabled="true" />
+  <recipe name="Gear, better save than sorry" disabled="true" />
+  <recipe name="Gear, Stone" disabled="true" />
+  <recipe name="Gear, Stone, Upgrade" disabled="true" />
+
+  <recipe name="Compatibility: Glass Pane" disabled="true" />
+
+
+  <!-- Sagmill Stuff -->
+  <recipe name="Sagmill: Oil Sand" disabled="true" />
+  <recipe name="Sagmill: Oil Red Sand" disabled="true" />
+  <recipe name="Sagmill: Oil Shale" disabled="true" />
+  <recipe name="Sagmill: Ender Pearl" disabled="true" />
+  <recipe name="Sagmill: Ender Dust" disabled="true" />
+  <!--<recipe name="Sagmill: Silicon" disabled="true" />-->
+  <recipe name="Sagmill: ClayBlock" disabled="true" />
+
+  <!-- Tank Stuff -->
+
+  <recipe name="Tank: XP Bottle, emptying" disabled="true" />
+  <recipe name="Tank: XP Bottle, filling" disabled="true" />
+  <recipe name="Tank: AA Solid XP, emptying" disabled="true" />
+  <recipe name="Tank: Deep Mob Learning, Overworld Matter" disabled="true" />
+  <recipe name="Tank: Deep Mob Learning, Hellish Matter" disabled="true" />
+  <recipe name="Tank: Deep Mob Learning, Extraterrestrial Matter" disabled="true" />
+  <recipe name="Tank: Deep Mob Learning, Twilight Matter" disabled="true" />
+  <recipe name="Tank: Sponge, filling" disabled="true" />
+  <recipe name="Tank: Sponge, emptying" disabled="true" />
+  <recipe name="Tank: Nutritious Stick" disabled="true" />
+  <recipe name="Tank: Concrete 0" disabled="true" />
+  <recipe name="Tank: Concrete 1" disabled="true" />
+  <recipe name="Tank: Concrete 2" disabled="true" />
+  <recipe name="Tank: Concrete 3" disabled="true" />
+  <recipe name="Tank: Concrete 4" disabled="true" />
+  <recipe name="Tank: Concrete 5" disabled="true" />
+  <recipe name="Tank: Concrete 6" disabled="true" />
+  <recipe name="Tank: Concrete 7" disabled="true" />
+  <recipe name="Tank: Concrete 8" disabled="true" />
+  <recipe name="Tank: Concrete 9" disabled="true" />
+  <recipe name="Tank: Concrete 10" disabled="true" />
+  <recipe name="Tank: Concrete 11" disabled="true" />
+  <recipe name="Tank: Concrete 12" disabled="true" />
+  <recipe name="Tank: Concrete 13" disabled="true" />
+  <recipe name="Tank: Concrete 14" disabled="true" />
+  <recipe name="Tank: Concrete 15" disabled="true" />
+
+</enderio:recipes>

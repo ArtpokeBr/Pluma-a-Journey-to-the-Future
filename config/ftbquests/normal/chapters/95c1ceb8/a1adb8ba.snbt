@@ -1,0 +1,34 @@
+{
+	title: "Collecting Air... but from The Beneath!",
+	x: -1.0d,
+	y: -4.5d,
+	description: "Lets make an Air Collector!",
+	text: [
+		"Besides being used to collect §3Air§f from §5The Beneath§f, you can also collect §3Air§f from many §3dimensions§f!",
+		"",
+		"- But in our case here, it is important to start collecting §3Air§f from §5The Beneath§f.",
+		"",
+		"- Them, you can §6Centrifuge§f this §3Air§f to obtain valuable §2resources§f!"
+	],
+	dependencies: [
+		"9909954b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e31610a4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 532"
+		}]
+	}],
+	rewards: [{
+		uid: "ea132a23",
+		type: "item",
+		item: "gregtech:meta_item_1 1 144"
+	},
+	{
+		uid: "1897a127",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

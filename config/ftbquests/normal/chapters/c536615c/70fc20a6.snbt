@@ -1,0 +1,126 @@
+{
+	title: "Reconstructed Materials",
+	x: -8.5d,
+	y: -7.5d,
+	description: "Time to start using your Atomic Reconstructor!",
+	text: [
+		"These Crystals will be essential for Actually Addition's Progression, make some."
+	],
+	dependencies: [
+		"8e7b2dd4"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "23037e79",
+		type: "item",
+		items: [{
+			item: "contenttweaker:glod_crystal"
+		}]
+	},
+	{
+		uid: "6ef076e5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal"
+		}]
+	},
+	{
+		uid: "b2e17583",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 1"
+		}]
+	},
+	{
+		uid: "90132fda",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 2"
+		}]
+	},
+	{
+		uid: "c860c7e3",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 4"
+		}]
+	},
+	{
+		uid: "3124b3fb",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 3"
+		}]
+	},
+	{
+		uid: "c0c3f4ec",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 5"
+		}]
+	},
+	{
+		uid: "7c4db9a9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:endor_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "7a9e7139",
+		type: "item",
+		item: {
+			id: "actuallyadditions:item_bag",
+			tag: {
+				Filter: {
+					Meta: 1b,
+					NBT: 0b,
+					Mod: 0b,
+					Whitelist: 1b,
+					Items: [{},
+					{},
+					{},
+					{}],
+					Oredict: 2
+				},
+				AutoInsert: 0b,
+				Items: [{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "9bd58d3a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

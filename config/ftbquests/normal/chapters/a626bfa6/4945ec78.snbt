@@ -1,0 +1,30 @@
+{
+	title: "LV Electric Furnace",
+	x: 1.5d,
+	y: 5.5d,
+	description: "Smelting with EU!",
+	text: [
+		"Just the essentials here, you can use it to Automate any Smelting process!"
+	],
+	dependencies: [
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "9ad49239",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 50"
+		}]
+	}],
+	rewards: [{
+		uid: "e6512961",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "07156bdc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

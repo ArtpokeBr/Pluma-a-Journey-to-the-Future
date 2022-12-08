@@ -1,0 +1,58 @@
+{
+	title: "Skilled Hands Required!",
+	x: 0.5d,
+	y: -2.5d,
+	description: "Killing Animal's Isn't the Answer you know?",
+	text: [
+		"§aPerhaps§f you've noticed this but... when you §ckill an Animal§f that would §2normally drop§f a piece of §cmeat§f, §5instead§f they §2drop§f a §6Carcass§f!",
+		"",
+		"- Currently, you don't have the §askills to clean§f a §6Carcass§f in order to extract its precious §3meat and leather§f.",
+		"",
+		"- §aStore them§f in a chest that you'll remember later, as §6you'll unlock later in this chapter§f, a §5way to process them§f."
+	],
+	dependencies: [
+		"a9967abd"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6ea6e87b",
+		type: "item",
+		items: [{
+			id: "pyrotech:carcass",
+			tag: {
+				BlockEntityTag: {
+					stackHandler: {
+						Items: [{
+							Slot: 0,
+							id: "minecraft:beef",
+							Count: 1b,
+							Damage: 0s
+						},
+						{
+							Slot: 1,
+							id: "pyrotech:pelt_cow",
+							Count: 1b,
+							Damage: 0s
+						},
+						{
+							Slot: 2,
+							id: "pyrotech:material",
+							Count: 2b,
+							Damage: 49s
+						}],
+						Size: 3
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1fa643c2",
+		type: "item",
+		item: "tconstruct:edible 1 11",
+		count: 4,
+		random_bonus: 4
+	}]
+}

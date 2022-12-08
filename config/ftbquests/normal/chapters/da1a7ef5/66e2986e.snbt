@@ -1,0 +1,68 @@
+{
+	title: "Mystical Agriculture",
+	x: 9.5d,
+	y: -3.0d,
+	description: "Not the Mod, these are only Roots Crops.",
+	text: [
+		"With your brand new Pyre, time to craft some Druidic Crops!",
+		"",
+		"- All of them will be used in crafts"
+	],
+	dependencies: [
+		"17db2348"
+	],
+	tasks: [{
+		uid: "c98aaf64",
+		type: "item",
+		items: [{
+			item: "roots:baffle_cap_mushroom"
+		}]
+	},
+	{
+		uid: "254fa534",
+		type: "item",
+		items: [{
+			item: "roots:pereskia"
+		}]
+	},
+	{
+		uid: "34d485f1",
+		type: "item",
+		items: [{
+			item: "roots:infernal_bulb"
+		}]
+	},
+	{
+		uid: "d6b61d49",
+		type: "item",
+		items: [{
+			item: "roots:moonglow_leaf"
+		}]
+	},
+	{
+		uid: "a1d16327",
+		type: "item",
+		items: [{
+			item: "roots:dewgonia"
+		}]
+	},
+	{
+		uid: "856d96a3",
+		type: "item",
+		items: [{
+			item: "roots:cloud_berry"
+		}]
+	},
+	{
+		uid: "48554de1",
+		type: "item",
+		items: [{
+			item: "roots:stalicripe"
+		}]
+	}],
+	rewards: [{
+		uid: "9e8e38f6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

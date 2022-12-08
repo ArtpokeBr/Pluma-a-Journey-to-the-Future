@@ -1,0 +1,36 @@
+{
+	title: "Salis Imundus",
+	x: -1.0d,
+	y: 0.0d,
+	description: "A Type of Magic Dust!",
+	text: [
+		"§2After collecting§f your first §6Vis Crystal§f, and sleep, you'll wake up with a realization.",
+		"",
+		"- You'll now §2understand§f how you could make this dust.",
+		"",
+		"- And it is simple, §3mix§f 3 different §6Vis Crystals§f with a bowl, flint and a §credstone dust§f.",
+		"",
+		"You'll obtain §dSalis Mundus§f!"
+	],
+	dependencies: [
+		"12a2e91c"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "79c89ef2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "c6375284",
+		type: "item",
+		item: "thaumcraft:loot_bag 1 2"
+	},
+	{
+		uid: "1acfdda3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

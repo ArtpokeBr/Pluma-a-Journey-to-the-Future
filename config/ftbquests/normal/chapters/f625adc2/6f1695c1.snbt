@@ -1,0 +1,86 @@
+{
+	title: "Mana Manipulation",
+	x: -3.0d,
+	y: -3.0d,
+	description: "Time to start Storing Mana!",
+	text: [
+		"With your current §2Resources§f, it is what it is.",
+		"",
+		"- A §bDiluted Mana Pool§f can only store §ehalf§f of an §aNormal§f §bMana Pool§f.",
+		"",
+		"- Use §dBasic Spreaders§f to move your §bMana§f to your §3Pools§f.",
+		"",
+		"- §2Don't forget§f to use the §5Wand§f to set it all up! "
+	],
+	dependencies: [
+		"c8869e9c",
+		"72d51beb"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "947301ed",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 2"
+		}]
+	},
+	{
+		uid: "e10ea7f6",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "f801a69c",
+		type: "item",
+		title: "Any Botania Wand",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 10,
+				color2: 10,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2cb5c095",
+		type: "item",
+		item: {
+			id: "botania:lens",
+			Damage: 2s,
+			tag: {
+				compositeLens: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "botania:lens",
+					Count: 1b,
+					tag: {},
+					Damage: 1s
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "0eb81e8e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

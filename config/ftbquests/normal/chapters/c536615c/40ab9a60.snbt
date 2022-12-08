@@ -1,0 +1,32 @@
+{
+	title: "{pluma.logpipewrenches.title}",
+	icon: "logisticspipes:pipe_manager",
+	x: 1.5d,
+	y: -2.5d,
+	description: "{pluma.logpipewrenches.subtitle}",
+	text: [
+		"{pluma.logpipewrenches.desc}"
+	],
+	dependencies: [
+		"ba9953a3"
+	],
+	tasks: [{
+		uid: "00671cf9",
+		type: "item",
+		title: "{pluma.logpipewrenches.task}",
+		items: [{
+			item: "logisticspipes:pipe_manager"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7467f5b0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "609ffa8c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

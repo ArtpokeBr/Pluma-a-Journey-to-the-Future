@@ -1,0 +1,49 @@
+{
+	title: "A Real Improvement to your ME Network",
+	x: 1.0d,
+	y: -1.0d,
+	description: "Let's use P2P Tunnel's!",
+	text: [
+		"It is §chard§f to §2explain in details§f about a §6P2P Setup§f here, but here's a rough explanation:",
+		"",
+		"- With §62 P2P Tunnel's§f, you can link them using a §dMemory Card§f.",
+		"",
+		"- §9One§f of them §8§o(the first you've clicked)§r§f will be the §9Input§f and the §bother§f one will be the §bOutput§f.",
+		"",
+		"- With §5Between§f these §62 P2P's§f there §dwill be a Subnetwork formed§f, meaning, that you'll need to §eprovide it with Power§f.",
+		"§8§o(You could use an Energy Acceptor or a Quartz Fiber to route Energy from your Main Network)§r§f",
+		"",
+		"- This could be §aREALLY§f good to get §d32 Channels§f from your §3Main AE Network§f from §9point A§f to §epoint B§f across a §dsubnetwork§f.",
+		"",
+		"- §aA Good AE2 Engineer§f really §3takes advantage of this feature§f, as once you've learn how to use it, §c§nChannel's will never be a problem anymore§r§f.",
+		"",
+		"§8§o~ Please, for more Information, check the next quest for a link to the Official Wiki.§r§f"
+	],
+	dependencies: [
+		"e54b21e4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "692d8d75",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 460"
+		}],
+		count: 2L
+	},
+	{
+		uid: "fdaeca22",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:memory_card",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da1219ea",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "Fire at Will!",
+	x: 8.5d,
+	y: 0.0d,
+	description: "It is Time to Hunt",
+	text: [
+		"By throwing a §6Snare§f at an §cAgressive Mob§f, you'll have the §2chance§f to §3encapsulate its soul§f!",
+		"",
+		"- Once the §5Mob§f is emitting §bParticles§f, it is time to §ckill it§f! ",
+		"",
+		"- Once you §ckill it§f, you'll have its §bSoul§f!",
+		"",
+		"§8§o~ Essential for Blood Magic, make sure to farm a couple of those.§r§f"
+	],
+	dependencies: [
+		"cf837724"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e9e6430a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a778a8f3",
+		type: "item",
+		items: [{
+			id: "bloodmagic:monster_soul",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5853a81",
+		type: "item",
+		item: {
+			id: "bloodmagic:monster_soul",
+			tag: {
+				souls: 13.0d
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "b1a16427",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

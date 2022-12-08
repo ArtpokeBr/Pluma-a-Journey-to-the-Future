@@ -1,0 +1,101 @@
+{
+	title: "Lets hunt Yetis!",
+	icon: "twilightforest:alpha_fur",
+	x: 5.25d,
+	y: -2.25d,
+	shape: "octagon",
+	description: "They're real, trust me!",
+	text: [
+		"§5Time to Hunt§f this §6mythical creature§f!",
+		"",
+		"- It can be §2found inside§f of §3huge hills in the snowy biome§f.",
+		"",
+		"- You'll probally need to §ekill a bunch of this minions§f first!",
+		"",
+		"- After §ckilling it§f, you'll be granted a slight §bcold immunity§f, strong enough to §9allow you to cross the glaciers§f."
+	],
+	dependencies: [
+		"8c8e23c3"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "8b839f2c",
+		type: "kill",
+		icon: {
+			id: "twilightforest:yeti_helmet",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0
+				}]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	},
+	{
+		uid: "2a9de5d1",
+		type: "item",
+		items: [{
+			item: "twilightforest:alpha_fur"
+		}]
+	}],
+	rewards: [{
+		uid: "27448df8",
+		type: "item",
+		item: "twilightforest:ice_bomb",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "5f58b6cc",
+		type: "item",
+		item: {
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "regen"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "ef8265bc",
+		type: "item",
+		item: {
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "strength"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "e090387a",
+		type: "item",
+		item: {
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "resistance"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "a0b6d466",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "A Way to Analyze your Bee's!",
+	x: 4.0d,
+	y: -0.5d,
+	shape: "rsquare",
+	description: "Understanding your Bee's",
+	text: [
+		"With an Analyzer, you'll be able to finally understand the Requirements of each different Bee that you Collect.",
+		"",
+		"- Remember also that the Analyzer requires Honey Drops to Work.",
+		"",
+		"Simply place a Bee into the correct slot with some Honey in order to get acess to 5 Pages about it. The most important ones are only the first and the Second tho."
+	],
+	dependencies: [
+		"e38ce5bc"
+	],
+	tasks: [{
+		uid: "4f7e9de1",
+		type: "item",
+		items: [{
+			id: "forestry:portable_alyzer",
+			tag: {
+				UID: 2047164578
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f9f5fe5",
+		type: "item",
+		item: "forestry:honey_drop",
+		random_bonus: 15
+	},
+	{
+		uid: "a81476a6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

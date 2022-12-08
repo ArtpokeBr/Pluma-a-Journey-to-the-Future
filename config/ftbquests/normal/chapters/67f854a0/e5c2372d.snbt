@@ -1,0 +1,38 @@
+{
+	title: "A Special Ingot made out of Redstone Itself!",
+	x: 2.5d,
+	y: 1.5d,
+	description: "Signalum!",
+	text: [
+		"A Special Ingot made of pure §dRedstone and Energy§f!",
+		"",
+		"- Specially usefull for §3Thermal Expansion Upgrades§f and §emore§f!"
+	],
+	dependencies: [
+		"5c91e6d0"
+	],
+	tasks: [{
+		uid: "fa6732ce",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32030"
+		}]
+	},
+	{
+		uid: "317d3d89",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32030"
+		}]
+	}],
+	rewards: [{
+		uid: "b31de014",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 2"
+	},
+	{
+		uid: "d41ff15a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,160 @@
+{
+	title: "Time to start making Components for a Blast Furnace!",
+	icon: "gregtech:metal_casing 1 1",
+	x: -4.5d,
+	y: 0.0d,
+	description: "Lets work Towards Steel!",
+	text: [
+		"Your next big achievement will be when you start producing Steel with a Blast Furnace!",
+		"",
+		"- And for that, you'll need FireBricks.",
+		"",
+		"- Simply follow JEI for all the Steps, but it all comes down to having Acess to lots of Clay.",
+		"",
+		"- If you don't an Steam Macerator, it is strongly advised to have one! as it can produce more Clay dust than a mortar.",
+		"",
+		"",
+		"",
+		"All the Materials for This quest are the Exact amounts needed to make a Blast Furnace!",
+		"",
+		"- There's some Extra Clay for example for you to make some Liquid Concrete inside of the Smeltery."
+	],
+	dependencies: [
+		"b320813f"
+	],
+	tasks: [{
+		uid: "577f04c3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBrick"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBrick"
+				}
+			}
+		}],
+		count: 66L
+	},
+	{
+		uid: "aed1e75c",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any clay"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "clay"
+				}
+			}
+		}],
+		count: 91L
+	},
+	{
+		uid: "e3394c34",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "cobblestone"
+				}
+			}
+		}],
+		count: 49L
+	},
+	{
+		uid: "7e47690d",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBrick"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustBrick"
+				}
+			}
+		}],
+		count: 66L
+	},
+	{
+		uid: "578067f4",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustClay"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustClay"
+				}
+			}
+		}],
+		count: 66L
+	},
+	{
+		uid: "ac417a39",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 352"
+		}],
+		count: 132L
+	},
+	{
+		uid: "6bb5245b",
+		type: "item",
+		items: [{
+			item: "tconstruct:dried_clay 1 1"
+		}],
+		count: 33L
+	},
+	{
+		uid: "86013c91",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 33L
+	}],
+	rewards: [{
+		uid: "c8a80156",
+		type: "item",
+		title: "A Reward for your Grind",
+		item: {
+			id: "minecraft:totem_of_undying",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "6da761c4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

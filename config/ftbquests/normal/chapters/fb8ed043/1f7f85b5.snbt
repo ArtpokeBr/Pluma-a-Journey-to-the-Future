@@ -1,0 +1,390 @@
+{
+	title: "A Tinkery World!",
+	x: 19.0d,
+	y: 0.5d,
+	description: "There are so many Possibilities Now!",
+	text: [
+		"With a Melter you'll not be able to make Tools and Armor Pieces out of Alloys and Metals, but still good.",
+		"",
+		"- Craft all the Necessary Tables for that.",
+		"",
+		"- The Tool and Armor Forge can both be made whenever you need, you don't need to craft it right now. :)",
+		"",
+		"§8§o~ And Remember, Look at JEI cause some advanced materials cannot be casted into tools/armor pieces.§r§f",
+		"",
+		"§8§o~ The Pattern Chest that you've crafted for this Quest §r§f§8§nWILL BE CONSUMED§r§f§8§o, but you get an awesome one in exchange.§r§f"
+	],
+	dependencies: [
+		"67345fdc"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8bd6cd7d",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ba9c4d92",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 1s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3aac5d00",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e4551336",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 2s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e0f9509e",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "443f1e3b",
+		type: "item",
+		items: [{
+			item: "conarm:armorstation"
+		}]
+	}],
+	rewards: [{
+		uid: "97734f0f",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "tconstruct:tooltables",
+			Damage: 4s,
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 38
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Super Pattern Chest"
+				},
+				inventory: {
+					Items: [{
+						Slot: 0b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:shard"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:scythe_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:broad_axe_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:large_sword_blade"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:tool_rod"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:pick_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 6b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:sharpening_kit"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 7b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:shovel_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 8b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "plustic:pipe_piece"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 9b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:binding"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 10b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:wide_guard"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 11b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:bow_limb"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 12b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:tough_tool_rod"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 13b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:large_plate"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 14b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:bow_string"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 15b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:hammer_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 16b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:arrow_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 17b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:hand_guard"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 18b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:sign_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 19b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:tough_binding"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 20b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:arrow_shaft"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 21b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconevo:part_arcane_focus"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 22b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:sword_blade"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 23b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:kama_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 24b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:pan_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 25b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "plustic:battery_cell"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 26b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:knife_blade"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 27b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:axe_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 28b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:cross_guard"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 29b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:excavator_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 30b,
+						id: "tconstruct:pattern",
+						Count: 1b,
+						tag: {
+							PartType: "tconstruct:fletching"
+						},
+						Damage: 0s
+					}]
+				}
+			}
+		}
+	},
+	{
+		uid: "e3c294e2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

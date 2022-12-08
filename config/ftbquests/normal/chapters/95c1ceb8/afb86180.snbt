@@ -1,0 +1,48 @@
+{
+	title: "They're Watching you...",
+	x: 3.5d,
+	y: -6.81547619047619d,
+	description: "Pherhaps you shouldn't look back right now.",
+	text: [
+		"With your brand new §6Large Chemical Reactor§f, time to start making some §dEnder Eyes§f!",
+		"",
+		"§8§o- You might need to progress a little bit further in Chapter 8.§r§f",
+		"",
+		"- With these §3Eyes§f, you'll finally get acess to §5The End§f!",
+		"",
+		"- Hey, did you know that you can §abuy§f a §aMagical Map§f at §6The Shop§f? it can be used to find a §2Stronghold§f easily."
+	],
+	dependencies: [
+		"2eefa7e6"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "15c66076",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "80c99f44",
+		type: "item",
+		item: {
+			id: "cyclicmagic:ender_eye_orb",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "de42a168",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0fe9703a",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "EndDimensionUnlock"
+	}]
+}

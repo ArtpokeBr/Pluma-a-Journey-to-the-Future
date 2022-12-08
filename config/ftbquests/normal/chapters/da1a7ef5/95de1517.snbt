@@ -1,0 +1,54 @@
+{
+	title: "Hardened Leather",
+	x: 0.0d,
+	y: -1.0d,
+	description: "An Improved Leather!",
+	text: [
+		"Currently you probally have acess to standart leather, but, by mixing it with Pressed Wax.... Hardened Leather!",
+		"",
+		"- Later with Forestry you'll be able to make this recipe with Bee Wax",
+		"",
+		"- But currently I recommend you to set up a little Candleberry farm to compress it into this material."
+	],
+	dependencies: [
+		"71a61bd1"
+	],
+	tasks: [{
+		uid: "ed0c891c",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cropCandleberry"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "cropCandleberry"
+				}
+			}
+		}],
+		count: 12L
+	},
+	{
+		uid: "890ea429",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatheritem"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "180a9ce8",
+		type: "item",
+		item: "harvestcraft:candleberryseeditem",
+		count: 16
+	},
+	{
+		uid: "98f9bf19",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

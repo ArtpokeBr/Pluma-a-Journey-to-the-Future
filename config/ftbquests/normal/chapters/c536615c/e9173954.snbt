@@ -1,0 +1,65 @@
+{
+	title: "Lets Automate Ethanol! §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "biomass",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -0.5d,
+	y: -13.0d,
+	description: "Brewing Crops into Biomass",
+	text: [
+		"§6Ethanol§f will be an Essential Fluid for the Automation of §6PE (Polyethylene)§f so you'll need it!",
+		"",
+		"- The Start of it is §2Biomass§f! A Fluid obtained via a §6Brewing Machine§f and any §2Crop/Sappling§f.",
+		"",
+		"- So it is a good idea to set up a §6Forestry Multi-Block Farm§f for what fits you the best.",
+		"",
+		"- §2Sapplings§f will actually produce more §6Biomass§f, but it takes longer to do so."
+	],
+	dependencies: [
+		"36e5c070"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "70ed16b4",
+		type: "item",
+		title: "An LV or MV Brewery",
+		items: [{
+			item: "gregtech:machine 1 155"
+		},
+		{
+			item: "gregtech:machine 1 156"
+		}]
+	},
+	{
+		uid: "e37ccb5a",
+		type: "fluid",
+		fluid: "biomass"
+	}],
+	rewards: [{
+		uid: "95711219",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "biomass",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "5056a65f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

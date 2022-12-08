@@ -1,0 +1,54 @@
+{
+	title: "The Power of the Ancient Clock!",
+	x: 3.757482993197293d,
+	y: -4.0054421768707655d,
+	description: "Unknow Powers at your Disposal",
+	text: [
+		"Well, if you're wondering what happens after you kill §4Anu§f... this is the Answer.",
+		"",
+		"- After you kill the §4Anu§f and collect his §6key§f, simply §2Right click§f on his §2Body§f to be §2teleported§f.",
+		"",
+		"- You'll find yourself in a §3Special Room§f with a §5Portal§f and a §6Chest§f, open it with the §6Key§f.",
+		"",
+		" - And Voilá! you'll have the §eAncient Clock§f in your Hands! a Powerfull §eArtifact§f that maybe... can control time.",
+		"",
+		"§8§o§m~ I doesn't have an actual time ability, don't try to use it for that.§r§f"
+	],
+	dependencies: [
+		"11ebac7c"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "0e2b3b0f",
+		type: "item",
+		items: [{
+			item: "fossil:ancient_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "d166ee40",
+		type: "item",
+		item: {
+			id: "fossil:ancient_helmet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "9486463a",
+		type: "item",
+		item: {
+			id: "fossil:ancient_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "1ca1e245",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

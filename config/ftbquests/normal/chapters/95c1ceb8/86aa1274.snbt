@@ -1,0 +1,56 @@
+{
+	title: "You've got to put your Soul onto it!",
+	x: 6.0d,
+	y: 1.5d,
+	description: "Lets make Soularium!",
+	text: [
+		"By Mixing A §3Scorched Fluid§f, Some §6Gold§f and Some §2Soul Sand§f, §5Soularium§f!",
+		"",
+		"- It will be a §akey resource§f for the §3EnderIO Progression§f ,prepare an §aAutomation§f!"
+	],
+	dependencies: [
+		"63ca77f4"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "2baf4497",
+		type: "item",
+		title: "Soularium Ingot",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSoularium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotSoularium"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5bd98910",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "scorched",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "2384ecc2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

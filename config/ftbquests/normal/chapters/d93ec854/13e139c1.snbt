@@ -1,0 +1,62 @@
+{
+	title: "A Dwarven Oil",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "oil_dwarf",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 10.5d,
+	y: 2.5d,
+	description: "Lets Mix Steam and Liquid Soulsand!",
+	text: [
+		"By §amixing those 2§f, you'll obtain this special §6Dwarven Oil§f.",
+		"",
+		"- Besides its uses inside of the §3Ember's Mod§f, you'll also find yourself using it to §2improve§f your §6Ore Processing§f!",
+		"§8§o(You'll need to mix it with other stuff aswell, but this is the most important step)§f§r"
+	],
+	dependencies: [
+		"2294f75b"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "00ea7544",
+		type: "fluid",
+		fluid: "steam",
+		amount: 4000
+	},
+	{
+		uid: "be3c11dc",
+		type: "fluid",
+		fluid: "oil_soul"
+	},
+	{
+		uid: "5e152d17",
+		type: "fluid",
+		fluid: "oil_dwarf"
+	}],
+	rewards: [{
+		uid: "fb44c3c2",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "oil_dwarf",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "a3abf843",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

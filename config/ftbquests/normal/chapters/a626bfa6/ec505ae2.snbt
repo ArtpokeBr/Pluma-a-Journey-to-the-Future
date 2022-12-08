@@ -1,0 +1,32 @@
+{
+	title: "Indirect Coal Smelting",
+	x: -3.0d,
+	y: -3.0d,
+	description: "By using a Steam Furnace!",
+	text: [
+		"As you progress you'll produce steam more efficiently, but currently it is already more efficient thant direct coal.",
+		"",
+		"- Why not use that  Steam to Smelt stuff then?"
+	],
+	dependencies: [
+		"e59a6abe"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6db46ea2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "8d1d04e1",
+		type: "item",
+		item: "harvestcraft:patreonpieitem"
+	},
+	{
+		uid: "165d0907",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

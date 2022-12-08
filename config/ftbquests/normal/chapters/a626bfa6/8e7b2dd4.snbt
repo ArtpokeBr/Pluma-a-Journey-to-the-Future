@@ -1,0 +1,34 @@
+{
+	title: "The Atomic Reconstructor",
+	x: 9.5d,
+	y: 0.5d,
+	description: "An Machine Capable of Reconstruct Materials just by hitting them with a Laser!",
+	text: [
+		"The Atomic Reconstructor will be an Essential Machine for Progression.",
+		"",
+		"- You \"Actually\" need to automate this guy as soon as possible.",
+		"",
+		"- Remember, you can define its Redstone Response by using a Redstone Torch."
+	],
+	dependencies: [
+		"fde27007"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1b987d1d",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "8c444a32",
+		type: "item",
+		item: "actuallyadditions:item_chest_to_crate_upgrade"
+	},
+	{
+		uid: "47182bef",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

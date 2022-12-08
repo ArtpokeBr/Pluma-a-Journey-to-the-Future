@@ -1,0 +1,32 @@
+{
+	title: "Compacting...",
+	x: 6.5d,
+	y: 1.5d,
+	description: "With this Device, you'll be finally able to compact those tiny dusts!",
+	text: [
+		"The Compactor is very handy for that and also beacuse you cannot compress blocks manually!",
+		"",
+		"- Only a Few Compacting Recipes are available, but it is very handy for the ones that it has."
+	],
+	dependencies: [
+		"26b207db"
+	],
+	tasks: [{
+		uid: "ecc5ed2e",
+		type: "item",
+		items: [{
+			item: "pyrotech:compacting_bin"
+		}]
+	}],
+	rewards: [{
+		uid: "0bf70cfa",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	},
+	{
+		uid: "10f01ec1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

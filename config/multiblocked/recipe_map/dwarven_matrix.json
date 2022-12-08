@@ -1,0 +1,357 @@
+{
+  "name": "dwarven_matrix",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "ea926c23-ab5a-4612-a6c6-6ed0dbb3ffe3",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"embers:wildfire_core\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"evilcraft:hardened_blood_shard\",Count:12b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"evilcraft:dark_power_gem\",Count:4b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:alchemical_nautilus\",Count:4b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"embers:seed_copper\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "ember": [
+          {
+            "chance": 1.0,
+            "content": 800.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:blood_infusion_core\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "The Beneath"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "9d8d5feb-892b-47a4-a589-ef4cdbea2e91",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:heart_of_the_woods\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "ingotTwilightMetal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:twilight_powder\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:blackened_spirit\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"twilightforest:lamp_of_cinders\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "ember": [
+          {
+            "chance": 1.0,
+            "content": 1000.0
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fiery_essence\",Amount:2000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:heart_of_the_magical_woods\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:stone_alchemy_bowl\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.25,
+            "content": "{FluidName:\"ember\",Amount:1000}"
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "The Beneath"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "95f472b7-b2a0-4882-b469-41da095a1208",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:blood_orb\",Count:1b,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:corrupted_tear\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:bowl_of_promises\",Count:1b,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:hyper_pearl\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:garmonbozia\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "ember": [
+          {
+            "chance": 1.0,
+            "content": 1000.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:sanguine_pearl\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.25,
+            "content": "{FluidName:\"ember\",Amount:1000}"
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "The Beneath"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "b6c35714-6b91-4d56-8f23-0c154b5328e3",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:environmental_accumulation_core\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:corrupted_tear\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:bowl_of_promises\",Count:1b,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:hyper_pearl\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"evilcraft:garmonbozia\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "ember": [
+          {
+            "chance": 1.0,
+            "content": 1000.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:sanguine_pearl\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.25,
+            "content": "{FluidName:\"ember\",Amount:1000}"
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "The Beneath"
+          }
+        }
+      ]
+    }
+  ]
+}

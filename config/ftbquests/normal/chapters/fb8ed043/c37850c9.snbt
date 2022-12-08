@@ -1,0 +1,75 @@
+{
+	title: "Time to Start Mining!",
+	icon: "minecraft:iron_ore",
+	x: 7.5d,
+	y: -1.5d,
+	description: "Looks kinda Different but it isn't that hard!",
+	text: [
+		"Ores in this Modpack are generate in Large Veins! Pherhaps you've already found some samples.",
+		"",
+		"- By finding Samples on the Surface you'll be able to determine wich vein is bellow it.",
+		"",
+		"- Remember to Always consult  JEI for more info about any Ore Vein.",
+		"",
+		"- There are many types of ores, Ore Processing will be needed later on, but currently, just smelt them!",
+		"",
+		"- In this Particular Quest, Find at least a Vein that Contains Copper or Tin."
+	],
+	dependencies: [
+		"9e590a0d"
+	],
+	tasks: [{
+		uid: "bc7f9791",
+		type: "item",
+		title: "Ores that you can Smelt into Copper",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		},
+		{
+			item: "gregtech:ore_chalcopyrite_0"
+		},
+		{
+			item: "gregtech:ore_bornite_0"
+		},
+		{
+			item: "gregtech:ore_tetrahedrite_0"
+		},
+		{
+			item: "gregtech:ore_chalcocite_0"
+		},
+		{
+			item: "gregtech:ore_malachite_0"
+		}]
+	},
+	{
+		uid: "6dd4534a",
+		type: "item",
+		title: "Ores that you can Smelt into Tin",
+		items: [{
+			item: "gregtech:ore_tin_0"
+		},
+		{
+			item: "gregtech:ore_cassiterite_sand_0"
+		},
+		{
+			item: "gregtech:ore_cassiterite_0"
+		}]
+	}],
+	rewards: [{
+		uid: "ef3ff186",
+		type: "item",
+		item: "gregtech:meta_ingot 1 112",
+		count: 8
+	},
+	{
+		uid: "6cfc1c37",
+		type: "item",
+		item: "gregtech:meta_ingot 1 25",
+		count: 24
+	},
+	{
+		uid: "a718c6db",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

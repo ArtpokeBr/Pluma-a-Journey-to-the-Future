@@ -1,0 +1,87 @@
+{
+	title: "Basic Runes",
+	x: 1.0d,
+	y: -5.0d,
+	description: "Runes aren't that simple anymore...",
+	text: [
+		"Well, time to learn how §bBotania Runes§f work in this Pack.",
+		"",
+		"- §aFirst§f, you'll need a §3Blank Rune§f, §5Livingrocks§f are only §5catalysts§f for §6Runic Altar§f recipes.",
+		"",
+		"- §aSecond§f, §3Runes§f don't return when §2crafting§f.",
+		"",
+		"- They're §c§nvery important§r§f for the §dMagical Progression§f, it is §aadvised to simply automate§f the §6Runic Altar§f for now, and maybe §a§npassive them§r§f in the future."
+	],
+	dependencies: [
+		"31189d26"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "3103dc4e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rune_of_water"
+		}]
+	},
+	{
+		uid: "8bad9a2e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rune_of_fire"
+		}]
+	},
+	{
+		uid: "770f6eae",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rune_of_earth"
+		}]
+	},
+	{
+		uid: "8dc807e2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rune_of_air"
+		}]
+	},
+	{
+		uid: "f6e185a4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:blank_botania_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "84ef5e43",
+		type: "item",
+		item: {
+			id: "botania:cosmetic",
+			Damage: 25s,
+			tag: {
+				playerHashcode: 8729
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "904fb07d",
+		type: "item",
+		item: {
+			id: "botania:cosmetic",
+			Damage: 1s,
+			tag: {
+				playerHashcode: 8729
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "83b8759b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

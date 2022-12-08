@@ -1,0 +1,84 @@
+{
+	title: "Setting up your Farm",
+	icon: {
+		id: "forestry:chipsets",
+		tag: {
+			T: 0s
+		}
+	},
+	x: 9.5d,
+	y: -3.5d,
+	shape: "square",
+	description: "By default you'll get an Arboretum, how can I change it?",
+	text: [
+		"Forestry has a §6Circuit§f system to §6configure§f machines and in this case, §6MultiBlock Farms§f!",
+		"",
+		"Each Circuit can be filled with different types of Tubes, §6Each tube has an Atribute that will determine what the Farm... will Farm§f!",
+		"",
+		"In this specific quest, we want a Crop Farm! so §9Bronze Tubes will be enough§f. but also you might want to take a look at all Tubes, since they can be used to Set more MultiBlock Farms!",
+		"",
+		"- Right Click a §6Soldering iron§f to Open th GUI and them, simply insert the Tubes and now its the part where the \"Circuit Internal Size\" Matters.",
+		"",
+		" Each tube will determine how the farm works on each cardinal sizes! so that means that §6if you want to have in the same Multiblock 2 Crop farms and 2 Arboretum's§f you'll just need §62 Bronze Tubes§f in order to make it so."
+	],
+	dependencies: [
+		"241b5548"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "4a80018f",
+		type: "item",
+		items: [{
+			id: "forestry:soldering_iron",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "320924a6",
+		type: "item",
+		title: "Any Circuit Board",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 0s
+			}
+		},
+		{
+			id: "forestry:chipsets",
+			Damage: 1s,
+			tag: {
+				T: 1s
+			}
+		},
+		{
+			id: "forestry:chipsets",
+			Damage: 2s,
+			tag: {
+				T: 2s
+			}
+		},
+		{
+			id: "forestry:chipsets",
+			Damage: 3s,
+			tag: {
+				T: 3s
+			}
+		}]
+	},
+	{
+		uid: "4ac540cb",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "1f0e543d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

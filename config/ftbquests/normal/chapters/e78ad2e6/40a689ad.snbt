@@ -1,0 +1,73 @@
+{
+	title: "Bee Ready for Combat",
+	x: 9.5d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Lets make a Bee Armor Set!",
+	text: [
+		"With Honey-Comb Plates you can make yourself a Bee Armor! witch is very good actually. it offers a decent protection and toughness."
+	],
+	dependencies: [
+		"30df8f2c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "179a875d",
+		type: "item",
+		items: [{
+			id: "careerbees:bee.armor.head",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc3a5a27",
+		type: "item",
+		items: [{
+			id: "careerbees:bee.armor.chest",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4b45e24c",
+		type: "item",
+		items: [{
+			id: "careerbees:bee.armor.legs",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e5fa073",
+		type: "item",
+		items: [{
+			id: "careerbees:bee.armor.feet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7745bea8",
+		type: "item",
+		item: "quark:arrow_ender",
+		count: 8
+	},
+	{
+		uid: "ebcfbc10",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,79 @@
+{
+	title: "Ardite Vein",
+	x: 6.5d,
+	y: -2.0d,
+	description: "Always Look at JEI for more Info",
+	text: [
+		"This Vein will be usefull for many Crafts and also for Tinker's!",
+		"",
+		"- You'll need some Cobalt and Ardite for some Roots Recipes."
+	],
+	dependencies: [
+		"f2026ad7"
+	],
+	tasks: [{
+		uid: "6d4826e8",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ardite_0 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "432b20ac",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cobaltite_0 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7753cd9f",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_black_quartz_0 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "757854e4",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cobalt_0 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "493d8c52",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:ore_cobalt_0 1 1",
+		count: 8
+	},
+	{
+		uid: "dc4156c2",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:ore_black_quartz_0 1 1",
+		count: 8
+	},
+	{
+		uid: "92f64bb3",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:ore_cobaltite_0 1 1",
+		count: 8
+	},
+	{
+		uid: "e3fdbfed",
+		type: "item",
+		team_reward: false,
+		item: "gregtech:ore_ardite_0 1 1",
+		count: 8
+	},
+	{
+		uid: "c1bb69fb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

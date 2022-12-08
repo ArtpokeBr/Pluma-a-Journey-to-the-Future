@@ -1,0 +1,32 @@
+{
+	title: "Quick Tips",
+	icon: {
+		id: "minecraft:writable_book",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 9.5d,
+	y: -4.5d,
+	shape: "gear",
+	description: "That didn't fit in the Quest Text",
+	text: [
+		"Pay attention beacuse once you've inserted a §6Circuit§f on a Farm it can only be §6extracted§f if you click on it holding a §6Soldering Iron§f!",
+		"",
+		"Also, you'll need some Fertilizer, Dirt for it to Build the Platform and depending of the Mode that you've chosed on the Soldering Iron:",
+		"",
+		"- §6Manual Farms§f require §6you§f to manually §6place the Crops§f or wathever it is going to Farm. It §9will be replanted normally§f, this mode is only good",
+		"if you want a better organization.",
+		"",
+		"- §6Automatic Farms§f will §6do§f all §6the job§f of planting §6for you§f if you provide the farm with everything it needs.",
+		"",
+		"- And Also, it is §c§lCOMPATIBLE WITH AGRICRAFT§r§f that means that the Farm will collect crops from Crop Sticks, but you need to set up an Manual Orchard (Emerald Tubes) to Work."
+	],
+	dependencies: [
+		"ad036ebc"
+	],
+	tasks: [{
+		uid: "1c572f0c",
+		type: "checkmark"
+	}]
+}

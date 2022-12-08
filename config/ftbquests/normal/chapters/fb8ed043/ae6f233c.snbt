@@ -1,0 +1,81 @@
+{
+	title: "Your First method of Smelting!",
+	icon: "pyrotech:kiln_pit",
+	x: 3.5d,
+	y: -0.5d,
+	description: "Time to Dry some Fibers and make a Pit Kiln!",
+	text: [
+		"You cannot make a Furnace Currently, so the first way to smelt items is the Pit Kiln!",
+		"",
+		"- You'll need some Dried Plant Fibers, make some.",
+		"",
+		"After making also an Pit Kiln block, dig up a whole in the ground and place it.",
+		"",
+		"Right click with the Desired item on it, in this case, Granite Cobblestone.",
+		"",
+		"After placing down what you want to Smelt, place a Straw Bale on it aswell.",
+		"",
+		"And for the Final Step, cover it all with 3 Logs and light it on Fire!",
+		"",
+		"~ Be Careful, there's a chance that the Crafting will fail, make more than you need!"
+	],
+	dependencies: [
+		"765849a8",
+		"d0cedb3d",
+		"b63920c2",
+		"19d0b497"
+	],
+	tasks: [{
+		uid: "3ef0a850",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 13"
+		}]
+	},
+	{
+		uid: "e8af7631",
+		type: "item",
+		items: [{
+			item: "pyrotech:kiln_pit"
+		}]
+	},
+	{
+		uid: "1adc4dbf",
+		type: "item",
+		items: [{
+			item: "pyrotech:thatch"
+		}]
+	},
+	{
+		uid: "4b88dde3",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f66cfc74",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "chisel:chisel_iron",
+			tag: {
+				chiseldata: {
+					target: {
+						id: "minecraft:air",
+						Count: 2b,
+						Damage: 0s
+					}
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "ca3e9c3e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "A More Reliable Glass Production",
+	x: 11.0d,
+	y: 2.5d,
+	description: "By Melting Sand into Liquid Glass!",
+	text: [
+		"By Smelting Sand in the Melter, you'll obtain Liquid Glass that can be poured into a basin!",
+		"",
+		"- By pouring it into a basin, it will solidify into Clear Glass.",
+		"",
+		"- Clear Glass can be Chiseled into normal Glass!"
+	],
+	dependencies: [
+		"8e82fb88"
+	],
+	tasks: [{
+		uid: "89d6267a",
+		type: "item",
+		items: [{
+			item: "tconstruct:clear_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "e2e2f7b6",
+		type: "item",
+		item: "minecraft:glass",
+		count: 16
+	},
+	{
+		uid: "a0a06a5e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

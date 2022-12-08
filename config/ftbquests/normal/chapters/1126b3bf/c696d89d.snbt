@@ -1,0 +1,35 @@
+{
+	title: "A Much needed Upgrade for your Blood Altar!",
+	x: 10.5d,
+	y: -2.0d,
+	description: "Lets craft our First set of Runes!",
+	text: [
+		"You'll need to §2Expand§f your §6Blood Altar§f everytime you wish to increse its Tier, §2Prepare a huge area§f!",
+		"",
+		"- In this Particular case, simply craft §58 Blank Runes§f, as this is enough to §aupgrade§f it to a §cTier II Altar§f!",
+		"",
+		"§8§o~ Simply surround the altar with them. 1 block bellow it of course.§r§f"
+	],
+	dependencies: [
+		"9ac09a4c"
+	],
+	tasks: [{
+		uid: "93e066b6",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "eb54938f",
+		type: "item",
+		item: "stygian:endobsidian",
+		count: 64
+	},
+	{
+		uid: "27aef0b3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "A Granite Anvil!",
+	x: 4.5d,
+	y: -0.5d,
+	description: "Are you a Blacksmith?",
+	text: [
+		"Use the Chisel that you've just obtained from the previous quest for polishing granite!",
+		"",
+		"Dont worry, Chisels don't have durability on this Pack, just don't lose it!",
+		"",
+		"- After that, simply make a Granite Anvil! it is essential for the next recipes and progression!",
+		"",
+		"- And remember that you'll need a Hammer when realizing Craftings.",
+		"",
+		"- Oh and it is the standart thing for Pyrotech, this Anvil has its own durability!"
+	],
+	dependencies: [
+		"ae6f233c"
+	],
+	tasks: [{
+		uid: "81cb0fc5",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_granite"
+		}]
+	}],
+	rewards: [{
+		uid: "c3091ba0",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 4
+	},
+	{
+		uid: "7cf491db",
+		type: "item",
+		item: "minecraft:stone 1 1",
+		count: 4
+	},
+	{
+		uid: "266d54bb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

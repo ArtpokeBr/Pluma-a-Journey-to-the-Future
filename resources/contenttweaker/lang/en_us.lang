@@ -1,0 +1,463 @@
+
+tile.contenttweaker.obsidian_glass.name=Obsidian Glass
+tile.contenttweaker.baykoksbloodiedstone.name=Baykok's Sanguine Stone
+tile.contenttweaker.aluminiumgravel.name=Aluminium Gravel
+tile.contenttweaker.livingmatter.name=Livingmatter
+tile.contenttweaker.dreammatter.name=Dreammatter
+
+tile.contenttweaker.brick_stone_refined.name=Refined Stone Bricks
+tile.contenttweaker.fancybrick_stone_refined.name=Fancy Refined Stone Bricks
+tile.contenttweaker.road_stone_refined.name=Refined Road Bricks
+tile.contenttweaker.squarebrick_stone_refined.name=Refined Square Bricks
+
+tile.contenttweaker.masonBricksFelsic.name=Mason Felsic Bricks
+tile.contenttweaker.masonBricksMafic.name=Mason Mafic Bricks
+tile.contenttweaker.masonBricksMixed.name=Mason Mixed Bricks
+tile.contenttweaker.masonBricksPlain.name=Mason Plain Bricks
+
+tile.contenttweaker.alien_meteorite_block.name=Strange Meteorite
+
+fluid.ghastlycerin=Ghastlycerin
+fluid.liquid_mana=Mana
+fluid.nacre=Nacre
+
+item.contenttweaker.heavyduty.name=Heavy Duty Plate
+item.contenttweaker.heavydutyalloy.name=Heavy Duty Alloy Ingot
+item.contenttweaker.titaniumbars.name=Titanium Bars
+item.contenttweaker.heavyduty2.name=Heavy Duty Plate Tier II
+item.contenttweaker.heavydutyalloy2.name=Heavy Duty Alloy Ingot Tier II
+item.contenttweaker.thermalcloth.name=Thermal Cloth
+item.contenttweaker.refinedcloth.name=Refined Cloth
+item.contenttweaker.layerpressure.name=Pressure Layer
+item.contenttweaker.layerradiation.name=Radiation Layer
+
+item.contenttweaker.unpreparedspacehelmet.name=Unprepared Space Helmet
+item.contenttweaker.unpreparedspacechestplate.name=Unprepared Space Chestplate
+item.contenttweaker.unpreparedspaceleggins.name=Unprepared Space Leggings
+item.contenttweaker.unpreparedspaceboots.name=Unprepared Space Boots
+
+item.contenttweaker.etchedredalloywiring.name=Etched Red Alloy Wiring
+item.contenttweaker.etchedtriberiumwiring.name=Etched Triberium Wiring
+
+item.contenttweaker.BlankShapeCard.name=Blank Shape Card
+
+item.contenttweaker.obsidianElectrode.name=Obsidian Electrode
+
+item.contenttweaker.ghasbladder.name=Ghast Bladder
+item.contenttweaker.pigmanflesh.name=Pigman Flesh
+item.contenttweaker.hellishflesh.name=Hellish Flesh Essence
+
+item.contenttweaker.parchment.name=Parchment
+
+item.contenttweaker.enoriplate.name=§7Enori Plate
+item.contenttweaker.restoniaplate.name=§4Restonia Plate
+item.contenttweaker.diamatineplate.name=§9Diamantine Plate
+item.contenttweaker.emeradicplate.name=§2Emeradic Plate
+item.contenttweaker.voidplate.name=§8Void Plate
+item.contenttweaker.palisplate.name=§1Palis Plate
+
+item.contenttweaker.enorigear.name=§7Enori Gear
+item.contenttweaker.restoniagear.name=§4Restonia Gear
+item.contenttweaker.diamatinegear.name=§9Diamantine Gear
+item.contenttweaker.emeradicgear.name=§2Emeradic Gear
+item.contenttweaker.voidgear.name=§8Void Gear
+item.contenttweaker.palisgear.name=§1Palis Gear
+
+item.contenttweaker.empoweredenorigear.name=§7Empowered Enori Gear
+item.contenttweaker.empoweredrestoniagear.name=§4Empowered Restonia Gear
+item.contenttweaker.empowereddiamatinegear.name=§9Empowered Diamantine Gear
+item.contenttweaker.empoweredemeradicgear.name=§2Empowered Emeradic Gear
+item.contenttweaker.empoweredvoidgear.name=§8Empowered Void Gear
+item.contenttweaker.empoweredpalisgear.name=§1Empowered Palis Gear
+
+item.contenttweaker.empoweredenoriplate.name=§7Empowered Enori Plate
+item.contenttweaker.empoweredrestoniaplate.name=§4Empowered Restonia Plate
+item.contenttweaker.empowereddiamatineplate.name=§9Empowered Diamantine Plate
+item.contenttweaker.empoweredemeradicplate.name=§2Empowered Emeradic Plate
+item.contenttweaker.empoweredvoidplate.name=§8Empowered Void Plate
+item.contenttweaker.empoweredpalisplate.name=§1Empowered Palis Plate
+
+item.contenttweaker.rawStainlessSteel.name=Unprocessed Stainless Steel Mixture
+
+item.contenttweaker.skystoneBoule.name=Sky Stone Doped Boule
+
+item.contenttweaker.thermalinsulatordust.name=Thermal Insulator Dust
+
+item.contenttweaker.sooty_energetic_compound.name=Sooty Energetic Compound §e(Charged)§f
+item.contenttweaker.sooty_energetic_compound_1.name=Sooty Energetic Compound §e(Uncharged)§f
+
+item.contenttweaker.glod_crystal.name=§6Glod Crystal
+item.contenttweaker.empowered_glod_crystal.name=§6Empowered Glod Crystal
+tile.contenttweaker.glod_crystal_block.name=§6Glod Crystal Block
+tile.contenttweaker.empowered_glod_crystal_block.name=§6Empowered Glod Crystal Block
+
+item.contenttweaker.endor_crystal.name=§3Endor Crystal
+item.contenttweaker.empowered_endor_crystal.name=§3Empowered Endor Crystal
+tile.contenttweaker.endor_crystal_block.name=§3Endor Crystal Block
+tile.contenttweaker.empowered_endor_crystal_block.name=§3Empowered Endor Crystal Block
+
+item.contenttweaker.heart_of_the_woods.name=Heart of the Woods
+item.contenttweaker.heart_of_the_magical_woods.name=Heart of the Magical Woods
+
+item.contenttweaker.overworldessencel.name=Overworldian Artifact
+item.contenttweaker.overworldessencer.name=Strange Artifact
+
+item.contenttweaker.taintedsoildust.name=Tainted Soil Dust
+
+item.contenttweaker.endermansheart.name=§5Enderman's Heart
+
+item.contenttweaker.ink_dropplet.name=Ink Dropplet
+
+item.contenttweaker.unfiredPorcelainBrick.name=Unfired Porcelain Brick
+
+item.contenttweaker.searedPlate.name=Seared Plate
+
+item.contenttweaker.hot_iron_ingot.name=Hot Iron Ingot
+
+item.contenttweaker.saltedHide.name=Salted Hide
+
+item.contenttweaker.blank_upgrade_module.name=Blank Upgrade Module
+
+item.contenttweaker.chip_composite.name=Chip Composite
+
+tile.contenttweaker.modular_casing.name=Modular Casing
+
+tile.contenttweaker.vanadiumsteel_casing.name=Vanadiumsteel Casing
+
+item.contenttweaker.gemMenril.name=Menril Crystal
+
+item.contenttweaker.soot_covered_redstone.name=Soot Covered Redstone
+
+item.contenttweaker.twilight_crystal.name=§aTwilight Crystal§f
+
+item.contenttweaker.alchemical_nautilus.name=Alchemical Nautilus Shell
+
+item.contenttweaker.demonlord.name=Demonlord Ingot
+tile.contenttweaker.demonlord_block.name=Demonlord Block
+
+item.contenttweaker.diabolic_carbide.name=Diabolic Carbide Ingot
+tile.contenttweaker.diabolic_carbide_block.name=Diabolic Carbide Block
+
+item.contenttweaker.osglolapis.name=Osglolapis
+tile.contenttweaker.osglolapis_block.name=Osglolapis Block
+
+item.contenttweaker.mirionplate.name=Mirion Plate
+item.contenttweaker.miriongear.name=Mirion Gear
+
+item.contenttweaker.alumiteplate.name=Alumite Plate
+item.contenttweaker.alumitegear.name=Alumite Gear
+
+item.contenttweaker.osgloglasplate.name=Osgloglas Plate
+item.contenttweaker.osgloglasgear.name=Osgloglas Gear
+
+item.contenttweaker.knightmetalplate.name=Knightmetal Plate
+item.contenttweaker.knightmetalgear.name=Knightmetal Gear
+item.contenttweaker.fieryplate.name=Fiery Plate
+item.contenttweaker.fierygear.name=Fiery Gear
+item.contenttweaker.ironwoodplate.name=Ironwood Plate
+item.contenttweaker.ironwoodgear.name=Ironwood Gear
+
+item.contenttweaker.energeticsilverplate.name=Energetic Silver Plate
+item.contenttweaker.energeticsilvergear.name=Energetic Silver Gear
+
+item.contenttweaker.melodicalloyplate.name=Melodic Alloy Plate
+item.contenttweaker.melodicalloygear.name=Melodic Alloy Gear
+
+item.contenttweaker.imp_leather_scrap.name=Imp Leather Scrap
+item.contenttweaker.buffalo_leather_scrap.name= Buffalo Leather Scrap
+item.contenttweaker.industrial_leather.name=Industrial Leather
+
+item.contenttweaker.darksoulariumplate.name=Dark Soularium Plate
+item.contenttweaker.darksoulariumgear.name=Dark Soularium Gear
+
+tile.contenttweaker.hyper_diamond_block.name=Hyper Diamond Block
+
+tile.contenttweaker.industrial_grade_graphite_ore.name=Industrial Grade Graphite Ore
+item.contenttweaker.industrial_grade_graphite_dust.name=Industrial Grade Graphite Dust
+
+tile.contenttweaker.nacre_block.name=Nacre Block
+tile.contenttweaker.nacre_bricks.name=Nacre Bricks
+
+tile.contenttweaker.nacre_block_weathered.name=Nacre Block
+tile.contenttweaker.nacre_bricks_weathered.name=Nacre Bricks
+
+item.contenttweaker.dark_magic_dust.name=Dark Magic Dust
+item.contenttweaker.white_magic_dust.name=White Magic Dust
+
+item.contenttweaker.lich_bones.name=Lich Bones
+item.contenttweaker.rainbow_fabric.name=Rainbow Fabric
+
+
+item.contenttweaker.lavender_quartz_plate.name=Lavender Quartz Plate
+item.contenttweaker.lavender_quartz_gear.name=Lavender Quartz Gear
+
+item.contenttweaker.elven_quartz_plate.name=Elven Quartz Plate
+item.contenttweaker.elven_quartz_gear.name=Elven Quartz Gear
+
+item.contenttweaker.red_quartz_plate.name=Red Quartz Plate
+item.contenttweaker.red_quartz_gear.name=Red Quartz Gear
+
+item.contenttweaker.blaze_quartz_plate.name=Blaze Quartz Plate
+item.contenttweaker.blaze_quartz_gear.name=Blaze Quartz Gear
+
+item.contenttweaker.mana_quartz_plate.name=Mana Quartz Plate
+item.contenttweaker.mana_quartz_gear.name=Mana Quartz Gear
+
+item.contenttweaker.sunny_quartz_plate.name=Sunny Quartz Plate
+item.contenttweaker.sunny_quartz_gear.name=Sunny Quartz Gear
+
+item.contenttweaker.mana_silicon_boule.name=Mana-doped Monocrystalline Silicon Boule
+item.contenttweaker.mana_silicon_wafer.name=Mana-doped Silicon Wafer
+item.contenttweaker.integrated_botanical_mana_circuit_wafer.name=Integrated Botanical Circuit Wafer
+item.contenttweaker.integrated_mana_circuit.name=Integrated Botanical Circuit
+item.contenttweaker.integrated_botanical_processor.name=Integrated Botanical Processor
+
+item.contenttweaker.livingwood_board.name=Livingwood Board
+item.contenttweaker.livingwood_circuit_board.name=Livingwood Circuit Board
+
+item.contenttweaker.stone_alchemy_bowl.name=Stone Alchemy Bowl
+item.contenttweaker.twilight_powder.name=Twilight Alchemical Powder
+
+item.contenttweaker.blackened_spirit.name=Blackened Spirit
+
+item.contenttweaker.arboreal_essence.name=Arboreal Essence
+
+item.contenttweaker.magical_leather.name=Magical Leather
+item.contenttweaker.blood_infused_leather.name=Blood Infused Leather
+item.contenttweaker.star_leather.name=Star Leather
+
+item.contenttweaker.blank_botania_rune.name=Blank Botania Rune
+
+item.contenttweaker.compressed_manasteel.name=Compressed Mana Steel
+item.contenttweaker.compressed_stygian.name=Compressed Stygian
+item.contenttweaker.compressed_garmonbozia.name=Compressed Garmonbozia
+item.contenttweaker.compressed_sentient.name=Compressed Sentient
+item.contenttweaker.compressed_coralium.name=Compressed Coralium
+
+item.contenttweaker.hyper_pearl.name=Hyper Pearl
+
+item.contenttweaker.petal_of_the_daisy.name=Petal of the Daisy
+item.contenttweaker.hydrating_petal.name=Hydrating Petal
+item.contenttweaker.petal_of_the_inner_flame.name=Petal of the Inner Flame
+item.contenttweaker.manastar_petal.name=Manastar Petal
+item.contenttweaker.thermal_petal.name=Thermal Petal
+item.contenttweaker.petal_of_the_arcane_rose.name=Petal of the Arcane Rose
+item.contenttweaker.petal_of_the_gourmaryllis.name=Petal of the Gourmaryllis
+item.contenttweaker.petal_of_the_narslimmus.name=Petal of the Narslimmus
+item.contenttweaker.jaded_petal.name=Jaded Petal
+item.contenttweaker.thorny_belle_petal.name=Thorny Belle Petal
+item.contenttweaker.thorny_dread_petal.name=Thorny Dread Petal
+item.contenttweaker.tigerseye_petal.name=Tigerseye Petal
+item.contenttweaker.petal_of_the_exoflame.name=Petal of the Exoflame
+item.contenttweaker.agricarnatic_petal.name=Agricarnatic Petal
+item.contenttweaker.hopping_petal.name=Hopping Petal
+item.contenttweaker.petal_of_the_rannuncarpus.name=Petal of the Rannuncarpus
+item.contenttweaker.tangled_petals.name=Tangled Petals
+item.contenttweaker.petal_of_the_jiyuulia.name=Petal of the Jiyuulia
+item.contenttweaker.clay_cone_petal.name=Clay Cone Petal
+item.contenttweaker.daffomill_petal.name=Daffomill Petal
+item.contenttweaker.petal_of_the_solegnolia.name=Petal of the Solegnolia
+item.contenttweaker.petal_of_the_bergamute.name=Petal of the Bergamute
+item.contenttweaker.munching_petal.name=Munching Petal
+item.contenttweaker.petal_of_the_entropinnyum.name=Petal of the Entropinnyum
+item.contenttweaker.spectacular_petal.name=Spectacular Petal
+item.contenttweaker.petal_of_the_rafflowsia.name=Petal of the Rafflowsia
+item.contenttweaker.petal_me_not.name=Petal Me Not
+item.contenttweaker.petal_of_the_game_of_life.name=Petal of the Game of Life
+item.contenttweaker.morphing_petal.name=Morphing Petal
+item.contenttweaker.orechid_petallius.name=Orechid Petallius
+item.contenttweaker.orechid_ignem_petallius.name=Orechid Ignem Petallius
+item.contenttweaker.petal_of_the_fallen_kanade.name=Petal of the Fallen Kanade
+item.contenttweaker.petal_of_the_hyacidus.name=Petal of the Hyacidus
+item.contenttweaker.medumone_petal.name=Medumone Petal
+item.contenttweaker.pollinating_petal.name=Pollinating Petal
+item.contenttweaker.loonium_petal.name=Loonium Petal
+item.contenttweaker.petal_of_the_vinculotus.name=Petal of the Vinculotus
+item.contenttweaker.spectralight_petal.name=Spectralight Petal
+item.contenttweaker.blubbing_petal.name=Blubbing Petal
+item.contenttweaker.petal_of_a_slice_o_cake.name=Petal of a Slice o' Cake
+item.contenttweaker.dreaming_petal.name=Dreaming Petal
+item.contenttweaker.petrolic_petal.name=Petrolic Petal
+
+item.contenttweaker.rune_of_deception.name=Rune of Deception
+item.contenttweaker.rune_of_mana.name=Rune of Mana
+item.contenttweaker.rune_of_lust.name=Rune of Lust
+item.contenttweaker.rune_of_gluttony.name=Rune of Gluttony
+item.contenttweaker.rune_of_greed.name=Rune of Greed
+item.contenttweaker.rune_of_sloth.name=Rune of Sloth
+item.contenttweaker.rune_of_wrath.name=Rune of Wrath
+item.contenttweaker.rune_of_envy.name=Rune of Envy
+item.contenttweaker.rune_of_pride.name=Rune of Pride
+item.contenttweaker.rune_of_water.name=Rune of Water
+item.contenttweaker.rune_of_fire.name=Rune of Fire
+item.contenttweaker.rune_of_earth.name=Rune of Earth
+item.contenttweaker.rune_of_air.name=Rune of Air
+item.contenttweaker.rune_of_spring.name=Rune of Spring
+item.contenttweaker.rune_of_summer.name=Rune of Summer
+item.contenttweaker.rune_of_autumn.name=Rune of Autumn
+item.contenttweaker.rune_of_winter.name=Rune of Winter
+item.contenttweaker.rune_of_teleportation.name=Rune of Teleportation
+item.contenttweaker.rune_of_energy.name=Rune of Energy
+
+item.contenttweaker.dirty_reagent.name=Dirty Reagent
+item.contenttweaker.wizards_reagent.name=Wizard's Reagent
+item.contenttweaker.neutral_reagent.name=Neutral Reagent
+item.contenttweaker.tempest_reagent.name=Tempest Reagent
+item.contenttweaker.strength_reagent.name=Strength Reagent
+item.contenttweaker.damage_reagent.name=Damage Reagent
+item.contenttweaker.potent_reagent.name=Potent Reagent
+item.contenttweaker.binding_reagent.name=Binding Reagent
+
+
+
+item.contenttweaker.simple_catalyst.name=Simple Catalyst
+item.contenttweaker.strengthened_catalyst.name=Strengthened Catalyst
+item.contenttweaker.concentrated_catalyst.name=Concentrated Catalyst
+item.contenttweaker.intensive_catalyst.name=Intensive Catalyst
+
+
+
+item.contenttweaker.tempestas.name=Tempestas
+item.contenttweaker.aether.name=Aether
+item.contenttweaker.aquasalus.name=Aquasalus
+item.contenttweaker.crepitous.name=Crepitous
+item.contenttweaker.crystallos.name=Crystallos
+item.contenttweaker.incendium.name=Incendium
+item.contenttweaker.magicales.name=Magicales
+item.contenttweaker.offensa.name=Offensa
+item.contenttweaker.potentia.name=Potentia
+item.contenttweaker.praesidium.name=Praesidium
+item.contenttweaker.reductus.name=Reductus
+item.contenttweaker.orbis_terrae.name=Orbis Terrae
+item.contenttweaker.sanctus.name=Sanctus
+item.contenttweaker.tenebrae.name=Tenebrae
+item.contenttweaker.terrae.name=Terrae
+item.contenttweaker.virtus.name=Virtus
+
+
+
+item.contenttweaker.empty_core.name=Empty Core
+item.contenttweaker.gusty_core.name=Gusty Core
+item.contenttweaker.aquatic_core.name=Aquatic Core
+item.contenttweaker.defensive_core.name=Defensive Core
+item.contenttweaker.icy_core.name=Icy Core
+item.contenttweaker.fire_core.name=Fire Core
+item.contenttweaker.magical_core.name=Magical Core
+item.contenttweaker.offensive_core.name=Offensive Core
+item.contenttweaker.environmental_core.name=Environmental Core
+item.contenttweaker.potency_core.name=Potency Core
+item.contenttweaker.suppression_core.name=Suppression Core
+item.contenttweaker.reduction_core.name=Reduction Core
+item.contenttweaker.holy_core.name=Holy Core
+item.contenttweaker.dark_core.name=Dark Core
+item.contenttweaker.earthen_core.name=Earthen Core
+item.contenttweaker.power_core.name=Power Core
+item.contenttweaker.tempest_core.name=Tempest Core
+
+item.contenttweaker.tannin_mixture.name=Tannin Mixture
+item.contenttweaker.small_hide_salted.name=Salted Small Hide
+
+item.contenttweaker.demon_plate.name=Demonic Plate
+item.contenttweaker.demon_gear.name=Demonic Gear
+
+item.contenttweaker.enchanted_plate.name=Enchanted Plate
+item.contenttweaker.enchanted_gear.name=Enchanted Gear
+
+item.contenttweaker.evil_infused_plate.name=Evil Infused Plate
+item.contenttweaker.evil_infused_gear.name=Evil Infused Gear
+
+item.contenttweaker.sanguine_pearl.name=Sanguine Pearl
+item.contenttweaker.corruptedstarmetal.name=Corrupted Starmetal
+
+item.contenttweaker.vibrant_slate.name=Vibrant Slate
+item.contenttweaker.rainbow_slate.name=Rainbow Slate
+item.contenttweaker.perfect_slate.name=Perfect Slate
+
+item.contenttweaker.abyssal_pearl.name=Abyssal Pearl
+
+item.contenttweaker.condensed_vis_crystal_aer.name=Condensed Aer Vis Crystal
+item.contenttweaker.condensed_vis_crystal_terra.name=Condensed Terra Vis Crystal
+item.contenttweaker.condensed_vis_crystal_ignis.name=Condensed Ignis Vis Crystal
+item.contenttweaker.condensed_vis_crystal_aqua.name=Condensed Aqua Vis Crystal
+item.contenttweaker.condensed_vis_crystal_ordo.name=Condensed Ordo Vis Crystal
+item.contenttweaker.condensed_vis_crystal_perditio.name=Condensed Perditio Vis Crystal
+item.contenttweaker.condensed_vis_crystal_vacuos.name=Condensed Vacuos Vis Crystal
+item.contenttweaker.condensed_vis_crystal_lux.name=Condensed Lux Vis Crystal
+item.contenttweaker.condensed_vis_crystal_motus.name=Condensed Motus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_gelum.name=Condensed Gelum Vis Crystal
+item.contenttweaker.condensed_vis_crystal_vitreus.name=Condensed Vitreus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_metallum.name=Condensed Metallum Vis Crystal
+item.contenttweaker.condensed_vis_crystal_victus.name=Condensed Victus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_mortuus.name=Condensed Mortuus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_potentia.name=Condensed Potentia Vis Crystal
+item.contenttweaker.condensed_vis_crystal_permutatio.name=Condensed Permutatio Vis Crystal
+item.contenttweaker.condensed_vis_crystal_praecantatio.name=Condensed Praecantatio Vis Crystal
+item.contenttweaker.condensed_vis_crystal_auram.name=Condensed Auram Vis Crystal
+item.contenttweaker.condensed_vis_crystal_alkimia.name=Condensed Alkimia Vis Crystal
+item.contenttweaker.condensed_vis_crystal_vitium.name=Condensed Vitium Vis Crystal
+item.contenttweaker.condensed_vis_crystal_tenebrae.name=Condensed Tenebrae Vis Crystal
+item.contenttweaker.condensed_vis_crystal_alienis.name=Condensed Alienis Vis Crystal
+item.contenttweaker.condensed_vis_crystal_volatus.name=Condensed Volatus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_herba.name=Condensed Herba Vis Crystal
+item.contenttweaker.condensed_vis_crystal_instrumentum.name=Condensed Instrumentum Vis Crystal
+item.contenttweaker.condensed_vis_crystal_fabrico.name=Condensed Fabrico Vis Crystal
+item.contenttweaker.condensed_vis_crystal_machina.name=Condensed Machina Vis Crystal
+item.contenttweaker.condensed_vis_crystal_vinculum.name=Condensed Vinculum Vis Crystal
+item.contenttweaker.condensed_vis_crystal_spiritus.name=Condensed Spiritus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_cognitio.name=Condensed Cognitio Vis Crystal
+item.contenttweaker.condensed_vis_crystal_sensus.name=Condensed Sensus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_aversio.name=Condensed Aversio Vis Crystal
+item.contenttweaker.condensed_vis_crystal_praemunio.name=Condensed Praemunio Vis Crystal
+item.contenttweaker.condensed_vis_crystal_desiderium.name=Condensed Desiderium Vis Crystal
+item.contenttweaker.condensed_vis_crystal_exanimis.name=Condensed Exanimis Vis Crystal
+item.contenttweaker.condensed_vis_crystal_bestia.name=Condensed Bestia Vis Crystal
+item.contenttweaker.condensed_vis_crystal_humanus.name=Condensed Humanus Vis Crystal
+
+item.contenttweaker.condensed_vis_crystal_coralos.name=Condensed Coralos Vis Crystal
+item.contenttweaker.condensed_vis_crystal_priscus.name=Condensed Priscus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_chronos.name=Condensed Chronos Vis Crystal
+item.contenttweaker.condensed_vis_crystal_anteanus.name=Condensed Anteanus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_dreadia.name=Condensed Dreadia Vis Crystal
+item.contenttweaker.condensed_vis_crystal_imperium.name=Condensed Imperium Vis Crystal
+item.contenttweaker.condensed_vis_crystal_fluctus.name=Condensed Fluctus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_ventus.name=Condensed Ventus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_exitium.name=Condensed Exitium Vis Crystal
+item.contenttweaker.condensed_vis_crystal_infernum.name=Condensed Infernum Vis Crystal
+item.contenttweaker.condensed_vis_crystal_sonus.name=Condensed Sonus Vis Crystal
+item.contenttweaker.condensed_vis_crystal_draco.name=Condensed Draco Vis Crystal
+item.contenttweaker.condensed_vis_crystal_visum.name=Condensed Visum Vis Crystal
+item.contenttweaker.condensed_vis_crystal_caeles.name=Condensed Caeles Vis Crystal
+
+item.contenttweaker.inscriber_parallel_circuit.name=Printed Parallel Circuit
+item.contenttweaker.inscriber_parallel_press.name=Inscriber Parallel Press
+
+item.contenttweaker.inscriber_speculative_press.name=Inscriber Speculative Press
+item.contenttweaker.inscriber_speculative_circuit.name=Printed Speculative Circuit
+
+item.contenttweaker.inscriber_operation_press.name=Inscriber Operation Press
+item.contenttweaker.printed_operation_circuit.name=Printed Operation Circuit
+item.contenttweaker.operation_processor.name=Operation Processor
+
+item.contenttweaker.inscriber_estimation_press.name=Inscriber Estimation Press
+item.contenttweaker.printed_estimation_circuit.name=Printed Estimation Circuit
+item.contenttweaker.estimation_processor.name=Estimation Processor
+
+item.contenttweaker.inscriber_methodology_press.name=Inscriber Methodology Press
+item.contenttweaker.printed_methodolgy_circuit.name=Printed Methodology Circuit
+item.contenttweaker.methodology_processor.name=Methodology Processor
+
+item.contenttweaker.inscriber_clearance_press.name=Inscriber Clearance Press
+item.contenttweaker.printed_clearance_circuit.name=Printed Clearance Circuit
+item.contenttweaker.clearance_processor.name=Clearance Processor
+
+item.contenttweaker.inscriber_scheduling_press.name=Inscriber Scheduling Press
+item.contenttweaker.printed_scheduling_circuit.name=Printed Scheduling Circuit
+item.contenttweaker.scheduling_processor.name=Scheduling Processor
+
+item.contenttweaker.inscriber_blank_press.name=Blank Inscriber Press
+
+item.contenttweaker.crystalline_pink_slime_plate.name=Crystalline Pink Slime Plate
+item.contenttweaker.crystalline_pink_slime_gear.name=Crystalline Pink Slime Gear
+
+item.contenttweaker.stone_tablet.name=Stone Tablet
+item.contenttweaker.abyssal_tablet.name=Abyssal Tablet

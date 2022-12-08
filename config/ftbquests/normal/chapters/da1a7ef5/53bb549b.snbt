@@ -1,0 +1,36 @@
+{
+	title: "Carrying Totem Buffs with ya!",
+	x: 2.0d,
+	y: -2.0d,
+	description: "Do not confuse with a Med Kit",
+	text: [
+		"The Medicine Bag does exaclty what the title says, you can link it with a totem and them charge the bag with it.",
+		"",
+		"- Stay close to the Linked Totem to charge the Bag",
+		"",
+		"- Right click to open it, once open, it will consume durability and it will also activate the Totem Buff!",
+		"",
+		"~ Link it with a Bat Totem, as you can use this item as a Glider! ~ Developer Tip"
+	],
+	dependencies: [
+		"c8a43935",
+		"4129ece7"
+	],
+	tasks: [{
+		uid: "f4a14e20",
+		type: "item",
+		items: [{
+			id: "totemic:medicine_bag",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ebb55738",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

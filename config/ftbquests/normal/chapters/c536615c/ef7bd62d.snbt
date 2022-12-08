@@ -1,0 +1,25 @@
+{
+	title: "{pluma.logsneakcomb.title}",
+	x: -3.5d,
+	y: -3.5d,
+	description: "{pluma.logsneakcomb.subtitle}",
+	text: [
+		"{pluma.logsneakcomb.desc}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "9a2c8ea0",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_sneaky_combination"
+		}]
+	}],
+	rewards: [{
+		uid: "78a222c2",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

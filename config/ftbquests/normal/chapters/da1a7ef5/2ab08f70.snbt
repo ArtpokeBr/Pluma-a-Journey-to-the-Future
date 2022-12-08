@@ -1,0 +1,101 @@
+{
+	title: "They Fey Crafter!",
+	icon: "roots:fey_crafter",
+	x: 12.5d,
+	y: -1.0d,
+	description: "I Don't think that this guy is ugly...",
+	text: [
+		"The Fey Crafter is also a Way to craft stuff in Roots! it will be use for more advanced craftsof this Mod.",
+		"",
+		"- Remember to click with a knife to start the crafts on it.",
+		"",
+		"- Oh, and also don't forget to place it near an Active Groove Stone! ",
+		"",
+		"If you don't know what and Groove Stone is, take a look at an previous quest called \"Tier 0 Rituals are now a Thing\" or simply read the manual.",
+		"",
+		"- Also, to craft this guy, you'll need some Cobalt Brass. There's a Quest for it in Chapter 2."
+	],
+	dependencies: [
+		"816ff438"
+	],
+	tasks: [{
+		uid: "7b643c25",
+		type: "item",
+		items: [{
+			item: "roots:fey_crafter"
+		}]
+	},
+	{
+		uid: "1ee9cc6f",
+		type: "item",
+		title: "Any Roots Knife",
+		items: [{
+			id: "mysticalworld:amethyst_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "mysticalworld:copper_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "mysticalworld:silver_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:wood_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:stone_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:iron_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:diamond_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:gold_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87ef049f",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 34s
+				}]
+			}
+		}
+	},
+	{
+		uid: "98c51c89",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

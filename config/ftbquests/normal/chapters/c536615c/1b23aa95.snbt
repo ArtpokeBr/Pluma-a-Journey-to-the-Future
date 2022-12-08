@@ -1,0 +1,32 @@
+{
+	title: "{pluma.modpolysink.title}",
+	x: 3.5d,
+	y: -1.5d,
+	description: "{pluma.modpolysink.subtitle}",
+	text: [
+		"{pluma.modpolysink.desc1}",
+		"",
+		"{pluma.modpolysink.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "78980c2e",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_item_sink_mod"
+		}]
+	}],
+	rewards: [{
+		uid: "75eb871d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "3bc9cdaf",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

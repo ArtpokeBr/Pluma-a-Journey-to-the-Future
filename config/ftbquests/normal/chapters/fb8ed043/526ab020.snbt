@@ -1,0 +1,59 @@
+{
+	title: "Finally Solving the Water Issue",
+	icon: "gregtech:machine 1 1648",
+	x: 17.0d,
+	y: 2.0d,
+	description: "By Using a Primitive Water Pump!",
+	text: [
+		"The Water Pump is a Primtive Multiblock Structure that can be used to collect water infinitely for ya.",
+		"",
+		"- Please refeer to JEI as its mb/tick of water is based on the Biome that the Multiblock is at.",
+		"",
+		"- To build it, you can always look at JEI or shift + right click on a placed controller block to enable the preview."
+	],
+	dependencies: [
+		"67345fdc"
+	],
+	tasks: [{
+		uid: "a479d544",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1648"
+		}]
+	},
+	{
+		uid: "3afbafa8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1649"
+		}]
+	},
+	{
+		uid: "b9912d7d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_103"
+		}],
+		count: 10L
+	},
+	{
+		uid: "9aa6daea",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 4"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "ee61f9e2",
+		type: "item",
+		team_reward: false,
+		item: "minecraft:pumpkin_pie",
+		count: 2
+	},
+	{
+		uid: "8eaa554d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

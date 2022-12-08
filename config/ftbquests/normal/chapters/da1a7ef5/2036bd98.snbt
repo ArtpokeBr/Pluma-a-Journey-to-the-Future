@@ -1,0 +1,77 @@
+{
+	title: "Blood and Flesh!",
+	icon: "contenttweaker:pigmanflesh",
+	x: 7.5d,
+	y: -1.0d,
+	description: "This is going to be a Massacre!",
+	text: [
+		"In the Nether you'll be able to find 2 types of Pig, the Pigman and the Imp... Kill Both",
+		"",
+		"- Also try to find some Biomes O' Plenty Flesh.",
+		"",
+		"- You'll be requested all of these resources soon."
+	],
+	dependencies: [
+		"f2026ad7"
+	],
+	tasks: [{
+		uid: "48ee062d",
+		type: "kill",
+		icon: {
+			id: "minecraft:iron_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		entity: "minecraft:zombie_pigman",
+		value: 1L
+	},
+	{
+		uid: "592a46bf",
+		type: "kill",
+		icon: {
+			id: "minecraft:iron_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		entity: "natura:imp",
+		value: 1L
+	},
+	{
+		uid: "7cbc7219",
+		type: "item",
+		title: "Any Flesh from BOP",
+		items: [{
+			item: "biomesoplenty:flesh"
+		},
+		{
+			item: "biomesoplenty:fleshchunk"
+		}]
+	},
+	{
+		uid: "1e7c52da",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pigmanflesh"
+		}]
+	},
+	{
+		uid: "2ce37229",
+		type: "item",
+		items: [{
+			item: "natura:edibles"
+		}]
+	}],
+	rewards: [{
+		uid: "bbb880a2",
+		type: "item",
+		item: "harvestcraft:ketchupitem",
+		count: 2
+	},
+	{
+		uid: "df67a0d7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,77 @@
+{
+	title: "Dwarven Alchemy!",
+	x: 13.5d,
+	y: 0.5d,
+	description: "Time to start playing with Alchemy!",
+	text: [
+		"§aThe Setup is simple:§f",
+		"",
+		"- Place the §6Exchange Tablet§f where you wish to be the §acenter§f.",
+		"",
+		"- §5Skip a block§f and place the §6Pedestals§f on each §aCardinal Sign§f.",
+		"",
+		"- After that, simply §aselect a spot§f where you desire to place the §6Beam Cannon§f.",
+		"",
+		"§8§o(It has to be able to shoot the tablet at the center, I Recommend you to place it 2 blocks above the tablet)§f§r",
+		"",
+		"- What you'll need to charge with §eEmber§f. §6The Beam Cannon§f, when you give it a §credstone signal§f and when its §eenough charged§f that will §astart the crafting process§f.",
+		"",
+		"- §5Each recipe§f will require some specific §9Aspectus§f, and an §aspecific amount§f of §7§lAsh§r§f to be used.",
+		"",
+		"- Simply place the §9Aspectus§f in the §6Pedestals§f and also the §7§lAsh Dust's§r§f will go there too.",
+		"",
+		"§8§o( Each save will have a specific amount of Ash for each recipe, you'll need to find the correct amount by yourself)§f§r",
+		"",
+		"- Also, remember that to §aplace the Items§f into the §6Tablet§f, you'll need to also §bclick on the sides of the block§f to §3place them§f on their §3respective sides§f."
+	],
+	dependencies: [
+		"2294f75b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6fa24aae",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	},
+	{
+		uid: "a9a5d97a",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_pedestal"
+		}],
+		count: 4L
+	},
+	{
+		uid: "5f4383cd",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	}],
+	rewards: [{
+		uid: "c71511cb",
+		type: "item",
+		item: "embers:ember_gauge"
+	},
+	{
+		uid: "7f1f51ba",
+		type: "item",
+		item: "embers:clockwork_attenuator"
+	},
+	{
+		uid: "39e10b71",
+		type: "item",
+		item: "gregtech:meta_dust 1 254",
+		count: 16,
+		random_bonus: 48
+	},
+	{
+		uid: "fe8f0d70",
+		type: "item",
+		item: "gregtech:meta_ingot 1 32038",
+		count: 4,
+		random_bonus: 8
+	}]
+}

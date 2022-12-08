@@ -1,0 +1,32 @@
+{
+	title: "Extracting Materials!",
+	x: -1.5d,
+	y: -1.5d,
+	description: "By using a Steam Extractor!",
+	text: [
+		"Not the Most usefull Steam Machine, but a required one! you'll need it in some key processes.",
+		"",
+		"- This Steam Extractor will require Steam to operate and it will only process ULV and LV level Recipes."
+	],
+	dependencies: [
+		"e59a6abe"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d369788f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "80d656f6",
+		type: "item",
+		item: "harvestcraft:spinachpieitem"
+	},
+	{
+		uid: "e6cd56c2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "LV Cutting Machine",
+	x: 7.5d,
+	y: 3.5d,
+	description: "Cutting Stuff but most importantly Wood with EU!",
+	text: [
+		"That's right! now you're pretty much able to Cut Wood efficiently and also make Slabs more Efficiently!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"58656a37",
+		"09cfb20d"
+	],
+	tasks: [{
+		uid: "941ceabe",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 245"
+		}]
+	}],
+	rewards: [{
+		uid: "b6a11d2b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621"
+	},
+	{
+		uid: "fa726df7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

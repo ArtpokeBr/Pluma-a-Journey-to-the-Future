@@ -1,0 +1,60 @@
+{
+	title: "Lets automate PTFE (Teflon) §6Part II§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "tetrafluoroethylene",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 1.0d,
+	y: -5.5d,
+	description: "Chloroform + Hydrofluoric Acid = Tetrafluoroethylene",
+	text: [
+		"Well, after all §6Chemistry§f you've done before this quest, it is finally time to start putting things together!",
+		"",
+		"- Simply mix §5Chloroform§f and §3Hydrofluoric Acid§f in an §6HV Chemical Reactor§f and Voilá!",
+		"",
+		"~ Also, after you finally obtain §2PTFE (Teflon)§f you'll be able to simplify this Automation if you wish to do so."
+	],
+	dependencies: [
+		"70e91a08",
+		"cfce84a9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f941b18f",
+		type: "fluid",
+		fluid: "tetrafluoroethylene"
+	}],
+	rewards: [{
+		uid: "864a0c76",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 18s,
+			tag: {
+				GT.ToolStats: {
+					Material: "black_steel"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "3a486361",
+		type: "item",
+		item: "gregtech:meta_item_1 1 625",
+		random_bonus: 1
+	},
+	{
+		uid: "6ba145c0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

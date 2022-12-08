@@ -1,0 +1,47 @@
+{
+	title: "Shelfs and Crates!",
+	x: 1.5d,
+	y: 1.5d,
+	description: "The Early game way to store items!",
+	text: [
+		"Currently you don't have Treated Wood for Chests, but theres alternatives!",
+		"",
+		"- Both the Shelf and the Crate have 9 Slots of Storage",
+		"",
+		"- Each Slot can be filled with up to a Stack of that given Item."
+	],
+	dependencies: [
+		"c3dc0ea8"
+	],
+	tasks: [{
+		uid: "8bb63efd",
+		type: "item",
+		items: [{
+			item: "pyrotech:shelf"
+		}]
+	},
+	{
+		uid: "0d3b42c7",
+		type: "item",
+		items: [{
+			item: "pyrotech:crate"
+		}]
+	}],
+	rewards: [{
+		uid: "2959c637",
+		type: "item",
+		item: "pyrotech:shelf",
+		count: 2
+	},
+	{
+		uid: "74330e6b",
+		type: "item",
+		item: "pyrotech:crate",
+		count: 2
+	},
+	{
+		uid: "7c8f7c04",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

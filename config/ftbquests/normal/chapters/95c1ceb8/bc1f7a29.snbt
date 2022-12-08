@@ -1,0 +1,63 @@
+{
+	title: "The Thermal Evaporation Tower",
+	icon: "mekanism:basicblock 1 14",
+	x: 14.5d,
+	y: 3.5d,
+	description: "Time to get infinite Lithium and Salt!",
+	text: [
+		"The §6Thermal Evaporation Tower§f is a §2multiblock tower structure that is 4x4x3 in its minimum size.§f §8§o(those are the requirements for this quest)§f§r",
+		"",
+		"- §6This Tower§f will require an §9Fluid Input§f and will turn it into an §9Fluid Output§f.",
+		"",
+		"- By §2increasing its size§f, you'll §bincrease§f its §binternal buffers§f.",
+		"",
+		"- Also, keep your eyes on its §ctemperature§f, an §3Resistive Heater§f is strongly §3advised§f to §aincrease the temperature§f and subsequentially §aincrease the outputs§f. ",
+		"",
+		"And as it was said in the subtitle, §2this Multiblock will be essential§f if you want to turn §9Water§f into §5Infinite Lithium and Salt!§f §8§o(For specifially Lithium, you'll need 2 of them.)§f§r"
+	],
+	dependencies: [
+		"db3a3fd7"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "9098234b",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	},
+	{
+		uid: "381e0823",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2"
+		}],
+		count: 36L
+	},
+	{
+		uid: "1d10d7c9",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "efdbd737",
+		type: "item",
+		item: "mekanism:basicblock2",
+		count: 8,
+		random_bonus: 28
+	},
+	{
+		uid: "26672618",
+		type: "item",
+		item: "mekanism:basicblock 1 15",
+		random_bonus: 2
+	},
+	{
+		uid: "ce039516",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

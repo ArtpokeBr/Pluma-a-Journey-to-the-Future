@@ -1,0 +1,44 @@
+{
+	title: "Cutting with High Precision!",
+	x: 1.0d,
+	y: -14.5d,
+	description: "Lets make an MV Cutting Machine to cut those Wafers!",
+	text: [
+		"You've recently obtained §7Vanadiumsteel§f, well, now you can finally make an §6MV Cutting Machine§f.",
+		"",
+		"- You'll need it to §3cut down§f those and more types of §3Wafer's in the future§f.",
+		"",
+		"- Also, always remember that a better machine will consume §emore energy§f but it will make §ecraftings faster§f. §9Overclocking is Fun§f!"
+	],
+	dependencies: [
+		"6af8a25e",
+		"b8babd89"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "d0b4002e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 246"
+		}]
+	},
+	{
+		uid: "322569f7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 593"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8bea311b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 623",
+		count: 2
+	},
+	{
+		uid: "bd6035b2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

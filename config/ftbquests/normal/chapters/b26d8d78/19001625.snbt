@@ -1,0 +1,53 @@
+{
+	title: "The Wiki of the Wikis!",
+	x: 1.0d,
+	y: 0.0d,
+	description: "The Thaumonomicon!",
+	text: [
+		"By right clicking with a §dSalis Mundus§f in a Bookshelf, The §6Thaumonomicon§f!",
+		"",
+		"- This will be your §5Ultimate Guide to Thaumcraft§f!",
+		"",
+		"- Make sure to make some §aprogress§f on its §einternal \"quests\"§f.",
+		"",
+		"- You'll unlock §3researches§f and many §2items§f by progressing in it."
+	],
+	dependencies: [
+		"c6bbdbf1"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "3b608eb4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f745936",
+		type: "item",
+		item: {
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "thaumium"
+			}
+		}
+	},
+	{
+		uid: "2ce6b4ff",
+		type: "item",
+		item: {
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "thaumium"
+			}
+		}
+	},
+	{
+		uid: "aff5923d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

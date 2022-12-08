@@ -1,0 +1,34 @@
+{
+	title: "Better MV Circuits!",
+	x: 6.0d,
+	y: -14.5d,
+	description: "Finally, Cheaper MV Circuits!",
+	text: [
+		"Just as the better §6LV Ones§f, currently they might not look that §acheaper§f, but once you progress and improve your infrastructure... you'll see!",
+		"",
+		"- Most importatly, you'll need these for §6HV Circuits§f aswell."
+	],
+	dependencies: [
+		"2aeef3a9"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "5d1da714",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 624"
+		}]
+	}],
+	rewards: [{
+		uid: "ae21d089",
+		type: "item",
+		item: "gregtech:meta_item_1 1 624",
+		count: 2
+	},
+	{
+		uid: "7ff41c9e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

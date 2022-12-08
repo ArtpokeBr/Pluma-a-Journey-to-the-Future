@@ -1,0 +1,48 @@
+{
+	title: "Soaking Materials",
+	x: 9.5d,
+	y: -0.5d,
+	description: "By using a Soaking Pot!",
+	text: [
+		"The Soaking Pot is a device that allows you to place buckets of liquid inside of it and Soak materials with that.",
+		"",
+		"- Simply right click with the bucket to insert the fluid",
+		"",
+		"- Them place the desired materials to soak.",
+		"",
+		"- Yes, it can be automated."
+	],
+	dependencies: [
+		"a2bd8974"
+	],
+	tasks: [{
+		uid: "e119edf2",
+		type: "item",
+		items: [{
+			item: "pyrotech:soaking_pot"
+		}]
+	}],
+	rewards: [{
+		uid: "378bc9c9",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "pyrotech:bucket_stone",
+			tag: {
+				durability: 16,
+				fluids: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "8a6edd6e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

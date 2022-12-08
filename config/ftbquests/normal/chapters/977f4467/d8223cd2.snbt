@@ -1,0 +1,81 @@
+{
+	title: "A Sinister Phantom in a Sinister Forest",
+	icon: "twilightforest:trophy 1 4",
+	x: 3.75d,
+	y: 0.75d,
+	shape: "octagon",
+	description: "Time to kill a Phantom! §8§o(if that's even possible)§f§r",
+	text: [
+		"This Boss is buried in a §5Sinister Forest§f.",
+		"",
+		"- By §eiluminating your path§f trough this §5Sinister Forest§f, you'll find a §4bricked structure§f, the §6Phantom Mausoleum§f!",
+		"",
+		"- Try to find a §23x3 entrance hole§f, it will be locked, and §ato unlock it you'll need to place a Boss Trophy in the pedestal nearby§f.",
+		"",
+		"- §2Once you're in§f, you'll be welcomed by the §6Knights§f! they'll drop §eimportant fragments§f, try to §bcollect a lot of them§f, as they're need for §3Knightmetal§f!",
+		"",
+		"- §5Deep beneath the mausoleum§f, you'll find §aIron Bars locking an Obsidian Entrance to its grave§f, open it and §cbe ready to fight§f!",
+		"",
+		"- §bThe Tricky aspect of this fight§f is that you'll need to §3find the correct§f §6Phantom§f in a §3plethora of them§f that will spawn!"
+	],
+	dependencies: [
+		"35efbc24"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "2da0fe56",
+		type: "kill",
+		icon: "twilightforest:trophy 1 4",
+		entity: "twilightforest:knight_phantom",
+		value: 1L
+	},
+	{
+		uid: "e04e6ab6",
+		type: "item",
+		items: [{
+			item: "twilightforest:armor_shard"
+		}],
+		count: 9L
+	},
+	{
+		uid: "eaeab6bf",
+		type: "item",
+		items: [{
+			item: "twilightforest:armor_shard_cluster"
+		}]
+	},
+	{
+		uid: "a6da106b",
+		type: "item",
+		items: [{
+			item: "twilightforest:knightmetal_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "a9309726",
+		type: "item",
+		item: {
+			id: "cyclicmagic:tool_torch_launcher",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 70
+				},
+				{
+					lvl: 3s,
+					id: 34
+				}],
+				RepairCost: 3
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "47b69fad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

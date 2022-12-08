@@ -1,0 +1,43 @@
+{
+	title: "Starting to Activate Embers!",
+	x: 8.5d,
+	y: -1.0d,
+	description: "Time to Generate Ember \"Energy\"",
+	text: [
+		"Now that you have acess to §5Ember Crystals/Shards§f, you'll be able to §5activate them§f and §2start generating§f a §epowerfull dwarven energy§f!",
+		"",
+		"- By placing an §6Ember Activator§f, you'll be able to §astart generating your first bits of Ember§f!",
+		"",
+		"§8§o(You're going to need more stuff to start moving this energy around tho.)§f§r",
+		"",
+		"But for now, simply place an §6Ember Dial§f at the §dCopper Grate§f above to reveal the amount of §eEmber stored§f."
+	],
+	dependencies: [
+		"f4c729e4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ffa690ac",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	}],
+	rewards: [{
+		uid: "b6e3c74a",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 8
+	},
+	{
+		uid: "861025a7",
+		type: "item",
+		item: "embers:caminite_lever",
+		random_bonus: 3
+	},
+	{
+		uid: "ba638522",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

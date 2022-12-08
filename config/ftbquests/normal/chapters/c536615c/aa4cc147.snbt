@@ -1,0 +1,30 @@
+{
+	title: "{pluma.logupgs.title}",
+	icon: {
+		id: "minecraft:writable_book",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -0.5d,
+	y: -3.5d,
+	description: "{pluma.logupgs.subtitle}",
+	text: [
+		"{pluma.logupgs.desc1}",
+		"",
+		"{pluma.logupgs.desc2}"
+	],
+	dependencies: [
+		"34327740"
+	],
+	tasks: [{
+		uid: "1b638fe0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "38560421",
+		type: "item",
+		item: "actuallyadditions:item_food 1 19",
+		random_bonus: 3
+	}]
+}

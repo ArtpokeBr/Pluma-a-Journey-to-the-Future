@@ -1,0 +1,53 @@
+{
+	title: "A High Pressure Upgrade!",
+	icon: "gregtech:machine 1 18",
+	x: -6.0d,
+	y: 1.0d,
+	description: "Using Steel to upgrade your Steam Machines!",
+	text: [
+		"Now that you have acess to Steel, remember those Orange Machines that you have?",
+		"",
+		"- You can upgrade them to the High Pressure version!",
+		"",
+		"- They'll consume more Steam, but will reward you with Faster Recipes!",
+		"",
+		"~ Craft any of them to complete this quest."
+	],
+	dependencies: [
+		"a45b245e"
+	],
+	tasks: [{
+		uid: "44507d56",
+		type: "item",
+		title: "Any High Pressure Steam Machine",
+		items: [{
+			item: "gregtech:machine 1 18"
+		},
+		{
+			item: "gregtech:machine 1 10"
+		},
+		{
+			item: "gregtech:machine 1 8"
+		},
+		{
+			item: "gregtech:machine 1 12"
+		},
+		{
+			item: "gregtech:machine 1 14"
+		},
+		{
+			item: "gregtech:machine 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "13722d3b",
+		type: "item",
+		item: "gregtech:machine 1 4",
+		random_bonus: 2
+	},
+	{
+		uid: "b6b1039a",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

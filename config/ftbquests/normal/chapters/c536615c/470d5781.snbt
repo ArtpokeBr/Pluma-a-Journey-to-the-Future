@@ -1,0 +1,56 @@
+{
+	title: "Fluid Conduits!",
+	icon: "enderio:item_liquid_conduit",
+	x: 11.0d,
+	y: -9.5d,
+	description: "Maybe not the best ones, but it is something!",
+	text: [
+		"With an §6Alloy Smelter§f from §3Ender IO§f, you'll be able to make §bFused Quartz§f! a key component to make this §2Conduits§f.",
+		"",
+		"- §9Fluid transfer§f on this conduit is affected by §eViscosity and §dGravity§f, that's why they're not the best.",
+		"",
+		"- But they may be usefull in certain situations, §6Conduits are always usefull§f."
+	],
+	dependencies: [
+		"b6703e93"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "7934e21b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any fusedQuartz"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "fusedQuartz"
+				}
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "7d6f836b",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "599a78ca",
+		type: "item",
+		item: "enderio:item_liquid_conduit",
+		count: 9
+	},
+	{
+		uid: "f175aa4e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

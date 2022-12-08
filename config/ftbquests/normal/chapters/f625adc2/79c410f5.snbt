@@ -1,0 +1,34 @@
+{
+	title: "A Flowery Assembler",
+	x: -5.234693877551024d,
+	y: -0.9897959183673457d,
+	description: "The Petal Apothecary!",
+	text: [
+		"With this §3Special Device§f from §aBotania§f, you'll be able to start making §dMagical Flowers§f!",
+		"",
+		"- §2All Flowers Recipes§f have been §btweaked§f, wich means that the §6Petal Apothecary§f is used only for.... §3Petals§f!"
+	],
+	dependencies: [
+		"6e04acc8",
+		"3172c514"
+	],
+	tasks: [{
+		uid: "a0eb569f",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "c96a3d64",
+		type: "item",
+		item: "botania:flower",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "c34fb702",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,84 @@
+{
+	title: "Tools for Survival!",
+	x: 5.5d,
+	y: 0.5d,
+	description: "Time to start using some much better tools!",
+	text: [
+		"You'll finally obtain Cobblestone from Stone!",
+		"",
+		"- Flint Tools are very good beacuse they're cheap and they don't drop tiny fragments of broken blocks."
+	],
+	dependencies: [
+		"f9401412"
+	],
+	tasks: [{
+		uid: "3e818dc6",
+		type: "item",
+		items: [{
+			id: "pyrotech:flint_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f28cb706",
+		type: "item",
+		items: [{
+			id: "pyrotech:flint_pickaxe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c0d7b77",
+		type: "item",
+		items: [{
+			id: "pyrotech:flint_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b95c2478",
+		type: "item",
+		items: [{
+			id: "pyrotech:flint_shovel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5423ade",
+		type: "item",
+		item: {
+			id: "pyrotech:flint_hammer",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "276f1d9c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Automating Dwarven Alchemy!",
+	icon: "embers:block_dawnstone",
+	x: 13.5d,
+	y: 2.5d,
+	description: "Sounds Complicated, but at the end, it isn't.",
+	text: [
+		"For now §5you might feel like its not necessary§f §8§o(that's why this Quest is an \"Click Me\")§f§r but it will be §2essential§f eventually!",
+		"",
+		"- Some special materials such as §5Crystal Seeds§f will be required soon for §bProgression§f, this quest is to help you make some §2passive automations§f.",
+		"",
+		"- §aFirst of All§f, if you want to make it pretty, §ePhantom Faces§f are your best friends.",
+		"",
+		"- For the §aTablet Inputs§f, very easy, simply hook some §3item transfer on the sides and also on the bottom§f.",
+		"",
+		"- For the §aPedestals§f tho, one usefull §2tip§f is to use those §6Limited Item Filters§f from §3EnderIO§f, §bthey'll limit the amount§f of §5Ash§f inside for you.",
+		"",
+		"- And now, for the tricky part, the §aBeam Cannon§f...",
+		"",
+		"Once the §aCannon§f shoots, those §5Ashe's§f will start to be §5consumed§f, §b1 per second§f, wich means, §620 ticks per Ash§f... your starting to get it right?",
+		"",
+		"If §aThe Beam Cannon§f Fires during the craft, you'll be wasting your precious §eEmber§f! that's why, you should need a §ctimer to control§f when it is going shoot.",
+		"",
+		"§8§oSo the math is simple, if found out that your recipe needs 55 Ashe's for example, it will take 55 Seconds aprox. to finish the craft, wich translates to roughly 1100 Ticks.§r§f",
+		"",
+		"§2Always have some extra ticks for safety measures.§f §8§o(If the necessary is 1100, maybe set to 1200).§r§f",
+		"",
+		"§aOnce the Craft is done§f, the §2output item§f will just §2pop off§f, an §6Item Collector§f would do the trick.",
+		"",
+		"~ Also, it is possible to use §3Integrated Dynamics§f in order to §bcontrol§f specifially §beverything§f, it is a §c§lpowerfull§r§f mod and I strongly §2recommend it§f."
+	],
+	dependencies: [
+		"723d4b1b"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "48868b31",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "09e9002a",
+		type: "item",
+		item: "enderio:item_limited_item_filter",
+		count: 4
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Time to Refine Coralium!",
+	x: 7.0d,
+	y: -3.5d,
+	description: "Where the Abyssal Grind truly begins!",
+	text: [
+		"By §6mixing§f some §2Coralium Gem's§f with an §3Abyssal Stone§f and some §aEnder Alloy's§f, you'll get §2Coralium Chunks§f!",
+		"",
+		"- Use this concentration of §bCoralium§f in an §6LCR§f with some §ePhosphoric Acid§f and §3Entropy Dusts§f to get a §bRefined Coralium§f!",
+		"",
+		"§8LCR = Large Chemical Reactor§f"
+	],
+	dependencies: [
+		"60334098"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "0b20c93a",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:cchunk"
+		}]
+	},
+	{
+		uid: "c4e5deb4",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:cingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d2a24abc",
+		type: "item",
+		item: "abyssalcraft:ingotblock 1 1",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "9863ad77",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

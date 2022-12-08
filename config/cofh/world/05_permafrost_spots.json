@@ -1,0 +1,38 @@
+{
+	"dependencies": "fossil",
+	"populate": {
+		"fossil_permafrost": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+				{	
+					"name": "biomesoplenty:hard_ice",
+					"weight": 60
+				},
+				{	
+					"name": "minecraft:packed_ice",
+					"weight": 39
+				},
+				{
+					"name": "fossil:permafrost",
+					"weight": 1
+				}
+				],
+				"material": "gregtech:stone_smooth",
+				"metadata": 3,
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"min-height": 200,
+			"max-height": 255,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [ 
+					10
+				]
+			}
+		}
+	}
+}

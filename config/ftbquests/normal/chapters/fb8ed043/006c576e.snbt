@@ -1,0 +1,38 @@
+{
+	title: "Your first Alloy, Bronze!",
+	x: 10.5d,
+	y: -1.5d,
+	description: "3x Copper Dust and 1x Tin Dust = 3 Bronze Dust",
+	text: [
+		"As you'll notice, Bronze is a Key Material for the Early Game.",
+		"",
+		"- You'll be using it to make Tools, Machines, Pipes and a lot of other components!"
+	],
+	dependencies: [
+		"c37850c9"
+	],
+	tasks: [{
+		uid: "a2a19904",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotBronze"
+				}
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "ff10245e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,12 @@
+{
+  "canShared": true,
+  "location": "mbd:coil",
+  "traits": {},
+  "allowRotate": false,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:coil",
+    "type": "imodel"
+  },
+  "isOpaqueCube": true
+}

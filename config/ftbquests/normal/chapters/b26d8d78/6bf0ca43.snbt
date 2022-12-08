@@ -1,0 +1,39 @@
+{
+	title: "I HATE RESEARCH!",
+	icon: "thaumcraft:thaumonomicon 1 1",
+	x: 1.0d,
+	y: -2.25d,
+	description: "I Know it can be frustrating sometimes...",
+	text: [
+		"I know, this could be your §b10th time§f playing with §5Thaumcraft§f and you simply don't want to progress trough §eResearch all over again§f...",
+		"",
+		"- So §2lets make a trade ok§f? I'll give you §aALL RESEARCH§f, but you'll get §5huge amounts of Warp in exchange§f... Fair Right?",
+		"",
+		"- Later on §eyou'll have ways to remove this§f §5Warp§f, but until there, you'll §csuffer the consequences for your greediness§f!"
+	],
+	dependencies: [
+		"d0e8b3dd"
+	],
+	size: 0.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "9dde8593",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ab8d0f62",
+		type: "command",
+		title: "Unlock all Thaumcraft Research!",
+		team_reward: false,
+		auto: "no_toast",
+		command: "/thaumcraft research @p all"
+	},
+	{
+		uid: "75fb3418",
+		type: "command",
+		title: "But with a Warpy Cost...",
+		team_reward: false,
+		auto: "no_toast",
+		command: "/thaumcraft warp @p set 80 PERM"
+	}]
+}

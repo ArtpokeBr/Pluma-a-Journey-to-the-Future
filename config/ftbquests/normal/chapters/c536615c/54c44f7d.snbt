@@ -1,0 +1,28 @@
+{
+	title: "Let's Get Logistical!",
+	x: 5.0d,
+	y: -7.0d,
+	description: "Now that you have Iron Alloy, time for some Logistic Pipes!",
+	text: [
+		"That's Right, you've just unlocked it, lets start with the basics them.",
+		"",
+		"- This Frame will be used to craft LP's Blocks."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bc53739",
+		"c498572f"
+	],
+	tasks: [{
+		uid: "0bf1ccee",
+		type: "item",
+		items: [{
+			item: "logisticspipes:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "01f49ea5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

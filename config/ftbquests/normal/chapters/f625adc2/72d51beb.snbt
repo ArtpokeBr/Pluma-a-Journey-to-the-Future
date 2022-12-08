@@ -1,0 +1,83 @@
+{
+	title: "Purifying this World!",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "puredaisy"
+		}
+	},
+	x: -3.0d,
+	y: -1.0d,
+	description: "Lets automate an Pure Daisy!",
+	text: [
+		"The subtitle says it all, it is §2essential to automate§f this flower.",
+		"",
+		"- If you don't know what it does, it is simple, all §a8 blocks§f surrounding will be §aconverted§f into §banother one§f.",
+		"",
+		"§8§o~ If you placed one that has valid recipe of course...§r§f",
+		"",
+		"Well, but speaking of §2automation§f, if you're §aexperienced§f enough you're already thought of something right?",
+		"",
+		"if you didn't, simply try to use §3block placers and breakers§f! §bIntegrated Dynamics§f can be used to §5check§f if the block have been §9transformed§f.",
+		"",
+		"If you don't want to use §bIntegraded Dynamics§f yet, §aCyclic§f offers an §3Block Miner§f that can be §2filtered§f.",
+		"",
+		"§dWant something§f that don't needs much §econfiguration§f? Maybe you could also use §cTimed Redstone Circuits§f aswell."
+	],
+	dependencies: [
+		"79c410f5"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "5a48ba5d",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	},
+	{
+		uid: "3a7b09ab",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7c88a2cd",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "959877d5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:livingmatter"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "26122d20",
+		type: "item",
+		item: "integrateddynamics:variable_transformer 1 1",
+		count: 16
+	},
+	{
+		uid: "02a61033",
+		type: "item",
+		item: "integrateddynamics:variable_transformer",
+		count: 16
+	},
+	{
+		uid: "a16cb744",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

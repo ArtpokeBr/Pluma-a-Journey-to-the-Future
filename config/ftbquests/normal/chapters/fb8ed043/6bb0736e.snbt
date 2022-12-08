@@ -1,0 +1,36 @@
+{
+	title: "Gold is a little bit different...",
+	icon: "gregtech:ore_gold_0",
+	x: 7.5d,
+	y: -2.5d,
+	description: "You can find it.. but not in the Overworld.",
+	text: [
+		"~ Ok, allow me to explain it better:",
+		"",
+		"- §eGold Ore's§f §c§ldon't spawn§r§f in the §2Overworld§f, so you'll need to improvise for now.",
+		"",
+		"- Inside of §3Magnetite Veins§f you'll be able to find a §5special ore§f called §6Precious Metal§f.",
+		"",
+		"- By §bsmelting§f §6Precious Metal Ingots§f, you'll be able to get some §eGold Nuggets§f...",
+		"not good, §2but it works§f for now!",
+		"",
+		"§8§o~ In the LV Stage you'll be able to make a processing line to get a lot of gold! but until there, consider it as a rare material.§r§f"
+	],
+	dependencies: [
+		"c37850c9"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "a9c5f942",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_precious_metal_0"
+		}]
+	}],
+	rewards: [{
+		uid: "6c4947ff",
+		type: "item",
+		item: "gregtech:ore_gold_0",
+		count: 8
+	}]
+}

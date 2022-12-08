@@ -1,0 +1,36 @@
+{
+	title: "A Stone Kiln",
+	x: 7.5d,
+	y: -0.5d,
+	description: "Finally some decent Smelting!",
+	text: [
+		"With your Brand new Masonry Bricks... time to make a Stone Kiln!",
+		"",
+		"- Right click on the upper spot to insert what you want to Smelt",
+		"",
+		"- Right click with a fuel source on the spot bellow to start the machine.",
+		"",
+		"- Remember to light it up after all items are placed ;p"
+	],
+	dependencies: [
+		"26b207db"
+	],
+	tasks: [{
+		uid: "18f20cc1",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_kiln"
+		}]
+	}],
+	rewards: [{
+		uid: "b223efbc",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 11",
+		count: 8
+	},
+	{
+		uid: "037fe8f2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

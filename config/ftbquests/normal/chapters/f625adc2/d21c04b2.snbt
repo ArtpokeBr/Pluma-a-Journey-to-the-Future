@@ -1,0 +1,82 @@
+{
+	title: "Mana Materials!",
+	x: -3.0d,
+	y: -5.0d,
+	description: "Time to use Mana for something!",
+	text: [
+		"§2Each Material§f listed here will be §eusefull for something troughout the Pack§f, currently you might not need to §apassive them§f, but consider that §afor a future§f.",
+		"",
+		"▬ §bMana Powder§f can be obtained trough §dEvil Craft's Dull Dust§f, and later easily with §dAbyssalcraft's Dusts§f.",
+		"",
+		"▬ §bManasteel§f requires §9Blue Steel§f, it is probally an good idea to start making some of it.",
+		"",
+		"▬ §bMana Infused String§f requires an Intereting combination of §3Random Thing's§f and §3Actually Additions§f §2materials§f.",
+		"",
+		"▬ §bMana Diamonds§f are kinda tricky, as you'll need §5Hyper Diamonds§f! they're made with a §cBig Boom§f!",
+		"",
+		"▬ §bMana Pearls§f are very similar to §bMana Diamonds§f, as you'll also require a §cBig Boom§f!",
+		"",
+		"§8§o~ Botania is a Tech Mod, keep this in your head trough its progression and you'll notice just that.§r§f"
+	],
+	dependencies: [
+		"ed7abf38",
+		"6f1695c1"
+	],
+	size: 1.5d,
+	min_width: 350,
+	tasks: [{
+		uid: "614ecde9",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 23"
+		}]
+	},
+	{
+		uid: "3ab5b790",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32034"
+		}]
+	},
+	{
+		uid: "a13c5b5a",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 16"
+		}]
+	},
+	{
+		uid: "234d464c",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	},
+	{
+		uid: "504b8c8e",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6e361cbd",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "nacre",
+					Amount: 1000
+				}
+			}
+		},
+		random_bonus: 7
+	},
+	{
+		uid: "eba6f3f1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

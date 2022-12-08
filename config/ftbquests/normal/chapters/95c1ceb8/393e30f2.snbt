@@ -1,0 +1,51 @@
+{
+	title: "Lets automate PVC §6Final Part§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "polyvinyl_chloride",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 13.5d,
+	y: -10.5d,
+	description: "In Chemistry, if you see \"Poly\" being used, it means that it is a Polymer.",
+	text: [
+		"Just like §2Polyethylene§f, lets §6Chemically§f mix §3Vynyl Chloride§f with §bAir/Oxygen§f!",
+		"",
+		"- By doing that, you'll obtain a §avery special polymer§f, §6PVC§f!",
+		"",
+		"- Also, it is worth paying §cattention§f to §6JEI§f, since §6PVC§f can be used for example to make §eSMD's§f and some other §ainteresting recipes§f.",
+		"",
+		"§8§o(PVC = Polyvinyl Chloride)§r§f"
+	],
+	dependencies: [
+		"d0540843"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6c37f3b7",
+		type: "fluid",
+		fluid: "polyvinyl_chloride"
+	}],
+	rewards: [{
+		uid: "4854efd3",
+		type: "item",
+		item: "gregtech:meta_plate 1 1007",
+		count: 4
+	},
+	{
+		uid: "395439a3",
+		type: "item",
+		item: "gregtech:meta_foil 1 1007",
+		count: 8
+	},
+	{
+		uid: "8d890aed",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

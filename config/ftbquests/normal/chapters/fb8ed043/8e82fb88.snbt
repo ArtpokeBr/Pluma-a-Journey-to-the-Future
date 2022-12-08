@@ -1,0 +1,72 @@
+{
+	title: "Your First Smeltery",
+	icon: "tcomplement:porcelain_melter",
+	x: 11.5d,
+	y: 1.5d,
+	description: "Time to Start Smelting Baby!",
+	text: [
+		"This Smeltery is very simple, but it will help you with some resource crafting.",
+		"",
+		"- You can use a Heater with Burnables as a Fuel Source,",
+		"",
+		"Or you can use a Tank with Lava, choose what fits you best.",
+		"",
+		"- Simply place the heat source bellow the melter, and use faucets to extract the fluids from the Melter."
+	],
+	dependencies: [
+		"c426da7b",
+		"c6214f56"
+	],
+	tasks: [{
+		uid: "426e8f03",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_melter"
+		}]
+	},
+	{
+		uid: "f7c7a72d",
+		type: "item",
+		title: "Choose your Fuel Source",
+		items: [{
+			item: "tcomplement:porcelain_melter 1 8"
+		},
+		{
+			item: "tcomplement:porcelain_tank"
+		}]
+	},
+	{
+		uid: "f0201d38",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_casting"
+		}]
+	},
+	{
+		uid: "9fdeeb52",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_casting 1 1"
+		}]
+	},
+	{
+		uid: "9755e3ec",
+		type: "item",
+		items: [{
+			item: "ceramics:faucet"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d20a97bd",
+		type: "item",
+		title: "Did you know you can make a Clay Armor?",
+		item: "ceramics:unfired_clay 1 9",
+		count: 24
+	},
+	{
+		uid: "4622b92f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

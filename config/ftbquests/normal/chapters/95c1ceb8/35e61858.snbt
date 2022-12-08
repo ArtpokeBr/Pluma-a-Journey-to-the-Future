@@ -1,0 +1,120 @@
+{
+	title: "An Explosive Multiblock!",
+	icon: "gregtech:machine 1 1003",
+	x: 12.5d,
+	y: -4.0d,
+	description: "The Implosion Compressor!",
+	text: [
+		"Capable of §cControlling Explosions§f at your favor, this §6Multiblock§f will be very §2usefull§f for some §2recipes§f.",
+		"",
+		"- You can use it to make some §bGems§f quickly for example.",
+		"",
+		"- Also, keep in mind that you might need to §2invest§f in a good §cTNT production§f to use this §6Multiblock§f. "
+	],
+	dependencies: [
+		"eefae462"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8964e83c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1003"
+		}]
+	},
+	{
+		uid: "565eb0f6",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 20L
+	},
+	{
+		uid: "75fe18d5",
+		type: "item",
+		title: "An Normal or Configurable Maintenance Hatch",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		},
+		{
+			item: "gregtech:machine 1 1655"
+		}]
+	},
+	{
+		uid: "1fb97ce8",
+		type: "item",
+		title: "An LV up to HV Muffler Hatch",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		},
+		{
+			item: "gregtech:machine 1 1658"
+		},
+		{
+			item: "gregtech:machine 1 1659"
+		}]
+	},
+	{
+		uid: "01a23e72",
+		type: "item",
+		title: "An ULV up to HV Input Bus",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		},
+		{
+			item: "gregtech:machine 1 1151"
+		},
+		{
+			item: "gregtech:machine 1 1152"
+		},
+		{
+			item: "gregtech:machine 1 1153"
+		}]
+	},
+	{
+		uid: "c09ed31c",
+		type: "item",
+		title: "An ULV up to HV Output Bus",
+		items: [{
+			item: "gregtech:machine 1 1165"
+		},
+		{
+			item: "gregtech:machine 1 1166"
+		},
+		{
+			item: "gregtech:machine 1 1167"
+		},
+		{
+			item: "gregtech:machine 1 1168"
+		}]
+	},
+	{
+		uid: "d98c1176",
+		type: "item",
+		title: "An ULV up to HV Energy Hatch",
+		items: [{
+			item: "gregtech:machine 1 1210"
+		},
+		{
+			item: "gregtech:machine 1 1211"
+		},
+		{
+			item: "gregtech:machine 1 1212"
+		},
+		{
+			item: "gregtech:machine 1 1213"
+		}]
+	}],
+	rewards: [{
+		uid: "748193b6",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 16
+	},
+	{
+		uid: "f5782772",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

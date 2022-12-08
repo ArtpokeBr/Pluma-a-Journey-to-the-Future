@@ -1,0 +1,75 @@
+{
+	title: "Great Runic Tools!",
+	x: 15.5d,
+	y: -1.0d,
+	description: "The High End Tools of Roots!",
+	text: [
+		"Slower, but resistent and it retains the ability of durability regeneration",
+		"",
+		"- All Runic Tools have a specific hability assigned to them",
+		"",
+		"- Runed Dagger: Acting Both as a normal Knife and a potent weapon, this dagger applies a Bleeding effect that can stack 3 times.",
+		"",
+		"- Runed Excavator: 3x3 Shovel with a Diamond Mining Level.",
+		"",
+		"- Runed Great-Axe: 3x3 Axe with a Diamond Mining Level.",
+		"",
+		"- Runed Longsword: This Sword deals a Significant amount of damage, more than a Diamond sword.",
+		"",
+		"- Runed Plough: 3x3 Hoe that it also Moisturizes the farmland.",
+		"",
+		"- Runed Smasher: 3x3 Pickaxe with a Diamond Mining Level."
+	],
+	dependencies: [
+		"999c8ee9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0ae44980",
+		type: "item",
+		title: "Any Runic Tool",
+		items: [{
+			id: "roots:runed_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:runed_pickaxe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:runed_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:runed_shovel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:runed_hoe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:runed_dagger",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "427b9ab2",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

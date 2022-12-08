@@ -1,0 +1,66 @@
+{
+	title: "An Orb Empowered by Thunder!",
+	icon: "evilcraft:inverted_potentia 1 1",
+	x: 7.0d,
+	y: 1.5d,
+	description: "Potentially Dangerous!",
+	text: [
+		"A Simple §33 Step Process§f.",
+		"",
+		"- §aFirst§f, make a §3Potentia Sphere§f.",
+		"",
+		"- §aSecond§f, Imbue it with §5Darkness§f.",
+		"",
+		"- §aThird§f, use an §6Environmental Accumulator§f to Imbue it with the §eThunder Gods§f!",
+		"",
+		"- §aDislike§f waiting for the correct §eWeather§f to get this §2item§f? consider making §eWeather Container's§f!",
+		"",
+		"They'll §e§nstore a specific Weather§r§f, §2you can dupe them§f and the §eThunderstruck§f one §dspecifically allows§f you to §acraft a Lightning Grenade§f!",
+		"",
+		"§8§o~ Environmental Accumulator's can be found inside of Dark Temples in the Overworld, look out for \"Beacon\" beam's.§r§f"
+	],
+	dependencies: [
+		"b9e37750"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "715249fa",
+		type: "item",
+		items: [{
+			item: "evilcraft:potentia_sphere"
+		}]
+	},
+	{
+		uid: "8a3bf56e",
+		type: "item",
+		items: [{
+			item: "evilcraft:inverted_potentia"
+		}]
+	},
+	{
+		uid: "7182492f",
+		type: "item",
+		items: [{
+			item: "evilcraft:inverted_potentia 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "377319d1",
+		type: "item",
+		item: {
+			id: "cyclicmagic:glowing_helmet",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "41a23cc9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

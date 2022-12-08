@@ -1,0 +1,48 @@
+{
+	title: "A Metal from Nature!",
+	x: 13.5d,
+	y: 0.0d,
+	description: "Terrastone!",
+	text: [
+		"With some Bronze and Runic Dust inside a High Oven with some other components, you can make Terrastone!",
+		"",
+		"- This Metal will e used in some Important Crafts soon! Stockpile some.",
+		"",
+		"- Oh and please note that you'll need a solidifier, as this metal can't solidify itself in Tinker's Tables.",
+		"",
+		"~ There's an Quest for the High Oven in the Chapter 2."
+	],
+	dependencies: [
+		"2ab08f70"
+	],
+	tasks: [{
+		uid: "ac813e5a",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotTerrastone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotTerrastone"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "9e89d515",
+		type: "item",
+		item: "harvestcraft:pumpkinoatsconesitem",
+		count: 4
+	},
+	{
+		uid: "b423d378",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

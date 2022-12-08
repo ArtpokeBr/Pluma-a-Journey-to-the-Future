@@ -1,0 +1,37 @@
+{
+	title: "Lets Automate Platinum §6Part II§f",
+	x: 1.0d,
+	y: -10.5d,
+	description: "A Sludgy Platinum Dust",
+	text: [
+		"§2Before you start§f actually obtaining §bPlatinum§f, you'll need a §3Sludgy Dust§f that will be turned into it.",
+		"",
+		"- Look at §3JEI§f for some §3Info§f about all of the §dDusts that can be turned§f.",
+		"",
+		"- §aOnce you've decided§f, simply mix it with §eNitric Acid§f and you'll obtain it!"
+	],
+	dependencies: [
+		"026617cf"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2e103f8e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 364"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4cbf18dd",
+		type: "item",
+		item: "gregtech:meta_crushed_purified 1 265",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "cb44b774",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "Tier 2 Reagents",
+	x: 16.5d,
+	y: -2.0d,
+	description: "Its getting a little bit more complicated!",
+	text: [
+		"§3Blood Magic§f has many special §6Reagents§f, and subsequentially, the main ones will be §bdocumented§f in the §2following quests§f.",
+		"",
+		"- Lets start with the §aTier 2§f ones!",
+		"",
+		"- You should be able to make them now if you just unlocked this quest.",
+		" if you can't, §5don't forget to come back later§f!",
+		"",
+		"§e▬ §nHaste Reagent§r§f: §2Cream Cookie§f, §6Potion of Haste§f, A §eGlowstone§f and a Block of Sugar.",
+		"",
+		"§d▬ §nWizard's Reagent§r§f: §dAmethyst§f, §eYellow Garnet§f, §9Opal§f, and an §6Amber§f.",
+		"",
+		"§b▬ §nFrost Reagent§r§f: §bPacked Ice§f, Snow Block, §3Vivid Alloy§f and a §bCryotheum Dust§f.",
+		"",
+		"§e▬ §nGrowth Reagent§r§f: A Bone Block, §6Maple Sappling§f, §3Eucalyptus Sappling§f and a §cMelon§f."
+	],
+	dependencies: [
+		"2d226c82"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "691da316",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 13"
+		}]
+	},
+	{
+		uid: "d21710b5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wizards_reagent"
+		}]
+	},
+	{
+		uid: "70aac006",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 32"
+		}]
+	},
+	{
+		uid: "4a422ab6",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "39e4fa35",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

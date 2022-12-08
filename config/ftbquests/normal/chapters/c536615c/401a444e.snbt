@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: -3.5d,
+	description: "{pluma.logchass4.subtitle}",
+	text: [
+		"{pluma.logchass4.desc}"
+	],
+	dependencies: [
+		"121ad729"
+	],
+	tasks: [{
+		uid: "a4b5f6d0",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_chassis_mk4"
+		}]
+	}],
+	rewards: [{
+		uid: "808b29d0",
+		type: "item",
+		item: "logisticspipes:pipe_chassis_mk4",
+		count: 2
+	},
+	{
+		uid: "9dbb5706",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

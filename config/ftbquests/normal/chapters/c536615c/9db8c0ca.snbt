@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	description: "{pluma.logmodupg.subtitle}",
+	text: [
+		"{pluma.logmodupg.desc1}",
+		"",
+		"{pluma.logmodupg.desc2}"
+	],
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "3ce0d92b",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_module_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "001cf2a3",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

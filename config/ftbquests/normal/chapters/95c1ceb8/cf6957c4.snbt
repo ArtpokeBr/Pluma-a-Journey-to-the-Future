@@ -1,0 +1,27 @@
+{
+	title: "Wireless Redstone Flux!",
+	x: 10.5d,
+	y: 1.5d,
+	description: "This is the start of something good!",
+	text: [
+		"§6RandomThings§f is a neat mod with some very usefull §2gadgets/items/blocks§f, and this is one of them.",
+		"",
+		"- You can store §eRF§f Inside of it.",
+		"",
+		"- And them, you can use §3Spectre Coils§f to transport that into any other spot that needs §eRF§f, §dAnywhere in the world§f!"
+	],
+	dependencies: [
+		"eefae462",
+		"cdeb10da",
+		"517edfb2",
+		"7b7080b7"
+	],
+	min_width: 310,
+	tasks: [{
+		uid: "f1d8f590",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreenergyinjector"
+		}]
+	}]
+}

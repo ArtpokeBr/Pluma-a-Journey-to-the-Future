@@ -1,0 +1,53 @@
+{
+	title: "Processing Air from the Atmosphere!",
+	icon: "gregtech:machine 1 186",
+	x: -0.5d,
+	y: -11.0d,
+	description: "By using an Air Collector and a Centrifuge!",
+	text: [
+		"Now that you have access to MV Machine Hulls, lets make an Air Collector and a Centrifuge!",
+		"",
+		"- It will collect Air for you, wich can be used in some chemical processes and even splitted into its subcomponents.",
+		"",
+		"- Most importantly, you can centrifuge Air to obtain Nitrogen, which is a very good Gas to accelerate some EBF Recipes."
+	],
+	dependencies: [
+		"36e5c070"
+	],
+	tasks: [{
+		uid: "79b4ff8c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 531"
+		}]
+	},
+	{
+		uid: "28be5c73",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 186"
+		}]
+	},
+	{
+		uid: "c6ce9d7f",
+		type: "fluid",
+		fluid: "nitrogen",
+		amount: 3000
+	},
+	{
+		uid: "b24f13eb",
+		type: "fluid",
+		fluid: "oxygen"
+	}],
+	rewards: [{
+		uid: "a2cf2c1f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 622",
+		count: 4
+	},
+	{
+		uid: "6b7bc86a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Masonry Bricks!",
+	x: 6.5d,
+	y: -0.5d,
+	description: "Time to make this stone material!",
+	text: [
+		"Use your Chisel to make stone bricks, them simply convert them into slabs.",
+		"",
+		"- After having stonebrick slabs, smash them with a pickaxe to obtain Masonry Bricks!",
+		"",
+		"- Masonry Bricks are essential for Pyrotech's Progression."
+	],
+	dependencies: [
+		"f9401412"
+	],
+	tasks: [{
+		uid: "7bfa7786",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 16"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "473a1d52",
+		type: "item",
+		item: "pyrotech:masonry_brick_block",
+		count: 4
+	},
+	{
+		uid: "aee45f85",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

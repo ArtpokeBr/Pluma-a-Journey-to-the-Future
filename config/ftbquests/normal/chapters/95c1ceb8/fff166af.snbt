@@ -1,0 +1,127 @@
+{
+	title: "A Huge Distilling Upgrade!",
+	icon: "gregtech:machine 1 1005",
+	x: 12.5d,
+	y: -6.0d,
+	description: "The Distillation Tower!",
+	text: [
+		"§bTime for an Upgrade§f!",
+		"",
+		"Almost like a normal §6Distillery§f, but this §3Multiblock§f could be even better!",
+		"",
+		"- The Main thing is, §2more results§f! the §6Distillery§f allows you to only §6distill§f §e1 to 1§f, this one can §6distill§f it to all of its §dsubcomponents§f!",
+		"",
+		"- And it is §3Modular§f! meaning, §beach extra layer§f that you've add, it will also add an §bextra possible output§f, check the recipes in §2JEI§f!",
+		"",
+		"§8§o~ And just as usual, remember that you can always overclock recipes by providing this machine with more EU that it is required.§r§f",
+		"",
+		"§8§o~ This Multiblock will be very usefull to get those extra outputs that you wouldn't get normally.§r§f"
+	],
+	dependencies: [
+		"eefae462"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "be5118ef",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1005"
+		}]
+	},
+	{
+		uid: "ded94599",
+		type: "item",
+		title: "An ULV to HV Fluid Output Hatch",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		},
+		{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		},
+		{
+			item: "gregtech:machine 1 1198"
+		}],
+		count: 2L
+	},
+	{
+		uid: "bc3a08e7",
+		type: "item",
+		title: "An LV to HV Fluid Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		},
+		{
+			item: "gregtech:machine 1 1181"
+		},
+		{
+			item: "gregtech:machine 1 1182"
+		},
+		{
+			item: "gregtech:machine 1 1183"
+		}]
+	},
+	{
+		uid: "9e1fb1ee",
+		type: "item",
+		title: "A Maintenance Hatch",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		},
+		{
+			item: "gregtech:machine 1 1655"
+		},
+		{
+			item: "gregtech:machine 1 1656"
+		}]
+	},
+	{
+		uid: "b8615e46",
+		type: "item",
+		title: "An MV up to EV Energy Hatch",
+		items: [{
+			item: "gregtech:machine 1 1212"
+		},
+		{
+			item: "gregtech:machine 1 1213"
+		},
+		{
+			item: "gregtech:machine 1 1214"
+		}]
+	},
+	{
+		uid: "ca7e3e74",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 5"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "a1181139",
+		type: "item",
+		item: {
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Fluid: {
+					FluidName: "fish_oil",
+					Amount: 80000
+				},
+				Level: 1b,
+				Lock: 0b
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "f175d1f6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

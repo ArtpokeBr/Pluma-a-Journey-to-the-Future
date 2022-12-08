@@ -1,0 +1,67 @@
+{
+	title: "Tools for Crafting!",
+	x: 5.5d,
+	y: -1.5d,
+	description: "Time to make a Flint Mortar and a Flint Knife!",
+	text: [
+		"That's Correct! some recipes may require you to macerate a dust, or to cut a piece of wood.",
+		"",
+		"And thats right where this tools become handy!",
+		"",
+		"~ It is interesting cause the Flint Knife comes with Built in Fire Aspect! may be useful!"
+	],
+	dependencies: [
+		"f9401412"
+	],
+	tasks: [{
+		uid: "7ffc91aa",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 15s,
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}],
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "19203811",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 12s,
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8bbb64d0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

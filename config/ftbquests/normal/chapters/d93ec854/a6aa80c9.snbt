@@ -1,0 +1,52 @@
+{
+	title: "This Chapter is all about The Old and The Archaic!",
+	icon: "embers:ashen_stone",
+	x: -2.5d,
+	y: -1.5d,
+	description: "The Beneath is a Cave full of Mysteries!",
+	text: [
+		"You were told that §2The Beneath§f is not an easy dimension to stay in, but let me briefly explain what this §2Chapter§f is exacly about.",
+		"",
+		"► §6Fossil and Archeology§f is the first mod to be used.",
+		"",
+		"▪ it will provide §3Archeological Research§f Methods.",
+		"",
+		"▪ It will also provide you a way to §3Extract Resources§f from §3Passive Animals§f without actually needing to kill them.",
+		"",
+		"▪ Oh, don't forget that you can build yourself a whole §3Jurassic Park§f if you wish to do so with it.",
+		"",
+		"► After Progressing trough the First, the Second one is §6§k[REDACTED]§r§f."
+	],
+	dependencies: [
+		"cb1a8947"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "cdd47b6d",
+		type: "dimension",
+		dim: 10
+	}],
+	rewards: [{
+		uid: "b54b91c0",
+		type: "item",
+		item: {
+			id: "quark:archaeologist_hat",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 0s
+				}],
+				RepairCost: 1
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "9d940fe1",
+		type: "item",
+		item: "harvestcraft:homestylelunchitem"
+	}]
+}

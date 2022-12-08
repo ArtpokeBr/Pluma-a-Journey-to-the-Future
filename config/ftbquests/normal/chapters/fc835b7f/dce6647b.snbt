@@ -1,0 +1,36 @@
+{
+	title: "The Start of something Big!",
+	x: -0.5d,
+	y: 0.0d,
+	description: "A ME Controller!",
+	text: [
+		"§aThe Brain of your ME Network§f.",
+		"",
+		"- Each side will allow you to connect §b32 Devices§f §8(32 Channels per side).§f",
+		"",
+		"- Also, you can §einput energy§f directly to it.",
+		"",
+		"§8§o~ Oh, as a gift, use the tool provided on it to get information about what's connected to the network and its power consumption.§r§f"
+	],
+	dependencies: [
+		"696bfdae"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ce4d3bdb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "ef3ff7b9",
+		type: "item",
+		item: "appliedenergistics2:network_tool"
+	},
+	{
+		uid: "5a85d642",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

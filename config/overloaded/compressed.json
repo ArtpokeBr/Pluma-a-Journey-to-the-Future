@@ -1,0 +1,101 @@
+[
+  {
+    "baseRegistryName": "minecraft:cobblestone",
+    "compressedPathRegistryName": "compressed_cobblestone",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/cobblestone.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:sand",
+    "compressedPathRegistryName": "compressed_sand",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/sand.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:stone",
+    "compressedPathRegistryName": "compressed_stone",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/stone.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:obsidian",
+    "compressedPathRegistryName": "compressed_obsidian",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/obsidian.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:netherrack",
+    "compressedPathRegistryName": "compressed_netherrack",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/netherrack.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:dirt",
+    "compressedPathRegistryName": "compressed_dirt",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/dirt.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:gravel",
+    "compressedPathRegistryName": "compressed_gravel",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/gravel.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "chisel:basalt2",
+    "compressedPathRegistryName": "compressed_basalt",
+    "meta": 7,
+    "texturePath": "chisel:textures/blocks/basalt/extra/raw.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:clay",
+    "compressedPathRegistryName": "compressed_clay",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/clay.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:sandstone",
+    "compressedPathRegistryName": "compressed_sandstone",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/sandstone_top.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "minecraft:end_stone",
+    "compressedPathRegistryName": "compressed_endstone",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/end_stone.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
+  }
+]

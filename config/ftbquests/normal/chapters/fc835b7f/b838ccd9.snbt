@@ -1,0 +1,46 @@
+{
+	title: "Manual Storage",
+	x: -1.0d,
+	y: -1.5d,
+	description: "Using a Storage Bus",
+	text: [
+		"With a §6Storage bus§f you can make your §dNetwork§f §2read a chest or any inventory§f.",
+		"",
+		"- Its §bGUI§f allow you to §amake partitions§f.",
+		"",
+		"- You can also §bconfigure its behavior§f, it could be in §9\"read only\"§f  or §a\"extract only\"§f for example."
+	],
+	dependencies: [
+		"dce6647b"
+	],
+	tasks: [{
+		uid: "498cf90f",
+		type: "item",
+		title: "Any Storage Bus",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		},
+		{
+			item: "appliedenergistics2:part 1 221"
+		},
+		{
+			item: "appliedenergistics2:part 1 222"
+		},
+		{
+			item: "thaumicenergistics:essentia_storage"
+		},
+		{
+			item: "aeadditions:part.base 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "aa4cf589",
+		type: "item",
+		item: "logisticsbridge:lb.bridge"
+	},
+	{
+		uid: "99ca6a02",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

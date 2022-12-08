@@ -1,0 +1,50 @@
+{
+	title: "Lets make an Ender Plastic §6Final Part§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "polyenderlyne",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 8.5d,
+	y: -1.5d,
+	description: "Finally, Polyenderlyne!",
+	text: [
+		"And as a result of many §6Chemical Operations§f, §dPolyenderlyne§f!",
+		"",
+		"- Remember when I've advised you to §aautomate§f §5Enderlyne§f? well... it was beacuse of this §d\"End Plastic\"§f!",
+		"",
+		"- This could be an §2Interesting Task§f, but automating this whole process could reward you with §3easy acess§f for some specific §3Mods§f."
+	],
+	dependencies: [
+		"ef027ea4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "736a7227",
+		type: "fluid",
+		fluid: "polyenderlyne"
+	},
+	{
+		uid: "cf94c2f8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 32054"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "4b0bdfc2",
+		type: "item",
+		item: "gregtech:machine 1 338"
+	},
+	{
+		uid: "d861f86e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Forcing Mutations",
+	x: 8.5d,
+	y: -6.5d,
+	shape: "rsquare",
+	description: "Nobody Likes RNG right?",
+	text: [
+		"You've probally already experienced a Random Mutation ocurring during your Bee Mating, but with a Mutatron, Thats not a Thing Anymore!",
+		"",
+		"- Both Mutatrons require Mutagen to Work",
+		"",
+		"- The Advanced one lets you specificaly choose the Desired Mutation, the Normal one, only make sure that the Bee will mutate into something."
+	],
+	dependencies: [
+		"38fb5dbc"
+	],
+	tasks: [{
+		uid: "760d6188",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}]
+	},
+	{
+		uid: "4fb71972",
+		type: "item",
+		title: "Make a Mutatron",
+		items: [{
+			item: "gendustry:mutatron"
+		},
+		{
+			item: "gendustry:mutatron_advanced"
+		}]
+	}],
+	rewards: [{
+		uid: "e6c0a3d4",
+		type: "item",
+		item: "extrabees:hive 1 1",
+		count: 2
+	},
+	{
+		uid: "e2a2c2b7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

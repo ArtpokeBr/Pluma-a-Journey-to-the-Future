@@ -1,0 +1,83 @@
+{
+	title: "A High Oven!",
+	icon: "tcomplement:high_oven_controller",
+	x: 4.5d,
+	y: 1.5d,
+	description: "Processing Advanced Materials inside a Smeltery!",
+	text: [
+		"With a Mixer and some Nether Components, you'll be able to make Scorched Bricks!",
+		"",
+		"- Use those to make all the Components (just like a normal smeltery) for the High Oven!",
+		"",
+		"- The High oven is a Structure that needs to be exact 3x3 and has no height limit",
+		"",
+		"- The Roof must be sealed and the more height you add to it, more slots and space inside of it.",
+		"",
+		"- The High Oven requires Charcoal or Coal, and it will basically melt a material and mix it with:",
+		"",
+		"- An Oxidizer",
+		"- An Reducer",
+		"- An Purifier",
+		"",
+		"- Always refer to JEI for the Recipes and please notice that some recipes will require specific temperatures.",
+		"",
+		"~ The Quest Requirements are the Minimum for an High Oven that can be automated."
+	],
+	dependencies: [
+		"a3b416bc"
+	],
+	tasks: [{
+		uid: "b761c90a",
+		type: "item",
+		items: [{
+			item: "tcomplement:high_oven_controller"
+		}]
+	},
+	{
+		uid: "11c58534",
+		type: "item",
+		items: [{
+			item: "tcomplement:scorched_block 1 3"
+		}],
+		count: 22L
+	},
+	{
+		uid: "68a82dce",
+		type: "item",
+		items: [{
+			item: "tcomplement:high_oven_io"
+		}]
+	},
+	{
+		uid: "5fe1e293",
+		type: "item",
+		items: [{
+			item: "tcomplement:scorched_faucet"
+		}]
+	},
+	{
+		uid: "6abcaac4",
+		type: "item",
+		items: [{
+			item: "tcomplement:high_oven_io 1 2"
+		}]
+	},
+	{
+		uid: "40ee0fa0",
+		type: "item",
+		items: [{
+			item: "tcomplement:high_oven_io 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "b95ac985",
+		type: "item",
+		item: "gregtech:meta_block_compressed_16 1 10",
+		count: 8
+	},
+	{
+		uid: "fe0e8f92",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "Upgrading Extra Utilities Machines!",
+	x: 9.5d,
+	y: 6.0d,
+	description: "And also some gadgets/blocks!",
+	text: [
+		"That's right! you've probally already noticed that the §6Resonator§f is slow and it has an special slot.",
+		"",
+		"- Some Machines/gadgets/blocks from §3Extra Utilities§f can be upgraded in diferent ways.",
+		"",
+		"▬ §eSpeed Upgrade§f: The one that you're going to use the most, very self explanatory, increase the §espeed of operations§f.",
+		"",
+		"▬ §2Stack Upgrade§f: Increases the §2Amount of Stacks pulled per operation§f, mainly used In Transfer Nodes.",
+		"",
+		"▬ §9Mining Upgrade§f: Allows you to §9collect cobblestone§f from cobblestone generators and §9also water§f from pools, mainy used in Transfer Nodes."
+	],
+	dependencies: [
+		"1f69ab74"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "35a5862f",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 6"
+		}]
+	},
+	{
+		uid: "5a80f0c7",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 7"
+		}]
+	},
+	{
+		uid: "19aa94db",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "1feed080",
+		type: "item",
+		item: "extrautils2:ingredients 1 6",
+		random_bonus: 3
+	},
+	{
+		uid: "ad720031",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

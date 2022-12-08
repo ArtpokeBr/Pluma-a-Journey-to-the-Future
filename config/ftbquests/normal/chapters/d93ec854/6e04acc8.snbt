@@ -1,0 +1,130 @@
+{
+	title: "A Huge Ancient Multiblock Structure",
+	icon: "mbd:dwarven_matrix",
+	x: 13.0d,
+	y: 4.0d,
+	description: "The Dwarven Matrix!",
+	text: [
+		"Time to expand your §6Dwarven Tech§f!",
+		"",
+		"- This Matrix will be a key §eMultiblock for Embers§f, §bimportant recipes are done with this guy§f.",
+		"",
+		"- Also note that §dwhile it isn't required for this quest§f, §c§lyou'll need§r§f §22 Item \"Interfaces\"§f, §92 Fluid \"Intefaces\"§f and §61 Ember \"Interface\"§f.",
+		"",
+		"§8§o(Please refer to the Multiblock Preview for exact locations)§r§f",
+		"",
+		"§3§o~ This is an Complex Multiblock to build, please take your time.§r§f"
+	],
+	dependencies: [
+		"7e704fa5"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "040981ec",
+		type: "item",
+		items: [{
+			item: "mbd:dwarven_matrix"
+		}]
+	},
+	{
+		uid: "4ec860dc",
+		type: "item",
+		items: [{
+			item: "embers:wrapped_sealed_planks"
+		}],
+		count: 10L
+	},
+	{
+		uid: "81eca4b0",
+		type: "item",
+		items: [{
+			item: "embers:crystal_cell"
+		}]
+	},
+	{
+		uid: "c3caaddd",
+		type: "item",
+		items: [{
+			item: "embers:sealed_planks"
+		}],
+		count: 6L
+	},
+	{
+		uid: "e958ccec",
+		type: "item",
+		items: [{
+			item: "embers:archaic_light"
+		}],
+		count: 4L
+	},
+	{
+		uid: "4e3e4fa6",
+		type: "item",
+		items: [{
+			item: "embers:archaic_tile"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7b0e281c",
+		type: "item",
+		items: [{
+			item: "embers:archaic_edge"
+		}],
+		count: 19L
+	},
+	{
+		uid: "95aefbe2",
+		type: "item",
+		items: [{
+			item: "embers:ashen_tile_slab"
+		}],
+		count: 12L
+	},
+	{
+		uid: "5aa6c816",
+		type: "item",
+		items: [{
+			item: "embers:ashen_tile"
+		}],
+		count: 16L
+	},
+	{
+		uid: "a9e38bc1",
+		type: "item",
+		items: [{
+			item: "embers:ashen_brick_slab"
+		}],
+		count: 12L
+	},
+	{
+		uid: "a851518b",
+		type: "item",
+		items: [{
+			item: "embers:ashen_stone"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "cbd66b1a",
+		type: "item",
+		item: {
+			id: "embers:ignition_cannon",
+			tag: {
+				cooldown: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "b852a01a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

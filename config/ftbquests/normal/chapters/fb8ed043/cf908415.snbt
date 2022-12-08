@@ -1,0 +1,48 @@
+{
+	title: "A Coke Oven",
+	icon: "gregtech:machine 1 1017",
+	x: 13.0d,
+	y: 0.5d,
+	description: "Time to start enhancing Coal and obtaining Creosote Oil!",
+	text: [
+		"The Coke Oven is a Hollow 3x3x3 Structure that will basically make Charcoal and Coke Coal.",
+		"",
+		"- Place the Controller in front of the Structure",
+		"",
+		"- To Automate the output of Creosote Oil, place a Hatch in one of the sides.",
+		"",
+		"- This quest will give you some pipes and a tank, REMEMBER TO USE A WRENCH to connect both sides of the pipes.",
+		"",
+		"~ Remember again, GT pipes will require pumps, arms or conveyors in order to extract stuff. Don't worry, the Coke Oven Auto Extracts tho."
+	],
+	dependencies: [
+		"bcca038f",
+		"a1a2f093"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f1ca7c49",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1017"
+		}]
+	},
+	{
+		uid: "360073e1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_gem 1 319"
+		}]
+	}],
+	rewards: [{
+		uid: "8605ef95",
+		type: "item",
+		item: "gregtech:meta_gem 1 319",
+		count: 16
+	},
+	{
+		uid: "07917e9a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

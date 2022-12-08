@@ -1,0 +1,80 @@
+{
+	title: "The Sylvan Armor",
+	x: 14.5d,
+	y: 2.0d,
+	description: "Good protection with some Herb Cost Reduction!",
+	text: [
+		"Simple as that, this Armor can offer you a good amount of protection, but mos importantly, it reduces the costs of spells!",
+		"",
+		"- It can be repaired with Fey Leather"
+	],
+	dependencies: [
+		"34c7ed17"
+	],
+	optional: true,
+	tasks: [{
+		uid: "10eb6640",
+		type: "item",
+		items: [{
+			id: "roots:sylvan_helmet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10706220",
+		type: "item",
+		items: [{
+			id: "roots:sylvan_chestplate",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a463998d",
+		type: "item",
+		items: [{
+			id: "roots:sylvan_leggings",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bbf1639e",
+		type: "item",
+		items: [{
+			id: "roots:sylvan_boots",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8bce3963",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 8
+	},
+	{
+		uid: "59985dc5",
+		type: "item",
+		item: "harvestcraft:cherryjellysandwichitem",
+		count: 2
+	},
+	{
+		uid: "20d0074c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

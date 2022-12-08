@@ -1,0 +1,21 @@
+{
+	title: "LV Chemical Bath",
+	x: 3.5d,
+	y: 7.0d,
+	description: "Bathing Materiasl with EU!",
+	text: [
+		"It has some unique Recipes and it is specially usefull for Leather Treating."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"de02f604",
+		"8324a27b"
+	],
+	tasks: [{
+		uid: "7d8a361c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 200"
+		}]
+	}]
+}

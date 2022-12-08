@@ -1,0 +1,154 @@
+{
+	title: "All the Tools!",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 8s,
+		tag: {
+			GT.ToolStats: {
+				Material: "bronze"
+			}
+		}
+	},
+	x: 13.0d,
+	y: -2.5d,
+	description: "Time to make most of the Crafting Tools needed!",
+	text: [
+		"Thats right, this quest may be huge in terms of requirements, but, it is needed.",
+		"",
+		"- Each of this tools will be used at some point."
+	],
+	dependencies: [
+		"a1a2f093"
+	],
+	tasks: [{
+		uid: "439e8278",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 8s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "42462237",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 5s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7e75ac23",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 6s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7cd697c9",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 9s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a3bd0651",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 11s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c00607f",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 13s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9dbab9dd",
+		type: "choice",
+		title: "Choose a Bronze Tool",
+		icon: {
+			id: "gregtech:meta_tool",
+			Damage: 9s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				}],
+				RepairCost: 1,
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		team_reward: false,
+		table: 0
+	},
+	{
+		uid: "a279cc8b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

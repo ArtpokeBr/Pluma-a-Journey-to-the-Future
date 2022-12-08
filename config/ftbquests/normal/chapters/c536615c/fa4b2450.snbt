@@ -1,0 +1,34 @@
+{
+	x: -5.25d,
+	y: 0.0d,
+	shape: "square",
+	description: "{pluma.satlog.subtitle}",
+	text: [
+		"{pluma.satlog.desc1}",
+		"",
+		"{pluma.satlog.desc2}",
+		"",
+		"{pluma.satlog.desc3}"
+	],
+	dependencies: [
+		"59e8425d"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "ab55bf48",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_satellite"
+		}]
+	}],
+	rewards: [{
+		uid: "da810e65",
+		type: "item",
+		item: "logisticspipes:pipe_lb.craftingmanager"
+	},
+	{
+		uid: "6c82ccf9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

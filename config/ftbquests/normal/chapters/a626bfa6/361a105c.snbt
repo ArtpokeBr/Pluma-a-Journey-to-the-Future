@@ -1,0 +1,42 @@
+{
+	title: "A Small Improvement to your GregTech Small Boiler",
+	x: -4.5d,
+	y: -4.0d,
+	description: "And it is kinda pretty!",
+	text: [
+		"Magnetic Craft offers this interesting Boiler.",
+		"",
+		"- You can open the little door to insert coal for it to burn",
+		"",
+		"- Water must be piped to the Boiler block.",
+		"",
+		"- It isn't the most efficient boiler, but it is a stepping stone for a future big boy!"
+	],
+	dependencies: [
+		"d030ed85"
+	],
+	tasks: [{
+		uid: "cd626c5d",
+		type: "item",
+		items: [{
+			item: "magneticraft:combustion_chamber"
+		}]
+	},
+	{
+		uid: "0547e70d",
+		type: "item",
+		items: [{
+			item: "magneticraft:steam_boiler"
+		}]
+	}],
+	rewards: [{
+		uid: "b1b97bc8",
+		type: "item",
+		item: "gregtech:meta_gem_exquisite 1 319"
+	},
+	{
+		uid: "a4fb2fc6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

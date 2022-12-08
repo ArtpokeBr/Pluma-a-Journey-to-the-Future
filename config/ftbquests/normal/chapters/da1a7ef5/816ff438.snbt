@@ -1,0 +1,27 @@
+{
+	title: "Baykok's Sanguine Stone!",
+	x: 12.5d,
+	y: -2.0d,
+	description: "After all of this Hellish Resource Gathering...",
+	text: [
+		"And after all of this, time to make the Baykok's Sanguine Stone! a special type of stone required for more progression in Roots!",
+		"",
+		"",
+		"- This is the last gate in Nether... I Promise."
+	],
+	dependencies: [
+		"db6b5424"
+	],
+	tasks: [{
+		uid: "5508c15d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:baykoksbloodiedstone"
+		}]
+	}],
+	rewards: [{
+		uid: "98086234",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

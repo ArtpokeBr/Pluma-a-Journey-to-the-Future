@@ -1,0 +1,45 @@
+{
+	title: "Emitters and Sensors",
+	x: 2.5d,
+	y: 7.0d,
+	description: "LV Materials III",
+	text: [
+		"Just as Motors and Pistons, they're craft materials for some machines.",
+		"",
+		"- They're not cheap as they require circuits and brass.",
+		"",
+		"- They will be usefull for some specific key recipes."
+	],
+	dependencies: [
+		"de02f604"
+	],
+	tasks: [{
+		uid: "ea934c7b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 217"
+		}]
+	},
+	{
+		uid: "98ea97c9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 232"
+		}]
+	}],
+	rewards: [{
+		uid: "dd71e952",
+		type: "item",
+		item: "gregtech:meta_item_1 1 217"
+	},
+	{
+		uid: "a3515f2e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 232"
+	},
+	{
+		uid: "190e2a50",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

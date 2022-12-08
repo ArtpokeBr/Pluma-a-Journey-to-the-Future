@@ -1,0 +1,55 @@
+{
+	title: "An Agglomeration of Resources and Mana!",
+	x: 3.0d,
+	y: -5.0d,
+	description: "The Terrestrial Agglomeration Plate!",
+	text: [
+		"Time to get advanced with §3Botania§f!",
+		"",
+		"- Lets make the §6Terrestrial Agglomeration Plate§f!",
+		"",
+		"- §e§nFirst§r§f, simply assemble the §2multiblock§f required for it, §3JEI§f has a neat way to §2visualize§f that.",
+		"",
+		"- §e§nSecond§r§f, simply drop the §acorresponding items§f on it and provide with §bmana§f, use a §dSpark§f for that.",
+		"",
+		"- §e§nThird§r§f, Voilá! you'll obtain your desired §2material§f! but don't forget, this device consumes §bA LOT of Mana§f!"
+	],
+	dependencies: [
+		"b8622ae0"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "cf869575",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "35a924f0",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "92ee3de2",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "aac29fe6",
+		type: "item",
+		item: "botania:spark"
+	},
+	{
+		uid: "05c4622a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

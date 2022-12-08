@@ -1,0 +1,53 @@
+{
+	title: "The Process of Making Refined Obsidian §6Part I§f",
+	icon: "gregtech:meta_dust 1 2527",
+	x: 1.0d,
+	y: -9.0d,
+	description: "Making Blue Alloy",
+	text: [
+		"§5Refined Obsidian§f will be a Key material for §3Mekanism§f in the Future, but until there, you'll be using it for §6Dark Steel§f.",
+		"",
+		"- First, you'll need some §bBlue Alloy§f.",
+		"",
+		"- §bElectrotine§f is a Ore that can be found in a Vein in §cthe Nether§f"
+	],
+	dependencies: [
+		"0429f345"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "d34addaf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2507"
+		}],
+		count: 32L
+	},
+	{
+		uid: "97cb78b4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 100"
+		}],
+		count: 8L
+	},
+	{
+		uid: "0c2eebef",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2527"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "dca7a2a7",
+		type: "item",
+		item: "gregtech:meta_dust 4 2527",
+		count: 4
+	},
+	{
+		uid: "9f5d7ad9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

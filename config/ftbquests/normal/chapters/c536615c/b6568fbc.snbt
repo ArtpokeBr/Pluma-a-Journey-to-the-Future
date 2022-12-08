@@ -1,0 +1,131 @@
+{
+	title: "Its §6EBF§f Time!",
+	icon: "gregtech:machine 1 1001",
+	x: -3.5d,
+	y: -12.0d,
+	description: "Lets make an Electric Blast Furnace!",
+	text: [
+		"This may be a very long and elaborate Quest to Complete, but lets go!",
+		"",
+		"- The §6Blast Furnace§f will allow you to finally smelt some advanced alloys and advanced materials like §bAluminium§f.",
+		"",
+		"- See those §22 LV Energy Hatches?§f Later you can swap them by a single MV Energy Hatch. §6The EBF Requires MV Power§f.",
+		"",
+		"- Also, there's §2Maintenance, every 2 Real life days§f, you'll need to check if your EBF is running fine, to fix issues, §6use the correct tools in the Hatch§f.",
+		"",
+		"It is actually very simple to do §2Maintenance§f, the hard part is having the tools for that. (you can §6simply click in the slot inside of its GUI§f and it will do the job)",
+		"",
+		"- There's also an Interesting Mechanic behind the EBF, Heat! certain §2recipes will require a certain Heat Capacity§f. And thats §6defined by the Coils§f that you've used.",
+		"",
+		"- Also, want §2quicker recipes?§f §6insert some O² or Nitrogen (depending of the Recipe) inside of the EBF§f and you're going to notice a speed boost in recipes.",
+		"",
+		"- Also, §4do not obstruct the Muffler Hatch§f. When working, each tier of Muffler Hatch will have a chance to recover some materials out of the Recipe.",
+		"",
+		"~ Overall it is a tough Quest, but a rewarding one! as it will unlock §bMV§f for you!"
+	],
+	dependencies: [
+		"7e379f4f"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "502c7216",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1001"
+		}]
+	},
+	{
+		uid: "3ce07bcf",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}],
+		count: 10L
+	},
+	{
+		uid: "1eaf2e0c",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	},
+	{
+		uid: "47b3aa78",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1151"
+		}]
+	},
+	{
+		uid: "210b8b04",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1166"
+		}]
+	},
+	{
+		uid: "1ad6949d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1181"
+		}]
+	},
+	{
+		uid: "c9ede59c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1196"
+		}]
+	},
+	{
+		uid: "aa6aca58",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1211"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a36c8d89",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		}]
+	},
+	{
+		uid: "ec57d8a5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	}],
+	rewards: [{
+		uid: "0bf50e4d",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 471s,
+			tag: {
+				Charge: 100000L
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "39f845d2",
+		type: "item",
+		team_reward: false,
+		item: "harvestcraft:supremepizzaitem",
+		count: 4
+	},
+	{
+		uid: "f3e1c16d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

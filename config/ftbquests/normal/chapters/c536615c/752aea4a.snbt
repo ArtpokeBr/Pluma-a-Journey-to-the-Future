@@ -1,0 +1,29 @@
+{
+	title: "Stealth 100%?",
+	x: -4.5d,
+	y: -3.0d,
+	description: "{pluma.logsneak.subtitle}",
+	text: [
+		"{pluma.logsneak.desc1}",
+		"",
+		"{pluma.logsneak.desc2}",
+		"",
+		"{pluma.logsneak.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aa4cc147"
+	],
+	tasks: [{
+		uid: "7d7fc4bb",
+		type: "item",
+		items: [{
+			item: "logisticspipes:upgrade_sneaky"
+		}]
+	}],
+	rewards: [{
+		uid: "cd1d8fff",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

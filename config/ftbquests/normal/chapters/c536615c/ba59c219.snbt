@@ -1,0 +1,56 @@
+{
+	title: "The Process of Making Dark Steel §6Part II§f",
+	icon: "gregtech:meta_dust 1 2011",
+	x: 2.0d,
+	y: -10.0d,
+	description: "Making Black Steel",
+	text: [
+		"Now,  with §5Black Bronze§f, time to mix it with some §8Steel§f and §eNickel§f in order to get some §6Black Steel§f!",
+		"",
+		"- In the future, may be a good idea to set up §6passive automations§f for this dusts."
+	],
+	dependencies: [
+		"ef3adb55"
+	],
+	tasks: [{
+		uid: "a5af5708",
+		type: "item",
+		items: [{
+			item: "mekanism:otherdust 1 1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "3c7d72fc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 69"
+		}]
+	},
+	{
+		uid: "0cdc754e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 302"
+		}]
+	},
+	{
+		uid: "cabb73c2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2011"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "2900d8d7",
+		type: "item",
+		item: "gregtech:meta_ingot 1 2011",
+		count: 8
+	},
+	{
+		uid: "972a5004",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Generating Fluids from the Stars!",
+	x: -4.5d,
+	y: -7.0d,
+	description: "Time to make a Lightwell!",
+	text: [
+		"The §6Lightwell§f is an interesting device, you can place specific §2items§f in it and it will start the process of §bimbuing them with the Stars§f.",
+		"",
+		"- Depending on the §2Item§f inserted, you'll get an specific §9Fluid§f.",
+		"",
+		"- §bStarlight§f and §5Liquid Nightmares§f are good examples of §9must automate fluids§f that can be done in this device."
+	],
+	dependencies: [
+		"ac3fabbc"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "a4488974",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}],
+	rewards: [{
+		uid: "ff307315",
+		type: "item",
+		item: "gregtech:meta_gem_flawless 1 32049",
+		count: 4
+	},
+	{
+		uid: "98b412f0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

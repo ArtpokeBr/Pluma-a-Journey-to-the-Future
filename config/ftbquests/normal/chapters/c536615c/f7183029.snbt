@@ -1,0 +1,79 @@
+{
+	title: "Empowered Materials",
+	x: -3.5d,
+	y: -7.5d,
+	description: "Just like your Reconstructed ones, but better!",
+	text: [
+		"These Crystal's are essential for progression aswell, make some and start thinking about automating them."
+	],
+	dependencies: [
+		"c6da909f"
+	],
+	tasks: [{
+		uid: "f68c6b92",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered"
+		}]
+	},
+	{
+		uid: "6cef5c4b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 1"
+		}]
+	},
+	{
+		uid: "b7d3e4c5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 2"
+		}]
+	},
+	{
+		uid: "644e3d9b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 3"
+		}]
+	},
+	{
+		uid: "e157ab19",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 4"
+		}]
+	},
+	{
+		uid: "f6ddfd11",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 5"
+		}]
+	},
+	{
+		uid: "a59640ff",
+		type: "item",
+		items: [{
+			item: "contenttweaker:empowered_glod_crystal"
+		}]
+	},
+	{
+		uid: "40b33c26",
+		type: "item",
+		items: [{
+			item: "contenttweaker:empowered_endor_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "830b4771",
+		type: "item",
+		item: "harvestcraft:chocolatedonutitem",
+		count: 6
+	},
+	{
+		uid: "58dd00c0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

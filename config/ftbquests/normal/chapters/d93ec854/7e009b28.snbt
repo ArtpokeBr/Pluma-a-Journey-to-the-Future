@@ -1,0 +1,73 @@
+{
+	title: "Moving all that Ember around!",
+	x: 9.5d,
+	y: -1.0d,
+	description: "Emitters and Receptors!",
+	text: [
+		"§2Very self explanatory§f, but it can be a §5little tricky§f to correctly configure them.",
+		"",
+		"- §6The Emitter§f will be the one attached to your §eEmber source§f. ",
+		"§8§o(Your Activator for example)§f§r",
+		"",
+		"- §6The Receptor§f will be where you wish to move §eEmber§f to.",
+		"",
+		"- §dTo link them§f, simply §a§lShift + Click§r§f on §6The Receptor§f and them §c§lRIGHT CLICK§r§f on the §6Emitter§f to finish the §dconnection§f.",
+		"",
+		"- If you linked them correctly, you'll just need to provide the §6Emitter§f a §cRedstone Signal§f to start the §5transmission§f.",
+		"",
+		"",
+		"~ The §dTinker's Lens§f can be §2very usefull§f here, as you might need to use it §2to find exactly where§f the §eEmber output§f of a certain §6Machine§f is."
+	],
+	dependencies: [
+		"a8f0757f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f2e5ac7f",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	},
+	{
+		uid: "c8afac02",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "2e5e86be",
+		type: "item",
+		items: [{
+			id: "embers:tinker_hammer",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "895b8edb",
+		type: "item",
+		item: {
+			id: "embers:copper_cell",
+			tag: {
+				emberCapacity: 24000.0d,
+				ember: 0.0d
+			}
+		}
+	},
+	{
+		uid: "d29dd3d4",
+		type: "item",
+		item: "embers:ember_gauge"
+	},
+	{
+		uid: "a3688362",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

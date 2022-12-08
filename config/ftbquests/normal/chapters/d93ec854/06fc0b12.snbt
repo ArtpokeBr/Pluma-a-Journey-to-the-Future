@@ -1,0 +1,44 @@
+{
+	title: "A Dwarven Fluid Extractor!",
+	icon: "embers:block_furnace",
+	x: 10.5d,
+	y: -0.5d,
+	description: "Melt them all!",
+	text: [
+		"Well, it is finally time to make your first Embers Machine!",
+		"",
+		"- The §6Melter§f is exactly like an §6Fluid Extractor§f, exept it requirers §eEmber§f!",
+		"",
+		"- §2Items§f and §9Fluids§f I/O's are both in the §5top block§f.",
+		"",
+		"- The §eEmber input§f is on the §5bottom block§f.",
+		"",
+		"- The §6Melter§f can be §aimproved§f if you place it above a §dMetal Block§f surrounded by §cLava§f."
+	],
+	dependencies: [
+		"7e009b28"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "559b184c",
+		type: "item",
+		items: [{
+			item: "embers:block_furnace"
+		}]
+	},
+	{
+		uid: "5ef25695",
+		type: "fluid",
+		fluid: "alchemical_redstone"
+	}],
+	rewards: [{
+		uid: "c6931b8f",
+		type: "item",
+		item: "embers:block_copper"
+	},
+	{
+		uid: "66c103f3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

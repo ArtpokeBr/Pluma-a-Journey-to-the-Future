@@ -1,0 +1,98 @@
+{
+	title: "Your First Altar Upgrade!",
+	icon: "astralsorcery:blockaltar 1 1",
+	x: -2.0d,
+	y: 0.0d,
+	description: "Time to get a Starlight Crafting Altar",
+	text: [
+		"§3Astral Sorcery's Progression§f is heavily based on your §6Altar§f aswell!",
+		"",
+		"- §2Collect all the blocks§f needed and use a §bSextant§f §8§o(gently provided as a reward)§r§f.",
+		"",
+		"- The §bSextant§f will help you build all §3Astral Structures§f.",
+		"",
+		"- Also, keep in mind that §ethe higher§f §6the Altar§f is, §ehigher§f the §bstartlight incidence§f.",
+		"",
+		"§8§o~ Oh, and beacuse I don't want you to have fun playing this Pack, use this Fosic Resonator to find the best spot.§r§f",
+		"",
+		"§8§o(The Fosic Resonator will highlight blue areas where the starlight incidence is concentrated.)§r§f"
+	],
+	dependencies: [
+		"3ac3b173"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "ea95149c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ba6bdc8f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1ef9cb44",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}],
+		count: 24L
+	},
+	{
+		uid: "67ebc005",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 3"
+		}],
+		count: 28L
+	},
+	{
+		uid: "2cb14344",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 21L
+	},
+	{
+		uid: "2a8a5568",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e1742061",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	},
+	{
+		uid: "a57880bf",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	},
+	{
+		uid: "6e0b1e07",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,363 @@
+{
+	title: "Lets make some Diodes §6Part I",
+	x: -8.5d,
+	y: -12.0d,
+	description: "Another Nether Mining Expedition",
+	text: [
+		"Diodes will be necessary for more advanced Circuits and well... they require a little work!",
+		"",
+		"- Mine some Sphalerite and use a Similar Process like you've done for Zinc, but to get some Gallium!",
+		"",
+		"- Also Mine some Realgar, you'll need to Centrifuge it to get some Arsenic dust's.",
+		"",
+		"Once all its collected, you'll be able to mix both dusts into Gallium Arsenide!"
+	],
+	dependencies: [
+		"8b8ed045"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "576e5389",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_realgar_0 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "a9bdfa38",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sphalerite_0 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "4d10b7f1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 351"
+		}]
+	}],
+	rewards: [{
+		uid: "73e7bb0c",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 464s,
+			tag: {
+				Page10: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page11: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				PageIndex: 0s,
+				Page14: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page15: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page12: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page13: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page18: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page19: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page16: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page17: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page21: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page22: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page20: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				TotalPages: 0s,
+				Page3: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page4: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page5: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page6: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page0: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page1: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page2: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page23: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page24: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page7: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page8: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page9: {
+					Task2: "",
+					Task1: "",
+					Task4: "",
+					Task3: "",
+					Task0: "",
+					ButStat: 0s,
+					Title: "",
+					Task6: "",
+					Task5: "",
+					Task7: ""
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "12bddac6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

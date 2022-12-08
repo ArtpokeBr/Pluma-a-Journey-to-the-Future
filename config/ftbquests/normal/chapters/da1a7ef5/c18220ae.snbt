@@ -1,0 +1,91 @@
+{
+	title: "Casting Spells with Roots!",
+	icon: {
+		id: "roots:staff",
+		tag: {},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 13.5d,
+	y: 3.0d,
+	description: "Did you know that you can cast a Flight spell?",
+	text: [
+		"You should really take a look at the Manual Book of this Mod, it is very well written.",
+		"",
+		"- Roots, besides offering some Rituals, also offers Spell Casting!",
+		"",
+		"- The Gramary is your \"Storage\" for spells, you need it every time you want to learn a spell",
+		"",
+		"- Most Spells are crafter in the Mortar",
+		"",
+		"- To add a Spell to your Gramary, simply use the Imbuer. (Place the Tome and the Dust of the Spell Together on it)",
+		"",
+		"- The Imposer allows you to edit the Spells, want an Extended Duration? want it to be stronger in some specific aspect?",
+		"",
+		"Simply place your want in the Imposer and right click with a knife to open the GUI for it.",
+		"",
+		"- And if you didn't understand until now, every spell has a cost, and the materials required are those flowers/crops/materials you've recently obtained."
+	],
+	dependencies: [
+		"0fa27f33"
+	],
+	tasks: [{
+		uid: "88a2ee2b",
+		type: "item",
+		items: [{
+			id: "roots:staff",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "afc2de58",
+		type: "item",
+		items: [{
+			id: "roots:gramary",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ef2ff5a",
+		type: "item",
+		items: [{
+			item: "roots:imbuer"
+		}]
+	},
+	{
+		uid: "fa8f05a3",
+		type: "item",
+		items: [{
+			item: "roots:imposer"
+		}]
+	}],
+	rewards: [{
+		uid: "38720a2c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "b4b45a9a",
+		type: "item",
+		item: {
+			id: "roots:spell_dust",
+			tag: {
+				spell_storage: {
+					s: "roots:spell_sky_soarer"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

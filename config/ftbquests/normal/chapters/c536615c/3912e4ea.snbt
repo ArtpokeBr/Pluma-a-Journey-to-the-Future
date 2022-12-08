@@ -1,0 +1,57 @@
+{
+	title: "Copper + Oxygen in an Arc Furnace",
+	icon: "gregtech:meta_ingot 1 252",
+	x: 6.0d,
+	y: -16.0d,
+	description: "Annealed Copper!",
+	text: [
+		"Well, remember that old §6Arc Furnace§f that you might have crafted in §6LV§f? it can be used for this Quest if you wish.",
+		"",
+		"- §eAnnealed Copper§f is a much better version of §eCopper§f, you get it by smelting it with §bOxygen§f in an §6Arc Furnace§f.",
+		"",
+		"- Almost all §eCopper§f Submaterials can be smelted into §eAnnealed Copper§f, even Pipes!"
+	],
+	dependencies: [
+		"fef6c00d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f0cfc8fa",
+		type: "item",
+		title: "An LV or MV Arc Furnace",
+		items: [{
+			item: "gregtech:machine 1 95"
+		},
+		{
+			item: "gregtech:machine 1 96"
+		}]
+	},
+	{
+		uid: "161c0310",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 252"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "adf468f8",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "8ee3e0d0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

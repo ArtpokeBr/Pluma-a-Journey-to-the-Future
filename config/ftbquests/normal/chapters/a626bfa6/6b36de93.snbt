@@ -1,0 +1,30 @@
+{
+	title: "High Pressure Cobblestone Factory!",
+	x: -6.0d,
+	y: 0.0d,
+	description: "Just like the previous version but Faster!",
+	text: [
+		"This Rockbreaker works exacly like the previous orange one, except it is faster and more efficient!"
+	],
+	dependencies: [
+		"a45b245e"
+	],
+	tasks: [{
+		uid: "b38309df",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "471d6b11",
+		type: "item",
+		item: "pyrotech:stash_stone",
+		count: 2
+	},
+	{
+		uid: "3f7ce786",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

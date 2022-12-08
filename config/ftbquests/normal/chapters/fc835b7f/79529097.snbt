@@ -1,0 +1,44 @@
+{
+	title: "Digital Storage",
+	x: 0.0d,
+	y: -1.5d,
+	description: "Using an ME Drive",
+	text: [
+		"Inside an §6ME Drive§f you can place your §6Storage Cell's§f.",
+		"",
+		"- Each §6Storage Cell§f has a limit of §2Item's§f, and they have a §atype limit of 63§f.",
+		"§8§o(Each type of Cell has its own limit. ex: Item's = 63 and Fluids = 5)§r§f",
+		"",
+		"- You can also have §6Storage Cell's for §9Fluids§f, §dThaumcraft Essentia§f and also §eGasses§f.",
+		"",
+		"§8§o~ You could also use the Priority system to better organize your network drives.§r§f"
+	],
+	dependencies: [
+		"dce6647b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "25b2e296",
+		type: "item",
+		title: "Any ME Drive",
+		items: [{
+			item: "appliedenergistics2:drive"
+		},
+		{
+			item: "aeadditions:hardmedrive"
+		},
+		{
+			item: "aeadditions:part.base"
+		}]
+	}],
+	rewards: [{
+		uid: "98fd95d1",
+		type: "item",
+		item: "appliedenergistics2:material 1 37"
+	},
+	{
+		uid: "7e9c040a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

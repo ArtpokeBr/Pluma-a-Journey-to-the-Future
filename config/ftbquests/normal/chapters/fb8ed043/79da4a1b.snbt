@@ -1,0 +1,65 @@
+{
+	title: "A Seared Furnace!",
+	icon: "tconstruct:seared_furnace_controller",
+	x: 11.0d,
+	y: 3.5d,
+	description: "When Smelting 1 Item at once isn't enough",
+	text: [
+		"The Seared Furnace is a Multiblock similar to the Smeltery in terms of Size and expandability",
+		"",
+		"But, theres a Twist:",
+		"",
+		"- To form it, you MUST place all blocks in the corners, and it also needs its roof to be covered aswell.",
+		"",
+		"- Also, it consumes a hot liquid as a fuel source aswell, but the tanks must be placed on the corner sides",
+		"",
+		"- The Requirements for this quest are the bare minimum. 12 Smelting Slots for 16 items each."
+	],
+	dependencies: [
+		"7f887820"
+	],
+	tasks: [{
+		uid: "36f3d293",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_furnace_controller"
+		}]
+	},
+	{
+		uid: "0101a83b",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "d0db66fe",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSeared"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSeared"
+				}
+			}
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "10c02744",
+		type: "item",
+		item: "harvestcraft:ploughmanslunchitem",
+		count: 4
+	},
+	{
+		uid: "94fcd69c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

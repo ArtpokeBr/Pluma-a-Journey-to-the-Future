@@ -1,0 +1,32 @@
+{
+	title: "A Steam Forge Hammer!",
+	x: -3.0d,
+	y: -1.5d,
+	description: "Time to Start making \"Cheaper\" Plates",
+	text: [
+		"By Making a Steam Forge Hammer you'll be able to finally make somewhat cheaper Plates and also other recipes!",
+		"",
+		"- This Steam Forge Hammer will require Steam to operate and it will only process ULV and LV level Recipes."
+	],
+	dependencies: [
+		"b320813f"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2d8177d6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "27fc4657",
+		type: "item",
+		item: "harvestcraft:pecanpieitem"
+	},
+	{
+		uid: "7b25f6e5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

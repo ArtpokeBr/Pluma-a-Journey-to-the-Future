@@ -1,0 +1,54 @@
+{
+	title: "Loved by Many, hated by a bunch of others.",
+	x: 1.0d,
+	y: -1.5d,
+	description: "Lets make the Research Table!",
+	text: [
+		"- Simply Make a §3Wooden Table§f and place a §bScribing tool's§f in it, you'll get yourself a §6Research Table§f!",
+		"",
+		"- Oh, and don't forget to get some §3paper's§f as you'll make some §enotes§f as you §aprogress§f!",
+		"",
+		"- Almost all things in §5Thaumcraft§f will require some §aknowledge§f to adquire, and where do you get it? in here!",
+		"",
+		"- Make sure to always §eread those notes that you're clicking§f as some of them may give you §5undesired effects§f.",
+		"",
+		"- Also, you can place some §aspecial blocks§f near it in order for you to §2specialize your research's§f.",
+		"§8§o(An Enchantment Table is a good example.)§r§f"
+	],
+	dependencies: [
+		"19001625"
+	],
+	tasks: [{
+		uid: "83953964",
+		type: "item",
+		items: [{
+			item: "thaumcraft:research_table"
+		}]
+	},
+	{
+		uid: "cbcc29c9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a76958f2",
+		type: "item",
+		item: "thaumcraft:sapling_greatwood",
+		count: 4
+	},
+	{
+		uid: "fde7399b",
+		type: "item",
+		item: "thaumcraft:sapling_silverwood",
+		count: 4
+	},
+	{
+		uid: "d0469313",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

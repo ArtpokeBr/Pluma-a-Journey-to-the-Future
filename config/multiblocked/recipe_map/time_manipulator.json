@@ -1,0 +1,286 @@
+{
+  "name": "time_manipulator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "156cd4e3-510d-4ddb-a7b8-0a8dc216c4af",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"fossil:ancient_clock\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1b,Damage:11s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquid_mana\",Amount:200}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"time_vortex_fluid\",Amount:500}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot_hot\",Count:1b,Damage:32056s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.6,
+            "content": "{FluidName:\"fiery_essence\",Amount:1000}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 600
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "Anu Lair"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "26812b4c-a58b-43d2-a3aa-dea567f5a2af",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"fossil:ancient_clock\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:brain\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:flesh_block\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"time_vortex_fluid\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"blood\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"evilcraft:werewolf_flesh\",Count:9b,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"evilcraftblood\",Amount:1000}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "Anu Lair"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "8c5fafd8-6801-4000-8d44-1af953b96649",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"fossil:ancient_clock\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2b,Damage:2023s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "blockGlassHardened"
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"time_vortex_fluid\",Amount:500}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"fossil:ancient_glass\",Count:3b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "Anu Lair"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "41903205-2a6b-4e8a-840c-25722245d6ab",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"fossil:ancient_clock\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1b,Damage:2525s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"time_vortex_fluid\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"embers:blend_caminite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "Anu Lair"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Casting Plates",
+	x: 14.0d,
+	y: 3.0d,
+	description: "Specially the Seared ones!",
+	text: [
+		"Now that you have a simple porcelain melter, you'll need some seared plates for further upgrades",
+		"",
+		"- With this Cast you can also cast other plates with it",
+		"",
+		"- You currently cannot make Alloy tools with this level of smeltery, but soon you'll be able to!"
+	],
+	dependencies: [
+		"81300c16"
+	],
+	tasks: [{
+		uid: "f6d3cac4",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 3"
+		}]
+	},
+	{
+		uid: "f69fc061",
+		type: "item",
+		items: [{
+			item: "contenttweaker:searedplate"
+		}]
+	}],
+	rewards: [{
+		uid: "f159774a",
+		type: "item",
+		item: "tconstruct:cast"
+	},
+	{
+		uid: "42cb9d6e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

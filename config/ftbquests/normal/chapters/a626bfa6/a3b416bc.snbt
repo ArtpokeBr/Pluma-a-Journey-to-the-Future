@@ -1,0 +1,34 @@
+{
+	title: "LV Mixer",
+	x: 3.5d,
+	y: 1.5d,
+	description: "Mixing it all Up with EU!",
+	text: [
+		"The Mixer is a very versatile Machine wich allows you to Mix Materials with EU.",
+		"",
+		"- Some recipes might also use Liquids or Mix liquids in the process!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "fdeda07f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 470"
+		}]
+	}],
+	rewards: [{
+		uid: "68d32545",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "ba33a932",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

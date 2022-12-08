@@ -1,0 +1,38 @@
+{
+	title: "Apiarist's Preparation §6Part I",
+	x: -3.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	description: "Now that you're going to become an Apiarist, you'll need some tools!",
+	text: [
+		"The First and most important tool to an Apiarist is the Scoop!",
+		"",
+		"- You'll be using it to Collect Bee Hives in the World."
+	],
+	dependencies: [
+		"9974309b"
+	],
+	tasks: [{
+		uid: "b20c1515",
+		type: "item",
+		items: [{
+			id: "forestry:scoop",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98281d34",
+		type: "item",
+		item: "harvestcraft:caramelicecreamitem",
+		count: 2
+	},
+	{
+		uid: "00702db3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Lets Automate Platinum §6Final Part§f",
+	x: 3.5d,
+	y: -10.5d,
+	description: "By far, the easiest part of the Process!",
+	text: [
+		"Well, simply §6Electrolyze§6 your §3Raw Platinum Powder§f and voilá! §bPlatinum§f!",
+		"",
+		"- If you wish to get some §3Ingots§f, you can simply §csmelt§f them in a §6Furnace§f!",
+		"",
+		"§8§o(That's actually a miracle, maybe this would be more interesting if it was a recipe in the Blast Furnace Recipe right? ping me in Discord if you want that to happen).§r§f"
+	],
+	dependencies: [
+		"e381fcb0"
+	],
+	tasks: [{
+		uid: "89be710c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 80"
+		}]
+	}],
+	rewards: [{
+		uid: "b5fe40b5",
+		type: "item",
+		item: "gregtech:meta_ingot 1 80",
+		count: 4
+	},
+	{
+		uid: "00e6758c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

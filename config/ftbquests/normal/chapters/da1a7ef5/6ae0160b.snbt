@@ -1,0 +1,34 @@
+{
+	title: "Finally TRUE INFINITE Water!",
+	x: 15.5d,
+	y: 0.0d,
+	description: "You can finally stop using GregTech Water Pumps.... If want to do so.",
+	text: [
+		"With an Unending Bowl, you can pretty much extract infinite water out of it and you can also convert it into a full block version.",
+		"",
+		"- Oh, and remember, you'll need some Watery Propolis, Better Start Working with Bee's!",
+		"",
+		"- There will be an alternate recipe later on for this Item."
+	],
+	dependencies: [
+		"1717c1b6",
+		"b3875efa"
+	],
+	tasks: [{
+		uid: "1226fd51",
+		type: "item",
+		items: [{
+			item: "roots:unending_bowl"
+		}]
+	}],
+	rewards: [{
+		uid: "2dc97fd4",
+		type: "item",
+		item: "enderio:block_tank 1 1"
+	},
+	{
+		uid: "02b862e0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,60 @@
+{
+	title: "Lets Hunt Spirits!",
+	icon: "randomthings:ingredient 1 2",
+	x: 6.0d,
+	y: 3.5d,
+	description: "Their Ectoplasm is Precious!",
+	text: [
+		"Currently it may not be that usefull, but, in the future, §3Ectoplasm§f will be a §ekey material for Wireless RF Transfer§f and other §aNeat Items/Blocks§f!",
+		"",
+		"- To get it, simply §cKill Spirits§f with §dMagic§f!",
+		"",
+		"- Whenever an §cEntity Dies§f, there's a chance of a §bSpirit§f to spawn on its place.",
+		"",
+		"§8§o(About 5% of chance for that to happen)§r§f",
+		"",
+		"- Use §5Harming Potions§f as an §2easy§f way to §ckill them§f and get §bEctoplasm§f!"
+	],
+	dependencies: [
+		"63ca77f4"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "f96893bb",
+		type: "kill",
+		entity: "randomthings:spirit",
+		value: 1L
+	},
+	{
+		uid: "0bb53855",
+		type: "item",
+		items: [{
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:strong_harming"
+			}
+		}],
+		count: 3L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5d474bd",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "893b2728",
+		type: "item",
+		item: "randomthings:spectresapling",
+		count: 2
+	},
+	{
+		uid: "684d2f11",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

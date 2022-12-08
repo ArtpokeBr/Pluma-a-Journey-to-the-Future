@@ -1,0 +1,32 @@
+{
+	title: "LV Electric Forge Hammer",
+	x: 1.5d,
+	y: 2.5d,
+	description: "Hamering with EU!",
+	text: [
+		"Essential for basic Ore Processing and Easier Wrough Iron!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "57c8a1b4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 410"
+		}]
+	}],
+	rewards: [{
+		uid: "0de425cb",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "c6ee3655",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

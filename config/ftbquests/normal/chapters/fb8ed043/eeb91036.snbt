@@ -1,0 +1,42 @@
+{
+	title: "Igniting for Free!",
+	icon: "pyrotech:igniter",
+	x: 12.5d,
+	y: -3.5d,
+	description: "By simply providing a Redstone Signal",
+	text: [
+		"Making Buttons or Levers isn't the easiest Task, but it is rewarding!",
+		"",
+		"- Igniters can be used to ignite any Pyrotech Device by a simple press of a button.",
+		"",
+		"- Yes, they can also create fire blocks."
+	],
+	dependencies: [
+		"6163423f"
+	],
+	tasks: [{
+		uid: "b8ba69ce",
+		type: "item",
+		items: [{
+			item: "pyrotech:igniter"
+		}]
+	},
+	{
+		uid: "bc70db24",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_button"
+		}]
+	}],
+	rewards: [{
+		uid: "256ace11",
+		type: "item",
+		item: "minecraft:stone_pressure_plate",
+		count: 4
+	},
+	{
+		uid: "bc4727ce",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,91 @@
+{
+	title: "The Secret Minotaur Maze!",
+	icon: "twilightforest:trophy 1 6",
+	x: 3.75d,
+	y: -0.75d,
+	shape: "octagon",
+	description: "A Lair of Important Resources!",
+	text: [
+		"Inside of an §2Twilight Swamp Biome§f, you'll be able to find strange hills that contain an entrance, the entrance to the §6Lair of Minotaurs§f!",
+		"",
+		"- Going trought this §3giant maze§f can be difficult sometimes, but §atry to always find your way down§f! ",
+		"",
+		"- There's also a chance to find the §bMaze Breaker§f! a powerfull pickaxe, §bcapable of breaking this walls with ease§f.",
+		"",
+		"- Having trouble finding your way still? Try to find a §eMaze Map Focus§f, with it, §eyou'll be able to craft a Map§f!",
+		"",
+		"- Also, as you loot your way into the §cBoss§f, there will be §6Ironwood§f and also §6Steeleaf in most chests§f, they are §e§lvery valuable§r§f! collect them!",
+		"",
+		"- Oh and don't forget, you'll need to §2§leat§r§f at least §b§l1 Meef Stroganoff to unlock the next boss§r§f, §6The Hydra§f!",
+		"",
+		"",
+		"§8§o~ Once you collect some of them, you'll be able to fabricate more soon.§r§f"
+	],
+	dependencies: [
+		"35efbc24"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "3339d307",
+		type: "kill",
+		icon: "twilightforest:trophy 1 6",
+		entity: "twilightforest:minoshroom",
+		value: 1L
+	},
+	{
+		uid: "cef1f3b0",
+		type: "item",
+		items: [{
+			id: "twilightforest:meef_stroganoff",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "20879042",
+		type: "item",
+		items: [{
+			item: "twilightforest:ironwood_ingot"
+		}]
+	},
+	{
+		uid: "4ed5cd3f",
+		type: "item",
+		items: [{
+			item: "twilightforest:steeleaf_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5a61b1e5",
+		type: "item",
+		item: {
+			id: "twilightforest:mazebreaker_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 32
+				},
+				{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 2s,
+					id: 35
+				}]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "19f42d6e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

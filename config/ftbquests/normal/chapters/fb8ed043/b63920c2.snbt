@@ -1,0 +1,46 @@
+{
+	title: "Collecting Tiny Thingies...",
+	icon: "pyrotech:material 1 17",
+	x: 2.5d,
+	y: -1.5d,
+	description: "That's one of the reasons why Crude Tools aren't the best...",
+	text: [
+		"That's Right! you've probally already noticed, but Crude Tools can't collect some resources directly.",
+		"",
+		"- When Breaking stones you'll get pebbles",
+		"",
+		"- When Breaking Sand you'll get tiny piles",
+		"",
+		"- When Breaking Dirt you'll get clumps",
+		"",
+		"and it goes on...",
+		"",
+		"Well, lets work towards better tools!",
+		"",
+		"Try to find Granite and Clay first of all."
+	],
+	dependencies: [
+		"a9967abd"
+	],
+	tasks: [{
+		uid: "15bb0e47",
+		type: "item",
+		items: [{
+			item: "pyrotech:rock 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3fdfd960",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 17"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8985b8bd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

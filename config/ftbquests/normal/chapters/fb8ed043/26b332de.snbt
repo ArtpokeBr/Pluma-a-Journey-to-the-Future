@@ -1,0 +1,63 @@
+{
+	title: "Welcome to Pluma!",
+	icon: "minecraft:feather",
+	x: -3.5d,
+	y: -0.5d,
+	shape: "gear",
+	description: "A Long Journey Awaits you!",
+	text: [
+		"First of all, thanks for dowloading this Modpack!",
+		"",
+		"- Take this Initial gift for you and good luck with your Journey!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f8b75b07",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "d2159dee",
+		type: "gamestage",
+		team_reward: false,
+		auto: "invisible",
+		stage: "WorktableJEI"
+	},
+	{
+		uid: "23662eda",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "quark:archaeologist_hat",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "4b2842ea",
+		type: "item",
+		team_reward: false,
+		item: "minecraft:bread",
+		count: 10
+	},
+	{
+		uid: "e803111a",
+		type: "item",
+		team_reward: false,
+		item: "minecraft:torch"
+	},
+	{
+		uid: "904e7725",
+		type: "item",
+		item: {
+			id: "akashictome:tome",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	}]
+}

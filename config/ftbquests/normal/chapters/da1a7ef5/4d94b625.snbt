@@ -1,0 +1,39 @@
+{
+	title: "An Enchantment Table!",
+	x: 11.5d,
+	y: 1.0d,
+	description: "Finally some Enchanting!",
+	text: [
+		"With your brand new Runic Steel, you finally have acess to Vanilla Enchanting!",
+		"",
+		"- Most Tools can be Enchanted, including GT and Roots Tools aswell."
+	],
+	dependencies: [
+		"b3875efa"
+	],
+	tasks: [{
+		uid: "214e1403",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "bb633796",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 70s
+				}]
+			}
+		}
+	},
+	{
+		uid: "2e146dfb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

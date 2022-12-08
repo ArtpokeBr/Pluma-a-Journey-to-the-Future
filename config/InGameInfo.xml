@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topright">
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+        <str>$0</str>
+        </line>  
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+        <str>$0</str>
+        </line>   
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+        <str>$0</str>
+        </line>                                
+        <line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>
+            <str> $rMinecraft Year $3</str>
+            <add>
+                <round>
+                    <div>
+                        <sub>
+                            <var>day</var>
+                            <modi>
+                                <var>day</var>
+                                <num>365</num>
+                            </modi>
+                        </sub>
+                        <num>365</num>
+                    </div>
+                    <num>0</num>
+                </round>
+                <num>1</num>
+            </add>     
+            <str> $rDay $3</str>
+            <modi>
+                <var>day</var>
+                <num>365</num>
+            </modi>
+        </line>    
+        <line>       
+            <str>Time: </str>
+            <str>$6{mctime12} $r</str>
+            <if>
+                <var>daytime</var>
+                <str>$e(Day) </str>
+                <str>$7(Night) </str>
+            </if>
+        </line>
+         <line>
+            <icon>
+                <str>fossil:anu_portal</str>
+            </icon>
+            <str> Dimension: {gold}{dimension} ({dimensionid})</str>
+        </line>
+        <line>
+            <icon>
+                <str>gregtech:rubber_sapling</str>
+            </icon>
+            <str>Biome: $3{biome}$f </str>
+        </line>
+        <line>
+            <str>$6</str>
+            <round>
+                <div>
+                    <sub>
+                        <var>localtemperature</var>
+                        <num>32</num>
+                    </sub>
+                    <num>1.8</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>$r °C $6</str>
+            <round>
+                <add>
+                    <div>
+                        <sub>
+                            <var>localtemperature</var>
+                            <num>32</num>
+                        </sub>
+                        <num>1.8</num>
+                    </div>
+                    <num>273.15</num>
+                </add>
+                <num>0</num>
+            </round>
+            <str>$r K </str>
+        </line>
+        <line>
+            <icon>
+                <str>biomesoplenty:earth</str>
+            </icon> 
+            <str>$6{humidity}%$f Humidity </str>
+        </line>    
+        <line>
+            <str>$0</str>
+        </line>
+        <line>
+            <str>$0</str>
+        </line>
+        <line>
+            <str>$0</str>
+        </line>
+        <line>
+            <if>
+                <str>  Nearest players:</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  1) $6{nearbyplayername0}$f({nearbyplayerdistance0}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) $6{nearbyplayername1}$f({nearbyplayerdistance1}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) $6{nearbyplayername2}$f({nearbyplayerdistance2}m)</str>
+            </if>
+        </line>
+    </lines>
+    <lines at="bottomright">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionduration0} {potionicon0}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionduration1} {potionicon1}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionduration2} {potionicon2}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionduration3} {potionicon3}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionduration4} {potionicon4}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionduration5} {potionicon5}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{potionduration6} {potionicon6}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{potionduration7} {potionicon7}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <str>{potionduration8} {potionicon8}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+</config>

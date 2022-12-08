@@ -1,0 +1,80 @@
+{
+	title: "Bee Protected",
+	icon: {
+		id: "forestry:apiarist_helmet",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 2.5d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "Making an \"Apiarist Armor\"",
+	text: [
+		"With this Clothes you'll be fully protected against Bee Attacks! ",
+		"",
+		"Good when you need to collect a bunch of Wild Bees or maybe to stay in theme with this Mod."
+	],
+	dependencies: [
+		"d9b1b409"
+	],
+	tasks: [{
+		uid: "8d2f5bb3",
+		type: "item",
+		items: [{
+			id: "forestry:apiarist_helmet",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7d948822",
+		type: "item",
+		items: [{
+			id: "forestry:apiarist_chest",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f85facc2",
+		type: "item",
+		items: [{
+			id: "forestry:apiarist_legs",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ce81ac32",
+		type: "item",
+		items: [{
+			id: "forestry:apiarist_boots",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "016bd629",
+		type: "item",
+		item: "forestry:honey_drop",
+		count: 16
+	},
+	{
+		uid: "ca06be84",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

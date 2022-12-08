@@ -1,0 +1,45 @@
+{
+	title: "Generating Your First Bits of Mana!",
+	x: -5.215306122448979d,
+	y: -2.992857142857151d,
+	description: "Time to make an Petro Petunia!",
+	text: [
+		"Unlike Normal §aBotania Progression§f, you're going to §egenerate§f your first bits of §bMana§f with an §6Petro Petunia§f!",
+		"",
+		"- It will §egenerate§f §bMana§f using §3Liquid Fuels§f.",
+		"",
+		"- Simply §2place§f §9Tank§f close to it."
+	],
+	dependencies: [
+		"79c410f5"
+	],
+	tasks: [{
+		uid: "fb3bdcfd",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "petro_petunia"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5a0b5235",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 80s,
+			tag: {
+				Fluid: {
+					FluidName: "oil",
+					Amount: 8000
+				}
+			}
+		}
+	},
+	{
+		uid: "27eaff76",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

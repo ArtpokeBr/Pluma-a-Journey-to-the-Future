@@ -1,0 +1,45 @@
+{
+	title: "Pumps and Conveyors",
+	x: -1.5d,
+	y: 7.0d,
+	description: "LV Materials II",
+	text: [
+		"Pumps and Conveyors are essential for some recipes, but, they work diferent than Motors and Pistons.",
+		"",
+		"- They can be placed as covers and actually do something! Pumps will transfer Fluids for example.",
+		"",
+		"- Once you've placed one, shift + right click to acess the Config GUI.",
+		"",
+		"~ Pretty usefull for compact automations!"
+	],
+	dependencies: [
+		"ffc88aa1"
+	],
+	tasks: [{
+		uid: "44df035e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 142"
+		}],
+		count: 2L
+	},
+	{
+		uid: "377870f0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 157"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "c0e8eb86",
+		type: "choice",
+		icon: "gregtech:meta_item_1 2 142",
+		table: 3
+	},
+	{
+		uid: "69c9d149",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "Lets make an Ender Plastic! §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "enderlyne",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 5.5d,
+	y: -1.5d,
+	description: "Making Enderlyne!",
+	text: [
+		"With some §2Specific Material's§f from §5The End§f, you'll be able to §6Chemically React§f them together to form a special §3Polymer§f...",
+		"",
+		"- §dEnderlyne§f!",
+		"",
+		"§8§o~ Consider finding ways to automate this resource, as it will be used troughout the pack.§r§f"
+	],
+	dependencies: [
+		"0e0ceb7e"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f9a8c1bb",
+		type: "item",
+		title: "Valid Enderlyne Materials",
+		items: [{
+			item: "stygian:endglow"
+		},
+		{
+			item: "stygian:endtallgrass"
+		},
+		{
+			item: "stygian:endleaves"
+		}]
+	},
+	{
+		uid: "3fee6792",
+		type: "fluid",
+		fluid: "enderlyne"
+	}],
+	rewards: [{
+		uid: "166d45b6",
+		type: "item",
+		item: "stygian:endglow",
+		count: 32
+	},
+	{
+		uid: "8bbf4901",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

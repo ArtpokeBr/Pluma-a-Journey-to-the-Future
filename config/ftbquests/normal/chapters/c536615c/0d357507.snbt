@@ -1,0 +1,33 @@
+{
+	x: 4.0d,
+	y: -0.5d,
+	description: "{pluma.provmod.subtitle}",
+	text: [
+		"{pluma.provmod.desc1}",
+		"",
+		"{pluma.provmod.desc2}",
+		"",
+		"{pluma.provmod.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "27ee6f0c",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_provider"
+		}]
+	}],
+	rewards: [{
+		uid: "d057e1e1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7efcee16",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

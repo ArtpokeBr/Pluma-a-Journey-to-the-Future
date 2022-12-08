@@ -1,0 +1,60 @@
+{
+	title: "Analyzing the Results!",
+	x: -1.0d,
+	y: -5.0d,
+	description: "Lets analyze those Fossils!",
+	text: [
+		"After you process your §6Fossil Ores§f... you'll get this Items!",
+		"",
+		"► Each one of them will reveal an §6Ancient Knowladge§f.",
+		"",
+		"► §6Biofossil§f will become, hopefully, an §bAncient DNA§f.",
+		"",
+		"► §6Relic Scrap§f will become, hopefully, an §bAncient Archeological Discovery§f.",
+		"",
+		"► §6Plant Fosill§f will become, hopefully, some §bAncient Plant Remains§f."
+	],
+	dependencies: [
+		"3b7886af"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a4b7e670",
+		type: "item",
+		items: [{
+			item: "fossil:analyzer"
+		}]
+	},
+	{
+		uid: "378558ef",
+		type: "item",
+		items: [{
+			item: "fossil:biofossil"
+		}]
+	},
+	{
+		uid: "7aafbe5e",
+		type: "item",
+		items: [{
+			item: "fossil:relic_scrap"
+		}]
+	},
+	{
+		uid: "ac1e8fdc",
+		type: "item",
+		items: [{
+			item: "fossil:plant_fossil"
+		}]
+	}],
+	rewards: [{
+		uid: "e16b930c",
+		type: "item",
+		item: "fossil:diamond_javelin",
+		count: 4
+	},
+	{
+		uid: "a83c527d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "The Rainbow Fabric!",
+	x: 0.0d,
+	y: -3.0d,
+	shape: "circle",
+	description: "Not a Mod Loader.",
+	text: [
+		"Now, with your §bQuesting Ram Trophy§f, you'll be able to §5magically assemble§f this piece of §6Rainbow Fabric§f!",
+		"",
+		"- Also, §eWatch out§f for those §9Chemical Dyes§f, perhaps it is a §agood idea§f to set up some §2simple automations for them§f.",
+		"",
+		"- It will be used as one of the §aMain Ingredients§f from §3The Twilight Forest§f."
+	],
+	dependencies: [
+		"b2573316"
+	],
+	tasks: [{
+		uid: "700764bf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rainbow_fabric"
+		}]
+	}],
+	rewards: [{
+		uid: "b04626c6",
+		type: "item",
+		item: "harvestcraft:rainbowcurryitem",
+		count: 8
+	},
+	{
+		uid: "e643d5d3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

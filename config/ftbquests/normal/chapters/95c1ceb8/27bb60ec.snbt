@@ -1,0 +1,66 @@
+{
+	title: "A More advanced type of SoC!",
+	icon: "gregtech:meta_item_1 1 572",
+	x: 7.0d,
+	y: -2.5d,
+	description: "Time to really get into Wafer Manufacturing!",
+	text: [
+		"Well, just like you've done before with those Basic §bSoC's§f you'll now do an similar process for the §2Normal SoC's§f.",
+		"",
+		"- First, you better have an §6HV Blast Furnace§f, as you'll need some §eGlowstone Doped Boules§f for this process.",
+		"",
+		"- Them Make at least an §6HV Laser Engraver§f and a §eYellow Lens§f.",
+		"§8§o(you remember how to do those right?)§r§f",
+		"",
+		"- After §6Engraving§f the §3Wafer§f, simply cut it with an §6HV Cutting Machine§f and Voilá! §2SoC's§f!",
+		"",
+		"- Why they're so usefull? well, with those you'll be able to §aautomate§f both the best §6LV§f and §6MV Circuits§f!"
+	],
+	dependencies: [
+		"63ca77f4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "422c09c3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 362"
+		}]
+	},
+	{
+		uid: "f389b663",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 372"
+		}]
+	},
+	{
+		uid: "c568f126",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 562"
+		}]
+	},
+	{
+		uid: "8ac1d514",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 824"
+		}]
+	},
+	{
+		uid: "d719e92a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 572"
+		}]
+	},
+	{
+		uid: "90b17984",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 597"
+		}],
+		count: 6L
+	}]
+}

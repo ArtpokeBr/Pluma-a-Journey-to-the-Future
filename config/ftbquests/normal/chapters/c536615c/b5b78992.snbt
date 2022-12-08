@@ -1,0 +1,42 @@
+{
+	icon: "logisticspipes:pipe_remote_orderer",
+	x: -0.5d,
+	y: -0.5d,
+	description: "{pluma.logordreq.subtitle}",
+	text: [
+		"{pluma.logordreq.desc1}",
+		"",
+		"{pluma.logordreq.desc2}",
+		"",
+		"{pluma.logordreq.desc3}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	tasks: [{
+		uid: "f60bbdd3",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_remote_orderer"
+		}]
+	},
+	{
+		uid: "4cc813e3",
+		type: "item",
+		items: [{
+			item: "logisticspipes:remote_orderer"
+		}]
+	}],
+	rewards: [{
+		uid: "5c791599",
+		type: "item",
+		item: "logisticspipes:module_item_sink",
+		count: 4
+	},
+	{
+		uid: "ac769069",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

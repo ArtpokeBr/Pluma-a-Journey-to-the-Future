@@ -1,0 +1,462 @@
+{
+  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "mbd:dwarven_matrix",
+  "traits": {
+    "background": "multiblocked:textures/gui/fluid_hatch_gui.png"
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "embers:archaic_edge",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "baseTexture": "multiblocked:blocks/casing/archaic_edge",
+    "frontTexture": "multiblocked:blocks/overlay/overlay_front_4",
+    "upTexture": "multiblocked:blocks/overlay/overlay_top_4",
+    "type": "gregtech"
+  },
+  "workingRenderer": {
+    "baseTexture": "multiblocked:blocks/casing/archaic_edge",
+    "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_4",
+    "upTexture": "multiblocked:blocks/overlay/overlay_top_4_active",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABBBBBA",
+        "C     C",
+        "C     C",
+        "C     C",
+        "D     D",
+        " EFFFE ",
+        "  EGE  ",
+        "  HHH  "
+      ],
+      [
+        "BIJKJIB",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "E     E",
+        " LMMML ",
+        "       "
+      ],
+      [
+        "BJJJJJB",
+        "  NOP  ",
+        "       ",
+        "       ",
+        "       ",
+        "F     F",
+        "EL   LE",
+        "H     H"
+      ],
+      [
+        "@QJRJQB",
+        "  STU  ",
+        "       ",
+        "       ",
+        "       ",
+        "F     F",
+        "GL   LG",
+        "H     H"
+      ],
+      [
+        "BJJJJJB",
+        "  VWX  ",
+        "       ",
+        "       ",
+        "       ",
+        "F     F",
+        "EL   LE",
+        "H     H"
+      ],
+      [
+        "BIJKJIB",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "E     E",
+        " LMMML ",
+        "       "
+      ],
+      [
+        "ABBBBBA",
+        "C     C",
+        "C     C",
+        "C     C",
+        "D     D",
+        " EFFFE ",
+        "  EGE  ",
+        "  HHH  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "embers:archaic_tile",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "embers:archaic_edge",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "astralsorcery:blockblackmarble",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "astralsorcery:blockblackmarble",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockblackmarble",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "embers:ashen_brick_slab",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "embers:archaic_light",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "embers:ashen_tile_slab",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "embers:ashen_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "embers:ashen_tile",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "embers:wrapped_sealed_planks",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "embers:sealed_planks",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "embers:advanced_edge",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "O": {
+        "states": [
+          {
+            "id": "embers:advanced_edge",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "P": {
+        "states": [
+          {
+            "id": "embers:advanced_edge",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "R": {
+        "states": [
+          {
+            "id": "embers:mech_core",
+            "meta": 0
+          },
+          {
+            "id": "embers:mech_accessor",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "Fluids": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "S": {
+        "states": [
+          {
+            "id": "embers:advanced_edge",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "T": {
+        "states": [
+          {
+            "id": "embers:crystal_cell",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "U": {
+        "states": [
+          {
+            "id": "embers:advanced_edge",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "V": {
+        "states": [
+          {
+            "id": "embers:advanced_edge",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "W": {
+        "states": [
+          {
+            "id": "embers:advanced_edge",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "X": {
+        "states": [
+          {
+            "id": "embers:advanced_edge",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "Items": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "Embers": {
+        "capability": "ember",
+        "type": "capability"
+      },
+      "controller": {
+        "location": "mbd:dwarven_matrix",
+        "type": "component"
+      },
+      "any": {
+        "type": "any"
+      },
+      "Eblock": {
+        "blocks": [
+          {
+            "id": "embers:ashen_tile"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "Items",
+        "Eblock"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "any",
+        "N"
+      ],
+      "O": [
+        "any",
+        "O"
+      ],
+      "P": [
+        "P",
+        "any"
+      ],
+      "Q": [
+        "Fluids",
+        "Eblock"
+      ],
+      "R": [
+        "Embers",
+        "R"
+      ],
+      "S": [
+        "S",
+        "any"
+      ],
+      "T": [
+        "T"
+      ],
+      "U": [
+        "U",
+        "any"
+      ],
+      "V": [
+        "V",
+        "any"
+      ],
+      "W": [
+        "W",
+        "any"
+      ],
+      "X": [
+        "X",
+        "any"
+      ],
+      " ": [
+        "any"
+      ]
+    }
+  },
+  "recipeMap": "dwarven_matrix"
+}

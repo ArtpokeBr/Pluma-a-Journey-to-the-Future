@@ -1,0 +1,49 @@
+{
+	title: "Lets automate PTFE (Teflon) §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "chloroform",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 0.0d,
+	y: -6.5d,
+	description: "Chloroform and Hydrochloric Acid",
+	text: [
+		"Now, you'll be able to mix both §dMethane§f and §3Chlorine§f to get 2 Valuable §6Chemicals§f!",
+		"",
+		"- §5Chloroform§f will be used soon to get §8Teflon§f.",
+		"",
+		"- §7Hydrochloric Acid§f will be used soon to get many §6Chemicals§f such as §aPVC§f and §eBisphenol A§f."
+	],
+	dependencies: [
+		"54ca0e8a",
+		"337698c7"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "e34249c3",
+		type: "fluid",
+		fluid: "chloroform"
+	},
+	{
+		uid: "90a92dc2",
+		type: "fluid",
+		fluid: "hydrochloric_acid"
+	}],
+	rewards: [{
+		uid: "291baabd",
+		type: "item",
+		item: "gregtech:machine 1 1575",
+		count: 2
+	},
+	{
+		uid: "eb6bfc77",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

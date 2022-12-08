@@ -1,0 +1,33 @@
+{
+	title: "{pluma.logrequest.title}",
+	x: -1.5d,
+	y: 0.0d,
+	description: "{pluma.logrequest.subtitle}",
+	text: [
+		"{pluma.logrequest.desc1}",
+		"",
+		"{pluma.logrequest.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	tasks: [{
+		uid: "bc43c2c3",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_request"
+		}]
+	}],
+	rewards: [{
+		uid: "cb927d23",
+		type: "item",
+		item: "logisticspipes:upgrade_speed",
+		count: 4
+	},
+	{
+		uid: "5e4aeae4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Crude Drying!",
+	x: 0.5d,
+	y: -0.5d,
+	description: "Time to dry up Plant Fibers!",
+	text: [
+		"The Drying Rack will be essential for Dried Plant fibers and more crafts later on!",
+		"",
+		"But before using it, here are some considerations:",
+		"",
+		"- Its speed is dependant of the Humidity of your current biome",
+		"",
+		"- This Device is SLOW, remember to make multiple of them"
+	],
+	dependencies: [
+		"3cb0f25f"
+	],
+	tasks: [{
+		uid: "1fa60816",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}]
+	}],
+	rewards: [{
+		uid: "48587f2d",
+		type: "item",
+		item: "pyrotech:drying_rack",
+		count: 3
+	},
+	{
+		uid: "f8eb94a3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

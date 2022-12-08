@@ -1,0 +1,35 @@
+{
+	title: "Lets go to the Nether!",
+	icon: {
+		id: "microblockcbe:microblock",
+		Damage: 4s,
+		tag: {
+			mat: "minecraft:obsidian"
+		}
+	},
+	x: 5.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	description: "Many Important Resources are waiting for you...",
+	text: [
+		"The Nether have been tweaked to be a dificult dimension. ",
+		"",
+		"you can get glowstone and other resources easily there, but there's a Risk.",
+		"",
+		"No Pain no Gain"
+	],
+	dependencies: [
+		"0ec685a0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5308ebd3",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "7b4c0b59",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

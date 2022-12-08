@@ -1,0 +1,37 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	description: "{pluma.basiclogpipes.subtitle}",
+	text: [
+		"{pluma.basiclogpipes.desc1}",
+		"",
+		"{pluma.basiclogpipes.desc2}",
+		"{pluma.basiclogpipes.desc3}",
+		"",
+		"{pluma.basiclogpipes.desc4}",
+		"",
+		"{pluma.basiclogpipes.desc5}"
+	],
+	dependencies: [
+		"a8ec64a8"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8582c721",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "89672b1f",
+		type: "item",
+		item: "logisticspipes:pipe_basic",
+		count: 2
+	},
+	{
+		uid: "52d92bea",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

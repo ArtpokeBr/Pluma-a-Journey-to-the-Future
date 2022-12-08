@@ -1,0 +1,44 @@
+{
+	title: "Sluicing!",
+	x: 10.5d,
+	y: -2.0d,
+	description: "Like a Juice Box? no?",
+	text: [
+		"With a Sluice Box you'll be able to realize some needed crafts",
+		"",
+		"- Remember that you also need to provide it with water for the crafting operation to occur.",
+		"",
+		"- Get some Tainted Soil and Soul Sand and use them in the Sluice Box!"
+	],
+	dependencies: [
+		"17db2348"
+	],
+	tasks: [{
+		uid: "880e13f7",
+		type: "item",
+		items: [{
+			item: "magneticraft:sluice_box"
+		}]
+	},
+	{
+		uid: "5c1247ed",
+		type: "item",
+		items: [{
+			item: "quark:soul_powder"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ef4d3211",
+		type: "item",
+		items: [{
+			item: "contenttweaker:taintedsoildust"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "38da1edd",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

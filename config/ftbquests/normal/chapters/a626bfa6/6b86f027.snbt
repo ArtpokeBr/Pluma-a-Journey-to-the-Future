@@ -1,0 +1,47 @@
+{
+	title: "The Process of Obtaining Zinc §6Part II§f",
+	x: 6.0d,
+	y: 5.5d,
+	description: "Wash your Hands Please!",
+	text: [
+		"Now, with your Crushed Tin, it is time to set up an Ore Washer!",
+		"",
+		"- You have a choice here, get tiny piles of Iron at a fair energy and Time Cost? or just get Tin at a cheaper Time/Energy Costs?",
+		"",
+		"- Either way, use the  Programmed Circuit that you'll receive from this Quest and choose the number needed for the desired recipe."
+	],
+	dependencies: [
+		"e1b80e3f"
+	],
+	tasks: [{
+		uid: "7379f570",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 485"
+		}]
+	},
+	{
+		uid: "210e0f7e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed_purified 1 112"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "9ce7e51e",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 461s,
+			tag: {
+				Configuration: 2
+			}
+		}
+	},
+	{
+		uid: "63e828fe",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

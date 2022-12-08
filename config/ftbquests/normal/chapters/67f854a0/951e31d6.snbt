@@ -1,0 +1,33 @@
+{
+	title: "An Enhanced Machine Chassis",
+	x: -0.7465986394557831d,
+	y: 3.5195790816326635d,
+	description: "Time to get into Advanced Ender IO Tech!",
+	text: [
+		"§3This Chassis§f could be expensive at first, but it is §avery rewarding§f!",
+		"",
+		"- Also, you'll need it for the overall §6Chassis Progression§f."
+	],
+	dependencies: [
+		"7cb6fd8f",
+		"32d484cb"
+	],
+	tasks: [{
+		uid: "7bff00af",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "f0a10dd6",
+		type: "item",
+		item: "enderio:item_material 1 66",
+		count: 4
+	},
+	{
+		uid: "af6d0bbd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "MV Circuits are here!",
+	x: -5.5d,
+	y: -12.0d,
+	description: "Finally, more technology awaits you!",
+	text: [
+		"You now can finally reach MV with these Circuits.",
+		"",
+		"- You'll still need some Aluminium ot officially start making MV Machines."
+	],
+	dependencies: [
+		"360c9dc0",
+		"ae726e97"
+	],
+	tasks: [{
+		uid: "311ccb65",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 622"
+		}]
+	}],
+	rewards: [{
+		uid: "b90f72eb",
+		type: "item",
+		item: "gregtech:meta_item_1 1 622",
+		random_bonus: 2
+	},
+	{
+		uid: "ad0a601d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

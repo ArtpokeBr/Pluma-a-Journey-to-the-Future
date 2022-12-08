@@ -1,0 +1,79 @@
+{
+	title: "The Gold Processing Line §6Part II§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "nitric_acid",
+			Amount: 1000
+		}
+	},
+	x: 9.0d,
+	y: 3.0d,
+	description: "Lets make Nitric Acid!",
+	text: [
+		"By §6Chemically Reacting§f §bOxygen and Nitrogen§f, you'll get §3Nitric Oxide§f.",
+		"",
+		"- By §6Chemically Reacting§f it again with more §bOxygen§f, you'll get §3Nitrogen Dioxide§f!",
+		"",
+		"- And §6Chemically Reacting§f it once again, you'll Finally get §e§nNitric Acid§r§f!",
+		"",
+		"§8§o(There are 2 possible recipes for Nitric Acid in LV, I recommned that you automate the first one, since you'll get Nitric Oxide back.)§r§f"
+	],
+	dependencies: [
+		"96130a66"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "e78c1658",
+		type: "fluid",
+		fluid: "nitric_oxide"
+	},
+	{
+		uid: "7420d204",
+		type: "fluid",
+		fluid: "nitrogen_dioxide"
+	},
+	{
+		uid: "f744b728",
+		type: "fluid",
+		fluid: "nitric_acid"
+	},
+	{
+		uid: "1884dcd1",
+		type: "item",
+		title: "A LV to HV Chemical Reactor",
+		items: [{
+			item: "gregtech:machine 1 215"
+		},
+		{
+			item: "gregtech:machine 1 216"
+		},
+		{
+			item: "gregtech:machine 1 217"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "ce029650",
+		type: "item",
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {
+				Fluid: {
+					FluidName: "nitric_acid",
+					Amount: 10000
+				}
+			}
+		}
+	},
+	{
+		uid: "9ff7adf0",
+		type: "item",
+		item: "gregtech:machine 1 215"
+	},
+	{
+		uid: "bd2c8dc2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

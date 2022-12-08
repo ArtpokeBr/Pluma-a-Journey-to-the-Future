@@ -1,0 +1,41 @@
+{
+	title: "Alchemically Imbued Nautilus!",
+	x: 11.5d,
+	y: -1.5d,
+	description: "This is Where Automating Ember's will be essential!",
+	text: [
+		"By §6Stamping§f §cAlchemical Slurry§f into a §eNautilus Shell§f, an §dAlchemical Nautilus Shell§f!",
+		"",
+		"- It is advised to start §2automating this resource§f or at least, §2make a batch for now§f."
+	],
+	dependencies: [
+		"0a116d6f",
+		"06fc0b12"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "e8e18f4b",
+		type: "item",
+		items: [{
+			item: "fossil:shell"
+		}]
+	},
+	{
+		uid: "d1488a85",
+		type: "item",
+		items: [{
+			item: "contenttweaker:alchemical_nautilus"
+		}]
+	}],
+	rewards: [{
+		uid: "02feadc8",
+		type: "item",
+		item: "gregtech:ore_redstone_0",
+		count: 8
+	},
+	{
+		uid: "bf750f28",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

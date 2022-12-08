@@ -1,0 +1,44 @@
+{
+	title: "A Very Cold Material!",
+	icon: "thermalfoundation:material 1 1025",
+	x: -3.0d,
+	y: -0.5d,
+	description: "Lets make some Cryotheum!",
+	text: [
+		"By Mixing some §bBlizz Powder§f, §2Crushed Ice§f and a little bit of §3Nitrogen Dioxide§f, §b§lCryotheum§r§f!",
+		"",
+		"- §b§lCryotheum§r§f is a very potent §9Coolant§f, maybe it is a good idea to §2stockpile§f some.",
+		"",
+		"- Wondering how to get §3Nitrogen Dioxide§f? You can easily obtain it if your use and §5Large Chemical Reactor§f.",
+		"",
+		"§8§o(There's a Quest in this Chapter for it, you you progress trough the Air Collector and the Vanadiumsteel Questlines)§r§f"
+	],
+	dependencies: [
+		"9909954b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "664cd0ca",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1025"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f983ec63",
+		type: "fluid",
+		fluid: "cryotheum"
+	}],
+	rewards: [{
+		uid: "e9283cda",
+		type: "item",
+		item: "thermalfoundation:material 1 2048",
+		count: 16
+	},
+	{
+		uid: "1b22f078",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

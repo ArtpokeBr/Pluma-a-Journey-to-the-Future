@@ -1,0 +1,42 @@
+{
+	title: "Laser Engraving Wafers!",
+	x: -0.5d,
+	y: -14.0d,
+	description: "Time to start using those Ruby Lenses",
+	text: [
+		"Well, previously you've crafted a §cRuby Lens§f, now, use a §6Laser Engraver§f and the Lens to obtain some §9ILC Wafers§f!",
+		"",
+		"- §9Integrated Logic Circuit Wafers§f will be an essential component for a §6better LV Circuit§f.",
+		"",
+		"- The Logic is, you'll need §6better LV Circuits§f in order to make the §ebetter MV Circuits§f and finally upgrade them to §4Starter HV ones§f."
+	],
+	dependencies: [
+		"53b10655"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f862dddf",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 561"
+		}]
+	},
+	{
+		uid: "906620e2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 568"
+		}]
+	}],
+	rewards: [{
+		uid: "37d11260",
+		type: "item",
+		item: "gregtech:meta_item_1 1 568",
+		count: 2
+	},
+	{
+		uid: "e47b6e32",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

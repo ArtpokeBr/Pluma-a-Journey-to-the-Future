@@ -1,0 +1,138 @@
+{
+	title: "Brand New Resources to Find!",
+	x: -1.0d,
+	y: -1.5d,
+	description: "Fossil, Amber, Permafrost and more!",
+	text: [
+		"Most of these §3Ores§f are §3Exclusive§f to this §5Dimension§f, you better §3collect§f some of them!",
+		"",
+		"- §6Fossil§f Ores, §6Amber§f and §6Lignite§f can all be found in the same §3Vein§f.",
+		"",
+		"- §6Oil Shale§f Ores and §5Biotite§f can both be found in the same §3Vein§f.",
+		"",
+		"- §bPermafrost§f is an interesting ore... you can only find it in high altitudes and it is mixed up with some §bIce§f Agglomerations there."
+	],
+	dependencies: [
+		"a6aa80c9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1a1c9e04",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasaltFossil"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreBasaltFossil"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "1e5ca70f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasaltAmber"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreBasaltAmber"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "e3c7f993",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasaltLigniteCoal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreBasaltLigniteCoal"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "95880a9a",
+		type: "item",
+		items: [{
+			item: "fossil:permafrost"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1fbf1280",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreClathrateOilShale"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreClathrateOilShale"
+				}
+			}
+		}]
+	},
+	{
+		uid: "dd6ef205",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasaltBiotite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreBasaltBiotite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "691716bf",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "9d9c8c63",
+		type: "item",
+		item: "fossil:permafrost",
+		count: 4
+	},
+	{
+		uid: "6e7ef926",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

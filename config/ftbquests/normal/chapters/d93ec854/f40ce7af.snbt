@@ -1,0 +1,50 @@
+{
+	title: "A Caminite Material!",
+	x: 7.0d,
+	y: -2.5d,
+	description: "Lets get into Embers!",
+	text: [
+		"By smelting those §3Caminite Blends§f on an §6Arc Furnace§f with §5Beneathian Air§f, you'll be able to make a §2hardened version of it§f!",
+		"",
+		"- Also, if you use some of the §3blend§f and actually make a §2raw plate§f before, you'll be able to them §cSmelt it§f into the §6Caminite Plate§f."
+	],
+	dependencies: [
+		"34b2f2b8"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e520ee3f",
+		type: "item",
+		items: [{
+			item: "embers:brick_caminite"
+		}]
+	},
+	{
+		uid: "88208f96",
+		type: "item",
+		items: [{
+			item: "embers:plate_caminite"
+		}]
+	}],
+	rewards: [{
+		uid: "9dae0873",
+		type: "item",
+		item: "embers:blend_caminite",
+		count: 16
+	},
+	{
+		uid: "179e0173",
+		type: "item",
+		item: {
+			id: "embers:codex",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "03b91bbb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

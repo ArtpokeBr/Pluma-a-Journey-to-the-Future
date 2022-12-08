@@ -1,0 +1,35 @@
+{
+	title: "Accessing your Network",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Lets make some Terminal's!",
+	text: [
+		"By using §6Terminal's§f you can pretty much acess and manipulate your §dNetwork§f Manually.",
+		"",
+		"- With an §dME Terminal§f you can §bpick up§f and §2deposit§f any §2Item's§f that you wish.",
+		"",
+		"- The §9Same concept§f applies to §bany§f other variation of this §6Terminal§f.",
+		"§8§o(The Fluid Terminal for Fluids, The Arcane for Thaumcraft and etc)§r§f"
+	],
+	dependencies: [
+		"e54b21e4"
+	],
+	tasks: [{
+		uid: "79c5b87e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	}],
+	rewards: [{
+		uid: "f4a11c0f",
+		type: "item",
+		item: "appliedenergistics2:quartz_fixture",
+		count: 16
+	},
+	{
+		uid: "8776fbb3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

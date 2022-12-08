@@ -1,0 +1,63 @@
+{
+	title: "Carrying Herbs around!",
+	x: 13.5d,
+	y: 4.0d,
+	description: "Bags for all of your Apothecarycal needs",
+	text: [
+		"With any of these Bags, you'll be able to carry the materials for your spells, and it can even be placed in one bauble slot!",
+		"",
+		"- Remember, this quest requires any of them, but, they have \"tiers\" that scale up the amount of storage."
+	],
+	dependencies: [
+		"c18220ae"
+	],
+	tasks: [{
+		uid: "aad5f2c5",
+		type: "item",
+		title: "Craft Any Herb Pouch",
+		items: [{
+			id: "roots:herb_pouch",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:component_pouch",
+			tag: {
+				bag_idMost: -2345399370781800248L,
+				bag_idLeast: -7769360574875277051L
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:fey_pouch",
+			tag: {
+				bag_idMost: 3085390459885668063L,
+				bag_idLeast: -8694814746773943266L
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "roots:apothecary_pouch",
+			tag: {
+				bag_idMost: -210668047279307249L,
+				bag_idLeast: -5972172761046592330L
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d874d5d6",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

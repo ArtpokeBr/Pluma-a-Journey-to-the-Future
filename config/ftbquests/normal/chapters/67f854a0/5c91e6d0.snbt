@@ -1,0 +1,36 @@
+{
+	title: "An Extremely Usefull Upgrade!",
+	icon: "gregtech:machine 1 473",
+	x: 2.5d,
+	y: 0.0d,
+	description: "Seriously, time to upgrade your HV Mixer to EV!",
+	text: [
+		"Well, this Mixer will improve your current §9Mixing Recipes§f allowing you to §eOverclock§f them to §6EV Level§f.",
+		"",
+		"- But most importantly, you'll need it to Progress Further in §6Chapter 11§f.",
+		"",
+		"§8§o~ For Example, you'll unlock Thermal Expansion's Alloys after this Quest! such as Lumium, Signalum and Enderium!§r§f"
+	],
+	dependencies: [
+		"0ef0d105"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ed408a7b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 473"
+		}]
+	}],
+	rewards: [{
+		uid: "15a23457",
+		type: "item",
+		item: "gregtech:meta_item_1 1 630",
+		count: 2
+	},
+	{
+		uid: "09569597",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

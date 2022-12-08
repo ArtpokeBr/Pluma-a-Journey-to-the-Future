@@ -1,0 +1,16 @@
+{
+	title: "A Rough Explanation of Channels",
+	icon: "ceramics:channel",
+	x: -2.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "Click to be redirected to AE's Wiki",
+	custom_click: "https://appliedenergistics.github.io/features/me-network/channels",
+	dependencies: [
+		"dce6647b"
+	],
+	tasks: [{
+		uid: "5a7b861b",
+		type: "checkmark"
+	}]
+}

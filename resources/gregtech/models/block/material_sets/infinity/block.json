@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gregtech:blocks/material_sets/infinity/block",
+    "layer1": "gregtech:blocks/material_sets/infinity/block_OVERLAY"
+  }
+}

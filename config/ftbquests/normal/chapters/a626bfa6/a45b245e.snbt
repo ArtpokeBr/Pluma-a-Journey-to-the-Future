@@ -1,0 +1,64 @@
+{
+	title: "Finally Steel!",
+	icon: "gregtech:meta_ingot 1 324",
+	x: -4.5d,
+	y: 1.5d,
+	description: "After all your Hard Work, A Blast Furnace at last!",
+	text: [
+		"Congratulations for farming tons and tons of Clay... now here's you reward!",
+		"",
+		"- Simply look at JEI for how to build it.",
+		"",
+		"- Steel is a massively usefull material, start automating it!",
+		"",
+		"- Steel is one of the Gates for LV Machines."
+	],
+	dependencies: [
+		"483b4abc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3abc65fb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	},
+	{
+		uid: "9df6d18c",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "06d93b15",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotSteel"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "38eb997f",
+		type: "item",
+		item: "gregtech:meta_ingot 1 324",
+		count: 8
+	},
+	{
+		uid: "6d1dc7ad",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

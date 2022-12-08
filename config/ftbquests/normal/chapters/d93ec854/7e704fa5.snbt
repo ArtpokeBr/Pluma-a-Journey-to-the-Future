@@ -1,0 +1,50 @@
+{
+	title: "Archaic Findings",
+	icon: "embers:archaic_brick",
+	x: 12.5d,
+	y: 2.5d,
+	description: "Time to get Techy!",
+	text: [
+		"Using your brand new §3Alchemy Setup§f, it is time to go §2back to the past§f!",
+		"",
+		"- Make some §6Archaic Bricks§f and use them for this other items at least.",
+		"",
+		"- You're going to assemble an Interesting Multiblock soon! it is advised to §amake a couple§f of §6Archaic Bricks§f."
+	],
+	dependencies: [
+		"723d4b1b"
+	],
+	tasks: [{
+		uid: "abe85f0f",
+		type: "item",
+		items: [{
+			item: "embers:archaic_brick"
+		}]
+	},
+	{
+		uid: "51b65e32",
+		type: "item",
+		items: [{
+			item: "embers:archaic_circuit"
+		}],
+		count: 2L
+	},
+	{
+		uid: "404d6916",
+		type: "item",
+		items: [{
+			item: "embers:archaic_edge"
+		}]
+	}],
+	rewards: [{
+		uid: "96af638b",
+		type: "item",
+		item: "embers:seed_lead",
+		count: 8
+	},
+	{
+		uid: "53eeeb9a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

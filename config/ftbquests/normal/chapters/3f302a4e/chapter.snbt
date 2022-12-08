@@ -1,0 +1,7 @@
+{
+	title: "Chapter 9: White Magic Progression",
+	icon: "contenttweaker:white_magic_dust",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

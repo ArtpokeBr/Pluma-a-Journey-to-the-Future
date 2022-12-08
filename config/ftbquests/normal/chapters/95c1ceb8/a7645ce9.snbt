@@ -1,0 +1,44 @@
+{
+	title: "High Voltage Sifting!",
+	x: -1.0d,
+	y: -3.5d,
+	description: "Wait... ExNihilo? Unfortunatly not...",
+	text: [
+		"The §3Sifting Machine§f is a VERY Usefull machine for §6Ore Processing§f.",
+		"",
+		"But there's more!",
+		"",
+		"- You can use it for some special resources such as §bDominican Ambers§f. (essential for progression)",
+		"",
+		"- And it also can be used to get some custom resources such as §5Tainted Dust§f more easily.",
+		"",
+		"~ For most Recipes, you could simply use an §6MV§f or §6LV§f one, but for §bDominican Ambers§f, you'll need §6HV§f §ePower§f."
+	],
+	dependencies: [
+		"9909954b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "cf107330",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 577"
+		}]
+	}],
+	rewards: [{
+		uid: "f136076a",
+		type: "item",
+		item: "extrautils2:compresseddirt",
+		count: 9
+	},
+	{
+		uid: "003e3b23",
+		type: "item",
+		item: "gregtech:meta_item_1 1 625"
+	},
+	{
+		uid: "2514e7ff",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

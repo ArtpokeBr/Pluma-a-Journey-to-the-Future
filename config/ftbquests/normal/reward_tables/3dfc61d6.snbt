@@ -1,0 +1,16 @@
+{
+	title: "Choice MV Extruder Quest",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 57"
+	},
+	{
+		item: "gregtech:meta_item_1 1 33"
+	},
+	{
+		item: "gregtech:meta_item_1 1 54"
+	},
+	{
+		item: "gregtech:meta_item_1 1 56"
+	}]
+}

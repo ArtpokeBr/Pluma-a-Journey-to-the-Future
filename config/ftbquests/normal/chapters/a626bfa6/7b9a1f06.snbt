@@ -1,0 +1,34 @@
+{
+	title: "Automatic Ore Mining?",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Really? At the Steam Stage??",
+	text: [
+		"That's Correct, this guy isn't fast or efficient either, but it works! ",
+		"",
+		"- If you trully wish to mine automatically right now, this is the only option.",
+		"",
+		"- I Personally recommend you to wait until Electric ones."
+	],
+	dependencies: [
+		"e59a6abe"
+	],
+	tasks: [{
+		uid: "14067e72",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 21"
+		}]
+	}],
+	rewards: [{
+		uid: "109851cd",
+		type: "item",
+		item: "harvestcraft:softpretzelandmustarditem",
+		count: 2
+	},
+	{
+		uid: "7863402b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

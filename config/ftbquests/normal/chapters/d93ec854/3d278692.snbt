@@ -1,0 +1,69 @@
+{
+	title: "Dwarven Utilities",
+	x: 5.5d,
+	y: -1.0d,
+	description: "Usefull to inspect and have more Info about Ember's Machines and Gadgets!",
+	text: [
+		"- You can use §6Dial's§f to reveal the stored amounts of §9Fluids§f and even §eEmber§f inside of §2Machines/Blocks§f.",
+		"",
+		"- You can use a §6Tinker's Lens§f to reveal where are the §aI/O's§f in pretty much all §2Ember's Multiblock Structures§f."
+	],
+	dependencies: [
+		"f4c729e4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "7f9bc546",
+		type: "item",
+		items: [{
+			item: "embers:ember_gauge"
+		}]
+	},
+	{
+		uid: "ef645f3d",
+		type: "item",
+		items: [{
+			item: "embers:fluid_gauge"
+		}]
+	},
+	{
+		uid: "9d371b74",
+		type: "item",
+		items: [{
+			item: "embers:tinker_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "270a2389",
+		type: "item",
+		item: {
+			id: "embers:sword_lead",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 16
+				},
+				{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 2s,
+					id: 20
+				}],
+				RepairCost: 7,
+				display: {
+					Name: "A Dwarven Sword"
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "e246ffed",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

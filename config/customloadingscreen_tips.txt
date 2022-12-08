@@ -1,0 +1,36 @@
+Don't feed your machines at midnight!
+Your Factory Must grow...
+Este Modpack foi feito por um Brasileiro! (The Modpack Dev of this Pack is Brazilian!)
+Chup Chup?
+Is this a Future where Thermal Dynamics have been ported to 1.16 and Beyond?
+Help! I'am Stuck in a Loading Screen!
+Is this Modpack going to stay in Beta forever?
+There will always be an easier way to craft/automate stuff
+All Dimensions are locked behind specific Quests, so Complete them!
+Water bottles don't drain the water source. 
+Sponges can provide Silk Touch on Tinkers tools.
+If you're going to use voice chat, don't have push-to-talk and veinmine on the same key.
+Eat occasionally, it prevents death and can give valuable buffs.
+Candles make a great early game source of light.
+Did you know this pack has Gregtech? Don't tell your Friends.
+Set up an early GTCEu sifter to process gems better.
+Water is finite in all Biomes.
+Rustic's Apiaries not only provide you with honeycombs, they also boost crop growth
+Energy Converters have internal battery slots, no external battery buffers needed.
+The GTCEu Air Collector can produce air quickly for centrifuging early.
+It's generally worth upgrading to the highest tier assembler you can make.
+Menril trees are great for a tree farm and have useful centrifuged byproducts.
+To progress beyond EV power you will need multiblock turbines.
+As you progress, enemies will become more varied and deadly.
+It helps if you don't get distracted by silly things like collecting parrots.
+There is always something else to be done, avoid waiting for things to process.
+Non renewables Fuels are far more valuable and can be multiplied via processing!
+Detest a fate where you wait till late? Don't hesitate, automate! It's great!
+Bookmark all the veins you find as you explore, you may need them later.
+Use sodium for batteries until you're able to obtain lithium. 
+Wear a spacesuit in space, it prevents death from lack of oxygen!
+In GregTech, overclocking a machine recipe processes it in half the time but at 4x the power for total twice the EU cost.
+GregTech multiblocks are very modular.
+GregTech Cables can be used to transfer both RF and EU! this means that you should only need converters for RF -> EU.
+Always take care of your machines, they need Love and Maintenance.
+When using Water Tanks, always pay attention to the Humidity of your current biome, this affects its production rate.

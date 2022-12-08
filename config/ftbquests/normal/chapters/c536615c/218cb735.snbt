@@ -1,0 +1,97 @@
+{
+	title: "Improving your Creosote/Coke Production!",
+	icon: "gregtech:machine 1 32002",
+	x: -4.5d,
+	y: -13.5d,
+	description: "With a... you've guess it... Improved Coke Oven!",
+	text: [
+		"This §2Multiblock Structure§f can be a really good improvement to your current setup of §6Coke Oven's§f",
+		"",
+		"- It may actually stay §brelevant trough the Pack§f, since it has 1 special recipe, §3Charcoal§f → §9Coke§f.",
+		"",
+		"- Remember to §cnot obstruct§f the §6Muffling Hatch§f and also to §cprovide§f §6Maintenance§f to this machine when needed.",
+		"",
+		"~ It may be a wise decision to set up §23 of this Multiblock§f (Sharing walls of course) and §e§lOVERCLOCK§r§f them to §6MV§f in order to §9fully automate§f §3Steam§f!"
+	],
+	dependencies: [
+		"7e379f4f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e4acb14d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 32002"
+		}]
+	},
+	{
+		uid: "439dde00",
+		type: "item",
+		title: "An LV up to HV Muffling Hatch",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		},
+		{
+			item: "gregtech:machine 1 1658"
+		},
+		{
+			item: "gregtech:machine 1 1659"
+		}]
+	},
+	{
+		uid: "eccc8a6e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		}]
+	},
+	{
+		uid: "da038c92",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1165"
+		}]
+	},
+	{
+		uid: "043e1c9d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		}]
+	},
+	{
+		uid: "e3c0af62",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 3"
+		}],
+		count: 17L
+	},
+	{
+		uid: "ba1e0da8",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 2L
+	},
+	{
+		uid: "13f9941a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1212"
+		}]
+	}],
+	rewards: [{
+		uid: "c14f1711",
+		type: "item",
+		item: "gregtech:meta_ingot 1 335",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "335ba4dc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

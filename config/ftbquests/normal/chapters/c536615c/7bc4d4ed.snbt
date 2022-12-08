@@ -1,0 +1,41 @@
+{
+	title: "A Basic Ender IO Capacitor!",
+	x: -2.0d,
+	y: -10.0d,
+	description: "Time to get acess to neat Machines and Blocks!",
+	text: [
+		"By having this type of §6Capacitor§f, you'll be finally able to start using §3Ender IO's§f usefull blocks, not all of them, but some of them!",
+		"",
+		"- You'll need §8Grains of Infinity§f for this §2Recipe/Quest§f, and there's a questline about it in §3Chapter 3§f.",
+		"",
+		"- Also, if you perhaps noticed, §3EnderIO§f has §e2 different progressions for Capacitors§f, the §6Gold§f and the §bSilver§f one.",
+		"",
+		"at a certain point §8§o(post octadic tier)§f§f they will merge into §21 single line§f, but until there, you can choose to §acraft the ones that you prefer§f."
+	],
+	dependencies: [
+		"d0e88b2c"
+	],
+	min_width: 340,
+	tasks: [{
+		uid: "d234c24f",
+		type: "item",
+		title: "A Tier 1 EnderIO Capacitor",
+		items: [{
+			item: "enderio:item_basic_capacitor"
+		},
+		{
+			item: "enderio:item_capacitor_silver"
+		}]
+	}],
+	rewards: [{
+		uid: "d7edafce",
+		type: "item",
+		item: "enderio:item_material 1 20",
+		count: 16
+	},
+	{
+		uid: "b3132185",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

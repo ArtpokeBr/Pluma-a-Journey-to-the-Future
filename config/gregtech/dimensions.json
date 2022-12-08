@@ -1,0 +1,56 @@
+{
+  "dims": [
+    {
+      "dimID": 0,
+      "dimName": "Overworld"
+    },
+    {
+      "dimID": 1,
+      "dimName": "End"
+    },
+    {
+      "dimID": -1,
+      "dimName": "Nether"
+    },
+    {
+      "dimID": 10,
+      "dimName": "Beneath"
+    },
+    {
+      "dimID": 7,
+      "dimName": "Twilight Forest"
+    },
+    {
+      "dimID": 100,
+      "dimName": "Luna"
+    },
+    {
+      "dimID": 108,
+      "dimName": "Mining"
+    },
+    {
+      "dimID": 5,
+      "dimName": "Garden"
+    },
+    {
+      "dimID": 95,
+      "dimName": "Garden 2"
+    },
+    {
+      "dimID": 107,
+      "dimName": "Garden 3"
+    },
+    {
+      "dimID": 4,
+      "dimName": "Void"
+    },
+    {
+      "dimID": 6,
+      "dimName": "Void 2"
+    },
+    {
+      "dimID": 50,
+      "dimName": "Abyssal Wasteland"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+	title: "Spawning Mobs directly from the Abyss!",
+	icon: "enderio:block_infinity_fog",
+	x: 10.5d,
+	y: -3.0d,
+	description: "Time to make some Infinity Fog!",
+	text: [
+		"By §6Sieving§f §5Soulsand§f perhaps you've obtained a §6Soul Bead§f, outside its §3Quark's Utility§f, it is mainly used to §2obtain§f §6Infinity Fog/Dust§f!",
+		"",
+		"- By §aLeft Clicking§f with a §6Soul Bead§f in a §aBedrock§f, you'll obtain an §6Infinity Dust§f! §8§o(You must have at least 4XP, and it will be consumed).§r§f",
+		"",
+		"- §6Infinity Dust§f will be §c§lVERY IMPORTANT§f§r, since it will be the §2only way§f to obtain §3Grains of Infinity§f.",
+		"",
+		"- §dMobs Spawned§f with the §dFog§f created by this dust have an §bincreased chance§f of dropping §3Grains of Infinity§f.",
+		"",
+		"- Also, if you need §3Enderpearls§f, §5Endermans§f have a §ahigher chance§f of §2spawning in this Fog§f aswell."
+	],
+	dependencies: [
+		"3efd3472"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b9779e19",
+		type: "item",
+		items: [{
+			item: "quark:soul_bead"
+		}]
+	},
+	{
+		uid: "b444205d",
+		type: "item",
+		items: [{
+			item: "enderio:block_infinity_fog"
+		}]
+	},
+	{
+		uid: "78f2afac",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0b434ccb",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 51
+				}]
+			}
+		}
+	},
+	{
+		uid: "9a409b43",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

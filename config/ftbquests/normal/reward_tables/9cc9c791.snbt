@@ -1,0 +1,14 @@
+{
+	title: "Choice Rubber Bar Quest",
+	icon: "gregtech:meta_ingot 1 1068",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "gregtech:meta_ingot 1 1068",
+		count: 16
+	},
+	{
+		item: "gregtech:ore_sulfur_0",
+		count: 8
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "Titanium!",
+	x: -0.75d,
+	y: 0.0d,
+	description: "The Long Process to obtain your first batch of Titanium",
+	text: [
+		"§3Later in EV§f, you'll have §2much better options§f to §dAutomate Titanium§f, but for now, §7§othis is the way§r§f.",
+		"",
+		"- §aFirst§f, make some §5Titanium Tetrachloride§f, you'll need §91 Bucket§f per §dTitanium§f.",
+		"",
+		"§8§o~ Also, Titanium Tetrachloride is very usefull, as you can use it as an catalyst to improve some chemical recipes.§r§f",
+		"",
+		"- §aSecond§f, Get some §dMagnesium Dusts§f, you'll be using them in a §6Blast Furnace§f with §5Titanium Tetrachloride§f.",
+		"",
+		"- §aThird and last§f, §btime to cool it§f! once you've §6Blasted§f your first §dTitanium§f it will be §cvery hot§f, §bcool it down§f in an §6Vacuum Freezer§f before using.",
+		"",
+		"§8§o~ And Remember, Titanium is the Key to progressing to EV!§r§f",
+		"",
+		"▬ Having trouble obtaining §dMagnesium Dusts§f? it can be easily obtained trough §6Ore Processing§f §bMagnesite§f.",
+		"",
+		"▬ Having trouble obtaining §5Rutile Dusts§f? it can be easily obtained trough §6Ore Processing§f §bAluminium§f or §6Electrolyzing§f §3Bauxite Dusts§f."
+	],
+	dependencies: [
+		"1700bc44"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "733acd1c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 113"
+		}]
+	}],
+	rewards: [{
+		uid: "79d95e52",
+		type: "item",
+		item: "gregtech:ore_magnesite_0",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "61d0abca",
+		type: "item",
+		item: "gregtech:ore_bauxite_0",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "725d8e06",
+		type: "gamestage",
+		title: "Unlocking some Visibility for Advanced Rocketry",
+		team_reward: false,
+		auto: "invisible",
+		stage: "AstronomyStage"
+	}]
+}

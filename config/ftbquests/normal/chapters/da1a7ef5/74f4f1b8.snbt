@@ -1,0 +1,31 @@
+{
+	title: "Jingle Jingle Little Dress!",
+	x: 2.0d,
+	y: -3.0d,
+	description: "Time to shake that [back thing]!",
+	text: [
+		"The Jingle Dress will help you produce even more sounds for your Rituals!",
+		"",
+		"- Just wear it and start moving/jumping when making a Ritual!"
+	],
+	dependencies: [
+		"c8a43935"
+	],
+	tasks: [{
+		uid: "bae25e25",
+		type: "item",
+		items: [{
+			id: "totemic:jingle_dress",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5bd6d162",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

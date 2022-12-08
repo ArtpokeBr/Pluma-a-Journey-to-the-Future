@@ -1,0 +1,32 @@
+{
+	title: "LV Wiremill",
+	x: 1.5d,
+	y: 1.5d,
+	description: "Making Wires with EU!",
+	text: [
+		"Want an Easier way to craft Wires? make this machine!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf"
+	],
+	tasks: [{
+		uid: "7b0d4fc2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 620"
+		}]
+	}],
+	rewards: [{
+		uid: "51d22694",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "32184be9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

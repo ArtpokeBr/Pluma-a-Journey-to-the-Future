@@ -1,0 +1,38 @@
+{
+	title: "Wooden Storage",
+	x: 17.0d,
+	y: 1.0d,
+	description: "With a Production of Treated Wood, you'll get some Storage Enhancements!",
+	text: [
+		"GregTech also Offers Crates and Barrels/Drums as a Way to Store Fluids and Items.",
+		"",
+		"- All Recipes are progressive, so you'll be upgrading them as you go. "
+	],
+	dependencies: [
+		"67345fdc"
+	],
+	tasks: [{
+		uid: "511fc491",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1610"
+		}]
+	},
+	{
+		uid: "b853273d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1625"
+		}]
+	}],
+	rewards: [{
+		uid: "2e8c2cb5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "abef39c6",
+		type: "item",
+		item: "harvestcraft:gourmetbeefburgeritem"
+	}]
+}

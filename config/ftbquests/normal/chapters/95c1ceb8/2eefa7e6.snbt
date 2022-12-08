@@ -1,0 +1,164 @@
+{
+	title: "The Most Efficient way to produce Chemicals!",
+	icon: "gregtech:machine 1 1023",
+	x: 3.5d,
+	y: -5.5d,
+	description: "Lets make a Multiblock Chemical Reactor!",
+	text: [
+		"This §6Multiblock Machine§f is capable of §eEfficiently§f make §6Chemical§f Recipes.",
+		"",
+		"- There are some §2Exclusive§f and §2Neat§f recipes that can really make your life easier when Automating certain §6Chemicals§f.",
+		"",
+		"- It may be a little bit expensive, but once you start automating §aPTFE§f with it, you'll start using it when possible.",
+		"",
+		"- Also, remember that §6GTCEu Multiblocks§f are §bVery Modular§f, if you want more §bInputs§f, just place more!",
+		"",
+		"~ In the §6JEI Preview§f, you can right click on a block to see all available options of §6Blocks§f that may be used there!"
+	],
+	dependencies: [
+		"84e52f72"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "cfb5204f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1023"
+		}]
+	},
+	{
+		uid: "c239371f",
+		type: "item",
+		title: "Any Fluid Input Hatch up to HV",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		},
+		{
+			item: "gregtech:machine 1 1181"
+		},
+		{
+			item: "gregtech:machine 1 1182"
+		},
+		{
+			item: "gregtech:machine 1 1183"
+		}]
+	},
+	{
+		uid: "929a0d93",
+		type: "item",
+		title: "Any Fluid Output Hatch up to HV",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		},
+		{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		},
+		{
+			item: "gregtech:machine 1 1198"
+		}]
+	},
+	{
+		uid: "ed470f44",
+		type: "item",
+		title: "An MV or HV Energy Hatch",
+		items: [{
+			item: "gregtech:machine 1 1212"
+		},
+		{
+			item: "gregtech:machine 1 1213"
+		}]
+	},
+	{
+		uid: "587234a8",
+		type: "item",
+		title: "Any Input Bus up to HV",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		},
+		{
+			item: "gregtech:machine 1 1151"
+		},
+		{
+			item: "gregtech:machine 1 1152"
+		},
+		{
+			item: "gregtech:machine 1 1153"
+		}]
+	},
+	{
+		uid: "bbc3b75c",
+		type: "item",
+		title: "Any Output Bus up to HV",
+		items: [{
+			item: "gregtech:machine 1 1165"
+		},
+		{
+			item: "gregtech:machine 1 1166"
+		},
+		{
+			item: "gregtech:machine 1 1167"
+		},
+		{
+			item: "gregtech:machine 1 1168"
+		}]
+	},
+	{
+		uid: "50d0e227",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "d45e3d74",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}]
+	},
+	{
+		uid: "a5994175",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 9"
+		}],
+		count: 18L
+	},
+	{
+		uid: "9accd654",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "4edc2461",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "polytetrafluoroethylene",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "21596cd6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 625",
+		count: 4
+	},
+	{
+		uid: "b8277862",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

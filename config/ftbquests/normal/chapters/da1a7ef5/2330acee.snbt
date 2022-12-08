@@ -1,0 +1,35 @@
+{
+	title: "Carving Totems for your own benefit!",
+	x: 0.0d,
+	y: -2.0d,
+	description: "Time to praise the Gods and make their images with Wood!",
+	text: [
+		"To start your Druidic Advances, first you'll need to Carve a Totem!",
+		"",
+		"Simply make an Whittling Knife and use it to select your desired totem",
+		"",
+		"Every totem must start with a base and them grow up vertically",
+		"",
+		"And yes, you'll use Logs to carve."
+	],
+	dependencies: [
+		"71a61bd1"
+	],
+	tasks: [{
+		uid: "fb90bc28",
+		type: "item",
+		items: [{
+			id: "totemic:totem_whittling_knife",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15e47479",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

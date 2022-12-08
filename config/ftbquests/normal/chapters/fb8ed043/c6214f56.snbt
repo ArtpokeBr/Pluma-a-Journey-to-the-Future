@@ -1,0 +1,50 @@
+{
+	title: "Making Porcelain",
+	icon: "contenttweaker:unfiredporcelainbrick",
+	x: 11.5d,
+	y: -0.5d,
+	description: "The First Step to a Tinker's Smeltery!",
+	text: [
+		"You're going to be using Porcelain to assemble a rudimentary smeltery soon, time to start crafting!",
+		"",
+		"- Quartz Sand can be made simply by macerating Sand"
+	],
+	dependencies: [
+		"52c48059"
+	],
+	tasks: [{
+		uid: "7abd096a",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 4"
+		}],
+		count: 8L
+	},
+	{
+		uid: "79ca2f71",
+		type: "item",
+		items: [{
+			item: "contenttweaker:unfiredporcelainbrick"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d89523a0",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay 1 5"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "9346e20e",
+		type: "item",
+		item: "ceramics:unfired_clay 1 4",
+		count: 16
+	},
+	{
+		uid: "6678550d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

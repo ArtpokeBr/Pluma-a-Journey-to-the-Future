@@ -1,0 +1,75 @@
+{
+	title: "Time to kill the Baykok!",
+	icon: {
+		id: "minecraft:skull",
+		Damage: 3s,
+		tag: {
+			SkullOwner: {
+				Id: "8e3b3535-a972-488d-9c09-ad844750ee50",
+				Properties: {
+					textures: [{
+						Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFkZDdlZTdkYzdmYmNiNWMxYWVlN2EyNTc5MTdmMDM0ZWViYTFlMDkzNzI3ZDcxMmRhYjBmYzM1ZmIwZTM4In19fQ=="
+					}]
+				}
+			},
+			display: {
+				Name: "Skeleton"
+			}
+		}
+	},
+	x: 3.5d,
+	y: -1.5d,
+	description: "This is your First Boss Battle! Be Prepared!",
+	text: [
+		"Time to make a Totentanz Ritual! that is already hard, but after it you'll summon an Evil Spirit called the Baykok!",
+		"",
+		"- A Good thing to know is that this Spirit shoots arrows CONSTANTLY! so be prepared for it.",
+		"",
+		"- Maybe its good to have a decent armor for this Fight?",
+		"",
+		"After killing it, It will drop its Bow! that will be used in some Craftings or you can actually use it for your own needs!",
+		"",
+		"- The Baykoks Bow has an Incresed Enchantabilty so it is a pretty good Bow."
+	],
+	dependencies: [
+		"6287eb80"
+	],
+	tasks: [{
+		uid: "485c0914",
+		type: "kill",
+		icon: {
+			id: "minecraft:iron_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		entity: "totemic:baykok",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "3bf2d895",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 34s
+				}]
+			}
+		}
+	},
+	{
+		uid: "2a51f632",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a14f6fa1",
+		type: "gamestage",
+		team_reward: false,
+		auto: "invisible",
+		stage: "NetherDimensionUnlock"
+	}]
+}

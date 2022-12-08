@@ -1,0 +1,32 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	description: "{pluma.logfire.subtitle}",
+	text: [
+		"{pluma.logfire.desc1}",
+		"",
+		"{pluma.logfire.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"008c7cba"
+	],
+	tasks: [{
+		uid: "0d30d069",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_firewall"
+		}]
+	}],
+	rewards: [{
+		uid: "9a3bc9ee",
+		type: "item",
+		item: "logisticspipes:upgrade_opaque",
+		count: 16
+	},
+	{
+		uid: "f3424d6c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

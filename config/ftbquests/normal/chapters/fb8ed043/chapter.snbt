@@ -1,0 +1,7 @@
+{
+	title: "Chapter 1: It all starts somewhere",
+	icon: "minecraft:grass",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

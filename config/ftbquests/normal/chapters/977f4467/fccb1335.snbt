@@ -1,0 +1,45 @@
+{
+	title: "The First Twilight Boss",
+	icon: "twilightforest:trophy",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "The Naga!",
+	text: [
+		"Using your §6Magical Map§f will help you find its lair with ease..",
+		"",
+		"§2Nagas§f can be found in §3Giant Maze's§f, a bow to shoot her head while you §akeep distance its a good idea§f.",
+		"",
+		"- Once you've managed to §ckill it§f, you'll obtain its §aScale's§f! They'll be used for §aprogression§f, but may also be usefull for §3Tinker's Tools§f."
+	],
+	dependencies: [
+		"ae4cf14f"
+	],
+	size: 1.5d,
+	min_width: 200,
+	tasks: [{
+		uid: "1c4c72ae",
+		type: "kill",
+		icon: "twilightforest:trophy",
+		entity: "twilightforest:naga",
+		value: 1L
+	},
+	{
+		uid: "c28290ce",
+		type: "item",
+		items: [{
+			item: "twilightforest:naga_scale"
+		}]
+	}],
+	rewards: [{
+		uid: "dff1ebf4",
+		type: "item",
+		item: "twilightforest:naga_scale",
+		random_bonus: 7
+	},
+	{
+		uid: "bd233ed6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

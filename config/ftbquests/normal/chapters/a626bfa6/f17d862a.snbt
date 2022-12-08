@@ -1,0 +1,36 @@
+{
+	title: "A Simple Motor and a Minimalistic Alternator",
+	x: -4.489795918367349d,
+	y: -5.252551020408163d,
+	description: "Ultra Low Voltage Motor and Alternator",
+	text: [
+		"These Components added by Magnetic Craft are essential for some recipes, make some!"
+	],
+	dependencies: [
+		"361a105c"
+	],
+	tasks: [{
+		uid: "20b29cf7",
+		type: "item",
+		items: [{
+			item: "magneticraft:crafting 1 2"
+		}]
+	},
+	{
+		uid: "0d6de206",
+		type: "item",
+		items: [{
+			item: "magneticraft:crafting 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ae3b9c8a",
+		type: "choice",
+		table: 1
+	},
+	{
+		uid: "1d857c31",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

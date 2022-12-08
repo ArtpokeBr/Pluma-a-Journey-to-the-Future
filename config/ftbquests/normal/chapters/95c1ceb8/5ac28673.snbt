@@ -1,0 +1,43 @@
+{
+	title: "Smelting an Improved Version of Bronze!",
+	icon: "gregtech:meta_ingot 1 302",
+	x: 5.0d,
+	y: -0.5d,
+	description: "Smelting Black Bronze!",
+	text: [
+		"§5Black Bronze§f is a special type of Metal made out of §eElectrum§f and §6Copper§f and it will be §2used in some future recipes§f, make some!",
+		"",
+		"- Maybe you have §2some dusts§f of it beacuse of your §3Dark Steel Automation§f, but now it is §btime to smelt them into Ingots§f!"
+	],
+	dependencies: [
+		"f3fa9ea4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "d0f37061",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 302"
+		}],
+		count: 5L
+	},
+	{
+		uid: "092ee288",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 302"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "a9b1ead8",
+		type: "item",
+		item: "gregtech:meta_ingot 1 302",
+		count: 16
+	},
+	{
+		uid: "06105a21",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

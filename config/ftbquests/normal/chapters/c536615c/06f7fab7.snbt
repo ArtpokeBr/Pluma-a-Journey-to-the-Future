@@ -1,0 +1,29 @@
+{
+	title: "HUUUGE Item Storage!",
+	x: -2.0d,
+	y: -7.5d,
+	description: "With an Actually Additions Crate!",
+	text: [
+		"Actually Additions offers a Pretty OP Crate, but with some Empowered Endor Crystal's you'll be able to make one."
+	],
+	dependencies: [
+		"f7183029"
+	],
+	tasks: [{
+		uid: "f6e28ce7",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "6d8f34cf",
+		type: "item",
+		item: "actuallyadditions:item_chest_to_crate_upgrade"
+	},
+	{
+		uid: "e2dbe951",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

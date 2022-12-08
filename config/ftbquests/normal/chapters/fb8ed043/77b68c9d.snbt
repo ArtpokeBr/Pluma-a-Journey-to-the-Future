@@ -1,0 +1,51 @@
+{
+	title: "Steam Era, Lets go!",
+	x: 12.0d,
+	y: 5.0d,
+	description: "Time to make a Small Boiler and Start playing with Steam!",
+	text: [
+		"Now it is finally time to start playing with GregTech, and the First Step is Steam Machines!",
+		"",
+		"- You'll have acess to better and automatable boilers soon. this one cannot be automated."
+	],
+	dependencies: [
+		"7f887820"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "94dc9ed8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "9c16aa5d",
+		type: "item",
+		item: {
+			id: "actuallyadditions:item_pickaxe_emerald",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 15s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 5s,
+					id: 32s
+				}],
+				RepairCost: 15
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

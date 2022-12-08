@@ -1,0 +1,30 @@
+{
+	title: "{pluma.craftlogi2.title}",
+	icon: {
+		id: "minecraft:writable_book",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: -4.5d,
+	y: 0.0d,
+	shape: "square",
+	description: "{pluma.craftlogi2.subtitle}",
+	text: [
+		"{pluma.craftlogi2.desc1}",
+		"",
+		"{pluma.craftlogi2.desc2}"
+	],
+	dependencies: [
+		"59e8425d"
+	],
+	tasks: [{
+		uid: "274f0292",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "9016dbe5",
+		type: "xp",
+		xp: 100
+	}]
+}

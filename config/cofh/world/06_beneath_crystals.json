@@ -1,0 +1,55 @@
+{
+	"populate": 
+	{
+		"beneath_stalactites": {
+			"distribution": "uniform",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"weight": 50,
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "fossil:volcanic_rock",
+							"weight": 70
+						},
+						{
+							"name": "chisel:basalt2",
+							"metadata": 7,
+							"weight": 20
+						},
+						{
+							"name": "quark:crystal",
+							"metadata": 8,
+							"weight": 10
+						}
+					],
+					"material": "gregtech:stone_smooth",
+					"metadata": 3,
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"alt-sinc": true,
+					"fat": false,
+					"min-height": 15,
+					"max-height": 25,
+					"height-variance": 6,
+					"height-mod": 3,
+					"gen-size": 2,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 10,
+			"chunk-chance": 30,
+			"min-height": 100,
+			"max-height": 255,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [ 
+					10
+				]
+			}
+		}
+	}
+}

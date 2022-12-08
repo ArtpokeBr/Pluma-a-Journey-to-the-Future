@@ -1,0 +1,71 @@
+{
+	title: "A Special Type of Crystal",
+	icon: "contenttweaker:sooty_energetic_compound",
+	x: 7.0d,
+	y: -9.0d,
+	description: "A Sooty Energetic Compound",
+	text: [
+		"By §3Bitumen§f, §3Tar§f, §5Obscure Dust§f, §cEnergium Dusts§f and a little bit of §3Oil§f, you'll get this special §aCrystal/Compound§f.",
+		"",
+		"- This §aCompound§f will be essential for §bDeep Mob Learning Recipes§f.",
+		"",
+		"- Also, whenever you use it in an Normal §6Chemical Reactor§f, you'll need to §erecharge§f it.",
+		"",
+		"- §bDeep Mob Learning§f will be an really good mod to utilize, §2enhance your infrastructure§f!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e534879a",
+		"4e304f83"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "7c5d5c04",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 892"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d245557c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32002"
+		}],
+		count: 2L
+	},
+	{
+		uid: "3e71781f",
+		type: "item",
+		items: [{
+			item: "fossil:tardrop"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ef383c9c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 491"
+		}],
+		count: 9L
+	},
+	{
+		uid: "31d5811a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sooty_energetic_compound"
+		}]
+	}],
+	rewards: [{
+		uid: "7d8f8133",
+		type: "item",
+		item: "contenttweaker:sooty_energetic_compound"
+	},
+	{
+		uid: "84e1d451",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

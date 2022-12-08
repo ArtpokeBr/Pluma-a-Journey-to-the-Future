@@ -1,0 +1,163 @@
+{
+	title: "An Interesting type of Coke Oven",
+	icon: "gregtech:machine 1 1004",
+	x: 12.5d,
+	y: -7.5d,
+	description: "The Pyrolyse Oven!",
+	text: [
+		"The §6Pyrolyse Oven§f is like a §6Coke Oven§f, but §aBigger§f!",
+		"",
+		"- It is able to make §3Charcoal§f and §3Coke Coal§f in some different ways.",
+		"§8§o(producing some extra resources)§r§f.",
+		"",
+		"- It will be §aessential§f for you to obtain certain §9Important Chemicals§f such as §bCoal Tar§f!",
+		"",
+		"- Also, this §6Multiblock§f will require §5Coils§f, each §5Coil§f starting with §3Nichrome§f will give you an Actuall §eBoost in Speed§f, while §cCupronickel§f makes it §4Slower§f.",
+		"",
+		"- Maybe it is a §dgood idea§f to look at the §dpossibilities§f with this §6Multiblock§f, you can really take §2advantage§f some §2of its chemical outputs§f."
+	],
+	dependencies: [
+		"eefae462"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "0aa471b3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1004"
+		}]
+	},
+	{
+		uid: "2b2e6066",
+		type: "item",
+		title: "An Normal or Configurable Maintenance Hatch",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		},
+		{
+			item: "gregtech:machine 1 1655"
+		}]
+	},
+	{
+		uid: "3efa128d",
+		type: "item",
+		title: "Any Type of Coil",
+		items: [{
+			item: "gregtech:wire_coil"
+		},
+		{
+			item: "gregtech:wire_coil 1 1"
+		},
+		{
+			item: "gregtech:wire_coil 1 2"
+		}],
+		count: 16L
+	},
+	{
+		uid: "80453b68",
+		type: "item",
+		title: "An LV up to EV Muffler Hatch",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		},
+		{
+			item: "gregtech:machine 1 1658"
+		},
+		{
+			item: "gregtech:machine 1 1659"
+		},
+		{
+			item: "gregtech:machine 1 1660"
+		}]
+	},
+	{
+		uid: "98597eca",
+		type: "item",
+		title: "An ULV up to EV Input Bus",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		},
+		{
+			item: "gregtech:machine 1 1151"
+		},
+		{
+			item: "gregtech:machine 1 1152"
+		},
+		{
+			item: "gregtech:machine 1 1153"
+		},
+		{
+			item: "gregtech:machine 1 1154"
+		}]
+	},
+	{
+		uid: "16ddf7cd",
+		type: "item",
+		title: "An ULV up to EV Output Hatch",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		},
+		{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		},
+		{
+			item: "gregtech:machine 1 1198"
+		},
+		{
+			item: "gregtech:machine 1 1199"
+		}]
+	},
+	{
+		uid: "48e55501",
+		type: "item",
+		title: "An ULV up to EV Output Bus",
+		items: [{
+			item: "gregtech:machine 1 1165"
+		},
+		{
+			item: "gregtech:machine 1 1166"
+		},
+		{
+			item: "gregtech:machine 1 1167"
+		},
+		{
+			item: "gregtech:machine 1 1168"
+		},
+		{
+			item: "gregtech:machine 1 1169"
+		}]
+	},
+	{
+		uid: "7088d11f",
+		type: "item",
+		title: "An MV up to EV Energy Hatch",
+		items: [{
+			item: "gregtech:machine 1 1212"
+		},
+		{
+			item: "gregtech:machine 1 1213"
+		},
+		{
+			item: "gregtech:machine 1 1214"
+		}]
+	}],
+	rewards: [{
+		uid: "4e2ab532",
+		type: "item",
+		item: "gregtech:meta_ingot 1 294",
+		count: 16
+	},
+	{
+		uid: "d6fe04a3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 630"
+	},
+	{
+		uid: "97a774c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

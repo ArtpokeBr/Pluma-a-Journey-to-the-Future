@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: 0.5d,
+	description: "{pluma.quicksort.subtitle}",
+	text: [
+		"{pluma.quicksort.desc1}",
+		"",
+		"{pluma.quicksort.desc2}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99b7a703"
+	],
+	tasks: [{
+		uid: "70a079a9",
+		type: "item",
+		items: [{
+			item: "logisticspipes:module_quick_sort"
+		}]
+	}],
+	rewards: [{
+		uid: "accee8af",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e6aea29e",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

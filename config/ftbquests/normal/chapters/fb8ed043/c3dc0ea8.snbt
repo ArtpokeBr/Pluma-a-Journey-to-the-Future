@@ -1,0 +1,58 @@
+{
+	title: "Wood Working",
+	icon: "minecraft:wooden_slab",
+	x: 1.5d,
+	y: 0.5d,
+	description: "Time to make Planks and Slabs!",
+	text: [
+		"Yep, you've probally already noticed, but you cant make Planks directly on the Grid!",
+		"",
+		"- Use your Chopping block to Make Planks and them make Slabs with them!",
+		"",
+		"~ Also, this is a Good oportunity to say that most of the Slabs on the Modpack cannot be made with bare hands."
+	],
+	dependencies: [
+		"54e4ab86"
+	],
+	tasks: [{
+		uid: "dbdc9f09",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plankWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "507bd859",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any slabWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "slabWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dadb392b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

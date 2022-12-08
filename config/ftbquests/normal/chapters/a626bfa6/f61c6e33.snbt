@@ -1,0 +1,40 @@
+{
+	title: "A Better Lunch Bag!",
+	x: -6.0d,
+	y: -4.0d,
+	description: "Now made of Metal!",
+	text: [
+		"Well... now that it is a proper §6Lunch Box§f, you'll have §emore space§f to carry your §eFood§f!"
+	],
+	dependencies: [
+		"d030ed85"
+	],
+	tasks: [{
+		uid: "611c71d2",
+		type: "item",
+		items: [{
+			id: "spiceoflife:lunchbox",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49ebfa01",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 2
+	},
+	{
+		uid: "b4aa928d",
+		type: "item",
+		item: "harvestcraft:applepieitem"
+	},
+	{
+		uid: "4d7603f2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

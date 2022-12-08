@@ -1,0 +1,43 @@
+{
+	title: "Upgrading your Infuser even more!",
+	x: 5.5d,
+	y: 0.0d,
+	description: "Strongly advised!",
+	text: [
+		"The §6Blood Infuser§f can also accept some §5Upgrades§f! be aware that you can §2stack§f these §aup to 4 each§f.",
+		"",
+		"- Use a §cPromise of Velocity§f to §eIncrease§f the §dVelocity of Operations§f.",
+		"",
+		"- Use the §9Promise of Productivity§f to §eIncrease§f §aBlood Efficiency§f.",
+		"",
+		"§8§o~ Use Promises of Tenacity to open up space for more Upgrades!§r§f"
+	],
+	dependencies: [
+		"b9e37750"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "854fa3bf",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise 1 3"
+		}]
+	},
+	{
+		uid: "e2279bb7",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "5819655b",
+		type: "choice",
+		table: 6
+	},
+	{
+		uid: "d33c91f9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

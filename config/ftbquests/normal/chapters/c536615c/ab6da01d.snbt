@@ -1,0 +1,76 @@
+{
+	title: "Your First Jetpack!",
+	x: 1.0d,
+	y: -16.0d,
+	description: "Very basic, but still, time to fly!",
+	text: [
+		"The recipe will be §bexpensive§f, but it is the §astart of something§f!",
+		"",
+		"- For this quest, you can choose to make the §eTier 1§f §8§o(Conductive Iron)§f§r or the §eTier 2§f §8§o(Electrical Steel)§f§r if you already made some.",
+		"",
+		"- Also, keep in mind that you'll have a §dplenty of controls for jetpacks§f, it is a good idea to §5check your current keybinds§f."
+	],
+	dependencies: [
+		"eb923687"
+	],
+	size: 1.2d,
+	min_width: 300,
+	tasks: [{
+		uid: "c1bb4c1f",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 7s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 8s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42dd197f",
+		type: "item",
+		item: {
+			id: "simplyjetpacks:pilot_goggles",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "184c7d9f",
+		type: "item",
+		item: {
+			id: "tconstruct:slime_boots",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "df102d73",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

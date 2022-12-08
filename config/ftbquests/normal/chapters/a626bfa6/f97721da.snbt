@@ -1,0 +1,36 @@
+{
+	title: "LV Arc Furnace",
+	x: 1.5d,
+	y: 3.5d,
+	description: "More like a Recycler tho...",
+	text: [
+		"The Arc Furnace is a very special machine!",
+		"",
+		"- You can use it to recycle some undesireble items, specially if you crafted them by mistake.",
+		"",
+		"- Oh, but most of its recipes require Oxygen, so you might need to revisit this quest once you have acess to an O² automation"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"40ed11cf"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6a788e99",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 95"
+		}]
+	}],
+	rewards: [{
+		uid: "4731e435",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "9dac977b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

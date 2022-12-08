@@ -1,0 +1,35 @@
+{
+	x: -5.25d,
+	y: 0.5d,
+	shape: "square",
+	description: "{pluma.fuzcraftlog.subtitle}",
+	text: [
+		"{pluma.fuzcraftlog.desc1}",
+		"",
+		"{pluma.fuzcraftlog.desc2}",
+		"",
+		"{pluma.fuzcraftlog.desc3}"
+	],
+	dependencies: [
+		"59e8425d"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "1964183d",
+		type: "item",
+		items: [{
+			item: "logisticspipes:crafting_table_fuzzy"
+		}]
+	}],
+	rewards: [{
+		uid: "5ddd6355",
+		type: "item",
+		item: "logisticspipes:chip_basic",
+		count: 4
+	},
+	{
+		uid: "2a9f4da7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

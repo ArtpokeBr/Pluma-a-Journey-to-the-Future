@@ -1,0 +1,40 @@
+{
+	title: "A Story about a Buffalo Called Bill",
+	x: 1.0d,
+	y: -2.0d,
+	description: "Time to convert Cows into Majestic Buffalos!",
+	text: [
+		"It is time now to use your Chimes to also make the Buffalo Dance! it will convert nearby cows into Buffalos!",
+		"",
+		"- Try to convert 2 so you can breed the Buffalos later.",
+		"",
+		"- After having some of them, kill one to obtain its precious drops!"
+	],
+	dependencies: [
+		"7eae8885"
+	],
+	tasks: [{
+		uid: "a7628270",
+		type: "item",
+		items: [{
+			item: "totemic:buffalo_items"
+		}]
+	},
+	{
+		uid: "3e378a4e",
+		type: "item",
+		items: [{
+			item: "totemic:buffalo_items 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2f678e1b",
+		type: "item",
+		item: "totemic:drum"
+	},
+	{
+		uid: "1a65d7bb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Runestones!",
+	x: 12.5d,
+	y: 0.0d,
+	description: "Usefull for Crafts and for Rituals!",
+	text: [
+		"Perhaps you've already noticed, but you need these Runestone for some Rituals in the Pyre",
+		"",
+		"- But most importantly, you'll be using them for some crafts aswell!"
+	],
+	dependencies: [
+		"2ab08f70"
+	],
+	tasks: [{
+		uid: "22d6edbf",
+		type: "item",
+		items: [{
+			item: "roots:runestone"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "a82e015d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

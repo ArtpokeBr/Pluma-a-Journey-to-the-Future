@@ -1,0 +1,46 @@
+{
+	title: "Time to Extract Blood from Mobs!",
+	x: -2.0d,
+	y: 1.5d,
+	description: "You know... Blood is Sweeter than Honey...",
+	text: [
+		"By Carrying this §6Extractor§f with you you'll be able to collect §cBlood§f from §cKilled Mobs§f.",
+		"",
+		"- oh and you can also combine them in the §2crafting grid§f to §eincrease§f its §9internal storage§f!"
+	],
+	dependencies: [
+		"55af9432"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "cb8c5237",
+		type: "item",
+		items: [{
+			id: "evilcraft:blood_extractor",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa51777c",
+		type: "item",
+		item: {
+			id: "evilcraft:blood_extractor",
+			tag: {
+				capacity: 8000
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "365b552a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

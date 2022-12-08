@@ -1,0 +1,18 @@
+{
+	"parent": "sample/item",
+	"image": "mainmenu:textures/loading.png",
+	"position_type": "CENTER",
+	"offset_pos": "CENTER",
+	"position":{
+		"x": "0",
+		"y": "70 + (screen_height / 16)",
+		"width": "screen_height / 8",
+		"height": "screen_height / 8"
+	},
+	"texture": {
+		"x": "0",
+		"y": "0",
+		"width": "1",
+		"height": "1"
+	}
+}

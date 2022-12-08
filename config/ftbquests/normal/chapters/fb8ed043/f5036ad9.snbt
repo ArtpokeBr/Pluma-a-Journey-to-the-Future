@@ -1,0 +1,30 @@
+{
+	title: "A Special type of Crafting Table",
+	x: 16.0d,
+	y: 3.0d,
+	description: "A Crafting table for truly Artisan's!",
+	text: [
+		"Some unique and §especial recipes§f will require you to use this table.",
+		"",
+		"- Most of them will require at least a §6Tool§f to be used, but also, you may need §9Fluids§f aswell!",
+		"",
+		"~ The Next quest will be an Actual example of that!"
+	],
+	dependencies: [
+		"06c93fff",
+		"6089c9b6"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "85749e14",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "951eb558",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

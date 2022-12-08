@@ -1,0 +1,42 @@
+{
+	title: "Lets Automate Sulfuric Acid §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "sulfur_dioxide",
+			Amount: 1000
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 1.0d,
+	y: -11.0d,
+	description: "Making Sulfur Dioxide",
+	text: [
+		"I Hope you've collected some §eSulfur§f in the Nether, as you'll need a bunch of it right now!",
+		"",
+		"- By Mixing some§b Oxygen§f and §eSulfur§f inside of an §6Chemical Reactor§f, you'll get §6Sulfur Dioxide§f",
+		"",
+		"- Alternatively you can also §6Centrifuge§f some §cNether Air§f to get it passivelly, it is a slower process tho."
+	],
+	dependencies: [
+		"5866ea57",
+		"a2e9d2f3"
+	],
+	tasks: [{
+		uid: "9ab2ed99",
+		type: "fluid",
+		fluid: "sulfur_dioxide"
+	}],
+	rewards: [{
+		uid: "a941c2b2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 143"
+	},
+	{
+		uid: "09923c77",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Farming Evil's Blood Automatically!",
+	x: 7.0d,
+	y: 0.0d,
+	description: "Time for another Mobtrap!",
+	text: [
+		"A §6Spiked Plate§f is §2Essential§f for your §5Evil§f needs.",
+		"",
+		"- When a §3Mob steps into it§f, you'll get §cBlood§f! but remember to use a §6Pedestal§f beneath it.",
+		"",
+		"- Them, simply pipe out the §cBlood§f from the §6Pedestal§f and voilá! §aEasy Blood§f!"
+	],
+	dependencies: [
+		"f5a3cd74"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "08911463",
+		type: "item",
+		items: [{
+			item: "evilcraft:spiked_plate"
+		}]
+	},
+	{
+		uid: "2fb9929c",
+		type: "item",
+		title: "Any Sanguinary Pedestal",
+		items: [{
+			item: "evilcraft:sanguinary_pedestal"
+		},
+		{
+			item: "evilcraft:sanguinary_pedestal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7bbff307",
+		type: "item",
+		item: {
+			id: "evilcraft:dark_tank",
+			tag: {
+				capacity: 256000
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "a7f0d556",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

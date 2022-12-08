@@ -1,0 +1,7 @@
+{
+	title: "Chapter 5: Logistics is the Key",
+	icon: "gregtech:machine 1 987",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

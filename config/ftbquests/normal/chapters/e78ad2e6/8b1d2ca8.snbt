@@ -1,0 +1,252 @@
+{
+	title: "Upgrading!",
+	x: 7.5d,
+	y: -5.5d,
+	shape: "rsquare",
+	description: "These are only a few of many Upgrades possible inside of an Industrial Apiary!",
+	text: [
+		"All upgrades are almost self explanatory:",
+		"",
+		"- There are ones that literally emulate a specific biome",
+		"",
+		"- There are ones that can manipulate the Humidity inside of the Apiary",
+		"",
+		"- There are ones that can manipulate the Temperature inside of the Apiary",
+		"",
+		"- There are ones that can increase the production of Bee's",
+		"",
+		"Needless to say, there's a Upgrade for almost anything that you wish to acomplish."
+	],
+	dependencies: [
+		"38fb5dbc"
+	],
+	tasks: [{
+		uid: "4083c564",
+		type: "item",
+		items: [{
+			item: "gendustry:upgrade_frame"
+		}]
+	},
+	{
+		uid: "7dc21e46",
+		type: "item",
+		title: "Make Any Upgrade",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 4"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 6"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 7"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 5"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 17"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 11"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 2"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 20"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 14"
+		},
+		{
+			item: "gendustry:apiary.upgrade"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 15"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 12"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 21"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 3"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 18"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 19"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 10"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 1"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 16"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 22"
+		},
+		{
+			item: "gendustry:apiary.upgrade 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "e19d8ad1",
+		type: "item",
+		item: {
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 20,
+				Mate: {
+					Chromosomes: [{
+						UID1: "extrabees.species.yellow",
+						UID0: "extrabees.species.yellow",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlowest",
+						UID0: "forestry.speedSlowest",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlowest",
+						UID0: "forestry.floweringSlowest",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				},
+				Health: 20,
+				IsAnalyzed: 1b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "extrabees.species.yellow",
+						UID0: "extrabees.species.yellow",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlowest",
+						UID0: "forestry.speedSlowest",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlowest",
+						UID0: "forestry.floweringSlowest",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "28d1c3cd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

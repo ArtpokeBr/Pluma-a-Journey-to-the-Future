@@ -1,0 +1,45 @@
+{
+	title: "Getting into Alchemy!",
+	x: 3.5d,
+	y: -1.5d,
+	description: "A Crucial Part of Thaumcraft!",
+	text: [
+		"By right clicking with a §dsalis mundus§f in a §6Purifier§f from §cEvilcraft§f, a §6Crucible§f!",
+		"",
+		"- You'll need to provide it with a §9bucket of water§f and also a §cheat source§f bellow.",
+		"",
+		"- Once the §9water is boiling§f, you can §2drop any item§f on it and it will be §5decomposed§f into its §dAspects§f.",
+		"",
+		"- Using those §dAspects§f, you'll be able to §5alchemically§f produce other §2materials and items§f.",
+		"",
+		"- Make sure to have a §6Thaumometer§f in order to visualize those §daspects§f inside, and maybe some §3Quartz Slivers§f for §cemergencies§f aswell.",
+		"§8§o(Quartz Slivers can be used to Crystallize Aspects)§r§f",
+		"",
+		"- §c§nDON'T LEAVE YOUR CRUCIBLE WITH ASPECTS!§r§f they'll be §5released§f over time into the §3atmosphere§f, this will cause a §5flux pollution§f in the current chunk.",
+		"",
+		"§8§o~ And for now, you don't want to fight against Flux don't you?§r§f"
+	],
+	dependencies: [
+		"41b5df07"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "48753168",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "12dce1e1",
+		type: "item",
+		item: "thaumcraft:nugget 1 9",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "4b1b20e7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

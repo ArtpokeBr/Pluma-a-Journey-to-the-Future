@@ -1,0 +1,59 @@
+{
+	title: "Tier 3 Reagents",
+	x: 18.0d,
+	y: -2.0d,
+	description: "Oh boy, this is really getting more complicated!",
+	text: [
+		"§3Blood Magic§f has many special §6Reagents§f, and subsequentially, the main ones will be §bdocumented§f in the §2following quests§f.",
+		"",
+		"- Lets start with the §aTier 3§f ones!",
+		"",
+		"- You should be able to make them now if you just unlocked this quest.",
+		" if you can't, §5don't forget to come back later§f!",
+		"",
+		"§3▬ §nNeutral Reagent§r§f: §3Clay Block§f, Quartz Block, A §8Light Gray Concrete§f and a Glass Block.",
+		"",
+		"§9▬ §nTempest Reagent§r§f: §eA Wind Mill§f, §6Wind Chime§f, §9Potion of Swiftness§f, and a §bSpeed Upgrade§f.",
+		"",
+		"§c▬ §nDamage Reagent§r§f: §4A Dreadium Sword§f, §3A Knightsteel Shield§f, §cPotion of Harming§f, and a §6Lava Bucket§f.",
+		"",
+		"§c▬ §nStrength Reagent§r§f: §4A Potion of Strength§f, §2A Spinach Pie§f, §cRefined Firestone§f, and an §dAmplification Crystal§f."
+	],
+	dependencies: [
+		"9658c74d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "36e94806",
+		type: "item",
+		items: [{
+			item: "contenttweaker:neutral_reagent"
+		}]
+	},
+	{
+		uid: "6b90ab76",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tempest_reagent"
+		}]
+	},
+	{
+		uid: "3c8288cc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:damage_reagent"
+		}]
+	},
+	{
+		uid: "66cfc6f8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:strength_reagent"
+		}]
+	}],
+	rewards: [{
+		uid: "10eda2e1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

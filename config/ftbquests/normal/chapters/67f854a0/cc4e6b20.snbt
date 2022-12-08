@@ -1,0 +1,48 @@
+{
+	title: "Machines... Enhance!",
+	x: -0.7568027210884338d,
+	y: 4.847810374149674d,
+	description: "More Powah!",
+	text: [
+		"By using an §6Enhanced Chassis§f and a few §3End Steel§f you'll be able to §bEnhance your Ender IO Machines§f!",
+		"",
+		"- They're are pretty much §cfaster§f than normal!",
+		"",
+		"- But, unfortunatly they're §a2 Block tall§f."
+	],
+	dependencies: [
+		"951e31d6"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "b3fedfb9",
+		type: "item",
+		title: "Any Enhanced Ender IO Machine",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		},
+		{
+			item: "enderio:block_enhanced_sag_mill"
+		},
+		{
+			item: "enderio:block_enhanced_vat"
+		},
+		{
+			item: "enderio:block_enhanced_wired_charger"
+		},
+		{
+			item: "enderio:block_enhanced_combustion_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "2564befb",
+		type: "item",
+		item: "enderio:item_capacitor_stellar",
+		random_bonus: 1
+	},
+	{
+		uid: "f9fdf7ee",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

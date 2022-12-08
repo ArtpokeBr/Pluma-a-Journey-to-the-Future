@@ -1,0 +1,65 @@
+{
+	title: "A Edgy Upgrade",
+	x: 5.0d,
+	y: -10.5d,
+	description: "Dark Steel Tools!",
+	text: [
+		"Now that you have acess to §5Dark Steel§f, you finally have acess to §3EnderIO's§f Tools.",
+		"",
+		"- The can be upgraded with some §5Dark Steel§f Upgrades.",
+		"",
+		"- Is Advised to have a §3Dark Steel Anvil§f to easily apply and manage the §5Upgrades§f. "
+	],
+	dependencies: [
+		"7efb13b3"
+	],
+	optional: true,
+	min_width: 260,
+	tasks: [{
+		uid: "5ec0e6a0",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_sword",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f860a049",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_pickaxe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "db3978a1",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_axe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c086ccf",
+		type: "item",
+		item: "enderio:item_dark_steel_upgrade",
+		count: 2
+	},
+	{
+		uid: "bf467930",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

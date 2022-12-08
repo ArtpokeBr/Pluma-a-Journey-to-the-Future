@@ -1,0 +1,43 @@
+{
+	title: "Tired of the Evil Night?",
+	x: 2.5d,
+	y: -0.5d,
+	description: "Try Sleeping on a Straw Bed!",
+	text: [
+		"You currently cannot make an normal bed.. but theres a Straw one!",
+		"",
+		"- It is single use wich means, choose wisely if you wish to skip the current night."
+	],
+	dependencies: [
+		"19d0b497"
+	],
+	tasks: [{
+		uid: "bd755fe9",
+		type: "item",
+		items: [{
+			id: "pyrotech:straw_bed",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c233e467",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "pyrotech:straw_bed",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "3a754ba7",
+		type: "item",
+		team_reward: false,
+		item: "actuallyadditions:item_food 1 13"
+	}]
+}

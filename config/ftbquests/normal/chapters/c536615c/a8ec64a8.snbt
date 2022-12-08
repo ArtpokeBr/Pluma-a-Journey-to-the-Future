@@ -1,0 +1,31 @@
+{
+	x: 1.5d,
+	y: -6.0d,
+	description: "{pluma.unroutedpipes.subtitle}",
+	text: [
+		"{pluma.unroutedpipes.desc1}",
+		"",
+		"{pluma.unroutedpipes.desc2}",
+		"",
+		"{pluma.unroutedpipes.desc3}",
+		"",
+		"{pluma.unroutedpipes.desc4}"
+	],
+	dependencies: [
+		"d046fd4a"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "1b98ae9f",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_transport_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "9a6f7c24",
+		type: "item",
+		item: "logisticspipes:pipe_transport_basic",
+		count: 8
+	}]
+}

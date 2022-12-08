@@ -1,0 +1,65 @@
+{
+	title: "Tier 1 Reagents",
+	x: 15.0d,
+	y: -2.0d,
+	description: "Time to get Started with Alchemical Wizardry!",
+	text: [
+		"§3Blood Magic§f has many special §6Reagents§f, and subsequentially, the main ones will be §bdocumented§f in the §2following quests§f.",
+		"",
+		"- Lets start with the §aTier 1§f ones!",
+		"",
+		"- You should be able to make them now if you just unlocked this quest.",
+		" if you can't, §5don't forget to come back later§f!",
+		"",
+		"§b▬ §nAir Reagent§r§f: Basically §eAerotheum§f and §3Bismuth Bronze§f, it shouldn't be that hard to assemble.",
+		"",
+		"§9▬ §nWater Reagent§r§f: A Little more complicated than the Air one, but, after having a production of §9Watery Propolis§f, it is basically §bSugar, §eRock Salt§f and §9Water§f.",
+		"",
+		"§c▬ §nLava Reagent§r§f: Could be hard, but once you've automated its resources, it gets easier. Essentially §eMagma Crystal's§f, §cLava§f, §6Fiery§f and a §8Coal Block§f.",
+		"",
+		"§e▬ §nDirty Reagent§r§f: Essentially all §3Roots Soil's§f! again, it could be §2hard to keep making it manually§f, but after §bautomating the whole process§f §8§o(wich is really fun)§r§f, it gets a §dlot easier§f."
+	],
+	dependencies: [
+		"5f2ae876"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "5fb0452c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 2"
+		}]
+	},
+	{
+		uid: "719b1f52",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component"
+		}]
+	},
+	{
+		uid: "f654c5f1",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 1"
+		}]
+	},
+	{
+		uid: "8fef6f88",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dirty_reagent"
+		}]
+	}],
+	rewards: [{
+		uid: "5175927e",
+		type: "item",
+		item: "bloodmagic:soul_forge",
+		random_bonus: 3
+	},
+	{
+		uid: "6811df95",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

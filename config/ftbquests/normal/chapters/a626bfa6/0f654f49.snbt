@@ -1,0 +1,73 @@
+{
+	title: "A Huge Steam Boiler!",
+	x: -3.0d,
+	y: -5.25d,
+	description: "The Big Boy!",
+	text: [
+		"Remember your little Magnetic Craft boiler? use it to get the blueprints for this Big Boy here!",
+		"",
+		"- It is an interesting and pretty improvement to produce huge quantities of Steam per second.",
+		"",
+		"- You must assemble the Boiler Multiblock above the Combustion Chamber Multiblock.",
+		"",
+		"- It burns trough Burnables pretty fast but.. it can produce up to 600mb of Steam per Tick!"
+	],
+	dependencies: [
+		"f17d862a"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f8694c2e",
+		type: "item",
+		items: [{
+			item: "magneticraft:big_combustion_chamber"
+		}]
+	},
+	{
+		uid: "e111e2ca",
+		type: "item",
+		items: [{
+			item: "magneticraft:big_steam_boiler"
+		}]
+	},
+	{
+		uid: "19bdb093",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 17L
+	},
+	{
+		uid: "edf7e760",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 29L
+	},
+	{
+		uid: "ce159559",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "51657fdd",
+		type: "item",
+		item: "gregtech:meta_gem_exquisite 1 319",
+		random_bonus: 3
+	},
+	{
+		uid: "f2d889b6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 142"
+	},
+	{
+		uid: "0826fef4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

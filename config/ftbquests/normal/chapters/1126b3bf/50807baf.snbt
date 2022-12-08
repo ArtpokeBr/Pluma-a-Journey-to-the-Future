@@ -1,0 +1,58 @@
+{
+	title: "The Tier 1 Blood Orb",
+	icon: {
+		id: "bloodmagic:blood_orb",
+		tag: {
+			orb: "bloodmagic:weak"
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	x: 10.5d,
+	y: -3.0d,
+	description: "Gimme Blood, Gimme More Blood!",
+	text: [
+		"By §6Infusing§f a §cSanguine Pearl§f in an §6Blood Altar§f... your First §5Blood Orb§f!",
+		"",
+		"- You'll be §aupgrading§f your §6Orb§f as you also §3Upgrade your Altar§f.",
+		"",
+		"- Currently,  you'll need to find an §bEnvironmental Accumulator§f and §2break it§f for its §bcore§f, §asoon§f, you'll be able to §2craft it§f easily. "
+	],
+	dependencies: [
+		"9ac09a4c"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "cf86e013",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sanguine_pearl"
+		}]
+	},
+	{
+		uid: "46b0681e",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b0e8d02",
+		type: "item",
+		item: "evilcraft:environmental_accumulation_core",
+		random_bonus: 2
+	},
+	{
+		uid: "75540676",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

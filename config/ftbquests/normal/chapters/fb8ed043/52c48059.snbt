@@ -1,0 +1,62 @@
+{
+	title: "Slaked Lime",
+	icon: "pyrotech:material 1 8",
+	x: 10.5d,
+	y: -0.5d,
+	description: "A Heat Resistent Material!",
+	text: [
+		"This is kinda of a process, but you'll get good amounts of Slaked Lime",
+		"",
+		"- First collect some Limestone and Crush it into Rocks.",
+		"",
+		"- Crush the Rocks again to get the Dust.",
+		"",
+		"- Smelt the Dust to get Quicklime.",
+		"",
+		"- Them, simply soak it in Water to get Slaked Lime!"
+	],
+	dependencies: [
+		"7e0a6c9a"
+	],
+	tasks: [{
+		uid: "143fd4fe",
+		type: "item",
+		items: [{
+			item: "pyrotech:limestone"
+		}]
+	},
+	{
+		uid: "e6e905b9",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 28"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5d46e441",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 22"
+		}],
+		count: 8L
+	},
+	{
+		uid: "82bc8b46",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2ee8ae43",
+		type: "item",
+		item: "pyrotech:stone_tank"
+	},
+	{
+		uid: "7135f9d6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

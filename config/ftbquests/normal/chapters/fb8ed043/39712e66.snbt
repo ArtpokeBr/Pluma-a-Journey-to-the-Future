@@ -1,0 +1,42 @@
+{
+	title: "Carrying your Lunch around!",
+	x: 18.0d,
+	y: 3.0d,
+	description: "Lets make a Lunch Bag!",
+	text: [
+		"A Lunch bag is a very usefull bag to have, it will help you a lot with §2Food Management§f.",
+		"",
+		"- You've probally noticed, but, you'll need to pay attention to §6Nutrition Levels§f and also §eFood Variation§f.",
+		"",
+		"- Most specifically, this §3Bag§f will select in its inventory the §e\"least eaten\"§f food that is available, helping you them to keep a §eVaried Diet§f.",
+		"",
+		"~ If you didn't started a §aCrop Farm§f yet, it is very recommended to do so."
+	],
+	dependencies: [
+		"f5036ad9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f835c63a",
+		type: "item",
+		items: [{
+			id: "spiceoflife:lunchbag",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb28278b",
+		type: "item",
+		item: "harvestcraft:friedfeastitem",
+		count: 2
+	},
+	{
+		uid: "869dcedd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

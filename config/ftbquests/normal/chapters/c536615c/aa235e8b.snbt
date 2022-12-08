@@ -1,0 +1,52 @@
+{
+	title: "{pluma.highspeedpipes.title}",
+	icon: "logisticspipes:pipe_hs_line",
+	x: 0.5d,
+	y: -6.0d,
+	description: "{pluma.highspeedpipes.subtitle}",
+	text: [
+		"{pluma.highspeedpipes.desc1}",
+		"",
+		"{pluma.highspeedpipes.desc2}",
+		"",
+		"{pluma.highspeedpipes.desc3}"
+	],
+	dependencies: [
+		"a8ec64a8"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "5769575f",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_hs_speedup"
+		}]
+	},
+	{
+		uid: "61cfe050",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_hs_line"
+		}]
+	},
+	{
+		uid: "ba99a0d2",
+		type: "item",
+		title: "{pluma.highspeedpipes.task3}",
+		items: [{
+			item: "logisticspipes:pipe_hs_s_curve"
+		},
+		{
+			item: "logisticspipes:pipe_hs_curve"
+		},
+		{
+			item: "logisticspipes:pipe_hs_gain"
+		}]
+	}],
+	rewards: [{
+		uid: "27409010",
+		type: "item",
+		item: "logisticspipes:pipe_hs_line",
+		count: 4
+	}]
+}

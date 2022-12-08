@@ -1,0 +1,24 @@
+{
+	title: "Mixing All Flesh's Together!",
+	x: 8.5d,
+	y: -1.0d,
+	description: "Making a Hellish Flesh!",
+	text: [
+		"The title says it all, time to Mix it all together and Obtain the Hellish Flesh Essence!"
+	],
+	dependencies: [
+		"2036bd98"
+	],
+	tasks: [{
+		uid: "7ced352e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hellishflesh"
+		}]
+	}],
+	rewards: [{
+		uid: "dc1e8dc4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

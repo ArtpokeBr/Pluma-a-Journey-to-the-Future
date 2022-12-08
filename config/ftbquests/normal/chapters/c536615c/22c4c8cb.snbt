@@ -1,0 +1,130 @@
+{
+	title: "Ramping up your Steam Production!",
+	icon: "gregtech:machine 1 1013",
+	x: -4.5d,
+	y: -14.5d,
+	description: "A Huge Bronze Boiler!",
+	text: [
+		"This §6Boiler§f has a true potential, it can produce up to §9800L/t§f when working at §e100% Efficiency§f.",
+		"",
+		"- It can run with a §9Liquid Fuel§f or a §2Solid Fuel§f (both if you wish)",
+		"",
+		"- In our case, you can choose to have a solid production of §9Creosote§f or §2Coke§f to feed it constantly",
+		"",
+		"- Also, struggling to keep it working? consider §ethrottling§f down the §6Boiler§f.",
+		"",
+		"- §4§lALWAYS PROVIDE IT WITH WATER!§r§f If you provide §eFuel§f without §bWater§f inside, §c§lKABOOM!§r§f",
+		"",
+		"~ Remember those 3 recommended §eOverclocked§f §6Improved Coke oven's§f from the previous quest?",
+		"",
+		"If you pipe out §2Charcoal's§f and the §9Creosote§f out of them, it will be enough to maintain §61 Bronze Boiler§f to §e100% Efficiency§f."
+	],
+	dependencies: [
+		"218cb735"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "0068fad5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1013"
+		}]
+	},
+	{
+		uid: "4297d60a",
+		type: "item",
+		title: "An ULV up to MV Output Hatch",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		},
+		{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		}],
+		count: 4L
+	},
+	{
+		uid: "35eeb1c5",
+		type: "item",
+		title: "An ULV up to MV Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		},
+		{
+			item: "gregtech:machine 1 1181"
+		},
+		{
+			item: "gregtech:machine 1 1182"
+		}],
+		count: 2L
+	},
+	{
+		uid: "42a1dffb",
+		type: "item",
+		title: "An LV or MV Muffling Hatch",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		},
+		{
+			item: "gregtech:machine 1 1658"
+		}]
+	},
+	{
+		uid: "a2514246",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "d61eef36",
+		type: "item",
+		title: "An ULV up to MV Input Bus",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		},
+		{
+			item: "gregtech:machine 1 1151"
+		},
+		{
+			item: "gregtech:machine 1 1152"
+		}]
+	},
+	{
+		uid: "0c598e57",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 20L
+	},
+	{
+		uid: "b3ed3459",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing"
+		}],
+		count: 4L
+	},
+	{
+		uid: "58732873",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "6b64ed40",
+		type: "item",
+		item: "enderio:block_reservoir",
+		count: 4
+	},
+	{
+		uid: "37ba72f0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

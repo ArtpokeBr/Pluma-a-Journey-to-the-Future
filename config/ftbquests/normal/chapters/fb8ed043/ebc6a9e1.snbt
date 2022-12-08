@@ -1,0 +1,53 @@
+{
+	title: "A Really OP Crafting Table",
+	x: 18.0d,
+	y: 0.0d,
+	description: "Crafting Station MK II",
+	text: [
+		"§6The Tinker's Crafting Station§f is an awesome option aswell, but:",
+		"",
+		"- This one has some §abonus features§f such as specific §atool storage§f.",
+		"",
+		"- Up to §a9 Recipe Storages§f for future crafts.",
+		"",
+		"And It also §areads adjacent inventories§f! such as:",
+		"",
+		"~ Chests",
+		"~ Crates",
+		"~ Drawers/Barrels",
+		"",
+		"~ and pretty much anything that has an internal inventory!",
+		"",
+		"§dReally usefull for the Early Game§f.",
+		"",
+		"§8§o~ Also the order of priority for it to read is: ",
+		"East",
+		"West",
+		"South",
+		"North",
+		"Up",
+		"Down",
+		"~ This could be usefull to know§r§f"
+	],
+	dependencies: [
+		"264e138d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "3990c0e5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1647"
+		}]
+	}],
+	rewards: [{
+		uid: "85fce384",
+		type: "item",
+		item: "gregtech:machine 1 1626"
+	},
+	{
+		uid: "51986d6c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

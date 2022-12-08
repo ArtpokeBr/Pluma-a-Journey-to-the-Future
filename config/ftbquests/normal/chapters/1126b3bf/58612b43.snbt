@@ -1,0 +1,34 @@
+{
+	title: "A Bloody Core!",
+	x: 1.5d,
+	y: 1.5d,
+	description: "An Essential Crafting Material for Evilcraft",
+	text: [
+		"Using a §6Dwarven Matrix§f you'll be able to assemble this §cBloody Core§f!",
+		"",
+		"- As it was mentioned in the Subtitle, §2many important blocks§f from §cEvilCraft§f will require this §6core§f."
+	],
+	dependencies: [
+		"6e04acc8",
+		"0203a379"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "5616b4e5",
+		type: "item",
+		items: [{
+			item: "evilcraft:blood_infusion_core"
+		}]
+	}],
+	rewards: [{
+		uid: "17ee2a56",
+		type: "item",
+		item: "embers:wildfire_core",
+		random_bonus: 2
+	},
+	{
+		uid: "fd26c96d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,64 @@
+{
+	title: "A Multiblock Steam Macerator!",
+	icon: "gregtech:machine 1 1025",
+	x: -2.0d,
+	y: -6.5d,
+	description: "A Steam Macerator capable of processing 8 Items at a time",
+	text: [
+		"Remember, it only accepts the Inputs and Outputs specified on this Quest.",
+		"",
+		"- The Amount of Bronze Machine Casing's already counts the ones needed for the Controller Block.",
+		"",
+		"- Remember, you can share Walls between GregTech Multiblocks!"
+	],
+	dependencies: [
+		"8b36e363"
+	],
+	tasks: [{
+		uid: "42550a13",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 28L
+	},
+	{
+		uid: "fd0918be",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1025"
+		}]
+	},
+	{
+		uid: "5f91a15f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1653"
+		}]
+	},
+	{
+		uid: "5d7b0cae",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1652"
+		}]
+	},
+	{
+		uid: "a04bc394",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1651"
+		}]
+	}],
+	rewards: [{
+		uid: "7a97d863",
+		type: "item",
+		item: "harvestcraft:tacoitem",
+		count: 4
+	},
+	{
+		uid: "ca20ddfe",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

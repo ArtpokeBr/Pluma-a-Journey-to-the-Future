@@ -1,0 +1,67 @@
+{
+	title: "A §bGlitch Infused Material§f",
+	icon: "deepmoblearning:glitch_infused_ingot",
+	x: 10.5d,
+	y: -12.0d,
+	description: "§kVery Interesting to make!§r",
+	text: [
+		"- §6First§f, it is a §agood idea§f to start farming §bGlitch Hearts§f.",
+		"",
+		"- §6Second§f, Time to §cExplode§f those §bHearts§f!",
+		"",
+		"- §6Third§f, After you've §cExploded them§f, the remains will be a §3fine dust§f.... §9Autoclave it§f!",
+		"",
+		"- Maybe it is a §egood idea§f to §2automate this whole process§f if you plan on making multiple §bDML Setups§f."
+	],
+	dependencies: [
+		"bcf7bc36"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "7be4e325",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustGlitchInfused"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustGlitchInfused"
+				}
+			}
+		}]
+	},
+	{
+		uid: "fdfe9541",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotGlitchInfused"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotGlitchInfused"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9767108e",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 32
+	},
+	{
+		uid: "0d88774e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

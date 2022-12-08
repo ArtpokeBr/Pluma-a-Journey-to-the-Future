@@ -1,0 +1,75 @@
+{
+	title: "Tier 2 Essences",
+	x: 16.5d,
+	y: -4.0d,
+	description: "Its getting a little bit more complicated!",
+	text: [
+		"- Lets make the §aTier 2§f ones!",
+		"",
+		"- You should be able to make them now if you just unlocked this quest.",
+		" if you can't, §5don't forget to come back later§f!",
+		"",
+		"- All §6Essence's§f will also require a §bCatalyst§f to be made, make sure to §2automate§f it beforehand.",
+		"",
+		"§d▬ §nMagicales§r§f §5Vishroom's§f §8§o(that can be found easily in Magical Forest's)§r§f, §cIncendium§f, A §3Magic Map Focus§f, §5Draconium§f and a §dPereskia§f. ",
+		"",
+		"§e▬ §nSanctus§r§f: §3Aether§f, §eGlod Crystal§f, §6Hardened Electrum Glass§f, §eGlowstone§f and a §3Luminous Yellow Stained Bricks§f.",
+		"",
+		"§2▬ §nOrbis Terrae§r§f: §3Terrae§f, §2Emeradic§f, §aOsgloglas§f and some §2Arboreal Essence§f.",
+		"",
+		"§b▬ §nCrystallos§r§f: §9Aqualus§f, Ice and Snow, §apretty easy you know§f?",
+		"",
+		"§8§oInteresting how Reagents are much more complicated and complex than essence's, right?§r§f"
+	],
+	dependencies: [
+		"3e1f7f5e"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "656dd01f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magicales"
+		}]
+	},
+	{
+		uid: "e7304d09",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sanctus"
+		}]
+	},
+	{
+		uid: "a980f510",
+		type: "item",
+		items: [{
+			item: "contenttweaker:orbis_terrae"
+		}]
+	},
+	{
+		uid: "34168e89",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crystallos"
+		}]
+	},
+	{
+		uid: "c5a84167",
+		type: "item",
+		items: [{
+			item: "contenttweaker:strengthened_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "f7612323",
+		type: "item",
+		item: "contenttweaker:strengthened_catalyst",
+		count: 16,
+		random_bonus: 48
+	},
+	{
+		uid: "adde7d4d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

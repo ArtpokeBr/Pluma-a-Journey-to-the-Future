@@ -1,0 +1,71 @@
+{
+	title: "Dwarven Mining!",
+	icon: "embers:ember_bore",
+	x: 7.039285714285718d,
+	y: -0.8928571428571388d,
+	description: "Time to start Digging for Ember!",
+	text: [
+		"The §6Ember Bore§f is a special type of §2Machine that must be connected to Bedrock to work§f!",
+		"",
+		"- You can actually place it §a2~3 blocks§f above the §3Bedrock§f to see the full §6Multiblock Structure§f §8§o(it has some neat Spinning Blades)§f§r.",
+		"",
+		"- It will §c§lONLY WORK§r§f in §5The Beneath§f.",
+		"",
+		"- §aThe Only I/O is the center block§f, meaning that if you want to input and output items at the same time, it is a §2good idea§f to use §dConduits§f or a §dMechanical Core§f."
+	],
+	dependencies: [
+		"f40ce7af"
+	],
+	size: 1.5d,
+	min_width: 350,
+	tasks: [{
+		uid: "0f1e6faa",
+		type: "item",
+		items: [{
+			item: "embers:ember_bore"
+		}]
+	},
+	{
+		uid: "fe8a020f",
+		type: "item",
+		items: [{
+			item: "embers:mech_core"
+		}]
+	},
+	{
+		uid: "ca1e0848",
+		type: "item",
+		items: [{
+			item: "embers:dust_ember"
+		}]
+	},
+	{
+		uid: "5e53771b",
+		type: "item",
+		items: [{
+			item: "embers:shard_ember"
+		}]
+	},
+	{
+		uid: "583ad4b6",
+		type: "item",
+		items: [{
+			item: "embers:crystal_ember"
+		}]
+	}],
+	rewards: [{
+		uid: "41763ae3",
+		type: "item",
+		item: {
+			id: "embers:ember_detector",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "75f11ef7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

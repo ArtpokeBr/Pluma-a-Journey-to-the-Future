@@ -1,0 +1,53 @@
+{
+	title: "A Pulsating Conduit!",
+	icon: "enderio:item_item_conduit",
+	x: 10.0d,
+	y: -9.5d,
+	description: "Time to make some Item Conduits!",
+	text: [
+		"With your §6Alloy Smelter§f from §3Ender IO§f, you finally have acess to §aPulsating Iron§f!",
+		"",
+		"- §aPulsating Iron§f can actually be used as an §eULV Lossless Cable§f.",
+		"",
+		"- But the Main utility of it is to make §2Item Conduits§f!",
+		"",
+		"- Your possibilities of §2Item Logistics§f have now §9expanded§f!"
+	],
+	dependencies: [
+		"b6703e93"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f06ce587",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 32003"
+		}],
+		count: 3L
+	},
+	{
+		uid: "d93a890e",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "e4ae7320",
+		type: "item",
+		item: "enderio:item_basic_item_filter",
+		count: 4
+	},
+	{
+		uid: "cfdd7bea",
+		type: "item",
+		item: "enderio:item_advanced_item_filter",
+		count: 2
+	},
+	{
+		uid: "570c0f0c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

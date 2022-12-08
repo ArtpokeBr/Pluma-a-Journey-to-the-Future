@@ -1,0 +1,53 @@
+{
+	title: "The Process of Making Dark Steel §6Part I§f",
+	icon: "gregtech:meta_dust 1 302",
+	x: 1.0d,
+	y: -10.0d,
+	description: "Making Black Bronze",
+	text: [
+		"In order to get §6Dark Steel§f, you'll need its subcomponents firts.",
+		"",
+		"- Lets start by making §5Black Bronze§f.",
+		"",
+		"- Use an §6Mixer§f with §33 Copper§f and §32 Electrum dust's§f."
+	],
+	dependencies: [
+		"0429f345"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "8ac0a68b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 277"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ad49746c",
+		type: "item",
+		items: [{
+			item: "mekanism:dust 1 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "aa2c0f0f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 302"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "f85d6f74",
+		type: "item",
+		item: "gregtech:item_pipe_normal 1 302",
+		count: 8
+	},
+	{
+		uid: "d5f052b8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

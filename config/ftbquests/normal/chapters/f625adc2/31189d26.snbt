@@ -1,0 +1,37 @@
+{
+	title: "An Altar for all your Runic needs!",
+	x: -1.0d,
+	y: -5.0d,
+	description: "Imbuing Mana into Rocks!",
+	text: [
+		"With your §abrand new§f §bMana Materials§f, time to improve your §3Botania Setup§f!",
+		"",
+		"- §5Drop or right click§f with the §2items§f for your desired §2Recipe in it§f.",
+		"",
+		"- §dConnect a Mana Spreader§f to it and Voilá!",
+		"",
+		"§8§o~ It is a good idea to automate it, since you'll be making more and more Runes as you progress.§r§f"
+	],
+	dependencies: [
+		"d21c04b2"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "523faf07",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "36d73934",
+		type: "item",
+		item: "botania:spreader 1 2"
+	},
+	{
+		uid: "4033db34",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

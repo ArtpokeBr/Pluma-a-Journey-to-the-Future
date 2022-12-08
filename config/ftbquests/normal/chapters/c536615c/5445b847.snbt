@@ -1,0 +1,50 @@
+{
+	title: "Time to make Batteries!",
+	x: -7.0d,
+	y: -7.5d,
+	description: "A Needed Component for Electric Machines from this Mod.",
+	text: [
+		"With AA Batteries you'll also be able to shift + right click to activate their Inventory Charging Option!",
+		"",
+		"- They're mainly used for Crafting, but yeah, you can use them with a Battery Box in order to keep Electric Items charged."
+	],
+	dependencies: [
+		"70fc20a6"
+	],
+	tasks: [{
+		uid: "a3e77208",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_battery",
+			tag: {
+				Energy: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c14b483a",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_battery_double",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "871004ff",
+		type: "item",
+		item: "actuallyadditions:item_food 1 3",
+		count: 2
+	},
+	{
+		uid: "abd33765",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

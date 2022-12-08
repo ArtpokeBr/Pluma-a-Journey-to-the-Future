@@ -1,0 +1,31 @@
+{
+	title: "Fluid Manipulation with LP",
+	x: 0.5d,
+	y: 1.0d,
+	description: "Pretty Simple!",
+	text: [
+		"Almost all quests that you're currently completing related to LP, can be applied to the Fluid System from it, it may be very good for your base logistics!",
+		"",
+		"- This Fluid Upgrade that you've received for example, can be used to allow your autocrafting system to pull fluids connected to the Network for the recipe."
+	],
+	dependencies: [
+		"008c7cba"
+	],
+	tasks: [{
+		uid: "dfc5573a",
+		type: "item",
+		items: [{
+			item: "logisticspipes:pipe_fluid_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "3bece1ea",
+		type: "item",
+		item: "logisticspipes:upgrade_fluid_crafting"
+	},
+	{
+		uid: "75f20d3f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

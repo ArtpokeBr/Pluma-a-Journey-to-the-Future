@@ -1,0 +1,33 @@
+{
+	title: "LV Extractor",
+	x: 7.5d,
+	y: 2.5d,
+	description: "Extracting Materials and Fluids with EU!",
+	text: [
+		"The Steam version of this Machine could not handle Fluids, but it is diferent with this guy!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ffc88aa1",
+		"40ed11cf",
+		"de02f604"
+	],
+	tasks: [{
+		uid: "ec444ea2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 305"
+		}]
+	}],
+	rewards: [{
+		uid: "ade6fac9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "8d1a1994",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

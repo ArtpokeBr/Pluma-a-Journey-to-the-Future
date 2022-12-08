@@ -1,0 +1,34 @@
+{
+	title: "More Energy for Multiblocks!",
+	x: 6.0d,
+	y: -2.5d,
+	description: "Time to make an HV Energy Hatch",
+	text: [
+		"Finally! with some materials and a little bit of §aSodium Potassium§f, an §6HV Energy Hatch§f!",
+		"",
+		"- Make at least one to use in your §6Blast Furnace§f, trust me, you'll need it",
+		"",
+		"- Also perhaps it is a good idea to make more and start §eOverclocking§f your §2multiblock machines§f."
+	],
+	dependencies: [
+		"adf5d43f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "70748ee2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1213"
+		}]
+	}],
+	rewards: [{
+		uid: "b230a7cc",
+		type: "item",
+		item: "gregtech:machine 1 1213"
+	},
+	{
+		uid: "2debd402",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

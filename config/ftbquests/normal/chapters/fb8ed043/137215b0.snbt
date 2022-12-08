@@ -1,0 +1,32 @@
+{
+	title: "Pyrotech Machines go Brr",
+	x: 8.5d,
+	y: 0.5d,
+	description: "Using Bellows to increse Air Flow",
+	text: [
+		"By using a Bellow attached to a Pyrotech Machine, you'll be able to REALLY INCREASE the speed of the operations.",
+		"",
+		"- This Tier of Bellow will require you to jump on it in order to use it."
+	],
+	dependencies: [
+		"a2bd8974"
+	],
+	tasks: [{
+		uid: "495a9e06",
+		type: "item",
+		items: [{
+			item: "pyrotech:bellows"
+		}]
+	}],
+	rewards: [{
+		uid: "0f42cbf2",
+		type: "item",
+		team_reward: false,
+		item: "harvestcraft:toastedwesternitem"
+	},
+	{
+		uid: "f8bb8407",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

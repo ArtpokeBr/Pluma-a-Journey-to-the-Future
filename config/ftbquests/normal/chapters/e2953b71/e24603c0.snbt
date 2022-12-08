@@ -1,0 +1,36 @@
+{
+	title: "Rituals for the Ancient Gods!",
+	icon: "abyssalcraft:ritualaltar",
+	x: 5.0d,
+	y: -1.0d,
+	description: "Time to really start playing with Abyssal Craft!",
+	text: [
+		"It could be a §dlittle tricky§f for me to explain in this §3quest§f, but, let me try:",
+		"",
+		"- Start by placing §21 Cobblestone§f, this will be the §ecentral block§f of your structure.",
+		"",
+		"- Skip §32 Blocks on each cardinal direction§f from the central §2Cobblestone§f and place more.",
+		"",
+		"- And to finish it, Skip §31 Block Diagonally§f from the central block and §2place more there aswell§f.",
+		"",
+		"- To form your §astructure§f, simply §bshift + right click§f with the §cNecronomicon§f!"
+	],
+	dependencies: [
+		"f607daf4"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "f2ba5bf6",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "5ab56705",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

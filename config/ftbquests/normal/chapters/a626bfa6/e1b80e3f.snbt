@@ -1,0 +1,68 @@
+{
+	title: "The Process of Obtaining Zinc §6Part I§f",
+	icon: "gregtech:meta_dust 1 122",
+	x: 4.5d,
+	y: 5.5d,
+	description: "And actually learning a little bit of Ore Processing...",
+	text: [
+		"Zinc is a key material for obtaining Brass, you'll be using it for other purposes aswell in the future tho.",
+		"",
+		"- There's no Zinc Ore, you'll need to obtain it by Ore Processing other Ores.",
+		"",
+		"- You'll probally find better ways to obtain it in the future, but this is one of the first ones.",
+		"",
+		"- Lets start with a Macerator and some Tin Ores!",
+		"",
+		"~ You'll receive a free conveyor belt, place down a macerator, provide it with power and use the conveyor to give it some Tin Ores."
+	],
+	dependencies: [
+		"ef46f599"
+	],
+	tasks: [{
+		uid: "2764d52f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreTin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreTin"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "092cbcf0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 65"
+		},
+		{
+			item: "gregtech:machine 1 66"
+		}]
+	},
+	{
+		uid: "f09e8be3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed 1 112"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c690f8fd",
+		type: "item",
+		item: "gregtech:meta_item_1 1 157"
+	},
+	{
+		uid: "00fe2274",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

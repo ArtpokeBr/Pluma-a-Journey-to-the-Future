@@ -1,0 +1,33 @@
+{
+	title: "High Voltage Mixing!",
+	x: -1.0d,
+	y: -2.5d,
+	description: "Making an HV Mixer may be more usefull than you think.",
+	text: [
+		"Well, this Mixer will improve your current §9Mixing Recipes§f allowing you to §eOverclock§f them to §6HV Level§f.",
+		"",
+		"- But most importantly, you'll need it to Progress Further in §6Chapter 6§f."
+	],
+	dependencies: [
+		"9909954b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "515a77f3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 472"
+		}]
+	}],
+	rewards: [{
+		uid: "6912460d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 625",
+		count: 2
+	},
+	{
+		uid: "5946ee4d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "An Electrical Improvement to Steel!",
+	x: -3.5d,
+	y: -10.0d,
+	description: "Steel + Silicon = Electrical Steel!",
+	text: [
+		"Now that you have a §6Blast Furnace§f, it is time to make §7Electrical Steel§f! ",
+		"",
+		"- This is your First Step into §3EnderIO§f!",
+		"",
+		"- Also, note that you can use §bOxygen§f to greatly reduce the costs and time of the Recipe."
+	],
+	dependencies: [
+		"b6568fbc"
+	],
+	tasks: [{
+		uid: "366de07a",
+		type: "item",
+		title: "Electrical Steel",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotElectricalSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotElectricalSteel"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1dd7831c",
+		type: "item",
+		item: "harvestcraft:bbqpulledporkitem",
+		count: 4
+	},
+	{
+		uid: "5519b14d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

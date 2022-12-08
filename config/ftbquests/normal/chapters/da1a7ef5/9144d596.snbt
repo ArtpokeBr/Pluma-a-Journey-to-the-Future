@@ -1,0 +1,35 @@
+{
+	title: "Druidic Rituals!",
+	icon: "roots:ritual_spreading_forest",
+	x: 12.5d,
+	y: 1.0d,
+	description: "There are very usefull rituals",
+	text: [
+		"Aswell as Crafting, your Pyre can be used to make some Rituals!",
+		"",
+		"- Please Refer to the Book for more info, but here are some Examples:",
+		"",
+		"- Animal Harvest Ritual: Will automaticaly shed any eligible creatures in the vicinity,",
+		"dropping items as tough they had been slain by a player.",
+		"",
+		"- Divine Protection: This Ritual will dispell Rain while the duration of the Day will be incresed",
+		"and the duration of night is shortened.",
+		"",
+		"- Summon Creatures: This Ritual will summon any compatible creature if the necessary resources are provided",
+		"Look at JEI for all resources required.",
+		"",
+		"- And these were only a few of many Rituals possible!"
+	],
+	dependencies: [
+		"9dc70611"
+	],
+	tasks: [{
+		uid: "8c998883",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "11a726cc",
+		type: "xp",
+		xp: 100
+	}]
+}

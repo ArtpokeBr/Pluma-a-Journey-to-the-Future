@@ -1,0 +1,82 @@
+{
+	title: "Becoming a  True Master Chef",
+	x: -6.0d,
+	y: 2.0d,
+	description: "Lets make a Multiblock Chicken!.... I mean.. Kitchen!",
+	text: [
+		"Cooking for Blockheads offers you a Neat way to easy craft any type of Food!",
+		"",
+		"- Simply place all of the Blocks from this Mod close to each other and voilá!",
+		"",
+		"- Each one of them will contribute something for the Kitchen, there's a bunch of Options!",
+		"",
+		"- But most importantly, The Cooking Table is where you'll \"control everthing\" and assemble the Foods."
+	],
+	dependencies: [
+		"a45b245e"
+	],
+	tasks: [{
+		uid: "8c3d6439",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "929d95ca",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5af1774f",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "4bde3155",
+		type: "item",
+		items: [{
+			id: "harvestcraft:cuttingboarditem",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e846ee50",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	},
+	{
+		uid: "03a0da3c",
+		type: "item",
+		title: "Counters or Cabinets",
+		items: [{
+			item: "cookingforblockheads:counter"
+		},
+		{
+			item: "cookingforblockheads:cabinet"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "618bcbbb",
+		type: "item",
+		item: "cookingforblockheads:kitchen_floor",
+		count: 16
+	},
+	{
+		uid: "1a2341ef",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

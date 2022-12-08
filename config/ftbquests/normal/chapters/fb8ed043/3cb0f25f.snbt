@@ -1,0 +1,75 @@
+{
+	title: "All the Essentials",
+	icon: "pyrotech:material 1 12",
+	x: -0.5d,
+	y: -0.5d,
+	description: "Wood, Fibers and Rocks on the Ground!",
+	text: [
+		"You'll need these for your first crafts.",
+		"",
+		"- Rocks can be found literally on the ground",
+		"",
+		"- Fibers can be obtained by breaking most of the grasses also on the ground"
+	],
+	dependencies: [
+		"26b332de"
+	],
+	tasks: [{
+		uid: "d8498c92",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "ab0067db",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 12"
+		}],
+		count: 16L
+	},
+	{
+		uid: "23e5fc0f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "rock"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "410a9fa5",
+		type: "item",
+		auto: "enabled",
+		item: "pyrotech:material 1 12",
+		count: 32
+	},
+	{
+		uid: "85116e44",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

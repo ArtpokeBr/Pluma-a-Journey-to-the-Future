@@ -1,0 +1,38 @@
+{
+	title: "Lets get Botanical!",
+	x: -7.5d,
+	y: -1.0d,
+	description: "More like a Nature Magic Mod!",
+	text: [
+		"With §2Materials§f obtained from the §5Final Boss§f of the §3Twilight Forest§f, §aA Floral Fertilizer§f!",
+		"",
+		"- §6Botania Flowers§f §2don't spawn naturally§f, that's why you'll need this §aitem§f to §eget them§f!",
+		"",
+		"§8§o~ Pro tip: place petals on the ground and use bonemeal! you'll get a tall flower, after that, simply convert them back into more petals!§r§f"
+	],
+	dependencies: [
+		"f7503f46"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "e54b7e8d",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "492a7092",
+		type: "item",
+		item: "botania:fertilizer",
+		count: 3,
+		random_bonus: 6
+	},
+	{
+		uid: "385ca129",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

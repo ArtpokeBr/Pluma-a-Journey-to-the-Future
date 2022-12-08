@@ -1,0 +1,88 @@
+{
+	title: "The Gold Processing Line §6Part III§f",
+	icon: "gregtech:meta_ingot 1 32074",
+	x: 10.0d,
+	y: 2.5d,
+	description: "Leaching Gold Alloy",
+	text: [
+		"Now, time to leach §3Gold Alloy§f!",
+		"",
+		"- §3Gold Alloy§f is an Alloy essentially made with §63 Copper§f and §e1 Precious Metal§f.",
+		"",
+		"§a§o~ Trust me, you're almost there!§r§f",
+		"",
+		"- By §6Chemically Reacting§f §eNitric Acid§f with §3Gold Alloy§f, you'll get a bit of §bNitrogen Dioxide§f back and also §6Gold Leach Dust§f!"
+	],
+	dependencies: [
+		"2f37e0ea"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "071097a9",
+		type: "item",
+		title: "A Steam to HV Alloy Smelter",
+		items: [{
+			item: "gregtech:machine 1 17"
+		},
+		{
+			item: "gregtech:machine 1 18"
+		},
+		{
+			item: "gregtech:machine 1 80"
+		},
+		{
+			item: "gregtech:machine 1 81"
+		},
+		{
+			item: "gregtech:machine 1 82"
+		}]
+	},
+	{
+		uid: "46a63603",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32074"
+		}],
+		count: 4L
+	},
+	{
+		uid: "0d60fa48",
+		type: "item",
+		title: "An LV to HV Chemical Reactor",
+		items: [{
+			item: "gregtech:machine 1 215"
+		},
+		{
+			item: "gregtech:machine 1 216"
+		},
+		{
+			item: "gregtech:machine 1 217"
+		}]
+	},
+	{
+		uid: "09623939",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32076"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "26ff11c5",
+		type: "item",
+		item: "gregtech:meta_dust 1 32076",
+		count: 4,
+		random_bonus: 12
+	},
+	{
+		uid: "2eb23bef",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 4
+	},
+	{
+		uid: "d72cce26",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Refining Fuel's and Potions on Demand!",
+	x: 2.5d,
+	y: 3.5d,
+	description: "Let's make a Fractionating Still!",
+	text: [
+		"By default it can be used to refine some §9Liquors§f from §3Forestry§f and also some §eFuels§f!",
+		"",
+		"- But, with some §eupgrades§f you can also refine §dPotion's§f!",
+		"",
+		"- This will be §2essential for certain automations§f and also usefull for you to obtain §dStrong Potions§f!"
+	],
+	dependencies: [
+		"736de7e5",
+		"e5c2372d"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "742a51bb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 7s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					2b,
+					3b,
+					3b,
+					3b,
+					3b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "07f977c8",
+		type: "item",
+		item: "thermalexpansion:augment 1 369"
+	},
+	{
+		uid: "507e2d98",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

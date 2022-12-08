@@ -1,0 +1,29 @@
+{
+	title: "Shake Shake Shake!",
+	x: 1.0d,
+	y: -3.0d,
+	description: "This item does not include a Rat Battle",
+	text: [
+		"By making a Rattle, you'll have acess to more Melody for your rituals and actually will have acess to more Rittuals!"
+	],
+	dependencies: [
+		"c8a43935"
+	],
+	tasks: [{
+		uid: "ad4348fd",
+		type: "item",
+		items: [{
+			id: "totemic:rattle",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "12c50311",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

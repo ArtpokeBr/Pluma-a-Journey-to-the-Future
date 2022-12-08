@@ -1,0 +1,32 @@
+{
+	title: "Finally Compressing Metal Blocks",
+	x: -4.5d,
+	y: -1.5d,
+	description: "A Steam Compressor!",
+	text: [
+		"A Machine Capable of also Consuming Steam to Compress the Most Varied Materials.",
+		"",
+		"- This Steam Compressor will require Steam to operate and it will only process ULV and LV level Recipes."
+	],
+	dependencies: [
+		"f2fbaff1"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ab134964",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "ac617358",
+		type: "item",
+		item: "harvestcraft:chickenpotpieitem"
+	},
+	{
+		uid: "aad19698",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

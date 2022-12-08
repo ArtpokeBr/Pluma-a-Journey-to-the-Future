@@ -1,0 +1,66 @@
+{
+	title: "Elemental Soils!",
+	x: 15.5d,
+	y: 1.0d,
+	description: "A Way to enhance your Farms!",
+	text: [
+		"Roots offers you some pretty interesting soils, all of them have specific way to be obtained.",
+		"",
+		"- Caelic Soil: Increases the rate at wich plants grow",
+		"",
+		"- Aqueous Soil: Automatically harvests the Plants when they reach maturity (place a gravel bellow to disable)",
+		"",
+		"- Magmatic Soil: Cooks some of the Outputs from the Plants when harvesting",
+		"",
+		"- Terran Soil: Increses the Yield of plants grown on it"
+	],
+	dependencies: [
+		"34c7ed17"
+	],
+	tasks: [{
+		uid: "4006d203",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil"
+		}]
+	},
+	{
+		uid: "f6b7c3ae",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_air"
+		}]
+	},
+	{
+		uid: "b46040e2",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_water"
+		}]
+	},
+	{
+		uid: "673b9e33",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_fire"
+		}]
+	},
+	{
+		uid: "16ccf4b4",
+		type: "item",
+		items: [{
+			item: "roots:elemental_soil_earth"
+		}]
+	}],
+	rewards: [{
+		uid: "7e8b9b75",
+		type: "item",
+		item: "roots:elemental_soil",
+		count: 16
+	},
+	{
+		uid: "4a13eab8",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

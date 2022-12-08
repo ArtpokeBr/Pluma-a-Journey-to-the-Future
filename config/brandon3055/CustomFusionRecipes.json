@@ -1,0 +1,21 @@
+[
+{
+    "mode": "ADD",
+    "result": "quantumflux:imaginarytime",
+    "catalyst": "gregtech:machine,1,1393",
+    "energy": 50000000,
+    "tier": 1,
+    "ingredients": [
+        "gregtech:meta_item_1,1,497",
+        "gregtech:meta_item_1,1,497",
+        "draconicevolution:awakened_core",
+        "draconicevolution:awakened_core",
+        "tconevo:metal_block,1,4",
+        "tconevo:metal_block,1,4",
+        "gendustry:gene_sample,1,0,{species: rootBees, chromosome: 0, allele: careerbees.clock}",
+        "gendustry:gene_sample,1,0,{species: rootBees, chromosome: 0, allele: careerbees.acceleration}",
+        "gregtech:meta_item_1,1,497",
+        "gregtech:meta_item_1,1,497"
+    ]
+}
+]

@@ -1,0 +1,45 @@
+{
+	title: "Creosote Oil!",
+	x: 14.5d,
+	y: 0.5d,
+	description: "An Essential Oil for some Recipes and Processes!",
+	text: [
+		"Creosote Oil is a key Oil to some recipes and also to make Treated Wood! ",
+		"",
+		"- Pherhaps it is a good Idea to automate this ASAP"
+	],
+	dependencies: [
+		"cf908415"
+	],
+	tasks: [{
+		uid: "a5447085",
+		type: "fluid",
+		fluid: "creosote"
+	}],
+	rewards: [{
+		uid: "a0c5569f",
+		type: "item",
+		item: {
+			id: "enderio:block_tank",
+			tag: {
+				"enderio:data": {
+					tank: {
+						Empty: "",
+						Capacity: 16000
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "6aa5ed14",
+		type: "item",
+		item: "gregtech:fluid_pipe_small 1 260",
+		count: 4
+	},
+	{
+		uid: "9a96a23d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

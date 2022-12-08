@@ -1,0 +1,40 @@
+{
+	title: "The Best Buddys",
+	x: 7.0d,
+	y: -3.5d,
+	description: "Time to automate the Best LV and the Best MV Circuit!",
+	text: [
+		"That's right, with those pretty neat §bSoC's§f that you've just obtained, perhaps it is a §2good Idea§f to improve your §6Circuit Infrastructure§f.",
+		"",
+		"- With an §6MV Circuit Assembler§f, simply use some §2components§f including those §bSoC's§f and voilá!"
+	],
+	dependencies: [
+		"27bb60ec"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "c63bd69a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 627"
+		}]
+	},
+	{
+		uid: "6303dc6a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 628"
+		}]
+	}],
+	rewards: [{
+		uid: "16b97a4c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 403",
+		count: 16
+	},
+	{
+		uid: "cfb1945c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

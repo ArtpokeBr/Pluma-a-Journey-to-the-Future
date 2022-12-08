@@ -1,0 +1,47 @@
+{
+	title: "Producing Charcoal",
+	icon: "minecraft:coal 1 1",
+	x: 3.5d,
+	y: -2.5d,
+	description: "Time to make a Pit Burn!",
+	text: [
+		"You can't produce Charcoal by simply smelting it in a furnace, you'll need more for that!",
+		"",
+		"- Dig a 3x3x2 whole and place Wood Piles, them cover all the Wood Piles with dirt again exept for one",
+		"",
+		"- use a Flint and Tinder to light up this last one and them cover it again!",
+		"",
+		"- If Smokes are going out it means that it is currently working! when they stop, you can collect the results.",
+		"",
+		"- Also, you can break briefly a dirt to check the \"growth\" status that indicates the progress of this process."
+	],
+	dependencies: [
+		"765849a8"
+	],
+	tasks: [{
+		uid: "32087520",
+		type: "item",
+		items: [{
+			item: "forestry:wood_pile"
+		}],
+		count: 9L
+	},
+	{
+		uid: "892ae01e",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7c0b9b30",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 11",
+		count: 64
+	},
+	{
+		uid: "b9f0443b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

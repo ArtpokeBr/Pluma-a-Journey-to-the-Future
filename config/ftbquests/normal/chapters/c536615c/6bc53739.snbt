@@ -1,0 +1,39 @@
+{
+	title: "Time to Automate Empowered Canola Oil §6Final Part",
+	x: -5.0d,
+	y: -10.0d,
+	description: "Empowering Seeds and Oil!",
+	text: [
+		"Well, this is the Last Step for your Empowered Canola Oil Setup",
+		"",
+		"- Simply Empower the Seeds and voilá!",
+		"",
+		"- You can either Drop the Seeds to convert Crystallized Oil Directly or you can use a Mixer to keep things compact."
+	],
+	dependencies: [
+		"9f5169a8",
+		"c6da909f"
+	],
+	tasks: [{
+		uid: "2987cb71",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 24"
+		}]
+	},
+	{
+		uid: "c4544c77",
+		type: "fluid",
+		fluid: "empoweredoil"
+	}],
+	rewards: [{
+		uid: "fd182e56",
+		type: "item",
+		item: "actuallyadditions:block_coffee_machine"
+	},
+	{
+		uid: "4099899e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

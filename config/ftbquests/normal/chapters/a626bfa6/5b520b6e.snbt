@@ -1,0 +1,36 @@
+{
+	title: "An Automatic Stone/Cobblestone Factory!",
+	x: -6.0d,
+	y: -3.0d,
+	description: "Why set up a complex and vanilla Cobblestone farm when you have acess to Steam and GregTech?",
+	text: [
+		"That's right! an elegant solution for all your Cobblestone and Stone needs.",
+		"",
+		"- Look at JEI for the recipes available, for the Steam Level? Only Stone and Cobblestone.",
+		"",
+		"- After that, place lava and water adjacent to this block and provide it with Steam.",
+		"",
+		"- Them place Stone or Cobblestone inside of its Input slot and Voilá! You're producing Infinite Cobble/Stone!"
+	],
+	dependencies: [
+		"f2fbaff1"
+	],
+	tasks: [{
+		uid: "790f3258",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "e39d6f6e",
+		type: "item",
+		item: "pyrotech:stash",
+		count: 2
+	},
+	{
+		uid: "dbcadac5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

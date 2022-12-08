@@ -1,0 +1,39 @@
+{
+	title: "The Start of something!",
+	x: 7.0d,
+	y: -4.0d,
+	description: "A Interesting type of Blend",
+	text: [
+		"With a §6Time Manipulator§f, you've reverted the §5time and space§f location of a §3Fireclay Dust§f, and with this process, you've obtained some §2strange blend§f...",
+		"",
+		"§6Caminite Blend§f!",
+		"",
+		"- This Special Blend will be essential to get into §aEmber's§f.",
+		"",
+		"- The will be better ways to obtain §6Caminite Blend's§f, but it is a good decision to make some right now."
+	],
+	dependencies: [
+		"9e54ea31"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "e9abc236",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d8ddb153",
+		type: "item",
+		item: "embers:blend_caminite",
+		random_bonus: 7
+	},
+	{
+		uid: "b23f8bc2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

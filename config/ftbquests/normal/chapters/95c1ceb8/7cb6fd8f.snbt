@@ -1,0 +1,40 @@
+{
+	title: "A Dwarven Gas",
+	x: 14.5d,
+	y: 1.5d,
+	description: "No, you're not producing Dwarven Farts...",
+	text: [
+		"By simply processing §6Dwarven Oil§f inside of an §3Thermal Evaporation Tower§f, §aDwarven Fuel Gas§f.",
+		"",
+		"- You'll be using it for §2certain crafts§f, but you can also use the §bexcess§f to §bincrease§f even more §bthe yield§f of your §6Dwarven Oil production§f."
+	],
+	dependencies: [
+		"bc1f7a29"
+	],
+	min_width: 260,
+	tasks: [{
+		uid: "f1f9c269",
+		type: "fluid",
+		fluid: "gas_dwarf"
+	}],
+	rewards: [{
+		uid: "ac85474a",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "gas_dwarf",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "3ec1b459",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

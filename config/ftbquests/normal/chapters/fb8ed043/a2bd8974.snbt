@@ -1,0 +1,87 @@
+{
+	title: "Sawing Wood!",
+	icon: "pyrotech:stone_sawmill",
+	x: 8.5d,
+	y: -0.5d,
+	description: "Time to finally get more Planks out of a Log!",
+	text: [
+		"The Sawmill is an interesting device that will finally make possible to get more planks!",
+		"",
+		"- It works just like the Kiln, you'll need a fuel bellow to light it up.",
+		"",
+		"- Different Saw Blades will give you Different Durability Stats.",
+		"",
+		"- The Sawmill will generate some Sawdust on the ground, clean it!"
+	],
+	dependencies: [
+		"c37850c9",
+		"0d268649"
+	],
+	tasks: [{
+		uid: "da64443c",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_sawmill"
+		}]
+	},
+	{
+		uid: "247c1184",
+		type: "item",
+		title: "Any Sawmill Blade",
+		items: [{
+			id: "pyrotech:sawmill_blade_stone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "pyrotech:sawmill_blade_flint",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "pyrotech:sawmill_blade_bone",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "pyrotech:sawmill_blade_gold",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "pyrotech:sawmill_blade_diamond",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "pyrotech:sawmill_blade_obsidian",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		{
+			id: "pyrotech:sawmill_blade_iron",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b939c12c",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 11",
+		count: 8
+	},
+	{
+		uid: "0cf4a142",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

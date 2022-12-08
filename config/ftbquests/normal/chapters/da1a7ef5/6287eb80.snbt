@@ -1,0 +1,40 @@
+{
+	title: "Whistleblower?",
+	x: 3.5d,
+	y: -2.5d,
+	description: "With your brand new Eagle \"Materials\" Time to make a Whistle!",
+	text: [
+		"Exaclty as it was said in the Subtitle, time to use your recent obtained materials to craft yourself an Eagle Whistle.",
+		"",
+		"- It will be required in some rituals and it will be VERY usefull to produce melody for the Final Ritual!"
+	],
+	dependencies: [
+		"f450eaec"
+	],
+	tasks: [{
+		uid: "adaa3826",
+		type: "item",
+		items: [{
+			id: "totemic:eagle_bone_whistle",
+			tag: {
+				cooldown: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "423e71e5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ec52c3ea",
+		type: "item",
+		item: "harvestcraft:salmonpattiesitem",
+		count: 2
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Making Seared Bricks",
+	icon: "tconstruct:materials",
+	x: 12.0d,
+	y: 2.5d,
+	description: "Kinda Different Process and Kinda Fun!",
+	text: [
+		"Seared Bricks/Stone can only be cast from a Smeltery.",
+		"",
+		"- First make some Grount and Melt it into Liquid Seared Stone",
+		"",
+		"- Cast it into Bricks on the Casting Table or Directly into Blocks in the Basin.",
+		"",
+		"- Each Grout will turn into 1 Seared Brick",
+		"",
+		"- Remember that you can find Gypsum in a Mineral Sand Vein"
+	],
+	dependencies: [
+		"8e82fb88"
+	],
+	tasks: [{
+		uid: "05f664ad",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d953eb34",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		count: 8L
+	},
+	{
+		uid: "f9ecb8e8",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0fdfb010",
+		type: "item",
+		item: "tconstruct:seared",
+		count: 16
+	},
+	{
+		uid: "b949a2e0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

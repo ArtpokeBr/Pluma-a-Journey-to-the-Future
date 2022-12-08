@@ -1,0 +1,64 @@
+{
+	title: "The First Way of Making Glass",
+	icon: "pyrotech:material 1 32",
+	x: 7.5d,
+	y: 1.5d,
+	description: "A Pain to make currently, but it will get easier!",
+	text: [
+		"Glass is a delicate component to produce in this Stone Age.",
+		"",
+		"- Currently you can get Glass Shards by smelting Sand in the Kiln.",
+		"",
+		"- 4 Glass Shards = 1 Glass Block",
+		"",
+		"~ Yes, you'll be unlocking much more efficient methods of making Glass later on."
+	],
+	dependencies: [
+		"412de3db"
+	],
+	tasks: [{
+		uid: "d2410c6f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sand"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "sand"
+				}
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "2624efd3",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 32"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3117193f",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	}],
+	rewards: [{
+		uid: "032c7e36",
+		type: "item",
+		item: "minecraft:glass",
+		count: 8
+	},
+	{
+		uid: "42818f83",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

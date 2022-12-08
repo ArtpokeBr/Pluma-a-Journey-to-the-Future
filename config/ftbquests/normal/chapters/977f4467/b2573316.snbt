@@ -1,0 +1,185 @@
+{
+	title: "A Curious Desire",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "octagon",
+	description: "of a Peculiar Ram",
+	text: [
+		"§bThe Questing Ram§f can be found inside of a §6Rainbow Forest Biome§f, this peculiar species of §3Ram§f has a §9strange desire§f.",
+		"",
+		"Be the most §cc§f§eo§f§al§f§bo§f§3r§f§9f§f§du§f§5l§f entity on the §2universe§f!",
+		"",
+		"- §aCollect all 17 Vanilla Color of Wools§f and §5right click to give it to him§f! once you done it all, you'll get its trophy.",
+		"",
+		"~ Please... §c§lDon't Kill it§r§f!"
+	],
+	dependencies: [
+		"ae4cf14f"
+	],
+	size: 1.5d,
+	min_width: 200,
+	tasks: [{
+		uid: "c6eac2c3",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "bd0c1fad",
+		type: "item",
+		item: {
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 50,
+				Mate: {
+					Chromosomes: [{
+						UID1: "careerbees.rainbow",
+						UID0: "careerbees.rainbow",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				},
+				Health: 50,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "careerbees.rainbow",
+						UID0: "careerbees.rainbow",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlow",
+						UID0: "forestry.speedSlow",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanLong",
+						UID0: "forestry.lifespanLong",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceNone",
+						UID0: "forestry.toleranceNone",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "forestry.flowersVanilla",
+						UID0: "forestry.flowersVanilla",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringSlow",
+						UID0: "forestry.floweringSlow",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4833433468184046596L,
+					AS_Amulet_HolderMost: -8936466980767643917L
+				}
+			}
+		}
+	},
+	{
+		uid: "9c2c876f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}
