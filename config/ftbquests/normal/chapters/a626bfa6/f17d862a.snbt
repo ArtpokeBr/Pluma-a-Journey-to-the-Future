@@ -1,7 +1,7 @@
 {
 	title: "A Simple Motor and a Minimalistic Alternator",
-	x: -4.489795918367349d,
-	y: -5.252551020408163d,
+	x: -3.0d,
+	y: -6.0d,
 	description: "Ultra Low Voltage Motor and Alternator",
 	text: [
 		"These Components added by Magnetic Craft are essential for some recipes, make some!"

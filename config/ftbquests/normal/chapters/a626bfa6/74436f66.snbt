@@ -1,7 +1,7 @@
 {
 	title: "Upgrading your Inserter",
-	x: -5.25d,
-	y: -6.5d,
+	x: -3.0d,
+	y: -7.75d,
 	description: "It is pretty but it can also be fast!",
 	text: [
 		"The Upgrades are very straight foward.",

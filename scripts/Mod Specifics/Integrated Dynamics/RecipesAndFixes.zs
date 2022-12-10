@@ -50,6 +50,14 @@ Fey.addRecipe(
 
 //Menril Resin
 
+# Resin being Crystallized
+fermenter.recipeBuilder()
+    .fluidInputs(<liquid:menrilresin>*288)
+    .fluidOutputs(<liquid:menril>*288)
+    .duration(148)
+    .EUt(32)
+.buildAndRegister();
+
 # Chunks out of the Tree
 extractor.recipeBuilder()
     .inputs(<integrateddynamics:menril_log>)

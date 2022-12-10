@@ -101,13 +101,13 @@ assembler.recipeBuilder()
     .EUt(16)
     .buildAndRegister();
 
-// --- HS Electric Track  =======================================================
-recipes.remove(<railcraft:track_flex_hs_electric>);
+// // --- HS Electric Track  =======================================================
+// recipes.remove(<railcraft:track_flex_hs_electric>);
 
-assembler.recipeBuilder()
-    .inputs([<railcraft:rail:3> * 3, <railcraft:railbed:1>, <ore:screwAluminium> * 4, <railcraft:rail:5> * 2])
-    .property("circuit", 32)
-    .outputs(<railcraft:track_flex_hs_electric> * 8)
-    .duration(120)
-    .EUt(120)
-    .buildAndRegister();
+// assembler.recipeBuilder()
+//     .inputs([<railcraft:rail:3> * 3, <railcraft:railbed:1>, <ore:screwAluminium> * 4, <railcraft:rail:5> * 2])
+//     .property("circuit", 32)
+//     .outputs(<railcraft:track_flex_hs_electric> * 8)
+//     .duration(120)
+//     .EUt(120)
+//     .buildAndRegister();

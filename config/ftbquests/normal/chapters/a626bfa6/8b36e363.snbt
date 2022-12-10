@@ -1,8 +1,8 @@
 {
 	title: "Potin",
 	icon: "gregtech:meta_ingot 1 2037",
-	x: -1.5093537414966036d,
-	y: -5.241836734693852d,
+	x: -1.5d,
+	y: -4.5d,
 	description: "A Material used for Multiblock Steam Machines!",
 	text: [
 		"With Potin in hands, you'll be able to reach the top progression of the Steam Machines, The Multiblock ones!",

@@ -2,7 +2,7 @@
 	title: "A Multiblock Steam Furnace!",
 	icon: "gregtech:machine 1 1024",
 	x: -1.0d,
-	y: -6.5d,
+	y: -6.0d,
 	description: "A Steam Oven capable of processing 8 Items at a time",
 	text: [
 		"Remember, it only accepts the Inputs and Outputs specified on this Quest.",

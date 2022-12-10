@@ -112,9 +112,9 @@ saw.recipeBuilder()
 
 // Removing their Furnace Recipe
 
-furnace.remove(<minecraft:stone:2>, <railcraft:granite:5>);
-furnace.remove(<minecraft:stone:4>, <railcraft:diorite:5>);
-furnace.remove(<minecraft:stone:6>, <railcraft:andesite:5>);
+furnace.remove(<minecraft:stone:2>, <railcraft:brick_granite:5>);
+furnace.remove(<minecraft:stone:4>, <railcraft:brick_diorite:5>);
+furnace.remove(<minecraft:stone:6>, <railcraft:brick_andesite:5>);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //

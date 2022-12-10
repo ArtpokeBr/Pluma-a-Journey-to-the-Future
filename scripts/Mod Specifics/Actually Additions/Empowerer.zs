@@ -9,7 +9,7 @@ mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_em
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered>);
 
 
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <ore:crystalRestonia>, <minecraft:red_mushroom_block>, <railcraft:bloodstained:2>, <roots:infernal_bulb>, <gendustry:honey_drop:11>, 5000, 250, [0.5, 0.2, 0.2]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <ore:crystalRestonia>, <minecraft:red_mushroom_block>, <railcraft:brick_bloodstained:2>, <roots:infernal_bulb>, <gendustry:honey_drop:11>, 5000, 250, [0.5, 0.2, 0.2]);
 
 //Palis ===========================
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);

@@ -1,7 +1,7 @@
 {
 	title: "A Small Improvement to your GregTech Small Boiler",
 	x: -4.5d,
-	y: -4.0d,
+	y: -6.0d,
 	description: "And it is kinda pretty!",
 	text: [
 		"Magnetic Craft offers this interesting Boiler.",

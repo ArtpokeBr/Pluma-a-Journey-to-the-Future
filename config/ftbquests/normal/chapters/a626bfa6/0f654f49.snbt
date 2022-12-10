@@ -1,7 +1,7 @@
 {
 	title: "A Huge Steam Boiler!",
 	x: -3.0d,
-	y: -5.25d,
+	y: -4.5d,
 	description: "The Big Boy!",
 	text: [
 		"Remember your little Magnetic Craft boiler? use it to get the blueprints for this Big Boy here!",

@@ -1,0 +1,78 @@
+{
+	title: "A Place to store all your Steam!",
+	x: -6.0d,
+	y: -5.0d,
+	description: "Lets make a Railcraft Tank!",
+	text: [
+		"There are a few §eSize options§f, please follow the §dtooltips§f for that.",
+		"",
+		"- Simply make a few §2walls§f, §3gauges§f and §9valves§f and you'll be set!",
+		"",
+		"- Oh and don't forget that the §bIO's§f of this §6Multiblock Tank§f are specifically on the §bTop and the Bottom§f.",
+		"",
+		"§9Top = Input§f",
+		"§6Bottom = Output§f",
+		"",
+		"§8§o~ Pro tip: you can also make a tank made out of Steel instead of Iron and it will have a much bigger buffer."
+	],
+	dependencies: [
+		"d030ed85"
+	],
+	min_width: 310,
+	tasks: [{
+		uid: "0014b522",
+		type: "item",
+		title: "An Iron or Steel Tank Wall",
+		items: [{
+			item: "railcraft:tank_iron_wall"
+		},
+		{
+			item: "railcraft:tank_steel_wall"
+		}],
+		count: 25L
+	},
+	{
+		uid: "b4ba8b47",
+		type: "item",
+		title: "An Iron or Steel Tank Gauge",
+		items: [{
+			item: "railcraft:tank_iron_gauge"
+		},
+		{
+			item: "railcraft:tank_steel_gauge"
+		}],
+		count: 8L
+	},
+	{
+		uid: "97bb477c",
+		type: "item",
+		title: "An Iron or Steel Tank Valve",
+		items: [{
+			item: "railcraft:tank_iron_valve"
+		},
+		{
+			item: "railcraft:tank_steel_valve 1 8"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "93fe74a1",
+		type: "item",
+		item: "railcraft:chest_void"
+	},
+	{
+		uid: "d2c2075c",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "steam",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	}]
+}

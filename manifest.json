@@ -10,8 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Pluma",
-  "author": "",
+  "name": "Pluma, A Journey to the Future",
+  "version": "1.0",
+  "author": "ArtpokeBr",
   "files": [
     {
       "projectID": 223094,

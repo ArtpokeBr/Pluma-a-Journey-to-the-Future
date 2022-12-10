@@ -1,7 +1,7 @@
 {
 	title: "Pretty Factory Expanse",
-	x: -4.5d,
-	y: -6.5d,
+	x: -3.0d,
+	y: -7.0d,
 	description: "Just like Factorio! Conveyors and Inserters!",
 	text: [
 		"Have you played Factorio? if you didn't, go ahead as it is a neat game!",

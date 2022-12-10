@@ -31,7 +31,7 @@
 		uid: "3660a8a7",
 		type: "item",
 		item: "railcraft:tank_iron_wall",
-		count: 24
+		count: 25
 	},
 	{
 		uid: "522cdfd6",

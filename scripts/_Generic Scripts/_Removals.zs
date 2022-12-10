@@ -515,14 +515,14 @@ var ItensRemovidos as IItemStack[] = [
 <thermalfoundation:tome_lexicon>,
 
 //Railcraft
-<railcraft:andesite:1>,
-<railcraft:andesite:5>,
+<railcraft:brick_andesite:1>,
+<railcraft:brick_andesite:5>,
 
-<railcraft:diorite:1>,
-<railcraft:diorite:5>,
+<railcraft:brick_diorite:1>,
+<railcraft:brick_diorite:5>,
 
-<railcraft:granite:1>,
-<railcraft:granite:5>,
+<railcraft:brick_granite:1>,
+<railcraft:brick_granite:5>,
 
 //RandomThings
 <randomthings:diviningrod:6>,

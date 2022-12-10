@@ -1,22 +1,19 @@
 §a§lVersion Beta§r§f 1.0.0:
 
+- Reverted Railcraft Version to hopefully fix some issues.
+
 §b§lAdditions§r§f:
 
 §2§lFixes§r§f:
 
+- Fixed "Starting to play with chemicals" Quest rewarding incorrect item's.
+- Fixed a ton of stuff related to Railcraft.
+
 §5§lMiscellaneous§r§f:
 
-Ideas to be implemented NOW!:
-
-- Convertion of Mekanism Chemicals to GT Chemicals
-
-- Finish Mekanism Balancing
-
-- Readd the Metallurgic Infuser with Custom Recipes for Meka Circuits and maybe Custom Infuse Materials. (Needs an Meka Addon tho)
-
-- Use Enriched Iron (From Meka) as different way to produce Steel
-
-- Revise Petro Petunia
+- Started Implementing Industrial Foregoing
+- The Akashic tome now has some Useful info in its tooltip.
+- Hidden recipes of the EnderIO tank, this should save a few seconds of loading time. (Thanks Krutoy!)
 
 Current Long Term Plans:
 
@@ -28,10 +25,6 @@ Current Long Term Plans:
 
 - Organizar novamente o Railcraft
 
-- RGB Steel, a mixtura de múltiplas cores de Steel
-
 - Add Utility to Troll related items and mobs in the Twilight Forest
 
 - Use the Deep Resonance Mod
-
-- Gold Processing Line for the LV Age. may need to reenable the LV Gas Collector. (make gold alloy and process it using Acids to get a final 3x gold)

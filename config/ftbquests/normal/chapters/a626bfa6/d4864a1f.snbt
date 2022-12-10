@@ -2,7 +2,7 @@
 	title: "A Multiblock Steam Macerator!",
 	icon: "gregtech:machine 1 1025",
 	x: -2.0d,
-	y: -6.5d,
+	y: -6.0d,
 	description: "A Steam Macerator capable of processing 8 Items at a time",
 	text: [
 		"Remember, it only accepts the Inputs and Outputs specified on this Quest.",

@@ -205,7 +205,7 @@ recipes.addShaped(<extendedcrafting:crafting_core> * 1, [[<ore:ingotBlackIron>, 
 // Recipes for the Crafting Core from Actually Additions /////////////////////////////////////////////////////////////////////////////////////
 
 //Restonia ===========================
-CombinationCrafting.addRecipe(<actuallyadditions:item_crystal_empowered>, 80000, <actuallyadditions:item_crystal>, [<minecraft:red_mushroom_block>, <railcraft:bloodstained:2>, <roots:infernal_bulb>, <gendustry:honey_drop:11>]);
+CombinationCrafting.addRecipe(<actuallyadditions:item_crystal_empowered>, 80000, <actuallyadditions:item_crystal>, [<minecraft:red_mushroom_block>, <railcraft:brick_bloodstained:2>, <roots:infernal_bulb>, <gendustry:honey_drop:11>]);
 
 //Palis ===========================
 CombinationCrafting.addRecipe(<actuallyadditions:item_crystal_empowered:1>, 80000, <actuallyadditions:item_crystal:1>, [<ore:foodBlueberrysmoothie>.firstItem, <integrateddynamics:crystalized_menril_chunk>, <roots:dewgonia>, <gendustry:honey_drop:14>]);
