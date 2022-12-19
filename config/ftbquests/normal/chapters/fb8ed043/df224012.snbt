@@ -2,6 +2,7 @@
 	title: "Tarred Components",
 	x: 14.5d,
 	y: -1.5d,
+	shape: "rsquare",
 	description: "Creosote Oil and a Special Type of Wood = Tarred Wood!",
 	text: [
 		"Pyrotech has some Special Devices that can be crafted with these, make some! :)"

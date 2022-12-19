@@ -14,4 +14,6 @@ i.addTooltip(format.gray("Causes instant death and beheading for all skeleton-ba
 i.addTooltip(format.lightPurple("Can be bought in the Shop!"));
 }
 
+// Converting Back Skulls
+recipes.addShapeless("Wither_Fragments",<witherskelefix:fragment>*9,[<minecraft:skull:1>]);
 

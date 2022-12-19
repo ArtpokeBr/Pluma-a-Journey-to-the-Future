@@ -13,9 +13,11 @@
 	y: -2.5d,
 	description: "Time to make most of the Crafting Tools needed!",
 	text: [
-		"Thats right, this quest may be huge in terms of requirements, but, it is needed.",
+		"Thats right, this quest may be §ahuge§f in terms of §arequirements§f, but, §6it is important§f!",
 		"",
-		"- Each of this tools will be used at some point."
+		"- You can make them with §b§nAny Material§r§f that you want §bfor this quest§f, but I §3strongly recommend§f using §6Bronze§f for now.",
+		"",
+		"- §aEach single tool required for this quest§f will be §eused at some point§f."
 	],
 	dependencies: [
 		"a1a2f093"
@@ -23,16 +25,19 @@
 	tasks: [{
 		uid: "439e8278",
 		type: "item",
+		title: "Any Wrench",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 8s,
+			id: "itemfilters:filter",
 			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+				display: {
+					Name: "Any gtceWrenches"
 				}
 			},
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				Parent: {
+					id: "ore",
+					data: "gtceWrenches"
+				}
 			}
 		}],
 		ignore_nbt: 1b
@@ -40,16 +45,19 @@
 	{
 		uid: "42462237",
 		type: "item",
+		title: "Any Saw",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 5s,
+			id: "itemfilters:filter",
 			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+				display: {
+					Name: "Any gtceSaws"
 				}
 			},
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				Parent: {
+					id: "ore",
+					data: "gtceSaws"
+				}
 			}
 		}],
 		ignore_nbt: 1b
@@ -57,16 +65,19 @@
 	{
 		uid: "7e75ac23",
 		type: "item",
+		title: "Any Hammer",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 6s,
+			id: "itemfilters:filter",
 			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+				display: {
+					Name: "Any gtceHardHammers"
 				}
 			},
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				Parent: {
+					id: "ore",
+					data: "gtceHardHammers"
+				}
 			}
 		}],
 		ignore_nbt: 1b
@@ -74,16 +85,19 @@
 	{
 		uid: "7cd697c9",
 		type: "item",
+		title: "Any File",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 9s,
+			id: "itemfilters:filter",
 			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+				display: {
+					Name: "Any gtceFiles"
 				}
 			},
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				Parent: {
+					id: "ore",
+					data: "gtceFiles"
+				}
 			}
 		}],
 		ignore_nbt: 1b
@@ -91,16 +105,19 @@
 	{
 		uid: "a3bd0651",
 		type: "item",
+		title: "Any Screwdriver",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 11s,
+			id: "itemfilters:filter",
 			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+				display: {
+					Name: "Any craftingToolScrewdriver"
 				}
 			},
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				Parent: {
+					id: "ore",
+					data: "craftingToolScrewdriver"
+				}
 			}
 		}],
 		ignore_nbt: 1b
@@ -108,16 +125,19 @@
 	{
 		uid: "1c00607f",
 		type: "item",
+		title: "Any Wire Cutter",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 13s,
+			id: "itemfilters:filter",
 			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
+				display: {
+					Name: "Any gtceWireCutters"
 				}
 			},
 			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				Parent: {
+					id: "ore",
+					data: "gtceWireCutters"
+				}
 			}
 		}],
 		ignore_nbt: 1b

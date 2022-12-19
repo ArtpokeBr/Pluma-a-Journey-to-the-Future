@@ -5,7 +5,7 @@
 	y: 2.0d,
 	description: "By Using a Primitive Water Pump!",
 	text: [
-		"The Water Pump is a Primtive Multiblock Structure that can be used to collect water infinitely for ya.",
+		"The Water Pump is a Primitive Multiblock Structure that can be used to collect water infinitely for ya.",
 		"",
 		"- Please refeer to JEI as its mb/tick of water is based on the Biome that the Multiblock is at.",
 		"",

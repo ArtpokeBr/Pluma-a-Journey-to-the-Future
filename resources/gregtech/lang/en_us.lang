@@ -12,6 +12,7 @@ item.material.oreprefix.lightPlate=Light %s Plate
 item.material.oreprefix.heavyPlate=Heavy %s Plate
 item.material.oreprefix.orePurified=Purified %s Ore
 item.material.oreprefix.enrichedEgg=%s Enriched Egg
+item.material.oreprefix.casing=%s Casing
 
 material.astral_starmetal=Starmetal
 
@@ -51,6 +52,8 @@ material.wyrmwood=Wyrmwood
 
 material.refinedglue=Refined Glue
 
+material.ferroboron=Ferroboron
+
 material.tough=Tough Alloy
 
 material.hslasteel=HSLA Steel
@@ -61,7 +64,7 @@ material.thermoconducting=Thermoconducting Alloy
 
 material.boronnitride=Boron Nitride
 
-material.hardcarbon=Hard Carbon
+material.hard_carbon=Hard Carbon
 
 material.zircaloy=Zircaloy
 
@@ -199,3 +202,5 @@ material.gold_leach=Gold Leach
 material.copper_leach=Leached Copper
 material.chloroauric_acid=Chloroauric Acid
 material.potassium_metabisulfite=Potassium Metabisulfite
+
+material.advanced_alloy=Advanced Alloy

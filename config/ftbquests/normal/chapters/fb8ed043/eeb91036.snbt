@@ -3,6 +3,7 @@
 	icon: "pyrotech:igniter",
 	x: 12.5d,
 	y: -3.5d,
+	shape: "rsquare",
 	description: "By simply providing a Redstone Signal",
 	text: [
 		"Making Buttons or Levers isn't the easiest Task, but it is rewarding!",

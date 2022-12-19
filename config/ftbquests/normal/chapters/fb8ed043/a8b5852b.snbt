@@ -2,6 +2,7 @@
 	title: "A Simplistic Drawer",
 	x: 2.5d,
 	y: 1.5d,
+	shape: "rsquare",
 	description: "The Stash!",
 	text: [
 		"The Stash is an Early Game alternative to Drawers!",

@@ -162,7 +162,7 @@ var EnrichmentChamberClearing as IItemStack[] = [
 <gregtech:meta_dust:329>,
 <railcraft:ore:4>,
 <gregtech:ore_lapis_0>,
-<mekanism:otherdust>,
+//<mekanism:otherdust>,
 <mekanism:otherdust:3>,
 <gregtech:ore_platinum_0>,
 <gregtech:ore_nickel_0>,

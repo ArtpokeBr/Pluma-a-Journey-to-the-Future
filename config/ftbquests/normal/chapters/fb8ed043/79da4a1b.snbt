@@ -3,6 +3,7 @@
 	icon: "tconstruct:seared_furnace_controller",
 	x: 11.0d,
 	y: 3.5d,
+	shape: "rsquare",
 	description: "When Smelting 1 Item at once isn't enough",
 	text: [
 		"The Seared Furnace is a Multiblock similar to the Smeltery in terms of Size and expandability",

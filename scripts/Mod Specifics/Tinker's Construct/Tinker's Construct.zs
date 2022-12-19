@@ -26,41 +26,6 @@ recipes.addShapeless("Grout",<tconstruct:soil>*3,[<ore:gravel>, <ore:sand>, <ore
 recipes.remove(<tconstruct:tooltables>);
 recipes.addShapeless("CraftingStation",<tconstruct:tooltables>,[<ore:craftingTableWood>, <ore:gtceSaws>]);
 
-// Weird Costs in this Casts ===================================================================================
-
-// <tconstruct:cast>.withTag({PartType: "tconevo:part_arcane_focus"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "conarm:chest_core"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "conarm:leggings_core"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "conarm:boots_core"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}).clearTooltip();
-// <tconstruct:cast>.withTag({PartType: "conarm:armor_plate"}).clearTooltip();
-
-<tconstruct:cast>.withTag({PartType: "tconevo:part_arcane_focus"}).displayName = "Arcane Focus Cast";
-<tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}).displayName = "Pipe Piece Cast";
-<tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}).displayName = "Battery Cell Cast";
-<tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}).displayName = "Polishing Kit Cast";
-<tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}).displayName = "Helmet Core Cast";
-<tconstruct:cast>.withTag({PartType: "conarm:chest_core"}).displayName = "Chest Core Cast";
-<tconstruct:cast>.withTag({PartType: "conarm:leggings_core"}).displayName = "Leggings Core Cast";
-<tconstruct:cast>.withTag({PartType: "conarm:boots_core"}).displayName = "Boots Core Cast";
-<tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}).displayName = "Armor Trim Cast";
-<tconstruct:cast>.withTag({PartType: "conarm:armor_plate"}).displayName = "Armor Plate Cast";
-
-<tconstruct:cast>.withTag({PartType: "tconevo:part_arcane_focus"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 12")));
-<tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 8")));
-<tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 8")));
-<tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 2")));
-<tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 4")));
-<tconstruct:cast>.withTag({PartType: "conarm:chest_core"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 6")));
-<tconstruct:cast>.withTag({PartType: "conarm:leggings_core"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 5")));
-<tconstruct:cast>.withTag({PartType: "conarm:boots_core"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 4")));
-<tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 1")));
-<tconstruct:cast>.withTag({PartType: "conarm:armor_plate"}).addTooltip(format.gray(format.italic("Corrected Material Cost: 3")));
-
 // ================================================================================================================
 
 // Blank Pattern

@@ -101,33 +101,26 @@ orePurified.createMaterialItem();
 
 // -=-=-=--=- Flags -=-=-=-=-=-=-=-=-=-=-=-=-=
 
-// # Enriched Egg Flag
-// val enriched_egg = MaterialFlagBuilder.create("enriched_egg")
-// .requireFluid()
-// .build();
+# Casing Flag
+val generate_casing = MaterialFlagBuilder.create("generate_casing")
+.requireFlag("GENERATE_BOLT_SCREW")
+.requireFlag("GENERATE_PLATE")
+.build();
 
-// <material:vinteum>.addFlags("enriched_egg");
-// <material:graphite>.addFlags("enriched_egg");
-// <material:apatite>.addFlags("enriched_egg");
-// <material:starmetal>.addFlags("enriched_egg");
-// <material:menril>.addFlags("enriched_egg");
-// <material:plastic>.addFlags("enriched_egg");
-// <material:rubber>.addFlags("enriched_egg");
-// <material:fluix>.addFlags("enriched_egg");
-// <material:concrete>.addFlags("enriched_egg");
-// <material:uranium>.addFlags("enriched_egg");
-// <material:fluorine>.addFlags("enriched_egg");
-// <material:radon>.addFlags("enriched_egg");
-// <material:polycaprolactam>.addFlags("enriched_egg");
-// <material:manasteel>.addFlags("enriched_egg");
+<material:iron>.addFlags("generate_casing");
+<material:bronze>.addFlags("generate_casing");
+<material:tin>.addFlags("generate_casing");
+<material:copper>.addFlags("generate_casing");
+<material:steel>.addFlags("generate_casing");
+<material:lead>.addFlags("generate_casing");
 
-// val enrichedEgg as OrePrefix = OrePrefix.registerOrePrefix("enrichedEgg", 1);
+val casing as OrePrefix = OrePrefix.registerOrePrefix("casing", 1);
 
-// enrichedEgg.setGenerationPredicate(function(mat as Material) as bool {
-//     return mat.hasFlag(enriched_egg);
-// } as IMaterialPredicate);
+casing.setGenerationPredicate(function(mat as Material) as bool {
+    return mat.hasFlag(generate_casing);
+} as IMaterialPredicate);
 
-// enrichedEgg.createMaterialItem();
+casing.createMaterialItem();
 
 // -=-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 

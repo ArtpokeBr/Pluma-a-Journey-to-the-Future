@@ -1,0 +1,70 @@
+{
+	title: "How to Automate Blood Magic",
+	x: 15.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "A Simple Advice to this Advanced Way to automate stuff",
+	text: [
+		"There are §b2 possible routes§f to fully automate §6Hellfire Forges and Alchemy Tables§f:",
+		"",
+		"- Using an §9Impulse Hopper§f.",
+		"",
+		"- Using §3Integrated Dynamics§f.",
+		"",
+		"- §l§nYou can craft either of those to complete this Quest!§r§f",
+		"",
+		"- Using §9Impulse Hopper§f could be the §aeasiest way§f, but it could also be §eexpensive§f.",
+		"",
+		"-> Inside of §9Impuse Hopper§f, Using the middle line, §afilter exactly 1§f of each item required from the recipe. ",
+		"",
+		"-> It literally works like a §9\"Sequencial Hopper\"§f, it will send §a1 by 1 item§f, following the §eorder you've set in the middle filter§f, so this will garantee that the correct order of itens are inserted into the §6table/forge§f.",
+		"",
+		"- To use §3Integrated Dynamics§f, an §2Item Interface§f can be used to §aselect an Inventory where the cable system will export items from§f.",
+		"",
+		"Then use §eExporters to move the items to the desired place§f, but remember, inside of them you can §bselect the exact amount§f that will be moved §bas well as the exact Item Slot that the item will go to§f. ",
+		"",
+		"§cYou'll need 1 Exporter per Item Slot§f.",
+		"",
+		"§8§o~ PhantomFaces are you best friends! they can be used to further expand the acessible sides of an Alchemy Table, really usefull when using Integrated Dynamics! ",
+		"",
+		"But don't overuse them, as they tend to cause lag.§r§f",
+		"",
+		"§8§o~ Still want some help? head to our Discord (Link in the menu) and ask in the #Pluma chat for more help!§r§f"
+	],
+	dependencies: [
+		"5f2ae876",
+		"97d57940"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 400,
+	or_tasks: true,
+	tasks: [{
+		uid: "3c0b0922",
+		type: "item",
+		items: [{
+			item: "enderio:block_impulse_hopper"
+		}]
+	},
+	{
+		uid: "1efb6fdd",
+		type: "item",
+		title: "A Integrated Dynamics Required Component",
+		items: [{
+			item: "integratedtunnels:part_exporter_item_item"
+		},
+		{
+			item: "integratedtunnels:part_interface_item_item"
+		}]
+	}],
+	rewards: [{
+		uid: "0fed6065",
+		type: "choice",
+		title: "Choose a Reward!",
+		table: 8
+	},
+	{
+		uid: "2d6775d6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -503,3 +503,10 @@ canner.recipeBuilder()
 recipes.remove(<gregtech:machine:1656>);
 recipes.addShaped(<gregtech:machine:1656> * 1, [[<ore:circuitIv>, <gregtech:machine:1654>, <ore:circuitIv>], [<gregtech:meta_item_1:190>, <gregtech:machine:989>, <gregtech:meta_item_1:190>],[<ore:circuitIv>, <gregtech:machine:1654>, <ore:circuitIv>]]);
 
+// Advanced Alloy Recipe
+compressor.recipeBuilder()
+    .inputs(<contenttweaker:mixed_metal>)
+    .outputs(<ore:plateAdvancedAlloy>.firstItem)
+    .duration(400)
+    .EUt(800)
+.buildAndRegister();

@@ -2,6 +2,7 @@
 	title: "GregTech Pipes!",
 	x: 13.5d,
 	y: -3.5d,
+	shape: "rsquare",
 	description: "Your First Method of  Fluid and Item Transportation!",
 	text: [
 		"§6GregTech§r adds diferent types of Fluid and Item Pipes, depending of the Material and size it will have diferent stats.",

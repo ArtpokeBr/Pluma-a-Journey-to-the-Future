@@ -257,6 +257,23 @@
         12,
         15
       ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "nuclearcraft:tile.nuclearcraft.ore.uranium"
+      ],
+      "output": [
+        "gregtech:meta_nugget:116"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
+      ]
     }
   }
 }

@@ -2,6 +2,7 @@
 	title: "A Primitive Automatic Compactor",
 	x: 14.5d,
 	y: -3.5d,
+	shape: "rsquare",
 	description: "Cogs are Fun!",
 	text: [
 		"Simply provide a Cog that will determine its velocity and such and voilá! you'll be able to automaticaly compact stuff."

@@ -2,6 +2,7 @@
 	title: "Wooden Storage",
 	x: 17.0d,
 	y: 1.0d,
+	shape: "rsquare",
 	description: "With a Production of Treated Wood, you'll get some Storage Enhancements!",
 	text: [
 		"GregTech also Offers Crates and Barrels/Drums as a Way to Store Fluids and Items.",

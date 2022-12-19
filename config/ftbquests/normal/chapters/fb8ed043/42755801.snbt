@@ -2,6 +2,7 @@
 	title: "Automated Bellows",
 	x: 14.5d,
 	y: -4.5d,
+	shape: "rsquare",
 	description: "Automatic Air flow!",
 	text: [
 		"Remember those old Bellows that require you to jump on them? no need for that anymore!",

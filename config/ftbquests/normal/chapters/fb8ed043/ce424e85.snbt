@@ -2,6 +2,7 @@
 	title: "The process to get Leather!",
 	x: 15.5d,
 	y: -2.5d,
+	shape: "rsquare",
 	description: "Expanded and Improved!",
 	text: [
 		"Lets §2process§f those §3Pelts§f and §bHides§f!",

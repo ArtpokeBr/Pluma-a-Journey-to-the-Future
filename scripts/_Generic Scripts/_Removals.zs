@@ -589,6 +589,18 @@ var ItensRemovidos as IItemStack[] = [
 <forestry:bottler>,
 <forestry:still>,
 
+//Industrial Foregoing
+<industrialforegoing:tinydryrubber>,
+<industrialforegoing:infinity_drill>.withTag({Energy: 16000000 as long, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0 as byte, Selected: "UNCOMMON"}),
+<industrialforegoing:infinity_drill>.withTag({Energy: 0 as long, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0 as byte, Selected: "POOR"}),
+<industrialforegoing:infinity_drill>.withTag({Energy: 4000000 as long, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0 as byte, Selected: "COMMON"}),
+<industrialforegoing:infinity_drill>.withTag({Energy: 80000000 as long, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0 as byte, Selected: "RARE"}),
+<industrialforegoing:infinity_drill>.withTag({Energy: 3360000000 as long, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0 as byte, Selected: "LEGENDARY"}),
+<industrialforegoing:infinity_drill>.withTag({Energy: 9223372036854775807 as long, Fluid: {FluidName: "biofuel", Amount: 1000000}, Special: 1 as byte, Selected: "ARTIFACT"}),
+<industrialforegoing:infinity_drill>.withTag({Energy: 9223372036854775807 as long, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0 as byte, Selected: "ARTIFACT"}),
+<industrialforegoing:infinity_drill>.withTag({Energy: 480000000 as long, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0 as byte, Selected: "EPIC"}),
+<industrialforegoing:energy_field_addon>,
+
 //Natura
 <natura:sticks>,
 <natura:sticks:1>,

@@ -617,9 +617,6 @@ wiremill.recipeBuilder()
     .EUt(8)
 .buildAndRegister();
 
-
-
-
 // Creosote Wood Block
 recipes.remove(<railcraft:generic:5>);
 chemical_bath.recipeBuilder()

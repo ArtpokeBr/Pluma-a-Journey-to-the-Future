@@ -2,6 +2,7 @@
 	title: "Bronze Storage",
 	x: 18.0d,
 	y: 1.0d,
+	shape: "rsquare",
 	description: "Enhancing your Wood Storages to Bronze ones!",
 	text: [
 		"More Item Slots and More Fluid Storage! simply by mixing it with Bronze!"

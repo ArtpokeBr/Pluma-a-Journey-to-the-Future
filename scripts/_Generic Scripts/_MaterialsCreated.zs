@@ -642,4 +642,36 @@ val potassium_metabisulfite = MaterialBuilder(32079, "potassium_metabisulfite")
     .flags(["decomposition_by_electrolyzing"])
     .build();
 
+// ========== //
+
+val ferroboron = MaterialBuilder(32080, "ferroboron")
+    .ingot().fluid("fluid")
+    .iconSet("metallic")
+    .color(0x141414)
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .build();
+
+val tough = MaterialBuilder(32081, "tough")
+    .ingot().fluid("fluid")
+    .iconSet("metallic")
+    .color(0x24212b)
+    .blastTemp(2700, "LOW")
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .build();
+
+val hard_carbon = MaterialBuilder(32082, "hard_carbon")
+    .ingot().fluid("fluid")
+    .iconSet("metallic")
+    .color(0x316f82)
+    .blastTemp(4000, "HIGH")
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .build();
+
+val advanced_alloy = MaterialBuilder(32083, "advanced_alloy")
+    .ingot()
+    .iconSet("metallic")
+    .color(0x858276)
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .build();
+
 // ==============================================================================

@@ -2,6 +2,7 @@
 	title: "Shelfs and Crates!",
 	x: 1.5d,
 	y: 1.5d,
+	shape: "rsquare",
 	description: "The Early game way to store items!",
 	text: [
 		"Currently you don't have Treated Wood for Chests, but theres alternatives!",

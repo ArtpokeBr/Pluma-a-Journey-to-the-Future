@@ -118,4 +118,14 @@
   <recipe name="Tank: Concrete 14" disabled="true" />
   <recipe name="Tank: Concrete 15" disabled="true" />
 
+<!-- NuclearCraft Alloys -->
+
+  <recipe name="Alloy: FerroBoron (Nuclearcraft)" disabled="true" />
+  <recipe name="Alloy: Tough Alloy (Nuclearcraft)" disabled="true" />
+  <recipe name="Alloy: Hard Carbon (Nuclearcraft)" disabled="true" />
+  <recipe name="Alloy: Magnesium Diboride Alloy (Nuclearcraft)" disabled="true" />
+  <recipe name="Alloy: Lithium Manganese Alloy (Nuclearcraft)" disabled="true" />
+  <recipe name="Alloy: EXTREME Alloy (Nuclearcraft)" disabled="true" />
+  <recipe name="Alloy: Thermoconducting Alloy (Nuclearcraft)" disabled="true" />
+
 </enderio:recipes>

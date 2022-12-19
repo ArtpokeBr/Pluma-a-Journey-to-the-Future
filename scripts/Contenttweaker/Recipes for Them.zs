@@ -876,3 +876,13 @@ for aspect in allThaumcraftAspects {
 
 # Star Leather
 mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:magical_leather>, <contenttweaker:star_leather>, false, 1.0, 30);
+
+# [Mixed Metal] from [Light Brass Plate][+2]
+craft.remake(<contenttweaker:mixed_metal>, ["pretty",
+  "п п п",
+  "□ □ □",
+  "P P P"], {
+  "п": <ore:lightPlateStainlessSteel>, # Light Stainless Steel Plate
+  "□": <ore:lightPlateBrass>,          # Light Brass Plate
+  "P": <ore:lightPlateNichrome>,       # Light Nichrome Plate
+});

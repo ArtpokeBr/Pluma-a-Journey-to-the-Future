@@ -3,6 +3,7 @@
 	icon: "pyrotech:material 1 5",
 	x: 13.0d,
 	y: 2.0d,
+	shape: "rsquare",
 	description: "An Enhance to Pyrotech Devices",
 	text: [
 		"With Refractory Bricks, you'll be able to enhance your Sawmill and your Kiln and even more stuff!",

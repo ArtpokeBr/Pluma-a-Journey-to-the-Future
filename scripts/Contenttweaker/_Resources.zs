@@ -1069,5 +1069,18 @@ abyssal_tablet.register();
 
 // === //
 
+// Casing Mold and Shape
+
+var casing_mold = VanillaFactory.createItem("casing_mold");
+casing_mold.register();
+
+var casing_shape = VanillaFactory.createItem("casing_shape");
+casing_shape.register();
+
+// Mixed Metal Ingot
+
+var mixed_metal = VanillaFactory.createItem("mixed_metal");
+mixed_metal.register();
+
 print("--------------- Custom Resources End ------------------");
 

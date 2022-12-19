@@ -3,6 +3,7 @@
 	icon: "pyrotech:barrel",
 	x: 15.5d,
 	y: -1.5d,
+	shape: "rsquare",
 	description: "Just like TerrafirmaCraft!",
 	text: [
 		"The §3Pyrotech's§f §6Barrel§f will be used to make some §9Special Fluids§f, and §aTannin§f is included!",

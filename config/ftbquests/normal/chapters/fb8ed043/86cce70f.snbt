@@ -2,6 +2,7 @@
 	title: "Durable Storage!",
 	x: 14.5d,
 	y: -2.5d,
+	shape: "rsquare",
 	description: "Increased Stack Size and maybe their beauty?",
 	text: [
 		"With Tarred Planks and Boards, you can actually improve your Primitive Storage a little.",

@@ -2,6 +2,7 @@
 	title: "Steam Era, Lets go!",
 	x: 12.0d,
 	y: 5.0d,
+	shape: "gear",
 	description: "Time to make a Small Boiler and Start playing with Steam!",
 	text: [
 		"Now it is finally time to start playing with GregTech, and the First Step is Steam Machines!",

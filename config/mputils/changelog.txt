@@ -1,19 +1,41 @@
-§a§lVersion Beta§r§f 1.0.0:
+§a§lVersion Alpha§r§f 1.2:
 
-- Reverted Railcraft Version to hopefully fix some issues.
+- Updated CensoredASM
+- Updated Universal Tweaks
+- Updated AE2 Fluid Crafting
 
 §b§lAdditions§r§f:
 
+- Building Gagets
+- NuclearCraft: Overhauled
+- Requious Frakto
+
 §2§lFixes§r§f:
 
-- Fixed "Starting to play with chemicals" Quest rewarding incorrect item's.
-- Fixed a ton of stuff related to Railcraft.
+- Integrated Recipes for more Tcon Materials (from Industrial Foregoing and Twilight Forest)
+- Fixed Tcon Cast incorrect name
+- Fixed Emerald not having a Tcon Material
+- Hidden All Tinker's Formed Tools. Only Parts will show up now.
+- Fixed a typo in the questing ram quest (incorrect amount of wools).
+- Fixed the "Making Coke Bricks" quest, making it more clear that you'll need more tools for it.
+- Fixed "Sawing Wood" having incorrect dependencies.
+- Fixed Limestone Dust processing in the Pyrotech Anvil's.
 
 §5§lMiscellaneous§r§f:
 
-- Started Implementing Industrial Foregoing
-- The Akashic tome now has some Useful info in its tooltip.
-- Hidden recipes of the EnderIO tank, this should save a few seconds of loading time. (Thanks Krutoy!)
+- Added a JEI page dedicated to Item Interactions with Requious Frakto.
+- Added a JEI page dedicated to "secret" or "special" item recipes in the pack. (ex: Salis Mundus)
+- Added a Quest to further expand the information about automating Blood Magic Tables.
+- Added a Quest to mention that Clay Shears Exist in the early game!
+- Started to Balance and Implement NuclearCraft.
+- You can now convert Wither Skeleton Skulls back into Fragments.
+- Created a New Material, Casings! but only for certain materials.
+- Molds and Shapes can now be chiseled.
+- Ported Advanced Alloy from IC2.
+- Added some usefull Scripts made by Krutoy. (Craft.zs)
+- Fully Implement Building Gadgets
+- Fully Implement Industrial Foregoing
+- Tweaked a few Quests in Chapter 1
 
 Current Long Term Plans:
 

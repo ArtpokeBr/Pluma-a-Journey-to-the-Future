@@ -591,3 +591,6 @@ RecipeBuilder.get("blacksmith")
 .create();
 
 
+// Powered Spawner
+recipes.remove(<enderio:block_powered_spawner>);
+recipes.addShaped(<enderio:block_powered_spawner> * 1, [[<ore:plateCrystallinePinkSlime>, <ore:itemSkull>, <ore:plateCrystallinePinkSlime>], [<tconstruct:large_plate>.withTag({Material: "meat_metal"}), <ore:itemSoulMachineChassi>, <tconstruct:large_plate>.withTag({Material: "meat_metal"})],[<ore:itemVibrantCrystal>, <ore:skullZombieController>, <ore:itemVibrantCrystal>]]);

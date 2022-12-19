@@ -218,6 +218,9 @@ import mods.jei.JEI as JEI;
 # Fixing Coralium OreDict for a correct OreGen
 <ore:oreAbyssalCoralium>.add(<abyssalcraft:abycorore>);
 
+# NuclearCraft's HSLA Compat
+<ore:ingotHSLASteel>.add(<ore:ingotHslaSteel>.firstItem);
+
 // ======================================================================================================================================
 
 static mods as string[] = ["contenttweaker", "astraladditions", "astralsorcery", "gregtech", "devtech", "minecraft", "thermalfoundation", "enderio", "tconstruct", "tcomplement", "botania", "mekanism", "magneticraft", "embers", "thaumcraft", "abyssalcraft", "bloodmagic", "projectred-core", "actuallyadditions", "forestry", "careebees", "biomesoplenty", "libvulpes"];

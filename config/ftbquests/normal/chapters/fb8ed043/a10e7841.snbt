@@ -4,13 +4,16 @@
 	y: -0.5d,
 	description: "Try Sleeping on a Straw Bed!",
 	text: [
-		"You currently cannot make an normal bed.. but theres a Straw one!",
+		"§2You§f §2cannot§f make an normal §cbed§f currently... but theres a §6Straw§f one!",
 		"",
-		"- It is single use wich means, choose wisely if you wish to skip the current night."
+		"§8§o~ Don't forget to always refer to JEI, as you can obtain Straw simply by using Dried Plant Fibers and Twines.§r§f",
+		"",
+		"- It is §asingle use§f, choose wisely if you wish to §bskip§f the current §5night§f."
 	],
 	dependencies: [
 		"19d0b497"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "bd755fe9",
 		type: "item",

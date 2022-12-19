@@ -24,6 +24,8 @@ import mods.thaumcraft.Crucible;
 val lightPlate = OrePrefix.getPrefix("lightPlate");
 val heavyPlate = OrePrefix.getPrefix("heavyPlate");
 
+val casing = OrePrefix.getPrefix("casing");
+
 val orePurified = OrePrefix.getPrefix("orePurified");
 val oreShard = OrePrefix.getPrefix("oreShard");
 val oreCrystal = OrePrefix.getPrefix("oreCrystal");
@@ -243,5 +245,34 @@ oreCluster.generateRecipes(function(oreCluster as OrePrefix, material as Materia
     // val Utils as IRecipeUtils = IRecipeUtils.Utils;
 
     mods.thaumcraft.Crucible.registerRecipe("crucible_ore_cluster" ~ material.name, "METALPURIFICATION", Utils.item(oreCluster, material)*32, Utils.item(oreCrystal, material), [<aspect:desiderium> * 10, <aspect:ordo> * 10, <aspect:priscus> * 10]);
+
+} as IOreRecipeHandler);
+
+// Casing
+casing.generateRecipes(function(casing as OrePrefix, material as Material) { 
+// val Utils as IRecipeUtils = IRecipeUtils.Utils;
+
+<recipemap:alloy_smelter>.recipeBuilder()
+        .inputs(Utils.ore("ingot", material)*2)
+        .notConsumable(<contenttweaker:casing_mold>)
+        .outputs(Utils.item(casing, material)*3)
+        .EUt(15)
+        .duration(128)
+.buildAndRegister();
+
+<recipemap:cutter>.recipeBuilder()
+        .inputs(Utils.ore("plate", material))
+        .outputs(Utils.item(casing, material)*2)
+        .EUt(16)
+        .duration(150)
+.buildAndRegister();
+
+<recipemap:extruder>.recipeBuilder()
+        .inputs(Utils.ore("ingot", material))
+        .notConsumable(<contenttweaker:casing_shape>)
+        .outputs(Utils.item(casing, material)*2)
+        .EUt(45)
+        .duration(75)
+.buildAndRegister();
 
 } as IOreRecipeHandler);

@@ -3,6 +3,7 @@
 	icon: "tconstruct:smeltery_controller",
 	x: 14.0d,
 	y: 5.0d,
+	shape: "gear",
 	description: "Time to start making some progress!",
 	text: [
 		"The Requirements for this quest are a 3x3x1 Smeltery.",

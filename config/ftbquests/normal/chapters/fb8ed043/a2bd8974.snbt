@@ -14,7 +14,6 @@
 		"- The Sawmill will generate some Sawdust on the ground, clean it!"
 	],
 	dependencies: [
-		"c37850c9",
 		"0d268649"
 	],
 	tasks: [{

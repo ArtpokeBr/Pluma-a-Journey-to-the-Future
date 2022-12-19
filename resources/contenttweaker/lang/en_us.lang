@@ -461,3 +461,8 @@ item.contenttweaker.crystalline_pink_slime_gear.name=Crystalline Pink Slime Gear
 
 item.contenttweaker.stone_tablet.name=Stone Tablet
 item.contenttweaker.abyssal_tablet.name=Abyssal Tablet
+
+item.contenttweaker.casing_mold.name=Mold (Casing)
+item.contenttweaker.casing_shape.name=Extruder Shape (Casing)
+
+item.contenttweaker.mixed_metal.name=Mixed Metal Ingot

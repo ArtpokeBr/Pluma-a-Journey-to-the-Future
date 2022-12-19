@@ -1,0 +1,45 @@
+{
+	title: "Early game Shearing",
+	x: 2.5d,
+	y: -2.5d,
+	shape: "rsquare",
+	description: "Clay is totally Balanced",
+	text: [
+		"§6Pyrotech§f offer's an interesting alternative to an §3Iron Shear§f, you can actually make one with §3Clay§f!",
+		"",
+		"- First make an §3Unfired§f one and them simply smelt it to obtain this §aQOL Item§f."
+	],
+	dependencies: [
+		"b63920c2"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "a3293c70",
+		type: "item",
+		items: [{
+			item: "pyrotech:unfired_clay_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c5701fc",
+		type: "item",
+		items: [{
+			item: "pyrotech:clay_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f98efcbb",
+		type: "item",
+		item: "harvestcraft:fishandchipsitem",
+		count: 2
+	},
+	{
+		uid: "e118bb6f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

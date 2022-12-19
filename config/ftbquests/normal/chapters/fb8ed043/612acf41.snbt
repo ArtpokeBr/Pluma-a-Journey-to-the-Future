@@ -2,6 +2,7 @@
 	title: "A More Reliable Glass Production",
 	x: 11.0d,
 	y: 2.5d,
+	shape: "rsquare",
 	description: "By Melting Sand into Liquid Glass!",
 	text: [
 		"By Smelting Sand in the Melter, you'll obtain Liquid Glass that can be poured into a basin!",

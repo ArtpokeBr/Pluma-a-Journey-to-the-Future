@@ -43,11 +43,21 @@ GraniteAnvil.addRecipe(
 
 //Fixing the Limestone Dust Recipe
 GraniteAnvil.removeRecipes(<ore:dustLimestone>.firstItem);
+GraniteAnvil.removeRecipes(<ore:cobblestoneLimestone>.firstItem);
+
+GraniteAnvil.addRecipe(
+  "LimestoneCobbleProcessing",                // unique recipe name
+  <ore:cobblestoneLimestone>.firstItem,          // recipe output
+  <ore:stoneLimestone>,          // recipe input
+  8,                   // base number of hammer hits required
+  "hammer",                // hammer | pickaxe
+  true // true if the recipe should be inherited
+);
 
 GraniteAnvil.addRecipe(
   "LimestoneDustProcessing",                // unique recipe name
   <ore:dustLimestone>.firstItem,          // recipe output
-  <ore:stoneLimestone>,          // recipe input
+  <ore:cobblestoneLimestone>,          // recipe input
   12,                   // base number of hammer hits required
   "hammer",                // hammer | pickaxe
   true // true if the recipe should be inherited

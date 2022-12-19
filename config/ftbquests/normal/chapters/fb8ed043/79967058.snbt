@@ -2,6 +2,7 @@
 	title: "A Multi-Tool of Stone",
 	x: 6.5d,
 	y: -2.5d,
+	shape: "rsquare",
 	description: "You can now Make your First AIOT!",
 	text: [
 		"You now have acess to Stone Tools... Why not mix them into a single powerfull tool?"

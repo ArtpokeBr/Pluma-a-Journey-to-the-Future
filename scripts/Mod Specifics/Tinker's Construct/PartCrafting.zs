@@ -104,14 +104,16 @@ var ToolMaterials as IItemStack[string] = {
 	"ardite" : <ore:ingotArdite>.firstItem,
     "iridium" : <ore:ingotIridium>.firstItem,
 	"constantan" : <ore:ingotConstantan>.firstItem,
-	//"boron" : <ore:ingotBoron>.firstItem,
-	//""tough" : <ore:ingotTough>.firstItem,
-	//""hard_carbon" : <ore:ingotHardCarbon>.firstItem,
-	//""boron_nitride" : <ore:gemBoronNitride>.firstItem,
-	//""thorium" : <ore:ingotThorium>.firstItem,
-	//""uranium" : <ore:ingotUranium>.firstItem,
-	//""magnesium" : <ore:ingotMagnesium>.firstItem,
-	//""chocolate" : <ore:ingotChocolate>.firstItem,
+
+	"boron" : <ore:ingotBoron>.firstItem,
+	"tough" : <ore:ingotTough>.firstItem,
+	"hard_carbon" : <ore:ingotHardCarbon>.firstItem,
+	"boron_nitride" : <ore:gemBoronNitride>.firstItem,
+	"thorium" : <ore:ingotThorium>.firstItem,
+	"uranium" : <ore:ingotUranium>.firstItem,
+	"magnesium" : <ore:ingotMagnesium>.firstItem,
+	"chocolate" : <ore:ingotChocolate>.firstItem,
+
 	"sky_stone" : <appliedenergistics2:sky_stone_block>,
 	"fluix_steel" : <threng:material>,
 	"apatite" : <ore:gemApatite>.firstItem,
@@ -163,7 +165,7 @@ var ToolMaterials as IItemStack[string] = {
 	"osmiridium" : <ore:ingotOsmiridium>.firstItem,
 
 	"tar_slime": <fossil:tardrop>*4,
-	"ancient_metal": <fossil:broken_sword>,
+	"ancient_metal": <ore:ingotAncientMetal>.firstItem,
 
 	"elementium": <ore:ingotElementium>.firstItem,
 	"terrasteel": <ore:ingotTerrasteel>.firstItem,
@@ -216,6 +218,14 @@ var ToolMaterials as IItemStack[string] = {
 	"neutronium" : <ore:ingotNeutronium>.firstItem,
 	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,
 	"infinity_metal" : <ore:ingotInfinityMetal>.firstItem,
+
+	"rubber" : <industrialforegoing:plastic>,
+	"meat_metal" : <tconevo:edible:1>,
+	"pink_slime" : <tconevo:material:1>,
+	"pink_metal" : <industrialforegoing:pink_slime_ingot>,
+	"essence_metal" : <tconevo:metal:15>,	
+
+	"advanced_alloy" : <ore:plateAdvancedAlloy>.firstItem
 
 	// "ma.soulium" : <ore:ingotSoulium>.firstItem,
 	// "ma.prosperity" : <ore:ingotBaseEssence>.firstItem,
@@ -311,14 +321,16 @@ var ToolMaterialsII as IItemStack[string] = {
 	"ardite" : <ore:ingotArdite>.firstItem,
     "iridium" : <ore:ingotIridium>.firstItem,
 	"constantan" : <ore:ingotConstantan>.firstItem,
-	//"boron" : <ore:ingotBoron>.firstItem,
-	//"tough" : <ore:ingotTough>.firstItem,
-	//"hard_carbon" : <ore:ingotHardCarbon>.firstItem,
-	//"boron_nitride" : <ore:gemBoronNitride>.firstItem,
-	//"thorium" : <ore:ingotThorium>.firstItem,
-	//"uranium" : <ore:ingotUranium>.firstItem,
-	//"magnesium" : <ore:ingotMagnesium>.firstItem,
-	//"chocolate" : <ore:ingotChocolate>.firstItem,
+
+	"boron" : <ore:ingotBoron>.firstItem,
+	"tough" : <ore:ingotTough>.firstItem,
+	"hard_carbon" : <ore:ingotHardCarbon>.firstItem,
+	"boron_nitride" : <ore:gemBoronNitride>.firstItem,
+	"thorium" : <ore:ingotThorium>.firstItem,
+	"uranium" : <ore:ingotUranium>.firstItem,
+	"magnesium" : <ore:ingotMagnesium>.firstItem,
+	"chocolate" : <ore:ingotChocolate>.firstItem,
+
 	"sky_stone" : <appliedenergistics2:sky_stone_block>,
 	"fluix_steel" : <threng:material>,
 	"apatite" : <ore:gemApatite>.firstItem,
@@ -371,7 +383,7 @@ var ToolMaterialsII as IItemStack[string] = {
 	"osmiridium" : <ore:ingotOsmiridium>.firstItem,
 
 	"tar_slime": <fossil:tardrop>*4,
-	"ancient_metal": <fossil:broken_sword>,
+	"ancient_metal": <ore:ingotAncientMetal>.firstItem,
 
 	"elementium": <ore:ingotElementium>.firstItem,
 	"terrasteel": <ore:ingotTerrasteel>.firstItem,
@@ -426,6 +438,14 @@ var ToolMaterialsII as IItemStack[string] = {
 	"neutronium" : <ore:ingotNeutronium>.firstItem,
 	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,
 	"infinity_metal" : <ore:ingotInfinityMetal>.firstItem,
+
+	"rubber" : <industrialforegoing:plastic>,
+	"meat_metal" : <tconevo:edible:1>,
+	"pink_slime" : <tconevo:material:1>,
+	"pink_metal" : <industrialforegoing:pink_slime_ingot>,
+	"essence_metal" : <tconevo:metal:15>,
+
+	"advanced_alloy" : <ore:plateAdvancedAlloy>.firstItem
 
 	// "ma.soulium" : <ore:ingotSoulium>.firstItem,
 	// "ma.prosperity" : <ore:ingotBaseEssence>.firstItem,
@@ -514,14 +534,16 @@ var ConarmMaterials as IItemStack[string] = {
 	"ardite" : <ore:ingotArdite>.firstItem,
     "iridium" : <ore:ingotIridium>.firstItem,
 	"constantan" : <ore:ingotConstantan>.firstItem,
-	//"boron" : <ore:ingotBoron>.firstItem,
-	//"tough" : <ore:ingotTough>.firstItem,
-	//"hard_carbon" : <ore:ingotHardCarbon>.firstItem,
-	//"boron_nitride" : <ore:gemBoronNitride>.firstItem,
-	//"thorium" : <ore:ingotThorium>.firstItem,
-	//"uranium" : <ore:ingotUranium>.firstItem,
-	//"magnesium" : <ore:ingotMagnesium>.firstItem,
-	//"chocolate" : <ore:ingotChocolate>.firstItem,
+
+	"boron" : <ore:ingotBoron>.firstItem,
+	"tough" : <ore:ingotTough>.firstItem,
+	"hard_carbon" : <ore:ingotHardCarbon>.firstItem,
+	"boron_nitride" : <ore:gemBoronNitride>.firstItem,
+	"thorium" : <ore:ingotThorium>.firstItem,
+	"uranium" : <ore:ingotUranium>.firstItem,
+	"magnesium" : <ore:ingotMagnesium>.firstItem,
+	"chocolate" : <ore:ingotChocolate>.firstItem,
+
 	"sky_stone" : <appliedenergistics2:sky_stone_block>,
 	"fluix_steel" : <threng:material>,
 	"apatite" : <ore:gemApatite>.firstItem,
@@ -574,7 +596,7 @@ var ConarmMaterials as IItemStack[string] = {
 	"osmiridium" : <ore:ingotOsmiridium>.firstItem,
 
 	"tar_slime": <fossil:tardrop>*4,
-	"ancient_metal": <fossil:broken_sword>,
+	"ancient_metal": <ore:ingotAncientMetal>.firstItem,
 
 	"elementium": <ore:ingotElementium>.firstItem,
 	"terrasteel": <ore:ingotTerrasteel>.firstItem,
@@ -630,6 +652,14 @@ var ConarmMaterials as IItemStack[string] = {
 	"neutronium" : <ore:ingotNeutronium>.firstItem,
 	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,
 	"infinity_metal" : <ore:ingotInfinityMetal>.firstItem,
+
+	"rubber" : <industrialforegoing:plastic>,
+	"meat_metal" : <tconevo:edible:1>,
+	"pink_slime" : <tconevo:material:1>,
+	"pink_metal" : <industrialforegoing:pink_slime_ingot>,
+	"essence_metal" : <tconevo:metal:15>,
+
+	"advanced_alloy" : <ore:plateAdvancedAlloy>.firstItem,
 
 	// "ma.soulium" : <ore:ingotSoulium>.firstItem,
 	// "ma.prosperity" : <ore:ingotBaseEssence>.firstItem,
@@ -704,7 +734,9 @@ var ArcaneFocusMaterials as IItemStack[string] = {
 
 	"neutronium" : <ore:ingotNeutronium>.firstItem,
 	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,
-	"infinity_metal" : <ore:ingotInfinityMetal>.firstItem,								
+	"infinity_metal" : <ore:ingotInfinityMetal>.firstItem,
+
+	"essence_metal" : <tconevo:metal:15>,							
 };
 
 var ArcaneFocusParts as IData[][IItemStack] = {
@@ -775,7 +807,11 @@ var ArrowShaftMaterials as IItemStack[string] = {
 	"darkwood" : <natura:nether_planks:2>,
 	"bloodwood" : <natura:nether_planks:1>,	
 	"ghostwood" : <natura:nether_planks>,
-	"polyethylene": <mekanism:polyethene:2>,																												
+	"polyethylene": <mekanism:polyethene:2>,	
+
+	"steeleaf": <ore:ingotSteeleaf>.firstItem,
+	"nagascale": <twilightforest:naga_scale>,
+	"fierymetal": <ore:ingotFiery>.firstItem,																										
 };
 
 var ArrowShaftParts as IData[][IItemStack] = {
@@ -794,6 +830,7 @@ for mat, ingot in ArrowShaftMaterials {
 	}
 }
 
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:arrow_shaft>.withTag({Material: "fierymetal"}));
 
 /*
 
@@ -1003,6 +1040,16 @@ engraver.recipeBuilder()
     .inputs(<ore:ingotInfinityMetal> * 16)
     .notConsumable(<ore:craftingLensMagenta>)
     .outputs(<plustic:laser_medium>.withTag({Material: "infinity_metal"}))
+    .duration(560)
+    .EUt(60)
+.buildAndRegister();
+
+//Chaotic Laser
+mods.tconstruct.Casting.removeTableRecipe(<plustic:laser_medium>.withTag({Material: "chaotic_metal"}));
+engraver.recipeBuilder()
+    .inputs(<ore:ingotChaoticMetal> * 16)
+    .notConsumable(<ore:craftingLensMagenta>)
+    .outputs(<plustic:laser_medium>.withTag({Material: "chaotic_metal"}))
     .duration(560)
     .EUt(60)
 .buildAndRegister();

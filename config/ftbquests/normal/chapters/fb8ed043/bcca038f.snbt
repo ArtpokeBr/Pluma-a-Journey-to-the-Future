@@ -5,22 +5,32 @@
 	y: 0.5d,
 	description: "But... it requires a Mold!",
 	text: [
-		"Use your brand new Bronze Saw to make a Brick Mold!",
+		"Use your brand new §aTools§f to make a §6Brick Mold§f!",
 		"",
-		"- Them, simply make a ton of Coke Clay, as you'll be using it to assemble a Coke Oven."
+		"§8§o~ Make sure to have a Saw, there's a quest for it in this chapter.§r§f",
+		"",
+		"- Them, simply make a ton of §6Coke Oven Bricks§f, as you'll be using it to assemble a §3Coke Oven§f in the next quest."
 	],
 	dependencies: [
 		"412de3db"
 	],
+	min_width: 300,
 	tasks: [{
-		uid: "ae1ecbd7",
+		uid: "88984d89",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 347"
+		}]
+	},
+	{
+		uid: "f1b261e7",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 348"
 		}]
 	},
 	{
-		uid: "cc6717ef",
+		uid: "b987b6a5",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 353"
@@ -28,7 +38,7 @@
 		count: 116L
 	},
 	{
-		uid: "e9db1687",
+		uid: "751a01df",
 		type: "item",
 		items: [{
 			item: "gregtech:metal_casing 1 8"

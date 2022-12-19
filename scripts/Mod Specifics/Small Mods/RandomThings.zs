@@ -1,6 +1,8 @@
 import mods.thaumcraft.Infusion as Infusion;
 import mods.rt.RandomThingsTweaker as RandomThingsTweaker;
 
+#modloaded randomthings
+
 //Stable Ender Pearl
 recipes.remove(<randomthings:stableenderpearl>);
 
@@ -278,14 +280,6 @@ assembler.recipeBuilder()
 recipes.remove(<randomthings:advancedredstonetorch_on>);
 recipes.addShapeless("AdvancedRedstoneTorch", <randomthings:advancedredstonetorch_on>, [<ore:craftingRedstoneTorch>, <ore:dustRedAlloy>, <ore:dustRedAlloy>]);
 
-// Item Collector
-recipes.remove(<randomthings:itemcollector>);
-recipes.addShaped(<randomthings:itemcollector> * 1, [[null, <ore:endorCrystal>, null], [<ore:plateAAVoid>, <ore:blockHopper>, <ore:plateAAVoid>],[<ore:compressed1xObsidian>, <actuallyadditions:block_misc:9>, <ore:compressed1xObsidian>]]);
-
-// Advanced Item Collector
-recipes.remove(<randomthings:advanceditemcollector>);
-RandomThingsTweaker.addImbuingRecipe(<ore:glodCrystal>.firstItem, <ore:empoweredEndorCrystal>.firstItem, <ore:plateDoubleStainlessSteel>.firstItem, <randomthings:itemcollector>, <randomthings:advanceditemcollector>);
-
 // Basic Redstone Interface
 recipes.remove(<randomthings:basicredstoneinterface>);
 recipes.addShaped(<randomthings:basicredstoneinterface> * 1, [[<ore:foilRedAlloy>, <ore:lightPlateIron>, <ore:foilRedAlloy>], [<ore:lightPlateIron>, <ore:gemEnderPearl>, <ore:lightPlateIron>],[<ore:foilRedAlloy>, <ore:lightPlateIron>, <ore:foilRedAlloy>]]);
@@ -332,9 +326,6 @@ alloy.recipeBuilder()
 .buildAndRegister();
 
 
-// Evil Tear
-recipes.remove(<randomthings:ingredient:1>);
-RandomThingsTweaker.addImbuingRecipe(<contenttweaker:hellishflesh>, <ore:dustBlackQuartz>.firstItem, <contenttweaker:blackened_spirit>, <minecraft:ghast_tear>, <randomthings:ingredient:1>);
 
 // Sound Recorder
 recipes.remove(<randomthings:soundrecorder>);
@@ -348,3 +339,52 @@ recipes.addShaped(<randomthings:escaperope> * 1, [[<natura:materials:7>, <ore:fo
 recipes.remove(<randomthings:eclipsedclock>);
 recipes.addShaped(<randomthings:eclipsedclock> * 1, [[<ore:compressed1xObsidian>, <ore:plateGold>, <ore:compressed1xObsidian>], [<ore:plateGold>, <randomthings:ingredient:1>, <ore:plateGold>],[<ore:compressed1xObsidian>, <ore:plateGold>, <ore:compressed1xObsidian>]]);
 
+# Remove all default imbue recipes
+RandomThingsTweaker.removeAllImbuingRecipes();
+
+# Remake imbues, make them way cheaper
+
+// Fire Imbue
+RandomThingsTweaker.addImbuingRecipe(
+	<actuallyadditions:item_misc:11>,
+	<tconstruct:edible:4>,
+	<actuallyadditions:item_misc:10>,
+	<minecraft:potion>.withTag({Potion: "minecraft:water"}),
+	<randomthings:imbue>
+);
+// Poison Imbue
+RandomThingsTweaker.addImbuingRecipe(
+	<minecraft:red_mushroom>,
+	<minecraft:potato>,
+	<minecraft:brown_mushroom>,
+	<minecraft:potion>.withTag({Potion: "minecraft:water"}),
+	<randomthings:imbue:1>
+);
+// Experience Imbue
+RandomThingsTweaker.addImbuingRecipe(
+	<harvestcraft:beanitem>,
+	<cyclicmagic:horse_upgrade_variant>,
+	<nuclearcraft:glowing_mushroom>,
+	<minecraft:experience_bottle>,
+	<randomthings:imbue:2>
+);
+// Wither Imbue
+RandomThingsTweaker.addImbuingRecipe(
+	<minecraft:netherbrick>,
+	<witherskelefix:fragment>,
+	<minecraft:soul_sand>,
+	<minecraft:potion>.withTag({Potion: "minecraft:water"}),
+	<randomthings:imbue:3>
+);
+
+// Evil Tear
+recipes.remove(<randomthings:ingredient:1>);
+RandomThingsTweaker.addImbuingRecipe(<contenttweaker:hellishflesh>, <ore:dustBlackQuartz>.firstItem, <contenttweaker:blackened_spirit>, <minecraft:ghast_tear>, <randomthings:ingredient:1>);
+
+// Item Collector
+recipes.remove(<randomthings:itemcollector>);
+recipes.addShaped(<randomthings:itemcollector> * 1, [[null, <ore:endorCrystal>, null], [<ore:plateAAVoid>, <ore:blockHopper>, <ore:plateAAVoid>],[<ore:compressed1xObsidian>, <actuallyadditions:block_misc:9>, <ore:compressed1xObsidian>]]);
+
+// Advanced Item Collector
+recipes.remove(<randomthings:advanceditemcollector>);
+RandomThingsTweaker.addImbuingRecipe(<ore:glodCrystal>.firstItem, <ore:empoweredEndorCrystal>.firstItem, <ore:plateDoubleStainlessSteel>.firstItem, <randomthings:itemcollector>, <randomthings:advanceditemcollector>);

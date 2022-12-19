@@ -2,6 +2,7 @@
 	title: "Early Game Automations",
 	x: 5.5d,
 	y: 1.5d,
+	shape: "rsquare",
 	description: "Time to make an Mechanical Hopper!",
 	text: [
 		"Hoppers aren't that cheap currently, but you're able to automate still!",
