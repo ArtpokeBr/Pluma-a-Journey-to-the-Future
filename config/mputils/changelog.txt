@@ -1,52 +1,32 @@
-§a§lVersion Alpha§r§f 1.2:
+§a§lVersion Beta§r§f 1.0:
 
-- Updated CensoredASM
-- Updated Universal Tweaks
+- Updated Aqua Acrobaticts
 - Updated AE2 Fluid Crafting
 
 §b§lAdditions§r§f:
 
-- Building Gagets
-- NuclearCraft: Overhauled
-- Requious Frakto
+- You've Dropped This (Mod that adds Sounds when Dropping Items)
+- MMmmmm (Target Dummy Mod)
+- Demagnetize
+- Dark Utilities
+- Ender Quarry Port (Yes, that old one from XU1!)
 
 §2§lFixes§r§f:
 
-- Integrated Recipes for more Tcon Materials (from Industrial Foregoing and Twilight Forest)
-- Fixed Tcon Cast incorrect name
-- Fixed Emerald not having a Tcon Material
-- Hidden All Tinker's Formed Tools. Only Parts will show up now.
-- Fixed a typo in the questing ram quest (incorrect amount of wools).
-- Fixed the "Making Coke Bricks" quest, making it more clear that you'll need more tools for it.
-- Fixed "Sawing Wood" having incorrect dependencies.
-- Fixed Limestone Dust processing in the Pyrotech Anvil's.
+- The Handheld Crafting table now can be crafted and cannot be bought in the Store anymore.
+- Removed "Let me Sleep" Mod, was causing some compatibility issues with Pyrotech' Straw Bed.
+- Furnaces should now be replaced with Cobblestone in Villages
+- Hidden Mana Tesseract Auto-Generated Recipes for every item in the game.
+- Disabled AE2 Meteorites.
+- Vanilla's Fishing Rod can now be Crafted with Twine.
+- HarvestCraft's Traps and Baits are now better implemented.
+- Removed Thermal's Foundation Steel Armor (The Railcraft one is the correct one).
+- Removed Armors and Tools from NuclearCraft, Tinker's and Conarm's still exist.
 
 §5§lMiscellaneous§r§f:
 
-- Added a JEI page dedicated to Item Interactions with Requious Frakto.
-- Added a JEI page dedicated to "secret" or "special" item recipes in the pack. (ex: Salis Mundus)
-- Added a Quest to further expand the information about automating Blood Magic Tables.
-- Added a Quest to mention that Clay Shears Exist in the early game!
-- Started to Balance and Implement NuclearCraft.
-- You can now convert Wither Skeleton Skulls back into Fragments.
-- Created a New Material, Casings! but only for certain materials.
-- Molds and Shapes can now be chiseled.
-- Ported Advanced Alloy from IC2.
-- Added some usefull Scripts made by Krutoy. (Craft.zs)
-- Fully Implement Building Gadgets
-- Fully Implement Industrial Foregoing
-- Tweaked a few Quests in Chapter 1
-
-Current Long Term Plans:
-
-- Reimplementar as Traps do HarvestCraft com melhores receitas
-
-- Refinar Slag em Riched Slag usando uma Autoclave com Biomass ou algo do tipo
-
-- Fazer uma Print para a tela de Loading
-
-- Organizar novamente o Railcraft
-
-- Add Utility to Troll related items and mobs in the Twilight Forest
-
-- Use the Deep Resonance Mod
+- Changed Texture of the FTB Quests Book
+- Added a OreDict and Chisel Category to Railcraft Concrete
+- Ported Reinforced Stone from IC2
+- More Integrations for HarvestCraft Foods
+- Added a few more tips to the loading screen.

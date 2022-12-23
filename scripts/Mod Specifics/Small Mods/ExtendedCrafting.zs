@@ -246,3 +246,17 @@ CombinationCrafting.addRecipe(<actuallyadditions:item_misc:24>, 50000, <actually
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# [Handheld Crafting Table] from [Saw][+4]
+recipes.remove(<extendedcrafting:handheld_table>);
+craft.make(<extendedcrafting:handheld_table>, ["pretty",
+  "  o w",
+  "T # S",
+  "# S  "], {
+  "o": <ore:gtceSaws>,                            # Saw
+  "w": <ore:craftingTableWood>,                   # Crafting Table
+  "T": <ore:gtceScrewdrivers>,                    # Screwdriver
+  "#": <ore:stickTreatedWood>,                    # Treated Wood Stick
+  "S": <ore:screwSteel>,                          # Steel Screw
+});
+

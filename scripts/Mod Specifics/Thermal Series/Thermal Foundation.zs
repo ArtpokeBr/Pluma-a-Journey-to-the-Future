@@ -404,3 +404,34 @@ mixer.recipeBuilder()
     .duration(220)
     .EUt(2030)
 .buildAndRegister();
+
+# Slag Processing =========================================
+
+//Normal Slag
+autoclave.recipeBuilder()
+    .inputs(<ore:dustImpureIron>)
+    .fluidInputs(<liquid:dirt>*144)
+    .outputs(<ore:itemSlag>.firstItem)
+    .EUt(10)
+    .duration(80)
+.buildAndRegister();
+
+//Rich Slag
+autoclave.recipeBuilder()
+    .inputs(<ore:itemSlag>)
+    .fluidInputs(<liquid:fermented_biomass>*288)
+    .outputs(<ore:itemSlagRich>.firstItem)
+    .EUt(20)
+    .duration(100)
+.buildAndRegister();
+
+//Cinnabar
+autoclave.recipeBuilder()
+    .inputs(<ore:itemSlagRich>)
+    .fluidInputs(<liquid:nacre>*576)
+    .outputs(<ore:itemCinnabar>.firstItem)
+    .EUt(40)
+    .duration(200)
+.buildAndRegister();
+
+// ========================================================

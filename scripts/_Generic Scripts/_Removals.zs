@@ -32,7 +32,6 @@ var RemovingOnlyTheRecipe as IItemStack[] = [
 <embers:grandhammer>,
 <evilcraft:sceptre_of_thunder>,
 <cyclicmagic:glowing_helmet>,
-<extendedcrafting:handheld_table>,
 <thermalfoundation:tome_experience>,
 <cyclicmagic:charm_antidote>,
 <cyclicmagic:charm_water>,

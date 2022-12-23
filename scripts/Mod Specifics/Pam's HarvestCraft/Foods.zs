@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
 // This Script is to balance or try to balance most of the Foods, mainly by removing them from the Furnace for example.
@@ -132,81 +133,72 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 // Ground Beef     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllbeefraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundbeef>.firstItem)
     .duration(80)
     .EUt(8)
     .buildAndRegister();
 
 // Ground Chicken     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllchickenraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundchicken>.firstItem)
     .duration(80)
     .EUt(8)
     .buildAndRegister();
 
 // Ground Duck     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllduckraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundduck>.firstItem)
     .duration(80)
     .EUt(8)
     .buildAndRegister();
 
 // Ground Fish     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllfishraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundfish>.firstItem)
     .duration(80)
     .EUt(8)
     .buildAndRegister();
 
 // Ground Mutton     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllmuttonraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundmutton>.firstItem)
     .duration(80)
     .EUt(8)
     .buildAndRegister();
 
 // Ground Pork     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllporkraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundpork>.firstItem)
     .duration(80)
     .EUt(8)
     .buildAndRegister();
 
 // Ground Rabbit     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllrabbitraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundrabbit>.firstItem)
     .duration(80)
     .EUt(8)
     .buildAndRegister();
 
 // Ground Turkey     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllturkeyraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundturkey>.firstItem)
     .duration(80)
     .EUt(8)
     .buildAndRegister();
 
 // Ground Venison     
-mixer.recipeBuilder()
+hammer.recipeBuilder()
     .inputs([<ore:listAllvenisonraw>])
-    .notConsumable([<ore:gtceKnife>])
     .outputs(<ore:foodGroundvenison>.firstItem)
     .duration(80)
     .EUt(8)
@@ -320,4 +312,31 @@ extractor.recipeBuilder()
     .duration(90)
     .EUt(8)
     .buildAndRegister();
-    
+
+//Dominos Pizza from NuclearCraft
+recipes.remove(<nuclearcraft:dominos>);
+assembler.recipeBuilder()
+    .inputs(
+		<ore:foodBread>*8,
+		<ore:listAllporkcooked>*2,
+		<ore:listAllbeefcooked>*2,
+		<ore:listAllchickencooked>*2,
+		<ore:listAllmuttoncooked>*2,
+		<ore:cropTomato>*2,
+		<ore:foodCheese>*2,
+		<ore:listAllmushroom>*2)
+    .outputs(<nuclearcraft:dominos>*4)
+	.duration(100).EUt(68)
+.buildAndRegister();
+
+//Obtaining more Mushrrooms with Mycelium
+centrifuge.findRecipe(30, [<minecraft:mycelium>], [null]).remove();
+centrifuge.recipeBuilder().inputs(<minecraft:mycelium>)
+	.chancedOutput(<minecraft:brown_mushroom>, 2500, 900)
+	.chancedOutput(<minecraft:red_mushroom>, 2500, 900)
+	.chancedOutput(<quark:glowshroom>, 400, 700)
+	.chancedOutput(<nuclearcraft:glowing_mushroom>, 400, 700)
+	.chancedOutput(<harvestcraft:whitemushroomitem>, 400, 700)
+	.chancedOutput(<randomthings:glowingmushroom>, 100, 400)
+	.duration(650).EUt(30)
+.buildAndRegister();

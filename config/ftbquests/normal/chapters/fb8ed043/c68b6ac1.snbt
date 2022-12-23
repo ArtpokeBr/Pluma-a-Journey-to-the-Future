@@ -2,15 +2,19 @@
 	title: "Sleeping like the Ancestrals",
 	x: 3.5d,
 	y: 0.5d,
+	shape: "rsquare",
 	description: "Sleeping on a Tipi!",
 	text: [
-		"Finally an \"Infinite\" way to sleep trough nights.",
+		"Finally a fancier way to §dsleep trough the night§f!",
 		"",
-		"- Remember that you need Shears to obtain the Wool for this."
+		"- You should currently have a §6Straw Bed§f, but has a problem... it is §asingle use§f. And §2this one isn't§f! time to §bsleep better trough the night§f!",
+		"",
+		"- §aRemember§f that you need §bShears§f to obtain the §3Wool§f for this Quest."
 	],
 	dependencies: [
 		"ae6f233c"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "d549096e",
 		type: "item",

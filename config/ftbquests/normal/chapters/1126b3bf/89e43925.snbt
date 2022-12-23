@@ -1,8 +1,8 @@
 {
 	title: "Utilities Directly from The End!",
 	icon: "enderutilities:enderpart",
-	x: -0.75d,
-	y: -2.25d,
+	x: 5.505782312925149d,
+	y: -5.987414965986385d,
 	description: "Time to Unlock Ender Utilities",
 	text: [
 		"§3Ender Utilities§f is a key §2auxiliar mod§f in this Pack, it will help you with §2storage§f, §5teleportation§f and §emuch more§f!",
@@ -14,7 +14,7 @@
 	dependencies: [
 		"32d484cb"
 	],
-	size: 1.5d,
+	size: 2.0d,
 	min_width: 300,
 	tasks: [{
 		uid: "f38fbb5b",

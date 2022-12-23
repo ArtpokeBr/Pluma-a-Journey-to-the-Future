@@ -70,6 +70,14 @@ recipes.addShaped(<minecraft:compass> * 1, [[null, <ore:plateIron>, null], [<ore
 recipes.remove(<minecraft:clock>);
 recipes.addShaped(<minecraft:clock> * 1, [[null, <ore:plateGold>, null], [<ore:plateGold>, <minecraft:redstone>, <ore:plateGold>],[null, <ore:plateGold>, null]]);
 
+# [Fishing Rod] from [Twine][+1]
+craft.remake(<minecraft:fishing_rod>, ["pretty",
+  "    #",
+  "  # t",
+  "#   t"], {
+  "#": <ore:stickWood>, # Stick
+  "t": <ore:twine>,     # Twine
+});
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //

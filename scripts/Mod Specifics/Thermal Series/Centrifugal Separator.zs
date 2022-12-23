@@ -48,7 +48,8 @@ var CentrifugalNormalRemoval as IItemStack[] = [
 <gregtech:meta_dust:274>,
 <thermalfoundation:material:1026>,
 <thermalfoundation:material:99>,
-<thermalfoundation:material:1025>
+<thermalfoundation:material:1025>,
+<harvestcraft:honeycombitem>
 ];
 for i in CentrifugalNormalRemoval {
 Centrifuge.removeRecipe(i);

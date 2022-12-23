@@ -1,0 +1,30 @@
+{
+	title: "A Mainframe!",
+	icon: "gregtech:meta_item_1 1 631",
+	x: 2.5d,
+	y: -2.0d,
+	description: "Your First IV Circuit",
+	text: [
+		"§eThis is the Start of something big§f.",
+		"",
+		"- As Always, check out the §3Circuit Chapter§f to better inform yourself about them.",
+		"",
+		"§8§o~ Don't mind making passive automations for this guy, as it is expensive and you'll unlock better alternatives soon!§r§f"
+	],
+	dependencies: [
+		"ac2cacd4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1828f22b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 631"
+		}]
+	}],
+	rewards: [{
+		uid: "c041ee23",
+		type: "item",
+		item: "gregtech:machine 1 638"
+	}]
+}

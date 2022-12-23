@@ -113,6 +113,7 @@ val generate_casing = MaterialFlagBuilder.create("generate_casing")
 <material:copper>.addFlags("generate_casing");
 <material:steel>.addFlags("generate_casing");
 <material:lead>.addFlags("generate_casing");
+<material:steel_magnetic>.addFlags("generate_casing");
 
 val casing as OrePrefix = OrePrefix.registerOrePrefix("casing", 1);
 

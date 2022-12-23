@@ -886,3 +886,12 @@ craft.remake(<contenttweaker:mixed_metal>, ["pretty",
   "□": <ore:lightPlateBrass>,          # Light Brass Plate
   "P": <ore:lightPlateNichrome>,       # Light Nichrome Plate
 });
+
+# [Reinforced Stone]
+chemical_bath.recipeBuilder()
+    .inputs(<ore:frameGtSteel>)
+    .fluidInputs(<liquid:concrete>*144)
+    .outputs(<contenttweaker:reinforced_stone>)
+    .duration(200)
+    .EUt(4)
+.buildAndRegister();

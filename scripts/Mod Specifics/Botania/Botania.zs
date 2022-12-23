@@ -20,11 +20,6 @@ import mods.botaniatweaks.AgglomerationRecipe;
 //			         																													 	 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Hiding Mana Tesseract Crazy Recipes
-//recipes.removeByRecipeName("botanicadds:mana_tesseract_bind");
-
-<botanicadds:mana_tesseract>.addTooltip(format.white("Mix it in the Crafting Grid with ") + format.green("Any Item/Block") + format.white(" to set a channel"));
-
 //Livingwood Twigs
 recipes.remove(<botania:manaresource:3>);
 recipes.addShapeless(<botania:manaresource:3>, [<ore:livingwood>, <ore:gtceKnife>]);

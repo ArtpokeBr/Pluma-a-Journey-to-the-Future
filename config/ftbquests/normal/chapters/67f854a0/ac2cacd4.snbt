@@ -1,0 +1,38 @@
+{
+	title: "Producing Circuits at the HV Level!",
+	x: -0.7704081632653086d,
+	y: -1.988302508503395d,
+	description: "What's this? a HV Machine in the EV Chapter? O.o",
+	text: [
+		"You'll need this §6Machine§f inside of a §bCleanroom§f for the §anext few Circuits§f, time to craft §2one more complex machine§f!",
+		"",
+		"- §dMore Specifically§f, you'll be needing this for your §eFirst IV Circuit§f!"
+	],
+	dependencies: [
+		"eefae462"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "61c2bd11",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 637"
+		}]
+	}],
+	rewards: [{
+		uid: "b93ff595",
+		type: "item",
+		item: "gregtech:meta_item_1 1 189"
+	},
+	{
+		uid: "7bce2400",
+		type: "item",
+		item: "gregtech:meta_item_1 1 159",
+		count: 2
+	},
+	{
+		uid: "35704ec4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 219"
+	}]
+}

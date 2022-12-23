@@ -32,37 +32,14 @@ assembler.recipeBuilder()
 	recipes.remove(<nuclearcraft:part>);
 	recipes.addShapedMirrored("Basic Plating", 
 	<nuclearcraft:part> * 4, 
-	[[<ore:plateLead>, <ore:casingLead>, <ore:plateLead>],
-	[<ore:casingLead>, <ore:blockGraphite>, <ore:casingLead>], 
-	[<ore:plateLead>, <ore:casingLead>, <ore:plateLead>]]);
+	[[<ore:plateTough>, <ore:casingLead>, <ore:plateTough>],
+	[<ore:casingLead>, <ore:plateDoubleAdvancedAlloy>, <ore:casingLead>], 
+	[<ore:plateTough>, <ore:casingLead>, <ore:plateTough>]]);
 
 // Copper Solenoid
 	recipes.remove(<nuclearcraft:part:4>);
 	recipes.addShapedMirrored("Copper Solenoid", 
 	<nuclearcraft:part:4> * 4, 
 	[[<ore:plateCopper>, <ore:casingCopper>, <ore:plateCopper>],
-	[<ore:stickAluminium>, <ore:plateAdvancedAlloy>, <ore:stickAluminium>], 
+	[<ore:stickFerroboron>, <ore:plateAdvancedAlloy>, <ore:stickFerroboron>], 
 	[<ore:plateCopper>, <ore:casingCopper>, <ore:plateCopper>]]);
-
-# Alloys =========================
-
-// Tough Alloy
-// mixer.recipeBuilder()
-// 	.inputs(<thermalexpansion:frame:132>, <ore:springHardCarbon>*2, <ore:screwHardCarbon>*4)
-// 	.fluidInputs(<liquid:molten.niobium_titanium>*1152)
-//     .circuit(8)
-//     .outputs(<nuclearcraft:part:10>)
-// 	.duration(280)
-// 	.EUt(800)
-// .buildAndRegister();
-
-
-// Hard Carbon
-// mixer.recipeBuilder()
-// 	.inputs(<thermalexpansion:frame:132>, <ore:springHardCarbon>*2, <ore:screwHardCarbon>*4)
-// 	.fluidInputs(<liquid:molten.niobium_titanium>*1152)
-//     .circuit(8)
-//     .outputs(<nuclearcraft:part:10>)
-// 	.duration(280)
-// 	.EUt(800)
-// .buildAndRegister();

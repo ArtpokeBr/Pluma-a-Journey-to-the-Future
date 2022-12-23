@@ -151,7 +151,7 @@ recipes.addShaped(<quantumflux:rfexciter> * 2, [[<quantumflux:craftingpiece:1>, 
 
 // Void Bucket
 recipes.remove(<quantumflux:voidbucket>);
-recipes.addShaped(<quantumflux:voidbucket> * 1, [[null, null, null], [<ore:plateDarkSteel>, <evilcraft:inverted_potentia:1>, <ore:plateDarkSteel>],[null, <ore:plateDarkSteel>, null]]);
+recipes.addShaped(<quantumflux:voidbucket> * 1, [[null, null, null], [<ore:plateDarkSteel>, <darkutils:material>, <ore:plateDarkSteel>],[null, <ore:plateDarkSteel>, null]]);
 
 // Quibit Cell
 recipes.remove(<quantumflux:quibitcell>);

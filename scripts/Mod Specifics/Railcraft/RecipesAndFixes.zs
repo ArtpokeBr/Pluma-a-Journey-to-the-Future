@@ -15,12 +15,46 @@ var ColorVariations as IItemStack[] = [
 <railcraft:glass:*>,
 <railcraft:post_metal_platform:*>,
 <railcraft:post_metal:*>,
-<railcraft:reinforced_concrete:*>
 ];
 
 for i in ColorVariations {
-i.addTooltip(format.yellow("This item can be Dyed! Press U to see the recipes."));   
+i.addTooltip(format.yellow("This item can be Dyed and Chiseled! Press U to see the recipes."));
 }
+
+var ReinforcedConcrete as IItemStack[] = [
+<railcraft:reinforced_concrete>,
+<railcraft:reinforced_concrete:1>,
+<railcraft:reinforced_concrete:2>,
+<railcraft:reinforced_concrete:3>,
+<railcraft:reinforced_concrete:4>,
+<railcraft:reinforced_concrete:5>,
+<railcraft:reinforced_concrete:6>,
+<railcraft:reinforced_concrete:7>,
+<railcraft:reinforced_concrete:8>,
+<railcraft:reinforced_concrete:9>,
+<railcraft:reinforced_concrete:10>,
+<railcraft:reinforced_concrete:11>,
+<railcraft:reinforced_concrete:12>,
+<railcraft:reinforced_concrete:13>,
+<railcraft:reinforced_concrete:14>,
+<railcraft:reinforced_concrete:15>
+];
+for i in ReinforcedConcrete {
+<ore:reinforcedConcrete>.add(i);
+i.addTooltip(format.yellow("This item can be Dyed and Chiseled! Press U to see the recipes."));
+mods.chisel.Carving.addVariation("reinforced_concrete", i);
+}
+
+# [Reinforced Concrete]*16 from [Concrete Dust][+2]
+recipes.removeByRecipeName("railcraft:reinforced_concrete#8$2");
+craft.make(<railcraft:reinforced_concrete:8> * 16, ["pretty",
+  "s G s",
+  "G ▲ G",
+  "s G s"], {
+  "s": <minecraft:stone:*>, # Stone
+  "G": <tconstruct:soil>,  # Grout
+  "▲": <ore:dustConcrete>, # Concrete Dust
+});
 
 // =============================================
 

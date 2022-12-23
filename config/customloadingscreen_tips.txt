@@ -15,7 +15,6 @@ Candles make a great early game source of light.
 Did you know this pack has Gregtech? Don't tell your Friends.
 Set up an early GTCEu sifter to process gems better.
 Water is finite in all Biomes.
-Rustic's Apiaries not only provide you with honeycombs, they also boost crop growth
 Energy Converters have internal battery slots, no external battery buffers needed.
 The GTCEu Air Collector can produce air quickly for centrifuging early.
 It's generally worth upgrading to the highest tier assembler you can make.
@@ -34,3 +33,6 @@ GregTech multiblocks are very modular.
 GregTech Cables can be used to transfer both RF and EU! this means that you should only need converters for RF -> EU.
 Always take care of your machines, they need Love and Maintenance.
 When using Water Tanks, always pay attention to the Humidity of your current biome, this affects its production rate.
+Enjoy your Stay, don't rush things!
+Need Help? Head to our Discord (Link in the Menu)!
+Want to Help the Dev? Head to Github and open an Issue today!
