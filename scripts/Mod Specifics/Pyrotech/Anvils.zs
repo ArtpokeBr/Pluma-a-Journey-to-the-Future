@@ -42,6 +42,7 @@ GraniteAnvil.addRecipe(
 );
 
 //Fixing the Limestone Dust Recipe
+GraniteAnvil.removeRecipes(<pyrotech:rock:8>);
 GraniteAnvil.removeRecipes(<ore:dustLimestone>.firstItem);
 GraniteAnvil.removeRecipes(<ore:cobblestoneLimestone>.firstItem);
 
@@ -60,6 +61,15 @@ GraniteAnvil.addRecipe(
   <ore:cobblestoneLimestone>,          // recipe input
   12,                   // base number of hammer hits required
   "hammer",                // hammer | pickaxe
+  true // true if the recipe should be inherited
+);
+
+GraniteAnvil.addRecipe(
+  "LimestoneRockProcessing",                // unique recipe name
+  <pyrotech:rock:8>*8,          // recipe output
+  <ore:cobblestoneLimestone>,          // recipe input
+  8,                   // base number of hammer hits required
+  "pickaxe",                // hammer | pickaxe
   true // true if the recipe should be inherited
 );
 

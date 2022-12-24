@@ -31,7 +31,8 @@
 			id: "quark:archaeologist_hat",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			Count: 1b
 		}
 	},
 	{

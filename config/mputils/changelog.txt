@@ -1,19 +1,27 @@
-§a§lVersion Beta§r§f 1.1:
+§a§lVersion Beta§r§f 1.2:
 
 §b§lAdditions§r§f:
 
-- Mob Stages
+- Spice of Life: Carrot Edition (Having a varied diet will now reward you!)
+- Ore Stages
+- FPS Reducer
+
+§c§lRemovals§r§f:
+
+- Hunguer Overhaul
+Basically was used to nerf Food Values and further expand the penaltys for not having a good diet.
+Since People decided to move away from that, a New Balanced Diet is being implemented.
 
 §2§lFixes§r§f:
 
-- Fixed Work Cart being available in Villages and Mineshafts.
-- Fixed Ember Golems Spawning incorrectly.
-- Cheaper Butcher and Hunting Knifes from Pyrotech.
-- Removed Mod "Prism" aparently it was an incorrect dependency that got dowloaded.
+- Archaeologists from Quark should not generate anymore.
+- Pirate Ships from Quark should not generate anymore.
+- Fixed Incorrect Recipe for Limestone Rocks.
+- Disabled Auto Claim on Quests, this was causing some issues for certain players.
+- Correclty Hidden unintented BOP Ore Generation.
+- Disabled the Chance of Ores being generated in Crystal Caves
+- Disabled Fairy Rings from Quark.
 
 §5§lMiscellaneous§r§f:
 
-- Villages are now disabled, aswell as the BOP Generation type.
-- Tweaked a few Store Prices and gating, certain items require certain quests.
-- Updated the Pit Kiln Quest
-
+- People voted on discord, now diminishin returns is disabled!
