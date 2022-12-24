@@ -141,7 +141,7 @@ var Butchers as IItemStack[IIngredient] = {
 for IItemStack, IIngredient in Butchers {
 
         recipes.remove(IIngredient);
-        recipes.addShaped(IIngredient, [[null, IItemStack, null], [IItemStack, <ore:stickTreatedWood>, null],[<ore:stickTreatedWood>, <pyrotech:material:26>, null]]);
+        recipes.addShaped(IIngredient, [[null, IItemStack, null], [IItemStack, <ore:stickWood>, null],[<ore:stickWood>, <ore:twine>, null]]);
 
 }
 
@@ -157,7 +157,7 @@ var Hunters as IItemStack[IIngredient] = {
 for IItemStack, IIngredient in Hunters {
 
         recipes.remove(IIngredient);
-        recipes.addShaped(IIngredient, [[null, IItemStack, IItemStack], [<pyrotech:material:26>, IItemStack, null],[<ore:stickTreatedWood>, <harvestcraft:hardenedleatheritem>, null]]);
+        recipes.addShaped(IIngredient, [[null, IItemStack, IItemStack], [<ore:twine>, IItemStack, null],[<ore:stickWood>, <pyrotech:material:39>, null]]);
 
 }
 

@@ -5,19 +5,21 @@
 	y: -0.5d,
 	description: "Time to Dry some Fibers and make a Pit Kiln!",
 	text: [
-		"You cannot make a Furnace Currently, so the first way to smelt items is the Pit Kiln!",
+		"§cYou cannot make a Furnace Currently§f, so the §6first way to smelt§f items is the §6Pit Kiln§f!",
 		"",
-		"- You'll need some Dried Plant Fibers, make some.",
+		"- You'll need some §eDried Plant Fibers§f, make some.",
 		"",
-		"After making also an Pit Kiln block, dig up a whole in the ground and place it.",
+		"§l1.§r After making also an §6Pit Kiln block§f, §2dig up a whole in the ground and place it§f.",
 		"",
-		"Right click with the Desired item on it, in this case, Granite Cobblestone.",
+		"§l2.§r §bRight click with the Desired item on it§f, in this case, §3Granite Cobblestone§f.",
 		"",
-		"After placing down what you want to Smelt, place a Straw Bale on it aswell.",
+		"§l3.§r After placing down what you want to Smelt, §aplace a Straw Bale on it aswell§f.",
 		"",
-		"And for the Final Step, cover it all with 3 Logs and light it on Fire!",
+		"§l4.§r And for the Final Step, §3cover§f it all with §33 Logs§f and §cLight it on Fire§f!",
 		"",
-		"~ Be Careful, there's a chance that the Crafting will fail, make more than you need!"
+		"- §cBe Careful§f, there's a §dchance that the Burning will fail§f, always §esmelt more than you need§f!",
+		"",
+		"§8§o~ A Good tip is also that you can smelt 8 items at once, try to always smelt the max, this way you can guarantee the results.§r§f"
 	],
 	dependencies: [
 		"765849a8",
@@ -25,6 +27,7 @@
 		"b63920c2",
 		"19d0b497"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "3ef0a850",
 		type: "item",

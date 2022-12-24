@@ -35,5 +35,12 @@
 		uid: "b23f8bc2",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "1007fa10",
+		type: "gamestage",
+		team_reward: false,
+		auto: "invisible",
+		stage: "Embers"
 	}]
 }

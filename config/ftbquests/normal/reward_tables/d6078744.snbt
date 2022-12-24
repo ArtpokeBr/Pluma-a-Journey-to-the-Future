@@ -1,0 +1,12 @@
+{
+	title: "Choose Reward Butcher's Block Quest",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "pyrotech:diamond_butchers_knife"
+	},
+	{
+		item: "pyrotech:diamond_hunters_knife"
+	}]
+}

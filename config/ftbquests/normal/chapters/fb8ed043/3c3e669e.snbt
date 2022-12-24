@@ -8,7 +8,13 @@
 		"",
 		"- Currently, you don't have the §askills to clean§f a §6Carcass§f in order to extract its precious §3meat and leather§f.",
 		"",
-		"- §aStore them§f in a chest that you'll remember later, as §6you'll unlock later in this chapter§f, a §5way to process them§f."
+		"- Then, simply make either a §eButcher's Knife§f of a §5Hunter's Knife§f to process this §6Carcass§f.",
+		"",
+		"- §eA Butcher Knife§f will give you more §cMeat§f.",
+		"",
+		"- §5A Hunter's Knife§f will give you more §aextra outputs§f and §cless Meat§f, such as §3Bone Shards and Hide§f.",
+		"",
+		"§8§o~ Also, by making a Butcher's Block, you'll be able to get even more Results! keep your eye on the next few quests to make it.§r§f"
 	],
 	dependencies: [
 		"a9967abd"
@@ -44,6 +50,31 @@
 					}
 				}
 			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2db1e1a3",
+		type: "item",
+		title: "A Butcher's Knife or Hunter's Knife made out of simple materials",
+		items: [{
+			item: "pyrotech:stone_butchers_knife"
+		},
+		{
+			item: "pyrotech:flint_butchers_knife"
+		},
+		{
+			item: "pyrotech:bone_butchers_knife"
+		},
+		{
+			item: "pyrotech:stone_hunters_knife"
+		},
+		{
+			item: "pyrotech:flint_hunters_knife"
+		},
+		{
+			item: "pyrotech:bone_hunters_knife"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

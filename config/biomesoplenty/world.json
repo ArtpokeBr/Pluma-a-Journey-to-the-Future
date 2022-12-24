@@ -1,3 +1,4 @@
 {
-  "generateBopOre": false
+  "generateBopOre": false,
+  "generateVillages": false
 }
