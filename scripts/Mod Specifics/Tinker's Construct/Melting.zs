@@ -27,3 +27,8 @@ extractor.recipeBuilder()
 mods.tconstruct.Melting.removeRecipe(<liquid:titanium>, <ore:oreTitanium>.firstItem);
 mods.tcomplement.Overrides.removeRecipe(<liquid:titanium>);
 mods.tcomplement.Blacklist.removeRecipe(<ore:oreTitanium>.firstItem);
+
+//Removing Gold
+mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <ore:oreGold>.firstItem);
+mods.tcomplement.Overrides.removeRecipe(<liquid:gold>);
+mods.tcomplement.Blacklist.removeRecipe(<ore:oregold>.firstItem);

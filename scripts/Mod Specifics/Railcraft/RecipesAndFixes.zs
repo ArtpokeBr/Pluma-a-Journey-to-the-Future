@@ -12,13 +12,12 @@ var ColorVariations as IItemStack[] = [
 <railcraft:tank_iron_wall:*>,
 <railcraft:tank_steel_valve:*>,
 <railcraft:tank_steel_wall:*>,
-<railcraft:glass:*>,
 <railcraft:post_metal_platform:*>,
 <railcraft:post_metal:*>,
 ];
 
 for i in ColorVariations {
-i.addTooltip(format.yellow("This item can be Dyed and Chiseled! Press U to see the recipes."));
+i.addTooltip(format.yellow("This item can be Dyed! Press U to see the recipes."));
 }
 
 var ReinforcedConcrete as IItemStack[] = [
@@ -358,6 +357,29 @@ recipes.addShaped(<railcraft:concrete> * 4, [[<ore:gravel>, <ore:itemSlag>, <ore
 //Strengthened Glass
 recipes.remove(<railcraft:glass>);
 furnace.addRecipe(<railcraft:glass>, <overloaded:compressed_sand>);
+
+var StrengthenedGlass as IItemStack[] = [
+<railcraft:glass>,
+<railcraft:glass:1>,
+<railcraft:glass:2>,
+<railcraft:glass:3>,
+<railcraft:glass:4>,
+<railcraft:glass:5>,
+<railcraft:glass:6>,
+<railcraft:glass:7>,
+<railcraft:glass:8>,
+<railcraft:glass:9>,
+<railcraft:glass:10>,
+<railcraft:glass:11>,
+<railcraft:glass:12>,
+<railcraft:glass:13>,
+<railcraft:glass:14>,
+<railcraft:glass:15>
+];
+for i in StrengthenedGlass {
+i.addTooltip(format.yellow("This item can be Dyed and Chiseled! Press U to see the recipes."));
+mods.chisel.Carving.addVariation("strengthened_glass", i);
+}
 
 //Charge Terminal
 recipes.remove(<railcraft:charge:1>);

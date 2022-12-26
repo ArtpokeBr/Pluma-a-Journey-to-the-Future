@@ -576,3 +576,12 @@ makeDustIntegration(<ore:ingotAstralStarmetal>.firstItem, <ore:blockAstralStarme
 
 # Vibrant Alloy
 // makeGregTechMaterialFluidIntegration (<ore:ingotVibrantAlloy>.firstItem, <ore:nuggetVibrantAlloy>.firstItem, <ore:blockVibrantAlloy>.firstItem, <ore:plateVibrantAlloy>.firstItem, <ore:gearVibrantAlloy>.firstItem, <liquid:vibrant_alloy>);
+
+# Infinity
+makeBlockIntegration(<ore:ingotInfinityMetal>.firstItem, <ore:blockInfinityMetal>.firstItem, <liquid:infinity_metal>);
+makeFluidIngotIntegration(<ore:ingotInfinityMetal>.firstItem, <liquid:infinity_metal>);
+makeFluidNuggetIntegration(<ore:nuggetInfinityMetal>.firstItem, <liquid:infinity_metal>);
+makeFluidPlateIntegration (<ore:plateInfinityMetal>.firstItem, <liquid:infinity_metal>);
+makeFluidGearIntegration (<ore:gearInfinityMetal>.firstItem, <liquid:infinity_metal>);
+makeDustIntegration(<ore:ingotInfinityMetal>.firstItem, <ore:blockInfinityMetal>.firstItem, <ore:nuggetInfinityMetal>.firstItem, <ore:dustInfinityMetal>.firstItem);
+

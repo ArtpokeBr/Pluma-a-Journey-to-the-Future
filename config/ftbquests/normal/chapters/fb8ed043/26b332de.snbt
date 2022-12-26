@@ -6,9 +6,9 @@
 	shape: "gear",
 	description: "A Long Journey Awaits you!",
 	text: [
-		"First of all, thanks for dowloading this Modpack!",
+		"§aFirst of all§f, §dthanks for dowloading this Modpack§f!",
 		"",
-		"- Take this Initial gift for you and good luck with your Journey!"
+		"- Take this §eInitial gift§f for you and §bgood luck§f with your §aJourney§f!"
 	],
 	size: 2.0d,
 	tasks: [{
@@ -24,21 +24,10 @@
 		stage: "WorktableJEI"
 	},
 	{
-		uid: "23662eda",
-		type: "item",
-		team_reward: false,
-		item: {
-			id: "quark:archaeologist_hat",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			Count: 1b
-		}
-	},
-	{
 		uid: "4b2842ea",
 		type: "item",
 		team_reward: false,
+		auto: "invisible",
 		item: "minecraft:bread",
 		count: 10
 	},
@@ -46,19 +35,13 @@
 		uid: "e803111a",
 		type: "item",
 		team_reward: false,
+		auto: "invisible",
 		item: "minecraft:torch"
 	},
 	{
 		uid: "904e7725",
 		type: "item",
-		item: {
-			id: "akashictome:tome",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
-			}
-		}
+		auto: "invisible",
+		item: "akashictome:tome"
 	}]
 }

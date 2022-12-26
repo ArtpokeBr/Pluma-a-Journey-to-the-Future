@@ -4,19 +4,22 @@
 	y: 0.5d,
 	description: "The Worktable!",
 	text: [
-		"You've probally already noticed, but you don't have acess to normal Crafting Tables Currently.",
+		"You've probally already noticed, but §cyou don't have acess to normal Crafting Tables Currently§f.",
 		"",
-		"- The Worktable has its own Durability",
+		"- §6The Worktable§f has its own §eDurability§f.",
 		"",
-		"- After laying down the Items for the Craft, you'll need to hit it with Pyrotechnic Hammers.",
+		"- After §alaying down the Items for the Craft§f, you'll need to §bhit it with Pyrotechnic Hammers§f.",
 		"",
-		"- The Hammers will get their durability consumed and you'll also get a little bit of hunguer.",
+		"- §6The Hammers§f will get their §edurability§f consumed and you'll also get a §3little bit of exhaustion§f.",
 		"",
-		"- Theres 3 Handy Item storage slots bellow it for Hammers!"
+		"- And theres §a3 Handy Item storage slots§f bellow it §3for Hammers§f!",
+		"",
+		"§8§o~ And here's a Secret Tip, you can sneak + click using a hammer to repeat the previous recipe layout.§r§f"
 	],
 	dependencies: [
 		"c3dc0ea8"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "393e9fbe",
 		type: "item",

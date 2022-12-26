@@ -4,17 +4,18 @@
 	y: -0.5d,
 	description: "Time to dry up Plant Fibers!",
 	text: [
-		"The Drying Rack will be essential for Dried Plant fibers and more crafts later on!",
+		"The §6Drying Rack§f will be essential for §eDried Plant fibers§f and §amore crafts§f later on!",
 		"",
-		"But before using it, here are some considerations:",
+		"But before using it, §2here are some considerations§f:",
 		"",
-		"- Its speed is dependant of the Humidity of your current biome",
+		"- Its §bSpeed is dependant of the Humidity§f of your current biome",
 		"",
-		"- This Device is SLOW, remember to make multiple of them"
+		"- §3§nThis Device is SLOW§r§f, remember to §dmake multiple§f of them"
 	],
 	dependencies: [
 		"3cb0f25f"
 	],
+	min_width: 250,
 	tasks: [{
 		uid: "1fa60816",
 		type: "item",

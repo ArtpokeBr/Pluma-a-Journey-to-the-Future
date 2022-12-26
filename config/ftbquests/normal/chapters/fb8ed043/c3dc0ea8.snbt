@@ -5,15 +5,16 @@
 	y: 0.5d,
 	description: "Time to make Planks and Slabs!",
 	text: [
-		"Yep, you've probally already noticed, but you cant make Planks directly on the Grid!",
+		"Yep, you've probally already noticed, but §cyou can't make Planks directly on the Grid§f!",
 		"",
-		"- Use your Chopping block to Make Planks and them make Slabs with them!",
+		"- Use your §6Chopping block§f to §3Make Planks§f and them §9make Slabs with them§f!",
 		"",
-		"~ Also, this is a Good oportunity to say that most of the Slabs on the Modpack cannot be made with bare hands."
+		"§8§o~ Also, this is a Good oportunity to say that most of the Slabs on the Modpack cannot be made with bare hands.§r§f"
 	],
 	dependencies: [
 		"54e4ab86"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "dbdc9f09",
 		type: "item",

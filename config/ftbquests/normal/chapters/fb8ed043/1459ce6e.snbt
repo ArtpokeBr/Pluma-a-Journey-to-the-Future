@@ -5,15 +5,16 @@
 	shape: "rsquare",
 	description: "The Early game way to store items!",
 	text: [
-		"Currently you don't have Treated Wood for Chests, but theres alternatives!",
+		"Currently you don't have §bTreated Wood for Chests§f, but §atheres alternatives§f!",
 		"",
-		"- Both the Shelf and the Crate have 9 Slots of Storage",
+		"- Both the §6Shelf and the Crate§f have §a9 Slots of Storage§f.",
 		"",
-		"- Each Slot can be filled with up to a Stack of that given Item."
+		"- §9Each Slot§f can be filled with up to a §dStack of that given Item§f."
 	],
 	dependencies: [
 		"c3dc0ea8"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "8bb63efd",
 		type: "item",

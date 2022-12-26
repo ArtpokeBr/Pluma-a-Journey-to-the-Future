@@ -182,3 +182,30 @@ saw.recipeBuilder()
     .duration(220)
     .EUt(32)
 .buildAndRegister();
+
+// Renaming Pyrotech's Hammers to make more Clear about their uses
+
+var PyrotechHammers as IItemStack[string] = {
+	"Crude" : <pyrotech:crude_hammer>,
+    "Stone" : <pyrotech:stone_hammer>,
+    "Bone"  : <pyrotech:bone_hammer>,
+    "Flint" : <pyrotech:flint_hammer>,
+    "Iron"  : <pyrotech:iron_hammer>,
+    "Gold"  : <pyrotech:gold_hammer>,
+    "Diamond" : <pyrotech:diamond_hammer>,
+    "Obsidian": <pyrotech:obsidian_hammer>
+};
+
+for name, hammer in PyrotechHammers {
+    hammer.displayName = " " ~ name ~ " Pyrotechnic Hammer";
+}
+
+var DurablePyrotechHammers as IItemStack[string] = {
+	"Bone"  : <pyrotech:bone_hammer_durable>,
+    "Flint" : <pyrotech:flint_hammer_durable>
+};
+for name, hammer in DurablePyrotechHammers {
+    hammer.displayName = " " ~ " Durable " ~ name ~ " Pyrotechnic Hammer";
+}
+
+// ========================================================= //

@@ -5,15 +5,16 @@
 	y: -0.5d,
 	description: "Wood, Fibers and Rocks on the Ground!",
 	text: [
-		"You'll need these for your first crafts.",
+		"You'll need these for your §afirst crafts§f.",
 		"",
-		"- Rocks can be found literally on the ground",
+		"- §3Rocks§f can be §bfound§f literally §bon the ground§f.",
 		"",
-		"- Fibers can be obtained by breaking most of the grasses also on the ground"
+		"- §2Plant Fibers§f can be obtained by §abreaking most of the grasses§f also on the ground"
 	],
 	dependencies: [
 		"26b332de"
 	],
+	min_width: 250,
 	tasks: [{
 		uid: "d8498c92",
 		type: "item",

@@ -4,13 +4,16 @@
 	y: -1.5d,
 	description: "The Simpliest ones that you can get!",
 	text: [
-		"Not much to say, they're very basic, but it is better than your bare hands!",
+		"Not much to say, they're §avery basic§f, but it is §dbetter than your bare hands§f!",
 		"",
-		"- Oh and you can't make a Sword currently! Watch out for Mobs!"
+		"- Oh and §cyou can't make a Sword currently§f! ",
+		"",
+		"§6§nWatch out for Mobs§r§f!"
 	],
 	dependencies: [
 		"3cb0f25f"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "4c16133a",
 		type: "item",

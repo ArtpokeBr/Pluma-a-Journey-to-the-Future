@@ -5,19 +5,22 @@
 	y: -1.5d,
 	description: "Looks kinda Different but it isn't that hard!",
 	text: [
-		"Ores in this Modpack are generate in Large Veins! Pherhaps you've already found some samples.",
+		"§6Ores§f in this Modpack are generate in §aLarge Veins§f! Pherhaps you've already found some §bsamples§f.",
 		"",
-		"- By finding Samples on the Surface you'll be able to determine wich vein is bellow it.",
+		"- By finding §bSamples on the Surface§f you'll be able to §9determine wich vein is bellow it§f.",
 		"",
-		"- Remember to Always consult  JEI for more info about any Ore Vein.",
+		"- Remember to §2Always consult JEI§f for more info about any §aOre Vein§f.",
 		"",
-		"- There are many types of ores, Ore Processing will be needed later on, but currently, just smelt them!",
+		"- There are many types of ores, §3Ore Processing will be needed later on§f, but currently, §ejust smelt them§f!",
 		"",
-		"- In this Particular Quest, Find at least a Vein that Contains Copper or Tin."
+		"- In this §dParticular Quest§f, try to obtain these §6Basic and Essential Ores§f.",
+		"",
+		"§8§o~ Also, due to technical limitations, only the \"Stone\" Standart versions of them are listed in this quest, try to find this ones in specific to complete it.§r§f"
 	],
 	dependencies: [
 		"9e590a0d"
 	],
+	min_width: 350,
 	tasks: [{
 		uid: "bc7f9791",
 		type: "item",
@@ -54,6 +57,35 @@
 		{
 			item: "gregtech:ore_cassiterite_0"
 		}]
+	},
+	{
+		uid: "e9c78cc7",
+		type: "item",
+		title: "Ores that you can Smelt into Iron",
+		items: [{
+			item: "gregtech:ore_banded_iron_0"
+		},
+		{
+			item: "gregtech:ore_basaltic_mineral_sand_0"
+		},
+		{
+			item: "gregtech:ore_magnetite_0"
+		},
+		{
+			item: "gregtech:ore_pyrite_0"
+		},
+		{
+			item: "gregtech:ore_brown_limonite_0"
+		},
+		{
+			item: "gregtech:ore_iron_0"
+		},
+		{
+			item: "gregtech:ore_yellow_limonite_0"
+		},
+		{
+			item: "gregtech:ore_granitic_mineral_sand_0"
+		}]
 	}],
 	rewards: [{
 		uid: "ef3ff186",
@@ -68,8 +100,10 @@
 		count: 24
 	},
 	{
-		uid: "a718c6db",
-		type: "ftbmoney:money",
-		ftb_money: 25L
+		uid: "efda90e5",
+		type: "item",
+		team_reward: true,
+		item: "minecraft:iron_ingot",
+		count: 16
 	}]
 }

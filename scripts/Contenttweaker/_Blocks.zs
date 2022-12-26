@@ -59,7 +59,7 @@ baykoks_bloodied_stone.setBlockSoundType(<soundtype:stone>);
 baykoks_bloodied_stone.register();
 
 var aluminium_gravel = VanillaFactory.createBlock("aluminiumgravel", <blockmaterial:rock>);
-aluminium_gravel.setBlockHardness(0.0);
+aluminium_gravel.setBlockHardness(5.0);
 aluminium_gravel.setBlockResistance(3.0);
 aluminium_gravel.setGravity(true);
 aluminium_gravel.setToolClass("shovel");

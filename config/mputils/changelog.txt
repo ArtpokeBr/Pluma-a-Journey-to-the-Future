@@ -1,27 +1,18 @@
-§a§lVersion Beta§r§f 1.2:
+§a§lVersion Beta§r§f 1.3:
 
 §b§lAdditions§r§f:
 
-- Spice of Life: Carrot Edition (Having a varied diet will now reward you!)
-- Ore Stages
-- FPS Reducer
-
 §c§lRemovals§r§f:
-
-- Hunguer Overhaul
-Basically was used to nerf Food Values and further expand the penaltys for not having a good diet.
-Since People decided to move away from that, a New Balanced Diet is being implemented.
 
 §2§lFixes§r§f:
 
-- Archaeologists from Quark should not generate anymore.
-- Pirate Ships from Quark should not generate anymore.
-- Fixed Incorrect Recipe for Limestone Rocks.
-- Disabled Auto Claim on Quests, this was causing some issues for certain players.
-- Correclty Hidden unintented BOP Ore Generation.
-- Disabled the Chance of Ores being generated in Crystal Caves
-- Disabled Fairy Rings from Quark.
+- Fixed Molten Infinity Texture.
+- Fixed Gold Ore being meltable in the Smeltery
+- Some Dusts and Essential Ores can now be smelted in the Kiln.
 
 §5§lMiscellaneous§r§f:
 
-- People voted on discord, now diminishin returns is disabled!
+- Renamed Pyrotech Hammer's to avoid confusion.
+- Improved the writing of some quests in the first chapter.
+- Added Recipes for Quark Crystal's.
+- Railcraft's Strengthened Glass can now be chiseled.

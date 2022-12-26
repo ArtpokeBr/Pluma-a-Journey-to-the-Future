@@ -5,13 +5,14 @@
 	shape: "rsquare",
 	description: "The Stash!",
 	text: [
-		"The Stash is an Early Game alternative to Drawers!",
+		"§6The Stash§f is an §aEarly Game alternative to Drawers§f!",
 		"",
-		"- They can store only 1 item, but up to 16 Stacks of that Item!"
+		"- They can store §donly 1 item§f, §3but up to 16 Stacks of it§f!"
 	],
 	dependencies: [
 		"c3dc0ea8"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "4523c5e3",
 		type: "item",

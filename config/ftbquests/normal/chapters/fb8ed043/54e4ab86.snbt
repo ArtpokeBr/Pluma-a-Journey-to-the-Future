@@ -4,21 +4,22 @@
 	y: 0.5d,
 	description: "A Chopping Block!",
 	text: [
-		"Simply use your Crude Axe with an log in the Crafting Grid and Voilá!",
+		"Simply use your §3Crude Axe§f with an §elog§f in the §6Crafting Grid§f and Voilá!",
 		"",
-		"But before using it, here are some considerations:",
+		"But before using it, §ahere are some considerations§f:",
 		"",
-		"- After using it, make sure to clean the Sawdust that will get generated",
+		"- After using it, §dmake sure to clean§f the §eSawdust§f that will get generated.",
 		"",
-		"- This Device has Durability",
+		"- This §6Device§f has §eDurability§f.",
 		"",
-		"- You Axe will loose durability when hiting this device",
+		"- You §3Axe§f will loose §9durability§f when hiting this device.",
 		"",
-		"- You'll get hunger when using this device"
+		"- You'll §5deacrese your hunger§f when using this device."
 	],
 	dependencies: [
 		"3cb0f25f"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "a8600a36",
 		type: "item",

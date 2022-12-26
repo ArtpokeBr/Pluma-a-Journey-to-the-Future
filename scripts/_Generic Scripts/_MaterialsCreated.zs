@@ -478,7 +478,7 @@ val polyenderlyne = MaterialBuilder(32054, "polyenderlyne")
     .build();
 
 val infinity_metal = MaterialBuilder(32055, "infinity_metal")
-    .ingot().fluid("fluid")
+    .ingot()
     .iconSet("infinity")
     .color(0xc1c4b7)
     .blastTemp(8700, "HIGHEST")
