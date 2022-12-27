@@ -70,8 +70,9 @@ var castsAndCasters as IItemStack[IIngredient] = {
     };
 for IItemStack, IIngredient in castsAndCasters {
         Casting.removeTableRecipe(IIngredient);
-        Casting.addTableRecipe(IIngredient, IItemStack, <liquid:alubrass>, 100, true, 100);
-        Casting.addTableRecipe(IIngredient, IItemStack, <liquid:brass>, 100, true, 100);
+        Casting.addTableRecipe(IIngredient, IItemStack, <liquid:alubrass>, 144, true, 100);
+        Casting.addTableRecipe(IIngredient, IItemStack, <liquid:brass>, 144, true, 100);
+        Casting.addTableRecipe(IIngredient, IItemStack, <liquid:gold>, 288, true, 200);
 }
 
 // Blank Cast specifically

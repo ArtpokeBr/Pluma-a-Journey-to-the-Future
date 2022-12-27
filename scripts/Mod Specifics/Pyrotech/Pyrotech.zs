@@ -209,3 +209,36 @@ for name, hammer in DurablePyrotechHammers {
 }
 
 // ========================================================= //
+
+# [Refractory Kiln] from [Stone Kiln][+2]
+recipes.removeByRecipeName("pyrotech:tech/machine/brick_kiln");
+craft.make(<pyrotech:brick_kiln>, ["pretty",
+  "□ R □",
+  "R S R",
+  "□ R □"], {
+  "□": <ore:plateIron>,       # Iron Plate
+  "R": <pyrotech:material:5>, # Refractory Brick
+  "S": <pyrotech:stone_kiln>, # Stone Kiln
+});
+
+# [Refractory Oven] from [Stone Oven][+2]
+recipes.removeByRecipeName("pyrotech:tech/machine/brick_oven");
+craft.make(<pyrotech:brick_oven>, ["pretty",
+  "□ R □",
+  "R S R",
+  "□ R □"], {
+  "□": <ore:plateIron>,       # Iron Plate
+  "R": <pyrotech:material:5>, # Refractory Brick
+  "S": <pyrotech:stone_oven>, # Stone Oven
+});
+
+# [Refractory Sawmill] from [Stone Sawmill][+2]
+recipes.removeByRecipeName("pyrotech:tech/machine/brick_sawmill");
+craft.make(<pyrotech:brick_sawmill>, ["pretty",
+  "□ R □",
+  "R S R",
+  "□ R □"], {
+  "□": <ore:plateIron>,          # Iron Plate
+  "R": <pyrotech:material:5>,    # Refractory Brick
+  "S": <pyrotech:stone_sawmill>, # Stone Sawmill
+});

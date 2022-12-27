@@ -19,6 +19,8 @@ import mods.thaumcraft.Infusion as Infusion;
 import thaumcraft.aspect.CTAspectStack;
 import mods.astralsorcery.StarlightInfusion;
 
+import mods.inworldcrafting.FireCrafting as FireCrafting;
+
 //Glod Crystal and Empowered Glod Crystal
 
 <ore:glodCrystal>.add(<contenttweaker:glod_crystal>);

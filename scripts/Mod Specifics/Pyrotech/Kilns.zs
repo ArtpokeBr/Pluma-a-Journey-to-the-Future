@@ -379,7 +379,34 @@ var SmeltableOres as IItemStack[IIngredient] = {
   <ore:oreBlackgraniteRedstone>.firstItem : <ore:dustRedstone>.firstItem*5,
   <ore:oreRedgraniteRedstone>.firstItem : <ore:dustRedstone>.firstItem*5,
   <ore:oreMarbleRedstone>.firstItem : <ore:dustRedstone>.firstItem*5,
-  <ore:oreBasaltRedstone>.firstItem : <ore:dustRedstone>.firstItem*5
+  <ore:oreBasaltRedstone>.firstItem : <ore:dustRedstone>.firstItem*5,
+
+  # ===== #
+
+  <ore:oreCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreRedSandCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreSandCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreGraniteCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreDioriteCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreAndesiteCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreBlackgraniteCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreRedgraniteCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreMarbleCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+  <ore:oreBasaltCoal>.firstItem : <ore:gemCoal>.firstItem*2,
+
+  # ===== #
+
+  <ore:oreGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreRedSandGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreSandGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreGraniteGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreDioriteGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreAndesiteGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreBlackgraniteGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreRedgraniteGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreMarbleGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+  <ore:oreBasaltGypsum>.firstItem : <ore:dustGypsum>.firstItem,
+
 };
 
 for ore, ingot in SmeltableOres {
@@ -388,7 +415,7 @@ for ore, ingot in SmeltableOres {
       ingot,                                                // recipe output
       ore,                                                  // recipe input
       1600,                                                // recipe duration in ticks
-      0.0,
+      0.10,
       [<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],
       true // true if the recipe should be inherited
     );
@@ -399,8 +426,8 @@ StoneKiln.addRecipe(
   <ore:ingotIron>.firstItem,
   <ore:dustIron>.firstItem,
   1600,
-  0.0,
-  [<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],
+  0.10,
+  [<ore:dustAsh>.firstItem * 2],
   true
 );
 
@@ -409,8 +436,8 @@ StoneKiln.addRecipe(
   <ore:ingotCopper>.firstItem,
   <ore:dustCopper>.firstItem,
   1600,
-  0.0,
-  [<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],
+  0.10,
+  [<ore:dustAsh>.firstItem * 2],
   true
 );
 
@@ -419,8 +446,8 @@ StoneKiln.addRecipe(
   <ore:ingotTin>.firstItem,
   <ore:dustTin>.firstItem,
   1600,
-  0.0,
-  [<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],
+  0.10,
+  [<ore:dustAsh>.firstItem * 2],
   true
 );
 
@@ -429,8 +456,8 @@ StoneKiln.addRecipe(
   <ore:ingotBronze>.firstItem,
   <ore:dustBronze>.firstItem,
   1600,
-  0.0,
-  [<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],
+  0.10,
+  [<ore:dustAsh>.firstItem * 2],
   true
 );
 
@@ -439,7 +466,47 @@ StoneKiln.addRecipe(
   <ore:ingotPreciousMetal>.firstItem,
   <ore:dustPreciousMetal>.firstItem,
   1600,
-  0.0,
-  [<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],
+  0.10,
+  [<ore:dustAsh>.firstItem * 2],
+  true
+);
+
+StoneKiln.addRecipe(
+  "KilnGoldNuggetFromPrecious", 
+  <ore:nuggetGold>.firstItem,
+  <ore:ingotPreciousMetal>.firstItem,
+  800,
+  0.10,
+  [<ore:dustAsh>.firstItem * 2],
+  true
+);
+
+StoneKiln.addRecipe(
+  "CeramicsFaucetSmelt", 
+  <ceramics:faucet>,
+  <ceramics:unfired_clay:6>,
+  1000,
+  0.33,
+  [<pyrotech:material:17> * 2, <ore:dustSmallQuartzSand>.firstItem * 1, <ore:dustTinyBone>.firstItem * 1],
+  true
+);
+
+StoneKiln.addRecipe(
+  "CeramicsChannelSmelt", 
+  <ceramics:channel>,
+  <ceramics:unfired_clay:7>,
+  1000,
+  0.33,
+  [<pyrotech:material:17> * 2, <ore:dustSmallQuartzSand>.firstItem * 1, <ore:dustTinyBone>.firstItem * 1],
+  true
+);
+
+StoneKiln.addRecipe(
+  "CeramicsPorcelainSmelt", 
+  <ceramics:porcelain>,
+  <ceramics:clay_soft>,
+  1000,
+  0.33,
+  [<pyrotech:material:17> * 2, <ore:dustSmallQuartzSand>.firstItem * 1, <ore:dustTinyBone>.firstItem * 1],
   true
 );

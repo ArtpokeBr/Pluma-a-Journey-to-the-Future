@@ -1,18 +1,23 @@
-§a§lVersion Beta§r§f 1.3:
+§a§lVersion Beta§r§f 1.4:
+
+- A Tiny Update, but an Important one!
 
 §b§lAdditions§r§f:
 
+- Carry On
+- Special Mobs
+- Roguelike Dungeons
+
 §c§lRemovals§r§f:
+
+- RoughMobsRevamped
 
 §2§lFixes§r§f:
 
-- Fixed Molten Infinity Texture.
-- Fixed Gold Ore being meltable in the Smeltery
-- Some Dusts and Essential Ores can now be smelted in the Kiln.
+- Gypsum and Coal can now be smelted in the Kiln.
+- Tinker's Casts can now be made with Gold aswell.
+- Ceramics Faucet, Channel and Porcelain Block can now be made in the Kiln.
 
 §5§lMiscellaneous§r§f:
 
-- Renamed Pyrotech Hammer's to avoid confusion.
-- Improved the writing of some quests in the first chapter.
-- Added Recipes for Quark Crystal's.
-- Railcraft's Strengthened Glass can now be chiseled.
+- Refractory Machines are now a little bit Cheaper.

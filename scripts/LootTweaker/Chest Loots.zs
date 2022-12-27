@@ -60,207 +60,207 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 // // Village Workshop (Railcraft)
 
-// 	clear_pool("railcraft:chests/village_workshop", "railcraft_resources");
-// 	clear_pool("railcraft:chests/village_workshop", "railcraft_carts");
-// 	clear_pool("railcraft:chests/village_workshop", "railcraft_tools");
-// 	clear_pool("railcraft:chests/village_workshop", "railcraft_tracks");
+	clear_pool("railcraft:chests/village_workshop", "railcraft_resources");
+	clear_pool("railcraft:chests/village_workshop", "railcraft_carts");
+	clear_pool("railcraft:chests/village_workshop", "railcraft_tools");
+	clear_pool("railcraft:chests/village_workshop", "railcraft_tracks");
 
-// 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_carts_custom", 1, 4, 1, 4);
-// 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_tracks_custom", 4, 8, 1, 2);
-// 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_foods_custom", 2, 6, 1, 2);
-// 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_tools_custom", 1, 4, 1, 3);
-// 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_resources_custom", 2, 6, 1, 2);
+	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_carts_custom", 1, 4, 1, 4);
+	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_tracks_custom", 4, 8, 1, 2);
+	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_foods_custom", 2, 6, 1, 2);
+	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_tools_custom", 1, 4, 1, 3);
+	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_resources_custom", 2, 6, 1, 2);
 
-// 	# Carts
-// 	addLootList(
-// 		"railcraft:chests/village_workshop", 
-// 		"railcraft_carts_custom", {
-// 		<minecraft:minecart>  					: 20,
-// 		<minecraft:tnt_minecart>    			: 10,
-// 		<railcraft:cart_tank> 					: 1,
-// 		<railcraft:cart_chest_void>  			: 1,
-// 		<railcraft:cart_jukebox>  				: 2,
-// 		<railcraft:cart_trade_station>  		: 5,
-// 	});
+	# Carts
+	addLootList(
+		"railcraft:chests/village_workshop", 
+		"railcraft_carts_custom", {
+		<minecraft:minecart>  					: 20,
+		<minecraft:tnt_minecart>    			: 10,
+		<railcraft:cart_tank> 					: 1,
+		<railcraft:cart_chest_void>  			: 1,
+		<railcraft:cart_jukebox>  				: 2,
+		<railcraft:cart_trade_station>  		: 5,
+	});
 
-// 	# Tracks
-// 	addLootList(
-// 		"railcraft:chests/village_workshop", 
-// 		"railcraft_tracks_custom", {
-// 		<tconstruct:wood_rail>       			: 45,
-// 		<railcraft:track_flex_abandoned>        : 40,
-// 		<minecraft:rail>         				: 50,
-// 		<railcraft:track_flex_strap_iron>       : 30,
-// 		<railcraft:track_parts>   				: 20,
-// 	});
+	# Tracks
+	addLootList(
+		"railcraft:chests/village_workshop", 
+		"railcraft_tracks_custom", {
+		<tconstruct:wood_rail>       			: 45,
+		<railcraft:track_flex_abandoned>        : 40,
+		<minecraft:rail>         				: 50,
+		<railcraft:track_flex_strap_iron>       : 30,
+		<railcraft:track_parts>   				: 20,
+	});
 
-// 	# Foods
-// 	addLootList(
-// 		"railcraft:chests/village_workshop", 
-// 		"railcraft_foods_custom", {
-// 		<harvestcraft:leafychickensandwichitem> : 40,
-// 		<harvestcraft:blueberryjuiceitem>  		: 40,
-// 		<harvestcraft:cheeseitem>  				: 40,
-// 		<harvestcraft:toastitem>  				: 40,
-// 		<harvestcraft:baconandeggsitem>  		: 40,
-// 		<harvestcraft:ploughmanslunchitem>  	: 20,
-// 		<harvestcraft:ricecakeitem>  			: 40,
-// 		<harvestcraft:fishdinneritem>  			: 40,
-// 		<harvestcraft:beansandriceitem>  		: 40,
-// 		<harvestcraft:blueberrypancakesitem>  	: 40,
-// 		<harvestcraft:omeletitem>  				: 40,
-// 		<harvestcraft:spagettiitem>  			: 40,
-// 		<harvestcraft:potroastitem>  			: 40,
-// 		<harvestcraft:lemonsmoothieitem>  		: 40,
-// 		<harvestcraft:eggplantparmitem>  		: 40,
-// 		<harvestcraft:lemonaideitem>  			: 40,
-// 		<harvestcraft:cucumbersaladitem>  		: 40,
-// 		<harvestcraft:pineapplehamitem>  		: 40,
-// 	});
+	# Foods
+	addLootList(
+		"railcraft:chests/village_workshop", 
+		"railcraft_foods_custom", {
+		<harvestcraft:leafychickensandwichitem> : 40,
+		<harvestcraft:blueberryjuiceitem>  		: 40,
+		<harvestcraft:cheeseitem>  				: 40,
+		<harvestcraft:toastitem>  				: 40,
+		<harvestcraft:baconandeggsitem>  		: 40,
+		<harvestcraft:ploughmanslunchitem>  	: 20,
+		<harvestcraft:ricecakeitem>  			: 40,
+		<harvestcraft:fishdinneritem>  			: 40,
+		<harvestcraft:beansandriceitem>  		: 40,
+		<harvestcraft:blueberrypancakesitem>  	: 40,
+		<harvestcraft:omeletitem>  				: 40,
+		<harvestcraft:spagettiitem>  			: 40,
+		<harvestcraft:potroastitem>  			: 40,
+		<harvestcraft:lemonsmoothieitem>  		: 40,
+		<harvestcraft:eggplantparmitem>  		: 40,
+		<harvestcraft:lemonaideitem>  			: 40,
+		<harvestcraft:cucumbersaladitem>  		: 40,
+		<harvestcraft:pineapplehamitem>  		: 40,
+	});
 
-// 	# Tools
-// 	addLootList(
-// 		"railcraft:chests/village_workshop", 
-// 		"railcraft_tools_custom", {
-// 		<railcraft:tool_crowbar_iron>  			: 25,
-// 		<railcraft:tool_crowbar_steel>  		: 10,
-// 		<railcraft:armor_goggles>  				: 30,
-// 		<railcraft:armor_overalls>  			: 30,
-// 		<railcraft:backpack_signalman_t1>  		: 4,
-// 		<railcraft:backpack_trackman_t1>  		: 4,
-// 		<railcraft:tool_whistle_tuner>  		: 6,
-// 		<railcraft:tool_spike_maul_iron>  		: 8,
-// 		<railcraft:tool_spike_maul_steel>  		: 4,
-// 		<railcraft:tool_charge_meter>  			: 10,
-// 		<railcraft:tool_magnifying_glass>  		: 15,
+	# Tools
+	addLootList(
+		"railcraft:chests/village_workshop", 
+		"railcraft_tools_custom", {
+		<railcraft:tool_crowbar_iron>  			: 25,
+		<railcraft:tool_crowbar_steel>  		: 10,
+		<railcraft:armor_goggles>  				: 30,
+		<railcraft:armor_overalls>  			: 30,
+		<railcraft:backpack_signalman_t1>  		: 4,
+		<railcraft:backpack_trackman_t1>  		: 4,
+		<railcraft:tool_whistle_tuner>  		: 6,
+		<railcraft:tool_spike_maul_iron>  		: 8,
+		<railcraft:tool_spike_maul_steel>  		: 4,
+		<railcraft:tool_charge_meter>  			: 10,
+		<railcraft:tool_magnifying_glass>  		: 15,
 
-// 		<railcraft:tool_sword_steel>  			: 2,
-// 		<railcraft:tool_shovel_steel>  			: 2,
-// 		<railcraft:tool_shears_steel>  			: 2,
-// 		<railcraft:tool_pickaxe_steel>  		: 2,
-// 		<railcraft:tool_hoe_steel>  			: 2,
-// 		<railcraft:tool_axe_steel>  			: 2,
-// 		<railcraft:armor_helmet_steel>  		: 2,
-// 		<railcraft:armor_chestplate_steel>  	: 2,
-// 		<railcraft:armor_leggings_steel>  		: 2,
-// 		<railcraft:armor_boots_steel>  			: 2,
+		<railcraft:tool_sword_steel>  			: 2,
+		<railcraft:tool_shovel_steel>  			: 2,
+		<railcraft:tool_shears_steel>  			: 2,
+		<railcraft:tool_pickaxe_steel>  		: 2,
+		<railcraft:tool_hoe_steel>  			: 2,
+		<railcraft:tool_axe_steel>  			: 2,
+		<railcraft:armor_helmet_steel>  		: 2,
+		<railcraft:armor_chestplate_steel>  	: 2,
+		<railcraft:armor_leggings_steel>  		: 2,
+		<railcraft:armor_boots_steel>  			: 2,
 
-// 		<railcraft:tool_signal_surveyor>  		: 5,
-// 		<railcraft:tool_signal_tuner>  			: 5,
-// 		<railcraft:signal_lamp>  				: 5,
-// 	});
+		<railcraft:tool_signal_surveyor>  		: 5,
+		<railcraft:tool_signal_tuner>  			: 5,
+		<railcraft:signal_lamp>  				: 5,
+	});
 
-// 	# Resources
-// 	addLootList(
-// 		"railcraft:chests/village_workshop", 
-// 		"railcraft_resources_custom", {
-// 		<railcraft:tie:1>  						: 25,
-// 		<railcraft:tie>  						: 25,
-// 		<railcraft:rail>  						: 10,
-// 		<railcraft:rail:2>  					: 10,
-// 		<railcraft:rail:1>  					: 10,
-// 		<railcraft:rail:5>  					: 10,
-// 		<railcraft:concrete>  					: 30,
-// 		<extrabees:propolis:7>  				: 30,
-// 		<ore:plateIron>.firstItem  				: 25,
-// 		<ore:plateSteel>.firstItem  			: 5,
-// 		<ore:plateWroughtIron>.firstItem  		: 15,
-// 		<railcraft:rebar>  						: 15,
-// 		<railcraft:charge:6>  					: 5,
-// 		<railcraft:charge:7>  					: 3,
-// 		<railcraft:charge:8>  					: 2,
-// 		<railcraft:charge:9>  					: 6,
-// 		<railcraft:charge:10>  					: 7,
-// 		<railcraft:charge:2>  					: 3,
-// 		<railcraft:charge:3>  					: 2,
-// 		<railcraft:charge:4>  					: 1,
-// 		<railcraft:glass>  						: 40,
-// 		<ore:itemSlag>.firstItem  				: 35,
-// 		<minecraft:coal>  						: 60,
-// 	});
+	# Resources
+	addLootList(
+		"railcraft:chests/village_workshop", 
+		"railcraft_resources_custom", {
+		<railcraft:tie:1>  						: 25,
+		<railcraft:tie>  						: 25,
+		<railcraft:rail>  						: 10,
+		<railcraft:rail:2>  					: 10,
+		<railcraft:rail:1>  					: 10,
+		<railcraft:rail:5>  					: 10,
+		<railcraft:concrete>  					: 30,
+		<extrabees:propolis:7>  				: 30,
+		<ore:plateIron>.firstItem  				: 25,
+		<ore:plateSteel>.firstItem  			: 5,
+		<ore:plateWroughtIron>.firstItem  		: 15,
+		<railcraft:rebar>  						: 15,
+		<railcraft:charge:6>  					: 5,
+		<railcraft:charge:7>  					: 3,
+		<railcraft:charge:8>  					: 2,
+		<railcraft:charge:9>  					: 6,
+		<railcraft:charge:10>  					: 7,
+		<railcraft:charge:2>  					: 3,
+		<railcraft:charge:3>  					: 2,
+		<railcraft:charge:4>  					: 1,
+		<railcraft:glass>  						: 40,
+		<ore:itemSlag>.firstItem  				: 35,
+		<minecraft:coal>  						: 60,
+	});
 
 // // Village Blacksmith (Vanilla)
 
-// 	clear_pool("minecraft:chests/village_blacksmith", "main");
-// 	clear_pool("minecraft:chests/village_blacksmith", "magichood");
-// 	clear_pool("minecraft:chests/village_blacksmith", "randomthings:biomeCrystal");
-// 	clear_pool("minecraft:chests/village_blacksmith", "botania_inject_pool");
-// 	clear_pool("railcraft:chests/village_blacksmith", "railcraft_general");
+	clear_pool("minecraft:chests/village_blacksmith", "main");
+	clear_pool("minecraft:chests/village_blacksmith", "magichood");
+	clear_pool("minecraft:chests/village_blacksmith", "randomthings:biomeCrystal");
+	clear_pool("minecraft:chests/village_blacksmith", "botania_inject_pool");
+	clear_pool("railcraft:chests/village_blacksmith", "railcraft_general");
 
-// 	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_foods_custom", 2, 6, 1, 2);
-// 	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_tools_custom", 1, 2, 0, 1);
-// 	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_resources_custom", 4, 10, 1, 2);
+	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_foods_custom", 2, 6, 1, 2);
+	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_tools_custom", 1, 2, 0, 1);
+	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_resources_custom", 4, 10, 1, 2);
 
-// 	# Resources
-// 	addLootList(
-// 		"minecraft:chests/village_blacksmith", 
-// 		"blacksmith_resources_custom", {
-// 		<quark:iron_plate>  										: 70,
-// 		<quark:iron_plate:1>  										: 70,
-// 		<twilightforest:iron_ladder>  								: 65,
-// 		<minecraft:iron_ingot>  									: 60,
-// 		<minecraft:iron_bars>  										: 50,
-// 		<ore:plateIron>.firstItem  									: 55,
-// 		<ore:ingotWroughIron>.firstItem  							: 30,
-// 		<ore:plateWroughIron>.firstItem  							: 32,
-// 		<minecraft:coal>  											: 65,
-// 		<ore:gemLigniteCoal>.firstItem  							: 70,
-// 		<ore:itemSlag>.firstItem		  							: 25,
-// 		<ore:itemSlagRich>.firstItem	  							: 15,
-// 		<ore:ringIron>.firstItem 									: 20,
-// 		<ore:screwIron>.firstItem 									: 15,
-// 		<ore:ringWroughIron>.firstItem 								: 15,
-// 		<ore:ingotPigIron>.firstItem  								: 5,
-// 		<ore:stickIron>.firstItem 									: 25,
-// 		<tconstruct:knife_blade>.withTag({Material: "iron"})  		: 10,
-// 		<tconstruct:pick_head>.withTag({Material: "iron"})  		: 8,
-// 		<tconstruct:axe_head>.withTag({Material: "iron"})  			: 7,
-// 		<tconstruct:shovel_head>.withTag({Material: "iron"})  		: 6,
-// 		<tconstruct:sword_blade>.withTag({Material: "iron"})  		: 5,
-// 		<ore:plateBronze>.firstItem  								: 80,
-// 		<ore:ringBronze>.firstItem  								: 75,
-// 		<ore:screwBronze>.firstItem  								: 77,
-// 		<ore:gearBronze>.firstItem  								: 74,
-// 	});
+	# Resources
+	addLootList(
+		"minecraft:chests/village_blacksmith", 
+		"blacksmith_resources_custom", {
+		<quark:iron_plate>  										: 70,
+		<quark:iron_plate:1>  										: 70,
+		<twilightforest:iron_ladder>  								: 65,
+		<minecraft:iron_ingot>  									: 60,
+		<minecraft:iron_bars>  										: 50,
+		<ore:plateIron>.firstItem  									: 55,
+		<ore:ingotWroughIron>.firstItem  							: 30,
+		<ore:plateWroughIron>.firstItem  							: 32,
+		<minecraft:coal>  											: 65,
+		<ore:gemLigniteCoal>.firstItem  							: 70,
+		<ore:itemSlag>.firstItem		  							: 25,
+		<ore:itemSlagRich>.firstItem	  							: 15,
+		<ore:ringIron>.firstItem 									: 20,
+		<ore:screwIron>.firstItem 									: 15,
+		<ore:ringWroughIron>.firstItem 								: 15,
+		<ore:ingotPigIron>.firstItem  								: 5,
+		<ore:stickIron>.firstItem 									: 25,
+		<tconstruct:knife_blade>.withTag({Material: "iron"})  		: 10,
+		<tconstruct:pick_head>.withTag({Material: "iron"})  		: 8,
+		<tconstruct:axe_head>.withTag({Material: "iron"})  			: 7,
+		<tconstruct:shovel_head>.withTag({Material: "iron"})  		: 6,
+		<tconstruct:sword_blade>.withTag({Material: "iron"})  		: 5,
+		<ore:plateBronze>.firstItem  								: 80,
+		<ore:ringBronze>.firstItem  								: 75,
+		<ore:screwBronze>.firstItem  								: 77,
+		<ore:gearBronze>.firstItem  								: 74,
+	});
 
-// 	# Tools
-// 	addLootList(
-// 		"minecraft:chests/village_blacksmith", 
-// 		"blacksmith_tools_custom", {
-// 		<pyrotech:flint_hammer_durable>  			: 60,
-// 		<pyrotech:iron_butchers_knife>  			: 50,
-// 		<pyrotech:iron_hunters_knife>  				: 50,
-// 		<pyrotech:sawmill_blade_iron>  				: 25,
-// 		<gregtech:meta_tool_head_hammer:51>  		: 30,
-// 		<microblockcbe:saw_iron>  					: 45,
-// 		<thermalfoundation:tool.sickle_iron>  		: 20,
-// 		<thermalfoundation:tool.shield_iron>  		: 15,
-// 		<actuallyadditions:iron_paxel>  			: 5,
-// 	});
+	# Tools
+	addLootList(
+		"minecraft:chests/village_blacksmith", 
+		"blacksmith_tools_custom", {
+		<pyrotech:flint_hammer_durable>  			: 60,
+		<pyrotech:iron_butchers_knife>  			: 50,
+		<pyrotech:iron_hunters_knife>  				: 50,
+		<pyrotech:sawmill_blade_iron>  				: 25,
+		<gregtech:meta_tool_head_hammer:51>  		: 30,
+		<microblockcbe:saw_iron>  					: 45,
+		<thermalfoundation:tool.sickle_iron>  		: 20,
+		<thermalfoundation:tool.shield_iron>  		: 15,
+		<actuallyadditions:iron_paxel>  			: 5,
+	});
 
-// 	# Foods
-// 	addLootList(
-// 		"minecraft:chests/village_blacksmith", 
-// 		"blacksmith_foods_custom", {
-// 		<harvestcraft:ploughmanslunchitem>  		: 20,
-// 		<harvestcraft:peanutbuttercookiesitem>  	: 40,
-// 		<harvestcraft:lemonchickenitem>  			: 40,
-// 		<harvestcraft:cucumbersaladitem>  			: 40,
-// 		<harvestcraft:cornonthecobitem>  			: 40,
-// 		<harvestcraft:fishandchipsitem>  			: 40,
-// 		<harvestcraft:friesitem>  					: 40,
-// 		<harvestcraft:cherrypieitem>  				: 40,
-// 		<harvestcraft:bakedbeetsitem>  				: 40,
-// 		<harvestcraft:summerradishsaladitem>  		: 40,
-// 		<harvestcraft:stuffedpepperitem>  			: 40,
-// 		<harvestcraft:grapesaladitem>  				: 40,
-// 		<harvestcraft:blackberryyogurtitem>  		: 40,
-// 		<harvestcraft:lemonjellysandwichitem>  		: 40,
-// 		<harvestcraft:strawberryjellysandwichitem>  : 40,
-// 		<harvestcraft:orangejellysandwichitem>  	: 40,
-// 		<harvestcraft:grapesodaitem>  				: 40,
-// 		<harvestcraft:honeylemonlambitem>  			: 40,
-// 	});
+	# Foods
+	addLootList(
+		"minecraft:chests/village_blacksmith", 
+		"blacksmith_foods_custom", {
+		<harvestcraft:ploughmanslunchitem>  		: 20,
+		<harvestcraft:peanutbuttercookiesitem>  	: 40,
+		<harvestcraft:lemonchickenitem>  			: 40,
+		<harvestcraft:cucumbersaladitem>  			: 40,
+		<harvestcraft:cornonthecobitem>  			: 40,
+		<harvestcraft:fishandchipsitem>  			: 40,
+		<harvestcraft:friesitem>  					: 40,
+		<harvestcraft:cherrypieitem>  				: 40,
+		<harvestcraft:bakedbeetsitem>  				: 40,
+		<harvestcraft:summerradishsaladitem>  		: 40,
+		<harvestcraft:stuffedpepperitem>  			: 40,
+		<harvestcraft:grapesaladitem>  				: 40,
+		<harvestcraft:blackberryyogurtitem>  		: 40,
+		<harvestcraft:lemonjellysandwichitem>  		: 40,
+		<harvestcraft:strawberryjellysandwichitem>  : 40,
+		<harvestcraft:orangejellysandwichitem>  	: 40,
+		<harvestcraft:grapesodaitem>  				: 40,
+		<harvestcraft:honeylemonlambitem>  			: 40,
+	});
 
 // Abandoned Mineshaft (Vanilla)
 
