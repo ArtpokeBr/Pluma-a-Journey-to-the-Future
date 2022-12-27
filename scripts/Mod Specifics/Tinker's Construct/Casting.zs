@@ -3,6 +3,7 @@ import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IIngredient;
+import mods.chisel.Carving;
 
 //mods.tconstruct.Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 
@@ -73,11 +74,15 @@ for IItemStack, IIngredient in castsAndCasters {
         Casting.addTableRecipe(IIngredient, IItemStack, <liquid:alubrass>, 144, true, 100);
         Casting.addTableRecipe(IIngredient, IItemStack, <liquid:brass>, 144, true, 100);
         Casting.addTableRecipe(IIngredient, IItemStack, <liquid:gold>, 288, true, 200);
+        mods.chisel.Carving.addVariation("tinkers_casts", IIngredient);
 }
 
 // Blank Cast specifically
 Casting.removeTableRecipe(<tconstruct:cast>);
 Casting.addTableRecipe(<tconstruct:cast>, null, <liquid:alubrass>, 144, false, 100);
+Casting.addTableRecipe(<tconstruct:cast>, null, <liquid:brass>, 144, false, 100);
+Casting.addTableRecipe(<tconstruct:cast>, null, <liquid:gold>, 288, false, 200);
+mods.chisel.Carving.addVariation("tinkers_casts", <tconstruct:cast>);
 
 //Clay Plate removal
 Casting.removeTableRecipe(<ceramics:unfired_clay:9>);

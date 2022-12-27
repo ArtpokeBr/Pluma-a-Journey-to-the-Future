@@ -3,5 +3,16 @@
 	icon: "minecraft:grass",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: "square"
+	default_quest_shape: "square",
+	images: [{
+		x: 7.5d,
+		y: -5.0d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/banner1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

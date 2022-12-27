@@ -96,3 +96,13 @@ chemical_bath.recipeBuilder()
     .duration(100)
     .EUt(120)
 .buildAndRegister();  
+
+// Treated Wood ========================
+
+SoakingPot.addRecipe(
+  "TreatedWood",             // unique recipe name
+  <ore:plankTreatedWood>.firstItem,       // recipe output
+  <liquid:creosote> * 125, // input fluid
+  <ore:plankWood>,   // input item
+  1600            // recipe duration in ticks
+);

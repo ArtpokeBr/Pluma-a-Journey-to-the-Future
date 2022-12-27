@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.RecipeMap;
 import moretweaker.railcraft.RockCrusher as RockCrusher;
+import mods.inworldcrafting.FluidToItem as FluidToItem;
 
 //Removing Creosote Bottle from Furnace
 furnace.remove(<railcraft:fluid_bottle_creosote>);
@@ -675,6 +676,8 @@ wiremill.recipeBuilder()
 
 // Creosote Wood Block
 recipes.remove(<railcraft:generic:5>);
+FluidToItem.transform(<railcraft:generic:5>, <liquid:creosote>, [<ore:logWood>], true);
+
 chemical_bath.recipeBuilder()
     .inputs([<ore:logWood>])
     .fluidInputs(<liquid:creosote> * 1000)

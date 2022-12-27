@@ -1,23 +1,9 @@
-§a§lVersion Beta§r§f 1.4:
-
-- A Tiny Update, but an Important one!
+§a§lVersion Beta§r§f 1.6:
 
 §b§lAdditions§r§f:
 
-- Carry On
-- Special Mobs
-- Roguelike Dungeons
-
 §c§lRemovals§r§f:
-
-- RoughMobsRevamped
 
 §2§lFixes§r§f:
 
-- Gypsum and Coal can now be smelted in the Kiln.
-- Tinker's Casts can now be made with Gold aswell.
-- Ceramics Faucet, Channel and Porcelain Block can now be made in the Kiln.
-
 §5§lMiscellaneous§r§f:
-
-- Refractory Machines are now a little bit Cheaper.

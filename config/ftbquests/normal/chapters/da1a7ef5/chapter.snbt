@@ -30,5 +30,16 @@
 		hover: [],
 		click: "",
 		dev: false
+	},
+	{
+		x: 8.5d,
+		y: -5.0d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/banner3.png",
+		hover: [],
+		click: "",
+		dev: false
 	}]
 }

@@ -17,7 +17,7 @@ recipes.addShaped(<minecraft:crafting_table> * 1, [[<ore:logWood>, <ore:plankTre
 
 assembler.recipeBuilder()
     .inputs(<ore:logWood>*4,<ore:plankTreatedWood>*4, <ore:gemFlint>)
-    .outputs(<minecraft:crafting_table> * 2)
+    .outputs(<minecraft:crafting_table>)
     .property("circuit", 8)
     .duration(200)
     .EUt(8)
@@ -31,7 +31,7 @@ recipes.addShaped(<minecraft:furnace> * 1, [[<contenttweaker:searedplate>, <ore:
 
 assembler.recipeBuilder()
     .inputs(<ore:compressed1xCobblestone>*4,<contenttweaker:searedplate>*4, <ore:gemFlint>)
-    .outputs(<minecraft:furnace> * 2)
+    .outputs(<minecraft:furnace>)
     .property("circuit", 8)
     .duration(200)
     .EUt(8)
@@ -45,7 +45,7 @@ recipes.addShaped(<minecraft:chest>, [[<ore:plankWood>, <ore:plankTreatedWood>, 
 
 assembler.recipeBuilder()
     .inputs(<ore:plankTreatedWood>*8, <ore:ringIron>)
-    .outputs(<minecraft:chest> * 2)
+    .outputs(<minecraft:chest>)
     .property("circuit", 8)
     .duration(200)
     .EUt(8)

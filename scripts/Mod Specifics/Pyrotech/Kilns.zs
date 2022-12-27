@@ -415,7 +415,7 @@ for ore, ingot in SmeltableOres {
       ingot,                                                // recipe output
       ore,                                                  // recipe input
       1600,                                                // recipe duration in ticks
-      0.10,
+      0.06,
       [<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],
       true // true if the recipe should be inherited
     );
@@ -426,7 +426,7 @@ StoneKiln.addRecipe(
   <ore:ingotIron>.firstItem,
   <ore:dustIron>.firstItem,
   1600,
-  0.10,
+  0.06,
   [<ore:dustAsh>.firstItem * 2],
   true
 );
@@ -436,7 +436,7 @@ StoneKiln.addRecipe(
   <ore:ingotCopper>.firstItem,
   <ore:dustCopper>.firstItem,
   1600,
-  0.10,
+  0.06,
   [<ore:dustAsh>.firstItem * 2],
   true
 );
@@ -446,7 +446,7 @@ StoneKiln.addRecipe(
   <ore:ingotTin>.firstItem,
   <ore:dustTin>.firstItem,
   1600,
-  0.10,
+  0.06,
   [<ore:dustAsh>.firstItem * 2],
   true
 );
@@ -456,7 +456,7 @@ StoneKiln.addRecipe(
   <ore:ingotBronze>.firstItem,
   <ore:dustBronze>.firstItem,
   1600,
-  0.10,
+  0.06,
   [<ore:dustAsh>.firstItem * 2],
   true
 );
@@ -466,7 +466,7 @@ StoneKiln.addRecipe(
   <ore:ingotPreciousMetal>.firstItem,
   <ore:dustPreciousMetal>.firstItem,
   1600,
-  0.10,
+  0.06,
   [<ore:dustAsh>.firstItem * 2],
   true
 );
@@ -476,7 +476,7 @@ StoneKiln.addRecipe(
   <ore:nuggetGold>.firstItem,
   <ore:ingotPreciousMetal>.firstItem,
   800,
-  0.10,
+  0.06,
   [<ore:dustAsh>.firstItem * 2],
   true
 );
@@ -486,7 +486,7 @@ StoneKiln.addRecipe(
   <ceramics:faucet>,
   <ceramics:unfired_clay:6>,
   1000,
-  0.33,
+  0.05,
   [<pyrotech:material:17> * 2, <ore:dustSmallQuartzSand>.firstItem * 1, <ore:dustTinyBone>.firstItem * 1],
   true
 );
@@ -496,7 +496,7 @@ StoneKiln.addRecipe(
   <ceramics:channel>,
   <ceramics:unfired_clay:7>,
   1000,
-  0.33,
+  0.05,
   [<pyrotech:material:17> * 2, <ore:dustSmallQuartzSand>.firstItem * 1, <ore:dustTinyBone>.firstItem * 1],
   true
 );
@@ -506,7 +506,7 @@ StoneKiln.addRecipe(
   <ceramics:porcelain>,
   <ceramics:clay_soft>,
   1000,
-  0.33,
+  0.05,
   [<pyrotech:material:17> * 2, <ore:dustSmallQuartzSand>.firstItem * 1, <ore:dustTinyBone>.firstItem * 1],
   true
 );

@@ -5,21 +5,20 @@
 	y: 0.5d,
 	description: "Time to start enhancing Coal and obtaining Creosote Oil!",
 	text: [
-		"The Coke Oven is a Hollow 3x3x3 Structure that will basically make Charcoal and Coke Coal.",
+		"The §6Coke Oven§f is a §aHollow 3x3x3 Structure§f that will basically make §3Charcoal and Coke Coal§f.",
 		"",
-		"- Place the Controller in front of the Structure",
+		"- Place the §dController§f in §5front of the Structure§f.",
 		"",
-		"- To Automate the output of Creosote Oil, place a Hatch in one of the sides.",
+		"- To §eAutomate§f the output of §6Creosote Oil§f, §bplace a Hatch in one of the sides§f.",
 		"",
-		"- This quest will give you some pipes and a tank, REMEMBER TO USE A WRENCH to connect both sides of the pipes.",
-		"",
-		"~ Remember again, GT pipes will require pumps, arms or conveyors in order to extract stuff. Don't worry, the Coke Oven Auto Extracts tho."
+		"§8§o~ Remember again, GT pipes will require pumps, arms or conveyors in order to extract stuff. But don't worry, the Coke Oven have Auto Output.§r§f"
 	],
 	dependencies: [
 		"bcca038f",
 		"a1a2f093"
 	],
 	size: 1.5d,
+	min_width: 300,
 	tasks: [{
 		uid: "f1ca7c49",
 		type: "item",
