@@ -585,3 +585,8 @@ makeFluidPlateIntegration (<ore:plateInfinityMetal>.firstItem, <liquid:infinity_
 makeFluidGearIntegration (<ore:gearInfinityMetal>.firstItem, <liquid:infinity_metal>);
 makeDustIntegration(<ore:ingotInfinityMetal>.firstItem, <ore:blockInfinityMetal>.firstItem, <ore:nuggetInfinityMetal>.firstItem, <ore:dustInfinityMetal>.firstItem);
 
+# Aluminum Brass
+makeBlockIntegration(<ore:ingotAlubrass>.firstItem, <ore:blockAlubrass>.firstItem, <liquid:alubrass>);
+makeFluidIngotIntegration(<ore:ingotAlubrass>.firstItem, <liquid:alubrass>);
+makeFluidNuggetIntegration(<ore:nuggetAlubrass>.firstItem, <liquid:alubrass>);
+

@@ -73,3 +73,22 @@ GraniteAnvil.addRecipe(
   true // true if the recipe should be inherited
 );
 
+//Seared Bricks =====================================================
+
+GraniteAnvil.addRecipe(
+  "SearedBricksSlabs",                // unique recipe name
+  <tconstruct:seared_slab:3>*2,          // recipe output
+  <tconstruct:seared:3>,          // recipe input
+  8,                   // base number of hammer hits required
+  "pickaxe",                // hammer | pickaxe
+  true // true if the recipe should be inherited
+);
+
+GraniteAnvil.addRecipe(
+  "SearedBricksItself",                // unique recipe name
+  <ore:ingotBrickSeared>.firstItem*2,          // recipe output
+  <tconstruct:seared_slab:3>,          // recipe input
+  4,                   // base number of hammer hits required
+  "pickaxe",                // hammer | pickaxe
+  true // true if the recipe should be inherited
+);

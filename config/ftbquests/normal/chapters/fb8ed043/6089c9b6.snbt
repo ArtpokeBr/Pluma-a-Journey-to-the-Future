@@ -4,15 +4,14 @@
 	y: 3.0d,
 	description: "Specially the Seared ones!",
 	text: [
-		"Now that you have a simple porcelain melter, you'll need some seared plates for further upgrades",
+		"Now, with your brand new §eAluminium Brass Casts§f, let's make some §aPlates§f!",
 		"",
-		"- With this Cast you can also cast other plates with it",
-		"",
-		"- You currently cannot make Alloy tools with this level of smeltery, but soon you'll be able to!"
+		"- §aMost importantly§f, make some §6Seared Plates§f."
 	],
 	dependencies: [
 		"81300c16"
 	],
+	min_width: 250,
 	tasks: [{
 		uid: "f6d3cac4",
 		type: "item",
@@ -25,7 +24,8 @@
 		type: "item",
 		items: [{
 			item: "contenttweaker:searedplate"
-		}]
+		}],
+		count: 4L
 	}],
 	rewards: [{
 		uid: "f159774a",

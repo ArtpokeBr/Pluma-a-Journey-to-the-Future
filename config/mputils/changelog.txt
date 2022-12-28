@@ -2,8 +2,18 @@
 
 §b§lAdditions§r§f:
 
+- Deep Mob Evolution
+
 §c§lRemovals§r§f:
+
+- Deep Mob Learning
+(swapped with a version that is active in Development and has more config options)
 
 §2§lFixes§r§f:
 
+- Reverted Previous Change about Gold being used for Casts (further explained how to obtain them using aluminium brass).
+- Seared Bricks can now be made in the Pyrotech Anvil.
+
 §5§lMiscellaneous§r§f:
+
+- Improved More quests, specially related to Tinker's Casts and Aluminium Brass.

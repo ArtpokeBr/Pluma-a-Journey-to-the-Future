@@ -1,23 +1,26 @@
 {
-	title: "Making Seared Bricks",
-	icon: "tconstruct:materials",
+	title: "Making Seared Stone",
+	icon: "tconstruct:seared",
 	x: 12.0d,
 	y: 2.5d,
 	description: "Kinda Different Process and Kinda Fun!",
 	text: [
-		"Seared Bricks/Stone can only be cast from a Smeltery.",
+		"§6Seared Bricks/Stone§f can only be cast from a Smeltery.",
 		"",
-		"- First make some Grount and Melt it into Liquid Seared Stone",
+		"- §aFirst§f make some §3Grout§f and Melt it into §9Liquid Seared Stone§f.",
 		"",
-		"- Cast it into Bricks on the Casting Table or Directly into Blocks in the Basin.",
+		"- §6Cast it§f Directly into §dBlocks§f in the Basin.",
 		"",
-		"- Each Grout will turn into 1 Seared Brick",
+		"- §a4 Grouts = 1 Seared Stone§f.",
 		"",
-		"- Remember that you can find Gypsum in a Mineral Sand Vein"
+		"- And to get specifically §6Seared Bricks§f, Use a §bChisel§f and them §2convert it§f back using an §3Pyrotech Anvil§f.",
+		"",
+		"§8§o~ Also don't forget that you can find Gypsum in a Mineral Sand Vein.§r§f"
 	],
 	dependencies: [
 		"8e82fb88"
 	],
+	min_width: 310,
 	tasks: [{
 		uid: "05f664ad",
 		type: "item",
@@ -27,29 +30,38 @@
 		count: 8L
 	},
 	{
-		uid: "d953eb34",
+		uid: "f9ecb8e8",
 		type: "item",
 		items: [{
-			item: "tconstruct:materials"
+			item: "tconstruct:seared"
 		}],
-		count: 8L
+		count: 2L
 	},
 	{
-		uid: "f9ecb8e8",
+		uid: "238ff1d6",
 		type: "item",
 		items: [{
 			item: "tconstruct:seared 1 3"
 		}],
 		count: 2L
-	}],
-	rewards: [{
-		uid: "0fdfb010",
-		type: "item",
-		item: "tconstruct:seared",
-		count: 16
 	},
 	{
-		uid: "b949a2e0",
+		uid: "d8e1e1a9",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "6211b44b",
+		type: "item",
+		item: "tconstruct:soil",
+		count: 4,
+		random_bonus: 12
+	},
+	{
+		uid: "2e5958e5",
 		type: "ftbmoney:money",
 		ftb_money: 25L
 	}]

@@ -478,6 +478,13 @@ extractor.recipeBuilder()
     .EUt(40)
 .buildAndRegister();
 
+extractor.recipeBuilder()
+    .inputs(<deepmoblearning:living_matter_twilight>)
+    .fluidOutputs(<liquid:xpjuice>*288)
+    .duration(100)
+    .EUt(40)
+.buildAndRegister();
+
 //Filing Stuff
 
 //XP Bottle

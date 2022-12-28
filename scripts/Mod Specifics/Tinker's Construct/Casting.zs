@@ -73,7 +73,7 @@ for IItemStack, IIngredient in castsAndCasters {
         Casting.removeTableRecipe(IIngredient);
         Casting.addTableRecipe(IIngredient, IItemStack, <liquid:alubrass>, 144, true, 100);
         Casting.addTableRecipe(IIngredient, IItemStack, <liquid:brass>, 144, true, 100);
-        Casting.addTableRecipe(IIngredient, IItemStack, <liquid:gold>, 288, true, 200);
+        // Casting.addTableRecipe(IIngredient, IItemStack, <liquid:gold>, 288, true, 200);
         mods.chisel.Carving.addVariation("tinkers_casts", IIngredient);
 }
 
@@ -81,8 +81,11 @@ for IItemStack, IIngredient in castsAndCasters {
 Casting.removeTableRecipe(<tconstruct:cast>);
 Casting.addTableRecipe(<tconstruct:cast>, null, <liquid:alubrass>, 144, false, 100);
 Casting.addTableRecipe(<tconstruct:cast>, null, <liquid:brass>, 144, false, 100);
-Casting.addTableRecipe(<tconstruct:cast>, null, <liquid:gold>, 288, false, 200);
+// Casting.addTableRecipe(<tconstruct:cast>, null, <liquid:gold>, 288, false, 200);
 mods.chisel.Carving.addVariation("tinkers_casts", <tconstruct:cast>);
 
 //Clay Plate removal
 Casting.removeTableRecipe(<ceramics:unfired_clay:9>);
+
+//Gear Cast Removal
+Casting.removeTableRecipe(<tconstruct:cast_custom:4>);

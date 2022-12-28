@@ -2,21 +2,30 @@
 	title: "Aluminium Already?",
 	x: 13.0d,
 	y: 3.0d,
-	description: "Obtaining Aluminium Gravel!",
+	description: "Lets make Aluminium Brass!",
 	text: [
-		"The Mission is Simple. Aluminium Brass requires Aluminium to craft.",
+		"§aThe Mission is Simple§f. Lets get §eAluminium Brass§f, An Alloy made out of §bAluminium§f and §6Copper§f.",
 		"",
-		"- Earch 3 Aluminium Gravel are equal to an Ingot of Aluminium Brass.",
+		"- Search in the World §8§o(most commom in plains biomes)§r§f for §3Gravel Concentrations§f in the surface, you'll find this §3gravel ore§f there.",
 		"",
-		"- 1 Aluminium Brass = 1 cast.",
+		"- §dThe Ratio§f is §b3 Aluminium§f and §61 Copper§f = §e4 Aluminium Brass§f.",
 		"",
-		"- And of course, you'll need Casts to use your future Smeltery.",
+		"- Also keep in mind, §33 Aluminium Gravel§f = §b1 Aluminium Ingot§f.",
 		"",
-		"~ Don't even try to obtain Aluminium Ingots this way, you'll not be able to do that ;p"
+		"- So for this quest, obtain §39 Aluminium Gravel§f and §cmelt them§f with §61 Copper Ore§f to get your §eAluminium Brass§f!",
+		"",
+		"- In order to §6Alloy them§f, please, §d§nuse a tank to store one of them separately first§r§f.",
+		"",
+		"- Place an §9Alloy Tank§f between your §cMelter§f and your §2Tank§f §8§o(that has one of the materials needed)§r§f and §5let the magic begin§f!",
+		"",
+		"- §9§ndon't forget to provide a heat source for the Alloy Tank aswell, use a Heater for that.§r§f",
+		"",
+		"- Then you can simply §6Cast§f your §eAluminum Brass§f out of it, §aCasts can be Chiseled§f so a §6Blank Aluminium Brass Cast§f will be enough!"
 	],
 	dependencies: [
 		"f7a19676"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "bd6fee9c",
 		type: "item",
@@ -24,6 +33,52 @@
 			item: "contenttweaker:aluminiumgravel"
 		}],
 		count: 9L
+	},
+	{
+		uid: "a36a6c8a",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreCopper"
+				}
+			}
+		}]
+	},
+	{
+		uid: "fb78b2f7",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_tank"
+		}]
+	},
+	{
+		uid: "7d5904a7",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_alloy_tank"
+		}]
+	},
+	{
+		uid: "eae879e5",
+		type: "item",
+		items: [{
+			item: "tcomplement:porcelain_melter 1 8"
+		}]
+	},
+	{
+		uid: "d16a4ac9",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast"
+		}]
 	}],
 	rewards: [{
 		uid: "38caaa5d",
@@ -43,6 +98,6 @@
 	{
 		uid: "d190fdf0",
 		type: "ftbmoney:money",
-		ftb_money: 25L
+		ftb_money: 50L
 	}]
 }

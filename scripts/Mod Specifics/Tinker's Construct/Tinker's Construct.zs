@@ -359,3 +359,23 @@ extractor.recipeBuilder()
 recipes.remove(<tconevo:material>);
 AlloySmelter.addRecipe(<tconevo:material>*2, [<ore:ingotManyullyn>, <ore:ingotTitanium>, <ore:ingotRedSteel>], 5000, 1.0);
 
+# [Porcelain Heater] from [Pit Kiln][+1]
+recipes.removeByRecipeName("tcomplement:melter/porcelain_heater");
+craft.make(<tcomplement:porcelain_melter:8>, ["pretty",
+  "  P  ",
+  "P P P",
+  "P i P"], {
+  "P": <ceramics:unfired_clay:5>, # Porcelain Brick
+  "i": <pyrotech:kiln_pit>,       # Pit Kiln
+});
+
+# [Seared Heater] from [Stone Kiln][+1]
+recipes.removeByRecipeName("tcomplement:melter/heater");
+craft.make(<tcomplement:melter:8>, ["pretty",
+  "  ▬  ",
+  "▬ ▬ ▬",
+  "▬ S ▬"], {
+  "▬": <ore:ingotBrickSeared>, # Seared Brick
+  "S": <pyrotech:stone_kiln>,  # Stone Kiln
+});
+
