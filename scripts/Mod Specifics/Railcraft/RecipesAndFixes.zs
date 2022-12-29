@@ -324,8 +324,8 @@ for i in Pearlized {
 
 # Crushed Obsidian
 macerator.recipeBuilder()
-    .inputs(<ore:obsidian>)
-    .outputs(<railcraft:generic:7>*4)
+    .inputs(<ore:compressed1xObsidian>)
+    .outputs(<railcraft:generic:7>*9)
     .duration(400)
     .EUt(8)
 .buildAndRegister();  

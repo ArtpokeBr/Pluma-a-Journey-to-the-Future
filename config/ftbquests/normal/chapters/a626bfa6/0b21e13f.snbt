@@ -1,0 +1,55 @@
+{
+	title: "The Process of Making Gems",
+	icon: "gregtech:machine 1 125",
+	x: -1.5d,
+	y: 8.5d,
+	description: "Let's set up an Autoclave!",
+	text: [
+		"In order to get most of the §aGems§f in the Pack, you'll need this handy machine, an §6Autoclave§f!",
+		"",
+		"- Simply provide an §3Dust§f, a §bFluid§f and Voilá! your desired §aGem§f at your disposal.",
+		"",
+		"- Also, keep in mind that §b§ndifferent Fluids have different efficiencies§r§f inside of this §6machine§f:",
+		"",
+		"► §9Water§f: §aThe Most basic of them§f, you're gonna be using this one.",
+		"",
+		"§8§o▪ 100 secs per recipe and 70% chance of results§r§f.",
+		"",
+		"► §3Distillied Water§f: §aBetter§f than §9Water§f, §abut not perfect §feither!",
+		"",
+		"§8§o▪ 50 secs per recipe and 90% chance of results§r§f.",
+		"",
+		"► §bStarlight§f: §aThe Best of them by far§f!",
+		"",
+		"§8§o▪ 5 secs per recipe and 100% chance of results§r§f."
+	],
+	dependencies: [
+		"de02f604"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "4461d91c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 125"
+		}]
+	},
+	{
+		uid: "d0149b39",
+		type: "item",
+		title: "Any Vanilla Gem",
+		items: [{
+			item: "minecraft:diamond"
+		},
+		{
+			item: "minecraft:emerald"
+		},
+		{
+			item: "minecraft:dye 1 4"
+		},
+		{
+			item: "minecraft:quartz"
+		}]
+	}]
+}

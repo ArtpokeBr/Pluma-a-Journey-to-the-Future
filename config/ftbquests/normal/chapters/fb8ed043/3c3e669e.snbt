@@ -1,7 +1,7 @@
 {
 	title: "Skilled Hands Required!",
-	x: 0.5d,
-	y: -2.5d,
+	x: 5.5d,
+	y: 1.5d,
 	description: "Killing Animal's Isn't the Answer you know?",
 	text: [
 		"§aPerhaps§f you've noticed this but... when you §ckill an Animal§f that would §2normally drop§f a piece of §cmeat§f, §5instead§f they §2drop§f a §6Carcass§f!",
@@ -17,7 +17,7 @@
 		"§8§o~ Also, by making a Butcher's Block, you'll be able to get even more Results! keep your eye on the next few quests to make it.§r§f"
 	],
 	dependencies: [
-		"a9967abd"
+		"31064c03"
 	],
 	min_width: 300,
 	tasks: [{

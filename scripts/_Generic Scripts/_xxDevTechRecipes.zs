@@ -32,6 +32,9 @@ val oreCrystal = OrePrefix.getPrefix("oreCrystal");
 val oreClump = OrePrefix.getPrefix("oreClump");
 val oreCluster = OrePrefix.getPrefix("oreCluster");
 
+val gem = OrePrefix.getPrefix("gem");
+val dust = OrePrefix.getPrefix("dust");
+
 // =================================
 
 // Light Plates
@@ -274,5 +277,38 @@ casing.generateRecipes(function(casing as OrePrefix, material as Material) {
         .EUt(45)
         .duration(75)
 .buildAndRegister();
+
+} as IOreRecipeHandler);
+
+// Gems being made in the "good way"
+
+gem.generateRecipes(function(gem as OrePrefix, material as Material) { 
+    // val Utils as IRecipeUtils = IRecipeUtils.Utils;
+
+    furnace.remove(Utils.item(gem, material));
+
+	<recipemap:autoclave>.recipeBuilder()
+    	.inputs(Utils.item("dust", material))
+    	.fluidInputs(<liquid:water> * 200)
+    	.chancedOutput(Utils.item(gem, material), 7000, 2700)
+    	.duration(2000)
+    	.EUt(24)
+    	.buildAndRegister();
+
+	<recipemap:autoclave>.recipeBuilder()
+    	.inputs(Utils.item("dust", material))
+    	.fluidInputs(<liquid:distilled_water> * 200)
+    	.chancedOutput(Utils.item(gem, material), 9000, 3000)
+    	.duration(1000)
+    	.EUt(24)
+    	.buildAndRegister();
+
+	<recipemap:autoclave>.recipeBuilder()
+    	.inputs(Utils.item("dust", material))
+    	.fluidInputs(<liquid:astralsorcery.liquidstarlight> * 25)
+    	.outputs(Utils.item(gem, material))
+    	.duration(100)
+    	.EUt(24)
+    .buildAndRegister();
 
 } as IOreRecipeHandler);

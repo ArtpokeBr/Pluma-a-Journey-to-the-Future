@@ -1,19 +1,27 @@
-§a§lVersion Beta§r§f 1.6:
+§a§lVersion Beta§r§f 1.7:
 
 §b§lAdditions§r§f:
 
-- Deep Mob Evolution
+- Updated GTCEU
+- Updated AE2 Extended Life
+- Updated Deep Mob Evolution
+
+- Farming for Blockheads
 
 §c§lRemovals§r§f:
 
-- Deep Mob Learning
-(swapped with a version that is active in Development and has more config options)
-
 §2§lFixes§r§f:
 
-- Reverted Previous Change about Gold being used for Casts (further explained how to obtain them using aluminium brass).
-- Seared Bricks can now be made in the Pyrotech Anvil.
+- Adjusted Hunter's Knife Recipe, Leather Strap --> Twine.
+- All Gem's can now be correctly made in the Autoclave.
+- The Gem Cast from Tinker's is now removed.
+- Vanilla Gem's can now be obtained using an Forge Hammer (Really inefficient, only for the Early Stages).
+- Fixed Obsidian Dust and Crushed Obsidian from Railcraft recipe overlap.
+- Adjusted Roots Knife Recipe, Hardened Leather --> Pressed Wax.
+- Since Osmiridium Alloying cannot be removed from the Smeltery, it cannot be solidified anymore.
 
 §5§lMiscellaneous§r§f:
 
-- Improved More quests, specially related to Tinker's Casts and Aluminium Brass.
+- The Carcass Quest in the First Chapter now has a correct dependency.
+- Tools don't drop "tiny fragments" anymore. (Unfortunatly Flint Tool's where bypassing this mechanic before)
+- The Farmer now has incresed his store, go check out his new items!

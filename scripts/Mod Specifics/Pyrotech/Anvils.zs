@@ -92,3 +92,14 @@ GraniteAnvil.addRecipe(
   "pickaxe",                // hammer | pickaxe
   true // true if the recipe should be inherited
 );
+
+//Obsidian ===========================================================
+
+GraniteAnvil.addRecipe(
+  "ObsidianShards",                // unique recipe name
+  <pyrotech:material:33>*9,          // recipe output
+  <ore:obsidian>,          // recipe input
+  12,                   // base number of hammer hits required
+  "pickaxe",                // hammer | pickaxe
+  true // true if the recipe should be inherited
+);

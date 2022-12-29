@@ -1082,5 +1082,10 @@ casing_shape.register();
 var mixed_metal = VanillaFactory.createItem("mixed_metal");
 mixed_metal.register();
 
+// Devil Dust
+
+var devil_dust = VanillaFactory.createItem("devil_dust");
+devil_dust.register();
+
 print("--------------- Custom Resources End ------------------");
 

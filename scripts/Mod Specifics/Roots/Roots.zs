@@ -71,35 +71,35 @@ blast_furnace.recipeBuilder()
 <mysticalworld:amethyst_knife>.displayName="Manyullyn Knife";
 
 recipes.remove(<mysticalworld:amethyst_knife>);
-recipes.addShaped(<mysticalworld:amethyst_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "manyullyn"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "manyullyn"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <harvestcraft:hardenedleatheritem>, null]]);
+recipes.addShaped(<mysticalworld:amethyst_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "manyullyn"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "manyullyn"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <ore:materialPressedwax>, null]]);
 
 // Copper Knife
 recipes.remove(<mysticalworld:copper_knife>);
-recipes.addShaped(<mysticalworld:copper_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "copper"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "copper"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <harvestcraft:hardenedleatheritem>, null]]);
+recipes.addShaped(<mysticalworld:copper_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "copper"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "copper"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <ore:materialPressedwax>, null]]);
 
 // Silver Knife
 recipes.remove(<mysticalworld:silver_knife>);
-recipes.addShaped(<mysticalworld:silver_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "silver"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "silver"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <harvestcraft:hardenedleatheritem>, null]]);
+recipes.addShaped(<mysticalworld:silver_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "silver"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "silver"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <ore:materialPressedwax>, null]]);
 
 // Wood Knife
 recipes.remove(<roots:wood_knife>);
-recipes.addShaped(<roots:wood_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "wood"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "wood"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <harvestcraft:hardenedleatheritem>, null]]);
+recipes.addShaped(<roots:wood_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "wood"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "wood"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <ore:materialPressedwax>, null]]);
 
 // Stone Knife
 recipes.remove(<roots:stone_knife>);
-recipes.addShaped(<roots:stone_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "stone"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "stone"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <harvestcraft:hardenedleatheritem>, null]]);
+recipes.addShaped(<roots:stone_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "stone"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "stone"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <ore:materialPressedwax>, null]]);
 
 // Iron Knife
 recipes.remove(<roots:iron_knife>);
-recipes.addShaped(<roots:iron_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "iron"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "iron"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <harvestcraft:hardenedleatheritem>, null]]);
+recipes.addShaped(<roots:iron_knife> * 1, [[null, null, <tconstruct:knife_blade>.withTag({Material: "iron"})], [<roots:wildroot>, <tconstruct:knife_blade>.withTag({Material: "iron"}), <natura:materials:7>],[<gregtech:meta_stick:1648>, <ore:materialPressedwax>, null]]);
 
 // Diamond Knife
 recipes.remove(<roots:diamond_knife>);
-recipes.addShaped(<roots:diamond_knife> * 1, [[null, null, <ore:plateDiamond>], [<roots:wildroot>, <ore:plateDiamond>, <natura:materials:7>],[<gregtech:meta_stick:1648>, <harvestcraft:hardenedleatheritem>, null]]);
+recipes.addShaped(<roots:diamond_knife> * 1, [[null, null, <ore:plateDiamond>], [<roots:wildroot>, <ore:plateDiamond>, <natura:materials:7>],[<gregtech:meta_stick:1648>, <ore:materialPressedwax>, null]]);
 
 // Gold Knife
 recipes.remove(<roots:gold_knife>);
-recipes.addShaped(<roots:gold_knife> * 1, [[null, null, <ore:plateGold>], [<roots:wildroot>, <ore:plateGold>, <natura:materials:7>],[<gregtech:meta_stick:1648>, <harvestcraft:hardenedleatheritem>, null]]);
+recipes.addShaped(<roots:gold_knife> * 1, [[null, null, <ore:plateGold>], [<roots:wildroot>, <ore:plateGold>, <natura:materials:7>],[<gregtech:meta_stick:1648>, <ore:materialPressedwax>, null]]);
 
 // Staff
 recipes.remove(<roots:staff:0>);

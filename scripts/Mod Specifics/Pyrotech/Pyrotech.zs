@@ -157,7 +157,7 @@ var Hunters as IItemStack[IIngredient] = {
 for IItemStack, IIngredient in Hunters {
 
         recipes.remove(IIngredient);
-        recipes.addShaped(IIngredient, [[null, IItemStack, IItemStack], [<ore:twine>, IItemStack, null],[<ore:stickWood>, <pyrotech:material:39>, null]]);
+        recipes.addShaped(IIngredient, [[null, IItemStack, IItemStack], [<ore:twine>, IItemStack, null],[<ore:stickWood>, <ore:twine>, null]]);
 
 }
 

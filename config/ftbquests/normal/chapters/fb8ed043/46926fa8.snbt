@@ -1,0 +1,32 @@
+{
+	title: "Want some Seeds?",
+	x: 18.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	description: "Pay up!",
+	text: [
+		"§6Farming for Blockheads§f offers a really usefull Block to have right now.",
+		"",
+		"- Place it to §asummon a merchant§f!",
+		"",
+		"- §bInside of its GUI§f you'll be able to buy almost any sappling or seed that you desire!",
+		"",
+		"§8§o~ Don't forget that you'll need Emeralds tho...§r§f"
+	],
+	dependencies: [
+		"58b68df5"
+	],
+	tasks: [{
+		uid: "51e02c24",
+		type: "item",
+		items: [{
+			item: "farmingforblockheads:market"
+		}]
+	}],
+	rewards: [{
+		uid: "364de549",
+		type: "item",
+		item: "minecraft:emerald",
+		random_bonus: 7
+	}]
+}

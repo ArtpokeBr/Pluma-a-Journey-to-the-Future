@@ -305,6 +305,7 @@ var ItensRemovidos as IItemStack[] = [
 //Tconstruct    
 <tconstruct:rack:1>.withEmptyTag(),
 <tconstruct:cast_custom:4>,
+<tconstruct:cast_custom:2>,
 <tcomplement:melter>,
 <tcomplement:storage>,
 <tconstruct:stone_stick>,
@@ -627,6 +628,9 @@ var ItensRemovidos as IItemStack[] = [
 <natura:blaze_rail_detector>,
 <natura:blaze_rail_activator>,
 <natura:blaze_rail_golden>,
+
+//Farming for Blockheads
+<farmingforblockheads:feeding_trough>,
 
 //ExtraUtils
 <extrautils2:machine>.withTag({Type: "extrautils2:furnace"}),

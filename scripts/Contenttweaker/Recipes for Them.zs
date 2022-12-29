@@ -897,3 +897,6 @@ chemical_bath.recipeBuilder()
     .duration(200)
     .EUt(4)
 .buildAndRegister();
+
+# [Devil's Dust]
+FireCrafting.addRecipe(<contenttweaker:devil_dust>, <contenttweaker:hellishflesh>, 160);

@@ -162,7 +162,7 @@ var ToolMaterials as IItemStack[string] = {
 	"refined_obsidian" : <ore:ingotRefinedObsidian>.firstItem,
 	"refined_glowstone" : <ore:ingotRefinedGlowstone>.firstItem,
 	"osgloglas" : <ore:ingotOsgloglas>.firstItem,
-	"osmiridium" : <ore:ingotOsmiridium>.firstItem,
+	// "osmiridium" : <ore:ingotOsmiridium>.firstItem,
 
 	"tar_slime": <fossil:tardrop>*4,
 	"ancient_metal": <ore:ingotAncientMetal>.firstItem,
@@ -380,7 +380,7 @@ var ToolMaterialsII as IItemStack[string] = {
 	"refined_obsidian" : <ore:ingotRefinedObsidian>.firstItem,
 	"refined_glowstone" : <ore:ingotRefinedGlowstone>.firstItem,
 	"osgloglas" : <ore:ingotOsgloglas>.firstItem,
-	"osmiridium" : <ore:ingotOsmiridium>.firstItem,
+	// "osmiridium" : <ore:ingotOsmiridium>.firstItem,
 
 	"tar_slime": <fossil:tardrop>*4,
 	"ancient_metal": <ore:ingotAncientMetal>.firstItem,
@@ -593,7 +593,7 @@ var ConarmMaterials as IItemStack[string] = {
 	"refined_obsidian" : <ore:ingotRefinedObsidian>.firstItem,
 	"refined_glowstone" : <ore:ingotRefinedGlowstone>.firstItem,
 	"osgloglas" : <ore:ingotOsgloglas>.firstItem,
-	"osmiridium" : <ore:ingotOsmiridium>.firstItem,
+	// "osmiridium" : <ore:ingotOsmiridium>.firstItem,
 
 	"tar_slime": <fossil:tardrop>*4,
 	"ancient_metal": <ore:ingotAncientMetal>.firstItem,

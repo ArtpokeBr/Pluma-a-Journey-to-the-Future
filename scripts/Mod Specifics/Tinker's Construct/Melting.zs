@@ -30,7 +30,7 @@ mods.tcomplement.Blacklist.removeRecipe(<ore:oreTitanium>.firstItem);
 
 //Fixing Gold
 mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <ore:oreGold>.firstItem);
-mods.tcomplement.Overrides.removeRecipe(<liquid:gold>, <ore:oregold>.firstItem);
+mods.tcomplement.Overrides.removeRecipe(<liquid:gold>, <ore:oreGold>.firstItem);
 mods.tcomplement.Blacklist.removeRecipe(<ore:oregold>.firstItem);
 
 mods.tcomplement.Overrides.addRecipe(<liquid:gold> * 16, <ore:ingotPreciousMetal>.firstItem);

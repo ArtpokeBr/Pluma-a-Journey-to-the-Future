@@ -65,7 +65,7 @@ var castsAndCasters as IItemStack[IIngredient] = {
     <tconstruct:hammer_head>.withTag({Material: "bronze"}): <tconstruct:cast>.withTag({PartType: "tconstruct:hammer_head"}),
     <gregtech:meta_ingot:260>: <tconstruct:cast_custom>, //Bronze Ingot
     <gregtech:meta_nugget:260>: <tconstruct:cast_custom:1>, //Bronze Nugget
-    <minecraft:emerald>: <tconstruct:cast_custom:2>,
+    //<minecraft:emerald>: <tconstruct:cast_custom:2>,
     <gregtech:meta_plate:260>: <tconstruct:cast_custom:3> //Bronze Plate
 
     };
@@ -89,3 +89,15 @@ Casting.removeTableRecipe(<ceramics:unfired_clay:9>);
 
 //Gear Cast Removal
 Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
+
+//Gem Cast Removal
+Casting.removeTableRecipe(<tconstruct:cast_custom:2>);
+
+Casting.removeTableRecipe(<minecraft:emerald>);
+Casting.removeBasinRecipe(<minecraft:emerald_block>);
+
+Casting.removeTableRecipe(<minecraft:coal>);
+Casting.removeBasinRecipe(<minecraft:coal_block>);
+
+Casting.removeTableRecipe(<minecraft:diamond>);
+Casting.removeBasinRecipe(<minecraft:diamond_block>);
