@@ -40,21 +40,68 @@ import mods.bloodmagic.AlchemyArray as AlchemyArray;
 // Vanilla Gems in the Alchemy Array
 
 var VanillaGems as IOreDictEntry[IOreDictEntry] = {
-	<ore:oreDiamond> : <ore:gemDiamond>,
-	<ore:oreEmerald> : <ore:gemEmerald>,
-	<ore:oreLapis> : <ore:gemLapis>,
-	<ore:oreCoal> : <ore:gemCoal>,
-	<ore:oreNetherQuartz> : <ore:gemNetherQuartz>
+    
+    <ore:oreDiamond> : <ore:gemDiamond>,
+    <ore:oreRedSandDiamond> : <ore:gemDiamond>,
+    <ore:oreSandDiamond> : <ore:gemDiamond>,
+    <ore:oreGraniteDiamond> : <ore:gemDiamond>,
+    <ore:oreDioriteDiamond> : <ore:gemDiamond>,
+    <ore:oreAndesiteDiamond> : <ore:gemDiamond>,
+    <ore:oreBlackgraniteDiamond> : <ore:gemDiamond>,
+    <ore:oreRedgraniteDiamond> : <ore:gemDiamond>,
+    <ore:oreMarbleDiamond> : <ore:gemDiamond>,
+    <ore:oreBasaltDiamond> : <ore:gemDiamond>,
+
+    <ore:oreEmerald> : <ore:gemEmerald>,
+    <ore:oreRedSandEmerald> : <ore:gemEmerald>,
+    <ore:oreSandEmerald> : <ore:gemEmerald>,
+    <ore:oreGraniteEmerald> : <ore:gemEmerald>,
+    <ore:oreDioriteEmerald> : <ore:gemEmerald>,
+    <ore:oreAndesiteEmerald> : <ore:gemEmerald>,
+    <ore:oreBlackgraniteEmerald> : <ore:gemEmerald>,
+    <ore:oreRedgraniteEmerald> : <ore:gemEmerald>,
+    <ore:oreMarbleEmerald> : <ore:gemEmerald>,
+    <ore:oreBasaltEmerald> : <ore:gemEmerald>,
+
+    <ore:oreLapis> : <ore:gemLapis>,
+    <ore:oreRedSandLapis> : <ore:gemLapis>,
+    <ore:oreSandLapis> : <ore:gemLapis>,
+    <ore:oreGraniteLapis> : <ore:gemLapis>,
+    <ore:oreDioriteLapis> : <ore:gemLapis>,
+    <ore:oreAndesiteLapis> : <ore:gemLapis>,
+    <ore:oreBlackgraniteLapis> : <ore:gemLapis>,
+    <ore:oreRedgraniteLapis> : <ore:gemLapis>,
+    <ore:oreMarbleLapis> : <ore:gemLapis>,
+    <ore:oreBasaltLapis> : <ore:gemLapis>,
+
+    <ore:oreCoal> : <ore:gemCoal>,
+    <ore:oreRedSandCoal> : <ore:gemCoal>,
+    <ore:oreSandCoal> : <ore:gemCoal>,
+    <ore:oreGraniteCoal> : <ore:gemCoal>,
+    <ore:oreDioriteCoal> : <ore:gemCoal>,
+    <ore:oreAndesiteCoal> : <ore:gemCoal>,
+    <ore:oreBlackgraniteCoal> : <ore:gemCoal>,
+    <ore:oreRedgraniteCoal> : <ore:gemCoal>,
+    <ore:oreMarbleCoal> : <ore:gemCoal>,
+    <ore:oreBasaltCoal> : <ore:gemCoal>,
+
+    <ore:oreNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreRedSandNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreSandNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreGraniteNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreDioriteNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreAndesiteNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreBlackgraniteNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreRedgraniteNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreMarbleNetherQuartz> : <ore:gemNetherQuartz>,
+    <ore:oreBasaltNetherQuartz> : <ore:gemNetherQuartz>,
+
 };
 
 for ore, gem in VanillaGems {
 
-	hammer.recipeBuilder()
-    	.inputs(ore.firstItem)
-    	.chancedOutput(gem.firstItem*2, 5000, 150)
-    	.duration(2000)
-    	.EUt(4)
-    .buildAndRegister();
+    furnace.addRecipe(gem.firstItem, ore.firstItem);
+
 }
 
 
