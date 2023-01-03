@@ -5,8 +5,7 @@ import scripts.craft.helper.characterManager.CharacterManager;
 import scripts.craft.helper.styler.styler;
 #priority 3
 
-#loader crafttweaker reloadableevents
-
+#loader crafttweaker reloadable
 
 zenClass GridBuilder {
   var grid2d as IIngredient[][] = [];

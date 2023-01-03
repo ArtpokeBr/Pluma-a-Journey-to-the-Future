@@ -1,7 +1,7 @@
 # Vanilla template priority should be always lower then any other
 #priority 4
 
-#loader crafttweaker reloadableevents
+#loader crafttweaker reloadable
 
 import crafttweaker.item.IItemStack;
 import scripts.craft.grid.Grid;
@@ -51,6 +51,6 @@ val fnc as function(IItemStack,Grid,string[])string = function(output as IItemSt
     ~ "(" ~ serializeTableRecipe(style, output_s, grid) ~ ");";
 };
 
-// We forced to define function before calling template()
-// because in other case only first call of template() would added
-styler.template(fnc);
+// We forced to define function before calling registerTemplate()
+// because in other case only first call of registerTemplate() would added
+styler.registerTemplate(fnc);

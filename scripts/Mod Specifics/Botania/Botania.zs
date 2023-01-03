@@ -13,6 +13,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.embers.Alchemy as Alchemy;
 import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationRecipe;
+import mods.thaumcraft.ArcaneWorkbench;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -374,17 +375,42 @@ Fey.addRecipe("bubbell", <botania:specialflower>.withTag({type: "bubbell"}), [<c
 recipes.remove(<botania:altar>);
 Alchemy.add(<botania:altar>, [<contenttweaker:heart_of_the_magical_woods>,<twilightforest:deadrock>,<ore:petalGray>,<twilightforest:deadrock>,<twilightforest:deadrock>], {"dawnstone":8 to 16, "silver":8 to 16, "copper": 8 to 16});
 
-// Mana Spreader
+# [Mana Spreader] from [Honey-Steel Spring][+7]
 recipes.remove(<botania:spreader:0>);
-recipes.addShaped(<botania:spreader:0> * 1, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<botania:petalblock:5>, <ore:springHoneySteel>, <ore:ringRoseGold>],[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "botania:spreader", # Name
+  "FIRSTSTEPS@2", # Research
+  15, # Vis cost
+  [<aspect:ignis> * 10, <aspect:perditio> * 5, <aspect:aer> * 15],
+  <botania:spreader>, # Output
+  Grid(["pretty",
+  "l l l",
+  "■ H R",
+  "l l l"], {
+  "l": <ore:livingwood>,       # Livingwood
+  "■": <botania:petalblock:5>, # Lime Petal Block
+  "H": <ore:springHoneySteel>, # Honey-Steel Spring
+  "R": <ore:ringRoseGold>,     # Rose Gold Ring
+}).shaped());
 
 // Pulse Mana Spreader
 recipes.remove(<botania:spreader:1>);
 recipes.addShaped(<botania:spreader:1> * 1, [[<ore:plateRedAlloy>, <ore:ingotRedstoneAlloy>, <ore:plateRedAlloy>], [<ore:ingotRedstoneAlloy>, <botania:spreader:0>, <ore:ingotRedstoneAlloy>],[<ore:plateRedAlloy>, <ore:ingotRedstoneAlloy>, <ore:plateRedAlloy>]]);
 
-// Diluted Mana Pool
+# [Diluted Mana Pool] from [Adhesive][+5]
 recipes.remove(<botania:pool:2>);
-recipes.addShaped(<botania:pool:2> * 1, [[null, null, null], [<ore:livingrock>, <embers:adhesive>, <ore:livingrock>],[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "botania:pool", # Name
+  "FIRSTSTEPS@2", # Research
+  25, # Vis cost
+  [<aspect:aqua> * 10, <aspect:terra> * 5, <aspect:ordo> * 5],
+  <botania:pool:2>, # Output
+  Grid(["pretty",
+  "l A l",
+  "l l l"], {
+  "l": <ore:livingrock>,  # Livingrock
+  "A": <embers:adhesive>, # Adhesive
+}).shaped());
 
 // Mana Pool
 recipes.remove(<botania:pool:0>);
@@ -440,9 +466,23 @@ ElvenTrade.addRecipe([<ore:ingotElementium>.firstItem], [<ore:ingotManasteel>,<o
 ElvenTrade.removeRecipe(<botania:storage:2>);
 ElvenTrade.addRecipe([<ore:blockElementium>.firstItem], [<ore:blockManasteel>,<ore:blockManasteel>]);
 
-// Runic Altar
+# [Runic Altar] from [Mana Diamond][+7]
 recipes.remove(<botania:runealtar>);
-recipes.addShaped(<botania:runealtar> * 1, [[<botania:manabottle>, <ore:manaDiamond>, <botania:manabottle>], [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>],[<ore:livingrock>, <ore:frameGtManasteel>, <ore:livingrock>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "botania:runealtar", # Name
+  "FIRSTSTEPS@2", # Research
+  30, # Vis cost
+  [<aspect:aqua> * 15, <aspect:ordo> * 10, <aspect:aer> * 5],
+  <botania:runealtar>, # Output
+  Grid(["pretty",
+  "M D M",
+  "l l l",
+  "l ◙ l"], {
+  "M": <botania:manabottle>.anyDamage(), # Mana in a Bottle
+  "D": <ore:manaDiamond>,                # Mana Diamond
+  "l": <ore:livingrock>,                 # Livingrock
+  "◙": <ore:frameGtManasteel>,           # Manasteel Frame Box
+}).shaped());
 
 // Terrestrial Agglomeration Plate
 recipes.remove(<botania:terraplate>);

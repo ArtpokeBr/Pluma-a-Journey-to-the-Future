@@ -1,0 +1,50 @@
+{
+	title: "Producing Silicone Rubber §6Part II§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "dimethyldichlorosilane",
+			Amount: 1000
+		}
+	},
+	x: 0.0d,
+	y: -13.0d,
+	description: "Let's make Dimethyldichlorosilane!",
+	text: [
+		"Just like before, let's make another Chemical!",
+		"",
+		"- Simply §6Chemically React§f §dChloromethane§f and a §3Silicon Dust§f. ",
+		"§7§o(12s, MV Recipe, 2 buckets of Chloromethane and 1 Silicon Dust)§r§f",
+		"",
+		"§8§o~ Not even the PackDev knows how to pronounce this!§r§f"
+	],
+	dependencies: [
+		"2dd127b8"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a2d13825",
+		type: "fluid",
+		fluid: "dimethyldichlorosilane"
+	}],
+	rewards: [{
+		uid: "dbbc035a",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "dimethyldichlorosilane",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "d6a3558c",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

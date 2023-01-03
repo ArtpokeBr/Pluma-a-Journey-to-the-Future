@@ -1087,5 +1087,22 @@ mixed_metal.register();
 var devil_dust = VanillaFactory.createItem("devil_dust");
 devil_dust.register();
 
+// Maligne Heart
+
+var maligne_heart = VanillaFactory.createItem("maligne_heart");
+maligne_heart.rarity = "EPIC";
+maligne_heart.glowing = true;
+maligne_heart.register();
+
+// Baykok's Essence
+
+var baykoks_essence = VanillaFactory.createItem("baykoks_essence");
+baykoks_essence.register();
+
+var fiery_baykoks_essence = VanillaFactory.createItem("fiery_baykoks_essence");
+fiery_baykoks_essence.rarity = "RARE";
+fiery_baykoks_essence.glowing = true;
+fiery_baykoks_essence.register();
+
 print("--------------- Custom Resources End ------------------");
 

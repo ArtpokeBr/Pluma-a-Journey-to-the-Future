@@ -1,5 +1,6 @@
 {
 	title: "A Mana Extrapolator!",
+	icon: "mbd:mana_extrapolator",
 	x: -1.0d,
 	y: -7.0d,
 	description: "Time to Convert Mana!",

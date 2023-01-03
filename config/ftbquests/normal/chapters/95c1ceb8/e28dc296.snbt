@@ -1,7 +1,7 @@
 {
 	title: "A Special Type of Crystal",
 	icon: "contenttweaker:sooty_energetic_compound",
-	x: 7.0d,
+	x: 9.0d,
 	y: -9.0d,
 	description: "A Sooty Energetic Compound",
 	text: [

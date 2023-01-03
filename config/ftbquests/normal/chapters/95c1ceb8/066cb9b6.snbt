@@ -1,0 +1,31 @@
+{
+	title: "Maintenance Problems?",
+	x: 7.0d,
+	y: -9.0d,
+	shape: "rsquare",
+	description: "Not a Big Deal anymore!",
+	text: [
+		"§6This Maintenance hatch§f is a §dreal improvement§f to your §9Standart ones§f.",
+		"",
+		"- Once placed in a §2Mutliblock§f, it §e§ndoesn't start with \"maintenance needs\"§r§f anymore.",
+		"",
+		"- And you can have a §bfine control§f over your §8Duct Tape§f usage."
+	],
+	dependencies: [
+		"4a71e386"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "864c3f25",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1655"
+		}]
+	}],
+	rewards: [{
+		uid: "20cbf453",
+		type: "item",
+		item: "gregtech:meta_item_1 1 502",
+		random_bonus: 1
+	}]
+}

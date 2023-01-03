@@ -1,12 +1,14 @@
 #priority 5
 
-#loader crafttweaker reloadableevents
+#loader crafttweaker reloadable
 
 #modloaded thaumcraft
 
 import crafttweaker.item.IItemStack;
 import scripts.craft.helper.styler.styler;
 import scripts.craft.grid.Grid;
+import scripts.craft.helper.template.com.extractItem;
+import scripts.craft.helper.template.com.extractByTag;
 
 val fnc as function(IItemStack,Grid,string[])string = function(output as IItemStack, grid as Grid, style as string[]) as string {
   if(!(
@@ -52,7 +54,7 @@ val fnc as function(IItemStack,Grid,string[])string = function(output as IItemSt
     ~ "(" ~ block ~ ");";
 };
 
-styler.template(fnc);
+styler.registerTemplate(fnc);
 
 
 function serializeTCInfusion(style as string[], output_s as string, grid as Grid) as string {
@@ -62,10 +64,10 @@ function serializeTCInfusion(style as string[], output_s as string, grid as Grid
       '  "'~getThaumRecipeName(output_s)~'", # Name\n'~
       '  "INFUSION", # Research\n'~
       '  '~output_s~', # Output\n'~
-      '  '~grid.extractItem('thaumcraft:taint_fibre', 3)~', # Instability\n'~
+      '  '~extractItem(grid, 'thaumcraft:taint_fibre', 3)~', # Instability\n'~
       '  '~extractGridAspects(grid)~',\n'~
       '  '~serialize.IIngredient(centralItem) ~ ', # Central Item\n'~
-      '  scripts.craft.grid.Grid('~grid.trim().toString(style)~').spiral(1)';
+      '  Grid('~grid.trim().toString(style)~').spiral(1)';
 }
 
 function serializeTCWorkbench(style as string[], output_s as string, grid as Grid) as string {
@@ -81,11 +83,11 @@ function serializeTCWorkbench(style as string[], output_s as string, grid as Gri
   }
   return  '\n'~
       '  "'~getThaumRecipeName(output_s)~'", # Name\n'~
-      '  "TWOND_BASE", # Research\n'~
+      '  "FIRSTSTEPS@2", # Research\n'~
       '  '~visCost~', # Vis cost\n'~
       '  '~aspects~',\n'~
       '  '~output_s~', # Output\n'~
-      '  scripts.craft.grid.Grid('~grid.trim().toString(style)~').'~
+      '  Grid('~grid.trim().toString(style)~').'~
       (style has 'shapeless' ? 'shapeless' : 'shaped')
       ~'()';
 }
@@ -108,9 +110,16 @@ function getThaumRecipeName(output_s as string) as string {
 }
 
 function extractGridAspects(grid as Grid) as string {
-  return grid.extractByTagSerialize('Aspects[0].key', 'Aspects[0].amount',
-    function(aspectName as string, amount as int) as string {
-      return '<aspect:'~aspectName~'>' ~ (amount>1 ? " * " ~ amount : "");
-    }
-  );
+  val aspects = extractByTag(grid, 'Aspects[0].key', 'Aspects[0].amount');
+  var result = '[';
+  for i, str in aspects.split(' ') {
+    val splitted = str.split(':');
+    if (splitted.length < 2) continue;
+    val name = splitted[0];
+    val amount = splitted[1] as int;
+    result += '<aspect:'~name~'>'
+      ~ (amount>1 ? " * " ~ amount : "")
+      ~ (i==0?'':', ');
+  }
+  return result~']';
 }

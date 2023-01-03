@@ -1,0 +1,58 @@
+{
+	title: "Nano CPU Wafers!",
+	icon: "gregtech:meta_item_1 1 594",
+	x: 6.0d,
+	y: -2.0d,
+	description: "A Much more advanced type of Wafer",
+	text: [
+		"Now that we are working at §bEV Level§f, it is time to further expand our §6HV Infrastructure§f.",
+		"",
+		"- By §2automating§f this §eWafer§f, soon enough you'll be able to finally §dfully automate§f the §bBest HV Circuit§f.",
+		"",
+		"- Use your §bCleanroom§f and some §eGlowstone Doped Wafer's§f and voilá!"
+	],
+	dependencies: [
+		"c1d80354"
+	],
+	tasks: [{
+		uid: "2cefacbd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 372"
+		}]
+	},
+	{
+		uid: "c82581d5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 566"
+		}],
+		count: 4L
+	},
+	{
+		uid: "5a8911ff",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 569"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3426fead",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 594"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "0563f020",
+		type: "item",
+		item: "gregtech:meta_item_1 1 362"
+	},
+	{
+		uid: "ccce10b0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

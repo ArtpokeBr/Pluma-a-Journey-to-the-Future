@@ -9,7 +9,7 @@ using string styles
 
 #priority 6
 
-#loader crafttweaker reloadableevents
+#loader crafttweaker reloadable
 
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
@@ -51,7 +51,7 @@ zenClass Styler {
     catalysts[itemId] = !isNull(styleKey) ? styleKey : itemId;
   }
 
-  function template(fnc as function(IItemStack,Grid,string[])string) as void {
+  function registerTemplate(fnc as function(IItemStack,Grid,string[])string) as void {
     val l = LinkedList(fnc);
     if (isNull(firstTemplate)) {
       firstTemplate = l;

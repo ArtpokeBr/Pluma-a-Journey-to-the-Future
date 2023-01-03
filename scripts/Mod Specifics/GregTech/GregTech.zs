@@ -517,3 +517,15 @@ compressor.recipeBuilder()
     .duration(400)
     .EUt(800)
 .buildAndRegister();
+
+# [Red Alloy Dust] from [Copper Dust][+1]
+craft.reshapeless(<gregtech:meta_dust:2517>, "▲♥♥♥♥", {
+  "▲": <ore:dustCopper>,   # Copper Dust
+  "♥": <ore:dustRedstone>, # Redstone
+});
+
+# [Wood Pulp] by Hand
+craft.reshapeless(<ore:dustWood>.firstItem * 6, "T#", {
+  "T": <ore:gtceMortars>, # Mortar
+  "#": <ore:logWood>,     # Oak Wood
+});

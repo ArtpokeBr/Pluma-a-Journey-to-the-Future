@@ -1,6 +1,6 @@
 {
-	title: "Chapter 11: A Thaumic Journey",
-	icon: "thaumcraft:nitor_yellow",
+	title: "Chapter 9: A Thaumic Journey",
+	icon: "thaumcraft:enchanted_placeholder",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,17 +1,60 @@
-§a§lVersion Beta§r§f 1.7.1:
-
-A Hotfix Update
+§a§lVersion Beta§r§f 1.8:
 
 §b§lAdditions§r§f:
 
-- Updated Deep Mob Evolution
+- Updated Deep Mob Evolution.
+
+- Updated Xaeros WorldMap and Minimap.
+
+- Updated Universal Tweaks.
+
+- Updated Craft.zs Scripts.
 
 §c§lRemovals§r§f:
 
+- Drawer FPS (universaltweaks doest that now).
+
+- ShutUpModelLoader (universaltweaks doest that now).
+
 §2§lFixes§r§f:
 
-- Fixed issue with the previous update with Gem's in the Forge Hammer.
+- Fixed Typo and Improved Texts in the "Blast Furnace" Quest.
+
+- Glass Shards can now be correctly converted into Normal Glass.
+
+- Red Alloy Dust can now be done by hand.
+
+- "Time to hunt Ghasts" quest doesn't require you to kill Ghast's anymore. (only obtain their drops)
+
+- "Flesh and Blood" quest doesn't require you to kill Pigmans and Imps anymore. (only obtain their drops)
+
+- The Pyre recipe now correctly requires a Heart of the Woods.
+
+- Fixed incorrect reward in the shelving unit quest.
+
+- All Boats have now a correct recipe.
 
 §5§lMiscellaneous§r§f:
 
-- Reduced Chance of Failure in Pyrotech Kilns.
+- More Recipe Integrations for Extra Utilities.
+
+- Nerfed Phantom Connector Recipe.
+
+- Added a few more Quests in different Chapters.
+
+- Changed the position of the InGameInfo and further improve it.
+(previosly it was overlaping the minimap for "Normal" GUI Scale users)
+
+- Started to further integrate more Magic Mods from chapter 8 and above.
+
+- Changed Startup Sound
+
+- Reverted Pyrotech Change, Now Pebbles are dropping again.
+
+- Wood Pulp can now be done by hand.
+
+- Baykok's Sanguine stone now requires Fiery Baykok's Essence wich can be obtained by using a Baykok's Bow.
+
+- Heart of the Woods now requires Maligne Heart (dropped from Baykok and its a new item added!)
+
+- Added a New Quest in Chapter 2, it is related to new Baykok's Progression Changes.

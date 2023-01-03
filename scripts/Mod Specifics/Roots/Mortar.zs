@@ -27,22 +27,22 @@ Mortar.removeRecipe(i);
 
 
 # Spell Dusts Craftings
-Mortar.changeSpell("spell_rose_thorns", [<minecraft:double_plant:4>, <minecraft:cactus>, <minecraft:iron_trapdoor>, <roots:stalicripe>, <contenttweaker:heart_of_the_woods>]);
-Mortar.changeSpell("spell_aqua_bubble", [<minecraft:ice>, <minecraft:snow>, <roots:dewgonia>, <roots:moonglow_leaf>, <contenttweaker:heart_of_the_woods>]);
-Mortar.changeSpell("spell_sanctuary", [<minecraft:armor_stand>, <roots:moonglow_leaf>, <gregtech:machine:1610>, <minecraft:piston>, <contenttweaker:heart_of_the_woods>]);
-Mortar.changeSpell("spell_growth_infusion", [<roots:spirit_herb>, <ore:treeSapling>, <minecraft:dye:15>, <minecraft:golden_hoe>, <contenttweaker:heart_of_the_woods>]);
-Mortar.changeSpell("spell_sky_soarer", [<roots:cloud_berry>, <pyrotech:material:26>, <roots:living_arrow>, <ore:blockSlime>, <contenttweaker:heart_of_the_woods>]);
+Mortar.changeSpell("spell_rose_thorns", [<minecraft:double_plant:4>, <minecraft:cactus>, <minecraft:iron_trapdoor>, <roots:stalicripe>, <contenttweaker:fiery_baykoks_essence>]);
+Mortar.changeSpell("spell_aqua_bubble", [<minecraft:ice>, <minecraft:snow>, <roots:dewgonia>, <roots:moonglow_leaf>, <contenttweaker:fiery_baykoks_essence>]);
+Mortar.changeSpell("spell_sanctuary", [<minecraft:armor_stand>, <roots:moonglow_leaf>, <gregtech:machine:1610>, <minecraft:piston>, <contenttweaker:fiery_baykoks_essence>]);
+Mortar.changeSpell("spell_growth_infusion", [<roots:spirit_herb>, <ore:treeSapling>, <minecraft:dye:15>, <minecraft:golden_hoe>, <contenttweaker:fiery_baykoks_essence>]);
+Mortar.changeSpell("spell_sky_soarer", [<roots:cloud_berry>, <pyrotech:material:26>, <roots:living_arrow>, <ore:blockSlime>, <contenttweaker:fiery_baykoks_essence>]);
 Mortar.changeSpell("spell_saturate", [<minecraft:mushroom_stew>, <actuallyadditions:item_food>, <roots:wildewheet>, <mysticalworld:cooked_aubergine>, <roots:petals>]);
-Mortar.changeSpell("spell_wild_fire", [<minecraft:diamond_sword>, <minecraft:tnt>, <roots:infernal_bulb>, <roots:stalicripe>, <contenttweaker:heart_of_the_woods>]);
+Mortar.changeSpell("spell_wild_fire", [<minecraft:diamond_sword>, <minecraft:tnt>, <roots:infernal_bulb>, <roots:stalicripe>, <contenttweaker:fiery_baykoks_essence>]);
 Mortar.changeSpell("spell_natures_scythe", [<roots:wildroot>, <roots:wildroot>, <ore:tallgrass>, <mysticalworld:aubergine>, <roots:diamond_knife>]);
-Mortar.changeSpell("spell_acid_cloud", [<minecraft:shield>, <roots:baffle_cap_mushroom>, <minecraft:poisonous_potato>, <minecraft:potion>.withTag({Potion: "cofhcore:poison4"}), <contenttweaker:heart_of_the_woods>]);
-Mortar.changeSpell("spell_radiance", [<minecraft:glowstone>, <roots:stalicripe>, <roots:cloud_berry>, <biomesoplenty:mushroom:3>, <contenttweaker:heart_of_the_woods>]);
-Mortar.changeSpell("spell_fey_light", [<minecraft:glowstone>, <roots:cloud_berry>, <natura:nether_blue_large_glowshroom>, <minecraft:double_plant>, <contenttweaker:heart_of_the_woods>]);
+Mortar.changeSpell("spell_acid_cloud", [<minecraft:shield>, <roots:baffle_cap_mushroom>, <minecraft:poisonous_potato>, <minecraft:potion>.withTag({Potion: "cofhcore:poison4"}), <contenttweaker:fiery_baykoks_essence>]);
+Mortar.changeSpell("spell_radiance", [<minecraft:glowstone>, <roots:stalicripe>, <roots:cloud_berry>, <biomesoplenty:mushroom:3>, <contenttweaker:fiery_baykoks_essence>]);
+Mortar.changeSpell("spell_fey_light", [<minecraft:glowstone>, <roots:cloud_berry>, <natura:nether_blue_large_glowshroom>, <minecraft:double_plant>, <contenttweaker:fiery_baykoks_essence>]);
 Mortar.changeSpell("spell_desaturate", [<minecraft:bowl>, <minecraft:rotten_flesh>, <roots:baffle_cap_mushroom>, <pyrotech:mushroom_red_roasted>, <roots:petals>]);
-Mortar.changeSpell("spell_augment", [<minecraft:iron_block>, <mysticalworld:aubergine>, <roots:cloud_berry>, <roots:wildewheet>, <contenttweaker:heart_of_the_woods>]);
+Mortar.changeSpell("spell_augment", [<minecraft:iron_block>, <mysticalworld:aubergine>, <roots:cloud_berry>, <roots:wildewheet>, <contenttweaker:fiery_baykoks_essence>]);
 Mortar.changeSpell("spell_storm_cloud", [<minecraft:obsidian>, <roots:cloud_berry>, <roots:runic_dust>, <roots:dewgonia>, <chisel:cloud>]);
-Mortar.changeSpell("spell_dandelion_winds", [<minecraft:yellow_flower>, <roots:cloud_berry>, <roots:runic_dust>, <minecraft:piston>, <contenttweaker:heart_of_the_woods>]);
-Mortar.changeSpell("spell_harvest", [<roots:wildewheet>, <ore:Mulch>, <minecraft:diamond_hoe>, <minecraft:water_bucket>, <contenttweaker:heart_of_the_woods>]);
+Mortar.changeSpell("spell_dandelion_winds", [<minecraft:yellow_flower>, <roots:cloud_berry>, <roots:runic_dust>, <minecraft:piston>, <contenttweaker:fiery_baykoks_essence>]);
+Mortar.changeSpell("spell_harvest", [<roots:wildewheet>, <ore:Mulch>, <minecraft:diamond_hoe>, <minecraft:water_bucket>, <contenttweaker:fiery_baykoks_essence>]);
 # Disabled Spell names:
 # spell_geas
 # spell_disarm

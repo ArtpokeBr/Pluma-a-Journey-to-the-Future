@@ -8,9 +8,7 @@
 		"",
 		"Time to Obtain the Heart of the Woods!",
 		"",
-		"You'll unlock a cheaper recipe later on, but currently, you're going to use it to start on Roots.",
-		"",
-		"Oh, and you might want to progress a little bit in the Forestry Chapter to Obtain some Refractory Wax."
+		"You'll unlock a cheaper recipe later on, but currently, you're going to use it to start on Roots."
 	],
 	dependencies: [
 		"b5b772fe"

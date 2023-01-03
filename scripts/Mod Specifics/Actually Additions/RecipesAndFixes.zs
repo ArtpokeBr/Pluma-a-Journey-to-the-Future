@@ -365,3 +365,17 @@ mixer.recipeBuilder()
     .duration(400)
     .EUt(250)
 .buildAndRegister();
+
+# [Phantom Connector] from [Neutronium Screwdriver][+5]
+recipes.removeByRecipeName("actuallyadditions:recipes49");
+craft.make(<actuallyadditions:item_phantom_connector>, ["pretty",
+  "T ╳ *",
+  "S * ╳",
+  "╱ S o"], {
+  "T": <ore:gtceScrewdrivers>,       # Screwdriver
+  "╳": <ore:EmpoweredAAVoidCrystal>, # Empowered Void Crystal
+  "*": <ore:empoweredEndorCrystal>,  # Empowered Endor Crystal
+  "S": <ore:screwSteel>,             # Steel Screw
+  "╱": <ore:stickPulsatingIron>,     # Pulsating Iron Rod
+  "o": <ore:gtceWireCutters>,        # Wire Cutter
+});

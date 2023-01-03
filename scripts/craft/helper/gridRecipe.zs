@@ -1,12 +1,11 @@
 #priority 2
 
-#loader crafttweaker reloadableevents
+#loader crafttweaker reloadable
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import scripts.craft.helper.gridBuilder.GridBuilder;
 import scripts.craft.helper.styler.styler;
-import scripts.craft.grid.Grid;
 
 
 zenClass GridRecipe {

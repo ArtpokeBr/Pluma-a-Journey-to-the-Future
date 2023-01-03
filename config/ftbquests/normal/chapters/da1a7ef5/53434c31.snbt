@@ -1,0 +1,47 @@
+{
+	title: "Adquiring Essence from an Ancient Spirit",
+	x: 8.5d,
+	y: -3.0d,
+	description: "Time to get some Baykok's Essence!",
+	text: [
+		"By using a §6Baykok's Bow§f, you'll be able to use a §cDevil's Dust§f to extract a special §aessence§f from it!",
+		"",
+		"- Then, §eburn it for a while§f to enhance it into a §bCrystallized and Fiery Version§f."
+	],
+	dependencies: [
+		"b5b772fe"
+	],
+	tasks: [{
+		uid: "14b5757a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:baykoks_essence"
+		}]
+	},
+	{
+		uid: "5f0db112",
+		type: "item",
+		items: [{
+			item: "contenttweaker:devil_dust"
+		}]
+	},
+	{
+		uid: "25c416e6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fiery_baykoks_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "6a37450b",
+		type: "item",
+		item: "forestry:refractory_wax",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "b706313f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

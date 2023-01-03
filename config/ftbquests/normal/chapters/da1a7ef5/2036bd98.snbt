@@ -1,5 +1,5 @@
 {
-	title: "Blood and Flesh!",
+	title: "Flesh and Blood!",
 	icon: "contenttweaker:pigmanflesh",
 	x: 7.5d,
 	y: -1.0d,
@@ -15,30 +15,6 @@
 		"f2026ad7"
 	],
 	tasks: [{
-		uid: "48ee062d",
-		type: "kill",
-		icon: {
-			id: "minecraft:iron_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		},
-		entity: "minecraft:zombie_pigman",
-		value: 1L
-	},
-	{
-		uid: "592a46bf",
-		type: "kill",
-		icon: {
-			id: "minecraft:iron_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		},
-		entity: "natura:imp",
-		value: 1L
-	},
-	{
 		uid: "7cbc7219",
 		type: "item",
 		title: "Any Flesh from BOP",

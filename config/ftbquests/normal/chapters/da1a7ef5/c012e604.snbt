@@ -29,18 +29,6 @@
 		"f2026ad7"
 	],
 	tasks: [{
-		uid: "8c9b7587",
-		type: "kill",
-		icon: {
-			id: "minecraft:iron_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		},
-		entity: "minecraft:ghast",
-		value: 1L
-	},
-	{
 		uid: "65dd385a",
 		type: "item",
 		items: [{

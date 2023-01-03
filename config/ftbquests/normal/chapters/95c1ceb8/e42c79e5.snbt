@@ -7,7 +7,7 @@
 		}
 	},
 	x: 10.5d,
-	y: -10.0d,
+	y: -10.5d,
 	description: "Learning as you go",
 	text: [
 		"With an §3Deep Learner§f and a §bData Model§f, you'll be able to start in §bDML§f!",

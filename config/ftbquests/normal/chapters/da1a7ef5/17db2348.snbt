@@ -16,6 +16,7 @@
 	],
 	dependencies: [
 		"f12701b1",
+		"53434c31",
 		"20ad04a6"
 	],
 	tasks: [{

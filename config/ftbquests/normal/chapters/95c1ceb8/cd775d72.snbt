@@ -1,0 +1,48 @@
+{
+	title: "Producing Silicone Rubber §6Final Part§f",
+	x: 1.0d,
+	y: -13.0d,
+	description: "Let's make Polydimethylsiloxane and React it with Sulfur!",
+	text: [
+		"Let's finish this Automation Line!",
+		"",
+		"- Simply §6Chemically React§f your §5Dimethyldichlorosilane§f with §9Water§f and Voilá!",
+		"§7§o(12s, MV Recipe, 1 Bucket of  Water and 1 of Dimethyldichlorosilane aswell)§r§f",
+		"",
+		"- Aswell as a §aPolydimethylsiloxane Dust§f, you'll get some §bDiluted Hydrochloric Acid§f. ↓",
+		"",
+		"- §6Distill it§f to get some of them back!",
+		"§7§o(2.40s, LV Recipe, 80mb Diluted → 40mb Normal Acid)§r§f",
+		"",
+		"- And Now, to finish it all, §6Chemically React it§f once again with §eSulfur§f to obtain more than a bucket of §dSilicone Rubber§f!",
+		"§7§o(30s, LV Recipe, 9 Polydimethylsiloxane Dust  and 1 Sulfur Dust)§r§f"
+	],
+	dependencies: [
+		"6232490e"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "3ed2decc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1011"
+		}],
+		count: 9L
+	},
+	{
+		uid: "4c17f231",
+		type: "fluid",
+		fluid: "silicone_rubber"
+	}],
+	rewards: [{
+		uid: "d190cd17",
+		type: "item",
+		item: "gregtech:meta_plate 1 1000",
+		count: 8
+	},
+	{
+		uid: "bde8c564",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

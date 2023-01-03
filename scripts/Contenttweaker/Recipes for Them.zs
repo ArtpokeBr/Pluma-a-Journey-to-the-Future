@@ -100,9 +100,9 @@ mixer.recipeBuilder()
     .inputs(<totemic:cedar_log> * 4)
     .inputs(<totemic:cedar_leaves> * 4)
     .inputs(<contenttweaker:hellishflesh> * 4)
-    .inputs(<forestry:refractory_wax>)
+    .inputs(<contenttweaker:maligne_heart>)
     .fluidInputs([<liquid:binnie.turpentine> * 1500])
-    .outputs(<contenttweaker:heart_of_the_woods> * 4)
+    .outputs(<contenttweaker:heart_of_the_woods>)
     .duration(160)
     .EUt(32)
     .buildAndRegister();
@@ -900,3 +900,19 @@ chemical_bath.recipeBuilder()
 
 # [Devil's Dust]
 FireCrafting.addRecipe(<contenttweaker:devil_dust>, <contenttweaker:hellishflesh>, 160);
+
+# Baykok's stuff =======================================================================================
+
+# [Baykok's Essence] from [Devil's Dust][+1]
+craft.reshapeless(<contenttweaker:baykoks_essence>, "B▲", {
+  "B": <totemic:baykok_bow>.anyDamage().reuse().transformDamage(1), # Baykok's Bow
+  "▲": <contenttweaker:devil_dust>,      # Devil's Dust
+});
+
+# [Fiery Baykok's Essence]
+FireCrafting.addRecipe(<contenttweaker:fiery_baykoks_essence>, <contenttweaker:baykoks_essence>, 160);
+
+# [Baykok's Heart Tooltip]
+<contenttweaker:maligne_heart>.addTooltip(format.gray("Dropped by the Baykok"));
+
+// ======================================================================================================

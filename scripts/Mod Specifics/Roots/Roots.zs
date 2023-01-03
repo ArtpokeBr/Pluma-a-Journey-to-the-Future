@@ -11,7 +11,7 @@ import mods.tconstruct.Casting as Casting;
 //Pyre
 recipes.remove(<roots:pyre>);
 assembler.recipeBuilder()
-    .inputs(<ore:wildroot>, <roots:terra_moss>, <mysticalworld:charred_log> * 3, <ore:obsidian>*2, <ore:dustBlaze>)
+    .inputs(<contenttweaker:heart_of_the_woods>, <roots:terra_moss>, <mysticalworld:charred_log> * 4, <ore:obsidian>*2, <contenttweaker:fiery_baykoks_essence>)
     .fluidInputs(<liquid:ghastlycerin> * 1400)
     .outputs(<roots:pyre>)
     .duration(200)

@@ -47,8 +47,13 @@ chemical_bath.recipeBuilder()
     .EUt(12)
     .buildAndRegister();
 
-// Glass Shards to Glass
-recipes.addShaped(<minecraft:glass> * 1, [[<pyrotech:material:32>, <pyrotech:material:32>, null], [<pyrotech:material:32>, <pyrotech:material:32>, null],[null, null, null]]);
+# [Glass] from [Glass Shard]
+furnace.addRecipe(<pyrotech:material:32>*2, <ore:sand>);
+craft.make(<minecraft:glass>, ["pretty",
+  "G G",
+  "G G"], {
+  "G": <pyrotech:material:32>, # Glass Shard
+});
 
 // Compacting Bin
 recipes.remove(<pyrotech:compacting_bin>);

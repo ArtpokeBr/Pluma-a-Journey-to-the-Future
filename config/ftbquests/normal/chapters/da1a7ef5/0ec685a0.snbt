@@ -21,19 +21,22 @@
 	y: -1.5d,
 	description: "This is your First Boss Battle! Be Prepared!",
 	text: [
-		"Time to make a Totentanz Ritual! that is already hard, but after it you'll summon an Evil Spirit called the Baykok!",
+		"Time to make a §6Totentanz Ritual§f! that is already hard, but after it you'll summon an §cEvil Spirit called the Baykok§f!",
 		"",
-		"- A Good thing to know is that this Spirit shoots arrows CONSTANTLY! so be prepared for it.",
+		"- A Good thing to know is that this §cSpirit§f shoots §earrows CONSTANTLY§f! so be prepared for it.",
 		"",
-		"- Maybe its good to have a decent armor for this Fight?",
+		"- Maybe its good to have a §ddecent armor§f for this Fight?",
 		"",
-		"After killing it, It will drop its Bow! that will be used in some Craftings or you can actually use it for your own needs!",
+		"- §cAfter killing it§f, It will drop its §6Bow§f! that will be §aused in some recipes§f or you can actually use it for your own needs!",
 		"",
-		"- The Baykoks Bow has an Incresed Enchantabilty so it is a pretty good Bow."
+		"- Also, it drop its §3Maligne Heart§f! collect it, it will be §ausefull soon§f.",
+		"",
+		"- §6The Baykoks Bow§f has an Incresed §dEnchantabilty§f so it is a pretty good Bow."
 	],
 	dependencies: [
 		"6287eb80"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "485c0914",
 		type: "kill",
@@ -45,6 +48,22 @@
 		},
 		entity: "totemic:baykok",
 		value: 1L
+	},
+	{
+		uid: "be310b30",
+		type: "item",
+		items: [{
+			item: "contenttweaker:maligne_heart"
+		}]
+	},
+	{
+		uid: "931cb84a",
+		type: "item",
+		items: [{
+			item: "totemic:baykok_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "3bf2d895",

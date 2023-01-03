@@ -359,3 +359,142 @@ addExtraUtilsAngelRingRecipe(5,<contenttweaker:corruptedstarmetal>);
 for i in 0 to 6 {
 	<ore:angelring>.add(<extrautils2:angelring>.withDamage(i));
 }
+
+# [Sound Muffler] from [Portable Sound Dampener][+2]
+recipes.removeByRecipeName("extrautils2:sound_muffler");
+craft.make(<extrautils2:soundmuffler>, ["pretty",
+  "W C W",
+  "C P C",
+  "W C W"], {
+  "W": <quark:quilted_wool>,                 # White Quilted Wool
+  "C": <ore:cropCotton>,                     # Cotton
+  "P": <randomthings:portablesounddampener>, # Portable Sound Dampener
+});
+
+# [Trash Can] from [Chest][+3]
+recipes.removeByRecipeName("extrautils2:trash_can");
+craft.make(<extrautils2:trashcan>, ["pretty",
+  "□ * □",
+  "░ c ░",
+  "░ ░ ░"], {
+  "□": <ore:plateSteel>,                        # Steel Plate
+  "*": <ore:AAVoidCrystal> | <ore:crystalVoid>, # Void Crystal
+  "░": <ore:cobblestone> | <ore:stoneCobble>,   # Cobblestone
+  "c": <ore:chestWood>,           				# Chest
+});
+
+# [Trash Can (Fluid)] from [Fluid Tank (Configured)][+3]
+recipes.removeByRecipeName("extrautils2:trash_can_fluid");
+craft.make(<extrautils2:trashcanfluid>, ["pretty",
+  "□ * □",
+  "░ F ░",
+  "░ ░ ░"], {
+  "□": <ore:plateSteel>,                        # Steel Plate
+  "*": <ore:AAVoidCrystal> | <ore:crystalVoid>, # Void Crystal
+  "░": <ore:cobblestone> | <ore:stoneCobble>,   # Cobblestone
+  "F": <enderio:block_tank>.withTag({"enderio:data": {tank: {Empty: "", Capacity: 16000}}}), # Fluid Tank (Configured)
+});
+
+# [Trash Can (Energy)] from [Small Sodium Battery][+3]
+recipes.removeByRecipeName("extrautils2:trash_can_energy");
+craft.make(<extrautils2:trashcanenergy>, ["pretty",
+  "□ * □",
+  "░ L ░",
+  "░ ░ ░"], {
+  "□": <ore:plateSteel>,                        # Steel Plate
+  "*": <ore:AAVoidCrystal> | <ore:crystalVoid>, # Void Crystal
+  "░": <ore:cobblestone> | <ore:stoneCobble>,   # Cobblestone
+  "L": <ore:batteryLv>,                         # Small Sodium Battery
+});
+
+# [Angel Block] from [Light Gold Plate][+2]
+recipes.removeByRecipeName("extrautils2:angel_block");
+craft.make(<extrautils2:angelblock>, ["pretty",
+  "     ",
+  "  □  ",
+  "f O f"], {
+  "□": <ore:lightPlateGold>,             # Light Gold Plate
+  "f": <ore:feyFeather>, 				 # Mystic Feather
+  "O": <ore:runedObsidian>,              # Runed Obsidian
+});
+
+# [Redstone Clock] from [Redstone][+1]
+recipes.removeByRecipeName("extrautils2:redstone_clock");
+craft.make(<extrautils2:redstoneclock>, ["pretty",
+  "s ♥ s",
+  "♥ □ ♥",
+  "s ♥ s"], {
+  "s": <ore:stone>, 					      # Stone
+  "♥": <ore:dustRedstone> | <ore:alloyBasic>, # Redstone
+  "□": <minecraft:clock>					  # Clock
+});
+
+# [Analog Crafter] from [Crafting Table][+2]
+recipes.removeByRecipeName("extrautils2:crafter_analog");
+craft.make(<extrautils2:analogcrafter>, ["pretty",
+  "♥ # ♥",
+  "# w #",
+  "♥ # ♥"], {
+  "♥": <ore:ingotRedstoneAlloy>,                  # Redstone Alloy Ingot
+  "#": <ore:gearWood>,                            # Wood Gear
+  "w": <ore:workbench> | <ore:craftingTableWood>, # Crafting Table
+});
+
+# [Redstone Lantern] from [Redstone Lamp][+2]
+recipes.removeByRecipeName("extrautils2:lantern");
+craft.make(<extrautils2:redstonelantern>, ["pretty",
+  "P ■ P",
+  "■ ♥ ■",
+  "P ■ P"], {
+  "P": <extrautils2:decorativesolid:2>,        # Polished Stone
+  "■": <extrautils2:decorativeglass:5>, 	   # Redstone Glass
+  "♥": <minecraft:redstone_lamp>,              # Redstone Lamp
+});
+
+# [Ender Porcupine] from [Ender Chassis][+2]
+recipes.removeByRecipeName("extrautils2:porcupine");
+craft.make(<extrautils2:interactionproxy>, ["pretty",
+  "B e B",
+  "e E e",
+  "B e B"], {
+  "B": <ore:boltBismuthBronze>,          # Bismuth Bronze Bolt
+  "e": <ore:gemEnderPearl>, 			 # Ender Pearl
+  "E": <actuallyadditions:block_misc:8>, # Ender Chassis
+});
+
+# [Player Chest] from [Player Probe][+3]
+recipes.removeByRecipeName("extrautils2:player_chest");
+craft.make(<extrautils2:playerchest>, ["pretty",
+  "S Q S",
+  "Q P Q",
+  "S ♥ S"], {
+  "S": <extrautils2:decorativesolid:3>,       # Stoneburnt
+  "Q": <extrautils2:decorativesolid:7>,       # Quartzburnt
+  "P": <actuallyadditions:item_player_probe>, # Player Probe
+  "♥": <ore:gemRedstone>,                     # Resonating Redstone Crystal
+});
+
+# [Chunk Loading Ward] from [Chunkloader Upgrade][+2]
+recipes.removeByRecipeName("extrautils2:chunk_loader");
+craft.make(<extrautils2:chunkloader>, ["pretty",
+  "╱ e ╱",
+  "╱ : ╱",
+  "  ╱  "], {
+  "╱": <ore:itemNutritiousStick>,   # Nutritious Stick
+  "e": <ore:eyeofredstone>,         # Eye of Redstone
+  ":": <ore:oc:chunkloaderUpgrade>, # Chunkloader Upgrade
+});
+
+# [Glass Cutter] from [Nutritious Stick][+5]
+recipes.removeByRecipeName("extrautils2:glass_cutter");
+craft.make(<extrautils2:glasscutter>, ["pretty",
+  "  o □",
+  "S ╱ □",
+  "I S T"], {
+  "o": <ore:gtceScrewdrivers>, 					 # Screwdriver
+  "□": <ore:lightPlateIron>,                     # Light Iron Plate
+  "S": <ore:screwSteel>,                         # Steel Screw
+  "╱": <ore:itemNutritiousStick>,                # Nutritious Stick
+  "I": <ore:ringIron>,                           # Iron Ring
+  "T": <ore:gtceFiles>, 						 # File
+});

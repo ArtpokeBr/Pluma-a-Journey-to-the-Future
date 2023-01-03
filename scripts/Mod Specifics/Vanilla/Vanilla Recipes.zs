@@ -9,6 +9,48 @@ import crafttweaker.oredict.IOreDictEntry;
 //			         																													 	 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//Removing Unwanted Vanilla Recipes.
+recipes.removeByRecipeName("pyrotech:item_frame");
+
+recipes.removeByRecipeName("gregtech:bow");
+
+recipes.removeByRecipeName("pyrotech:arrow");
+
+recipes.removeByRecipeName("gregtech:boat");
+recipes.removeByRecipeName("gregtech:spruce_boat");
+recipes.removeByRecipeName("gregtech:birch_boat");
+recipes.removeByRecipeName("gregtech:jungle_boat");
+recipes.removeByRecipeName("gregtech:acacia_boat");
+recipes.removeByRecipeName("gregtech:dark_oak_boat");
+recipes.removeByRecipeName("traverse:fir_boat");
+
+recipes.removeByRecipeName("harvestcraft:minecraft_leather_helmet");
+recipes.removeByRecipeName("harvestcraft:leather_helmet");
+recipes.removeByRecipeName("harvestcraft:minecraft_leather_chestplate");
+recipes.removeByRecipeName("harvestcraft:leather_chestplate");
+recipes.removeByRecipeName("harvestcraft:minecraft_leather_leggings");
+recipes.removeByRecipeName("harvestcraft:leather_leggings");
+recipes.removeByRecipeName("harvestcraft:minecraft_leather_boots");
+recipes.removeByRecipeName("harvestcraft:leather_boots");
+recipes.removeByRecipeName("minecraft:leather_helmet");
+recipes.removeByRecipeName("minecraft:leather_chestplate");
+recipes.removeByRecipeName("minecraft:leather_leggings");
+recipes.removeByRecipeName("minecraft:leather_boots");
+
+recipes.removeByRecipeName("pyrotech:book");
+
+recipes.removeByRecipeName("gregtech:iron_horse_armor");
+recipes.removeByRecipeName("gregtech:golden_horse_armor");
+recipes.removeByRecipeName("gregtech:diamond_horse_armor");
+
+recipes.removeByRecipeName("gregtech:lead");
+recipes.removeByRecipeName("thermalfoundation:lead");
+recipes.removeByRecipeName("thermalfoundation:lead_1");
+recipes.removeByRecipeName("mysticalworld:lead");
+
+recipes.removeByRecipeName("pyrotech:saddle");
+
+
 // Crafting Table ===========================================
 recipes.remove(<minecraft:crafting_table>);
 assembler.findRecipe(6, [<ore:logWood>.firstItem,<minecraft:flint>], null).remove();

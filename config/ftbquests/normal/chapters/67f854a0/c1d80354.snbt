@@ -1,0 +1,33 @@
+{
+	title: "Assembling Extreme Circuits",
+	x: 5.0d,
+	y: -2.0d,
+	description: "Let's make an EV Circuit Assembler!",
+	text: [
+		"Time for another §eUpgrade§f! usually its a §agood idea§f to always §eupgrade§f your §6Assemblers§f when a §enew voltage is unlocked§f.",
+		"",
+		"- §6This Machine§f, as always, will give your acess to more §cadvanced§f and §bextreme§f §acircuits§f!"
+	],
+	dependencies: [
+		"91f0163f"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "7324cab6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 638"
+		}]
+	}],
+	rewards: [{
+		uid: "942fbe99",
+		type: "item",
+		item: "gregtech:meta_item_1 1 190",
+		random_bonus: 3
+	},
+	{
+		uid: "16384374",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

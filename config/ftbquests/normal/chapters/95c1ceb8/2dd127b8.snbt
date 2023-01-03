@@ -1,0 +1,51 @@
+{
+	title: "Producing Silicone Rubber §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "chloromethane",
+			Amount: 1000
+		}
+	},
+	x: -1.0d,
+	y: -13.0d,
+	description: "Chloromethane!",
+	text: [
+		"§9The Recipe is simple§f:",
+		"",
+		"- You'll need to §6Chemically React§f §dMethane§f and §3Chlorine§f. ",
+		"§7§o(4s, Circuit 3, 1 bucket of Methane and 2 of Chlorine)§r§f",
+		"",
+		"§7§8- Also, watch out, this recipe is very similar to one that you've already worked on in chapter 7.§r§f"
+	],
+	dependencies: [
+		"54ca0e8a",
+		"337698c7"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "fca3b180",
+		type: "fluid",
+		fluid: "chloromethane"
+	}],
+	rewards: [{
+		uid: "681fe0b9",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "chloromethane",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "d0b28c04",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

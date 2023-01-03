@@ -5,19 +5,17 @@
 	y: 0.0d,
 	description: "Lets work Towards Steel!",
 	text: [
-		"Your next big achievement will be when you start producing Steel with a Blast Furnace!",
+		"Your §anext big achievement§f will be when you start producing §3Steel§f with a §6Blast Furnace§f. Let's get to work!",
 		"",
-		"- And for that, you'll need FireBricks.",
+		"- And for that, you'll need §cFireBricks§f.",
 		"",
-		"- Simply follow JEI for all the Steps, but it all comes down to having Acess to lots of Clay.",
+		"- Simply §afollow JEI for all the Steps§f, but it all comes down to §9having Acess to lots of Clay§f.",
 		"",
-		"- If you don't an Steam Macerator, it is strongly advised to have one! as it can produce more Clay dust than a mortar.",
+		"- If you don't have an §eSteam Macerator§f yet, it is strongly advised to have one! as it can §3produce more Clay dust than a mortar§f.",
 		"",
+		"- §2All the Materials for this quest§f are the §bExact amounts needed§f to make a §6Blast Furnace§f!",
 		"",
-		"",
-		"All the Materials for This quest are the Exact amounts needed to make a Blast Furnace!",
-		"",
-		"- There's some Extra Clay for example for you to make some Liquid Concrete inside of the Smeltery."
+		"§8§o There's some Extra Clay required as you'll need to make some Liquid Concrete as you'll need it aswell.§r§f"
 	],
 	dependencies: [
 		"b320813f"

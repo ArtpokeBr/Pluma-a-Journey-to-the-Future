@@ -1,0 +1,61 @@
+{
+	title: "It is Time for Infusion!",
+	icon: "thaumcraft:infusion_matrix",
+	x: 5.0d,
+	y: -1.5d,
+	description: "Let's make a Runic Matrix!",
+	text: [
+		"Now its time for §3Thaumcraft's§f most interesting way of crafting, §dArcane Infusion§f!",
+		"",
+		"- You'll need about §99 Pedestal's§f.",
+		"",
+		"- §38 Arcane Stones§f and your §6Runic Matrix§f itself!",
+		"",
+		"- Place one §bPedestal§f where you wish to be the §ecenter of this structure§f, §askip a block up§f and place your §6Runic Matrix§f.",
+		"",
+		"- On Each §2diagonal from the center§f, place §32 blocks of Arcane Stone§f.",
+		"",
+		"- Once  the §eMain Structure§f is done, simply use a §dSalis Mundus to form it§f! §8§o(Click on the Matrix)§r§f",
+		"",
+		"§8§o~ Follow the Next Quest for more info about this Structure!§r§f"
+	],
+	dependencies: [
+		"11cbe3a6",
+		"4f7ed011"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "3a0757af",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "6692da3d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}],
+		count: 9L
+	},
+	{
+		uid: "a7e4364c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d09ea31f",
+		type: "item",
+		item: "thaumcraft:salis_mundus"
+	},
+	{
+		uid: "dd92bd9d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

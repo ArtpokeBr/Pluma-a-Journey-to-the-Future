@@ -84,7 +84,7 @@ Pyre.addRecipe(
 Pyre.addRecipe(
   "BaykoksStone",
   <contenttweaker:baykoksbloodiedstone>,   // the output of this recipe
-  [<railcraft:brick_bloodstained:2>, <contenttweaker:taintedsoildust>, <quark:soul_powder>, <biomesoplenty:ash>, <ore:slimeballBlood>] // a list of five ingredients (no more, no less)
+  [<railcraft:brick_bloodstained:2>, <contenttweaker:taintedsoildust>, <quark:soul_powder>, <contenttweaker:fiery_baykoks_essence>, <ore:slimeballBlood>] // a list of five ingredients (no more, no less)
 );
 
 //Sluice Box

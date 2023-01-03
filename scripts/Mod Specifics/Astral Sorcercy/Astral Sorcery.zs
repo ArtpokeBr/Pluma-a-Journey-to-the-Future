@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import mods.astralsorcery.StarlightInfusion as StarlightInfusion;
 import mods.thaumcraft.Crucible as TCrucible;
 import mods.astralsorcery.Altar as AstralAltar;
-import mods.thaumcraft.ArcaneWorkbench as ArcaneWorkbench;
+import mods.thaumcraft.ArcaneWorkbench;
 import mods.chisel.Carving as Carving;
 import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationRecipe;
@@ -149,17 +149,12 @@ for i in 0 to 7 {
 
 }
 
-//Luminous Crafting Table
+# [Luminous Crafting Table] from [Condensed Praecantatio Vis Crystal][+8]
 recipes.remove(<astralsorcery:blockaltar>);
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<ore:stoneRefinedMarble>, <ore:plateAAVoidEmpowered>, <ore:stoneRefinedMarble>],
-    [<embers:archaic_brick>, <ore:workbench>, <embers:archaic_brick>],
-    [<embers:archaic_brick>, null, <embers:archaic_brick>]])
-  .setFluid(<liquid:dark_fluid> * 1152)
-  .addTool(<ore:artisansGrimoire>, 20)
-  .addOutput(<astralsorcery:blockaltar>)
-.create();
+ArcaneWorkbench.registerShapedRecipe("astralsorcery:blockaltar", "FIRSTSTEPS@2", 30, [<aspect:ordo> * 10, <aspect:perditio> * 10, <aspect:aer> * 10], <astralsorcery:blockaltar>, 
+[[<astralsorcery:blockmarble>, <contenttweaker:empoweredvoidplate>, <astralsorcery:blockmarble>], 
+[<embers:archaic_brick>, <contenttweaker:condensed_vis_crystal_praecantatio>, <embers:archaic_brick>],
+[<embers:archaic_brick>, <ore:craftingTableWood>, <embers:archaic_brick>]]);
 
 //Lightwell
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");

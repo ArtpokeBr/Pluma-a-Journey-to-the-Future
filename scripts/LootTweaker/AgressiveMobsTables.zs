@@ -72,3 +72,7 @@ add_entry("minecraft:entities/enderman", "endermanheart", <contenttweaker:enderm
 add_entry("twilightforest:entities/lich", "lichbones", <contenttweaker:lich_bones>, 4, 9, 0, 0, 100);
 
 //<entity:twilightforest:lich>.addDrop(<contenttweaker:lich_bones> % 60, 1, 6);
+
+// Editing The Baykok's Loottable
+add_entry("totemic:entities/baykok", "baykoks_heart", <contenttweaker:maligne_heart>, 1, 1, 0, 0, 100);
+

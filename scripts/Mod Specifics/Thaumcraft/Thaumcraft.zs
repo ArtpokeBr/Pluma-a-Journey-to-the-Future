@@ -43,3 +43,21 @@ SalisMundus.addSingleConversion(<evilcraft:purifier>.asBlock(), <thaumcraft:cruc
 <thaumcraft:crucible>.addTooltip(format.white("Created by Right Clicking on an EvilCraft"));
 <thaumcraft:crucible>.addTooltip(format.white("Purifier with some ") + format.lightPurple("Salis Mundus") + format.white("."));
 
+# [Runic Matrix] from [Blood Infusion Core][+10]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "infusion_matrix", # Name
+  "INFUSION", # Research
+  150, # Vis cost
+  [<aspect:aer>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>, <aspect:ignis>, <aspect:terra>],
+  <thaumcraft:infusion_matrix>, # Output
+  Grid(["pretty",
+  "A n A",
+  "I B I",
+  "A n A"], {
+  "A": <thaumcraft:stone_arcane>,       # Arcane Stone
+  "n": <ore:nitor>,                     # Black Nitor
+  "I": <ore:livingrock>,                # Livingrock
+  "B": <evilcraft:blood_infusion_core>, # Blood Infusion Core
+}).shaped());
+

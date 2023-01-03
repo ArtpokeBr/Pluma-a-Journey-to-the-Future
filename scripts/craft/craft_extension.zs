@@ -1,6 +1,6 @@
 #priority 2001
 
-#loader crafttweaker reloadableevents
+#loader crafttweaker reloadable
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.recipes.IRecipeFunction;

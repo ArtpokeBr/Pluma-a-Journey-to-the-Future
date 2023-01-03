@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
-    <lines at="topright">
+    <lines at="topleft">
         <line>
         <str>$0</str>
         </line>
-        <line>
-        <str>$0</str>
-        </line>
-        <line>
-        <str>$0</str>
-        </line>
-        <line>
-        <str>$0</str>
-        </line>  
-        <line>
-        <str>$0</str>
-        </line>
-        <line>
-        <str>$0</str>
-        </line>
-        <line>
-        <str>$0</str>
-        </line>
-        <line>
-        <str>$0</str>
-        </line>   
-        <line>
-        <str>$0</str>
-        </line>
-        <line>
-        <str>$0</str>
-        </line>
-        <line>
-        <str>$0</str>
-        </line>                                
         <line>
             <icon>
-                <str>minecraft:clock</str>
+                <str>biomesoplenty:earth</str>
             </icon>
             <str> $rMinecraft Year $3</str>
             <add>
@@ -61,8 +31,11 @@
                 <num>365</num>
             </modi>
         </line>    
-        <line>       
-            <str>Time: </str>
+        <line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>  
+            <str> Time: </str>
             <str>$6{mctime12} $r</str>
             <if>
                 <var>daytime</var>
@@ -80,10 +53,13 @@
             <icon>
                 <str>gregtech:rubber_sapling</str>
             </icon>
-            <str>Biome: $3{biome}$f </str>
+            <str> Biome: $3{biome}$f </str>
         </line>
         <line>
-            <str>$6</str>
+            <icon>
+                <str>embers:spark_plug</str>
+            </icon>  
+            <str> $6</str>
             <round>
                 <div>
                     <sub>
@@ -112,38 +88,16 @@
         </line>
         <line>
             <icon>
-                <str>biomesoplenty:earth</str>
+                <str>actuallyadditions:item_water_bowl</str>
             </icon> 
-            <str>$6{humidity}%$f Humidity </str>
-        </line>    
-        <line>
-            <str>$0</str>
+            <str> $6{humidity}%$f Humidity </str>
         </line>
         <line>
-            <str>$0</str>
-        </line>
-        <line>
-            <str>$0</str>
-        </line>
-        <line>
-            <if>
-                <str>  Nearest players:</str>
-            </if>
-        </line>
-        <line>
-            <if>
-                <str>  1) $6{nearbyplayername0}$f({nearbyplayerdistance0}m)</str>
-            </if>
-        </line>
-        <line>
-            <if>
-                <str>  2) $6{nearbyplayername1}$f({nearbyplayerdistance1}m)</str>
-            </if>
-        </line>
-        <line>
-            <if>
-                <str>  2) $6{nearbyplayername2}$f({nearbyplayerdistance2}m)</str>
-            </if>
+            <icon>
+                <str>minecraft:skull</str>
+                <num>2</num>
+            </icon>
+            <str> Entities: {gold}{entitiesrendered} {white}Rendered / {gold}{entitiestotal} {white}Loaded  </str>
         </line>
     </lines>
     <lines at="bottomright">

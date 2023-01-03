@@ -1,8 +1,8 @@
 {
 	title: "Clean yourself!",
 	icon: "gregtech:machine 1 1035",
-	x: 8.777210884353728d,
-	y: -7.502551020408163d,
+	x: 9.0d,
+	y: -7.5d,
 	description: "Time to make assemble a Cleanroom!",
 	text: [
 		"§6The Cleanroom§f is a very special Multiblock that is required for the most §aadvanced tech§f that you'll find.",
