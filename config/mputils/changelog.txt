@@ -1,60 +1,18 @@
-§a§lVersion Beta§r§f 1.8:
+§a§lVersion Beta§r§f 1.8.1:
 
 §b§lAdditions§r§f:
 
-- Updated Deep Mob Evolution.
-
-- Updated Xaeros WorldMap and Minimap.
-
-- Updated Universal Tweaks.
-
-- Updated Craft.zs Scripts.
-
 §c§lRemovals§r§f:
-
-- Drawer FPS (universaltweaks doest that now).
-
-- ShutUpModelLoader (universaltweaks doest that now).
 
 §2§lFixes§r§f:
 
-- Fixed Typo and Improved Texts in the "Blast Furnace" Quest.
-
-- Glass Shards can now be correctly converted into Normal Glass.
-
-- Red Alloy Dust can now be done by hand.
-
-- "Time to hunt Ghasts" quest doesn't require you to kill Ghast's anymore. (only obtain their drops)
-
-- "Flesh and Blood" quest doesn't require you to kill Pigmans and Imps anymore. (only obtain their drops)
-
-- The Pyre recipe now correctly requires a Heart of the Woods.
-
-- Fixed incorrect reward in the shelving unit quest.
-
-- All Boats have now a correct recipe.
+- Root's Knifes now can be done before going to the nether (but there's a better version of them after you go there)
+- EnderIO's Organic Dyes can now be made before having an Alloy Smelter.
+- Fixed The Precious Metal Quest requirements.
 
 §5§lMiscellaneous§r§f:
 
-- More Recipe Integrations for Extra Utilities.
+- Ported the Hand Framing tool from Nomifactory! All Original Credits go to them.
+(https://github.com/Nomifactory/Nomifactory/blob/1e754ec1a22cb150941598b3feb22083533215ae/overrides/scripts/HandFramingTool.zs)
 
-- Nerfed Phantom Connector Recipe.
-
-- Added a few more Quests in different Chapters.
-
-- Changed the position of the InGameInfo and further improve it.
-(previosly it was overlaping the minimap for "Normal" GUI Scale users)
-
-- Started to further integrate more Magic Mods from chapter 8 and above.
-
-- Changed Startup Sound
-
-- Reverted Pyrotech Change, Now Pebbles are dropping again.
-
-- Wood Pulp can now be done by hand.
-
-- Baykok's Sanguine stone now requires Fiery Baykok's Essence wich can be obtained by using a Baykok's Bow.
-
-- Heart of the Woods now requires Maligne Heart (dropped from Baykok and its a new item added!)
-
-- Added a New Quest in Chapter 2, it is related to new Baykok's Progression Changes.
+- Concrete can now be casted out of the Smeltery.

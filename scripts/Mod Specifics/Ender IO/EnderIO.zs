@@ -47,13 +47,34 @@ assembler.recipeBuilder()
 AlloySmelter.addRecipe(<enderio:item_material:50>*2, [<ore:dustCarbon>*2, <ore:egg>, <contenttweaker:ink_dropplet>*2], 1000, 1.0);
 AlloySmelter.addRecipe(<enderio:item_material:50>*4, [<ore:dustCarbon>*4, <ore:slimeball>, <contenttweaker:ink_dropplet>*2], 1000, 1.0);
 
+mixer.recipeBuilder()
+    .inputs(<ore:dustCarbon>*4, <ore:slimeball>, <contenttweaker:ink_dropplet>*2)
+    .outputs(<enderio:item_material:50>*4)
+    .duration(200)
+    .EUt(48)
+.buildAndRegister();
+
 // Organic Green Dye [Egg] and [Slimeball]
 AlloySmelter.addRecipe(<enderio:item_material:48>*2, [<enderio:item_material:46>*6, <ore:egg>, <ore:dustCarbon>*2], 1000, 1.0);
 AlloySmelter.addRecipe(<enderio:item_material:48>*4, [<enderio:item_material:46>*12, <ore:slimeball>, <ore:dustCarbon>*2], 1000, 1.0);
 
+mixer.recipeBuilder()
+    .inputs(<enderio:item_material:46>*12, <ore:slimeball>, <ore:dustCarbon>*2)
+    .outputs(<enderio:item_material:48>*4)
+    .duration(200)
+    .EUt(48)
+.buildAndRegister();
+
 // Organic Brown Dye [Egg] and [Slimeball]
 AlloySmelter.addRecipe(<enderio:item_material:49>*2, [<enderio:item_material:47>*6, <ore:egg>, <ore:dustCarbon>*2], 1000, 1.0);
 AlloySmelter.addRecipe(<enderio:item_material:49>*4, [<enderio:item_material:47>*12, <ore:slimeball>, <ore:dustCarbon>*2], 1000, 1.0);
+
+mixer.recipeBuilder()
+    .inputs(<enderio:item_material:47>*12, <ore:slimeball>, <ore:dustCarbon>*2)
+    .outputs(<enderio:item_material:49>*4)
+    .duration(200)
+    .EUt(48)
+.buildAndRegister();
 
 // SAG Mill
 recipes.remove(<enderio:block_sag_mill>);

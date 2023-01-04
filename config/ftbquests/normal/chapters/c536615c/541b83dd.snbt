@@ -8,7 +8,9 @@
 		"",
 		"- When making §2Clippings and Trimmings§f, Cacti are a really good source of it.",
 		"",
-		"- Don't worry, once you have a better Sag Mill, you'll be able to use §6Grinding Balls to increse the outputs of this recipes§f."
+		"- Don't worry, once you have a better Sag Mill, you'll be able to use §6Grinding Balls to increse the outputs of this recipes§f.",
+		"",
+		"- Also, for now, you'll need at least an §6MV Mixer§f to make your §aOrganic Dyes§f."
 	],
 	dependencies: [
 		"6f1b998b"
