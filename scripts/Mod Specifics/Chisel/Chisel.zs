@@ -61,10 +61,10 @@ mods.chisel.Carving.addVariation("stonebrick", i);
 }
 
 var Mason as IItemStack[] = [
-<contenttweaker:masonbricksfelsic>,
-<contenttweaker:masonbricksmafic>,
-<contenttweaker:masonbricksmixed>,
-<contenttweaker:masonbricksplain>,
+<contenttweaker:mason_bricks_felsic>,
+<contenttweaker:mason_bricks_mafic>,
+<contenttweaker:mason_bricks_mixed>,
+<contenttweaker:mason_bricks_plain>,
 <pyrotech:masonry_brick_block>,
 ];
 for i in Mason {

@@ -27,7 +27,7 @@
 		uid: "ad49746c",
 		type: "item",
 		items: [{
-			item: "mekanism:dust 1 3"
+			item: "gregtech:meta_dust 1 25"
 		}],
 		count: 3L
 	},

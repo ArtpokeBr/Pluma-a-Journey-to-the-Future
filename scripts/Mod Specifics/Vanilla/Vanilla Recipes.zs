@@ -50,6 +50,8 @@ recipes.removeByRecipeName("mysticalworld:lead");
 
 recipes.removeByRecipeName("pyrotech:saddle");
 
+recipes.removeByRecipeName("natura:common/daylight_sensor");
+
 
 // Crafting Table ===========================================
 recipes.remove(<minecraft:crafting_table>);

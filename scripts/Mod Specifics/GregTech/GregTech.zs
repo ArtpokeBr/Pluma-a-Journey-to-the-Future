@@ -529,3 +529,19 @@ craft.reshapeless(<ore:dustWood>.firstItem * 6, "T#", {
   "T": <ore:gtceMortars>, # Mortar
   "#": <ore:logWood>,     # Oak Wood
 });
+
+# [Liquid Slime Compat]
+
+extractor.recipeBuilder()
+    .inputs(<ore:blockSlimeGreen>)
+    .fluidOutputs(<liquid:slime>*1296)
+    .duration(450)
+    .EUt(16)
+.buildAndRegister();
+
+extractor.recipeBuilder()
+    .inputs(<tconstruct:slime_congealed>)
+    .fluidOutputs(<liquid:slime>*576)
+    .duration(200)
+    .EUt(16)
+.buildAndRegister();

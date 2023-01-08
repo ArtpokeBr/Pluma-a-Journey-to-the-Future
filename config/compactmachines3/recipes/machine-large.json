@@ -1,0 +1,54 @@
+{
+  "name": "compactmachines3:machine-large",
+  "target-item": "compactmachines3:machine",
+  "target-meta": 3,
+  "target-count": 1,
+
+  "duration": 520,
+
+  "catalyst": "contenttweaker:empowered_endor_crystal",
+
+  "input-types": {
+    "w": { "id": "compactmachines3:wallbreakable" },
+    "e": { "id": "gregtech:meta_block_compressed_2000"}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"]
+    ],
+    [
+      ["w","w","w","w","w"],
+      ["w","_","_","_","w"],
+      ["w","_","_","_","w"],
+      ["w","_","_","_","w"],
+      ["w","w","w","w","w"]
+    ],
+    [
+      ["w","w","w","w","w"],
+      ["w","_","_","_","w"],
+      ["w","_","e","_","w"],
+      ["w","_","_","_","w"],
+      ["w","w","w","w","w"]
+    ],
+    [
+      ["w","w","w","w","w"],
+      ["w","_","_","_","w"],
+      ["w","_","_","_","w"],
+      ["w","_","_","_","w"],
+      ["w","w","w","w","w"]
+    ],
+    [
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"],
+      ["w","w","w","w","w"]
+    ]
+  ]
+}

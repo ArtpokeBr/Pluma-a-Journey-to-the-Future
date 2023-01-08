@@ -27,7 +27,7 @@ assembler.recipeBuilder()
 
 // Logistics Power Junction
 recipes.remove(<logisticspipes:power_junction>);
-recipes.addShaped(<logisticspipes:power_junction> * 1, [[<ore:plateBatteryAlloy>, <logisticspipes:chip_basic>, <ore:plateBatteryAlloy>], [<ore:plateRedstone>, <logisticspipes:frame>, <ore:plateRedstone>],[<ore:plateBatteryAlloy>, <gregtech:meta_item_1:736>, <ore:plateBatteryAlloy>]]);
+recipes.addShaped(<logisticspipes:power_junction> * 1, [[<ore:plateBatteryAlloy>, <logisticspipes:chip_basic>, <ore:plateBatteryAlloy>], [<ore:plateRedstone>, <logisticspipes:frame>, <ore:plateRedstone>],[<ore:plateBatteryAlloy>, <ore:batteryMv>, <ore:plateBatteryAlloy>]]);
 
 // Pipe Controller
 recipes.remove(<logisticspipes:pipe_controller>);

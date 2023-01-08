@@ -1,4 +1,4 @@
-import mods.actuallyadditions.AtomicReconstructor;
+import mods.actuallyadditions.AtomicReconstructor as AtomicReconstructor;
 import mods.gregtech.recipe.RecipeMap;
 import mods.forestry.Carpenter;
 import crafttweaker.item.IItemStack;
@@ -100,10 +100,6 @@ recipes.replaceAllOccurences(<actuallyadditions:item_misc:5>, <gregtech:meta_gem
 # Lamps OreDict ===============
 
 <ore:actuallyLamp>.add(<actuallyadditions:block_colored_lamp:1>, <actuallyadditions:block_colored_lamp:2>, <actuallyadditions:block_colored_lamp:3>, <actuallyadditions:block_colored_lamp:4>, <actuallyadditions:block_colored_lamp:5>, <actuallyadditions:block_colored_lamp:6>, <actuallyadditions:block_colored_lamp:7>, <actuallyadditions:block_colored_lamp:8>, <actuallyadditions:block_colored_lamp:15>, <actuallyadditions:block_colored_lamp:14>, <actuallyadditions:block_colored_lamp:13>, <actuallyadditions:block_colored_lamp:12>, <actuallyadditions:block_colored_lamp:11>, <actuallyadditions:block_colored_lamp:10>, <actuallyadditions:block_colored_lamp:9>);
-
-//Atomic Reconstructor Lens
-recipes.remove(<actuallyadditions:item_misc:18>);
-recipes.addShaped(<actuallyadditions:item_misc:18> * 1, [[null, <ore:strengthenedGlass>, null], [<ore:strengthenedGlass>, <ore:gemExquisiteBlackQuartz>, <ore:strengthenedGlass>],[null, <ore:strengthenedGlass>, null]]);
 
 # Obsidian AIOT Compatibility ===============================================
 recipes.remove(<actuallyadditions:obsidian_paxel>);
@@ -379,3 +375,66 @@ craft.make(<actuallyadditions:item_phantom_connector>, ["pretty",
   "╱": <ore:stickPulsatingIron>,     # Pulsating Iron Rod
   "o": <ore:gtceWireCutters>,        # Wire Cutter
 });
+
+# [Lens] from [Exquisite Black Quartz][+2]
+recipes.remove(<actuallyadditions:item_misc:18>);
+AtomicReconstructor.removeRecipe(<actuallyadditions:item_misc:18>);
+craft.make(<actuallyadditions:item_misc:18>, ["pretty",
+  "□ ⌃ □",
+  "⌃ ^ ⌃",
+  "□ ⌃ □"], {
+  "□": <ore:plateSoularium>,          # Soularium Plate
+  "⌃": <ore:fusedQuartz>,             # Fused Quartz
+  "^": <ore:gemExquisiteBlackQuartz>, # Exquisite Black Quartz
+});
+
+# [Lens of Color] from [Lens][+5]
+AtomicReconstructor.removeRecipe(<actuallyadditions:item_color_lens>);
+craft.make(<actuallyadditions:item_color_lens>, ["pretty",
+  "□ G □",
+  "R L B",
+  "□ Y □"], {
+  "□": <ore:lightPlateSoularium>,        # Light Soularium Plate
+  "G": <gregtech:meta_item_1:434>,       # Chemical Green Dye
+  "R": <gregtech:meta_item_1:435>,       # Chemical Red Dye
+  "L": <actuallyadditions:item_misc:18>, # Lens
+  "B": <gregtech:meta_item_1:432>,       # Chemical Blue Dye
+  "Y": <gregtech:meta_item_1:425>,       # Chemical Yellow Dye
+});
+
+# [Lens of Detonation] from [Lens][+3]
+AtomicReconstructor.removeRecipe(<actuallyadditions:item_explosion_lens>);
+craft.make(<actuallyadditions:item_explosion_lens>, ["pretty",
+  "□ O □",
+  "D L D",
+  "□ O □"], {
+  "□": <ore:lightPlateSoularium>,        # Light Soularium Plate
+  "O": <mekanism:obsidiantnt>,           # Obsidian TNT
+  "D": <cyclicmagic:ender_tnt_6>,        # Dynamite VI
+  "L": <actuallyadditions:item_misc:18>, # Lens
+});
+
+# [Lens of Certain Death] from [Lens][+3]
+AtomicReconstructor.removeRecipe(<actuallyadditions:item_damage_lens>);
+craft.make(<actuallyadditions:item_damage_lens>, ["pretty",
+  "□ S □",
+  ": L :",
+  "□ S □"], {
+  "□": <ore:lightPlateSoularium>,        # Light Soularium Plate
+  "S": <tconstruct:sword_blade>.withTag({Material: "steeleaf"}), # Steeleaf Sword Blade
+  ":": <minecraft:potion>.withTag({Potion: "cofhcore:harming4"}),# Potion of Harming
+  "L": <actuallyadditions:item_misc:18>, # Lens
+});
+
+# [Lens of Disenchanting] from [Lens][+3]
+recipes.removeByRecipeName("actuallyadditions:recipes16");
+craft.make(<actuallyadditions:item_disenchanting_lens>, ["pretty",
+  "□ E □",
+  "п L п",
+  "□ E □"], {
+  "□": <ore:plateDiamatineEmpowered>,    # Empowered Diamantine Plate
+  "E": <minecraft:enchanting_table>,     # Enchantment Table
+  "п": <ore:plateEnchanted>,             # Enchanted Plate
+  "L": <actuallyadditions:item_misc:18>, # Lens
+});
+

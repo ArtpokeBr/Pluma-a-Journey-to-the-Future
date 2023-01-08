@@ -50,6 +50,12 @@ magnesium.addFlags("GENERATE_GEAR", "GENERATE_INGOT", "GENERATE_PLATE");
 var gold = MaterialRegistry.get("gold");
 gold.addFlags("GENERATE_GEAR");
 
+var rose_gold = MaterialRegistry.get("rose_gold");
+rose_gold.addFlags("GENERATE_FOIL", "GENERATE_SPRING", "GENERATE_SPRING_SMALL");
+
+var stainless_steel = MaterialRegistry.get("stainless_steel");
+stainless_steel.addFlags("GENERATE_SPRING");
+
 var hsla_steel = MaterialRegistry.get("hsla_steel");
 hsla_steel.addFlags("GENERATE_ROTOR");
 

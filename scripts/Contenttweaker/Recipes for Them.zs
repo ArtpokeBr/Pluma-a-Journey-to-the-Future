@@ -916,3 +916,6 @@ FireCrafting.addRecipe(<contenttweaker:fiery_baykoks_essence>, <contenttweaker:b
 <contenttweaker:maligne_heart>.addTooltip(format.gray("Dropped by the Baykok"));
 
 // ======================================================================================================
+
+# [Purple Print Tooltip]
+<contenttweaker:purpleprint>.addTooltip(format.red("This only for Visualization, DO NOT TRY TO MAKE THIS RECIPE!"));

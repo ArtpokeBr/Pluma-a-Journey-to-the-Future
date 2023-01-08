@@ -40,3 +40,7 @@ AtomicReconstructor.addRecipe(<contenttweaker:glod_crystal_block>, <ore:blockGol
 //Endor Crystal Recipe
 AtomicReconstructor.addRecipe(<contenttweaker:endor_crystal>, <ore:gemEnderPearl>, 10000);
 AtomicReconstructor.addRecipe(<contenttweaker:endor_crystal_block>, <ore:blockEnderPearl>, 10000);
+
+//Prismarine with Quartzite
+AtomicReconstructor.removeRecipe(<minecraft:prismarine_shard>);
+AtomicReconstructor.addRecipe(<ore:gemPrismarine>.firstItem, <ore:gemQuartzite>, 30000);

@@ -1,0 +1,35 @@
+{
+  "name": "compactmachines3:machine-small",
+  "target-item": "compactmachines3:machine",
+  "target-meta": 1,
+  "target-count": 1,
+
+  "duration": 440,
+
+  "catalyst": "contenttweaker:endor_crystal",
+
+  "input-types": {
+    "w": { "id": "compactmachines3:wallbreakable" },
+    "i": { "id": "actuallyadditions:block_crystal",
+    "meta": 5 }
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["w","w","w"],
+      ["w","w","w"],
+      ["w","w","w"]
+    ],
+    [
+      ["w","w","w"],
+      ["w","i","w"],
+      ["w","w","w"]
+    ],
+    [
+      ["w","w","w"],
+      ["w","w","w"],
+      ["w","w","w"]
+    ]
+  ]
+}

@@ -1,18 +1,29 @@
-§a§lVersion Beta§r§f 1.8.1:
+§a§lVersion Beta§r§f 1.9:
 
 §b§lAdditions§r§f:
 
+- SimpleVoidWorld
+- Forgiving Void
+- Compact Machines
+- Reverted LogisticPipes to the latest Stable Version (the one used before was causing Crashes.)
+- Updated JEI Utilities
+- Cursor Mod
+
 §c§lRemovals§r§f:
+
+- Utility Worlds
+(unfortunatly, the way it works is a little wierd and could cause issues)
 
 §2§lFixes§r§f:
 
-- Root's Knifes now can be done before going to the nether (but there's a better version of them after you go there)
-- EnderIO's Organic Dyes can now be made before having an Alloy Smelter.
-- Fixed The Precious Metal Quest requirements.
+- Fixed Recipe of LP Power Junction.
+- Fixed Wrong Dust's in the "Process of Making Dark Steel" Questline.
+- Prismarine in the Atomic Reconstructor is now made with Quartzite instead o Quartz
+- Removed Incorrect Daylight Sensor Recipe.
+- Fixed ContentTweaker items/blocks not respecting Non Case Sentitive Enviroments (Linux)
 
 §5§lMiscellaneous§r§f:
 
-- Ported the Hand Framing tool from Nomifactory! All Original Credits go to them.
-(https://github.com/Nomifactory/Nomifactory/blob/1e754ec1a22cb150941598b3feb22083533215ae/overrides/scripts/HandFramingTool.zs)
+- Nerfed Actually Additions Lens Recipes.
+- Fully Reworked Open Computer's Recipes.
 
-- Concrete can now be casted out of the Smeltery.

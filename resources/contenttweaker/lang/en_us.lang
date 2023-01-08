@@ -10,10 +10,10 @@ tile.contenttweaker.fancybrick_stone_refined.name=Fancy Refined Stone Bricks
 tile.contenttweaker.road_stone_refined.name=Refined Road Bricks
 tile.contenttweaker.squarebrick_stone_refined.name=Refined Square Bricks
 
-tile.contenttweaker.masonBricksFelsic.name=Mason Felsic Bricks
-tile.contenttweaker.masonBricksMafic.name=Mason Mafic Bricks
-tile.contenttweaker.masonBricksMixed.name=Mason Mixed Bricks
-tile.contenttweaker.masonBricksPlain.name=Mason Plain Bricks
+tile.contenttweaker.mason_bricks_felsic.name=Mason Felsic Bricks
+tile.contenttweaker.mason_bricks_mafic.name=Mason Mafic Bricks
+tile.contenttweaker.mason_bricks_mixed.name=Mason Mixed Bricks
+tile.contenttweaker.mason_bricks_plain.name=Mason Plain Bricks
 
 tile.contenttweaker.alien_meteorite_block.name=Strange Meteorite
 
@@ -39,9 +39,9 @@ item.contenttweaker.unpreparedspaceboots.name=Unprepared Space Boots
 item.contenttweaker.etchedredalloywiring.name=Etched Red Alloy Wiring
 item.contenttweaker.etchedtriberiumwiring.name=Etched Triberium Wiring
 
-item.contenttweaker.BlankShapeCard.name=Blank Shape Card
+item.contenttweaker.blankshapecard.name=Blank Shape Card
 
-item.contenttweaker.obsidianElectrode.name=Obsidian Electrode
+item.contenttweaker.obsidianelectrode.name=Obsidian Electrode
 
 item.contenttweaker.ghasbladder.name=Ghast Bladder
 item.contenttweaker.pigmanflesh.name=Pigman Flesh
@@ -79,7 +79,7 @@ item.contenttweaker.empoweredpalisplate.name=§1Empowered Palis Plate
 
 item.contenttweaker.rawStainlessSteel.name=Unprocessed Stainless Steel Mixture
 
-item.contenttweaker.skystoneBoule.name=Sky Stone Doped Boule
+item.contenttweaker.skystoneboule.name=Sky Stone Doped Boule
 
 item.contenttweaker.thermalinsulatordust.name=Thermal Insulator Dust
 
@@ -108,13 +108,13 @@ item.contenttweaker.endermansheart.name=§5Enderman's Heart
 
 item.contenttweaker.ink_dropplet.name=Ink Dropplet
 
-item.contenttweaker.unfiredPorcelainBrick.name=Unfired Porcelain Brick
+item.contenttweaker.unfiredporcelainbrick.name=Unfired Porcelain Brick
 
-item.contenttweaker.searedPlate.name=Seared Plate
+item.contenttweaker.searedplate.name=Seared Plate
 
 item.contenttweaker.hot_iron_ingot.name=Hot Iron Ingot
 
-item.contenttweaker.saltedHide.name=Salted Hide
+item.contenttweaker.saltedhide.name=Salted Hide
 
 item.contenttweaker.blank_upgrade_module.name=Blank Upgrade Module
 
@@ -124,7 +124,7 @@ tile.contenttweaker.modular_casing.name=Modular Casing
 
 tile.contenttweaker.vanadiumsteel_casing.name=Vanadiumsteel Casing
 
-item.contenttweaker.gemMenril.name=Menril Crystal
+item.contenttweaker.gemmenril.name=Menril Crystal
 
 item.contenttweaker.soot_covered_redstone.name=Soot Covered Redstone
 
@@ -476,3 +476,5 @@ item.contenttweaker.baykoks_essence.name=Baykok's Essence
 item.contenttweaker.fiery_baykoks_essence.name=Fiery Baykok's Essence
 
 item.contenttweaker.hand_framing_tool.name=Hand Framing Tool
+
+item.contenttweaker.purpleprint.name=§5Multiblock Visualizer

@@ -1,0 +1,37 @@
+{
+	title: "A Good Place for Laggy Mobfarms or a Cool Spaceship Base!",
+	x: 3.5d,
+	y: -0.5d,
+	description: "Let's Unlock the Void Dimension!",
+	text: [
+		"As it is suggested in the title of this quest, §6this dimension§f could be very usefull if you're looking for §ba place to have your laggy setups away from you§f.",
+		"",
+		"- Also, it could be a neat place to §abetter organize your base/automations§f, since you can make it look like anything you want!",
+		"",
+		"- Oh and this §6portal§f is §bgated§f this far cause §d§oyou'll not die when falling into the void§r§f and this §6dimension§f, §3just like The End§f, has §e§nEternal Sunlight§r§f.",
+		"",
+		"§8§o~ Very Usefull for Solar Panel's and Crop Farms!§r§f"
+	],
+	dependencies: [
+		"0e0ceb7e"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "590b7de6",
+		type: "item",
+		items: [{
+			item: "simplevoidworld:portal"
+		}]
+	}],
+	rewards: [{
+		uid: "f4683418",
+		type: "item",
+		item: "enderio:block_solar_panel",
+		count: 9
+	},
+	{
+		uid: "b9b73a5c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

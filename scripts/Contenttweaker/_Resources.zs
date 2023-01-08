@@ -16,11 +16,11 @@ var parchment = VanillaFactory.createItem("parchment");
 parchment.register();
 
 //Obsidian  ================================================================================
-var obsidianElectrode = VanillaFactory.createItem("obsidianElectrode");
+var obsidianElectrode = VanillaFactory.createItem("obsidianelectrode");
 obsidianElectrode.register();
 
 // Blank Shape Card ================================================================================
-var BlankShapeCard = VanillaFactory.createItem("BlankShapeCard");
+var BlankShapeCard = VanillaFactory.createItem("blankshapecard");
 BlankShapeCard.register();
 
 ##### MorePlates Ports ######
@@ -171,7 +171,7 @@ var etchedTriberiumWiring = VanillaFactory.createItem("etchedtriberiumwiring");
 etchedTriberiumWiring.register();
 
 // Skystone Doped Boule ================================================================================
-var skystoneBoule = VanillaFactory.createItem("skystoneBoule");
+var skystoneBoule = VanillaFactory.createItem("skystoneboule");
 skystoneBoule.register();
 
 // Heavy Duty Alloy II ================================================================================
@@ -239,11 +239,11 @@ var ink_dropplet = VanillaFactory.createItem("ink_dropplet");
 ink_dropplet.register();
 
 // Unfired Porcelain Brick =================
-var unfiredPorcelainBrick = VanillaFactory.createItem("unfiredPorcelainBrick");
+var unfiredPorcelainBrick = VanillaFactory.createItem("unfiredporcelainbrick");
 unfiredPorcelainBrick.register();
 
 // Seared Plate =================
-var searedPlate = VanillaFactory.createItem("searedPlate");
+var searedPlate = VanillaFactory.createItem("searedplate");
 searedPlate.register();
 
 // Hot Iron Ingot =================
@@ -258,7 +258,7 @@ var empowered_endor_crystal = VanillaFactory.createItem("empowered_endor_crystal
 empowered_endor_crystal.register();
 
 // Salted Hide =================
-var saltedHide = VanillaFactory.createItem("saltedHide");
+var saltedHide = VanillaFactory.createItem("saltedhide");
 saltedHide.register();
 
 // Blank Upgrade Module =============
@@ -273,7 +273,7 @@ chip_composite.register();
 
 // Menril Crystal =============
 
-var gemMenril = VanillaFactory.createItem("gemMenril");
+var gemMenril = VanillaFactory.createItem("gemmenril");
 gemMenril.register();
 
 // Sooty Energetic Compound (Charged) ================================================================================
@@ -1103,6 +1103,11 @@ var fiery_baykoks_essence = VanillaFactory.createItem("fiery_baykoks_essence");
 fiery_baykoks_essence.rarity = "RARE";
 fiery_baykoks_essence.glowing = true;
 fiery_baykoks_essence.register();
+
+//Purple Print
+
+var purpleprint = VanillaFactory.createItem("purpleprint");
+purpleprint.register();
 
 print("--------------- Custom Resources End ------------------");
 

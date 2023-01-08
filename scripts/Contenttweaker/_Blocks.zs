@@ -197,7 +197,7 @@ refined_stone_square.register();
 
 // Ported from 1.7.10 Chisel
 
-var mason_bricks_1 = VanillaFactory.createBlock("masonBricksFelsic", <blockmaterial:rock>);
+var mason_bricks_1 = VanillaFactory.createBlock("mason_bricks_felsic", <blockmaterial:rock>);
 mason_bricks_1.setBlockHardness(1.5);
 mason_bricks_1.setBlockResistance(6.0);
 mason_bricks_1.setToolClass("pickaxe");
@@ -205,7 +205,7 @@ mason_bricks_1.setToolLevel(0);
 mason_bricks_1.setBlockSoundType(<soundtype:stone>);
 mason_bricks_1.register();
 
-var mason_bricks_2 = VanillaFactory.createBlock("masonBricksMafic", <blockmaterial:rock>);
+var mason_bricks_2 = VanillaFactory.createBlock("mason_bricks_mafic", <blockmaterial:rock>);
 mason_bricks_2.setBlockHardness(1.5);
 mason_bricks_2.setBlockResistance(6.0);
 mason_bricks_2.setToolClass("pickaxe");
@@ -213,7 +213,7 @@ mason_bricks_2.setToolLevel(0);
 mason_bricks_2.setBlockSoundType(<soundtype:stone>);
 mason_bricks_2.register();
 
-var mason_bricks_3 = VanillaFactory.createBlock("masonBricksMixed", <blockmaterial:rock>);
+var mason_bricks_3 = VanillaFactory.createBlock("mason_bricks_mixed", <blockmaterial:rock>);
 mason_bricks_3.setBlockHardness(1.5);
 mason_bricks_3.setBlockResistance(6.0);
 mason_bricks_3.setToolClass("pickaxe");
@@ -221,7 +221,7 @@ mason_bricks_3.setToolLevel(0);
 mason_bricks_3.setBlockSoundType(<soundtype:stone>);
 mason_bricks_3.register();
 
-var mason_bricks_4 = VanillaFactory.createBlock("masonBricksPlain", <blockmaterial:rock>);
+var mason_bricks_4 = VanillaFactory.createBlock("mason_bricks_plain", <blockmaterial:rock>);
 mason_bricks_4.setBlockHardness(1.5);
 mason_bricks_4.setBlockResistance(6.0);
 mason_bricks_4.setToolClass("pickaxe");
