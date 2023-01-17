@@ -223,7 +223,7 @@ recipes.addShaped(<enderutilities:builderswand> * 1, [[null, null, <enderutiliti
 
 // Dolly
 recipes.remove(<enderutilities:dolly>);
-recipes.addShaped(<enderutilities:dolly> * 1, [[<ore:screwSteel>, <ore:stickRedAlloy>, <ore:stickRedAlloy>], [<gregtech:meta_tool:11>, <ore:stickRedAlloy>, <ore:stickRedAlloy>],[<ore:plateDenseConstructionAlloy>, <ore:plateDenseConstructionAlloy>, <ore:gearRubber>]]);
+recipes.addShaped(<enderutilities:dolly> * 1, [[<ore:screwSteel>, <ore:stickRedAlloy>, <ore:stickRedAlloy>], [<ore:gtceScrewdrivers>, <ore:stickRedAlloy>, <ore:stickRedAlloy>],[<ore:plateDenseConstructionAlloy>, <ore:plateDenseConstructionAlloy>, <ore:gearRubber>]]);
 
 // Ender Arrow
 recipes.remove(<enderutilities:enderarrow>);

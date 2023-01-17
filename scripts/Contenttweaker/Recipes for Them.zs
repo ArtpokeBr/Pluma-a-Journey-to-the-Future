@@ -403,7 +403,25 @@ Pyre.addRecipe(
   [<twilightforest:naga_scale>, <ore:ingotSteeleaf>, <ore:carminite>, <forge:bucketfilled>.withTag({FluidName: "binnie.spirit.neutral", Amount: 1000}), <twilightforest:raven_feather>] // a list of five ingredients (no more, no less)
 );
 
-CombinationCrafting.addRecipe(<contenttweaker:blackened_spirit>, 50000, <contenttweaker:sanguine_pearl>, [<twilightforest:naga_scale>, <ore:ingotSteeleaf>, <ore:carminite>, <forge:bucketfilled>.withTag({FluidName: "binnie.spirit.neutral", Amount: 1000}), <twilightforest:raven_feather>, <contenttweaker:fire_core>]);
+# [Blackened Spirit]*8 from [Condensed Spiritus Vis Crystal][+8]
+mods.thaumcraft.Infusion.removeRecipe(<contenttweaker:blackened_spirit>);
+mods.thaumcraft.Infusion.registerRecipe(
+  "contenttweaker:blackened_spirit", # Name
+  "INFUSION", # Research
+  <contenttweaker:blackened_spirit> * 8, # Output
+  4, # Instability
+  [<aspect:spiritus> * 20, <aspect:tenebrae> * 15],
+  <contenttweaker:condensed_vis_crystal_spiritus>, # Central Item
+  Grid(["pretty",
+  "A N A",
+  "f   c",
+  "A ▬ A"], {
+  "A": <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.spirit.neutral", Amount: 1000}}), # Neutral Spirit Bottle
+  "N": <twilightforest:naga_scale>, # Naga Scale
+  "f": <twilightforest:raven_feather>,# Raven Feather
+  "c": <ore:carminite>,             # Carminite
+  "▬": <ore:ingotSteeleaf>,         # Steeleaf
+}).spiral(1));
 
 //Twilight Alchemical Powder
 Fey.addRecipe(
@@ -846,16 +864,23 @@ engraver.recipeBuilder()
     .EUt(32)
 .buildAndRegister();
 
-//Abyssal Pearl
-// TableCrafting.addShaped(2, <contenttweaker:abyssal_pearl>, [
-// 	[null, <extendedcrafting:material:2>, <ore:platePolyenderlyne>, <extendedcrafting:material:2>, null], 
-// 	[<extendedcrafting:material:2>, <contenttweaker:blackened_spirit>, <torchmaster:frozen_pearl>, <contenttweaker:blackened_spirit>, <extendedcrafting:material:2>], 
-// 	[<ore:platePolyenderlyne>, <torchmaster:frozen_pearl>, <contenttweaker:sanguine_pearl>, <torchmaster:frozen_pearl>, <ore:platePolyenderlyne>], 
-// 	[<extendedcrafting:material:2>, <contenttweaker:blackened_spirit>, <torchmaster:frozen_pearl>, <contenttweaker:blackened_spirit>, <extendedcrafting:material:2>], 
-// 	[null, <extendedcrafting:material:2>, <ore:platePolyenderlyne>, <extendedcrafting:material:2>, null]
-// ]);
-
-CombinationCrafting.addRecipe(<contenttweaker:abyssal_pearl>, 50000, <contenttweaker:sanguine_pearl>, [<contenttweaker:blackened_spirit>, <contenttweaker:blackened_spirit>, <torchmaster:frozen_pearl>, <torchmaster:frozen_pearl>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <ore:platePolyenderlyne>, <ore:platePolyenderlyne>]);
+# [Abyssal Pearl] from [Sanguine Pearl][+9]
+mods.thaumcraft.Infusion.registerRecipe(
+  "contenttweaker:abyssal_pearl", # Name
+  "INFUSION", # Research
+  <contenttweaker:abyssal_pearl>, # Output
+  16, # Instability
+  [<aspect:vitium> * 20, <aspect:infernum> * 20, <aspect:coralos> * 30, <aspect:tenebrae> * 10, ],
+  <contenttweaker:sanguine_pearl>, # Central Item
+  Grid(["pretty",
+  "□ п F",
+  "B   B",
+  "F п □"], {
+  "□": <ore:platePolyenderlyne>,               # Polyenderlyne Plate
+  "п": <extendedcrafting:material:2>,          # Black Iron Plate
+  "F": <torchmaster:frozen_pearl>.anyDamage(), # Frozen Pearl
+  "B": <contenttweaker:blackened_spirit>,      # Blackened Spirit
+}).spiral(1));
 
 # Magical Leather
 mods.thaumcraft.Crucible.registerRecipe("contenttweaker:magical_leather", "", <contenttweaker:magical_leather>, <contenttweaker:industrial_leather>, [<aspect:praecantatio> * 10, <aspect:bestia> * 5, <aspect:auram> * 5, <aspect:spiritus> * 5]);

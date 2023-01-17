@@ -1,0 +1,37 @@
+{
+	title: "A Key to another Dimension!",
+	icon: "abyssalcraft:gatewaykeydl",
+	x: 7.0d,
+	y: -1.0d,
+	description: "Time to Kill an Abyssal Dragon and Unlocked your Next Path!",
+	text: [
+		"To get a Dreaded Gateway Key, first you'll need to Summon Asorah!",
+		"",
+		"- The Eye of the Abyss has a very usefull Tooltip about this but try to make the Ritual of the Sleeper.",
+		"",
+		"§8§o(Don't forget that you'll need an Abyssal Wasteland Necronomicon for that)§r§f"
+	],
+	dependencies: [
+		"9330bc85"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "1e9310f7",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:eoa"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b54a989c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatewaykeydl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

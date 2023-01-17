@@ -14,7 +14,8 @@
 	],
 	dependencies: [
 		"c8869e9c",
-		"72d51beb"
+		"72d51beb",
+		"41b5df07"
 	],
 	min_width: 300,
 	tasks: [{

@@ -32,7 +32,7 @@ In GregTech, overclocking a machine recipe processes it in half the time but at 
 GregTech multiblocks are very modular.
 GregTech Cables can be used to transfer both RF and EU! this means that you should only need converters for RF -> EU.
 Always take care of your machines, they need Love and Maintenance.
-When using Water Tanks, always pay attention to the Humidity of your current biome, this affects its production rate.
+When using Primitive Water Pumps, always pay attention to the Humidity of your current biome, this affects its production rate.
 Enjoy your Stay, don't rush things!
 Need Help? Head to our Discord (Link in the Menu)!
 Want to Help the Dev? Head to Github and open an Issue today!

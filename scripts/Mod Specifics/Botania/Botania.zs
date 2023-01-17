@@ -484,9 +484,27 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
   "◙": <ore:frameGtManasteel>,           # Manasteel Frame Box
 }).shaped());
 
-// Terrestrial Agglomeration Plate
+# [Terrestrial Agglomeration Plate] from [Aquatic Core][+11]
 recipes.remove(<botania:terraplate>);
-recipes.addShaped(<botania:terraplate> * 1, [[<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>], [<contenttweaker:rune_of_water>, <contenttweaker:aquatic_core>, <contenttweaker:rune_of_fire>],[<contenttweaker:rune_of_earth>, <contenttweaker:rune_of_mana>, <contenttweaker:rune_of_air>]]);
+mods.thaumcraft.Infusion.registerRecipe(
+  "botania:terraplate", # Name
+  "INFUSION", # Research
+  <botania:terraplate>, # Output
+  4, # Instability
+  [<aspect:praecantatio> * 40, <aspect:ventus> * 20, <aspect:metallum> * 30, <aspect:terra> * 50],
+  <contenttweaker:gusty_core>, # Central Item
+  Grid(["pretty",
+  "□ ◙ □",
+  "n   e",
+  "○ u R"], {
+  "□": <ore:plateLapis>,               # Lapis Plate
+  "◙": <ore:gemExquisiteLapis>,        # Exquisite Lapis
+  "n": <contenttweaker:rune_of_water>, # Rune of Water
+  "e": <contenttweaker:rune_of_fire>,  # Rune of Fire
+  "○": <contenttweaker:rune_of_earth>, # Rune of Earth
+  "u": <contenttweaker:rune_of_mana>,  # Rune of Mana
+  "R": <contenttweaker:rune_of_air>,   # Rune of Air
+}).spiral(1));
 
 //Mana Bottle
 canner.recipeBuilder()

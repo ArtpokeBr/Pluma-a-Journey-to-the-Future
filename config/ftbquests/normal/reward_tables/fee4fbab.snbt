@@ -15,121 +15,149 @@
 		},
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
-		}
+		},
+		Count: 1b
 	},
 	loot_size: 1,
 	use_title: true,
 	rewards: [{
 		item: {
-			id: "gregtech:meta_tool",
-			Damage: 5s,
+			id: "gregtech:saw",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "bronze",
+					MaxDurability: 192,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: -2.6f,
+					HarvestLevel: 2
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					HarvestIce: 1b
+				},
 				RepairCost: 1,
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
 			}
 		}
 	},
 	{
 		item: {
-			id: "gregtech:meta_tool",
-			Damage: 6s,
+			id: "gregtech:hammer",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "bronze",
+					MaxDurability: 192,
+					Durability: 0,
+					ToolSpeed: 7.0f,
+					HarvestLevel: 2,
+					AttackDamage: 3.0f,
+					AttackSpeed: -2.8f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {},
 				RepairCost: 1,
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
 			}
 		}
 	},
 	{
 		item: {
-			id: "gregtech:meta_tool",
-			Damage: 8s,
+			id: "gregtech:wrench",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "bronze",
+					MaxDurability: 192,
+					Durability: 0,
+					ToolSpeed: 7.0f,
+					HarvestLevel: 2,
+					AttackDamage: 3.0f,
+					AttackSpeed: -2.8f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {},
 				RepairCost: 1,
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
 			}
 		}
 	},
 	{
 		item: {
-			id: "gregtech:meta_tool",
-			Damage: 9s,
+			id: "gregtech:file",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "bronze",
+					MaxDurability: 192,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {},
 				RepairCost: 1,
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
 			}
 		}
 	},
 	{
 		item: {
-			id: "gregtech:meta_tool",
-			Damage: 11s,
+			id: "gregtech:screwdriver",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "bronze",
+					MaxDurability: 192,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: 3.0f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {},
 				RepairCost: 1,
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
 			}
 		}
 	},
 	{
 		item: {
-			id: "gregtech:meta_tool",
-			Damage: 13s,
+			id: "gregtech:wire_cutter",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "bronze",
+					MaxDurability: 192,
+					Durability: 0,
+					ToolSpeed: 7.0f,
+					HarvestLevel: 2,
+					AttackDamage: 1.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {},
 				RepairCost: 1,
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
 			}
 		}
 	}]

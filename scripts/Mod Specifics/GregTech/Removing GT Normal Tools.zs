@@ -2,11 +2,11 @@ import crafttweaker.item.IItemStack;
 
 var GTToolsRemoved as IItemStack[] = [
 //Tconstruct    
-<gregtech:meta_tool>.withEmptyTag(), //Sword
-<gregtech:meta_tool:1>.withEmptyTag(), //Pickaxe
-<gregtech:meta_tool:2>.withEmptyTag(), //Shovel
-<gregtech:meta_tool:3>.withEmptyTag(), //Axe
-<gregtech:meta_tool:4>.withEmptyTag(), //Hoe
+<gregtech:sword>.withEmptyTag(), //Sword
+<gregtech:pickaxe>.withEmptyTag(), //Pickaxe
+<gregtech:shovel>.withEmptyTag(), //Shovel
+<gregtech:axe>.withEmptyTag(), //Axe
+<gregtech:hoe>.withEmptyTag(), //Hoe
 //<gregtech:meta_tool:19>.withEmptyTag() //Mining Hammer
         ];
 for item in GTToolsRemoved {

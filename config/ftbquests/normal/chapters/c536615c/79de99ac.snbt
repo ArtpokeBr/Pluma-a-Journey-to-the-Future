@@ -4,18 +4,19 @@
 	y: -12.0d,
 	description: "Another Nether Mining Expedition",
 	text: [
-		"Diodes will be necessary for more advanced Circuits and well... they require a little work!",
+		"§6Diodes§f will be necessary for §eAdvanced Circuits§f and well... they require a little work!",
 		"",
-		"- Mine some Sphalerite and use a Similar Process like you've done for Zinc, but to get some Gallium!",
+		"- §aMine§f some §3Sphalerite§f and use a §dsimilar processing method§f, §9just like§f the one that you've done for §9Zinc§f, but to get some §bGallium§f!",
 		"",
-		"- Also Mine some Realgar, you'll need to Centrifuge it to get some Arsenic dust's.",
+		"- Also §aMine§f some §cRealgar§f, you'll need to §6Centrifuge it§f to get some §3Arsenic§f.",
 		"",
-		"Once all its collected, you'll be able to mix both dusts into Gallium Arsenide!"
+		"Once all its collected, you'll be able to §amix both dusts§f into §6§nGallium Arsenide§r§f!"
 	],
 	dependencies: [
 		"8b8ed045"
 	],
 	size: 1.5d,
+	min_width: 250,
 	tasks: [{
 		uid: "576e5389",
 		type: "item",

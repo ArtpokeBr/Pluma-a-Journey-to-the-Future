@@ -1,11 +1,6 @@
 {
 	title: "A Crafting Table from the Stars!",
-	icon: {
-		id: "astralsorcery:blockaltar",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "astralsorcery:blockaltar",
 	x: -6.0d,
 	y: -7.0d,
 	description: "Time to use Stars to craft materials and blocks!",
@@ -18,7 +13,8 @@
 	],
 	dependencies: [
 		"1cc50779",
-		"7e704fa5"
+		"7e704fa5",
+		"41b5df07"
 	],
 	min_width: 300,
 	tasks: [{

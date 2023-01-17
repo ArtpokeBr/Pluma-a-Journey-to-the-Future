@@ -18,11 +18,11 @@ import mods.gregtech.recipe.RecipeMap;
 
 // Mortar Tools being made with Flint Shards
 
-recipes.remove(<gregtech:meta_tool:12>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
-recipes.remove(<gregtech:meta_tool:15>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
+recipes.remove(<gregtech:mortar>.withTag({DisallowContainerItem: 0 as byte, "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 64, AttackDamage: 0.0 as float, Durability: 0, Material: "flint", HarvestLevel: 1, AttackSpeed: -2.4 as float}}));
+recipes.remove(<gregtech:knife>.withTag({DisallowContainerItem: 0 as byte, ench: [{lvl: 2 as short, id: 20}], "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 64, AttackDamage: 1.0 as float, Durability: 0, Material: "flint", AttackSpeed: 3.0 as float}}));
 
-recipes.addShaped(<gregtech:meta_tool:12>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}) * 1, [[null, <pyrotech:material:10>, null], [<ore:stone>, <pyrotech:material:10>, <ore:stone>],[<ore:stone>, <ore:stone>, <ore:stone>]]);
-recipes.addShapeless("GTFlintKnife",<gregtech:meta_tool:15>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}),[<pyrotech:material:10>, <ore:stickWood>]);
+recipes.addShaped(<gregtech:mortar>.withTag({DisallowContainerItem: 0 as byte, "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 64, AttackDamage: 0.0 as float, Durability: 0, Material: "flint", HarvestLevel: 1, AttackSpeed: -2.4 as float}}) * 1, [[null, <pyrotech:material:10>, null], [<ore:stone>, <pyrotech:material:10>, <ore:stone>],[<ore:stone>, <ore:stone>, <ore:stone>]]);
+recipes.addShapeless("GTFlintKnife",<gregtech:knife>.withTag({DisallowContainerItem: 0 as byte, ench: [{lvl: 2 as short, id: 20}], "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 64, AttackDamage: 1.0 as float, Durability: 0, Material: "flint", AttackSpeed: 3.0 as float}}),[<pyrotech:material:10>, <ore:stickWood>]);
 
 
 // Early Game Concrete
@@ -223,7 +223,7 @@ centrifuge.recipeBuilder()
 
 // Wooden Crate
 recipes.remove(<gregtech:machine:1625>);
-assembler.findRecipe(16, [<ore:plankWood>.firstItem*4,<gregtech:meta_screw:51>*4,<metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
+<recipemap:assembler>.findRecipe(16, [<metaitem:plateWood> * 4, <metaitem:screwIron> * 4, <metaitem:circuit.integrated>.withTag({Configuration: 5})], null).remove();
 
 recipes.addShaped(<gregtech:machine:1625> * 1, [[<ore:screwIron>, <ore:plankTreatedWood>, <ore:screwIron>], [<ore:plankTreatedWood>, <ore:gtceSaws>, <ore:plankTreatedWood>],[<ore:screwIron>, <ore:plankTreatedWood>, <ore:screwIron>]]);
 
@@ -545,3 +545,89 @@ extractor.recipeBuilder()
     .duration(200)
     .EUt(16)
 .buildAndRegister();
+
+# [Paper Processing Rework] ===================================================================================
+
+<recipemap:chemical_bath>.findRecipe(7, [<minecraft:reeds:0>], [<liquid:water> * 100]).remove();
+<recipemap:chemical_bath>.findRecipe(7, [<minecraft:reeds:0>], [<liquid:distilled_water> * 100]).remove();
+<recipemap:chemical_bath>.findRecipe(4, [<metaitem:dustWood>], [<liquid:water> * 100]).remove();
+<recipemap:chemical_bath>.findRecipe(4, [<metaitem:dustWood>], [<liquid:distilled_water> * 100]).remove();
+<recipemap:chemical_bath>.findRecipe(4, [<metaitem:dustPaper>], [<liquid:water> * 100]).remove();
+<recipemap:chemical_bath>.findRecipe(4, [<metaitem:dustPaper>], [<liquid:distilled_water> * 100]).remove();
+
+//Making Pulp
+chemical_bath.recipeBuilder()
+    .inputs(<ore:sugarcane>)
+    .fluidInputs(<liquid:water> * 100)
+    .outputs(<pyrotech:material:25>)
+    .duration(120)
+    .EUt(7)
+.buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<ore:sugarcane>)
+    .fluidInputs(<liquid:distilled_water> * 100)
+    .outputs(<pyrotech:material:25>)
+    .duration(120)
+    .EUt(7)
+.buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<ore:dustPaper>)
+    .fluidInputs(<liquid:water> * 100)
+    .outputs(<pyrotech:material:25>)
+    .duration(120)
+    .EUt(7)
+.buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<ore:dustPaper>)
+    .fluidInputs(<liquid:distilled_water> * 100)
+    .outputs(<pyrotech:material:25>)
+    .duration(120)
+    .EUt(7)
+.buildAndRegister();
+
+// chemical_bath.recipeBuilder()
+//     .inputs(<ore:dustWood>)
+//     .fluidInputs(<liquid:water> * 100)
+//     .outputs(<pyrotech:material:25>)
+//     .duration(120)
+//     .EUt(7)
+// .buildAndRegister();
+
+// chemical_bath.recipeBuilder()
+//     .inputs(<ore:dustWood>)
+//     .fluidInputs(<liquid:distilled_water> * 100)
+//     .outputs(<pyrotech:material:25>)
+//     .duration(120)
+//     .EUt(7)
+// .buildAndRegister();
+
+// chemical_bath.recipeBuilder()
+//     .inputs(<pyrotech:rock:7>)
+//     .fluidInputs(<liquid:water> * 100)
+//     .outputs(<pyrotech:material:25>)
+//     .duration(120)
+//     .EUt(7)
+// .buildAndRegister();
+
+// chemical_bath.recipeBuilder()
+//     .inputs(<pyrotech:rock:7>)
+//     .fluidInputs(<liquid:distilled_water> * 100)
+//     .outputs(<pyrotech:material:25>)
+//     .duration(120)
+//     .EUt(7)
+// .buildAndRegister();
+
+// ==== //
+
+//Extracting Pulp into Paper
+extractor.recipeBuilder()
+    .inputs(<pyrotech:material:25>)
+    .outputs(<minecraft:paper>)
+    .duration(120)
+    .EUt(8)
+.buildAndRegister();
+
+/// =========================================================================================================

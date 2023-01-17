@@ -66,7 +66,15 @@ var castsAndCasters as IItemStack[IIngredient] = {
     <gregtech:meta_ingot:260>: <tconstruct:cast_custom>, //Bronze Ingot
     <gregtech:meta_nugget:260>: <tconstruct:cast_custom:1>, //Bronze Nugget
     //<minecraft:emerald>: <tconstruct:cast_custom:2>,
-    <gregtech:meta_plate:260>: <tconstruct:cast_custom:3> //Bronze Plate
+    <gregtech:meta_plate:260>: <tconstruct:cast_custom:3>, //Bronze Plate
+    <conarm:leggings_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:leggings_core"}),
+    <conarm:boots_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:boots_core"}),
+    <conarm:chest_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:chest_core"}),
+    <conarm:armor_plate>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:armor_plate"}),
+    <conarm:armor_trim>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}),
+    <conarm:helmet_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}),
+    <plustic:pipe_piece>.withTag({Material: "steel"}) : <tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}),
+    <conarm:polishing_kit>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}),
 
     };
 for IItemStack, IIngredient in castsAndCasters {
@@ -104,3 +112,10 @@ Casting.removeBasinRecipe(<minecraft:diamond_block>);
 
 //Casting Concrete
 Casting.addBasinRecipe(<gregtech:stone_smooth:4>, null, <liquid:concrete>, 144);
+
+//Arrow Shaft Specifically
+mods.chisel.Carving.addVariation("tinkers_casts", <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_shaft"}));
+
+//Fletching Specifically
+mods.chisel.Carving.addVariation("tinkers_casts", <tconstruct:cast>.withTag({PartType: "tconstruct:fletching"}));
+Casting.removeTableRecipe(<tconstruct:cast>.withTag({PartType: "tconstruct:fletching"}), <liquid:titanium>);

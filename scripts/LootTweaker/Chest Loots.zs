@@ -231,7 +231,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 		<pyrotech:iron_butchers_knife>  			: 50,
 		<pyrotech:iron_hunters_knife>  				: 50,
 		<pyrotech:sawmill_blade_iron>  				: 25,
-		<gregtech:meta_tool_head_hammer:51>  		: 30,
+		<betterbuilderswands:wandiron>  			: 30,
 		<microblockcbe:saw_iron>  					: 45,
 		<thermalfoundation:tool.sickle_iron>  		: 20,
 		<thermalfoundation:tool.shield_iron>  		: 15,

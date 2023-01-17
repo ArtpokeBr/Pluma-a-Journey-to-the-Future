@@ -1,29 +1,33 @@
-§a§lVersion Beta§r§f 1.9:
+§a§lVersion Beta§r§f 2.0:
 
 §b§lAdditions§r§f:
 
-- SimpleVoidWorld
-- Forgiving Void
-- Compact Machines
-- Reverted LogisticPipes to the latest Stable Version (the one used before was causing Crashes.)
-- Updated JEI Utilities
-- Cursor Mod
+- ME Capability Adapter.
+- Updated ArchitectureCraft
+- Updated AE2 Extended Life
+- Updated AE2 Fluid Crafting
+- Updated GTCEU and GTCEU Multiblocks
+(Huge Update, Tool's Reworked)
+- Removed Inventory Tweaks -> Swapped with Inventory Bogosorter.
+- Added InGameInfo Blood Magic Mod.
+- Added InGameInfo Thaumcraft Mod.
+- Added Default Options Mod.
 
 §c§lRemovals§r§f:
 
-- Utility Worlds
-(unfortunatly, the way it works is a little wierd and could cause issues)
+- Inventory Tweaks (Switched to Inventory Bogosorter)
 
 §2§lFixes§r§f:
 
-- Fixed Recipe of LP Power Junction.
-- Fixed Wrong Dust's in the "Process of Making Dark Steel" Questline.
-- Prismarine in the Atomic Reconstructor is now made with Quartzite instead o Quartz
-- Removed Incorrect Daylight Sensor Recipe.
-- Fixed ContentTweaker items/blocks not respecting Non Case Sentitive Enviroments (Linux)
+- All Tinker's Cast should be craftable and Chiselable.
 
 §5§lMiscellaneous§r§f:
 
-- Nerfed Actually Additions Lens Recipes.
-- Fully Reworked Open Computer's Recipes.
+- Tweaked some Paper Processing Recipes.
+- Reduced the Size of InGameInfo Overlay. (About 0.2%)
+- Started Working on a better Magical Integration (Better and More Fun Recipes for the Magical Chapters.)
+- Now the Modpack window properly diplays the Title of the Modpack.
+- Now, when having some LP in your Network, it will be displayed in the InGameInfo Overlay.
+- Now, once you have any type of Warp, it will be displayed in the InGameInfo Overlay.
+- Added a Quest to inform the player about In Game Info.
 

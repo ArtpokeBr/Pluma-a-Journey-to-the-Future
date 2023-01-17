@@ -17,47 +17,45 @@
 		uid: "7ffc91aa",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 15s,
+			id: "gregtech:mortar",
 			tag: {
-				ench: [{
-					lvl: 2s,
-					id: 20s
-				}],
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
-					AttackDamage: 2.0f,
+				DisallowContainerItem: 0b,
+				GT.Tool: {
 					Material: "flint",
-					HarvestLevel: 1
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+					MaxDurability: 64,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_damage: true
 	},
 	{
 		uid: "19203811",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 12s,
+			id: "gregtech:knife",
 			tag: {
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
-					AttackDamage: 2.0f,
+				DisallowContainerItem: 0b,
+				GT.Tool: {
 					Material: "flint",
-					HarvestLevel: 1
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+					MaxDurability: 64,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: 3.0f
+				},
+				HideFlags: 2,
+				ench: [{
+					id: 20,
+					lvl: 2s
+				}],
+				GT.Behaviours: {}
 			}
 		}],
-		ignore_nbt: 1b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "8bbb64d0",

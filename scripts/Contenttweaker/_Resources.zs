@@ -1109,5 +1109,10 @@ fiery_baykoks_essence.register();
 var purpleprint = VanillaFactory.createItem("purpleprint");
 purpleprint.register();
 
+//Base Focal Sphere
+
+var base_focal_sphere = VanillaFactory.createItem("base_focal_sphere");
+base_focal_sphere.register();
+
 print("--------------- Custom Resources End ------------------");
 

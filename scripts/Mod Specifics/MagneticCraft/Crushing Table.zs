@@ -58,7 +58,7 @@ mods.magneticraft.CrushingTable.removeHammer(<magneticraft:stone_hammer>);
 mods.magneticraft.CrushingTable.removeHammer(<magneticraft:iron_hammer>);
 mods.magneticraft.CrushingTable.removeHammer(<magneticraft:steel_hammer>);
 
-mods.magneticraft.CrushingTable.addHammer(<gregtech:meta_tool:6>.withEmptyTag(), 3, 8, 2);
+mods.magneticraft.CrushingTable.addHammer(<gregtech:hammer>.withEmptyTag(), 3, 8, 2);
 
 ### Adding Plate Recipes ###
 

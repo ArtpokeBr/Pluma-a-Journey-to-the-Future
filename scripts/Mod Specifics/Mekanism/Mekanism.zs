@@ -666,7 +666,7 @@ recipes.addShaped(<mekanism:teleportationcore> * 1, [[<ore:plateManaQuartz>, <or
 
 // Configurator
 recipes.remove(<mekanism:configurator>);
-recipes.addShaped(<mekanism:configurator> * 1, [[null, <mekanism:energytablet>, null], [<ore:alloyAdvanced>, <gregtech:meta_tool:8>.withTag({"GT.ToolStats": {Material: "stainless_steel"}}).noReturn(), <ore:alloyAdvanced>],[null, <ore:stickLapis>, null]]);
+recipes.addShaped(<mekanism:configurator> * 1, [[null, <mekanism:energytablet>, null], [<ore:alloyAdvanced>, <gregtech:wrench>.withTag({DisallowContainerItem: 0 as byte, "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 1024, ToolSpeed: 11.0 as float, AttackDamage: 6.0 as float, Durability: 0, Material: "stainless_steel", HarvestLevel: 3, AttackSpeed: -2.8 as float}}).noReturn(), <ore:alloyAdvanced>],[null, <ore:stickLapis>, null]]);
 
 // Gas Mask
 recipes.remove(<mekanism:gasmask>);

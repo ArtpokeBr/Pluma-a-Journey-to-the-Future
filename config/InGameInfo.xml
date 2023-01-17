@@ -99,6 +99,131 @@
             </icon>
             <str> Entities: {gold}{entitiesrendered} {white}Rendered / {gold}{entitiestotal} {white}Loaded  </str>
         </line>
+        <line>
+        <str>$0</str>
+        </line>
+        <line>
+                <if>
+                    <greater>
+                        <var>bmcurrentlp</var>
+                        <num>0</num>
+                    </greater>
+                    <concat>
+                        <icon>
+                            <str>bloodmagic:textures/items/weakbloodorb.png</str>
+                            <num>0</num>
+                            <num>0</num>
+                            <num>16</num>
+                            <num>16</num>
+                            <num>16</num>
+                            <num>16</num>
+                        </icon>
+                        <str>Current Life Essence: $3{bmcurrentlp}</str>
+                    </concat>
+                    <str />
+                </if>
+        </line>
+        <line>
+            <if>
+                <greater>
+                    <add>
+                        <var>thaumwarptemp</var>
+                        <add>
+                            <var>thaumwarpnormal</var>
+                            <var>thaumwarpperm</var>
+                        </add>
+                    </add>
+                    <num>0</num>
+                </greater>
+                <concat>
+                    <icon>
+                        <str>thaumcraft:crystal_vitium</str>
+                    </icon>
+                    <str>$bTemp Warp$r: $6{thaumwarptemp} $7/$r $dNormal Warp$r: $c{thaumwarpnormal} $7/$r $d$lPerm Warp$r: $4{thaumwarpperm}</str>
+                </concat>
+                <str />
+            </if>
+        </line>
+    </lines>
+    <lines at="bottomleft">
+        <line>
+            <var>offhandicon</var>
+            <str />
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>offhanddamageleft</var>
+                    <var>offhandmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <str></str>
+            <max>
+                <var>offhanddamageleft</var>
+                <num>1</num>
+                <str> {offhanddamageleft}$f / $e{offhandmaxdamage}</str>
+                <if>
+                    <equal>
+                        <var>offhandname</var>
+                        <str></str>
+                    </equal>
+                    <str></str>
+                    <concat>
+                        <str> </str>
+                        <var>offhandname</var>
+                        <str> $7× $e</str>
+                        <var>offhandquantity</var>
+                    </concat>
+                </if>
+            </max>
+        </line>
+        <line>
+            <var>mainhandicon</var>
+            <str />
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>mainhanddamageleft</var>
+                    <var>mainhandmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <str></str>
+            <max>
+                <var>mainhanddamageleft</var>
+                <num>1</num>
+                <str> {mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
+                <if>
+                    <equal>
+                        <var>mainhandname</var>
+                        <str></str>
+                    </equal>
+                    <str></str>
+                    <concat>
+                        <str> </str>
+                        <var>mainhandname</var>
+                        <str> $7× $e</str>
+                        <var>mainhandquantity</var>
+                    </concat>
+                </if>
+            </max>
+        </line>
     </lines>
     <lines at="bottomright">
         <line>

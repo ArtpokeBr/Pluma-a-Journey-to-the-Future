@@ -1,12 +1,21 @@
 {
 	title: "All the Tools!",
 	icon: {
-		id: "gregtech:meta_tool",
-		Damage: 8s,
+		id: "gregtech:wrench",
 		tag: {
-			GT.ToolStats: {
-				Material: "bronze"
-			}
+			DisallowContainerItem: 0b,
+			GT.Tool: {
+				Material: "bronze",
+				MaxDurability: 192,
+				Durability: 0,
+				ToolSpeed: 7.0f,
+				HarvestLevel: 2,
+				AttackDamage: 3.0f,
+				AttackSpeed: -2.8f
+			},
+			HideFlags: 2,
+			GT.Behaviours: {},
+			RepairCost: 1
 		}
 	},
 	x: 13.0d,
@@ -40,6 +49,7 @@
 				}
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -60,6 +70,7 @@
 				}
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -80,6 +91,7 @@
 				}
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -100,6 +112,7 @@
 				}
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -120,6 +133,7 @@
 				}
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
@@ -140,6 +154,7 @@
 				}
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
@@ -147,20 +162,25 @@
 		type: "choice",
 		title: "Choose a Bronze Tool",
 		icon: {
-			id: "gregtech:meta_tool",
-			Damage: 9s,
+			id: "gregtech:wrench",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "bronze",
+					MaxDurability: 192,
+					Durability: 0,
+					ToolSpeed: 7.0f,
+					HarvestLevel: 2,
+					AttackDamage: 3.0f,
+					AttackSpeed: -2.8f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {},
 				RepairCost: 1,
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
 			}
 		},
 		team_reward: false,

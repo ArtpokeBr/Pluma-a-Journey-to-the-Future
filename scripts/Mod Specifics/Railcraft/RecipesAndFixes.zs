@@ -560,11 +560,11 @@ recipes.addShaped(<railcraft:track_parts> * 4, [[<ore:boltWroughtIron>, <ore:gtc
 
 // Iron Crowbar
 recipes.remove(<railcraft:tool_crowbar_iron>);
-recipes.addShapeless(<railcraft:tool_crowbar_iron>, [<gregtech:meta_tool:10>.withTag({"GT.ToolStats": {Material: "iron"}}),<ore:artisansLens>.reuse().transformDamage(10)]);
+recipes.addShapeless(<railcraft:tool_crowbar_iron>, [<gregtech:crowbar>.withTag({DisallowContainerItem: 0 as byte, "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 256, ToolSpeed: 6.0 as float, AttackDamage: 4.0 as float, Durability: 0, Material: "iron", HarvestLevel: 2, AttackSpeed: -2.4 as float}}),<ore:artisansLens>.reuse().transformDamage(10)]);
 
 // Steel Crowbar
 recipes.remove(<railcraft:tool_crowbar_steel>);
-recipes.addShapeless(<railcraft:tool_crowbar_steel>, [<gregtech:meta_tool:10>.withTag({"GT.ToolStats": {Material: "steel"}}),<ore:artisansLens>.reuse().transformDamage(10)]);
+recipes.addShapeless(<railcraft:tool_crowbar_steel>, [<gregtech:crowbar>.withTag({DisallowContainerItem: 0 as byte, "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 512, ToolSpeed: 9.0 as float, AttackDamage: 5.0 as float, Durability: 0, Material: "steel", HarvestLevel: 3, AttackSpeed: -2.4 as float}}),<ore:artisansLens>.reuse().transformDamage(10)]);
 
 recipes.removeByRecipeName("railcraft:rail#4$1");
 recipes.removeByRecipeName("railcraft:rail#4$2");

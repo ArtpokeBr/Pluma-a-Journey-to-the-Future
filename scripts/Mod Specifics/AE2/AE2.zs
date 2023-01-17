@@ -460,7 +460,7 @@ recipes.addShaped(<appliedenergistics2:crafting_storage_64k>, [[<ore:plateHslaSt
 
 # Molecular Assembler
 recipes.removeShaped(<appliedenergistics2:molecular_assembler>);
-recipes.addShapedMirrored(<appliedenergistics2:molecular_assembler>, [[<ore:plateHslaSteel>,<contenttweaker:methodology_processor>,<ore:plateHslaSteel>],[<appliedenergistics2:material:44>,<mekanism:machineblock3:5>,<appliedenergistics2:material:43>],[<ore:plateHslaSteel>,<contenttweaker:methodology_processor>,<ore:plateHslaSteel>]]);
+recipes.addShapedMirrored(<appliedenergistics2:molecular_assembler>, [[<ore:plateHslaSteel>,<contenttweaker:methodology_processor>,<ore:plateHslaSteel>],[<appliedenergistics2:material:44>,<extrautils2:crafter>,<appliedenergistics2:material:43>],[<ore:plateHslaSteel>,<contenttweaker:methodology_processor>,<ore:plateHslaSteel>]]);
 
 # Entropy Manipulator
 recipes.remove(<appliedenergistics2:entropy_manipulator>);
@@ -724,7 +724,7 @@ recipes.addShapedMirrored(<appliedenergistics2:part:341>, [[<contenttweaker:esti
 
 # ME Crafting Terminal
 recipes.remove(<appliedenergistics2:part:360>);
-recipes.addShapedMirrored(<appliedenergistics2:part:360>, [[<appliedenergistics2:material:23>,<contenttweaker:estimation_processor>,null],[<ore:ingotRedAlloy>,<mekanism:machineblock3:5>,<appliedenergistics2:part:380>],[<appliedenergistics2:material:23>,<contenttweaker:estimation_processor>,null]]);
+recipes.addShapedMirrored(<appliedenergistics2:part:360>, [[<appliedenergistics2:material:23>,<contenttweaker:estimation_processor>,null],[<ore:ingotRedAlloy>,<extrautils2:crafter>,<appliedenergistics2:part:380>],[<appliedenergistics2:material:23>,<contenttweaker:estimation_processor>,null]]);
 
 # ME Terminal
 recipes.remove(<appliedenergistics2:part:380>);

@@ -66,7 +66,7 @@ chemreactor.recipeBuilder()
 
 // Automatic Torch
 recipes.remove(<cyclicmagic:tool_auto_torch>);
-recipes.addShaped(<cyclicmagic:tool_auto_torch> * 1, [[<ore:barsIron>, <ore:springIron>, <ore:barsIron>], [<gregtech:meta_tool:6>, <torchmaster:terrain_lighter>, <gregtech:meta_tool:11>],[<ore:barsIron>, <ore:heavyPlateIron>, <ore:barsIron>]]);
+recipes.addShaped(<cyclicmagic:tool_auto_torch> * 1, [[<ore:barsIron>, <ore:springIron>, <ore:barsIron>], [<ore:gtceFiles>, <torchmaster:terrain_lighter>, <ore:gtceWrenches>],[<ore:barsIron>, <ore:heavyPlateIron>, <ore:barsIron>]]);
 
 // Torch launcher
 recipes.remove(<cyclicmagic:tool_torch_launcher>);

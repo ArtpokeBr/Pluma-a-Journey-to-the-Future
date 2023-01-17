@@ -20,7 +20,6 @@
 		"§8§o~ Follow the Next Quest for more info about this Structure!§r§f"
 	],
 	dependencies: [
-		"11cbe3a6",
 		"4f7ed011"
 	],
 	size: 1.5d,

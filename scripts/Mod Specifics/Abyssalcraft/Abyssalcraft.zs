@@ -536,3 +536,23 @@ large_chemical_reactor.recipeBuilder()
     .duration(65)
     .EUt(480)
 .buildAndRegister();
+
+# [Staff of Rending] from [Staff][+10]
+recipes.remove(<abyssalcraft:drainstaff>);
+mods.thaumcraft.Infusion.registerRecipe(
+  "abyssalcraft:drainstaff", # Name
+  "", # Research
+  <abyssalcraft:drainstaff>, # Output
+  8, # Instability
+  [<aspect:perditio> * 40, <aspect:tenebrae> * 20, <aspect:exanimis> * 15, <aspect:coralos> * 30, ],
+  <roots:staff>.withTag({}), # Central Item
+  Grid(["pretty",
+  "◊ S ◊",
+  "♦   ♦",
+  "□ B □"], {
+  "◊": <ore:gemShadow>,                   # Shadow Gem
+  "S": <abyssalcraft:oblivionshard>,      # Shard of Oblivion
+  "♦": <abyssalcraft:shadowshard>,        # Shadow Gem Shard
+  "□": <ore:plateVoid>,                   # Void Metal Plate
+  "B": <contenttweaker:blackened_spirit>, # Blackened Spirit
+}).spiral(1));
