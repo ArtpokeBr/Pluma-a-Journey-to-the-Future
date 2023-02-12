@@ -2,8 +2,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 // Basic Worktable
 recipes.remove(<artisanworktables:worktable:5>);
-recipes.addShaped(<artisanworktables:worktable:5> * 1, [[<ore:plateTreatedWood>, <ore:plateTreatedWood>, <ore:plateTreatedWood>], [<ore:gtceHardHammers>, <gregtech:machine:1647>, <ore:gtceSaws>],[<contenttweaker:searedplate>, null, <contenttweaker:searedplate>]]);
-recipes.addShaped(<artisanworktables:worktable:5> * 1, [[<ore:plateTreatedWood>, <ore:plateTreatedWood>, <ore:plateTreatedWood>], [<ore:gtceSaws>, <gregtech:machine:1647>, <ore:gtceHardHammers>],[<contenttweaker:searedplate>, null, <contenttweaker:searedplate>]]);
+recipes.addShaped(<artisanworktables:worktable:5> * 1, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:gtceHardHammers>, <gregtech:machine:1647>, <ore:gtceSaws>],[<contenttweaker:searedplate>, null, <contenttweaker:searedplate>]]);
+recipes.addShaped(<artisanworktables:worktable:5> * 1, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:gtceSaws>, <gregtech:machine:1647>, <ore:gtceHardHammers>],[<contenttweaker:searedplate>, null, <contenttweaker:searedplate>]]);
 
 // Blacksmith's Worktable
 recipes.remove(<artisanworktables:worktable:3>);
