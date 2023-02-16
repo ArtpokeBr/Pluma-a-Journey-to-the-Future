@@ -688,7 +688,7 @@ for mat, ingot in ConarmMaterials {
 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
 				.outputs(part.withTag({Material: mat}))
 				.duration(300* info[0])
-				.EUt(512)
+				.EUt(32)
 			.buildAndRegister();
 
 	}

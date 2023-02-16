@@ -1,33 +1,37 @@
-§a§lVersion Beta§r§f 2.0:
+§a§lVersion Beta§r§f 2.1:
 
-§b§lAdditions§r§f:
+HUGE Patch! thanks for all the patience, now i'am back at development! =)
 
-- ME Capability Adapter.
-- Updated ArchitectureCraft
-- Updated AE2 Extended Life
+§b§lMod Related Changes§r§f:
+
 - Updated AE2 Fluid Crafting
-- Updated GTCEU and GTCEU Multiblocks
-(Huge Update, Tool's Reworked)
-- Removed Inventory Tweaks -> Swapped with Inventory Bogosorter.
-- Added InGameInfo Blood Magic Mod.
-- Added InGameInfo Thaumcraft Mod.
-- Added Default Options Mod.
+- Updated AE2 Unofficial
+- Updated Acqua Acrobatics
+- Updated Crafttweaker
+- Updated Package Auto
+- Updated Package ExCrafting
+- Updated UniversalTweaks
+- Updated Legendary Tooltips
+- Updated Xaeros Minimap and Worldmap.
 
-§c§lRemovals§r§f:
-
-- Inventory Tweaks (Switched to Inventory Bogosorter)
+- Removed WaterControl Extreme (Implemented by UniversalTweaks)
+- Removed Custom Cursor Mod (was causing some issues for some players)
 
 §2§lFixes§r§f:
 
-- All Tinker's Cast should be craftable and Chiselable.
+- Battery Cell Cast's should now be castable.
+- Basic Worktable can now be done with Plates or Planks of Treated Wood.
+- Fixed issue that incorrectly displayed magnetic textures for Light and Heavy Plates.
+- The Whole Agar production Line doesn't require a Sterile Cleanroom (only a normal one).
+- Microprocessors and Integrated Processors can now correctly be done in HV with SOCs.
 
 §5§lMiscellaneous§r§f:
 
-- Tweaked some Paper Processing Recipes.
-- Reduced the Size of InGameInfo Overlay. (About 0.2%)
-- Started Working on a better Magical Integration (Better and More Fun Recipes for the Magical Chapters.)
-- Now the Modpack window properly diplays the Title of the Modpack.
-- Now, when having some LP in your Network, it will be displayed in the InGameInfo Overlay.
-- Now, once you have any type of Warp, it will be displayed in the InGameInfo Overlay.
-- Added a Quest to inform the player about In Game Info.
-
+- Buff to Conarm, now Tinker's Armor can be extruded at LV. suggestion by Dubl33 issue #62
+- Added tooltips to help players with Forestry/Railcraft Backpacks.
+- Added Quest and Tooltips to help players produce Tannin before Leather.
+- Now the quest "Process of Obtaining Zinc Part II" accepts and mentions the option of Using a Cauldron.
+- Adjusted some recipes of Forestry Machines and components.
+- Pressed Wax can now be done by hand.
+- Adjusted all GTCEU Crate and Drum Recipes, this should also fix the issues with crafting them.
+- Improved the capabilities of Forestry's Backpacks (more stuff can go inside of them)

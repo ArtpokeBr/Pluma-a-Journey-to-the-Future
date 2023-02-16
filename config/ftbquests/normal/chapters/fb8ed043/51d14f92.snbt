@@ -2,7 +2,7 @@
 	title: "Fermenting Liquids",
 	icon: "pyrotech:barrel",
 	x: 15.5d,
-	y: -1.5d,
+	y: -2.5d,
 	shape: "rsquare",
 	description: "Just like TerrafirmaCraft!",
 	text: [
@@ -20,7 +20,7 @@
 		"In a near §bFuture§f tho, you'll be able to §aFully Automate this process§f."
 	],
 	dependencies: [
-		"df224012"
+		"abd25309"
 	],
 	min_width: 300,
 	tasks: [{

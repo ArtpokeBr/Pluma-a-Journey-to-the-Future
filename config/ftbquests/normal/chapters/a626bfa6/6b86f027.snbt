@@ -4,11 +4,13 @@
 	y: 5.5d,
 	description: "Wash your Hands Please!",
 	text: [
-		"Now, with your Crushed Tin, it is time to set up an Ore Washer!",
+		"Now, with your Crushed Tin, it is time to set up an Ore Washer or Make a Cauldron!",
 		"",
 		"- You have a choice here, get tiny piles of Iron at a fair energy and Time Cost? or just get Tin at a cheaper Time/Energy Costs?",
 		"",
-		"- Either way, use the  Programmed Circuit that you'll receive from this Quest and choose the number needed for the desired recipe."
+		"- Either way, use the  Programmed Circuit that you'll receive from this Quest and choose the number needed for the desired recipe in he Ore Washer.",
+		"",
+		"- Or if you want a simple solution for now without using a lot of resources, you can wash them in a normal Minecraft Cauldron."
 	],
 	dependencies: [
 		"e1b80e3f"
@@ -16,8 +18,12 @@
 	tasks: [{
 		uid: "7379f570",
 		type: "item",
+		title: "An LV Ore Washer or Cauldron",
 		items: [{
 			item: "gregtech:machine 1 485"
+		},
+		{
+			item: "minecraft:cauldron"
 		}]
 	},
 	{

@@ -2,6 +2,6 @@
     "parent": "item/generated",
     "textures": {
       "layer0": "contenttweaker:items/heavy_plate",
-      "layer1": "gregtech:items/material_sets/magnetic/plate_OVERLAY"
+      "layer1": "gregtech:items/material_sets/magnetic/magnetic_overlay"
     }
 }

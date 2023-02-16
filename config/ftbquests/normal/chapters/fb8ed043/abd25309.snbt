@@ -1,0 +1,43 @@
+{
+	title: "Let's Make Mulch!",
+	icon: "pyrotech:mulch",
+	x: 15.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"For future §6Leather Processing§f, you'll need §3Tannin§f wich itself needs §eMulch§f!",
+		"",
+		"And you have §aTwo Options§f for this.",
+		"",
+		"- §3Forestry Mulch§f can easily automated with a §eMoistener§f.",
+		"",
+		"- But for now, you'll need §bPyrotech's Mulch§f!",
+		"",
+		"• And for that, you'll need first to make a §eComposting Bin§f.",
+		"",
+		"• Fill it with any §2Organic Material/Food§f and also fill it with some §9Water§f, overtime this will produce §3Mulch§f!"
+	],
+	dependencies: [
+		"df224012"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "5ede0300",
+		type: "item",
+		items: [{
+			item: "pyrotech:mulch"
+		}]
+	},
+	{
+		uid: "ee91158d",
+		type: "item",
+		items: [{
+			item: "pyrotech:compost_bin"
+		}]
+	}],
+	rewards: [{
+		uid: "d2f268b8",
+		type: "item",
+		item: "pyrotech:durable_shield"
+	}]
+}

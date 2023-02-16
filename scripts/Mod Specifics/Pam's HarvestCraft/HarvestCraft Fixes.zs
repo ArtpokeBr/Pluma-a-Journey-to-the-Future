@@ -13,6 +13,20 @@ import mods.roots.Mortar;
 recipes.removeByRecipeName("harvestcraft:beeswaxitem_x8_cropcandle");
 recipes.removeByRecipeName("harvestcraft:beeswaxitem_cropcandle");
 
+# [Pressed Wax]*2 from [GT Hammer][+1]
+craft.reshapeless(<harvestcraft:beeswaxitem> * 2, "TBBBBJ", {
+  "T": <ore:gtceHardHammers>, # GT Hammer
+  "B": <ore:itemBeeswax>, # Beeswax
+  "J": <ore:toolPot>, #Cooking Pot
+});
+
+# [Pressed Wax] from [GT Hammer][+1]
+craft.reshapeless(<harvestcraft:beeswaxitem>, "TCCCCK", {
+  "T": <ore:gtceHardHammers>, # GT Hammer
+  "C": <ore:cropCandleberry>, # Candleberry
+  "K": <ore:toolPot>, #Cooking Pot
+});
+
 compressor.recipeBuilder()
     .inputs([<ore:itemBeeswax> * 4])
     .outputs(<ore:materialPressedwax>.firstItem * 2)

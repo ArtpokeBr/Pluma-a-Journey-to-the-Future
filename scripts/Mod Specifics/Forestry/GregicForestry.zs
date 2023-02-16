@@ -486,17 +486,6 @@ assembler.recipeBuilder()
     .EUt(12)
 .buildAndRegister();
 
-//Escritoire
-Carpenter.removeRecipe(<forestry:escritoire>);
-assembler.recipeBuilder()
-    .inputs(<ore:frameGtTreatedWood>*3, <ore:plankTreatedWood>*3, <minecraft:feather>, <minecraft:dye>)
-    .property("circuit", 16)
-    .fluidInputs(<liquid:seed.oil> * 500)
-    .outputs(<forestry:escritoire>)
-    .duration(180)
-    .EUt(16)
-.buildAndRegister();
-
 // Soldering Iron
 Carpenter.removeRecipe(<forestry:soldering_iron>);
 recipes.addShaped(<forestry:soldering_iron> * 1, [[<ore:screwIron>, <ore:stickIron>, <ore:screwIron>], [<ore:stickIron>, <ore:gtceScrewdrivers>, <ore:stickIron>],[null, <ore:gtceFiles>, <harvestcraft:hardenedleatheritem>]]);

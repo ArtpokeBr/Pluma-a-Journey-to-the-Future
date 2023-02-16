@@ -6,7 +6,9 @@
 	text: [
 		"That's right, with those pretty neat §bSoC's§f that you've just obtained, perhaps it is a §2good Idea§f to improve your §6Circuit Infrastructure§f.",
 		"",
-		"- With an §6MV Circuit Assembler§f, simply use some §2components§f including those §bSoC's§f and voilá!"
+		"- With an §6HV Circuit Assembler§f, simply use some §2components§f including those §bSoC's§f and voilá!",
+		"",
+		"- You could still be using the §eMV Recipe§f for them, but, with §6SOC's§f the §doutputs really improve§f!"
 	],
 	dependencies: [
 		"27bb60ec"

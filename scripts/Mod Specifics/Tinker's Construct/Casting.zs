@@ -74,6 +74,7 @@ var castsAndCasters as IItemStack[IIngredient] = {
     <conarm:armor_trim>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}),
     <conarm:helmet_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}),
     <plustic:pipe_piece>.withTag({Material: "steel"}) : <tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}),
+    <plustic:battery_cell>.withTag({Material: "silver"}) : <tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}),
     <conarm:polishing_kit>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}),
 
     };

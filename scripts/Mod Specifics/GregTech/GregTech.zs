@@ -254,29 +254,29 @@ assembler.recipeBuilder()
 recipes.remove(<gregtech:machine:1626>);
 assembler.findRecipe(16, [<gregtech:meta_plate:260>*4,<gregtech:meta_stick_long:260>*4,<metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1626> * 1, [[<ore:stickLongBronze>, <ore:plateBronze>, <ore:stickLongBronze>], [<ore:plateBronze>, <gregtech:machine:1625>.withEmptyTag(), <ore:plateBronze>],[<ore:stickLongBronze>, <ore:plateBronze>, <ore:stickLongBronze>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateBronze>*4,<ore:stickLongBronze>*4, <gregtech:machine:1625>)
-    .outputs(<gregtech:machine:1626>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Bronze Crate] from [LV Machine Casing][+2]
+craft.make(<gregtech:machine:1626>, ["pretty",
+  "╱ ⌂ ╱",
+  "⌂ L ⌂",
+  "╱ ⌂ ╱"], {
+  "╱": <ore:stickLongBronze>, # Long Bronze Rod
+  "⌂": <ore:casingCopper>,    # Copper Casing
+  "L": <ore:LVCasing>,        # LV Machine Casing
+});
 
 // Bronze Drum
 recipes.removeByRecipeName("gregtech:bronze_drum");
 assembler.findRecipe(16, [<gregtech:meta_plate:260>*4,<gregtech:meta_stick_long:260>*2,<metaitem:circuit.integrated>.withTag({Configuration: 2})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1611> * 1, [[<ore:plateBronze>, <ore:stickLongBronze>, <ore:plateBronze>], [<ore:stickLongBronze>, <gregtech:machine:1610>, <ore:stickLongBronze>],[<ore:plateBronze>, <ore:stickLongBronze>, <ore:plateBronze>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateBronze>*4,<ore:stickLongBronze>*4, <gregtech:machine:1610>)
-    .outputs(<gregtech:machine:1611>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Bronze Drum] from [LV Machine Casing][+2]
+craft.make(<gregtech:machine:1611>, ["pretty",
+  "⌂ ╱ ⌂",
+  "╱ L ╱",
+  "⌂ ╱ ⌂"], {
+  "⌂": <ore:casingBronze>,    # Bronze Casing
+  "╱": <ore:stickLongBronze>, # Long Bronze Rod
+  "L": <ore:LVCasing>,        # LV Machine Casing
+});
 
 // ================================================ //
 
@@ -284,29 +284,29 @@ assembler.recipeBuilder()
 recipes.remove(<gregtech:machine:1627>);
 assembler.findRecipe(16, [<gregtech:meta_plate:324>*4,<gregtech:meta_stick_long:324>*4,<metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1627> * 1, [[<ore:stickLongSteel>, <ore:plateSteel>, <ore:stickLongSteel>], [<ore:plateSteel>, <gregtech:machine:1626>.withEmptyTag(), <ore:plateSteel>],[<ore:stickLongSteel>, <ore:plateSteel>, <ore:stickLongSteel>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateSteel>*4,<ore:stickLongSteel>*4, <gregtech:machine:1626>)
-    .outputs(<gregtech:machine:1627>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Steel Crate] from [LV Machine Casing][+2]
+craft.make(<gregtech:machine:1627>, ["pretty",
+  "╱ ⌂ ╱",
+  "⌂ L ⌂",
+  "╱ ⌂ ╱"], {
+  "╱": <ore:stickLongSteel>, # Long Steel Rod
+  "⌂": <ore:casingSteel>,    # Steel Casing
+  "L": <ore:LVCasing>,       # LV Machine Casing
+});
 
 // Steel Drum
 recipes.removeByRecipeName("gregtech:steel_drum");
 assembler.findRecipe(16, [<gregtech:meta_plate:324>*4,<gregtech:meta_stick_long:324>*2,<metaitem:circuit.integrated>.withTag({Configuration: 2})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1612> * 1, [[<ore:plateSteel>, <ore:stickLongSteel>, <ore:plateSteel>], [<ore:stickLongSteel>, <gregtech:machine:1611>, <ore:stickLongSteel>],[<ore:plateSteel>, <ore:stickLongSteel>, <ore:plateSteel>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateSteel>*4,<ore:stickLongSteel>*4, <gregtech:machine:1611>)
-    .outputs(<gregtech:machine:1612>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Steel Drum] from [LV Machine Casing][+2]
+craft.make(<gregtech:machine:1612>, ["pretty",
+  "⌂ ╱ ⌂",
+  "╱ L ╱",
+  "⌂ ╱ ⌂"], {
+  "⌂": <ore:casingSteel>,    # Steel Casing
+  "╱": <ore:stickLongSteel>, # Long Steel Rod
+  "L": <ore:LVCasing>,       # LV Machine Casing
+});
 
 // ================================================ //
 
@@ -314,29 +314,29 @@ assembler.recipeBuilder()
 recipes.remove(<gregtech:machine:1628>);
 assembler.findRecipe(16, [<gregtech:meta_plate:2>*4,<gregtech:meta_stick_long:2>*4,<metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1628> * 1, [[<ore:stickLongAluminium>, <ore:plateAluminium>, <ore:stickLongAluminium>], [<ore:plateAluminium>, <gregtech:machine:1627>.withEmptyTag(), <ore:plateAluminium>],[<ore:stickLongAluminium>, <ore:plateAluminium>, <ore:stickLongAluminium>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateAluminium>*4,<ore:stickLongAluminium>*4, <gregtech:machine:1627>)
-    .outputs(<gregtech:machine:1628>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Aluminium Crate] from [MV Machine Casing][+2]
+craft.make(<gregtech:machine:1628>, ["pretty",
+  "╱ ⌂ ╱",
+  "⌂ M ⌂",
+  "╱ ⌂ ╱"], {
+  "╱": <ore:stickLongAluminium>, # Long Aluminium Rod
+  "⌂": <ore:casingAluminium>,        # Aluminium Casing
+  "M": <ore:MVCasing>,           # MV Machine Casing
+});
 
 // Aluminium Drum
 recipes.removeByRecipeName("gregtech:aluminium_drum");
 assembler.findRecipe(16, [<gregtech:meta_plate:2>*4,<gregtech:meta_stick_long:2>*2,<metaitem:circuit.integrated>.withTag({Configuration: 2})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1613> * 1, [[<ore:plateAluminium>, <ore:stickLongAluminium>, <ore:plateAluminium>], [<ore:stickLongAluminium>, <gregtech:machine:1612>, <ore:stickLongAluminium>],[<ore:plateAluminium>, <ore:stickLongAluminium>, <ore:plateAluminium>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateAluminium>*4,<ore:stickLongAluminium>*4, <gregtech:machine:1612>)
-    .outputs(<gregtech:machine:1613>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Aluminium Drum] from [MV Machine Casing][+2]
+craft.make(<gregtech:machine:1613>, ["pretty",
+  "⌂ ╱ ⌂",
+  "╱ M ╱",
+  "⌂ ╱ ⌂"], {
+  "⌂": <ore:casingAluminium>,    # Aluminium Casing
+  "╱": <ore:stickLongAluminium>, # Long Aluminium Rod
+  "M": <ore:MVCasing>,           # MV Machine Casing
+});
 
 // ================================================ //
 
@@ -344,29 +344,29 @@ assembler.recipeBuilder()
 recipes.remove(<gregtech:machine:1629>);
 assembler.findRecipe(16, [<gregtech:meta_plate:323>*4,<gregtech:meta_stick_long:323>*4,<metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1629> * 1, [[<ore:stickLongStainlessSteel>, <ore:plateStainlessSteel>, <ore:stickLongStainlessSteel>], [<ore:plateStainlessSteel>, <gregtech:machine:1628>.withEmptyTag(), <ore:plateStainlessSteel>],[<ore:stickLongStainlessSteel>, <ore:plateStainlessSteel>, <ore:stickLongStainlessSteel>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateStainlessSteel>*4,<ore:stickLongStainlessSteel>*4, <gregtech:machine:1628>)
-    .outputs(<gregtech:machine:1629>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Stainless Steel Crate] from [HV Machine Casing][+2]
+craft.make(<gregtech:machine:1629>, ["pretty",
+  "╱ ⌂ ╱",
+  "⌂ H ⌂",
+  "╱ ⌂ ╱"], {
+  "╱": <ore:stickLongStainlessSteel>, # Long Stainless Steel Rod
+  "⌂": <ore:casingStainlessSteel>,    # StainlessSteel Casing
+  "H": <gregtech:machine_casing:3>,   # HV Machine Casing
+});
 
 // StainlessSteel Drum
 recipes.removeByRecipeName("gregtech:stainless_steel_drum");
 assembler.findRecipe(16, [<gregtech:meta_plate:323>*4,<gregtech:meta_stick_long:323>*2,<metaitem:circuit.integrated>.withTag({Configuration: 2})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1614> * 1, [[<ore:plateStainlessSteel>, <ore:stickLongStainlessSteel>, <ore:plateStainlessSteel>], [<ore:stickLongStainlessSteel>, <gregtech:machine:1613>, <ore:stickLongStainlessSteel>],[<ore:plateStainlessSteel>, <ore:stickLongStainlessSteel>, <ore:plateStainlessSteel>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateStainlessSteel>*4,<ore:stickLongStainlessSteel>*4, <gregtech:machine:1613>)
-    .outputs(<gregtech:machine:1614>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Stainless Steel Drum] from [HV Machine Casing][+2]
+craft.make(<gregtech:machine:1614>, ["pretty",
+  "⌂ ╱ ⌂",
+  "╱ H ╱",
+  "⌂ ╱ ⌂"], {
+  "⌂": <ore:casingStainlessSteel>,    # StainlessSteel Casing
+  "╱": <ore:stickLongStainlessSteel>, # Long Stainless Steel Rod
+  "H": <gregtech:machine_casing:3>,   # HV Machine Casing
+});
 
 // ================================================ //
 
@@ -374,30 +374,29 @@ assembler.recipeBuilder()
 recipes.remove(<gregtech:machine:1630>);
 assembler.findRecipe(16, [<gregtech:meta_plate:113>*4,<gregtech:meta_stick_long:113>*4,<metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1630> * 1, [[<ore:stickLongTitanium>, <ore:plateTitanium>, <ore:stickLongTitanium>], [<ore:plateTitanium>, <gregtech:machine:1629>.withEmptyTag(), <ore:plateTitanium>],[<ore:stickLongTitanium>, <ore:plateTitanium>, <ore:stickLongTitanium>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateTitanium>*4,<ore:stickLongTitanium>*4, <gregtech:machine:1629>)
-    .outputs(<gregtech:machine:1630>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
-
+# [Titanium Crate] from [EV Machine Casing][+2]
+craft.make(<gregtech:machine:1630>, ["pretty",
+  "╱ ⌂ ╱",
+  "⌂ E ⌂",
+  "╱ ⌂ ╱"], {
+  "╱": <ore:stickLongTitanium>,     # Long Titanium Rod
+  "⌂": <ore:casingTitanium>,        # Titanium Casing
+  "E": <gregtech:machine_casing:4>, # EV Machine Casing
+});
 
 // TungstenSteel Crate
 recipes.remove(<gregtech:machine:1631>);
 assembler.findRecipe(16, [<gregtech:meta_plate:2013>*4,<gregtech:meta_stick_long:2013>*4,<metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
 
-recipes.addShaped(<gregtech:machine:1631> * 1, [[<ore:stickLongTungstenSteel>, <ore:plateTungstenSteel>, <ore:stickLongTungstenSteel>], [<ore:plateTungstenSteel>, <gregtech:machine:1630>.withEmptyTag(), <ore:plateTungstenSteel>],[<ore:stickLongTungstenSteel>, <ore:plateTungstenSteel>, <ore:stickLongTungstenSteel>]]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:plateTungstenSteel>*4,<ore:stickLongTungstenSteel>*4, <gregtech:machine:1630>)
-    .outputs(<gregtech:machine:1631>)
-    .property("circuit", 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+# [Tungstensteel Crate] from [IV Machine Casing][+2]
+craft.make(<gregtech:machine:1631>, ["pretty",
+  "╱ ⌂ ╱",
+  "⌂ I ⌂",
+  "╱ ⌂ ╱"], {
+  "╱": <ore:stickLongTungstenSteel>, # Long Tungstensteel Rod
+  "⌂": <ore:casingTungstenSteel>,    # TungstenSteel Casing
+  "I": <gregtech:machine_casing:5>,  # IV Machine Casing
+});
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -628,6 +627,78 @@ extractor.recipeBuilder()
     .outputs(<minecraft:paper>)
     .duration(120)
     .EUt(8)
+.buildAndRegister();
+
+// ===== //
+
+// Agar Processing Line doesn't require s Sterile Cleanroon Anymore.
+
+# Collagen
+<recipemap:chemical_reactor>.findRecipe(480, [<metaitem:dustMeat>, <minecraft:dye:15>], [<liquid:sulfuric_acid> * 500]).remove();
+<recipemap:chemical_reactor>.findRecipe(480, [<metaitem:dustMeat> * 2, <minecraft:bone:0>], [<liquid:sulfuric_acid> * 1000]).remove();
+<recipemap:large_chemical_reactor>.findRecipe(480, [<metaitem:dustMeat> * 2, <minecraft:bone:0>], [<liquid:sulfuric_acid> * 1000]).remove();
+
+
+chemical_reactor.recipeBuilder()
+    .inputs(<metaitem:dustMeat>, <ore:dustBone>)
+    .fluidInputs(<liquid:sulfuric_acid> * 500)
+    .property("cleanroom", "cleanroom")
+    .outputs(<ore:dustCollagen>.firstItem)
+    .duration(3200)
+    .EUt(480)
+.buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .inputs(<metaitem:dustMeat>, <ore:bone>)
+    .fluidInputs(<liquid:sulfuric_acid> * 500)
+    .property("cleanroom", "cleanroom")
+    .outputs(<ore:dustCollagen>.firstItem*2)
+    .duration(3200)
+    .EUt(480)
+.buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .inputs(<metaitem:dustMeat>, <ore:crystalClusterCalcium>)
+    .fluidInputs(<liquid:sulfuric_acid> * 500)
+    .property("cleanroom", "cleanroom")
+    .outputs(<ore:dustCollagen>.firstItem*9)
+    .duration(3200)
+    .EUt(480)
+.buildAndRegister();
+
+# Gelatin Mixture
+<recipemap:mixer>.findRecipe(480, [<metaitem:dustCollagen> * 4], [<liquid:phosphoric_acid> * 1000, <liquid:water> * 3000]).remove();
+
+mixer.recipeBuilder()
+    .inputs(<metaitem:dustCollagen> * 4)
+    .fluidInputs(<liquid:phosphoric_acid> * 1000, <liquid:water> * 3000)
+    .property("cleanroom", "cleanroom")
+    .fluidOutputs(<liquid:gelatin_mixture>*4000)
+    .duration(3200)
+    .EUt(480)
+.buildAndRegister();
+
+# Gelatin Dust
+<recipemap:centrifuge>.findRecipe(480, null, [<liquid:gelatin_mixture> * 6000]).remove();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:gelatin_mixture> * 6000)
+    .property("cleanroom", "cleanroom")
+    .outputs(<ore:dustPhosphorus>.firstItem, <ore:dustGelatin>.firstItem*4)
+    .duration(4800)
+    .EUt(480)
+.buildAndRegister();
+
+# Agar Itself
+<recipemap:autoclave>.findRecipe(480, [<metaitem:dustGelatin>], [<liquid:distilled_water> * 1000]).remove();
+
+autoclave.recipeBuilder()
+    .inputs(<ore:dustGelatin>)
+    .fluidInputs(<liquid:distilled_water> * 1000)
+    .property("cleanroom", "cleanroom")
+    .outputs(<ore:dustAgar>.firstItem)
+    .duration(1200)
+    .EUt(480)
 .buildAndRegister();
 
 /// =========================================================================================================

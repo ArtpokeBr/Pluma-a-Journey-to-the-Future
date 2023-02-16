@@ -247,3 +247,6 @@ craft.make(<pyrotech:brick_sawmill>, ["pretty",
   "R": <pyrotech:material:5>,    # Refractory Brick
   "S": <pyrotech:stone_sawmill>, # Stone Sawmill
 });
+
+//Compostic Bin Tooltip Help
+<pyrotech:compost_bin>.addTooltip(format.white("Place ") + format.green("Organic Items/Foods ") + format.white("and ") + format.blue("Water ") + format.white("to make ") + format.yellow("Mulch."));
