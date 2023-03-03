@@ -385,17 +385,17 @@ blast_furnace.recipeBuilder()
 
 //End Steel
 blast_furnace.recipeBuilder()
-    .inputs(<ore:dustEndstone>, <ore:ingotDarkSteel>, <ore:dustSmallTungstate>)
-    .outputs(<ore:ingotEndSteel>.firstItem)
+    .inputs(<ore:dustEndstone>, <ore:ingotDarkSteel>, <ore:dustUvarovite>)
+    .outputs(<ore:ingotEndSteel>.firstItem*2)
     .property("temperature", 2700)
     .duration(400)
     .EUt(600)
 .buildAndRegister();
 
 blast_furnace.recipeBuilder()
-    .inputs(<ore:dustEndstone>, <ore:ingotDarkSteel>, <ore:dustSmallTungstate>)
+    .inputs(<ore:dustEndstone>, <ore:ingotDarkSteel>, <ore:dustUvarovite>)
     .fluidInputs(<liquid:nitrogen> * 250)
-    .outputs(<ore:ingotEndSteel>.firstItem)
+    .outputs(<ore:ingotEndSteel>.firstItem*2)
     .property("temperature", 2600)
     .duration(250)
     .EUt(512)

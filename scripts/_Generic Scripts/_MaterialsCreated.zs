@@ -680,4 +680,35 @@ val advanced_alloy = MaterialBuilder(32083, "advanced_alloy")
     .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
     .build();
 
+var thaumium = MaterialBuilder(32084, "thaumium")
+    .ingot()
+    .color(0x591f8f)
+    .components([<material:iron> * 1])
+    .flags(["DISABLE_DECOMPOSITION", "GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .iconSet("shiny")
+    .build();
+
+var voidmetal = MaterialBuilder(32085, "void")
+    .ingot()
+    .color(0x2B0051)
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .iconSet("dull")
+    .build();
+    <material:void>.setFormula("§5§kV");
+
+// var mithrillium = MaterialBuilder(32086, "mithrillium")
+//     .ingot()
+//     .color(0x39829d)
+//     .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+//     .iconSet("dull")
+//     .build();
+
+var thaumic_steel = MaterialBuilder(32087, "thaumic_steel")
+    .ingot()
+    .color(0x3e2e4d)
+    .blastTemp(3500, "LOW")
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .iconSet("dull")
+    .build();
+
 // ==============================================================================

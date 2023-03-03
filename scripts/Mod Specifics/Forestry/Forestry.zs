@@ -85,7 +85,138 @@ recipes.addShaped(<careerbees:beegun> * 1, [[<ore:screwHoneySteel>, <ore:gtceScr
 recipes.addShapeless(<ore:dustAsh>.firstItem, [<forestry:ash>]);
 furnace.addRecipe(<ore:dustAsh>.firstItem, <forestry:wood_pile>);
 
-## Backpack's Tooltips =============================
+## Backpack's Recipes and Tooltips =============================
+
+# [Apiarist's Backpack] from [Apiarist's Chest][+3]
+recipes.removeByRecipeName("forestry:backpack_bee");
+craft.make(<forestry:apiarist_bag>, ["pretty",
+  "s w s",
+  "L A L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "A": <forestry:bee_chest>,                        # Apiarist's Chest
+});
+
+# [Lepidopterist's Backpack] from [Lepidopterist's Chest][+3]
+recipes.removeByRecipeName("forestry:backpack_butterfly");
+craft.make(<forestry:lepidopterist_bag>, ["pretty",
+  "s w s",
+  "L e L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "e": <forestry:butterfly_chest>,                  # Lepidopterist's Chest
+});
+
+# [Mining Backpack] from [Iron Pickaxe Head][+3]
+recipes.removeByRecipeName("forestry:backpack_mining");
+craft.make(<forestry:miner_bag>, ["pretty",
+  "s w s",
+  "L P L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "P": <tconstruct:pick_head>.withTag({Material: "iron"}), # Iron Pickaxe Head
+});
+
+# [Digging Backpack] from [1x Compressed Clay][+3]
+recipes.removeByRecipeName("forestry:backpack_digging");
+craft.make(<forestry:digger_bag>, ["pretty",
+  "s w s",
+  "L 1 L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "1": <ore:compressed1xClay>,                      # 1x Compressed Clay
+});
+
+# [Foresting Backpack] from [Wood Pile][+3]
+recipes.removeByRecipeName("forestry:backpack_foresting");
+craft.make(<forestry:forester_bag>, ["pretty",
+  "s w s",
+  "L # L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "#": <forestry:wood_pile>,                        # Wood Pile
+});
+
+# [Hunting Backpack] from [Iron Bowlimb][+3]
+recipes.removeByRecipeName("forestry:backpack_hunting");
+craft.make(<forestry:hunter_bag>, ["pretty",
+  "s w s",
+  "L I L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "I": <tconstruct:bow_limb>.withTag({Material: "iron"}), # Iron Bowlimb
+});
+
+# [Engineer's Backpack] from [Wrench][+3]
+recipes.removeByRecipeName("forestry:backpack_adventuring");
+craft.make(<forestry:adventurer_bag>, ["pretty",
+  "s w s",
+  "L W L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "W": <forestry:wrench>,                           # Wrench
+});
+
+# [Building Backpack] from [Dark Bricks][+3]
+recipes.removeByRecipeName("forestry:backpack_building");
+craft.make(<forestry:builder_bag>, ["pretty",
+  "s w s",
+  "L D L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "D": <ceramics:clay_hard:1>,                      # Dark Bricks
+});
+
+# [Iceman's Backpack] from [White Wool][+2]
+recipes.removeByRecipeName("railcraft:backpack_iceman_t1$1");
+craft.make(<railcraft:backpack_iceman_t1>, ["pretty",
+  "s w s",
+  "L   L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+});
+
+# [Trackman's Backpack] from [Track][+3]
+recipes.removeByRecipeName("railcraft:backpack_trackman_t1$1");
+craft.make(<railcraft:backpack_trackman_t1>, ["pretty",
+  "s w s",
+  "L r L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "r": <ore:rail>,                                  # Track
+});
+
+# [Signalman Backpack] from [Signal Lamp][+3]
+recipes.removeByRecipeName("railcraft:backpack_signalman_t1$1");
+craft.make(<railcraft:backpack_signalman_t1>, ["pretty",
+  "s w s",
+  "L S L",
+  "s w s"], {
+  "s": <ore:twine>, # String
+  "w": <ore:wool>, # White Wool
+  "L": <pyrotech:material:39>,                      # Leather Strap
+  "S": <railcraft:signal_lamp>,                     # Signal Lamp
+});
 
 //Apiarist
 

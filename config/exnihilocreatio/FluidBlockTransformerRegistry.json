@@ -1,0 +1,158 @@
+[
+  {
+    "fluidName": "lava",
+    "input": "ore:dustStone",
+    "output": "chisel:basalt2:7"
+  },
+  {
+    "fluidName": "lava",
+    "input": "ore:dustArsenic",
+    "output": "pyrotech:limestone:0"
+  },
+  {
+    "fluidName": "lava",
+    "input": "gregtech:meta_dust:2023",
+    "output": "chisel:marble2:7"
+  },
+  {
+    "fluidName": "ice",
+    "input": "ore:dustStone",
+    "output": "quark:slate:0"
+  },
+  {
+    "fluidName": "lava",
+    "input": "ore:dustBrick",
+    "output": "quark:jasper:0"
+  },
+  {
+    "fluidName": "lava",
+    "input": "ore:dustBasalt",
+    "output": "railcraft:generic:8"
+  },
+  {
+    "fluidName": "lava",
+    "input": "ore:dustMarble",
+    "output": "railcraft:generic:9"
+  },
+  {
+    "fluidName": "lava",
+    "input": "ore:dustMica",
+    "output": "traverse:blue_rock"
+  },
+  {
+    "fluidName": "lava",
+    "input": "ore:dustClay",
+    "output": "traverse:red_rock"
+  },
+  {
+    "fluidName": "water",
+    "input": "ore:dust",
+    "output": "minecraft:clay:0"
+  },
+  {
+    "fluidName": "milk",
+    "input": "minecraft:brown_mushroom:0",
+    "output": "minecraft:slime:0",
+    "toSpawn": "Slime",
+    "spawnCount": 4,
+    "spawnRange": 4
+  },
+  {
+    "fluidName": "milk",
+    "input": "minecraft:red_mushroom:0",
+    "output": "minecraft:slime:0",
+    "toSpawn": "Slime",
+    "spawnCount": 4,
+    "spawnRange": 4
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:0",
+    "output": "minecraft:concrete:0"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:1",
+    "output": "minecraft:concrete:1"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:2",
+    "output": "minecraft:concrete:2"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:3",
+    "output": "minecraft:concrete:3"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:4",
+    "output": "minecraft:concrete:4"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:5",
+    "output": "minecraft:concrete:5"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:6",
+    "output": "minecraft:concrete:6"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:7",
+    "output": "minecraft:concrete:7"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:8",
+    "output": "minecraft:concrete:8"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:9",
+    "output": "minecraft:concrete:9"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:10",
+    "output": "minecraft:concrete:10"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:11",
+    "output": "minecraft:concrete:11"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:12",
+    "output": "minecraft:concrete:12"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:13",
+    "output": "minecraft:concrete:13"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:14",
+    "output": "minecraft:concrete:14"
+  },
+  {
+    "fluidName": "water",
+    "input": "minecraft:concrete_powder:15",
+    "output": "minecraft:concrete:15"
+  },
+  {
+    "fluidName": "seed.oil",
+    "input": "exnihilocreatio:hive:0",
+    "output": "exnihilocreatio:hive:1"
+  },
+  {
+    "fluidName": "seed_oil",
+    "input": "exnihilocreatio:hive:0",
+    "output": "exnihilocreatio:hive:1"
+  }
+]

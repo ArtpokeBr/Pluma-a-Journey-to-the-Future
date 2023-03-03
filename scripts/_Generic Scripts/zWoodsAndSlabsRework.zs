@@ -311,7 +311,12 @@ var Woods as IItemStack[IIngredient] = {
     };
 for IItemStack, IIngredient in Woods {
         recipes.remove(IIngredient);
+        // recipes.removeShapeless(IIngredient, [IItemStack], false);
 
+        // craft.reshapeless(IIngredient*2, "#T", {
+        //     "#": IItemStack, # Wood
+        //     "T": <ore:gtceSaws>, # Iron Saw
+        // });
 
 		saw.recipeBuilder()
 			.inputs(IItemStack)

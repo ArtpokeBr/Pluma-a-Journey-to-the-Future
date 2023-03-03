@@ -31,7 +31,7 @@ ExtendedCrafting.addShaped(2, <mbd:ender_molecular_manipulator>, [
 
 // Time Manipulator
 recipes.remove(<mbd:time_manipulator:0>);
-recipes.addShaped(<mbd:time_manipulator:0> * 1, [[<ore:stoneAncient>, <ore:plateAluminium>, <ore:stoneAncient>], [<mekanism:controlcircuit:3>, <contenttweaker:vanadiumsteel_casing:0>, <mekanism:controlcircuit:3>],[<ore:stoneAncient>, <ore:plateAluminium>, <ore:stoneAncient>]]);
+recipes.addShaped(<mbd:time_manipulator:0> * 1, [[<ore:stoneAncient>, <ore:lightPlateAluminium>, <ore:stoneAncient>], [<opencomputers:material:4>, <contenttweaker:vanadiumsteel_casing:0>, <opencomputers:material:4>],[<ore:stoneAncient>, <ore:lightPlateAluminium>, <ore:stoneAncient>]]);
 
 <mbd:time_manipulator>.addTooltip(format.white("A Machine that Manipulates §6Time Itself§f to convert items into their old §2forms§f"));
 <mbd:time_manipulator>.addTooltip(format.darkPurple(format.bold("Only Works in Anu's Castle")));

@@ -26,10 +26,6 @@ recipes.remove(<pyrotech:torch_stone>);
 recipes.addShapeless("StoneTorch",<pyrotech:torch_stone>*4,[<actuallyadditions:item_misc:11>, <ore:stickStone>]);
 recipes.addShapeless("StoneTorch1",<pyrotech:torch_stone>*4,[<actuallyadditions:item_misc:10>, <ore:stickStone>]);
 
-// Flint and Tinder using an Actual Flint
-recipes.remove(<pyrotech:flint_and_tinder>);
-recipes.addShapeless("FlintAndTinder",<pyrotech:flint_and_tinder>,[<ore:gemFlint>, <pyrotech:material:13>, <ore:rock>]);
-
 //Crushed Limestone
 macerator.recipeBuilder()
     .inputs([<ore:stoneLimestone>])
@@ -250,3 +246,24 @@ craft.make(<pyrotech:brick_sawmill>, ["pretty",
 
 //Compostic Bin Tooltip Help
 <pyrotech:compost_bin>.addTooltip(format.white("Place ") + format.green("Organic Items/Foods ") + format.white("and ") + format.blue("Water ") + format.white("to make ") + format.yellow("Mulch."));
+
+# [Refractory Glass]*4 from [Strengthened Glass][+2]
+craft.make(<pyrotech:refractory_glass> * 4, ["pretty",
+  "e R e",
+  "R G R",
+  "e R e"], {
+  "e": <pyrotech:material:4>,   # Refractory Clay
+  "R": <pyrotech:material:5>,   # Refractory Brick
+  "G": <ore:strengthenedGlass>, # Strengthened Glass
+});
+
+# [Barrel] from [Wooden Barrel][+2]
+recipes.removeByRecipeName("pyrotech:tech/basic/barrel");
+craft.make(<pyrotech:barrel>, ["pretty",
+  "T   T",
+  "T W T",
+  "T a T"], {
+  "T": <pyrotech:material:23>,          # Tarred Board
+  "W": <exnihilocreatio:block_barrel0>, # Wooden Barrel
+  "a": <pyrotech:planks_tarred>,        # Tarred Planks
+});

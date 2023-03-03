@@ -1,8 +1,8 @@
 {
 	title: "It is Time for Infusion!",
 	icon: "thaumcraft:infusion_matrix",
-	x: 5.0d,
-	y: -1.5d,
+	x: 6.75d,
+	y: 0.0d,
 	description: "Let's make a Runic Matrix!",
 	text: [
 		"Now its time for §3Thaumcraft's§f most interesting way of crafting, §dArcane Infusion§f!",
@@ -20,7 +20,8 @@
 		"§8§o~ Follow the Next Quest for more info about this Structure!§r§f"
 	],
 	dependencies: [
-		"4f7ed011"
+		"11cbe3a6",
+		"ccbd2b9e"
 	],
 	size: 1.5d,
 	min_width: 300,

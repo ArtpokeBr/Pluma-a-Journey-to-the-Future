@@ -5,6 +5,15 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.thaumcraft.Crucible;
 
+/*
+ ██████╗██████╗ ██╗   ██╗ ██████╗██╗██████╗ ██╗     ███████╗
+██╔════╝██╔══██╗██║   ██║██╔════╝██║██╔══██╗██║     ██╔════╝
+██║     ██████╔╝██║   ██║██║     ██║██████╔╝██║     █████╗  
+██║     ██╔══██╗██║   ██║██║     ██║██╔══██╗██║     ██╔══╝  
+╚██████╗██║  ██║╚██████╔╝╚██████╗██║██████╔╝███████╗███████╗
+ ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝╚═╝╚═════╝ ╚══════╝╚══════╝
+*/
+
 var CrucibleRemovals as IItemStack[] = [
 <thaumcraft:cluster:6>,
 <thaumcraft:cluster:4>,
@@ -64,3 +73,28 @@ mods.thaumcraft.Crucible.registerRecipe(
   <thaumcraft:salis_mundus>, # Input
   [<aspect:victus> * 40, <aspect:aqua> * 80, <aspect:sensus> * 4, <aspect:ordo> * 10, <aspect:imperium> * 10, <aspect:cognitio> * 40]
 );
+
+# [Alchemical Brass Ingot]
+// mods.thermalexpansion.InductionSmelter.removeRecipe(<alchemistry:ingot:30>, <thermalfoundation:material:64> * 3);
+// mods.thermalexpansion.InductionSmelter.removeRecipe(<alchemistry:ingot:30>, <thermalfoundation:material:128> * 3);
+// mods.tconstruct.Alloy.removeRecipe(<liquid:brass>);
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot:2>);
+// mods.thaumcraft.Crucible.registerRecipe("thaumcraft:brassingot", "METALLURGY@1", <thaumcraft:ingot:2>, <botania:manaresource:7>, [<aspect:instrumentum> * 10, <aspect:cognitio> * 10]);
+
+# [Thaumium Ingot]
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot>);
+mods.thaumcraft.Crucible.registerRecipe("thaumcraft:thaumiumingot", "METALLURGY@2", <ore:ingotThaumium>.firstItem, <ore:ingotBrass>.firstItem, [<aspect:praecantatio> * 10,<aspect:metallum> * 10,<aspect:alkimia> * 10,<aspect:exanimis> * 10]);
+
+# [Void Metal Ingot] from [Void Seed][+3]
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot:1>);
+mods.thaumcraft.Crucible.registerRecipe(
+  "thaumcraft:void_metal_ingot", # Name
+  "METALLURGY@2", # Research
+  <ore:ingotVoid>.firstItem, # Output
+  <thaumcraft:void_seed>, # Input
+  [<aspect:tenebrae> * 10, <aspect:exitium> * 5, <aspect:vitium> * 5, <aspect:metallum> * 15 ]
+);
+
+# Impetus Jewel
+mods.thaumcraft.Crucible.removeRecipe(<thaumicaugmentation:material:5>);
+mods.thaumcraft.Crucible.registerRecipe("thaumicaugmentation:impetus_jewel", "", <thaumicaugmentation:material:5>, <contenttweaker:impetus_crystal>, [<aspect:ordo> * 40, <aspect:potentia> * 40,<aspect:fluctus> * 10]);

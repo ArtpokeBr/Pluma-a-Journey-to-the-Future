@@ -1,14 +1,16 @@
 {
-	title: "Sluicing!",
+	title: "Sieving!",
 	x: 10.5d,
 	y: -2.0d,
-	description: "Like a Juice Box? no?",
+	description: "Pluma Skyblock Edition?",
 	text: [
-		"With a Sluice Box you'll be able to realize some needed crafts",
+		"With a §6Sieve§f you'll be able to realize some much needed §acrafts§f.",
 		"",
-		"- Remember that you also need to provide it with water for the crafting operation to occur.",
+		"- §2Remember§f that you also need to provide it with a appropiate §bMesh§f for the §acorrect recipe§f.",
 		"",
-		"- Get some Tainted Soil and Soul Sand and use them in the Sluice Box!"
+		"~ §bIn this Particular case§f, let's make a §7Flint Mesh§f.",
+		"",
+		"- Get some §5Tainted Soil§f and §dSoul Sand§f and use them in the §6Sieve§f!"
 	],
 	dependencies: [
 		"17db2348"
@@ -17,22 +19,29 @@
 		uid: "880e13f7",
 		type: "item",
 		items: [{
-			item: "magneticraft:sluice_box"
+			item: "exnihilocreatio:block_sieve"
 		}]
 	},
 	{
-		uid: "5c1247ed",
+		uid: "50fbbe46",
 		type: "item",
 		items: [{
-			item: "quark:soul_powder"
+			item: "exnihilocreatio:item_mesh 1 2"
+		}]
+	},
+	{
+		uid: "6a54a563",
+		type: "item",
+		items: [{
+			item: "contenttweaker:taintedsoildust"
 		}],
 		count: 8L
 	},
 	{
-		uid: "ef4d3211",
+		uid: "4e77b0a1",
 		type: "item",
 		items: [{
-			item: "contenttweaker:taintedsoildust"
+			item: "quark:soul_powder"
 		}],
 		count: 8L
 	}],

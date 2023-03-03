@@ -15,6 +15,7 @@
 		"- §e§nThird§r§f, Voilá! you'll obtain your desired §2material§f! but don't forget, this device consumes §bA LOT of Mana§f!"
 	],
 	dependencies: [
+		"bcdfbc37",
 		"b8622ae0"
 	],
 	size: 1.5d,

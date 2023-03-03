@@ -1,0 +1,43 @@
+{
+	title: "You're a Focal Manipulator Harry!",
+	icon: "thaumcraft:wand_workbench",
+	x: 5.0d,
+	y: 1.5d,
+	description: "A Special Table to Create Thaumcraft Spells!",
+	text: [
+		"That's correct! §3Thaumcraft§f is a §dMagic Mod§f so you'll be able to cast interesting and neat §5Spells§f with it!",
+		"",
+		"- First, make this table and make a §6Focus§f, depending on its level, you'll have acess to more §5complex spells§f.",
+		"",
+		"- Then you can simply use the §6Table's GUI§f to make any §5spell§f that you desire, there are many possibilities.",
+		"",
+		"- And don't forget to pay §cattention§f to their respective §dcost of Vis§f, its §bComplexity§f and also the fact that to craft it you'll need some §aVis Crystals§f.",
+		"",
+		"§8§o~ I Recommend the Block Ward Spell and also the Healing Spell, those are really nice sometimes... =)§r§f"
+	],
+	dependencies: [
+		"11cbe3a6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f1e13668",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	},
+	{
+		uid: "b55fb49d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18edf112",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

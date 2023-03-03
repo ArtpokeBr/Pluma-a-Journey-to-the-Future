@@ -1,0 +1,51 @@
+{
+	title: "Utility Above all!",
+	x: 8.5d,
+	y: -2.5d,
+	shape: "rsquare",
+	description: "Let's make an ExNihilo's Barrel!",
+	text: [
+		"§3ExNihilo§f will be a §areally usefull mod at this early stage§f, allowing you to produce and adquire certain resources.",
+		"",
+		"- With a §6Wodden Barrel§f, certain recipes are possible, but remember, §cyou can't store Lava§f in it.",
+		"",
+		"- But if you choose to §2invest a little bit more of resources§f and actually make a §6Stone Barrel§f, §9all recipes will be possible§f!",
+		"",
+		"§8§o~ The Barrel can be especially usefull if you want to automate a production of Building Blocks for your Base!§r§f"
+	],
+	dependencies: [
+		"a2bd8974"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "8f64a052",
+		type: "item",
+		title: "A Wodden or Stone Barrel from ExNihilo",
+		items: [{
+			item: "exnihilocreatio:block_barrel0"
+		},
+		{
+			item: "exnihilocreatio:block_barrel1"
+		}]
+	}],
+	rewards: [{
+		uid: "68eb76af",
+		type: "item",
+		item: "exnihilocreatio:item_doll 1 7"
+	},
+	{
+		uid: "46492104",
+		type: "item",
+		item: "exnihilocreatio:item_doll 1 3"
+	},
+	{
+		uid: "aa78f245",
+		type: "item",
+		item: "exnihilocreatio:item_doll 1 1"
+	},
+	{
+		uid: "f776d2b4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

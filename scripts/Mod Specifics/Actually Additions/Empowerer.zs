@@ -52,7 +52,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empow
 mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:empowered_glod_crystal>, <contenttweaker:glod_crystal>, <minecraft:double_plant>, <gendustry:honey_drop:21>, <roots:wildewheet>, <ore:foodCheese>, 5000, 250, [0.2, 0.5, 0.5]);
 
 //Endor ===========================
-mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:empowered_endor_crystal>, <contenttweaker:endor_crystal>, <gendustry:honey_drop:16>, <roots:moonglow_leaf>, <ore:dustElectrotine>, <ore:cropJuniperberry>, 5000, 250, [0.2, 0.5, 0.5]);
+mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:empowered_endor_crystal>, <contenttweaker:endor_crystal>, <gendustry:honey_drop:16>, <roots:moonglow_leaf>, <ore:dustElectrotine>, <ore:slimeballBlue>, 5000, 250, [0.2, 0.5, 0.5]);
 
 
 /*

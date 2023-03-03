@@ -112,6 +112,18 @@ addInteraction(
     <appliedenergistics2:part:463> // FLUID
 );
 
+// Ex Nihilo
 
+// Botania Seeds (convert area of dirt/grass into target)
+
+var base_hive = <exnihilocreatio:hive:1>.withTag({display:{Name:"§r§bPlace Above the Respective Block"}});
+
+addInteraction(base_hive, <ore:treeLeaves> | <ore:logWood>, <forestry:beehives:0>);
+addInteraction(base_hive, <ore:flower>, <forestry:beehives:1>);
+addInteraction(base_hive, <ore:sand>, <forestry:beehives:2>);
+addInteraction(base_hive, <minecraft:log:3> | <ore:treeLeaves>, <forestry:beehives:3>);
+addInteraction(base_hive, <minecraft:end_stone:0>, <forestry:beehives:4>);
+addInteraction(base_hive, <minecraft:ice:0> | <minecraft:snow:0>, <forestry:beehives:5>);
+addInteraction(base_hive, <ore:dirt>, <forestry:beehives:6>);
 
 print("ENDING Item_Interaction.zs");

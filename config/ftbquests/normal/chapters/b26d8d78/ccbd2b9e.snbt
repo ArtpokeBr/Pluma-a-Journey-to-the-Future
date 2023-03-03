@@ -1,0 +1,40 @@
+{
+	title: "A Thanos Gadget to Cast Spells",
+	x: 5.0d,
+	y: -1.5d,
+	description: "Let's make a Caster's Gauntlet!",
+	text: [
+		"§8§oUnfortunatly, there's no Wand anymore in Thaumcraft...§r§f",
+		"",
+		"- But there is this §6Gauntlet§f!",
+		"",
+		"- You can use to §bCast Spells§f.",
+		"",
+		"- But §2most importantly§f, its §alike a wrench§f for certain §dThaumcraft Gadgets and Blocks§f.",
+		"",
+		"§8§o~ You'll be using it to start your Infusion Matrix for example.§r§f"
+	],
+	dependencies: [
+		"11cbe3a6",
+		"4f7ed011"
+	],
+	tasks: [{
+		uid: "5218ae30",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd8cff89",
+		type: "item",
+		item: "thaumcraft:focus_pouch"
+	},
+	{
+		uid: "877e67c8",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

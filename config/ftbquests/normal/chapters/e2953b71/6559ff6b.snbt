@@ -1,0 +1,50 @@
+{
+	title: "The Next Level of Necronomicon!",
+	x: 8.5d,
+	y: -2.5d,
+	description: "gn'th'bthnk llll abyssal r'luhhor!",
+	text: [
+		"By mixing some §3Abyssal Wasteland's Materials§f, you find yourself a §abrand new§f and §9improved§f version of a §cNecronomicon§f.",
+		"",
+		"- §eTime for an Upgrade§f! its internal §5PE Storage§f will be §5increased§f and you'll have acess to more §bAbyssal Knowledge§f."
+	],
+	dependencies: [
+		"143d6108"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "1e41e956",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon_cor",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6c67052",
+		type: "item",
+		item: {
+			id: "thermalexpansion:tank",
+			tag: {
+				Creative: 0b,
+				Level: 0b,
+				RSControl: 0b,
+				Fluid: {
+					FluidName: "liquidcoralium",
+					Amount: 20000
+				},
+				Lock: 0b
+			}
+		}
+	},
+	{
+		uid: "aa446d22",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

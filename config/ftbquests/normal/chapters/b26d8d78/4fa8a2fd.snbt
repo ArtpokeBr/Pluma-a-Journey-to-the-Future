@@ -1,0 +1,50 @@
+{
+	title: "Enhancing your Runic Matrix!",
+	x: 6.739795918367349d,
+	y: 1.5051020408163254d,
+	description: "Time to make some Infusion Stones!",
+	text: [
+		"Very Straight foward:",
+		"",
+		"- §5§nBellow each Pillar you'll be able to place one Infusion Stone§r§f.",
+		"",
+		"- Wich means, a total of §64 Possible Upgrades§f.",
+		"",
+		"- §aThe Infusion Cost Stone§f will §ddecrease the amount of essentia needed§f for recipes.",
+		"",
+		"- §9The Infusion Speed Stone§f will §eincrease the speed§f that the Infusion Matrix works."
+	],
+	dependencies: [
+		"bcdfbc37"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "a24ee9af",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_cost"
+		}]
+	},
+	{
+		uid: "b01b3c00",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_speed"
+		}]
+	}],
+	rewards: [{
+		uid: "1f705c08",
+		type: "item",
+		item: "thaumcraft:matrix_cost"
+	},
+	{
+		uid: "0a063c16",
+		type: "item",
+		item: "thaumcraft:matrix_speed"
+	},
+	{
+		uid: "6bfd7280",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

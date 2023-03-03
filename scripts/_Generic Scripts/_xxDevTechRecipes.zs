@@ -20,6 +20,7 @@ import mods.mekanism.compressor as ChemicalCompressor;
 import mods.gregtech.recipe.RecipeMap;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.thaumcraft.Crucible;
+import mods.thaumcraft.SmeltingBonus;
 
 val lightPlate = OrePrefix.getPrefix("lightPlate");
 val heavyPlate = OrePrefix.getPrefix("heavyPlate");

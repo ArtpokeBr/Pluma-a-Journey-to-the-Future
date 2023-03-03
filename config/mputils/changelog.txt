@@ -1,37 +1,36 @@
-§a§lVersion Beta§r§f 2.1:
-
-HUGE Patch! thanks for all the patience, now i'am back at development! =)
+§a§lVersion Beta§r§f 2.2:
 
 §b§lMod Related Changes§r§f:
 
-- Updated AE2 Fluid Crafting
-- Updated AE2 Unofficial
-- Updated Acqua Acrobatics
-- Updated Crafttweaker
+- Updated Inventory Bogosorter
 - Updated Package Auto
 - Updated Package ExCrafting
+- Updated AE2 Unofficial
+- Updated AE2 Fluid Crafting
+- Updated Crafttweaker
 - Updated UniversalTweaks
-- Updated Legendary Tooltips
-- Updated Xaeros Minimap and Worldmap.
+- Updated Pyrotech
+- Updated Fnar's Roguelike Dungeons.
 
-- Removed WaterControl Extreme (Implemented by UniversalTweaks)
-- Removed Custom Cursor Mod (was causing some issues for some players)
+- Added Packaged Astral
+- Added ExNihilo (Lots of new Crafting Mechanics!)
+- DJ2 Addons (Added to fix some issues and also implement mechanics from it into the pack)
+
+- Swapped RTG with its Maintained Fork RTGU. (Realistic Terrain Generation)
+- Removed Tinker's OreDictCache (functionality implemented by UniversalTweaks)
 
 §2§lFixes§r§f:
 
-- Battery Cell Cast's should now be castable.
-- Basic Worktable can now be done with Plates or Planks of Treated Wood.
-- Fixed issue that incorrectly displayed magnetic textures for Light and Heavy Plates.
-- The Whole Agar production Line doesn't require a Sterile Cleanroom (only a normal one).
-- Microprocessors and Integrated Processors can now correctly be done in HV with SOCs.
+- Flint and Tinder now requires Flint Shards instead of Flint.
+- All Quests about Forestry Bee's got converted into Checkmark Quests. (Fixes recognizing issue, but unfortunatly it isn't that fun =<)
+- Fixed Buttom on the menu not redirecting to the Pluma Issues Page.
+- Added Recipe for Refractory Glass.
+- Empowered Endor Crystals don't require cropJuniperberry anymore. now it requires Blue Slime instead.
 
 §5§lMiscellaneous§r§f:
 
-- Buff to Conarm, now Tinker's Armor can be extruded at LV. suggestion by Dubl33 issue #62
-- Added tooltips to help players with Forestry/Railcraft Backpacks.
-- Added Quest and Tooltips to help players produce Tannin before Leather.
-- Now the quest "Process of Obtaining Zinc Part II" accepts and mentions the option of Using a Cauldron.
-- Adjusted some recipes of Forestry Machines and components.
-- Pressed Wax can now be done by hand.
-- Adjusted all GTCEU Crate and Drum Recipes, this should also fix the issues with crafting them.
-- Improved the capabilities of Forestry's Backpacks (more stuff can go inside of them)
+- Added more Interesting Recipes for Package Auto.
+- Further Implemented more Recipes Related to Thaumcraft
+- Tungsten doesn't generate in The End, moved to Mars.
+- EndSteel now requires Uvarovite instead of Tungsten.
+

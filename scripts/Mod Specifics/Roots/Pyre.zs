@@ -87,14 +87,6 @@ Pyre.addRecipe(
   [<railcraft:brick_bloodstained:2>, <contenttweaker:taintedsoildust>, <quark:soul_powder>, <contenttweaker:fiery_baykoks_essence>, <ore:slimeballBlood>] // a list of five ingredients (no more, no less)
 );
 
-//Sluice Box
-recipes.remove(<magneticraft:sluice_box>);
-Pyre.addRecipe(
-  "SluiceBox",
-  <magneticraft:sluice_box>,   // the output of this recipe
-  [<magneticraft:crafting:5>, <forestry:oak_stick>, <forestry:oak_stick>, <actuallyadditions:block_misc:4>, <ore:dustArdite>] // a list of five ingredients (no more, no less)
-);
-
 //Fey Crafter
 recipes.remove(<roots:fey_crafter>);
 Pyre.addRecipe(

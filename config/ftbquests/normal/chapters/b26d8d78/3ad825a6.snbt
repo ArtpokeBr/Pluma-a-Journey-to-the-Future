@@ -1,0 +1,95 @@
+{
+	title: "Obtaining Rare Earths",
+	icon: "thaumcraft:infernal_furnace",
+	x: 5.0d,
+	y: -3.0d,
+	description: "Trough Infernal Fire and Flames!",
+	text: [
+		"Let's make an §cInfernal Furnace§f!",
+		"",
+		"- Follow the §dThaumonomicon§f for a §aStructure Guide§f.",
+		"",
+		"- And this §3Multiblock Furnace§f works in an Interesting way, Simply §9Drop the Inputs on the Hole on its top§f.",
+		"",
+		"- The §6Outputs will be processed and \"spitted\" on its front§f.",
+		"",
+		"- Once you've built it, there are some interesting §a\"upgrades\"§f to consider:",
+		"",
+		"► Use §dArcane Bellows§f for §eFaster Processing§f.",
+		"",
+		"► Place a §5Hungry Chest§f to §2Auto Collect Outputs§f."
+	],
+	dependencies: [
+		"11cbe3a6"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "93b5361d",
+		type: "item",
+		title: "Any Overworld Stone Ore from this List",
+		items: [{
+			item: "gregtech:ore_iron_0"
+		},
+		{
+			item: "gregtech:ore_gold_0"
+		},
+		{
+			item: "gregtech:ore_silver_0"
+		},
+		{
+			item: "gregtech:ore_copper_0"
+		},
+		{
+			item: "gregtech:ore_tin_0"
+		},
+		{
+			item: "gregtech:ore_lead_0"
+		}]
+	},
+	{
+		uid: "f3295cf8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nugget 1 10"
+		}]
+	},
+	{
+		uid: "5f1daa13",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 12L
+	},
+	{
+		uid: "228856b3",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_brick"
+		}],
+		count: 12L
+	},
+	{
+		uid: "a990ab86",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_bars"
+		}]
+	}],
+	rewards: [{
+		uid: "632123df",
+		type: "item",
+		item: "thaumcraft:salis_mundus"
+	},
+	{
+		uid: "ef8561f6",
+		type: "item",
+		item: "thaumcraft:hungry_chest"
+	},
+	{
+		uid: "d99a603a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

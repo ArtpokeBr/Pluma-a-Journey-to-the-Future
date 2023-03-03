@@ -1,0 +1,62 @@
+{
+	title: "Smelting Essentia",
+	icon: "thaumcraft:smelter_basic",
+	x: 6.744897959183675d,
+	y: -3.000000000000007d,
+	description: "An Important \"Aspect\" of Thaumcraft",
+	text: [
+		"Now that you have acess to §6Rare Earths§f, you can start making §bArcane Mechanisms§f and subsequentially an §6Essentia Smelter§f!",
+		"",
+		"- This one is the §3First one, very inefficient§f but its something!",
+		"",
+		"- The GUI is simple, §cfirst you'll need a solid fuel§f §8§o(like coal)§r§f then, simply §d§nchoose an item that you wish to burn into Essentia§r§f and voilá!",
+		"",
+		"- Place §eAlembics§f Above it to §dStore the Essentia§f that you've §csmelted§f.",
+		"",
+		"- Place §a3 Auxiliary Venting Ports§f to §5decrease the Amount of Flux that it is exhausted§f on each operation.",
+		"",
+		"§8§o~ I Advise you to actually start making a Thaumcraft Base in a far Biome/Dimension from your Base, specially since now you'll start producing a lot of Flux.§r§f"
+	],
+	dependencies: [
+		"3ad825a6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "24e38cba",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "07b25a24",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	},
+	{
+		uid: "fec70952",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_vent"
+		}]
+	}],
+	rewards: [{
+		uid: "94f29233",
+		type: "item",
+		item: "thaumcraft:smelter_vent",
+		count: 2
+	},
+	{
+		uid: "9330736e",
+		type: "item",
+		item: "thaumcraft:alembic",
+		random_bonus: 1
+	},
+	{
+		uid: "094b156d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

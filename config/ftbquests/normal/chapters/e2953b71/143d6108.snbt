@@ -1,0 +1,46 @@
+{
+	title: "Extracting the Essence of AbyssalCraft's Mobs!",
+	icon: "abyssalcraft:drainstaff",
+	x: 6.0d,
+	y: -2.5d,
+	description: "Let's make a Staff of Rending!",
+	text: [
+		"§6A Staff of Rending§f is an §eExpensive Staff§f but you'll be needing it in order to make your next §cNecronomicon§f.",
+		"",
+		"- Make and right click §3Abyssal Wasteland's Mobs§f  to collect their §aessence§f.",
+		"",
+		"- This could take a while, but whenever you collect §a100 Abyssal Essence§f, the staff will condense it into an §2Item§f Form.",
+		"",
+		"- §eCollect at least 1§f."
+	],
+	dependencies: [
+		"60334098"
+	],
+	hide: true,
+	tasks: [{
+		uid: "acb9a3bc",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "993a0cf5",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:essence"
+		}]
+	}],
+	rewards: [{
+		uid: "2eae1382",
+		type: "item",
+		item: "gregtech:meta_ingot 1 32085",
+		count: 8
+	},
+	{
+		uid: "7096a8e3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

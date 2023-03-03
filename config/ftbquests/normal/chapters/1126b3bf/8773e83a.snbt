@@ -15,8 +15,8 @@
 	hide_dependency_lines: true,
 	dependencies: [
 		"9ac09a4c",
-		"6794406e",
-		"a39b447c"
+		"bcdfbc37",
+		"6794406e"
 	],
 	size: 2.0d,
 	min_width: 300,

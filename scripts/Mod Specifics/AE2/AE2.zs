@@ -921,6 +921,93 @@ recipes.addShaped(<aeadditions:part.base:6>, [[null,<appliedenergistics2:materia
 recipes.remove(<aeadditions:gas_interface>);
 recipes.addShaped(<aeadditions:gas_interface>, [[<ore:empoweredGlodCrystal>,<contenttweaker:methodology_processor>,<ore:empoweredGlodCrystal>],[<appliedenergistics2:material:44>,<gregtech:machine_casing:4>,<appliedenergistics2:material:43>],[<ore:empoweredGlodCrystal>,<contenttweaker:methodology_processor>,<ore:empoweredGlodCrystal>]]);
 
+# [Packaging Component]*4 from [Eye of Ender][+3]
+recipes.removeByRecipeName("packagedauto:package_component");
+craft.make(<packagedauto:package_component> * 4, ["pretty",
+  "□ : □",
+  "c ◊ c",
+  "□ : □"], {
+  "□": <ore:lightPlateAdvancedAlloy>,           # Light Advanced Alloy Plate
+  ":": <ore:oc:materialCircuitBoardPrinted>,    # Printed Circuit Board (PCB)
+  "c": <ore:oc:circuitChip3>,                   # Microchip (Tier 3)
+  "◊": <ore:gemEnderEye> | <ore:pearlEnderEye>, # Eye of Ender
+});
+
+# [ME Packaging Component] from [Packaging Component][+4]
+recipes.removeByRecipeName("packagedauto:me_package_component");
+craft.make(<packagedauto:me_package_component>, ["pretty",
+  "□ ⌃ □",
+  "A P F",
+  "□ ⌃ □"], {
+  "□": <ore:lightPlateAdvancedAlloy>,      # Light Advanced Alloy Plate
+  "⌃": <appliedenergistics2:quartz_glass>, # Dense Quartz Glass
+  "A": <appliedenergistics2:material:44>,  # Annihilation Core
+  "P": <packagedauto:package_component>,   # Packaging Component
+  "F": <appliedenergistics2:material:43>,  # Formation Core
+});
+
+# [Packager] from [Advanced Packager III][+4]
+recipes.removeByRecipeName("packagedauto:packager");
+craft.make(<packagedauto:packager>, ["pretty",
+  "□ M □",
+  "* A *",
+  "□ S □"], {
+  "□": <ore:plateAdvancedAlloy>,            # Advanced Alloy Plate
+  "M": <packagedauto:me_package_component>, # ME Packaging Component
+  "*": <quantumflux:craftingpiece>,         # Quibit Crystal
+  "A": <gregtech:machine:503>,              # Advanced Packager III
+  "S": <threng:material:14>,                # Speculative Processor
+});
+
+# [Package Recipe Encoder] from [Database Upgrade (Tier 3)][+4]
+recipes.removeByRecipeName("packagedauto:encoder");
+craft.make(<packagedauto:encoder>, ["pretty",
+  "□ P □",
+  "C : C",
+  "□ E □"], {
+  "□": <ore:plateAdvancedAlloy>,              # Advanced Alloy Plate
+  "P": <packagedauto:package_component>,      # Packaging Component
+  "C": <avaritia:compressed_crafting_table>,  # Compressed Crafting Table
+  ":": <ore:oc:databaseUpgrade3>,             # Database Upgrade (Tier 3)
+  "E": <contenttweaker:estimation_processor>, # Estimation Processor
+});
+
+# [Unpackager] from [Advanced Packager III][+4]
+recipes.removeByRecipeName("packagedauto:unpackager");
+craft.make(<packagedauto:unpackager>, ["pretty",
+  "□ M □",
+  "* A *",
+  "□ S □"], {
+  "□": <ore:plateAdvancedAlloy>,            # Advanced Alloy Plate
+  "M": <packagedauto:me_package_component>, # ME Packaging Component
+  "*": <quantumflux:craftingpiece>,         # Quibit Crystal
+  "A": <gregtech:machine:503>,              # Advanced Packager III
+  "S": <threng:material:14>,                # Speculative Processor
+});
+
+# [Packager Extension] from [Advanced Packager III][+4]
+recipes.removeByRecipeName("packagedauto:packager_extension");
+craft.make(<packagedauto:packager_extension>, ["pretty",
+  "□ M □",
+  ": A :",
+  "□ S □"], {
+  "□": <ore:plateAdvancedAlloy>,            # Advanced Alloy Plate
+  "M": <packagedauto:me_package_component>, # ME Packaging Component
+  ":": <ore:oc:circuitChip3>,               # Microchip (Tier 3)
+  "A": <gregtech:machine:503>,              # Advanced Packager III
+  "S": <threng:material:14>,                # Speculative Processor
+});
+
+# [Package Recipe Holder]*4 from [Packaging Component][+2]
+recipes.removeByRecipeName("packagedauto:recipe_holder");
+craft.make(<packagedauto:recipe_holder> * 4, ["pretty",
+  "п □ п",
+  "□ P □",
+  "п □ п"], {
+  "п": <ore:plateAdvancedAlloy>,         # Advanced Alloy Plate
+  "□": <ore:plateAwakenedDraconium>,     # Awakened Draconium Plate
+  "P": <packagedauto:package_component>, # Packaging Component
+});
 
 
 

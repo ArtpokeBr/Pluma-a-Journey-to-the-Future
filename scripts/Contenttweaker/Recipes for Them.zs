@@ -944,3 +944,52 @@ FireCrafting.addRecipe(<contenttweaker:fiery_baykoks_essence>, <contenttweaker:b
 
 # [Purple Print Tooltip]
 <contenttweaker:purpleprint>.addTooltip(format.red("This only for Visualization, DO NOT TRY TO MAKE THIS RECIPE!"));
+
+// ======================================================================================================
+
+# Base Focal Sphere
+craft.make(<contenttweaker:base_focal_sphere>, ["pretty",
+  "□ ⌂ □",
+  "S E S",
+  "□ ⌂ □"], {
+  "□": <ore:lightPlateBorosilicateGlass>, # Light Borosilicate Glass Plate
+  "⌂": <ore:casingStainlessSteel>,        # Stainless Steel Casing
+  "S": <thaumcraft:salis_mundus>,         # Salis Mundus
+  "E": <evilcraft:blood_orb>,             # Empty Orb
+});
+
+# Primordial Fragment
+recipes.addShapeless(<contenttweaker:primordial_fragment>, [<thaumcraft:primordial_pearl>.anyDamage().transformDamage(1)]);
+recipes.addShapeless(<contenttweaker:primordial_fragment>, [<contenttweaker:goddess_pearl>.reuse()]);
+<contenttweaker:primordial_fragment>.addTooltip(format.white("Takes 1 durability of a ") + format.gold("Primordial Pearl") + format.white(" to craft."));
+
+# Unwarpification Talisman
+mods.astralsorcery.Altar.addConstellationAltarRecipe("pluma:shaped/internal/altar/unwarpification_talisman", <contenttweaker:unwarpification_talisman>, 500, 100,
+[<botania:bloodpendant>.withTag({brewKey: "thaumcraft:warpward"}),<contenttweaker:condensed_vis_crystal_caeles>,<botania:bloodpendant>.withTag({brewKey: "thaumcraft:warpward"}),
+<contenttweaker:condensed_vis_crystal_caeles>,<thaumcraft:sanity_checker>,<contenttweaker:condensed_vis_crystal_caeles>,
+<botania:bloodpendant>.withTag({brewKey: "thaumcraft:warpward"}),<contenttweaker:condensed_vis_crystal_caeles>,<botania:bloodpendant>.withTag({brewKey: "thaumcraft:warpward"}),
+<botania:brewflask>.withTag({brewKey: "thaumcraft:warpward"}),<botania:brewflask>.withTag({brewKey: "thaumcraft:warpward"}),<botania:brewflask>.withTag({brewKey: "thaumcraft:warpward"}),<botania:brewflask>.withTag({brewKey: "thaumcraft:warpward"}),
+<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>
+]);
+<contenttweaker:unwarpification_talisman>.addTooltip(format.white("Right Click to set your Thaumcraft Warp level to 0!"));
+
+# Goddess' Pearl
+// mods.alchemistry.Combiner.addRecipe(<contenttweaker:goddess_pearl>, [<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<alchemistry:ingot:42>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>]);
+<contenttweaker:goddess_pearl>.addTooltip(format.red("Does not get consumed by regular crafting."));
+<contenttweaker:goddess_pearl>.addTooltip(format.red(format.bold("WARNING: ")) + format.gray(format.bold("AE2 autocrafting consumes the item! Use an external crafter like an RFTools Crafter when using this item in your ME System!")));
+
+# Impetus Crystal
+recipes.addShapeless(<contenttweaker:impetus_crystal>, [<thaumcraft:primordial_pearl>.anyDamage().transformDamage(1),<ore:ingotVoid>.firstItem,<bloodmagic:component:4>,<contenttweaker:magical_leather>,<embers:shifting_scales>]);
+recipes.addShapeless(<contenttweaker:impetus_crystal>, [<contenttweaker:goddess_pearl>.reuse(),<ore:ingotVoid>.firstItem,<bloodmagic:component:4>,<contenttweaker:magical_leather>,<embers:shifting_scales>]);
+
+# Conducted Impetus
+recipes.addShapeless("conducted_impetus", <contenttweaker:conducted_impetus>, [<thaumicaugmentation:augment_caster_rift_energy_storage>.reuse().marked("conductor"),<contenttweaker:impetus_crystal>],
+function(out, ins, cInfo) {
+	if(ins.conductor.getCapNBT() has "Parent" && ins.conductor.getCapNBT().Parent has "energy" && ins.conductor.getCapNBT().Parent.energy has "energy" && ins.conductor.getCapNBT().Parent.energy.energy == 300) {
+		return out;
+	} else {
+		return null;
+	}
+}, null);
+<contenttweaker:conducted_impetus>.addTooltip(format.white("Requires an ") + format.lightPurple("Impetus Conductor") + format.white(" with"));
+<contenttweaker:conducted_impetus>.addTooltip(format.white("Impetus Level: ") + format.darkGreen("Maximum") + format.white("."));

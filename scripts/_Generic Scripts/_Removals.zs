@@ -320,6 +320,12 @@ var ItensRemovidos as IItemStack[] = [
 <tconstruct:slime_boots:5>,
 <tconstruct:slimesling:5>,
 
+// ExNihilo
+<exnihilocreatio:item_material:1>,
+<exnihilocreatio:block_crucible>,
+<exnihilocreatio:block_crucible:1>,
+<exnihilocreatio:block_crucible_wood>,
+
 // HarvestCraft
 <harvestcraft:waterfilter>,
 <harvestcraft:grinder>,
@@ -394,6 +400,7 @@ var ItensRemovidos as IItemStack[] = [
 //MagneticCraft
 <magneticraft:grinder>,
 <magneticraft:sieve>,
+<magneticraft:sluice_box>,
 <magneticraft:chunks>,
 <magneticraft:chunks:1>,
 <magneticraft:chunks:2>,

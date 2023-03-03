@@ -14,16 +14,5 @@
 		hover: [],
 		click: "",
 		dev: false
-	},
-	{
-		x: 10.0d,
-		y: -6.0d,
-		width: 2.0d,
-		height: 1.0d,
-		rotation: 0.0d,
-		image: "assets:pluma/quests/horizontalline.png",
-		hover: [],
-		click: "",
-		dev: false
 	}]
 }
