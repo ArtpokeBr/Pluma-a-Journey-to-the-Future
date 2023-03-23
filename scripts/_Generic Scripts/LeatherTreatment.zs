@@ -222,7 +222,7 @@ chemical_bath.recipeBuilder()
 
 chemical_bath.recipeBuilder()
     .inputs(<ore:leather>)
-    .fluidInputs(<liquid:seed.oil> * 125)
+    .fluidInputs(<liquid:seed_oil> * 125)
     .outputs(<pyrotech:material:41>)
     .duration(100)
     .EUt(20)

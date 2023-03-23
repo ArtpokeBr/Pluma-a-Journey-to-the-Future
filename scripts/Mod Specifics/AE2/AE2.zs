@@ -220,7 +220,7 @@ chemical_bath.recipeBuilder()
 recipes.remove(<threng:big_assembler:1>);
 assembler.recipeBuilder()
     .inputs([<threng:big_assembler>, <ore:rotorEnderium>, <ore:lightPlateDarkSteel> * 3])
-    .property("circuit", 22)    
+    .circuit(22)    
     .outputs(<threng:big_assembler:1>)
     .duration(80)
     .EUt(300)

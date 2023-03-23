@@ -1,7 +1,7 @@
 {
 	title: "A Special Solution for Ore Processing!",
-	x: 9.5d,
-	y: 2.5d,
+	x: 10.5d,
+	y: 3.5d,
 	description: "Time to start playing with the custom ore processing of this pack!",
 	text: [
 		"This §6Dwarven Solution§f will require more than §6Dwarven Oil§f, you'll need to start §2planting/automating§f §bMenril§f aswell.",

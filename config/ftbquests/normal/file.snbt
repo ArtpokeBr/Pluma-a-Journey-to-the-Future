@@ -5,6 +5,15 @@
 	default_autoclaim_rewards: "disabled",
 	default_quest_shape: "square",
 	default_quest_disable_jei: false,
+	emergency_items: [{
+		item: "chisel:chisel_iron"
+	},
+	{
+		item: "minecraft:sapling"
+	},
+	{
+		item: "tconstruct:edible 2 11"
+	}],
 	emergency_items_cooldown: "5m",
 	drop_loot_crates: false,
 	loot_crate_no_drop: {

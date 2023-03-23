@@ -44,6 +44,46 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<tconstruct:materials:14>)
   .create();
 
+# [Iron Toolkit] from [Block of Pigiron][+1]
+recipes.removeByRecipeName("tinkersaddons:iron_toolkit");
+craft.make(<tinkersaddons:modifier_item:1>, ["pretty",
+  "     ",
+  "□ ■ □",
+  "□ □ □"], {
+  "□": <ore:heavyPlateIron>, # Heavy Iron Plate
+  "■": <ore:blockPigiron>,   # Block of Pigiron
+});
+
+# [Gold Toolkit] from [Block of Rose Gold][+1]
+recipes.removeByRecipeName("tinkersaddons:gold_toolkit");
+craft.make(<tinkersaddons:modifier_item:2>, ["pretty",
+  "     ",
+  "□ ■ □",
+  "□ □ □"], {
+  "□": <ore:heavyPlateArdite>, # Heavy Ardite Plate
+  "■": <ore:blockRoseGold>,    # Block of Rose Gold
+});
+
+# [Diamond Toolkit] from [Block of Mana Diamond][+1]
+recipes.removeByRecipeName("tinkersaddons:diamond_toolkit");
+craft.make(<tinkersaddons:modifier_item:3>, ["pretty",
+  "     ",
+  "□ ■ □",
+  "□ □ □"], {
+  "□": <ore:heavyPlateMenril>, # Heavy Menril Plate
+  "■": <botania:storage:3>,    # Block of Mana Diamond
+});
+
+# [Ender Toolkit] from [Empowered Endor Crystal Block][+1]
+recipes.removeByRecipeName("tinkersaddons:ender_toolkit");
+craft.make(<tinkersaddons:modifier_item:4>, ["pretty",
+  "     ",
+  "□ * □",
+  "□ □ □"], {
+  "□": <ore:heavyPlateCobaltSteel>,      # Heavy Cobalt Steel Plate
+  "*": <ore:empoweredBlockEndorCrystal>, # Empowered Endor Crystal Block
+});
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
 //			Tinker's Construct Smeltery                                                                                                      //

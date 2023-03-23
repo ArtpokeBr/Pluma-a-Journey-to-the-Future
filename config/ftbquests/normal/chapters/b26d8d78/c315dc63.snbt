@@ -1,0 +1,73 @@
+{
+	title: "Time to Play with Void Breaches!",
+	icon: {
+		id: "thaumicaugmentation:rift_jar",
+		tag: {
+			seed: 1337,
+			size: 100
+		}
+	},
+	x: 10.5d,
+	y: 0.0d,
+	description: "Let's open some Flux Rifts!",
+	text: [
+		"Remember all those things that i've warned you about a §6Crucible§f? §dTime to ignore them and go beyond the Abyss§f!",
+		"",
+		"▬ §9Fill a Crucible§f with §aa Lot of Essentia§f and §2Shift + Right Click to empty it§f!",
+		"",
+		"▬ This will fill out your current §3Chunk§f with §5LOTS OF FLUX§f!",
+		"",
+		"▬ And beacuse of that, §c§nmake sure that you're really far from your base§r§f!",
+		"",
+		"§8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬§f",
+		"",
+		"► After you actually create a §5Flux Rift§f, it is §9time to close it§f!",
+		"",
+		"▬ §bTo Close it§f, Throw a §cCausality Collapser§f into it! ",
+		"§8§o(Tip to never miss it: make sure to have a block behind it, so you'll be actually aiming at the block behind it)§r§f",
+		"",
+		"▬ When a §5Rift is closed§f, §ayou'll obtain§f some §3Void Seeds§f and also there's a §d§nsmall chance§r§f to obtain a §dPrimordial Pearl/Nodule§f!",
+		"",
+		"▬ Both of them are §e§nextremely valuable§f right now, try to obtain both."
+	],
+	dependencies: [
+		"5ab0c429"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "15ca0b4a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:causality_collapser"
+		}]
+	},
+	{
+		uid: "23be5732",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	},
+	{
+		uid: "0c038100",
+		type: "item",
+		items: [{
+			item: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52854b1e",
+		type: "item",
+		item: "thaumcraft:causality_collapser",
+		count: 2,
+		random_bonus: 6
+	},
+	{
+		uid: "a9bdf39e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

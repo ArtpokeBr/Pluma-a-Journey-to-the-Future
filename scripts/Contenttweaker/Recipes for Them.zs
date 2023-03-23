@@ -837,7 +837,7 @@ recipes.addShaped(<contenttweaker:titaniumbars> * 8, [[null, <ore:gtceWrenches>,
 
 assembler.recipeBuilder()
     .inputs(<ore:stickTitanium> * 3)
-    .property("circuit", 3)
+    .circuit(3)
     .outputs(<contenttweaker:titaniumbars> * 4)
     .duration(300)
     .EUt(4)

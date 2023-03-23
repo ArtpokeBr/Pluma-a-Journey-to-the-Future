@@ -1,36 +1,43 @@
-§a§lVersion Beta§r§f 2.2:
+§a§lVersion Beta§r§f 2.3:
 
 §b§lMod Related Changes§r§f:
 
-- Updated Inventory Bogosorter
-- Updated Package Auto
-- Updated Package ExCrafting
-- Updated AE2 Unofficial
+- Updated AE2 Extended Life
 - Updated AE2 Fluid Crafting
+
+- Updated Controlling
+
+- Updated PackagedAstral
+- Updated PackagedExCrafting
+- Updated PackagedAuto
+
+- Updated GTCEU
+- Updated GTCEU Multiblocks
+- Updated HadEnoughItems
 - Updated Crafttweaker
-- Updated UniversalTweaks
-- Updated Pyrotech
-- Updated Fnar's Roguelike Dungeons.
 
-- Added Packaged Astral
-- Added ExNihilo (Lots of new Crafting Mechanics!)
-- DJ2 Addons (Added to fix some issues and also implement mechanics from it into the pack)
+- Updated Thaumic Augmentation
 
-- Swapped RTG with its Maintained Fork RTGU. (Realistic Terrain Generation)
-- Removed Tinker's OreDictCache (functionality implemented by UniversalTweaks)
+- Added Tinker's Tool Leveling with Random Modifiers.
+- Added Tinker's Addons.
+- Added NotEnoughEnergistics
+- Added Armor Toughness Bar and also Overloaded Armor Bar.
 
 §2§lFixes§r§f:
 
-- Flint and Tinder now requires Flint Shards instead of Flint.
-- All Quests about Forestry Bee's got converted into Checkmark Quests. (Fixes recognizing issue, but unfortunatly it isn't that fun =<)
-- Fixed Buttom on the menu not redirecting to the Pluma Issues Page.
-- Added Recipe for Refractory Glass.
-- Empowered Endor Crystals don't require cropJuniperberry anymore. now it requires Blue Slime instead.
+- Removed Incorrect Dependency in the "An Upgrade to Dark Steel" Quest.
+- Fixed the Copper Ore Requirement in the "Aluminium Already?" Quest. (Swapped Copper Ore to Copper Dust)
+- Fixed Requirements for the Smeltery Quest in Chapter 1. (More Faucet Options)
+- Fixed Cooking For Blockhead's Oven not Accepting more Fuels.
+- Fixed Sledge Hammer Heads not having recipes in the Extruder and being castable incorrectly. (Also increased their cost 2 -> 3)
+- Fixed Incorrect Recipes for Seed Oil and Concentraded Seed Oil.
+- ExNihilo Hammer's cannot break wool into string anymore (fixed dye dupe when using Fortune).
 
 §5§lMiscellaneous§r§f:
 
-- Added more Interesting Recipes for Package Auto.
-- Further Implemented more Recipes Related to Thaumcraft
-- Tungsten doesn't generate in The End, moved to Mars.
-- EndSteel now requires Uvarovite instead of Tungsten.
-
+- More Thaumcraft Recipes Implemented.
+- Added Emergency Items to the Pack (this means that if someone actually looses their Chisel, they can get it back in the early game).
+- Fishing Rods now have a correct recipe.
+- Improved Text from the "A Rubbery Situation" Quest.
+- The Golden and Cursed Lasso should have a more Balanced Recipe now.
+- Mom's Spaghetti from Tinkers Construct should be craftable now.

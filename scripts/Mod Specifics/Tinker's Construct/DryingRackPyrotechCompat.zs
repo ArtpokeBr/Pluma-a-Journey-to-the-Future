@@ -183,3 +183,12 @@ DryingRack.addRecipe(
   16000,
   false
 );
+
+//Spaghetti
+DryingRack.addRecipe(
+  "MomsSpaghetti",
+  <tconstruct:spaghetti:2>,
+  <tconstruct:spaghetti:1>,  
+  16000,
+  false
+);

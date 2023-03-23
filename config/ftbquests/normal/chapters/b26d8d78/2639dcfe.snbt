@@ -1,0 +1,40 @@
+{
+	title: "Improving your Crucible!",
+	icon: "thaumcraft:thaumatorium",
+	x: 8.5d,
+	y: -1.5d,
+	description: "Let's assemble a Thaumatorium!",
+	text: [
+		"By placing §b2 Alchemical Constructs§f above a §6Crucible§f and by using some §dSalis Mundus§f, Voilá!",
+		"",
+		"- It will eliminate the necessity of §9Water§f in the §6Crucible§f and also it will help a lot with §2Automations§f!",
+		"",
+		"- You can §5Pipe Essentia§f to it directly in the §6Thaumatorium Structure§f.",
+		"",
+		"- And you can also have §amultiple recipes§f inside of it by using a §eMnemonic Matrix§f."
+	],
+	dependencies: [
+		"5ab0c429"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "c4b2cd12",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical"
+		}],
+		count: 2L
+	},
+	{
+		uid: "143bd46e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "5124c72e",
+		type: "item",
+		item: "thaumcraft:brain_box"
+	}]
+}

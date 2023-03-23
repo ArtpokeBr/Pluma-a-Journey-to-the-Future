@@ -1,0 +1,35 @@
+{
+	title: "A Really Advanced Construct made out of Alchemical Magic!",
+	x: 12.0d,
+	y: -1.5d,
+	description: "Let's make an Advanced Alchemical Construct!",
+	text: [
+		"Now, with your most recent §dVoid Materials§f, it is §etime for an Upgrade§f!",
+		"",
+		"- You'll be using this §6Construct§f to assemble the §bmost complex§f and interesting §2Structures/Machines§f from §3Thaumcraft§f.",
+		"",
+		"§8§o~ Also, remember that you can repair your Primordial Pearls by using some Repair Drones.§r§f"
+	],
+	dependencies: [
+		"a4a3a36e"
+	],
+	tasks: [{
+		uid: "35db2012",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical_advanced"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "40a8633e",
+		type: "item",
+		item: "contenttweaker:primordial_fragment",
+		count: 8
+	},
+	{
+		uid: "53b177ff",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

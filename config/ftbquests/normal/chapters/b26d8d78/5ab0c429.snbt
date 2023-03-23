@@ -1,0 +1,33 @@
+{
+	title: "A Construct made out of Alchemical Magic!",
+	x: 8.5d,
+	y: 0.0d,
+	description: "Let's make an Alchemical Construct!",
+	text: [
+		"This a key component from §3Thaumcraft§f to have, you'll be using it to §2assemble and craft some very important Blocks/Structures§f from the §3Mod§f.",
+		"",
+		"- Soon enough you'll be §bautomating§f your §dInfusion Matrix§f, and §aone of the reasons§f for that, is §6this component§f."
+	],
+	dependencies: [
+		"bcdfbc37"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f575717f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "31c07e1c",
+		type: "item",
+		item: "thaumcraft:salis_mundus"
+	},
+	{
+		uid: "f079476e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

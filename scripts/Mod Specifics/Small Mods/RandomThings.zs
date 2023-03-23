@@ -388,3 +388,18 @@ recipes.addShaped(<randomthings:itemcollector> * 1, [[null, <ore:endorCrystal>, 
 // Advanced Item Collector
 recipes.remove(<randomthings:advanceditemcollector>);
 RandomThingsTweaker.addImbuingRecipe(<ore:glodCrystal>.firstItem, <ore:empoweredEndorCrystal>.firstItem, <ore:plateDoubleStainlessSteel>.firstItem, <randomthings:itemcollector>, <randomthings:advanceditemcollector>);
+
+# [Chunk Analyzer] from [Computer Monitor][+6]
+recipes.removeByRecipeName("randomthings:chunkanalyzer");
+craft.make(<randomthings:chunkanalyzer>, ["pretty",
+  "╳ ⌂ *",
+  "H C H",
+  "□ п □"], {
+  "╳": <contenttweaker:condensed_vis_crystal_terra>, # Condensed Terra Vis Crystal
+  "⌂": <ore:casingStainlessSteel>,      # Stainless Steel Casing
+  "*": <contenttweaker:condensed_vis_crystal_ignis>, # Condensed Ignis Vis Crystal
+  "H": <ore:circuitHv>,                 # Nanoprocessor
+  "C": <gregtech:meta_item_1:307>,      # Computer Monitor
+  "□": <ore:plateStainlessSteel>,       # Stainless Steel Plate
+  "п": <ore:plateDoubleStainlessSteel>, # Double Stainless Steel Plate
+});

@@ -20,7 +20,7 @@ assembler.recipeBuilder()
 	.fluidInputs(<liquid:empoweredoil>*250)
     .inputs(<ore:plateConstructionAlloy>*8, <ore:gearAAVoid>)
     .outputs(<logisticspipes:frame>)
-	.property("circuit", 8)
+	.circuit(8)
     .duration(300)
     .EUt(100)
 .buildAndRegister();

@@ -165,7 +165,7 @@ extractor.recipeBuilder()
 //Refined Canola Oil
 distillery.recipeBuilder()
     .fluidInputs([<liquid:canolaoil> * 5])
-    .property("circuit", 4)
+    .circuit(4)
     .fluidOutputs(<liquid:refinedcanolaoil> * 5)
     .duration(600)
     .EUt(32)

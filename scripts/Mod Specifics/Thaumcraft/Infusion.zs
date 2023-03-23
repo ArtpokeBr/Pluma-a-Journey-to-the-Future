@@ -61,3 +61,48 @@ mods.thaumcraft.Infusion.registerRecipe(
   "A": <thaumcraft:metal_alchemical>,        # Alchemical Construct
   "§": <contenttweaker:primordial_fragment>, # Primordial Fragment
 }).spiral(1));
+
+# Causaility Collapser
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:causality_collapser>);
+mods.thaumcraft.Infusion.registerRecipe("thaumcraft:CausalityCollapser", "RIFTCLOSER", <thaumcraft:causality_collapser>, 7, [<aspect:perditio> * 40,<aspect:potentia> * 30,<aspect:alienis> * 30,<aspect:vitium> * 30], <mekanism:obsidiantnt>, [<thaumcraft:vis_resonator>,<thaumcraft:nitor_pink>,<thaumcraft:alumentum>,<contenttweaker:devil_dust>,<thaumcraft:morphic_resonator>,<thaumcraft:nitor_pink>,<thaumcraft:alumentum>,<contenttweaker:devil_dust>]);
+
+# [Mithrillium Ingot]*2 from [Void Metal Ingot][+10]
+mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:mithrillium_ingot>);
+mods.thaumcraft.Infusion.registerRecipe(
+  "thaumadditions:mithrillium_ingot", # Name
+  "TAR_MITHRILLIUM", # Research
+  <thaumadditions:mithrillium_ingot> * 2, # Output
+  4, # Instability
+  [<aspect:praecantatio> * 10, <aspect:alienis> * 10, <aspect:potentia> * 15, <aspect:metallum> * 30, <aspect:vitreus> * 30],
+  <ore:ingotVoid>, # Central Item
+  Grid(["pretty",
+  "▬ A ⌃",
+  "E   E",
+  "⌃ A ▬"], {
+  "▬": <ore:ingotMithril>,        # Mithril Ingot
+  "A": <thaumcraft:alumentum>,    # Alumentum
+  "⌃": <botanicadds:mana_lapis>,  # Mana Lapis
+  "E": <ore:itemEnchantedFabric>, # Enchanted Fabric
+}).spiral(1));
+
+# [Adaminite Ingot]*2 from [Mithrillium Ingot][+12]
+mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:adaminite_ingot>);
+mods.thaumcraft.Infusion.registerRecipe(
+  "thaumadditions:adaminite_ingot", # Name
+  "TAR_ADAMINITE", # Research
+  <thaumadditions:adaminite_ingot> * 2, # Output
+  12, # Instability
+  [<aspect:draco> * 10, <aspect:alkimia> * 30, <aspect:spiritus> * 120, <aspect:metallum> * 40, <aspect:infernum> * 50, <aspect:dreadia> * 100, <aspect:praecantatio> * 100, <aspect:victus> * 100],
+  <thaumadditions:mithrillium_ingot>, # Central Item
+  Grid(["pretty",
+  "▬ A ▬",
+  "⌃   ⌃",
+  "▬ A ▬"], {
+  "▬": <ore:crystalClusterDreadium>,         # Crystallized Dreadium Cluster
+  "A": <ore:gemNetherStar>,                  # Nether Star
+  "⌃": <contenttweaker:primordial_fragment>, # Primordial Fragment
+}).spiral(1));
+
+# Void Thaumometer
+mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:void_thaumometer>);
+mods.thaumcraft.Infusion.registerRecipe("thaumadditions:void_thaumometer", "TAR_VOID_THAUMOMETER", <thaumadditions:void_thaumometer>, 4, [<aspect:alienis> * 40,<aspect:cognitio> * 20,<aspect:aer> * 10,<aspect:aqua> * 10, <aspect:ordo> * 10,<aspect:perditio> * 10, <aspect:ignis> * 10,<aspect:terra> * 10], <thaumcraft:thaumometer>, [<ore:ingotVoid>.firstItem,<ore:ingotVoid>.firstItem,<ore:ingotVoid>.firstItem,<ore:ingotVoid>.firstItem]);

@@ -32,7 +32,7 @@ recipes.addShaped("DetectorAny", <railcraft:detector:1>,
 
 assembler.recipeBuilder()
     .inputs([<ore:stone> * 4, <ore:plateElectricalSteel> * 4, <minecraft:observer>])
-    .property("circuit", 32)
+    .circuit(32)
     .outputs(<railcraft:detector:1>)
     .duration(160)
     .EUt(32)

@@ -16,7 +16,7 @@ function makeContenttweakerIntegration (inputMaterial as IItemStack, plate as II
         //Making the Plates
         bender.recipeBuilder()
             .inputs(inputMaterial)
-            .property("circuit", 0)
+            .circuit(0)
             .outputs(plate)
             .duration(140)
             .EUt(24)
@@ -590,3 +590,16 @@ makeBlockIntegration(<ore:ingotAlubrass>.firstItem, <ore:blockAlubrass>.firstIte
 makeFluidIngotIntegration(<ore:ingotAlubrass>.firstItem, <liquid:alubrass>);
 makeFluidNuggetIntegration(<ore:nuggetAlubrass>.firstItem, <liquid:alubrass>);
 
+# Thaumium
+makeBlockIntegration(<ore:ingotThaumium>.firstItem, <ore:blockThaumium>.firstItem, <liquid:thaumium>);
+makeFluidIngotIntegration(<ore:ingotThaumium>.firstItem, <liquid:thaumium>);
+makeFluidNuggetIntegration(<ore:nuggetThaumium>.firstItem, <liquid:thaumium>);
+makeFluidPlateIntegration (<ore:plateThaumium>.firstItem, <liquid:thaumium>);
+makeFluidGearIntegration (<ore:gearThaumium>.firstItem, <liquid:thaumium>);
+
+# Void
+makeBlockIntegration(<ore:ingotVoid>.firstItem, <ore:blockVoid>.firstItem, <liquid:void_metal>);
+makeFluidIngotIntegration(<ore:ingotVoid>.firstItem, <liquid:void_metal>);
+makeFluidNuggetIntegration(<ore:nuggetVoid>.firstItem, <liquid:void_metal>);
+makeFluidPlateIntegration (<ore:plateVoid>.firstItem, <liquid:void_metal>);
+makeFluidGearIntegration (<ore:gearVoid>.firstItem, <liquid:void_metal>);

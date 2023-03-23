@@ -48,14 +48,6 @@
 		count: 2L
 	},
 	{
-		uid: "c49bb976",
-		type: "item",
-		items: [{
-			item: "tconstruct:faucet"
-		}],
-		count: 2L
-	},
-	{
 		uid: "ee41a3f5",
 		type: "item",
 		items: [{
@@ -82,6 +74,24 @@
 		items: [{
 			item: "tconstruct:smeltery_controller"
 		}]
+	},
+	{
+		uid: "ead7c005",
+		type: "item",
+		title: "Any Compatible Faucet",
+		items: [{
+			item: "tconstruct:faucet"
+		},
+		{
+			item: "ceramics:faucet"
+		},
+		{
+			item: "pyrotech:faucet_brick"
+		},
+		{
+			item: "tcomplement:scorched_faucet"
+		}],
+		count: 2L
 	}],
 	rewards: [{
 		uid: "6dcbc81d",

@@ -1,5 +1,6 @@
 {
 	title: "Aluminium Already?",
+	icon: "tconstruct:ingots 1 5",
 	x: 13.0d,
 	y: 3.0d,
 	description: "Lets make Aluminium Brass!",
@@ -38,18 +39,7 @@
 		uid: "a36a6c8a",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreCopper"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "oreCopper"
-				}
-			}
+			item: "gregtech:meta_dust 1 25"
 		}]
 	},
 	{

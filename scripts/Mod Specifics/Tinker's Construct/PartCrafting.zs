@@ -53,16 +53,17 @@ var TinkerPartsThatCanBeCasted as IData[][IItemStack] = {
 	<tconstruct:bow_limb> : [3, "tconstruct:bow_limb"],
 	<tconstruct:arrow_head> : [2, "tconstruct:arrow_head"],
     <tconstruct:knife_blade> : [1, "tconstruct:knife_blade"],
-	<tconstruct:cross_guard> : [1, "tconstruct:cross_guard"]
+	<tconstruct:cross_guard> : [1, "tconstruct:cross_guard"],
+	<tcomplement:sledge_head> : [3, "tcomplement:sledge_head"]
 };
 
 for mat, ingot in ToolMaterialsThatCanBeCasted {
 	for part, info in TinkerPartsThatCanBeCasted {
-			extruder.recipeBuilder()
+			<recipemap:extruder>.recipeBuilder()
 				.inputs(ingot * info[0])
 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
 				.outputs(part.withTag({Material: mat}))
-				.duration(300* info[0])
+				.duration(300 * info[0])
 				.EUt(32)
 			.buildAndRegister();
 	}
@@ -253,17 +254,18 @@ var TinkerParts as IData[][IItemStack] = {
 	<tconstruct:bow_limb> : [3, "tconstruct:bow_limb"],
 	<tconstruct:arrow_head> : [2, "tconstruct:arrow_head"],
     <tconstruct:knife_blade> : [1, "tconstruct:knife_blade"],
-	<tconstruct:cross_guard> : [1, "tconstruct:cross_guard"]
+	<tconstruct:cross_guard> : [1, "tconstruct:cross_guard"],
+	<tcomplement:sledge_head> : [3, "tcomplement:sledge_head"]
 };
 
 for mat, ingot in ToolMaterials {
 	for part, info in TinkerParts {
 		mods.tconstruct.Casting.removeTableRecipe(part.withTag({Material: mat}));
-			extruder.recipeBuilder()
+			<recipemap:extruder>.recipeBuilder()
 				.inputs(ingot * info[0])
 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
 				.outputs(part.withTag({Material: mat}))
-				.duration(300* info[0])
+				.duration(300 * info[0])
 				.EUt(32)
 			.buildAndRegister();
 	}
@@ -471,11 +473,11 @@ var TinkerPartsII as IData[][IItemStack] = {
 for mat, ingot in ToolMaterialsII {
 	for part, info in TinkerPartsII {
 		mods.tconstruct.Casting.removeTableRecipe(part.withTag({Material: mat}));
-			extruder.recipeBuilder()
+			<recipemap:extruder>.recipeBuilder()
 				.inputs(ingot * info[0])
 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
 				.outputs(part.withTag({Material: mat}))
-				.duration(300* info[0])
+				.duration(300 * info[0])
 				.EUt(128)
 			.buildAndRegister();
 
@@ -683,11 +685,11 @@ var ConarmParts as IData[][IItemStack] = {
 for mat, ingot in ConarmMaterials {
 	for part, info in ConarmParts {
 		mods.tconstruct.Casting.removeTableRecipe(part.withTag({Material: mat}));
-			extruder.recipeBuilder()
+			<recipemap:extruder>.recipeBuilder()
 				.inputs(ingot * info[0])
 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
 				.outputs(part.withTag({Material: mat}))
-				.duration(300* info[0])
+				.duration(300 * info[0])
 				.EUt(32)
 			.buildAndRegister();
 
@@ -746,11 +748,11 @@ var ArcaneFocusParts as IData[][IItemStack] = {
 for mat, ingot in ArcaneFocusMaterials {
 	for part, info in ArcaneFocusParts {
 		mods.tconstruct.Casting.removeTableRecipe(part.withTag({Material: mat}));
-			extruder.recipeBuilder()
+			<recipemap:extruder>.recipeBuilder()
 				.inputs(ingot * info[0])
 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
 				.outputs(part.withTag({Material: mat}))
-				.duration(300* info[0])
+				.duration(300 * info[0])
 				.EUt(512)
 			.buildAndRegister();
 	}
@@ -778,11 +780,11 @@ var BatteryCellParts as IData[][IItemStack] = {
 for mat, ingot in BatteryCellMaterials {
 	for part, info in BatteryCellParts {
 		mods.tconstruct.Casting.removeTableRecipe(part.withTag({Material: mat}));
-			extruder.recipeBuilder()
+			<recipemap:extruder>.recipeBuilder()
 				.inputs(ingot * info[0])
 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
 				.outputs(part.withTag({Material: mat}))
-				.duration(300* info[0])
+				.duration(300 * info[0])
 				.EUt(512)
 			.buildAndRegister();	
 	}
@@ -820,11 +822,11 @@ var ArrowShaftParts as IData[][IItemStack] = {
 
 for mat, ingot in ArrowShaftMaterials {
 	for part, info in ArrowShaftParts {
-			extruder.recipeBuilder()
+			<recipemap:extruder>.recipeBuilder()
 				.inputs(ingot * info[0])
 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
 				.outputs(part.withTag({Material: mat}))
-				.duration(300* info[0])
+				.duration(300 * info[0])
 				.EUt(128)
 			.buildAndRegister();	
 	}

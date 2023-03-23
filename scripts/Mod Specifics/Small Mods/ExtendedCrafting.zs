@@ -64,7 +64,7 @@ recipes.remove(<extendedcrafting:material:2>);
 
 bender.recipeBuilder()
     .inputs(<ore:ingotBlackIron>)
-    .property("circuit", 0)
+    .circuit(0)
     .outputs(<extendedcrafting:material:2>)
     .duration(140)
     .EUt(24)
@@ -188,7 +188,7 @@ recipes.remove(<extendedcrafting:frame>);
 assembler.recipeBuilder()
     .inputs(<ore:itemEnhancedMachineChassi>, <extendedcrafting:material:2>*6)
     .fluidInputs(<liquid:hsla_steel> * 288)
-    .property("circuit", 8)
+    .circuit(8)
     .outputs(<extendedcrafting:frame>)
     .duration(300)
     .EUt(550)

@@ -1,11 +1,12 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.astralsorcery.Altar;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//			         																														 //
-//			Extra Utilities 2 Script                                                                                                         //
-//			         																													 	 //
+//			         																														                                                                 //
+//			Extra Utilities 2 Script                                                                                                             //
+//			         																													 	                                                                 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Materials ================================================================================================ //
@@ -498,3 +499,47 @@ craft.make(<extrautils2:glasscutter>, ["pretty",
   "I": <ore:ringIron>,                           # Iron Ring
   "T": <ore:gtceFiles>, 						 # File
 });
+
+//Golden Lasso
+recipes.remove(<extrautils2:goldenlasso>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:empoweredGlodCrystal>, <natura:materials:7>, <ore:empoweredGlodCrystal>],
+    [<natura:materials:7>, null, <natura:materials:7>],
+    [<ore:empoweredGlodCrystal>, <natura:materials:7>, <ore:empoweredGlodCrystal>]])
+  .setFluid(<liquid:xpjuice> * 1000)
+  .addTool(<ore:artisansGrimoire>, 25)
+  .addOutput(<extrautils2:goldenlasso>)
+.create();
+
+//Cursed Lasso
+recipes.remove(<extrautils2:goldenlasso:1>);
+RecipeBuilder.get("mage")
+  .setShapeless([<extrautils2:goldenlasso>, <ore:dropofevil>, <darkutils:material>])
+  .setFluid(<liquid:xpjuice> * 250)
+  .addTool(<ore:artisansGrimoire>, 25)
+  .addOutput(<extrautils2:goldenlasso:1>)
+.create();
+
+//Chicken Ring
+recipes.remove(<extrautils2:chickenring>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:feyFeather>, <ore:plateIron>, <ore:feyFeather>],
+    [<ore:plateIron>, <extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:chicken"}, No_Place: 1 as byte}), <ore:plateIron>],
+    [<ore:gemRedstone>, <ore:plateIron>, <ore:gemRedstone>]])
+  .addTool(<artisanworktables:artisans_grimoire_iron>, 20)
+  .addOutput(<extrautils2:chickenring>)
+.create();
+
+//Chicken Ring
+recipes.remove(<extrautils2:chickenring:1>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<minecraft:dye>, <ore:plateDiamond>, <minecraft:dye>],
+    [<mysticalworld:epic_squid>, <extrautils2:chickenring>, <mysticalworld:epic_squid>],
+    [<minecraft:dye>, <ore:plateDiamond>, <minecraft:dye>]])
+  .setFluid(<liquid:water> * 8000)
+  .addTool(<artisanworktables:artisans_grimoire_iron>, 20)
+  .addOutput(<extrautils2:chickenring:1>)
+.create();

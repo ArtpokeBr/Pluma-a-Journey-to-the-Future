@@ -5,13 +5,13 @@
 	y: 0.0d,
 	description: "Time to start making Rubber!",
 	text: [
-		"Rubber will be used for a variety of Recipes, but mainly for cable insulation.",
+		"§6Rubber§f will be used for a §2variety of Recipes§f, but mainly for §bcable insulation§f.",
 		"",
-		"- Sulfur can be obtained in The Nether, don't have acess to it? Progress trough the Chapter 3 to unlock it.",
+		"- §eSulfur can be obtained in The Nether§f, don't have acess to it? §5Progress trough the Chapter 3 to unlock it§f.",
 		"",
-		"- Rubber Pulps can be obtained by extracting out of Slime or Sticky Resin.",
+		"- §3Rubber Pulps§f can be obtained by §aextracting out of Slime or Sticky Resin§f.",
 		"",
-		"~ Time to Plant some Rubber Tree's!"
+		"§8§o~ Time to Plant some Rubber Tree's!§r§f"
 	],
 	dependencies: [
 		"26a94e9b",

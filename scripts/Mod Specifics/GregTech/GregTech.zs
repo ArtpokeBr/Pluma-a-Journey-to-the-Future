@@ -230,7 +230,7 @@ recipes.addShaped(<gregtech:machine:1625> * 1, [[<ore:screwIron>, <ore:plankTrea
 assembler.recipeBuilder()
     .inputs(<ore:plankTreatedWood>*4,<ore:screwIron>*4)
     .outputs(<gregtech:machine:1625>)
-    .property("circuit", 1)
+    .circuit(1)
     .duration(100)
     .EUt(16)
     .buildAndRegister();
@@ -243,7 +243,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plankTreatedWood>*4,<ore:stickLongIron>*2)
     .fluidInputs([<liquid:glue> * 100])
     .outputs(<gregtech:machine:1610>)
-    .property("circuit", 1)
+    .circuit(1)
     .duration(100)
     .EUt(16)
     .buildAndRegister();
@@ -702,3 +702,29 @@ autoclave.recipeBuilder()
 .buildAndRegister();
 
 /// =========================================================================================================
+
+// Seed Oil out of more Seeds!
+<recipemap:extractor>.findRecipe(2, [<minecraft:beetroot_seeds:0>], null).remove();
+<recipemap:extractor>.findRecipe(2, [<minecraft:pumpkin_seeds:0>], null).remove();
+<recipemap:extractor>.findRecipe(2, [<natura:overworld_seeds:0>], null).remove();
+<recipemap:extractor>.findRecipe(2, [<natura:overworld_seeds:1>], null).remove();
+<recipemap:extractor>.findRecipe(2, [<mysticalworld:aubergine_seed:0>], null).remove();
+<recipemap:extractor>.findRecipe(2, [<minecraft:melon_seeds:0>], null).remove();
+<recipemap:extractor>.findRecipe(2, [<roots:terra_spores:0>], null).remove();
+<recipemap:extractor>.findRecipe(2, [<minecraft:wheat_seeds:0>], null).remove();
+<recipemap:extractor>.findRecipe(2, [<roots:wildroot:0>], null).remove();
+
+extractor.recipeBuilder()
+    .inputs(<ore:listAllseed>)
+    .fluidOutputs(<liquid:seed_oil> * 50)
+    .duration(20)
+    .EUt(2)
+.buildAndRegister();
+
+fermenter.recipeBuilder()
+    .inputs(<ore:Mulch>)
+    .fluidInputs(<liquid:seed.oil> * 10)
+    .fluidOutputs(<liquid:seed_oil> * 10)
+    .duration(80)
+    .EUt(12)
+.buildAndRegister();

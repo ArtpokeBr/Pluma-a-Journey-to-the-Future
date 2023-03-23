@@ -1,0 +1,67 @@
+{
+	title: "Reducing Vis Costs",
+	x: 3.5d,
+	y: 1.5d,
+	description: "By using Special Thaumaturge's Clothing!",
+	text: [
+		"By Making and wearing §6this clothes§f, you'll get some §dreally good discounts of vis§f in the §2Arcane Workbench§f.",
+		"",
+		"- You'll §aneed to progress§f a bit in §3Botania§f, but this should't be a problem.",
+		"",
+		"§8§o~ Also, check out the quest \"A Special Solution for Ore Processing!\" in Chapter 6, as you'll need some Aluminium Clusters to get Enchanted Fabric.§r§f"
+	],
+	dependencies: [
+		"4af21b94",
+		"4f7ed011"
+	],
+	tasks: [{
+		uid: "1e6656ae",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cloth_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8d8b5866",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cloth_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c13d93cc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cloth_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d07e2b8",
+		type: "item",
+		item: {
+			id: "botania:manaweavehelm",
+			tag: {}
+		}
+	},
+	{
+		uid: "3d122c90",
+		type: "item",
+		item: "botania:manaweavechest"
+	},
+	{
+		uid: "c41372e1",
+		type: "item",
+		item: "botania:manaweavelegs"
+	},
+	{
+		uid: "995a7fe3",
+		type: "item",
+		item: "botania:manaweaveboots"
+	}]
+}

@@ -62,7 +62,7 @@ recipes.addShaped(<minecraft:crafting_table> * 1, [[<ore:logWood>, <ore:plankTre
 assembler.recipeBuilder()
     .inputs(<ore:logWood>*4,<ore:plankTreatedWood>*4, <ore:gemFlint>)
     .outputs(<minecraft:crafting_table>)
-    .property("circuit", 8)
+    .circuit(8)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
@@ -76,7 +76,7 @@ recipes.addShaped(<minecraft:furnace> * 1, [[<contenttweaker:searedplate>, <ore:
 assembler.recipeBuilder()
     .inputs(<ore:compressed1xCobblestone>*4,<contenttweaker:searedplate>*4, <ore:gemFlint>)
     .outputs(<minecraft:furnace>)
-    .property("circuit", 8)
+    .circuit(8)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
@@ -90,7 +90,7 @@ recipes.addShaped(<minecraft:chest>, [[<ore:plankWood>, <ore:plankTreatedWood>, 
 assembler.recipeBuilder()
     .inputs(<ore:plankTreatedWood>*8, <ore:ringIron>)
     .outputs(<minecraft:chest>)
-    .property("circuit", 8)
+    .circuit(8)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
@@ -230,3 +230,166 @@ compressor.recipeBuilder()
     .duration(200)
     .EUt(2)
 .buildAndRegister();
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//			         																														 //
+//			Fishing Rods                                                                                                                     //
+//			         																													 	 //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# [Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("crafttweaker:[fishing rod] from [string][+1]");
+craft.make(<minecraft:fishing_rod>, ["pretty",
+  "    #",
+  "r # s",
+  "# I s"], {
+  "#": <ore:stickWood>,                             # Stick
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Copper Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_copper");
+craft.make(<thermalfoundation:tool.fishing_rod_copper>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickCopper>,                           # Copper Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Tin Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_tin");
+craft.make(<thermalfoundation:tool.fishing_rod_tin>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickTin>,                              # Tin Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Silver Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_silver");
+craft.make(<thermalfoundation:tool.fishing_rod_silver>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickSilver>,                           # Silver Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Lead Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_lead");
+craft.make(<thermalfoundation:tool.fishing_rod_lead>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickLead>,                             # Lead Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Nickel Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_nickel");
+craft.make(<thermalfoundation:tool.fishing_rod_nickel>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickNickel>,                           # Nickel Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Platinum Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_platinum");
+craft.make(<thermalfoundation:tool.fishing_rod_platinum>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickPlatinum>,                         # Platinum Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Steel Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_steel");
+craft.make(<thermalfoundation:tool.fishing_rod_steel>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickSteel>,                            # Steel Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Electrum Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_electrum");
+craft.make(<thermalfoundation:tool.fishing_rod_electrum>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickElectrum>,                         # Electrum Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Invar Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_invar");
+craft.make(<thermalfoundation:tool.fishing_rod_invar>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickInvar>,                            # Invar Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Bronze Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_bronze");
+craft.make(<thermalfoundation:tool.fishing_rod_bronze>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickBronze>,                           # Bronze Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Iron Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_iron");
+craft.make(<thermalfoundation:tool.fishing_rod_iron>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickIron>,                             # Iron Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+
+# [Diamond Fishing Rod] from [Iron Ring][+3]
+recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_diamond");
+craft.make(<thermalfoundation:tool.fishing_rod_diamond>, ["pretty",
+  "    ╱",
+  "r ╱ s",
+  "╱ I s"], {
+  "╱": <ore:stickDiamond>,                          # Diamond Rod
+  "r": <ore:ringIron>,                              # Iron Ring
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "I": <ore:screwIron>,                             # Iron Screw
+});
+

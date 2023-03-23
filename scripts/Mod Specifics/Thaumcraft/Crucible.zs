@@ -98,3 +98,7 @@ mods.thaumcraft.Crucible.registerRecipe(
 # Impetus Jewel
 mods.thaumcraft.Crucible.removeRecipe(<thaumicaugmentation:material:5>);
 mods.thaumcraft.Crucible.registerRecipe("thaumicaugmentation:impetus_jewel", "", <thaumicaugmentation:material:5>, <contenttweaker:impetus_crystal>, [<aspect:ordo> * 40, <aspect:potentia> * 40,<aspect:fluctus> * 10]);
+
+# Alumentum
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:alumentum>);
+mods.thaumcraft.Crucible.registerRecipe("thaumcraft:alumentum", "ALUMENTUM", <thaumcraft:alumentum>, <ore:oreClusterAluminium>.firstItem, [<aspect:potentia> * 5, <aspect:ignis> * 2, <aspect:metallum> * 2, <aspect:perditio> * 2]);

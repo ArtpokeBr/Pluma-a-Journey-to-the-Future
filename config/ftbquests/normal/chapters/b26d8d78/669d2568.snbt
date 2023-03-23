@@ -1,0 +1,55 @@
+{
+	title: "Tubeless Essentia Transport!",
+	x: 8.5d,
+	y: 1.5d,
+	description: "Let's make Essentia Transfusers!",
+	text: [
+		"This is Exactly what you're thinking!",
+		"",
+		"- The §bFilling Essentia Transfuser§f can §dtake essentia directly from a Jar/Pipe Network§f and §atransport it to Jars up to 16 Blocks of the Direction that it is facing§f.",
+		"",
+		"- The §9Emptying Essentia Transfuser§f does the §2§nexact oposite§r§f.",
+		"",
+		"§8§o~ A Good usage for this is to place an Emptying Essentia Transfuser in a Thaumatorium to automatically pull Essentia, if its needed, from your Storage!§r§f"
+	],
+	dependencies: [
+		"5ab0c429"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "0abf8cbe",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_input"
+		}]
+	},
+	{
+		uid: "2f7aa68d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_output"
+		}]
+	}],
+	rewards: [{
+		uid: "60d90a23",
+		type: "item",
+		title: "Spawn a Wild Thaumaturge",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "thaumcraft:pech"
+				},
+				display: {
+					Name: "Gkiritol"
+				},
+				RepairCost: 0
+			}
+		}
+	},
+	{
+		uid: "746b8a4a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

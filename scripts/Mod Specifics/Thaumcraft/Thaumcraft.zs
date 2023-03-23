@@ -356,6 +356,139 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
   "l": <thaumcraft:metal_alchemical>, # Alchemical Construct
 }).shaped());
 
+# [Blank Label]*4 from [Grog][+2]
+recipes.removeByRecipeName("thaumcraft:jarlabelnull");
+recipes.removeByRecipeName("thaumcraft:jarlabel");
+craft.shapeless(<thaumcraft:label> * 4, "B:pppp", {
+  "B": <ore:itemBeeswax>,     # Beeswax
+  ":": <ore:oc:materialAcid>, # Grog
+  "p": <ore:paper> | <ore:platePaper> | <ore:paperEmpty>, # Paper
+});
+
+# [Goggles of Revealing] from [Brass Rod][+10]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:goggles>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "goggles", # Name
+  "UNLOCKARTIFICE", # Research
+  50, # Vis cost
+  [<aspect:aqua> * 5, <aspect:aer> * 5, <aspect:terra> * 5, <aspect:ignis> * 5, <aspect:perditio> * 5, <aspect:ordo> * 5, ],
+  <thaumcraft:goggles>, # Output
+  Grid(["pretty",
+  "M ╱ M",
+  "M   M",
+  "T □ T"], {
+  "M": <contenttweaker:magical_leather>, # Magical Leather
+  "╱": <ore:stickBrass>,                 # Brass Rod
+  "T": <thaumcraft:thaumometer>,         # Thaumometer
+  "□": <ore:lightPlateBrass>,            # Light Brass Plate
+}).shaped());
+
+# Enchanted Fabric
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:fabric>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumcraft:fabric", "UNLOCKINFUSION", 2, [<aspect:ordo> * 1], <thaumcraft:fabric>, [[<botania:manaresource:22>,<thaumcraft:salis_mundus>,<botania:manaresource:22>],[<thaumcraft:alumentum>,<botania:manaresource:1>,<thaumcraft:alumentum>],[<botania:manaresource:22>,<thaumcraft:salis_mundus>,<botania:manaresource:22>]]);
+
+# Thaumaturge's Robe
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:cloth_chest>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumcraft:cloth_chest", "UNLOCKINFUSION", 40, [<aspect:ordo> * 10], <thaumcraft:cloth_chest>, [[<thaumcraft:fabric>,<botania:manaweavechest>,<thaumcraft:fabric>],[<thaumcraft:fabric>,<thaumcraft:fabric>,<thaumcraft:fabric>],[<thaumcraft:fabric>,<thaumcraft:fabric>,<thaumcraft:fabric>]]);
+
+# Thaumaturge's Leggings
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:cloth_legs>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumcraft:cloth_legs", "UNLOCKINFUSION", 40, [<aspect:ordo> * 10], <thaumcraft:cloth_legs>, [[<thaumcraft:fabric>,<thaumcraft:fabric>,<thaumcraft:fabric>],[<thaumcraft:fabric>,<botania:manaweavelegs>,<thaumcraft:fabric>],[<thaumcraft:fabric>,null,<thaumcraft:fabric>]]);
+
+# Thaumaturge's Boots
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:cloth_boots>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumcraft:cloth_boots", "UNLOCKINFUSION", 40, [<aspect:ordo> * 10], <thaumcraft:cloth_boots>, [[<thaumcraft:fabric>,null,<thaumcraft:fabric>],[<thaumcraft:fabric>,<botania:manaweaveboots>,<thaumcraft:fabric>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumcraft:cloth_boots", "UNLOCKINFUSION", 40, [<aspect:ordo> * 10], <thaumcraft:cloth_boots>, [[null,null,null],[<thaumcraft:fabric>,null,<thaumcraft:fabric>],[<thaumcraft:fabric>,<botania:manaweaveboots>,<thaumcraft:fabric>]]);
+
+# Workbench Charger
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:arcane_workbench_charger>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumcraft:workbenchcharger", "WORKBENCHCHARGER", 350, [<aspect:ordo> * 5,<aspect:aer> * 5,<aspect:aqua> * 5], <thaumcraft:arcane_workbench_charger>, [[null,<thaumcraft:vis_resonator>,null],[<thaumcraft:plank_greatwood>,null,<thaumcraft:plank_greatwood>],[<ore:lightPlateBrass>,null,<ore:lightPlateBrass>]]);
+<thaumcraft:arcane_workbench_charger>.addTooltip(format.white("Find the perfect chunk in a Magical"));
+<thaumcraft:arcane_workbench_charger>.addTooltip(format.white("Forest biome and have a full set of"));
+<thaumcraft:arcane_workbench_charger>.addTooltip(format.white("Thaumaturge Armor on to craft this!"));
+
+# Glass Phial
+recipes.remove(<thaumcraft:phial>);
+extruder.recipeBuilder()
+    .inputs(<ore:glassSoul>)
+    .notConsumable(<gregtech:meta_item_1:53>)
+    .outputs(<thaumcraft:phial>*4)
+    .duration(40)
+    .EUt(130)
+.buildAndRegister();
+
+# [Filling Essentia Transfuser] from [HV Electric Piston][+6]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:essentia_input>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "essentia_input", # Name
+  "ESSENTIATRANSPORT", # Research
+  100, # Vis cost
+  [<aspect:aqua> * 4, <aspect:aer> * 4],
+  <thaumcraft:essentia_input>, # Output
+  Grid(["pretty",
+  "□ H □",
+  "п A п"], {
+  "□": <ore:lightPlateBrass>,          # Light Brass Plate
+  "H": <gregtech:meta_item_1:174>,     # HV Electric Piston
+  "п": <ore:plateDoubleVanadiumSteel>, # Double Vanadiumsteel Plate
+  "A": <thaumcraft:metal_alchemical>,  # Alchemical Construct
+}).shaped());
+
+# [Emptying Essentia Transfuser] from [HV Electric Pump][+6]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:essentia_output>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "essentia_output", # Name
+  "ESSENTIATRANSPORT", # Research
+  100, # Vis cost
+  [<aspect:aqua> * 4, <aspect:aer> * 4],
+  <thaumcraft:essentia_output>, # Output
+  Grid(["pretty",
+  "□ H □",
+  "п A п"], {
+  "□": <ore:lightPlateBrass>,          # Light Brass Plate
+  "H": <gregtech:meta_item_1:144>,     # HV Electric Pump
+  "п": <ore:plateDoubleVanadiumSteel>, # Double Vanadiumsteel Plate
+  "A": <thaumcraft:metal_alchemical>,  # Alchemical Construct
+}).shaped());
+
+# [Essentia Resonator] from [Nether Quartz][+4]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:resonator>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "resonator", # Name
+  "TUBES", # Research
+  110, # Vis cost
+  [<aspect:aqua> * 4, <aspect:aer> * 4],
+  <thaumcraft:resonator>, # Output
+  Grid(["pretty",
+  "□   □",
+  "□ ⌃ □",
+  "D ╱ D"], {
+  "□": <ore:plateVanadiumSteel>,                # Vanadiumsteel Plate
+  "⌃": <ore:gemNetherQuartz>,                   # Nether Quartz
+  "D": <pyrotech:material:44>,                  # Durable Leather Cord
+  "╱": <ore:itemNutritiousStick>,               # Nutritious Stick
+}).shaped());
+
+# Void Seed
+<thaumcraft:void_seed>.addTooltip(format.white("Obtained by throwing a Causality Collapser on a"));
+<thaumcraft:void_seed>.addTooltip(format.white("Flux Rift, or using a Void Siphon in the same chunk."));
+
+# Primordial Pearl repair
+
+var repair_bee =<forestry:bee_drone_ge>.withTag({MaxH: 50, Mate: {Chromosomes: [{UID1: "careerbees.repair", UID0: "careerbees.repair", Slot: 0 as byte}, {UID1: "careerbees.effect.repair", UID0: "careerbees.effect.repair", Slot: 12 as byte}]}, Health: 50, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "careerbees.repair", UID0: "careerbees.repair", Slot: 0 as byte}, {UID1: "careerbees.effect.repair", UID0: "careerbees.effect.repair", Slot: 12 as byte}]}});
+
+<thaumcraft:primordial_pearl:*>.addTooltip(format.white("Can be Repaired with a ") + format.blue("Pure Repair Drone") + format.white("."));
+
+recipes.addShapeless("thaumcraft_primordial_pearl_repair", <thaumcraft:primordial_pearl>, [<thaumcraft:primordial_pearl>.anyDamage().noReturn().marked("pearl"),repair_bee],
+	function(out,ins,cInfo) {
+		if(ins.pearl.damage != 0) {
+			return out.withDamage(ins.pearl.damage - 1);
+		} else {
+			return out;
+		}
+	}, null);
+<thaumcraft:primordial_pearl>.addTooltip(format.white("Dropped rarely by ") + format.darkPurple("Void Rifts") + format.white(" when"));
+<thaumcraft:primordial_pearl>.addTooltip(format.white("closed by a ") + format.lightPurple("Causality Collapser") + format.white("."));
 
 /*
 ██╗███╗   ██╗███████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗

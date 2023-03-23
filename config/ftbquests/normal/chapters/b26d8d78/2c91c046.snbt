@@ -1,0 +1,69 @@
+{
+	title: "Basic Essentia Manipulation",
+	x: 6.760204081632651d,
+	y: -1.500000000000007d,
+	description: "Let's move Essentia around and store them into Jars!",
+	text: [
+		"There's a whole system of §dEssentia Manipulation in Thaumcraft§f, but for now, let's keep it simple.",
+		"",
+		"▬ §aJars§f can be used to store §dEssentia§f §8§o(later, AE2 can also do that)§r§f.",
+		"",
+		"▬ Want to move Essentia? §5Essentia Tubes can be use to move Essentia around§f.",
+		"",
+		"§8► §oBut keep in mind that only 1 type of Essentia can flow trough a Tube at a given time.§r§f",
+		"",
+		"§8► §oUse your Caster's Gauntlet to manipulate the connections of the tubes.§r§f",
+		"",
+		"▬ §aJars§f can be §elabeled in order to lock them to a specific type of Essentia§f.",
+		"",
+		"§8► §oOh and Jars can only accept Essentia from above.§r§f",
+		"",
+		"▬ Also, §bPhials§f are a §dgood way to move tiny amounts of Essentia§f, they're \"essentially\" essentia cells, §9being able to store 10\"mb\"§f of it.",
+		"",
+		"§8§o~ No Pun intended.§r§f"
+	],
+	dependencies: [
+		"3f73e8ed"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "9c2a7b62",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}]
+	},
+	{
+		uid: "dee38101",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube"
+		}],
+		count: 4L
+	},
+	{
+		uid: "2f20c92c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:label"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1af6cc55",
+		type: "item",
+		items: [{
+			item: "thaumcraft:phial"
+		}]
+	}],
+	rewards: [{
+		uid: "76d94eda",
+		type: "item",
+		item: "thaumcraft:resonator"
+	},
+	{
+		uid: "92c6fc08",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

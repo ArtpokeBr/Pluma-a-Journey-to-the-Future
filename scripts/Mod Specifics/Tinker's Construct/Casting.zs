@@ -77,6 +77,8 @@ var castsAndCasters as IItemStack[IIngredient] = {
     <plustic:battery_cell>.withTag({Material: "silver"}) : <tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}),
     <conarm:polishing_kit>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}),
 
+    <tcomplement:sledge_head>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "tcomplement:sledge_head"})
+
     };
 for IItemStack, IIngredient in castsAndCasters {
         Casting.removeTableRecipe(IIngredient);

@@ -1,0 +1,31 @@
+{
+	title: "Granting Acess to a lot of Vis to your Arcane Workbench!",
+	x: 3.5d,
+	y: 2.5d,
+	description: "Let's make an Workbench Charger!",
+	text: [
+		"By placing a §6Workbench Charger§f above your §2Arcane Workbench§f, you'll allow it to §dacess Vis in nearby Chunks§f!",
+		"",
+		"- This means that if you're currently on a §aMagical Forest§f and use this §eUpgrade§f, you'll probally have §dacess to 1000+ Vis§f."
+	],
+	dependencies: [
+		"745a3144"
+	],
+	tasks: [{
+		uid: "f7a6ff2f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "91616846",
+		type: "item",
+		item: "thaumicenergistics:upgrade_arcane"
+	},
+	{
+		uid: "58f7fe71",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

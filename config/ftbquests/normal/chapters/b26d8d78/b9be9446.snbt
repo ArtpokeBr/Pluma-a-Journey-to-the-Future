@@ -1,0 +1,37 @@
+{
+	title: "A Thaumaturge's Best Friend",
+	icon: "thaumcraft:ingot",
+	x: 3.5d,
+	y: -4.5d,
+	description: "Let's brew some Thaumium!",
+	text: [
+		"§6Brass§f will be §2very usefull§f as you've probally noticed...",
+		"",
+		"▬ Time to Brew §5Thaumium§f! use §6Brass§f as a §dCatalyst§f and mix it with some §3Special Essentias§f."
+	],
+	dependencies: [
+		"4f7ed011"
+	],
+	tasks: [{
+		uid: "5b005344",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32084"
+		}]
+	}],
+	rewards: [{
+		uid: "ce7dd292",
+		type: "item",
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "thaumium"
+			}
+		}
+	},
+	{
+		uid: "a89113e1",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

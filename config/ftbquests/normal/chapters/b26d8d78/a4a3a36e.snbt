@@ -1,0 +1,39 @@
+{
+	title: "A Metal Directly From The Void!",
+	icon: "thaumcraft:ingot 1 1",
+	x: 12.0d,
+	y: 0.0d,
+	description: "Let's Brew a Void Metal!",
+	text: [
+		"Inside of your §6Crucible/Thaumatorium§f, it is now time to brew a §5Void Metal§f!",
+		"",
+		"▬ Use a §5Void Seed§f as a §dCatalyst§f and mix some §3special essentias§f to obtain it.",
+		"",
+		"§8§o~ Maybe it is a Good Idea to start making some passive automations for both Void Metal and Thaumium, using a Thaumatorium.§r§f"
+	],
+	dependencies: [
+		"c315dc63"
+	],
+	tasks: [{
+		uid: "503105cd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32085"
+		}]
+	}],
+	rewards: [{
+		uid: "f11b91cc",
+		type: "item",
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "void_metal"
+			}
+		}
+	},
+	{
+		uid: "1ba7519f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

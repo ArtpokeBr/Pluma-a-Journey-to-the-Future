@@ -1,25 +1,30 @@
 {
 	title: "Totems are awesome!",
-	icon: {
-		id: "totemic:totempedia",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "totemic:totempedia",
 	x: 0.0d,
 	y: -3.0d,
 	description: "They can provide you with actually benefits!",
 	text: [
-		"Take your time, read the Totemic Manual for more knowladge about every totem buff that you can obtain",
+		"§aTake your time§f, read the §3Totemic Manual§f for more knowladge about every §etotem buff§f that you can get.",
 		"",
-		"But remember that the range is limited!",
+		"But remember that the §dRange is Limited§f!",
+		"§8§o( Aprox: 5 Blocks )§r§f",
 		"",
-		"For example, with a Bat totem, you can have a \"Glider\" effect when pressing shift mid air close to the Totem!"
+		"► Here's some §2good ones to remember§f:",
+		"",
+		"▬ §bBat totem§f: You can have a §b§n\"Glider\" effect§r§f when pressing shift mid air.",
+		"",
+		"▬ §ePig totem§f:  You can §e§nIncrease your Luck§r§f §8§o(Good for Farming Crops)§f.",
+		"",
+		"▬ §5Enderman§f: You can get §5§nNight Vision§r§f.",
+		"",
+		"§8§oAnd there's even more that weren't actually mentioned!§r§f"
 	],
 	dependencies: [
 		"2330acee"
 	],
 	optional: true,
+	min_width: 300,
 	tasks: [{
 		uid: "3848904d",
 		type: "checkmark"

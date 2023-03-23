@@ -12,7 +12,9 @@
 		"",
 		"▬ §2Stack Upgrade§f: Increases the §2Amount of Stacks pulled per operation§f, mainly used In Transfer Nodes.",
 		"",
-		"▬ §9Mining Upgrade§f: Allows you to §9collect cobblestone§f from cobblestone generators and §9also water§f from pools, mainy used in Transfer Nodes."
+		"▬ §9Mining Upgrade§f: Allows you to §9collect cobblestone§f from cobblestone generators and §9also water§f from pools, mainy used in Transfer Nodes.",
+		"",
+		"§8§oAlso, the Power Manager that you've received can be really usefull to measure how much GP you're consuming/generating.§r§f"
 	],
 	dependencies: [
 		"1f69ab74"
@@ -40,13 +42,12 @@
 		}]
 	}],
 	rewards: [{
-		uid: "1feed080",
+		uid: "e9805cb8",
 		type: "item",
-		item: "extrautils2:ingredients 1 6",
-		random_bonus: 3
+		item: "extrautils2:powermanager"
 	},
 	{
-		uid: "ad720031",
+		uid: "7d55fc8e",
 		type: "ftbmoney:money",
 		ftb_money: 25L
 	}]

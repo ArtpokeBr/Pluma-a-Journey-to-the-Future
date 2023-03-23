@@ -1,0 +1,36 @@
+{
+	title: "A Thaumic Tip",
+	icon: {
+		id: "thaumicaugmentation:rift_seed",
+		Damage: 1s,
+		tag: {
+			flux: 1000,
+			grown: 1b
+		}
+	},
+	x: 2.75d,
+	y: -1.5d,
+	description: "Never worry about Flux Again!",
+	text: [
+		"Consider using a §6Compact Machine§f to have confined space where §5Flux§f will be §efar from your Base§f!",
+		"",
+		"- You might still need your §2Arcane Workbench§f in a §bplace with large quantities of Vis§f §8§o(A Magical Forest)§r§f but your §dCauldron/Runic Matrix§f can §aeasily be placed here§f."
+	],
+	dependencies: [
+		"4f7ed011"
+	],
+	size: 0.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "0114d833",
+		type: "item",
+		items: [{
+			item: "compactmachines3:machine 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "57a4286f",
+		type: "item",
+		item: "rf-capability-adapter:aecapabilityadapter"
+	}]
+}

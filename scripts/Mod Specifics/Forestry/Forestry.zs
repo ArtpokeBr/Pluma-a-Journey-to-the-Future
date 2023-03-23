@@ -46,7 +46,7 @@ assembler.recipeBuilder()
     .inputs(<forestry:hardened_machine>, <forestry:thermionic_tubes:9>*2, <ore:plateGreenSapphire>*4, <ore:springTerrastone>*2)
     .fluidInputs(<liquid:mutagen> * 1000)
     .outputs(<forestry:flexible_casing>)
-    .property("circuit", 16)
+    .circuit(16)
     .duration(250)
     .EUt(128)
 .buildAndRegister();

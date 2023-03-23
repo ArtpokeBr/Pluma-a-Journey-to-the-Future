@@ -1,0 +1,35 @@
+{
+	title: "A \"Essentia\"l Upgrade!",
+	x: 6.744897959183675d,
+	y: -4.539540816326532d,
+	description: "Let's make an Thaumium Essentia Smeltery!",
+	text: [
+		"With an §bEfficiency of 90%§f, maybe it is a §agood idea to upgrade§f your §dEssentia Smeltery System§f!",
+		"",
+		"- It also works §e§nmuch faster§r§f than a normal §3Essentia Smeltery§f.",
+		"",
+		"§8§o~ Also, don't forget that are many tiers of Essentia Smelters in the Pack, maybe it is good to consider waiting until you unlock an 100% Smeltery in order to make your definitive Essentia Smeltery System.§r§f"
+	],
+	dependencies: [
+		"b9be9446",
+		"3f73e8ed"
+	],
+	tasks: [{
+		uid: "815768bc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "435384f5",
+		type: "item",
+		item: "thaumcraft:smelter_vent",
+		random_bonus: 3
+	},
+	{
+		uid: "d46f1f8c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

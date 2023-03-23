@@ -536,7 +536,7 @@ recipes.remove(<mekanism:basicblock2>);
 assembler.recipeBuilder()
     .inputs(<ore:frameGtAnnealedCopper>, <ore:plateBrass>*4)
     .outputs(<mekanism:basicblock2>*4)
-    .property("circuit", 8)
+    .circuit(8)
     .duration(180)
     .EUt(140)
 .buildAndRegister();
@@ -735,7 +735,7 @@ recipes.remove(<mekanism:basicblock2:1>);
 assembler.recipeBuilder()
     .inputs(<ore:frameGtVanadiumSteel>, <ore:plateStainlessSteel>*4)
     .outputs(<mekanism:basicblock2:1>*4)
-    .property("circuit", 8)
+    .circuit(8)
     .duration(280)
     .EUt(200)
 .buildAndRegister();

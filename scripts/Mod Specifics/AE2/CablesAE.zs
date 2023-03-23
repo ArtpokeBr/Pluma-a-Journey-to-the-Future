@@ -28,7 +28,7 @@ chemical_bath.recipeBuilder()
 //ME Covered Cable Fluix
 recipes.removeByRecipeName("appliedenergistics2:network/cables/covered_fluix");
 assembler.recipeBuilder()
-    .property("circuit", 24)
+    .circuit(24)
     .inputs(<appliedenergistics2:part:16>)
     .fluidInputs([<liquid:rubber> * 144])
     .outputs(<appliedenergistics2:part:36>)
@@ -39,7 +39,7 @@ assembler.recipeBuilder()
 //ME Smart Cable Fluix
 recipes.removeByRecipeName("appliedenergistics2:network/cables/smart_fluix");
 assembler.recipeBuilder()
-    .property("circuit", 22)
+    .circuit(22)
     .inputs(<appliedenergistics2:part:36>, <ore:dustGlowstone>)
     .fluidInputs([<liquid:redstone> * 144])
     .outputs(<appliedenergistics2:part:56>)
@@ -49,7 +49,7 @@ assembler.recipeBuilder()
 
 // //ME Dense Covered Cable Fluix (Direct Recipe using Glass Cable)
 // assembler.recipeBuilder()
-//     .property("circuit", 24)
+//     .circuit(24)
 //     .inputs(<appliedenergistics2:part:16> * 4)
 //     .fluidInputs([<liquid:rubber> * 288])
 //     .outputs(<appliedenergistics2:part:516>)
@@ -60,7 +60,7 @@ assembler.recipeBuilder()
 //ME Dense Smart Cable Fluix
 recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_smart_fluix");
 assembler.recipeBuilder()
-    .property("circuit", 22)
+    .circuit(22)
     .inputs(<appliedenergistics2:part:516>, <ore:dustGlowstone>)
     .fluidInputs([<liquid:redstone> * 144])
     .outputs(<appliedenergistics2:part:76>)

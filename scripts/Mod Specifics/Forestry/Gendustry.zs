@@ -69,7 +69,7 @@ recipes.addShaped(<gendustry:replicator> * 1, [[<gendustry:genetics_processor>, 
 assembler.recipeBuilder()
     .inputs(<ore:plateTin> * 4, <ore:plateRedAlloy>)
     .outputs(<gendustry:gene_sample_blank>)
-    .property("circuit", 16)
+    .circuit(16)
     .duration(100)
     .EUt(32)
 .buildAndRegister();
@@ -78,7 +78,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(<ore:plateTin> * 4, <ore:plateRedAlloy>, <ore:boltDiamond> * 4)
     .outputs(<gendustry:gene_template>)
-    .property("circuit", 16)
+    .circuit(16)
     .duration(200)
     .EUt(32)
 .buildAndRegister();

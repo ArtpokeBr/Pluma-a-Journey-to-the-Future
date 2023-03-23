@@ -1,0 +1,35 @@
+{
+	title: "An \"Essentia\"l Upgrade directly from the Abyss!",
+	x: 12.0d,
+	y: -4.5d,
+	description: "Time to make an Void Essentia Smeltery",
+	text: [
+		"With an §bEfficiency of 95%§f, maybe it is a §agood idea to upgrade§f your §dEssentia Smeltery System§f!",
+		"",
+		"- It also works §emuch faster§f than a normal §3Essentia Smeltery§f §e§nbut not as Fast§r§f as a §5Thaumium Smeltery§f.",
+		"",
+		"§8§o~ Also, don't forget that are many tiers of Essentia Smelters in the Pack, maybe it is good to consider waiting until you unlock an 100% Smeltery in order to make your definitive Essentia Smeltery System.§r§f"
+	],
+	dependencies: [
+		"2ed48460",
+		"fc8656dc"
+	],
+	tasks: [{
+		uid: "744d0e23",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_void"
+		}]
+	}],
+	rewards: [{
+		uid: "c9e46180",
+		type: "item",
+		item: "thaumcraft:smelter_vent",
+		random_bonus: 3
+	},
+	{
+		uid: "857b786a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}
