@@ -1,43 +1,17 @@
-§a§lVersion Beta§r§f 2.3:
+§a§lVersion Beta§r§f 2.4.1:
 
 §b§lMod Related Changes§r§f:
 
-- Updated AE2 Extended Life
-- Updated AE2 Fluid Crafting
-
-- Updated Controlling
-
-- Updated PackagedAstral
-- Updated PackagedExCrafting
-- Updated PackagedAuto
-
-- Updated GTCEU
-- Updated GTCEU Multiblocks
-- Updated HadEnoughItems
 - Updated Crafttweaker
-
-- Updated Thaumic Augmentation
-
-- Added Tinker's Tool Leveling with Random Modifiers.
-- Added Tinker's Addons.
-- Added NotEnoughEnergistics
-- Added Armor Toughness Bar and also Overloaded Armor Bar.
+- Updated MixingBooter
+- Updated Multiblocked
+- Updated Roots
 
 §2§lFixes§r§f:
 
-- Removed Incorrect Dependency in the "An Upgrade to Dark Steel" Quest.
-- Fixed the Copper Ore Requirement in the "Aluminium Already?" Quest. (Swapped Copper Ore to Copper Dust)
-- Fixed Requirements for the Smeltery Quest in Chapter 1. (More Faucet Options)
-- Fixed Cooking For Blockhead's Oven not Accepting more Fuels.
-- Fixed Sledge Hammer Heads not having recipes in the Extruder and being castable incorrectly. (Also increased their cost 2 -> 3)
-- Fixed Incorrect Recipes for Seed Oil and Concentraded Seed Oil.
-- ExNihilo Hammer's cannot break wool into string anymore (fixed dye dupe when using Fortune).
+- Fixed incorrectly Mods being shipped with the Pack.
 
 §5§lMiscellaneous§r§f:
 
-- More Thaumcraft Recipes Implemented.
-- Added Emergency Items to the Pack (this means that if someone actually looses their Chisel, they can get it back in the early game).
-- Fishing Rods now have a correct recipe.
-- Improved Text from the "A Rubbery Situation" Quest.
-- The Golden and Cursed Lasso should have a more Balanced Recipe now.
-- Mom's Spaghetti from Tinkers Construct should be craftable now.
+- Added a Tooltip to indicate that a Tool Forge and the Armor Forge can be made with Any Metal Block.
+

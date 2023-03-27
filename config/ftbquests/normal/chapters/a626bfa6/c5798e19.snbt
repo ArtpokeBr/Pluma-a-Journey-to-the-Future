@@ -1,7 +1,7 @@
 {
 	title: "LV Electric Forge Hammer",
 	x: 1.5d,
-	y: 2.5d,
+	y: 3.5d,
 	description: "Hamering with EU!",
 	text: [
 		"Essential for basic Ore Processing and Easier Wrough Iron!"

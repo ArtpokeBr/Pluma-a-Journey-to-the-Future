@@ -1,11 +1,12 @@
 {
 	title: "LV Electric Furnace",
 	x: 1.5d,
-	y: 5.5d,
+	y: 1.5d,
 	description: "Smelting with EU!",
 	text: [
 		"Just the essentials here, you can use it to Automate any Smelting process!"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"40ed11cf"
 	],

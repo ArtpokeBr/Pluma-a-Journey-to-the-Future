@@ -7,7 +7,7 @@ import moretweaker.fossil.Analyzer as Analyzer;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Ancient Glass Tooltip
-<fossil:ancient_glass>.addTooltip(format.white("Can only be found in ") + format.red("Anu's Castle"));
+<fossil:ancient_glass>.addTooltip(format.white("Can only be found in ") + format.red("Anu's Castle") + format.white(" or a ") + format.red("Nether Ship"));
 <fossil:ancient_glass>.addTooltip(format.white("Or Crafted in a ") + format.aqua("Time Manipulator"));
 
 //Ancient Stone Tooltip

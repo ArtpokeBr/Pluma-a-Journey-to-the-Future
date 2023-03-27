@@ -1,14 +1,12 @@
 {
 	title: "LV Wiremill",
 	x: 1.5d,
-	y: 1.5d,
-	description: "Making Wires with EU!",
+	y: 5.5d,
+	description: "1 Ingot  = 2 Wires!",
 	text: [
-		"Want an Easier way to craft Wires? make this machine!"
+		"Want an Easier way to craft Wires? this machine is the solution!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"ffc88aa1",
 		"40ed11cf"
 	],
 	tasks: [{

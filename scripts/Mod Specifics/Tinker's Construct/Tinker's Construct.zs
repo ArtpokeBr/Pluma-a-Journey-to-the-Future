@@ -419,3 +419,5 @@ craft.make(<tcomplement:melter:8>, ["pretty",
   "S": <pyrotech:stone_kiln>,  # Stone Kiln
 });
 
+<tconstruct:toolforge>.addTooltip(format.white("Can be made with ") + format.green("Any Metal Block") + format.white("."));
+<conarm:armorforge>.addTooltip(format.white("Can be made with ") + format.green("Any Metal Block") + format.white("."));
