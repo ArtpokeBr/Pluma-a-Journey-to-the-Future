@@ -1,17 +1,38 @@
-§a§lVersion Beta§r§f 2.4.1:
+§a§lVersion Beta§r§f 2.5:
 
 §b§lMod Related Changes§r§f:
 
-- Updated Crafttweaker
-- Updated MixingBooter
+- Updated PackagedAstral
+- Updated PackageExCrafting
+- Updated PackagedAuto
+- Updated AE2 FluidCrafting
 - Updated Multiblocked
-- Updated Roots
+- Updated Lootr
+
+- Updated GTCEU
+- Updated GTCEU Multiblocks
+
+- Updated UniversalTweaks (as always, a lot of new fixes!)
+
+- Removed Toast Control (functionality implemented by UniversalTweaks)
+- Removed PickUpNotifier (functionality implemented by UniversalTweaks)
+
+- Added PackagedDraconic
 
 §2§lFixes§r§f:
 
-- Fixed incorrectly Mods being shipped with the Pack.
+- Fixed "Seed Oil for a Chassis!" Quest not correctly explaining things.
+- Fixed "Improving your Creosote/Coke Production!" Quest having incorrect requirements.
+- Fixed Twilight Crystal not being obtainable (changed Prescient Crystal to a Sun Crystal).
+- Flint Tools from Pyrotech now have a correct Mining Level
+- Fixed Thaumcraft Recipes using the Wrong Materials.
 
 §5§lMiscellaneous§r§f:
 
-- Added a Tooltip to indicate that a Tool Forge and the Armor Forge can be made with Any Metal Block.
-
+- Tanning now requires more time to be made using a Pyrotech's Barrel (1:15 to 5 mins)
+- The Pyrotech's Barrel can now be used to make Concentrated Seed Oil.
+- Now there is Starmetal and Blessed Starmetal, corrected the respective recipes.
+- Disabled Starmetal and Aquamarine as Tinker's Materials. (unfortunatly due to recipe balance reasons)
+- Rework all Bee Frames Recipes (they should not conflict with other recipes anymore).
+- The Quest "Automating Crops" now grants you a Item Collector as a Reward.
+- Added Better/Balanced Recipes for Forestry Single Block Farms.

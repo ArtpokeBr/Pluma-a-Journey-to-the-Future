@@ -329,6 +329,7 @@
     "fossil:palm_planks:0": "fossil:palm_planks_slab:0",
     "fossil:sigillaria_log:0": "fossil:sigillaria_planks:0",
     "fossil:sigillaria_planks:0": "fossil:sigillaria_planks_slab:0",
+    "gregtech:planks:0": "gregtech:wood_slab:0",
     "gregtech:rubber_log:0": "gregtech:planks:0",
     "harvestcraft:pamcinnamon:0": "minecraft:planks:3",
     "harvestcraft:pammaple:0": "minecraft:planks:1",

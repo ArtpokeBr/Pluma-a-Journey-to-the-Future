@@ -9,7 +9,7 @@ recipes.remove(<cyclicmagic:cable_wireless_fluid>);
 Alchemy.add(<cyclicmagic:cable_wireless_fluid>, [<randomthings:spectreilluminator>,<ore:lightPlatePolyvinylChloride>,<ore:lightPlatePolyvinylChloride>,<forestry:thermionic_tubes:11>,<forestry:thermionic_tubes:11>], {"silver":48 to 64,"dawnstone":48 to 64});
 
 //Twilight Crystal
-Alchemy.add(<contenttweaker:twilight_crystal>, [<ore:itemPrecientCrystal>,<embers:isolated_materia>,<embers:glimmer_shard>,<ore:gemScarabBlue>,<contenttweaker:alchemical_nautilus>], {"copper":13 to 26, "lead":13 to 26, "silver":13 to 26, "dawnstone":13 to 26});
+Alchemy.add(<contenttweaker:twilight_crystal>, [<extrautils2:suncrystal>,<embers:isolated_materia>,<embers:glimmer_shard>,<ore:gemScarabBlue>,<contenttweaker:alchemical_nautilus>], {"copper":13 to 26, "lead":13 to 26, "silver":13 to 26, "dawnstone":13 to 26});
 
 //Isolated Materia
 Alchemy.remove(<embers:isolated_materia>);

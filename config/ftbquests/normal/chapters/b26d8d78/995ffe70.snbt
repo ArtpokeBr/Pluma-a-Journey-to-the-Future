@@ -1,0 +1,61 @@
+{
+	title: "The Emptiness",
+	icon: "thaumicaugmentation:stone 1 2",
+	x: 15.0d,
+	y: 2.0d,
+	description: "A Cold... Empty... and very Dangerous Place!",
+	text: [
+		"First of All, Welcome to.. §5The Emptiness§f!",
+		"",
+		"- This Place is §cvery dangerous§f since §dFlux§f and §2Tainted Creatures§f are born here!",
+		"",
+		"- Collect some §5local resources§f and try to find a §bstrange structure§f that for some reason is §3located within this dimension§f."
+	],
+	dependencies: [
+		"fad0fd60",
+		"b1785c27"
+	],
+	size: 2.0d,
+	min_width: 250,
+	tasks: [{
+		uid: "ebcbbefa",
+		type: "dimension",
+		dim: 14676
+	},
+	{
+		uid: "1b0662d3",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:stone"
+		}]
+	},
+	{
+		uid: "425efa49",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:taint_flower"
+		}]
+	},
+	{
+		uid: "a84e8227",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:stone 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "b9d6c5a4",
+		type: "item",
+		item: {
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "thaumcraft:warpward"
+			}
+		}
+	},
+	{
+		uid: "6788e603",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

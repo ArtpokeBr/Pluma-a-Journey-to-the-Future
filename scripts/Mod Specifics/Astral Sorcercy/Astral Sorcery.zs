@@ -32,7 +32,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe(name, output, starlight, 100, recip
 
 
 //Rock Crystal Ore
-PureDaisy.addRecipe(<ore:oreOrdoInfused>, <astralsorcery:blockcustomore>);
+PureDaisy.addRecipe(<contenttweaker:nacre_block>, <astralsorcery:blockcustomore>);
 
 # Tooltips ==================================
 
@@ -73,6 +73,14 @@ autoclave.recipeBuilder()
     .EUt(80)
 .buildAndRegister();
 
+# Starmetal Fixes ===================================================================================
+
+furnace.remove(<ore:ingotAstralStarmetal>.firstItem);
+<astralsorcery:blockcustomore:1>.displayName = "Blessed Starmetal Ore";
+<astraladditions:block_starmetal>.displayName = "Blessed Starmetal Block";
+<astralsorcery:itemcraftingcomponent:1>.displayName = "Blessed Starmetal Ingot";
+<astralsorcery:itemcraftingcomponent:2>.displayName = "Blessed Starmetal Dust";
+
 # Marble Adjustments ================================================================================
 
 // mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_raw");
@@ -105,15 +113,15 @@ for i in 1 to 7 {
 mods.chisel.Carving.removeVariation("marble", <astralsorcery:blockmarble>);
 mods.chisel.Carving.addVariation("refined_marble", <astralsorcery:blockmarble>);
 
-<astralsorcery:blockmarblestairs>.displayName = "Refined Marble Stairs";
-<astralsorcery:blockmarble:1>.displayName = "Refined Marble Bricks";
-<astralsorcery:blockmarbleslab>.displayName = "Refined Marble Slab";
-<astralsorcery:blockmarble:3>.displayName = "Refined Marble Arch";
-<astralsorcery:blockmarble:6>.displayName = "Refined Runed Marble";
-<astralsorcery:blockmarble:4>.displayName = "Refined Chiseled Marble";
-<astralsorcery:blockmarble>.displayName = "Refined Marble";
-<astralsorcery:blockmarble:2>.displayName = "Refined Marble Pillar";
-<astralsorcery:blockmarble:5>.displayName = "Refined Engraved Marble";
+<astralsorcery:blockmarblestairs>.displayName = "Blessed Marble Stairs";
+<astralsorcery:blockmarble:1>.displayName = "Blessed Marble Bricks";
+<astralsorcery:blockmarbleslab>.displayName = "Blessed Marble Slab";
+<astralsorcery:blockmarble:3>.displayName = "Blessed Marble Arch";
+<astralsorcery:blockmarble:6>.displayName = "Blessed Runed Marble";
+<astralsorcery:blockmarble:4>.displayName = "Blessed Chiseled Marble";
+<astralsorcery:blockmarble>.displayName = "Blessed Marble";
+<astralsorcery:blockmarble:2>.displayName = "Blessed Marble Pillar";
+<astralsorcery:blockmarble:5>.displayName = "Blessed Engraved Marble";
 
 autoclave.recipeBuilder()
     .inputs(<ore:stoneMarble>)

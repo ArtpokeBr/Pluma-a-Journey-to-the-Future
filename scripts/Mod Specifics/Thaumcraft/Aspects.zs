@@ -41,3 +41,7 @@ import crafttweaker.item.IItemStack;
 <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}).setAspects(<aspect:coralos>*6, <aspect:vacuos>*5);
 <forge:bucketfilled>.withTag({FluidName: "moltenrefinedcoralium", Amount: 1000}).setAspects(<aspect:coralos>*6, <aspect:vacuos>*5);
 
+//Tainted Soil
+<natura:nether_tainted_soil>.setAspects(<aspect:vitium>*15, <aspect:terra>*10);
+<natura:nether_tainted_soil:1>.setAspects(<aspect:vitium>*15, <aspect:terra>*10);
+<natura:nether_tainted_soil:2>.setAspects(<aspect:vitium>*15, <aspect:terra>*10);

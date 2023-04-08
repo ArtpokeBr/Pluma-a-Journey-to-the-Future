@@ -1,0 +1,44 @@
+{
+	title: "Reaching Perfection!",
+	x: 12.0d,
+	y: 5.0d,
+	description: "0% Loss in Essentia Smelting!",
+	text: [
+		"With an §bEfficiency of 100%§f, it is a §agood idea to upgrade§f your §dEssentia Smeltery System§f!",
+		"",
+		"- It also works just like a §5Void Metal Essentia Smeltery§f, §enot that fast§f, but §avery efficient§f!.",
+		"",
+		"- And with a §bbrand new Jar§f like this one, you'll be able to §dstore up to 1000 of Essentia§f!",
+		"",
+		"§8§o~ With this Smeltery, now it is pretty much the time to consider making your definitive Essentia Smelting Setup, as you've already reached 100% efficiency.§r§f"
+	],
+	dependencies: [
+		"3a1043fe"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "15ddee22",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_smelter"
+		}]
+	},
+	{
+		uid: "7a1f9ed8",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_mithrillium"
+		}]
+	}],
+	rewards: [{
+		uid: "2cfa1e80",
+		type: "item",
+		item: "thaumcraft:tube",
+		count: 64
+	},
+	{
+		uid: "6d296949",
+		type: "item",
+		item: "thaumadditions:mithrillium_smelter"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "An Improvement to Mithrilium!",
+	x: 15.0d,
+	y: 3.5d,
+	description: "Let's make Adaminite!",
+	text: [
+		"By mixing some §dMagical Reagents§f, but most importantly, §5Compressed Tainted Soil§f, §cDreadium§f and §3Mithrilium§f... §4Adaminite§f!",
+		"",
+		"- This §bImportant Metal§f will open a lot of §anew possibilities§f with §3Thaumic Additions§f, make sure to check your §aThaumonomicon§f."
+	],
+	dependencies: [
+		"3a1043fe",
+		"995ffe70"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "44c1a5fe",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c0b18fe0",
+		type: "item",
+		item: "thaumadditions:adaminite_ingot",
+		count: 4,
+		random_bonus: 4
+	}]
+}

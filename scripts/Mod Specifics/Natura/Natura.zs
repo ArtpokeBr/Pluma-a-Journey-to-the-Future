@@ -47,3 +47,11 @@ extractor.recipeBuilder()
     .duration(100)
     .EUt(12)
     .buildAndRegister();
+
+//Tainted Soil
+mixer.recipeBuilder()
+    .inputs(<twilightforest:uberous_soil>, <thaumicaugmentation:taint_flower>*3)
+    .outputs(<natura:nether_tainted_soil>)
+    .duration(200)
+    .EUt(100)
+.buildAndRegister();

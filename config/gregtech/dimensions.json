@@ -25,32 +25,12 @@
       "dimName": "Luna"
     },
     {
-      "dimID": 108,
-      "dimName": "Mining"
-    },
-    {
-      "dimID": 5,
-      "dimName": "Garden"
-    },
-    {
-      "dimID": 95,
-      "dimName": "Garden 2"
-    },
-    {
-      "dimID": 107,
-      "dimName": "Garden 3"
-    },
-    {
-      "dimID": 4,
-      "dimName": "Void"
-    },
-    {
-      "dimID": 6,
-      "dimName": "Void 2"
-    },
-    {
       "dimID": 50,
       "dimName": "Abyssal Wasteland"
+    },
+    {
+      "dimID": 103,
+      "dimName": "Mars"
     }
   ]
 }

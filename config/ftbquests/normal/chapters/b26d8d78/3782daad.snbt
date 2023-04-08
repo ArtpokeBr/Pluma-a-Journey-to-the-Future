@@ -1,0 +1,32 @@
+{
+	title: "A Simple but effective Upgrade!",
+	icon: "thaumadditions:jar_thaumium",
+	x: 2.5d,
+	y: -4.5d,
+	shape: "rsquare",
+	description: "Let's make a Thaumium Jar!",
+	text: [
+		"Tired of storing §clow amounts§f of §dEssentia§f? try to §eimprove your Jars§f with §5Thaumium§f!",
+		"",
+		"- With this §bbrand new Jar§f , you'll be able to §dstore up to 350 of Essentia§f!"
+	],
+	dependencies: [
+		"b9be9446"
+	],
+	size: 0.75d,
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "ccacc8c8",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "2135c5c1",
+		type: "item",
+		item: "thaumadditions:jar_thaumium",
+		random_bonus: 3
+	}]
+}

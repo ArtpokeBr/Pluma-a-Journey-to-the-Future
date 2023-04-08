@@ -1,0 +1,36 @@
+{
+	title: "Time to find Fractures!",
+	x: 13.5d,
+	y: 1.5d,
+	description: "♫ Now listening to ... [ Illenium - Fractures (feat. Nevve) ]",
+	text: [
+		"With a §5Void Thaumometer§f in hands, you're now able to craft another §especial device§f!",
+		"",
+		"► With this §eFracture Locator§f in hands, go to the Nether and start looking for a §3Thaumcraft Fracture§f!",
+		"",
+		"▬ They look just like tiny §dFlux Rifts§f and they will have some §5Void Soil§f nearby them.",
+		"",
+		"▬ §aA Good Tip§f is that the §eLocator§f will §5§nincrease its purple glow§f when you're §2facing the correct direction§f of a §bFracture§f.",
+		"",
+		"§8§o~ It might take a while to find one, but one is all you need."
+	],
+	dependencies: [
+		"7e240bc1"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "3e48162a",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:fracture_locator",
+			tag: {
+				found: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5e31855c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

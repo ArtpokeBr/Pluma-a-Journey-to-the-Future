@@ -1,0 +1,30 @@
+{
+	title: "An Obscure and Whispering Upgrade!",
+	x: 12.887755102040813d,
+	y: -1.1396683673469425d,
+	shape: "rsquare",
+	description: "Let's make a Void Metal Jar!",
+	text: [
+		"Tired of storing §clow amounts§f of §dEssentia§f? try to §eimprove your Jars§f with §5Void Metal§f!",
+		"",
+		"- With this §bbrand new Jar§f , you'll be able to §dstore up to 500 of Essentia§f!"
+	],
+	dependencies: [
+		"a4a3a36e"
+	],
+	size: 0.75d,
+	optional: true,
+	tasks: [{
+		uid: "3255c7ee",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_eldritch"
+		}]
+	}],
+	rewards: [{
+		uid: "ba369aa6",
+		type: "item",
+		item: "thaumadditions:jar_eldritch",
+		random_bonus: 3
+	}]
+}

@@ -485,3 +485,229 @@ craft.make(<forestry:squeezer>, ["pretty",
   "I": <forestry:impregnated_casing>, # Impregnated Chassis
 });
 
+// Bee Frames Recipes ================================
+
+# [Untreated Frame] from [Fabric Mesh][+2]
+recipes.removeByRecipeName("forestry:frame_untreated");
+craft.make(<forestry:frame_untreated>, ["pretty",
+  "≢ # ≢",
+  "# F #",
+  "≢ # ≢"], {
+  "≢": <ore:boltWood>,            # Short Wood Stick
+  "#": <ore:stickWood>,           # Stick
+  "F": <magneticraft:crafting:6>, # Fabric Mesh
+});
+
+# [Impregnated Frame] from [Fabric Mesh][+2]
+recipes.removeByRecipeName("forestry:frame_impregnated");
+craft.make(<forestry:frame_impregnated>, ["pretty",
+  "# ╱ #",
+  "╱ F ╱",
+  "# ╱ #"], {
+  "#": <ore:boltWood>,            # Short Wood Stick
+  "╱": <forestry:oak_stick>,      # Impregnated Stick
+  "F": <magneticraft:crafting:6>, # Fabric Mesh
+});
+
+# [Proven Frame] from [Woven Silk][+2]
+craft.make(<forestry:frame_proven>, ["pretty",
+  "# ╱ #",
+  "╱ W ╱",
+  "# ╱ #"], {
+  "#": <ore:boltWood>,                 # Short Wood Stick
+  "╱": <forestry:oak_stick>,           # Impregnated Stick
+  "W": <forestry:crafting_material:3>, # Woven Silk
+});
+
+# [Chocolate Frame] from [Impregnated Frame][+1]
+recipes.removeByRecipeName("extrabees:cocoa_frame");
+craft.make(<extrabees:hive_frame.cocoa>, ["pretty",
+  "  C  ",
+  "C ◙ C",
+  "  C  "], {
+  "C": <ore:ingotChocolate>,                     # Milk Chocolate
+  "◙": <forestry:frame_impregnated>.anyDamage(), # Impregnated Frame
+});
+
+# [Restraint Frame] from [Impregnated Frame][+2]
+recipes.removeByRecipeName("extrabees:cage_frame");
+craft.make(<extrabees:hive_frame.cage>, ["pretty",
+  "I r I",
+  "r ◙ r",
+  "I r I"], {
+  "I": <ore:ringIron>,                           # Iron Ring
+  "r": <ore:boltIron>,                           # Iron Bolt
+  "◙": <forestry:frame_impregnated>.anyDamage(), # Impregnated Frame
+});
+
+# [Soul Frame] from [Impregnated Frame][+2]
+recipes.removeByRecipeName("extrabees:soul_frame");
+craft.make(<extrabees:hive_frame.soul>, ["pretty",
+  "B S B",
+  "S ◙ S",
+  "  S B"], {
+  "B": <biomesoplenty:bramble_plant>,            # Bramble
+  "S": <quark:soul_powder>,                      # Soul Powder
+  "◙": <forestry:frame_impregnated>.anyDamage(), # Impregnated Frame
+});
+
+# [Healing Frame] from [Impregnated Frame][+2]
+recipes.removeByRecipeName("extrabees:clay_frame");
+craft.make(<extrabees:hive_frame.clay>, ["pretty",
+  "  G  ",
+  "A ◙ A",
+  "  G  "], {
+  "G": <minecraft:speckled_melon>,               # Glistering Melon
+  "A": <ore:cropBlightberry>,                    # Blightberry
+  "◙": <forestry:frame_impregnated>.anyDamage(), # Impregnated Frame
+});
+
+# [Nova Frame] from [Proven Frame][+1]
+craft.make(<extrabees:hive_frame.debug>, ["pretty",
+  "  R  ",
+  "R ◙ R",
+  "  R  "], {
+  "R": <binniecore:cylinder:1>.withTag({Fluid: {FluidName: "binnie.dna.raw", Amount: 1000}}), # Raw DNA Cylinder
+  "◙": <forestry:frame_proven>.anyDamage(), # Proven Frame
+});
+
+# [Mutation Frame] from [Proven Frame][+1]
+craft.make(<careerbees:mutation_frame>, ["pretty",
+  "  B  ",
+  "B ◙ B",
+  "  B  "], {
+  "B": <fossil:bio_goo>,                    # Bio-Goo
+  "◙": <forestry:frame_proven>.anyDamage(), # Proven Frame
+});
+
+# [Eternal Frame] from [Proven Frame][+3]
+recipes.removeByRecipeName("careerbees:eternal_frame");
+craft.make(<careerbees:eternalframe>, ["pretty",
+  "  *  ",
+  "B ◙ e",
+  "  *  "], {
+  "*": <contenttweaker:condensed_vis_crystal_chronos>, # Condensed Chronos Vis Crystal
+  "B": <ore:careerBeesYang>,                # Yang Essence
+  "◙": <forestry:frame_proven>.anyDamage(), # Proven Frame
+  "e": <ore:careerBeesYing>,                # Ying Essence
+});
+
+# [Poison Frame] from [Potion of Poison][+2]
+recipes.removeByRecipeName("careerbees:poison_frame");
+craft.make(<careerbees:poison_frame>, ["pretty",
+  "╱ ╱ ╱",
+  "R : R",
+  "╱ ╱ ╱"], {
+  "╱": <forestry:oak_stick>, # Impregnated Stick
+  "R": <natura:edibles>,     # Raw Imphide
+  ":": <minecraft:potion>.withTag({Potion: "minecraft:poison"}),    # Potion of Poison
+});
+
+# [Pheremone Frame] from [Impregnated Frame][+2]
+recipes.removeByRecipeName("careerbees:pheremone_frame");
+craft.make(<careerbees:pheremone_frame>, ["pretty",
+  "P L P",
+  "L ◙ L",
+  "P L P"], {
+  "P": <ore:flowerPinkDaffodil>,                 # Pink Dafodil
+  "L": <ore:flowerLavender>,                     # Lavender
+  "◙": <forestry:frame_impregnated>.anyDamage(), # Impregnated Frame
+});
+
+# [Centrifuge] from [Sturdy Chassis][+3]
+recipes.removeByRecipeName("forestry:centrifuge");
+craft.make(<forestry:centrifuge>, ["pretty",
+  "□ O □",
+  "⌂ S ⌂",
+  "□ O □"], {
+  "□": <ore:plateBrass>,              # Brass Plate
+  "O": <forestry:thermionic_tubes:6>, # Obsidian Electron Tube
+  "⌂": <ore:casingBronze>,            # Bronze Casing
+  "S": <forestry:sturdy_machine>,     # Sturdy Chassis
+});
+
+# [Arboretum (Managed)] from [Mutagenic Chassis][+3]
+recipes.removeByRecipeName("forestry:arboretum");
+craft.make(<forestry:arboretum>, ["pretty",
+  "□ G □",
+  "G u G",
+  "□ M □"], {
+  "□": <ore:lightPlateBronze>,        # Light Bronze Plate
+  "G": <forestry:thermionic_tubes:4>, # Golden Electron Tube
+  "u": <forestry:flexible_casing>,    # Mutagenic Chassis
+  "M": <ore:circuitMv>,               # Integrated Processor
+});
+
+# [Farm (Managed)] from [Mutagenic Chassis][+3]
+recipes.removeByRecipeName("forestry:farm_crops");
+craft.make(<forestry:farm_crops>, ["pretty",
+  "□ I □",
+  "I u I",
+  "□ M □"], {
+  "□": <ore:lightPlateTerrastone>,    # Light Terrastone Plate
+  "I": <forestry:thermionic_tubes:3>, # Iron Electron Tube
+  "u": <forestry:flexible_casing>,    # Mutagenic Chassis
+  "M": <ore:circuitMv>,               # Integrated Processor
+});
+
+# [Mushroom Farm (Managed)] from [Mutagenic Chassis][+3]
+recipes.removeByRecipeName("forestry:farm_mushroom");
+craft.make(<forestry:farm_mushroom>, ["pretty",
+  "□ A □",
+  "A u A",
+  "□ M □"], {
+  "□": <ore:lightPlateMenril>,         # Light Menril Plate
+  "A": <forestry:thermionic_tubes:10>, # Apatine Electron Tube
+  "u": <forestry:flexible_casing>,     # Mutagenic Chassis
+  "M": <ore:circuitMv>,                # Integrated Processor
+});
+
+# [Gourd Farm (Managed)] from [Mutagenic Chassis][+3]
+recipes.removeByRecipeName("forestry:farm_gourd");
+craft.make(<forestry:farm_gourd>, ["pretty",
+  "□ B □",
+  "B u B",
+  "□ M □"], {
+  "□": <ore:lightPlateBrass>,         # Light Brass Plate
+  "B": <forestry:thermionic_tubes:2>, # Bronze Electron Tube
+  "u": <forestry:flexible_casing>,    # Mutagenic Chassis
+  "M": <ore:circuitMv>,               # Integrated Processor
+});
+
+# [Infernal Farm (Managed)] from [Mutagenic Chassis][+3]
+recipes.removeByRecipeName("forestry:farm_nether");
+craft.make(<forestry:farm_nether>, ["pretty",
+  "□ B □",
+  "B u B",
+  "□ M □"], {
+  "□": <ore:lightPlateArdite>,        # Light Ardite Plate
+  "B": <forestry:thermionic_tubes:7>, # Blazing Electron Tube
+  "u": <forestry:flexible_casing>,    # Mutagenic Chassis
+  "M": <ore:circuitMv>,               # Integrated Processor
+});
+
+# [Ender Farm (Managed)] from [Mutagenic Chassis][+3]
+recipes.removeByRecipeName("forestry:farm_ender");
+craft.make(<forestry:farm_ender>, ["pretty",
+  "□ E □",
+  "E u E",
+  "□ M □"], {
+  "□": <ore:lightPlateBismuth>,        # Light Bismuth Plate
+  "E": <forestry:thermionic_tubes:12>, # Ender Electron Tube
+  "u": <forestry:flexible_casing>,     # Mutagenic Chassis
+  "M": <ore:circuitMv>,                # Integrated Processor
+});
+
+# [Peat Bog (Managed)] from [Mutagenic Chassis][+3]
+recipes.removeByRecipeName("forestry:peat_bog");
+craft.make(<forestry:peat_bog>, ["pretty",
+  "□ C □",
+  "C u C",
+  "□ M □"], {
+  "□": <ore:lightPlateSoularium>,   # Light Soularium Plate
+  "C": <forestry:thermionic_tubes>, # Copper Electron Tube
+  "u": <forestry:flexible_casing>,  # Mutagenic Chassis
+  "M": <ore:circuitMv>,             # Integrated Processor
+});
+
+// ===================================================

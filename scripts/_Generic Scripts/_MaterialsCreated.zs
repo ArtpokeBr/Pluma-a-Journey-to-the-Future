@@ -593,9 +593,9 @@ var moon = MaterialBuilder(32069, "moon")
 
 # 32072 is used for Omothol Stone
 
-val astral_starmetal = MaterialBuilder(32073, "astral_starmetal")
-    .ingot()
-    .iconSet("shiny")
+val starmetal = MaterialBuilder(32073, "starmetal")
+    .ingot().fluid("fluid").ore(1, 1, true)
+    .iconSet("DULL")
     .color(0x1c1cba)
     .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
     .build();

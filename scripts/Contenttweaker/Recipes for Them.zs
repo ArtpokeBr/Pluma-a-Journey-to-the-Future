@@ -754,7 +754,7 @@ mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:potentia>, [<contenttweak
 mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:dirty_reagent>, [<minecraft:dirt:1>,<roots:elemental_soil_air>,<roots:elemental_soil_water>,<roots:elemental_soil_fire>], 8, 4);
 
 # Wizard's Reagent
-mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:wizards_reagent>, [<ore:gemAmethyst>.firstItem,<ore:gemGarnetYellow>.firstItem,<ore:gemOpal>.firstItem,<thaumcraft:amber>], 80, 12);
+mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:wizards_reagent>, [<ore:gemAmethyst>.firstItem,<ore:gemGarnetYellow>.firstItem,<ore:gemOpal>.firstItem,<ore:gemAmber>.firstItem], 80, 12);
 
 # Neutral Reagent
 mods.bloodmagic.TartaricForge.addRecipe(<contenttweaker:neutral_reagent>, [<minecraft:clay>,<minecraft:quartz_block>,<minecraft:concrete:8>,<minecraft:glass>], 300, 36);
@@ -979,8 +979,8 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("pluma:shaped/internal/alta
 <contenttweaker:goddess_pearl>.addTooltip(format.red(format.bold("WARNING: ")) + format.gray(format.bold("AE2 autocrafting consumes the item! Use an external crafter like an RFTools Crafter when using this item in your ME System!")));
 
 # Impetus Crystal
-recipes.addShapeless(<contenttweaker:impetus_crystal>, [<thaumcraft:primordial_pearl>.anyDamage().transformDamage(1),<ore:ingotVoid>.firstItem,<bloodmagic:component:4>,<contenttweaker:magical_leather>,<embers:shifting_scales>]);
-recipes.addShapeless(<contenttweaker:impetus_crystal>, [<contenttweaker:goddess_pearl>.reuse(),<ore:ingotVoid>.firstItem,<bloodmagic:component:4>,<contenttweaker:magical_leather>,<embers:shifting_scales>]);
+recipes.addShapeless(<contenttweaker:impetus_crystal>, [<thaumcraft:primordial_pearl>.anyDamage().transformDamage(1),<ore:ingotVoid>.firstItem,<quantumflux:voidbucket>,<contenttweaker:magical_leather>,<embers:shifting_scales>]);
+recipes.addShapeless(<contenttweaker:impetus_crystal>, [<contenttweaker:goddess_pearl>.reuse(),<ore:ingotVoid>.firstItem,<quantumflux:voidbucket>,<contenttweaker:magical_leather>,<embers:shifting_scales>]);
 
 # Conducted Impetus
 recipes.addShapeless("conducted_impetus", <contenttweaker:conducted_impetus>, [<thaumicaugmentation:augment_caster_rift_energy_storage>.reuse().marked("conductor"),<contenttweaker:impetus_crystal>],

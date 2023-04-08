@@ -52,6 +52,7 @@
 	{
 		uid: "0c038100",
 		type: "item",
+		title: "Any Primorial Pearl",
 		items: [{
 			item: "thaumcraft:primordial_pearl"
 		}],

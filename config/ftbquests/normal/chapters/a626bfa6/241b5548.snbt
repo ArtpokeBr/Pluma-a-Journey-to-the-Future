@@ -86,8 +86,18 @@
 		random_bonus: 3
 	},
 	{
-		uid: "c5f8af5d",
+		uid: "7e6af830",
+		type: "item",
+		item: "randomthings:advanceditemcollector"
+	},
+	{
+		uid: "e1114816",
+		type: "item",
+		item: "randomthings:itemfilter"
+	},
+	{
+		uid: "9255b463",
 		type: "ftbmoney:money",
-		ftb_money: 50L
+		ftb_money: 25L
 	}]
 }

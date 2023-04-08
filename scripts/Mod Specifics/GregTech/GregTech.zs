@@ -702,29 +702,3 @@ autoclave.recipeBuilder()
 .buildAndRegister();
 
 /// =========================================================================================================
-
-// Seed Oil out of more Seeds!
-<recipemap:extractor>.findRecipe(2, [<minecraft:beetroot_seeds:0>], null).remove();
-<recipemap:extractor>.findRecipe(2, [<minecraft:pumpkin_seeds:0>], null).remove();
-<recipemap:extractor>.findRecipe(2, [<natura:overworld_seeds:0>], null).remove();
-<recipemap:extractor>.findRecipe(2, [<natura:overworld_seeds:1>], null).remove();
-<recipemap:extractor>.findRecipe(2, [<mysticalworld:aubergine_seed:0>], null).remove();
-<recipemap:extractor>.findRecipe(2, [<minecraft:melon_seeds:0>], null).remove();
-<recipemap:extractor>.findRecipe(2, [<roots:terra_spores:0>], null).remove();
-<recipemap:extractor>.findRecipe(2, [<minecraft:wheat_seeds:0>], null).remove();
-<recipemap:extractor>.findRecipe(2, [<roots:wildroot:0>], null).remove();
-
-extractor.recipeBuilder()
-    .inputs(<ore:listAllseed>)
-    .fluidOutputs(<liquid:seed_oil> * 50)
-    .duration(20)
-    .EUt(2)
-.buildAndRegister();
-
-fermenter.recipeBuilder()
-    .inputs(<ore:Mulch>)
-    .fluidInputs(<liquid:seed.oil> * 10)
-    .fluidOutputs(<liquid:seed_oil> * 10)
-    .duration(80)
-    .EUt(12)
-.buildAndRegister();

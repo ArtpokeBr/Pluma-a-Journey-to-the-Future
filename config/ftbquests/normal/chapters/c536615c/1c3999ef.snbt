@@ -71,21 +71,20 @@
 		uid: "bc5b0017",
 		type: "item",
 		item: {
-			id: "gregtech:meta_tool",
-			Damage: 7s,
+			id: "gregtech:mallet",
 			tag: {
-				GT.ToolStats: {
-					MaxDurability: 512,
-					DigSpeed: 4.0f,
-					AttackDamage: 1.0f,
+				GT.Tool: {
 					Material: "plastic",
-					HarvestLevel: 1
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			Count: 1b
+					MaxDurability: 512,
+					HarvestLevel: 1,
+					ToolSpeed: 4.0f,
+					AttackDamage: 1.0f,
+					Durability: 0,
+					AttackSpeed: -2.4f
+				},
+				GT.Behaviours: {},
+				HideFlags: 2
+			}
 		}
 	},
 	{

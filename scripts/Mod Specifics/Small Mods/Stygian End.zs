@@ -14,16 +14,16 @@ Insolator.addRecipeSaplingInfuser(<stygian:endlog> * 6, <stygian:endcanopysaplin
 // Fixing Enbiotic
 
 //Adding to the Phytogenic from Thermal
-Insolator.addRecipe(<stygian:endglow> * 18, <stygian:endglow>, <thermalfoundation:fertilizer:2>, 16000, <stygian:endglow>, 150, 2500);
-Insolator.addRecipe(<stygian:endglow> * 12, <stygian:endglow>, <thermalfoundation:fertilizer:1>, 16000, <stygian:endglow>, 125, 2500);
-Insolator.addRecipe(<stygian:endglow> * 6, <stygian:endglow>, <thermalfoundation:fertilizer>, 16000, <stygian:endglow>, 100, 2500);
+Insolator.addRecipe(<stygian:endglow> * 18, <stygian:endglow>, <thermalfoundation:fertilizer:2>, 16000, <stygian:endglow>, 0, 2500);
+Insolator.addRecipe(<stygian:endglow> * 12, <stygian:endglow>, <thermalfoundation:fertilizer:1>, 16000, <stygian:endglow>, 0, 2500);
+Insolator.addRecipe(<stygian:endglow> * 6, <stygian:endglow>, <thermalfoundation:fertilizer>, 16000, <stygian:endglow>, 0, 2500);
 
 //Fixing Stygian Grass
 
 //Adding to the Phytogenic from Thermal
-Insolator.addRecipe(<stygian:endtallgrass> * 18, <stygian:endtallgrass>, <thermalfoundation:fertilizer:2>, 16000, <stygian:endtallgrass>, 150, 2500);
-Insolator.addRecipe(<stygian:endtallgrass> * 12, <stygian:endtallgrass>, <thermalfoundation:fertilizer:1>, 16000, <stygian:endtallgrass>, 125, 2500);
-Insolator.addRecipe(<stygian:endtallgrass> * 6, <stygian:endtallgrass>, <thermalfoundation:fertilizer>, 16000, <stygian:endtallgrass>, 100, 2500);
+Insolator.addRecipe(<stygian:endtallgrass> * 18, <stygian:endtallgrass>, <thermalfoundation:fertilizer:2>, 16000, <stygian:endtallgrass>, 0, 2500);
+Insolator.addRecipe(<stygian:endtallgrass> * 12, <stygian:endtallgrass>, <thermalfoundation:fertilizer:1>, 16000, <stygian:endtallgrass>, 0, 2500);
+Insolator.addRecipe(<stygian:endtallgrass> * 6, <stygian:endtallgrass>, <thermalfoundation:fertilizer>, 16000, <stygian:endtallgrass>, 0, 2500);
 
 //Porphyry
 large_chemical_reactor.recipeBuilder()

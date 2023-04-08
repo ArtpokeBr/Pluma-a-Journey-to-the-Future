@@ -8,6 +8,8 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.Recipe;
 import crafttweaker.item.IItemDefinition;
 import mods.jei.JEI;
+import mods.astralsorcery.Altar;
+import mods.nuclearcraft.Melter;
 
 //Function to add recipes automatically for Gears and Plates created with Contenttweaker.
 function makeContenttweakerIntegration (inputMaterial as IItemStack, plate as IItemStack, gear as IItemStack, additionalStick as IItemStack){  
@@ -178,7 +180,7 @@ function makeFluidNuggetIntegration(inputMaterial as IItemStack, fluidMaterial a
         .buildAndRegister();
 }
 
-function makeDustIntegration(inputIngot as IItemStack, inputBlock as IItemStack, inputNugget as IItemStack, outputDust as IItemStack){
+function makeDustIntegration(inputIngot as IItemStack, inputBlock as IItemStack, outputDust as IItemStack){
 
         macerator.recipeBuilder()
         .inputs(inputIngot)
@@ -318,6 +320,68 @@ function makeGregTechMaterialFluidIntegration (inputIngot as IItemStack, inputNu
         .buildAndRegister();
 }
 
+function makeGemIntegration (inputGem as IItemStack, outputDust as IItemStack, outputFlawless as IItemStack, outputFluid as ILiquidStack){
+
+        #Gem
+        <recipemap:implosion_compressor>.recipeBuilder()
+        .inputs(outputDust * 4)
+        .property("explosives", 2)
+        .outputs(inputGem)
+        .duration(20)
+        .EUt(30)
+        .buildAndRegister();
+
+        <recipemap:autoclave>.recipeBuilder()
+        .inputs(outputDust)
+        .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 25)
+        .outputs(inputGem)
+        .duration(24)
+        .EUt(100)
+        .buildAndRegister();
+
+        // <recipemap:autoclave>.recipeBuilder()
+        // .inputs(outputDust)
+        // .fluidInputs(<liquid:distilled_water> * 200)
+        // .outputs(inputGem)
+        // .duration(24)
+        // .EUt(2000)
+        // .buildAndRegister();
+
+        // <recipemap:autoclave>.recipeBuilder()
+        // .inputs(outputDust)
+        // .fluidInputs(<liquid:water> * 200)
+        // .outputs(inputGem)
+        // .duration(4000)
+        // .EUt(24)
+        // .buildAndRegister();
+
+        #Dust
+        macerator.recipeBuilder()
+        .inputs(inputGem)
+        .outputs(outputDust)
+        .duration(196)
+        .EUt(2)
+        .buildAndRegister();
+
+        #Flawless
+        engraver.recipeBuilder()
+        .inputs(inputGem*2)
+        .notConsumable(<ore:craftingLensWhite>)
+        .outputs(outputFlawless)
+        .duration(600)
+        .EUt(240)
+        .buildAndRegister();
+
+        #Fluid
+        extractor.recipeBuilder()
+        .inputs(inputGem)
+        .fluidOutputs(outputFluid*144)
+        .duration(56)
+        .EUt(30)
+        .buildAndRegister();
+
+}
+
 ///////////////////////////////////////
 //  Resources Ported from MorePlates //
 ///////////////////////////////////////
@@ -432,9 +496,9 @@ makeFluidNuggetIntegration(<ore:nuggetDreadium>.firstItem, <liquid:moltendreadiu
 makeFluidNuggetIntegration(<ore:nuggetAbyssalnite>.firstItem, <liquid:moltenabyssalnite>);
 makeFluidNuggetIntegration(<ore:nuggetLiquifiedCoralium>.firstItem, <liquid:moltenrefinedcoralium>);
 
-makeDustIntegration(<ore:ingotDreadium>.firstItem, <ore:blockDreadium>.firstItem, <ore:nuggetDreadium>.firstItem, <ore:dustDreadium>.firstItem);
-makeDustIntegration(<ore:ingotAbyssalnite>.firstItem, <ore:blockAbyssalnite>.firstItem, <ore:nuggetAbyssalnite>.firstItem, <ore:dustAbyssalnite>.firstItem);
-makeDustIntegration(<ore:ingotLiquifiedCoralium>.firstItem, <ore:blockLiquifiedCoralium>.firstItem, <ore:nuggetLiquifiedCoralium>.firstItem, <ore:dustLiquifiedCoralium>.firstItem);
+makeDustIntegration(<ore:ingotDreadium>.firstItem, <ore:blockDreadium>.firstItem, <ore:dustDreadium>.firstItem);
+makeDustIntegration(<ore:ingotAbyssalnite>.firstItem, <ore:blockAbyssalnite>.firstItem, <ore:dustAbyssalnite>.firstItem);
+makeDustIntegration(<ore:ingotLiquifiedCoralium>.firstItem, <ore:blockLiquifiedCoralium>.firstItem, <ore:dustLiquifiedCoralium>.firstItem);
 
 //Extra Utils 2 Materials =====================
 
@@ -483,7 +547,7 @@ makeContenttweakerIntegration(<ore:EmpoweredAAVoidCrystal>.firstItem, <ore:plate
 //Bound Metal
 recipes.remove(<ore:gearBoundMetal>.firstItem);
 makeContenttweakerIntegration(<ore:ingotBoundMetal>.firstItem, <ore:plateBoundMetal>.firstItem, <ore:gearBoundMetal>.firstItem, <tconstruct:tool_rod>.withTag({Material: "bound_metal"}));
-makeDustIntegration(<ore:ingotBoundMetal>.firstItem, <ore:blockBoundMetal>.firstItem, <ore:nuggetBoundMetal>.firstItem, <ore:dustBoundMetal>.firstItem);
+makeDustIntegration(<ore:ingotBoundMetal>.firstItem, <ore:blockBoundMetal>.firstItem, <ore:dustBoundMetal>.firstItem);
 makeBlockIntegration(<ore:ingotBoundMetal>.firstItem, <ore:blockBoundMetal>.firstItem, <liquid:bound_metal>);
 makeFluidIngotIntegration(<ore:ingotBoundMetal>.firstItem, <liquid:bound_metal>);
 makeFluidNuggetIntegration(<ore:nuggetBoundMetal>.firstItem, <liquid:bound_metal>);
@@ -491,7 +555,7 @@ makeFluidNuggetIntegration(<ore:nuggetBoundMetal>.firstItem, <liquid:bound_metal
 //Draconic Metal
 recipes.remove(<ore:gearDraconicMetal>.firstItem);
 makeContenttweakerIntegration(<ore:ingotDraconicMetal>.firstItem, <ore:plateDraconicMetal>.firstItem, <ore:gearDraconicMetal>.firstItem, <tconstruct:tool_rod>.withTag({Material: "draconic_metal"}));
-makeDustIntegration(<ore:ingotDraconicMetal>.firstItem, <ore:blockDraconicMetal>.firstItem, <ore:nuggetDraconicMetal>.firstItem, <ore:dustDraconicMetal>.firstItem);
+makeDustIntegration(<ore:ingotDraconicMetal>.firstItem, <ore:blockDraconicMetal>.firstItem, <ore:dustDraconicMetal>.firstItem);
 makeBlockIntegration(<ore:ingotDraconicMetal>.firstItem, <ore:blockDraconicMetal>.firstItem, <liquid:draconic_metal>);
 makeFluidIngotIntegration(<ore:ingotDraconicMetal>.firstItem, <liquid:draconic_metal>);
 makeFluidNuggetIntegration(<ore:nuggetDraconicMetal>.firstItem, <liquid:draconic_metal>);
@@ -499,7 +563,7 @@ makeFluidNuggetIntegration(<ore:nuggetDraconicMetal>.firstItem, <liquid:draconic
 //Chaotic Metal
 recipes.remove(<ore:gearChaoticMetal>.firstItem);
 makeContenttweakerIntegration(<ore:ingotChaoticMetal>.firstItem, <ore:plateChaoticMetal>.firstItem, <ore:gearChaoticMetal>.firstItem, <tconstruct:tool_rod>.withTag({Material: "chaotic_metal"}));
-makeDustIntegration(<ore:ingotChaoticMetal>.firstItem, <ore:blockChaoticMetal>.firstItem, <ore:nuggetChaoticMetal>.firstItem, <ore:dustChaoticMetal>.firstItem);
+makeDustIntegration(<ore:ingotChaoticMetal>.firstItem, <ore:blockChaoticMetal>.firstItem, <ore:dustChaoticMetal>.firstItem);
 makeBlockIntegration(<ore:ingotChaoticMetal>.firstItem, <ore:blockChaoticMetal>.firstItem, <liquid:chaotic_metal>);
 makeFluidIngotIntegration(<ore:ingotChaoticMetal>.firstItem, <liquid:chaotic_metal>);
 makeFluidNuggetIntegration(<ore:nuggetChaoticMetal>.firstItem, <liquid:chaotic_metal>);
@@ -507,7 +571,7 @@ makeFluidNuggetIntegration(<ore:nuggetChaoticMetal>.firstItem, <liquid:chaotic_m
 //Wyvern Metal
 recipes.remove(<ore:gearWyvernMetal>.firstItem);
 makeContenttweakerIntegration(<ore:ingotWyvernMetal>.firstItem, <ore:plateWyvernMetal>.firstItem, <ore:gearWyvernMetal>.firstItem, <tconstruct:tool_rod>.withTag({Material: "wyvern_metal"}));
-makeDustIntegration(<ore:ingotWyvernMetal>.firstItem, <ore:blockWyvernMetal>.firstItem, <ore:nuggetWyvernMetal>.firstItem, <ore:dustWyvernMetal>.firstItem);
+makeDustIntegration(<ore:ingotWyvernMetal>.firstItem, <ore:blockWyvernMetal>.firstItem, <ore:dustWyvernMetal>.firstItem);
 makeBlockIntegration(<ore:ingotWyvernMetal>.firstItem, <ore:blockWyvernMetal>.firstItem, <liquid:wyvern_metal>);
 makeFluidIngotIntegration(<ore:ingotWyvernMetal>.firstItem, <liquid:wyvern_metal>);
 makeFluidNuggetIntegration(<ore:nuggetWyvernMetal>.firstItem, <liquid:wyvern_metal>);
@@ -515,7 +579,7 @@ makeFluidNuggetIntegration(<ore:nuggetWyvernMetal>.firstItem, <liquid:wyvern_met
 //Primordial Metal
 recipes.remove(<ore:gearPrimordial>.firstItem);
 makeContenttweakerIntegration(<ore:ingotPrimordial>.firstItem, <ore:platePrimordial>.firstItem, <ore:gearPrimordial>.firstItem, <tconstruct:tool_rod>.withTag({Material: "primal_metal"}));
-makeDustIntegration(<ore:ingotPrimordial>.firstItem, <ore:blockPrimordial>.firstItem, <ore:nuggetPrimordial>.firstItem, <ore:dustPrimordial>.firstItem);
+makeDustIntegration(<ore:ingotPrimordial>.firstItem, <ore:blockPrimordial>.firstItem, <ore:dustPrimordial>.firstItem);
 makeBlockIntegration(<ore:ingotPrimordial>.firstItem, <ore:blockPrimordial>.firstItem, <liquid:primal_metal>);
 makeFluidIngotIntegration(<ore:ingotPrimordial>.firstItem, <liquid:primal_metal>);
 makeFluidNuggetIntegration(<ore:nuggetPrimordial>.firstItem, <liquid:primal_metal>);
@@ -523,7 +587,7 @@ makeFluidNuggetIntegration(<ore:nuggetPrimordial>.firstItem, <liquid:primal_meta
 //Sentient Metal
 recipes.remove(<ore:gearSentientMetal>.firstItem);
 makeContenttweakerIntegration(<ore:ingotSentientMetal>.firstItem, <ore:plateSentientMetal>.firstItem, <ore:gearSentientMetal>.firstItem, <tconstruct:tool_rod>.withTag({Material: "sentient_metal"}));
-makeDustIntegration(<ore:ingotSentientMetal>.firstItem, <ore:blockSentientMetal>.firstItem, <ore:nuggetSentientMetal>.firstItem, <ore:dustSentientMetal>.firstItem);
+makeDustIntegration(<ore:ingotSentientMetal>.firstItem, <ore:blockSentientMetal>.firstItem, <ore:dustSentientMetal>.firstItem);
 makeBlockIntegration(<ore:ingotSentientMetal>.firstItem, <ore:blockSentientMetal>.firstItem, <liquid:sentient_metal>);
 makeFluidIngotIntegration(<ore:ingotSentientMetal>.firstItem, <liquid:sentient_metal>);
 makeFluidNuggetIntegration(<ore:nuggetSentientMetal>.firstItem, <liquid:sentient_metal>);
@@ -534,13 +598,13 @@ makeFluidNuggetIntegration(<ore:nuggetSentientMetal>.firstItem, <liquid:sentient
 recipes.remove(<thermalfoundation:material:264>);
 makeContenttweakerIntegration(<ore:ingotMithril>.firstItem, <ore:plateMithril>.firstItem, <ore:gearMithril>.firstItem, <tconstruct:tool_rod>.withTag({Material: "cobalt"}));
 makeBlockIntegrationWithoutFluid (<ore:ingotMithril>.firstItem, <ore:blockMithril>.firstItem);
-makeDustIntegration(<ore:ingotMithril>.firstItem, <ore:blockMithril>.firstItem, <ore:nuggetMithril>.firstItem, <ore:dustMithril>.firstItem);
+makeDustIntegration(<ore:ingotMithril>.firstItem, <ore:blockMithril>.firstItem, <ore:dustMithril>.firstItem);
 
 ##### Fixing Materials from Advanced Rocketry ##### =========================
 
 //Titanium Aluminide
 makeContenttweakerIntegration (<ore:ingotTitaniumAluminide>.firstItem, <ore:plateTitaniumAluminide>.firstItem, <ore:gearTitaniumAluminide>.firstItem, <ore:stickTitaniumAluminide>.firstItem);
-makeDustIntegration(<ore:ingotTitaniumAluminide>.firstItem, <ore:blockTitaniumAluminide>.firstItem, <ore:nuggetTitaniumAluminide>.firstItem, <ore:dustTitaniumAluminide>.firstItem);
+makeDustIntegration(<ore:ingotTitaniumAluminide>.firstItem, <ore:blockTitaniumAluminide>.firstItem, <ore:dustTitaniumAluminide>.firstItem);
 
 extruder.recipeBuilder()
     .inputs([<ore:ingotTitaniumAluminide>])
@@ -552,7 +616,7 @@ extruder.recipeBuilder()
 
 //Titanium Iridium
 makeContenttweakerIntegration (<ore:ingotTitaniumIridium>.firstItem, <ore:plateTitaniumIridium>.firstItem, <ore:gearTitaniumIridium>.firstItem, <ore:stickTitaniumIridium>.firstItem);
-makeDustIntegration(<ore:ingotTitaniumIridium>.firstItem, <ore:blockTitaniumIridium>.firstItem, <ore:nuggetTitaniumIridium>.firstItem, <ore:dustTitaniumIridium>.firstItem);
+makeDustIntegration(<ore:ingotTitaniumIridium>.firstItem, <ore:blockTitaniumIridium>.firstItem, <ore:dustTitaniumIridium>.firstItem);
 
 extruder.recipeBuilder()
     .inputs([<ore:ingotTitaniumIridium>])
@@ -564,15 +628,15 @@ extruder.recipeBuilder()
 
 // ============== //
 
-# Starmetal
+// # Starmetal
 recipes.remove(<astraladditions:block_starmetal>);
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/block_starmetal");
+mods.nuclearcraft.Melter.removeRecipeWithInput(<ore:ingotStarmetal>);
+mods.nuclearcraft.Melter.removeRecipeWithInput(<ore:nuggetStarmetal>);
+mods.nuclearcraft.Melter.removeRecipeWithInput(<ore:blockStarmetal>);
 
-makeBlockIntegration(<ore:ingotAstralStarmetal>.firstItem, <ore:blockAstralStarmetal>.firstItem, <liquid:starmetal>);
-makeFluidIngotIntegration(<ore:ingotAstralStarmetal>.firstItem, <liquid:starmetal>);
-makeFluidNuggetIntegration(<ore:nuggetAstralStarmetal>.firstItem, <liquid:starmetal>);
-makeFluidPlateIntegration (<ore:plateAstralStarmetal>.firstItem, <liquid:starmetal>);
-makeFluidGearIntegration (<ore:gearAstralStarmetal>.firstItem, <liquid:starmetal>);
-makeDustIntegration(<ore:ingotAstralStarmetal>.firstItem, <ore:blockAstralStarmetal>.firstItem, <ore:nuggetAstralStarmetal>.firstItem, <ore:dustAstralStarmetal>.firstItem);
+makeBlockIntegrationWithoutFluid (<ore:ingotAstralStarmetal>.firstItem, <ore:blockAstralStarmetal>.firstItem);
+makeDustIntegration(<ore:ingotAstralStarmetal>.firstItem, <ore:blockAstralStarmetal>.firstItem, <ore:dustAstralStarmetal>.firstItem);
 
 # Vibrant Alloy
 // makeGregTechMaterialFluidIntegration (<ore:ingotVibrantAlloy>.firstItem, <ore:nuggetVibrantAlloy>.firstItem, <ore:blockVibrantAlloy>.firstItem, <ore:plateVibrantAlloy>.firstItem, <ore:gearVibrantAlloy>.firstItem, <liquid:vibrant_alloy>);
@@ -583,7 +647,7 @@ makeFluidIngotIntegration(<ore:ingotInfinityMetal>.firstItem, <liquid:infinity_m
 makeFluidNuggetIntegration(<ore:nuggetInfinityMetal>.firstItem, <liquid:infinity_metal>);
 makeFluidPlateIntegration (<ore:plateInfinityMetal>.firstItem, <liquid:infinity_metal>);
 makeFluidGearIntegration (<ore:gearInfinityMetal>.firstItem, <liquid:infinity_metal>);
-makeDustIntegration(<ore:ingotInfinityMetal>.firstItem, <ore:blockInfinityMetal>.firstItem, <ore:nuggetInfinityMetal>.firstItem, <ore:dustInfinityMetal>.firstItem);
+//makeDustIntegration(<ore:ingotInfinityMetal>.firstItem, <ore:blockInfinityMetal>.firstItem, <ore:dustInfinityMetal>.firstItem);
 
 # Aluminum Brass
 makeBlockIntegration(<ore:ingotAlubrass>.firstItem, <ore:blockAlubrass>.firstItem, <liquid:alubrass>);
@@ -603,3 +667,6 @@ makeFluidIngotIntegration(<ore:ingotVoid>.firstItem, <liquid:void_metal>);
 makeFluidNuggetIntegration(<ore:nuggetVoid>.firstItem, <liquid:void_metal>);
 makeFluidPlateIntegration (<ore:plateVoid>.firstItem, <liquid:void_metal>);
 makeFluidGearIntegration (<ore:gearVoid>.firstItem, <liquid:void_metal>);
+
+// # Aquamarine
+// makeGemIntegration(<ore:gemAquamarine>.firstItem, <ore:dustAquamarine>.firstItem, <ore:gemFlawlessAquamarine>.firstItem, <liquid:aquamarine>);

@@ -1,0 +1,48 @@
+{
+	title: "An Improved Perfection!",
+	x: 15.0d,
+	y: 5.0d,
+	description: "Is that even possible?",
+	text: [
+		"With an §bEfficiency of 100%§f and also a §e20% Bonus Essentia Output§f, it is §aworth considering as an upgrade§f to your §dEssentia Smeltery System§f!",
+		"",
+		"- It also works just like a §bMithrilium Smeltery§f, §enot that fast§f, but even more §aefficient§f!.",
+		"",
+		"- And with a §bbrand new Jar§f like this one, you'll be able to §dstore up to 1000 of Essentia§f!",
+		"",
+		"§8§o(But maybe it could Explode if you completely fill it with Vitium... you'll never know)§r§f",
+		"",
+		"§8§o~ You've probally already have an Essentia Smelting System, but maybe you could consider upgrading some smelters to this one, specially  for those expensive to produce Essentia.§r§f"
+	],
+	dependencies: [
+		"0e1a5422"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "72363b04",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_smelter"
+		}]
+	},
+	{
+		uid: "a6f158d5",
+		type: "item",
+		items: [{
+			item: "thaumadditions:jar_adaminite"
+		}]
+	}],
+	rewards: [{
+		uid: "209842ce",
+		type: "item",
+		item: "thaumcraft:tube_buffer",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "f62a77b6",
+		type: "item",
+		item: "thaumadditions:adaminite_smelter"
+	}]
+}

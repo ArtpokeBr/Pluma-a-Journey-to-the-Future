@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.twilighttweaks.uncrafting;
+import mods.thermalexpansion.Insolator as Insolator;
 
 mods.twilighttweaks.uncrafting.banUncraft(<botanicadds:mana_tesseract>);
 
@@ -171,3 +172,16 @@ recipes.addShapeless("Giant_Oak_Log", <minecraft:log>*64, [<twilightforest:giant
 recipes.removeByRecipeName("twilightforest:giant_blocks/giant_cobblestone");
 recipes.addShapeless("Giant_Cobblestone", <minecraft:cobblestone>*64, [<twilightforest:giant_cobblestone>]);
 recipes.addShapeless("Giant_Obsidian", <minecraft:obsidian>*64, [<twilightforest:giant_obsidian>]);
+
+//Liveroot Automation
+Insolator.addRecipe(<twilightforest:liveroot> * 9, <twilightforest:liveroot>, <thermalfoundation:fertilizer:2>, 16000, <twilightforest:liveroot>, 0, 2500);
+Insolator.addRecipe(<twilightforest:liveroot> * 6, <twilightforest:liveroot>, <thermalfoundation:fertilizer:1>, 16000, <twilightforest:liveroot>, 0, 2500);
+Insolator.addRecipe(<twilightforest:liveroot> * 3, <twilightforest:liveroot>, <thermalfoundation:fertilizer>, 16000, <twilightforest:liveroot>, 0, 2500);
+
+//Uberous Soil Recipe
+mixer.recipeBuilder()
+    .inputs(<tconstruct:soil:4>*4, <twilightforest:liveroot>*3, <twilightforest:torchberries>*2)
+    .outputs(<twilightforest:uberous_soil>*4)   
+    .duration(400)
+    .EUt(80)
+.buildAndRegister();

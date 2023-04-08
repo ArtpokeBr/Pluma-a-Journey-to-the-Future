@@ -57,6 +57,7 @@ var RemovedFromSagmill as IItemStack[] = [
 <draconicevolution:draconium_ore>,
 <draconicevolution:draconium_ore:1>,
 <draconicevolution:draconium_ore:2>,
+<ore:oreAstralStarmetal>.firstItem,
 
 ];
 for i in RemovedFromSagmill {

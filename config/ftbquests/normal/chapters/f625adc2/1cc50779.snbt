@@ -26,7 +26,7 @@
 		uid: "157ca1ff",
 		type: "item",
 		items: [{
-			item: "astralsorcery:itemcraftingcomponent"
+			item: "gregtech:meta_gem 1 32049"
 		}]
 	},
 	{

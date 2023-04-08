@@ -1,0 +1,68 @@
+{
+	title: "Encapsulating the Powers of the Void!",
+	x: 13.5d,
+	y: 2.5d,
+	description: "And also improving your current Caster's Gauntlet!",
+	text: [
+		"With some §dImpetus Crystal's§f make yourself an §6Impetus Conductor§f!",
+		"",
+		"► This §aSpecial Item§f act as a §eBattery for Impetus§f, the name designated for this §estrange energy§f that emanates from §5Flux Rifts§f.",
+		"",
+		"▬ After you make it, make yourself a §abrand new§f and upgraded §6Caster's Gauntlet§f and §2mix it§f with the §dConductor§f in the §2Crafting Grid§f.",
+		"",
+		"▬ §cLater you can remove this upgrade if you wish§f, but we are going to be using it to §dharvest Impetus§f from §5Rifts§f!",
+		"",
+		"► Then, simply find §8§o(or make)§r§f another §5Flux Rift§f and §aright click it§f with your §6Thaumium Gauntlet§f to start §2harvesting it§f.",
+		"",
+		"▬ Please notice that the §ctooltip§f on it will §bindicate how much Impetus it currently contains§f, try to §3collect a reasonable amount§f."
+	],
+	dependencies: [
+		"aaaf93eb"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "30251ade",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:gauntlet",
+			tag: {
+				color: 8022208
+			},
+			ForgeCaps: {
+				Parent: {
+					slots: 3
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67f94a79",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage",
+			ForgeCaps: {
+				Parent: {
+					augment: {},
+					energy: {
+						energy: 0L
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c685a8ac",
+		type: "item",
+		item: "contenttweaker:impetus_crystal",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "5c0d5452",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

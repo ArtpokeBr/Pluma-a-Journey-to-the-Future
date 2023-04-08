@@ -5,38 +5,62 @@
 	y: 1.5d,
 	description: "Time to use your Extractor for something!",
 	text: [
-		"With your Brand new Extractor, it is time to make some Seed Oil and use it for something!",
+		"With your Brand new §6Extractor§f, it is time to make some §eSeed Oil§f and §6Ferment it§f into §asomething more usefull§f!",
 		"",
-		"- Seed Oil can be made with a variety of Seeds.",
+		"- §eSeed Oil§f can be made with a variety of §2Seeds§f, then you can §6ferment it§f using a §6Fermenter§f or a simple §6Pyrotech Barrel§f.",
 		"",
-		"- Use that to make some Impregnated Sticks and subsequentially use that for a Impregnated Chassis.",
+		"§8§o(altough it takes a while to ferment with a simple Barrel)§r§f",
 		"",
-		"- Them, simply use the Impregnated version to make a Wood Chassis from Actually Additions!"
+		"- §dAfter you correctly process it§f, you'll get some §aConcentrated Seed Oil§f!",
+		"",
+		"- Use that to make some §3Impregnated Sticks§f and subsequentially use that for a §3Impregnated Chassis§f.",
+		"",
+		"- Them, simply use the §3Impregnated version§f to make a §6Wood Chassis§f from §bActually Additions§f!"
 	],
 	dependencies: [
 		"9d263c24"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "33e47f85",
 		type: "fluid",
 		fluid: "seed.oil"
 	},
 	{
-		uid: "c908a6c9",
+		uid: "76af2e3c",
+		type: "item",
+		title: "An LV/MV Fermenter or a Pyrotech's Barrel",
+		items: [{
+			item: "gregtech:machine 1 335"
+		},
+		{
+			item: "gregtech:machine 1 336"
+		},
+		{
+			item: "pyrotech:barrel"
+		}]
+	},
+	{
+		uid: "1b7a30f7",
+		type: "fluid",
+		fluid: "seed_oil"
+	},
+	{
+		uid: "263c843b",
 		type: "item",
 		items: [{
 			item: "forestry:oak_stick"
 		}]
 	},
 	{
-		uid: "7b1fbade",
+		uid: "717e6a40",
 		type: "item",
 		items: [{
 			item: "forestry:impregnated_casing"
 		}]
 	},
 	{
-		uid: "cd2edfce",
+		uid: "cf8041eb",
 		type: "item",
 		items: [{
 			item: "actuallyadditions:block_misc 1 4"

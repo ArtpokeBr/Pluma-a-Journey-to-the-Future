@@ -119,6 +119,14 @@ for i in 1 to 16 {
 
     recipes.addShapeless(<overloaded:compressed_endstone>.withDamage(i - 1) * 9,[<overloaded:compressed_endstone>.withDamage(i)]);
 
+    #Tainted Soil
+    compressor.recipeBuilder()
+    .inputs(<overloaded:compressed_tainted_soil>.withDamage(i - 1)*9)
+    .outputs(<overloaded:compressed_tainted_soil>.withDamage(i))
+    .duration(baseDuration * i).EUt(baseEUcost * i).buildAndRegister();
+
+    recipes.addShapeless(<overloaded:compressed_tainted_soil>.withDamage(i - 1) * 9,[<overloaded:compressed_tainted_soil>.withDamage(i)]);
+
 }
 
 //Adding Recipes for the First Ones
@@ -166,3 +174,7 @@ recipes.addShapeless(<minecraft:sandstone> * 9,[<overloaded:compressed_sandstone
 #Endstone
 recipes.addShaped(<overloaded:compressed_endstone> * 1, [[<ore:endstone>, <ore:endstone>, <ore:endstone>], [<ore:endstone>, <ore:endstone>, <ore:endstone>],[<ore:endstone>, <ore:endstone>, <ore:endstone>]]);
 recipes.addShapeless(<minecraft:end_stone> * 9,[<overloaded:compressed_endstone>]);
+
+#Tainted Soil
+recipes.addShaped(<overloaded:compressed_tainted_soil> * 1, [[<natura:nether_tainted_soil>, <natura:nether_tainted_soil>, <natura:nether_tainted_soil>], [<natura:nether_tainted_soil>, <natura:nether_tainted_soil>, <natura:nether_tainted_soil>],[<natura:nether_tainted_soil>, <natura:nether_tainted_soil>, <natura:nether_tainted_soil>]]);
+recipes.addShapeless(<natura:nether_tainted_soil> * 9,[<overloaded:compressed_tainted_soil>]);

@@ -248,7 +248,7 @@ Barrel.addRecipe(
   <liquid:tannin>*1000, // output fluid
   <liquid:water>*1000,  // input fluid
   [<contenttweaker:tannin_mixture>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], // input items
-  1500           // recipe duration in ticks
+  6000           // recipe duration in ticks
 );
 
 mixer.recipeBuilder()

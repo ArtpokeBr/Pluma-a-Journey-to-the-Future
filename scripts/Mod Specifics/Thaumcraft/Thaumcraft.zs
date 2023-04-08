@@ -7,6 +7,32 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.WeightedItemStack;
 
+import mods.thermalexpansion.Insolator as Insolator;
+import mods.thaumcraft.Infusion as Infusion;
+
+# Temp Fix to Wrong Recipes from Certain TC Addons
+
+<thaumcraft:plate>.displayName = "Unknown Brass Plate";
+<thaumcraft:plate:2>.displayName = "Unknown Thaumium Plate";
+<thaumcraft:plate:3>.displayName = "Unknown Void Plate";
+<thaumcraft:amber>.displayName = "Unknown Amber";
+
+#Brass Plate
+recipes.addShapeless("ConvertingBrass",<thaumcraft:plate>,[<ore:plateBrass>]);
+recipes.addShapeless("ConvertingBrass1",<ore:plateBrass>.firstItem,[<thaumcraft:plate>]);
+
+#Thaumium Plate
+recipes.addShapeless("ConvertingThaumium",<thaumcraft:plate:2>,[<ore:plateThaumium>]);
+recipes.addShapeless("ConvertingThaumium1",<ore:plateThaumium>.firstItem,[<thaumcraft:plate:2>]);
+
+#Void Plate
+recipes.addShapeless("ConvertingVoid",<thaumcraft:plate:3>,[<ore:plateVoid>]);
+recipes.addShapeless("ConvertingVoid1",<ore:plateVoid>.firstItem,[<thaumcraft:plate:3>]);
+
+#Amber
+recipes.addShapeless("ConvertingAmber",<thaumcraft:amber>,[<ore:gemAmber>]);
+recipes.addShapeless("ConvertingAmber1",<ore:gemAmber>.firstItem,[<thaumcraft:amber>]);
+
 //Purifying Fluid
 <thaumcraft:bath_salts>.addTooltip(format.white("You can also drop it in a ") + format.darkAqua("Water Pool ") + format.white("to make the ") + format.aqua("Purifying Fluid"));
 
@@ -489,6 +515,187 @@ recipes.addShapeless("thaumcraft_primordial_pearl_repair", <thaumcraft:primordia
 	}, null);
 <thaumcraft:primordial_pearl>.addTooltip(format.white("Dropped rarely by ") + format.darkPurple("Void Rifts") + format.white(" when"));
 <thaumcraft:primordial_pearl>.addTooltip(format.white("closed by a ") + format.lightPurple("Causality Collapser") + format.white("."));
+
+# [Thaumium Caster's Gauntlet] from [Vis Resonator][+11]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe("thaumium_gauntlet");
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "thaumicaugmentation:gauntlet", # Name
+  "GAUNTLET_THAUMIUM", # Research
+  250, # Vis cost
+  [<aspect:aer>*2, <aspect:terra>*2, <aspect:aqua>*2, <aspect:ignis>*2, <aspect:perditio>*2, <aspect:ordo>*2],
+  <thaumicaugmentation:gauntlet>.withTag({cap: {slots: 3}, color: 8022208}), # Output
+  Grid(["pretty",
+  "□ □ □",
+  "E V E",
+  "M a M"], {
+  "□": <ore:lightPlateThaumium>,         # Light Thaumium Plate
+  "E": <ore:itemEnchantedFabric>,        # Enchanted Fabric
+  "V": <thaumcraft:vis_resonator>,       # Vis Resonator
+  "M": <contenttweaker:magical_leather>, # Magical Leather
+  "a": <thaumcraft:thaumometer>,         # Thaumometer
+}).shaped());
+
+# [Voidseer Caster's Gauntlet] from [Voidseer's Pearl][+11]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe("void_gauntlet");
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "thaumicaugmentation:gauntlet", # Name
+  "GAUNTLET_VOID", # Research
+  300, # Vis cost
+  [<aspect:aer> * 4, <aspect:terra> * 4, <aspect:aqua> * 4, <aspect:ignis> * 4, <aspect:perditio> * 4, <aspect:ordo> * 4],
+  <thaumicaugmentation:gauntlet:1>.withTag({cap: {slots: 3}, color: 2498903}), # Output
+  Grid(["pretty",
+  "□ □ □",
+  "E V E",
+  "S o S"], {
+  "□": <ore:lightPlateVoid>,              # Light Void Metal Plate
+  "E": <ore:itemEnchantedFabric>,         # Enchanted Fabric
+  "V": <thaumcraft:voidseer_charm>,       # Voidseer's Pearl
+  "S": <contenttweaker:star_leather>,     # Star Leather
+  "o": <thaumadditions:void_thaumometer>, # Void Thaumometer
+}).shaped());
+
+# [Fracture Locator] from [Void Thaumometer][+6]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumicaugmentation:fracture_locator>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "thaumicaugmentation:fracture_locator", # Name
+  "", # Research
+  25, # Vis cost
+  [<aspect:aer> * 5, <aspect:perditio> * 5],
+  <thaumicaugmentation:fracture_locator>, # Output
+  Grid(["pretty",
+  "□ п □",
+  "* V *",
+  "□ п □"], {
+  "□": <ore:lightPlateBrass>,             # Light Brass Plate
+  "п": <ore:plateMithrillium>,            # Mithrillium Plate
+  "*": <contenttweaker:condensed_vis_crystal_vacuos>, # Condensed Vacuos Vis Crystal
+  "V": <thaumadditions:void_thaumometer>, # Void Thaumometer
+}).shaped());
+
+# [Fragrant Pendant] from [Fancy Amulet][+11]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumadditions:fragnant_pendant>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "thaumadditions:fragnant_pendant", # Name
+  "TAR_FRAGNANT_PENDANT", # Research
+  50, # Vis cost
+  [<aspect:aqua> * 5, <aspect:ignis> * 5, <aspect:ordo> * 5, <aspect:perditio> * 5, <aspect:aer> * 5, <aspect:terra> * 5],
+  <thaumadditions:fragnant_pendant>, # Output
+  Grid(["pretty",
+  "  E  ",
+  "S F E",
+  "◊ O  "], {
+  "E": <thaumcraft:filter>,           # Essentia Filter
+  "S": <thaumcraft:salis_mundus>,     # Salis Mundus
+  "F": <thaumcraft:baubles:4>,        # Fancy Amulet
+  "◊": <ore:gemFlawlessAmber>,        # Flawless Amber
+  "O": <thaumadditions:odour_powder>, # Odour Powder
+}).shaped());
+
+########################## Jars ##########################
+
+# [Thaumium Reinforced Jar] from [Brass Warded Jar][+4]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumadditions:jar_thaumium>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "thaumadditions:jar_thaumium", # Name
+  "TAR_THAUMIUM_JAR", # Research
+  10, # Vis cost
+  [<aspect:aqua>*2],
+  <thaumadditions:jar_thaumium>, # Output
+  Grid(["pretty",
+  "G □ G",
+  "G B G",
+  "G G G"], {
+  "G": <ore:paneGlass>, # Glass Pane
+  "□": <ore:lightPlateThaumium>,                   # Light Thaumium Plate
+  "B": <thaumadditions:jar_brass>,                 # Brass Warded Jar
+}).shaped());
+
+# [Void Reinforced Jar] from [Thaumium Reinforced Jar][+4]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumadditions:jar_eldritch>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "thaumadditions:jar_eldritch", # Name
+  "TAR_ELDRITCH_JAR", # Research
+  150, # Vis cost
+  [<aspect:aqua> * 6],
+  <thaumadditions:jar_eldritch>, # Output
+  Grid(["pretty",
+  "G □ G",
+  "G T G",
+  "G G G"], {
+  "G": <ore:paneGlass>, # Glass Pane
+  "□": <ore:lightPlateVoid>,                       # Light Void Metal Plate
+  "T": <thaumadditions:jar_thaumium>,              # Thaumium Reinforced Jar
+}).shaped());
+
+# [Brass Warded Jar] from [Warded Jar][+3]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumadditions:jar_brass>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "thaumadditions:jar_brass", # Name
+  "TAR_BRASS_JAR", # Research
+  10, # Vis cost
+  [],
+  <thaumadditions:jar_brass>, # Output
+  Grid(["pretty",
+  "G □ G",
+  "G W G",
+  "G G G"], {
+  "G": <ore:paneGlass>, # Glass Pane
+  "□": <ore:lightPlateBrass>,                      # Light Brass Plate
+  "W": <thaumcraft:jar_normal>,                    # Warded Jar
+}).shaped());
+
+# [Warded Jar] from [Ancient Wood Slab][+2]
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:jar_normal>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "jar_normal", # Name
+  "WARDEDJARS", # Research
+  5, # Vis cost
+  [],
+  <thaumcraft:jar_normal>, # Output
+  Grid(["pretty",
+  "G # G",
+  "G   G",
+  "G G G"], {
+  "G": <ore:paneGlass>, # Glass Pane
+  "#": <fossil:ancient_wood_slab>,                 # Ancient Wood Slab
+}).shaped());
+
+###############################################################################
+
+// Void Anvil -> Eldrich Anvil
+<thaumadditions:void_anvil>.displayName = "Eldrich Anvil";
+<thaumadditions:void_anvil>.addTooltip(format.white("An Infinite Anvil... that") + format.lightPurple(" Strangely Whispers to you..."));
+mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:void_anvil>);
+
+recipes.addShaped(<thaumadditions:void_anvil>, [
+[<ore:blockVoid>, <ore:blockVoid>, <ore:blockVoid>],
+[<ore:screwVoid>, <ore:blockVoid>, <ore:screwVoid>],
+[<ore:plateVoid>, <ore:blockVoid>, <ore:plateVoid>]]);
+
+alloy.recipeBuilder()
+    .inputs(<ore:ingotVoid>*31)
+    .notConsumable(<gregtech:meta_item_1:21>)
+    .outputs(<thaumadditions:void_anvil>)
+    .duration(120)
+    .EUt(16)
+.buildAndRegister();
+
+solidifier.recipeBuilder()
+    .fluidInputs(<liquid:void_metal>*4464)
+    .notConsumable(<gregtech:meta_item_1:21>)
+    .outputs(<thaumadditions:void_anvil>)
+    .duration(120)
+    .EUt(16)
+.buildAndRegister();
+
+########################## The Emptiness Integration ##########################
+
+//Tainted Flower Integration
+Insolator.addRecipe(<thaumicaugmentation:taint_flower> * 18, <thaumicaugmentation:taint_flower>, <thermalfoundation:fertilizer:2>, 16000, <thaumicaugmentation:taint_flower>, 0, 2500);
+Insolator.addRecipe(<thaumicaugmentation:taint_flower> * 12, <thaumicaugmentation:taint_flower>, <thermalfoundation:fertilizer:1>, 16000, <thaumicaugmentation:taint_flower>, 0, 2500);
+Insolator.addRecipe(<thaumicaugmentation:taint_flower> * 6, <thaumicaugmentation:taint_flower>, <thermalfoundation:fertilizer>, 16000, <thaumicaugmentation:taint_flower>, 0, 2500);
+
+###############################################################################
 
 /*
 ██╗███╗   ██╗███████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗

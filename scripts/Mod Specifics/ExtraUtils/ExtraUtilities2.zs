@@ -543,3 +543,21 @@ RecipeBuilder.get("mage")
   .addTool(<artisanworktables:artisans_grimoire_iron>, 20)
   .addOutput(<extrautils2:chickenring:1>)
 .create();
+
+//Sun Crystal ===============================================================
+recipes.removeByRecipeName("extrautils2:sun_crystal");
+
+//(Normal Recipe can be found in Empowerer.zs and also the ExtendedCrafting.zs)
+
+chemical_bath.recipeBuilder()
+  .inputs(<extrautils2:suncrystal:250>)
+  .fluidInputs(<liquid:liquid_sunshine>*1000)
+  .outputs(<extrautils2:suncrystal>)
+  .duration(80)
+  .EUt(48)
+.buildAndRegister();
+
+<extrautils2:suncrystal:*>.addTooltip(format.darkGray(format.italic("<Hold Shift for more info>")));
+<extrautils2:suncrystal:*>.addShiftTooltip(format.green("Drop it on the Ground") + format.white(" to ") + format.yellow("Recharge it with the Power of the Sun."));
+<extrautils2:suncrystal:*>.addShiftTooltip(format.white("Can also be made in ") + format.gold("A Chemical Bath") + format.white(" with ") + format.yellow("1 Bucket of Liquid Sunshine"));
+<extrautils2:suncrystal:*>.addShiftTooltip(format.red("(but it must be completely damaged!)"));

@@ -75,13 +75,22 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 //Gene Template =====================================
-assembler.recipeBuilder()
-    .inputs(<ore:plateTin> * 4, <ore:plateRedAlloy>, <ore:boltDiamond> * 4)
-    .outputs(<gendustry:gene_template>)
-    .circuit(16)
-    .duration(200)
-    .EUt(32)
-.buildAndRegister();
+// assembler.recipeBuilder()
+//     .inputs(<ore:plateTin> * 4, <ore:plateRedAlloy>, <ore:boltDiamond> * 4)
+//     .outputs(<gendustry:gene_template>)
+//     .circuit(16)
+//     .duration(200)
+//     .EUt(32)
+// .buildAndRegister();
+
+craft.make(<gendustry:gene_template>, ["pretty",
+  "D B D",
+  "B □ B",
+  "D B D"], {
+  "D": <ore:boltDiamond>,             # Diamond Bolt
+  "B": <gendustry:gene_sample_blank>, # Blank Gene Sample
+  "□": <ore:plateTinAlloy>,           # Tin Alloy Plate
+});
 
 //Genetics Processor =====================================
 circuit_assembler.recipeBuilder()

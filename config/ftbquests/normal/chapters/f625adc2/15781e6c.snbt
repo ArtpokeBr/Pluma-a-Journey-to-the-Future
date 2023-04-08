@@ -24,8 +24,9 @@
 	rewards: [{
 		uid: "ff307315",
 		type: "item",
-		item: "gregtech:meta_gem_flawless 1 32049",
-		count: 4
+		item: "gregtech:meta_gem 1 32049",
+		count: 4,
+		random_bonus: 12
 	},
 	{
 		uid: "98b412f0",

@@ -191,9 +191,6 @@ var ToolMaterials as IItemStack[string] = {
 	"thaumium": <ore:ingotThaumium>.firstItem,
 	"void_metal": <ore:ingotVoid>.firstItem,
 
-	"aquamarine": <ore:gemAquamarine>.firstItem,
-	"starmetal": <ore:ingotAstralStarmetal>.firstItem,
-
 	"primal_metal": <ore:ingotPrimordial>.firstItem,
 	"sentient_metal": <ore:ingotSentientMetal>.firstItem,
 	"bound_metal": <ore:ingotBoundMetal>.firstItem,
@@ -410,9 +407,6 @@ var ToolMaterialsII as IItemStack[string] = {
 	"thaumium": <ore:ingotThaumium>.firstItem,
 	"void_metal": <ore:ingotVoid>.firstItem,
 
-	"aquamarine": <ore:gemAquamarine>.firstItem,
-	"starmetal": <ore:ingotAstralStarmetal>.firstItem,
-
 	"primal_metal": <ore:ingotPrimordial>.firstItem,
 	"sentient_metal": <ore:ingotSentientMetal>.firstItem,
 	"bound_metal": <ore:ingotBoundMetal>.firstItem,
@@ -623,9 +617,6 @@ var ConarmMaterials as IItemStack[string] = {
 	"thaumium": <ore:ingotThaumium>.firstItem,
 	"void_metal": <ore:ingotVoid>.firstItem,
 	"enchanted_fabric": <thaumcraft:fabric>,
-
-	"aquamarine": <ore:gemAquamarine>.firstItem,
-	"starmetal": <ore:ingotAstralStarmetal>.firstItem,
 
 	"primal_metal": <ore:ingotPrimordial>.firstItem,
 	"sentient_metal": <ore:ingotSentientMetal>.firstItem,

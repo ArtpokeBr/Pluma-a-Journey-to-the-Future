@@ -97,5 +97,14 @@
     "depth": 16,
     "hardnessMultiplier": 9.0,
     "recipeEnabled": false
+  },
+  {
+    "baseRegistryName": "natura:nether_tainted_soil",
+    "compressedPathRegistryName": "compressed_tainted_soil",
+    "meta": 0,
+    "texturePath": "natura:textures/blocks/soil/tainted_soil.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": false
   }
 ]

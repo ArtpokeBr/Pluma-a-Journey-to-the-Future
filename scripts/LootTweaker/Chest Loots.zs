@@ -924,3 +924,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 				<harvestcraft:netherwingsitem>  			: 20,
 				<harvestcraft:dimsumitem>  					: 20,
 	});
+
+#Astral Sorcery Shrines
+add_entry("astralsorcery:chest_shrine", "astral_shrine_aquamarine", <ore:gemAquamarine>.firstItem, 1, 2, 0, 0, 12);
+

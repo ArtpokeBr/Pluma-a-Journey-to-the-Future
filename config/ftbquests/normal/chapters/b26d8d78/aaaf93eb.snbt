@@ -1,0 +1,51 @@
+{
+	title: "An Impetus Jewel",
+	icon: "thaumicaugmentation:material 1 5",
+	x: 13.5d,
+	y: 0.0d,
+	description: "Now, with the Powers with the Void Combined...!",
+	text: [
+		"With your brand new §5Void Components§f, time to §6Crystallize§f the §5Void Itself§f!",
+		"",
+		"- You'll consume a §cdurability§f of your §dPrimordial Pearl§f on this process, consider making a §9repair drone production§f to §erepair it§f.",
+		"",
+		"- Later on, you'll be able to obtain a §d§nSpecial Primorial Pearl§r§f that §c§ldoesn't consume durability§f, until there, §3don't worry about automating this with AE2§f.",
+		"",
+		"- After you make yourself some §3Impetus Crystals§f, it is time to §aenhance them even more§f to obtain some §bImpetus Jewel's§f! make about §e4 of them§f."
+	],
+	dependencies: [
+		"a4a3a36e"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "9ea6c643",
+		type: "item",
+		items: [{
+			item: "contenttweaker:impetus_crystal"
+		}]
+	},
+	{
+		uid: "f1533b78",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:material 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "2a81a8d0",
+		type: "item",
+		item: {
+			id: "thaumadditions:vis_pod",
+			tag: {
+				Aspect: "fluctus"
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "aeae394c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

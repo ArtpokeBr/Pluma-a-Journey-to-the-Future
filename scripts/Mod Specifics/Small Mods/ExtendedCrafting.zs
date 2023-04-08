@@ -241,8 +241,16 @@ CombinationCrafting.addRecipe(<mekanism:controlcircuit:3>, 100000, <mekanism:con
 
 // ==== //
 
-//Endor ===========================
+//Empowered Canola Seed ===========================
 CombinationCrafting.addRecipe(<actuallyadditions:item_misc:24>, 50000, <actuallyadditions:item_misc:23>, [<actuallyadditions:item_canola_seed>, <actuallyadditions:item_canola_seed>, <actuallyadditions:item_canola_seed>, <actuallyadditions:item_canola_seed>]);
+
+//Sun Crystal ===========================
+
+#Empty
+CombinationCrafting.addRecipe(<extrautils2:suncrystal:250>, 50000, <ore:gemDiamond>.firstItem, [<ore:dustGlowstone>, <biomesoplenty:coral:3>, <nuclearcraft:glowing_mushroom>, <ore:dustGlowstone>]);
+
+#Full
+CombinationCrafting.addRecipe(<extrautils2:suncrystal>, 50000, <ore:gemDiamond>.firstItem, [<extrabees:honey_comb:75>, <biomesoplenty:coral:3>, <nuclearcraft:glowing_mushroom>, <extrabees:honey_comb:75>]);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

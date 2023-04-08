@@ -14,7 +14,7 @@ item.material.oreprefix.orePurified=Purified %s Ore
 item.material.oreprefix.enrichedEgg=%s Enriched Egg
 item.material.oreprefix.casing=%s Casing
 
-material.astral_starmetal=Starmetal
+material.starmetal=Starmetal
 
 material.lumium=Lumium
 material.enderium=Enderium

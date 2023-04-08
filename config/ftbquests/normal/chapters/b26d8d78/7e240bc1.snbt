@@ -1,0 +1,39 @@
+{
+	title: "An Improvement directly from the Void!",
+	x: 12.0d,
+	y: 1.5d,
+	description: "Time to upgrade your thaumometer!",
+	text: [
+		"By §6Infusing§f your §eThaumometer§f with some §3Void Materials§f.... §5A Void Thaumometer§f!",
+		"",
+		"► This §dSpecial Device§f will work just like a normal §eThaumometer§f but with §asome extras§f:",
+		"",
+		"▬ And it will be §avery useful§f, cause with a §esimple glance§f you'll be able to §3identify their stability§f.",
+		"",
+		"§8§o~ And always remember, Unstable Rifts could cause undesired amounts of Flux on its current chunk and nearby chunks.§r§f"
+	],
+	dependencies: [
+		"a4a3a36e"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "5a694c48",
+		type: "item",
+		items: [{
+			item: "thaumadditions:void_thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "53846e88",
+		type: "item",
+		item: "railcraft:chest_void",
+		count: 4
+	},
+	{
+		uid: "721120c2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -443,6 +443,10 @@
     "thaumcraft:plank_greatwood:0": "thaumcraft:slab_greatwood:0",
     "thaumcraft:plank_silverwood:0": "thaumcraft:slab_silverwood:0",
     "randomthings:spectrelog:0": "randomthings:spectreplank:0",
-    "extrautils2:decorativesolidwood:1": "extrautils2:decorativesolidwood"
+    "extrautils2:decorativesolidwood:1": "extrautils2:decorativesolidwood",
+    "forbiddenmagicre:log_tainted": "forbiddenmagicre:taint_planks",
+    "thaumcraft:taint_log": "thaumadditions:taintwood_planks",
+    "gregtech:planks": "gregtech:wood_slab",
+    "gregtech:planks:1": "gregtech:wood_slab:1"
   }
 }

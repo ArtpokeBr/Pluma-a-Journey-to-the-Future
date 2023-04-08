@@ -1,0 +1,29 @@
+{
+	title: "An Improvement to Mithril!",
+	x: 12.0d,
+	y: 3.5d,
+	description: "Time to make Mithrilium!",
+	text: [
+		"By mixing some §dMagical Reagents§f, but most importantly, §5Void Metal§f and §3Mithril§f... §bMithrilium§f!",
+		"",
+		"- This §bImportant Metal§f will open a lot of §anew possibilities§f with §3Thaumic Additions§f, make sure to check your §aThaumonomicon§f."
+	],
+	dependencies: [
+		"a4a3a36e"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "ab77ba17",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "a1ff43cb",
+		type: "item",
+		item: "thaumadditions:mithrillium_ingot",
+		count: 4,
+		random_bonus: 4
+	}]
+}
