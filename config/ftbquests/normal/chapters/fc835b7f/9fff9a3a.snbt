@@ -1,7 +1,7 @@
 {
 	title: "A Real Improvement to your ME Network",
-	x: 1.0d,
-	y: -1.0d,
+	x: 2.0d,
+	y: -0.5d,
 	description: "Let's use P2P Tunnel's!",
 	text: [
 		"It is §chard§f to §2explain in details§f about a §6P2P Setup§f here, but here's a rough explanation:",

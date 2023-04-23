@@ -107,6 +107,7 @@ craft.shapeless(<harvestcraft:fishtrapbaititem>*4, "ttotAT", {
   "T": <ore:gtceKnife>, # Knife
 });
 
-
+//Disabling the Paper Bark
+recipes.remove(<harvestcraft:paperbark_sapling>);
 
 

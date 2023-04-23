@@ -1,0 +1,25 @@
+{
+	title: "Let's Improve your Tinker's Armor!",
+	x: -6.0d,
+	y: -7.0d,
+	description: "Let's make an Armor Forge!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d030ed85",
+		"a45b245e"
+	],
+	tasks: [{
+		uid: "3a0b0f04",
+		type: "item",
+		items: [{
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					id: "steel_block",
+					Count: 1,
+					Damage: 0
+				}
+			}
+		}]
+	}]
+}

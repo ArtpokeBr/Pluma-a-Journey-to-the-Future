@@ -1,7 +1,7 @@
 {
 	title: "Mixing some Vanadiumsteel!",
-	x: -0.5d,
-	y: -15.0d,
+	x: -2.0d,
+	y: -16.0d,
 	description: "Lets make an MV Mixer to obtain a different type of Steel!",
 	text: [
 		"§7Vanadiumsteel§f is a required material for some special subcomponents and recipes, but most importantly, for a §6MV Cutting Machine§f.",
@@ -13,7 +13,7 @@
 		"- §7Vanadium§f? you can get it by Centrifuging §3Vanadium Magnetite dusts§f."
 	],
 	dependencies: [
-		"b8babd89"
+		"36e5c070"
 	],
 	min_width: 300,
 	tasks: [{

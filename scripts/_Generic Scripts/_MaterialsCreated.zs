@@ -711,4 +711,25 @@ var thaumic_steel = MaterialBuilder(32087, "thaumic_steel")
     .iconSet("dull")
     .build();
 
+var osgloglas = MaterialBuilder(32088, "osgloglas")
+    .ingot().fluid("fluid")
+    .color(0x75f754)
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .iconSet("dull")
+    .build();
+
+var alumite = MaterialBuilder(32089, "alumite")
+    .ingot().fluid("fluid")
+    .color(0xfa9dfa)
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .iconSet("dull")
+    .build();
+
+var mirion = MaterialBuilder(32090, "mirion")
+    .ingot().fluid("fluid")
+    .color(0xdbfc7e)
+    .flags(["GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FOIL", "GENERATE_DOUBLE_PLATE"])
+    .iconSet("dull")
+    .build();
+
 // ==============================================================================

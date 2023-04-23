@@ -15,6 +15,8 @@ import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationRecipe;
 import mods.thaumcraft.ArcaneWorkbench;
 
+import mods.jei.JEI as JEI;
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
 //			Botania Script                                                                                                                   //
@@ -514,3 +516,8 @@ canner.recipeBuilder()
     .duration(90)
     .EUt(400)
 .buildAndRegister();
+
+//Terrasteel Orginal and GT Version Conversion
+<gregtech:meta_ingot:32036>.addTooltip(format.lightPurple("Convert it in the Crafting Grid first before summoning Gaia!"));
+recipes.addShapeless(<botania:manaresource:4>, [<ore:ingotTerrasteel>]);
+recipes.addShapeless(<ore:ingotTerrasteel>.firstItem, [<botania:manaresource:4>]);

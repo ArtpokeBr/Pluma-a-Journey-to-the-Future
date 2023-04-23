@@ -101,7 +101,7 @@ recipes.addShaped(<harvestcraft:juiceritem>, [
 // =========== Ground Meat and Stuff from the Grinder from HarvestCraft =========== //
 
 //Black Pepper
-macerator.recipeBuilder()
+extractor.recipeBuilder()
     .inputs([<ore:cropPeppercorn>])
     .outputs(<ore:foodBlackpepper>.firstItem*2)
     .duration(40)
@@ -109,7 +109,7 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 //Cinnamon
-macerator.recipeBuilder()
+extractor.recipeBuilder()
     .inputs([<ore:cropCinnamon>])
     .outputs(<ore:foodGroundcinnamon>.firstItem*2)
     .duration(40)
@@ -117,7 +117,7 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 //Ground Nutmeg
-macerator.recipeBuilder()
+extractor.recipeBuilder()
     .inputs([<ore:cropNutmeg>])
     .outputs(<ore:foodGroundnutmeg>.firstItem*2)
     .duration(40)
@@ -125,7 +125,7 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 //Seaweed to Salt
-macerator.recipeBuilder()
+extractor.recipeBuilder()
     .inputs([<ore:cropSeaweed>])
     .outputs(<ore:dustSalt>.firstItem*2)
     .duration(40)
@@ -340,3 +340,23 @@ centrifuge.recipeBuilder().inputs(<minecraft:mycelium>)
 	.chancedOutput(<randomthings:glowingmushroom>, 100, 400)
 	.duration(650).EUt(30)
 .buildAndRegister();
+
+//Roasted Food Compat Recipes
+
+val RoastedFoodsCompat as IItemStack[][IIngredient] = {
+	<mysticalworld:cooked_carrot>   : [<pyrotech:carrot_roasted>]
+	, <mysticalworld:cooked_beetroot>  : [<pyrotech:beetroot_roasted>]	
+	, <fossil:cooked_egg>  : [<pyrotech:egg_roasted>]
+    , <pyrotech:egg_roasted>  : [<abyssalcraft:friedegg>]
+    , <ore:foodMarshmellows>.firstItem  : [<pyrotech:marshmallow>]
+};
+
+for IIngredient, itemStacks in RoastedFoodsCompat {
+	val roastedOutput = itemStacks[0] as IItemStack;
+
+    # [A] from [B]
+    craft.reshapeless(roastedOutput, "C", {
+        "C": IIngredient, # B
+    });
+}
+

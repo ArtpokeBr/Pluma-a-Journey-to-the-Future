@@ -1,15 +1,15 @@
 {
 	title: "Hunting Meteor's",
 	icon: "appliedenergistics2:sky_compass",
-	x: -3.5d,
-	y: 0.0d,
+	x: -3.0d,
+	y: 0.5d,
 	description: "Time to Explore the Overworld!",
 	text: [
-		"You've probally spotted some §5Meteors§f in your §2Exploration Trips§f around the §3Overworld§f, but if you didn't, this could be usefull.",
+		"You've probally spotted some §5Meteors§f in your §2Exploration Trips§f around the §3Twilight Forest§f, but if you didn't, this could be usefull.",
 		"",
 		"- A §6Meteor Compass§f will guide you to the nearest §5Meteor§f, don't forget that they can §2generate underground§f aswell.",
 		"",
-		"- §5Inside Meteors§f you'll find some §6basic presses§f and also §9Skystone§f! make sure to §acollect them all§f."
+		"- §5Inside Meteors§f you'll find some §6basic presses§f and also §9Skystone§f! make sure to §acollect at least one of them§f."
 	],
 	dependencies: [
 		"4366f2ac"
@@ -33,28 +33,17 @@
 	{
 		uid: "3e51771c",
 		type: "item",
+		title: "Any AE Basic Press",
 		items: [{
 			item: "appliedenergistics2:material 1 15"
-		}]
-	},
-	{
-		uid: "229272f7",
-		type: "item",
-		items: [{
-			item: "appliedenergistics2:material 1 14"
-		}]
-	},
-	{
-		uid: "3fbc3d49",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "appliedenergistics2:material 1 13"
-		}]
-	},
-	{
-		uid: "76042a94",
-		type: "item",
-		items: [{
+		},
+		{
+			item: "appliedenergistics2:material 1 14"
+		},
+		{
 			item: "appliedenergistics2:material 1 19"
 		}]
 	}],

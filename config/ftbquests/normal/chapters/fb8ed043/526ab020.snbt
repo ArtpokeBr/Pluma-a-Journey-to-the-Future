@@ -2,7 +2,7 @@
 	title: "Finally Solving the Water Issue",
 	icon: "gregtech:machine 1 1648",
 	x: 17.0d,
-	y: 2.0d,
+	y: 1.5d,
 	description: "By Using a Primitive Water Pump!",
 	text: [
 		"The Water Pump is a Primitive Multiblock Structure that can be used to collect water infinitely for ya.",

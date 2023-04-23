@@ -1,38 +1,39 @@
-§a§lVersion Beta§r§f 2.5:
+§a§lVersion Beta§r§f 2.6:
 
 §b§lMod Related Changes§r§f:
 
-- Updated PackagedAstral
-- Updated PackageExCrafting
-- Updated PackagedAuto
-- Updated AE2 FluidCrafting
-- Updated Multiblocked
-- Updated Lootr
-
-- Updated GTCEU
-- Updated GTCEU Multiblocks
-
-- Updated UniversalTweaks (as always, a lot of new fixes!)
-
-- Removed Toast Control (functionality implemented by UniversalTweaks)
-- Removed PickUpNotifier (functionality implemented by UniversalTweaks)
-
-- Added PackagedDraconic
+- Updated Thaumic Augmentation
+- Updated Aqua Acrobatics
+- Updated NotEnough Energistics
+- Updated Legendary Tooltips
+- Updated Inventory BogoSorter
 
 §2§lFixes§r§f:
 
-- Fixed "Seed Oil for a Chassis!" Quest not correctly explaining things.
-- Fixed "Improving your Creosote/Coke Production!" Quest having incorrect requirements.
-- Fixed Twilight Crystal not being obtainable (changed Prescient Crystal to a Sun Crystal).
-- Flint Tools from Pyrotech now have a correct Mining Level
-- Fixed Thaumcraft Recipes using the Wrong Materials.
+- Fixed Mobs dropping Thermal Expansion's Sulfur Dust.
+- Paper Bark from HarvestCraft should not be obtained trough the marked anymore.
+- Added a Conversion between the Original Terrasteel Ingot and the GT One (fixes not being able to summon Gaia).
+- Fixed Conflicting Recipes for certain HarvestCraft Crops in the Macerator.
+- Fixed GT Salt not being able to be used in HarvestCraft's Recipes.
+- Fixed some Progression Issues in the Chapter 5.
+- Pig Iron has a recipe now.
+- Xtones now is properly integrated with Chisel.
+- Tinker's Complement Sledge Hammers now work properly.
+- Smoothies Recipes should have correct input values now.
+- Fixed some Roasted Food's and Marshmallow from Pyrotech not having a Recipe.
 
 §5§lMiscellaneous§r§f:
 
-- Tanning now requires more time to be made using a Pyrotech's Barrel (1:15 to 5 mins)
-- The Pyrotech's Barrel can now be used to make Concentrated Seed Oil.
-- Now there is Starmetal and Blessed Starmetal, corrected the respective recipes.
-- Disabled Starmetal and Aquamarine as Tinker's Materials. (unfortunatly due to recipe balance reasons)
-- Rework all Bee Frames Recipes (they should not conflict with other recipes anymore).
-- The Quest "Automating Crops" now grants you a Item Collector as a Reward.
-- Added Better/Balanced Recipes for Forestry Single Block Farms.
+- Rehidden AE2's Facades in JEI.
+- Buffed AE's Crystal Seeds to give x4 instead of x2
+- You can now Purify Crystal's AE's Crystal Seeds in the default way.
+(this allows acess to AE2 before actually needing a Cleanroom, altough it is much faster and efficient)
+- More Plustic Stuff have been sucefully readded! (previously for some reason, some laser mediums and other parts where mssing).
+- Tinker's and Conarm Tables Have been correctly organized in JEI (only the correct ones are in JEI and with correct Recipes).
+- Turpentine take less time to be produced now.
+- Storage Drawers Label's now only Render on a 32 Blocks Range.
+- Increased the Spawn Chances of Imps (by disabling the Spawn Chance Boost applied to Hell Sprouts).
+- Stone Dust can now be Smelted into Seared Bricks.
+- Flesh Block from Biomes'O Plenty can now be made with "Simple" Blood.
+- Magic Tallow from Thaumcraft now have 2 brand new possible recipes instead of the default one.
+- Compacting Drawers are now made with 2 Vanilla Pistons on the Assembler, instead of a single GT One.

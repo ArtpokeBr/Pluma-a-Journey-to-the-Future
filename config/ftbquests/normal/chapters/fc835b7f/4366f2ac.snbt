@@ -1,0 +1,38 @@
+{
+	title: "Let's Purify some Crystal's!",
+	x: -4.0d,
+	y: 1.0d,
+	description: "Finally AE2!",
+	text: [
+		"By having a §6HV Mixer§f, you'll finally be able to purify AE2 §bCrystal's§f!",
+		"",
+		"- By Purifying a §3Certus Crystal§f you'll finally unlock §dApplied Energistic's 2§f!",
+		"",
+		"- And there are §b2 Ways to purify them§f, later on you'll be able to easily produce them inside of a §6Cleanroom§f, but for now, a §9Pool of Water§f will do the job.",
+		"",
+		"§8§o~ But keep in Mind, some components of the Mod can be unlock as early as now! but AutoCraft is only available at  the EV Tier.§r§f"
+	],
+	dependencies: [
+		"4e304f83"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "dda1a4a1",
+		type: "item",
+		title: "Any Pure Crystal",
+		items: [{
+			item: "appliedenergistics2:material 1 10"
+		},
+		{
+			item: "appliedenergistics2:material 1 11"
+		},
+		{
+			item: "appliedenergistics2:material 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "7ece4580",
+		type: "choice",
+		table: 10
+	}]
+}

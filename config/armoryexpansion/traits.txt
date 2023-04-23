@@ -56,7 +56,6 @@
   "tconevo.photosynthetic_armor",
   "tconevo.warping",
   "voltaic_armor",
-  "glowing",
   "mana",
   "infernal_armor",
   "tconevo.luminiferous",

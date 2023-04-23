@@ -103,6 +103,14 @@ extractor.recipeBuilder()
 // Flesh Block
 chemreactor.recipeBuilder()
     .inputs(<thaumcraft:flesh_block>, <ore:dustSalt>)
+    .fluidInputs(<liquid:blood>*1000)
+    .outputs(<biomesoplenty:flesh>)
+    .duration(250)
+    .EUt(12)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+    .inputs(<thaumcraft:flesh_block>, <ore:dustSalt>)
     .fluidInputs(<liquid:evilcraftblood>*1000)
     .outputs(<biomesoplenty:flesh>)
     .duration(250)

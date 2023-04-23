@@ -1,7 +1,7 @@
 {
 	title: "Accessing your Network",
 	x: 2.0d,
-	y: 0.0d,
+	y: 0.5d,
 	description: "Lets make some Terminal's!",
 	text: [
 		"By using §6Terminal's§f you can pretty much acess and manipulate your §dNetwork§f Manually.",

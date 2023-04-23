@@ -77,18 +77,6 @@ import mods.jei.JEI as JEI;
 <ore:gearPalisEmpowered>.add(<contenttweaker:empoweredpalisgear>);
 <ore:platePalisEmpowered>.add(<contenttweaker:empoweredpalisplate>);
 
-//Mirion
-<ore:gearMirion>.add(<contenttweaker:miriongear>);
-<ore:plateMirion>.add(<contenttweaker:mirionplate>);
-
-//Alumite
-<ore:gearAlumite>.add(<contenttweaker:alumitegear>);
-<ore:plateAlumite>.add(<contenttweaker:alumiteplate>);
-
-//Osgloglas
-<ore:gearOsgloglas>.add(<contenttweaker:osgloglasgear>);
-<ore:plateOsgloglas>.add(<contenttweaker:osgloglasplate>);
-
 //Fiery
 <ore:gearFiery>.add(<contenttweaker:fierygear>);
 <ore:plateFiery>.add(<contenttweaker:fieryplate>);
@@ -220,6 +208,13 @@ import mods.jei.JEI as JEI;
 
 # NuclearCraft's HSLA Compat
 <ore:ingotHSLASteel>.add(<ore:ingotHslaSteel>.firstItem);
+
+# Adding Extra OreDicts to GT Salt
+<ore:itemSalt>.add(<ore:dustSalt>.firstItem);
+<ore:foodSalt>.add(<ore:dustSalt>.firstItem);
+
+#Adding Extra OreDicts to NC's Marshmallow
+<ore:foodMarshmellows>.add(<nuclearcraft:marshmallow>);
 
 // Adding OreDicts for Overloaded
 

@@ -58,24 +58,18 @@
 		fluid: "oxygen"
 	}],
 	rewards: [{
-		uid: "b2bcb6b5",
-		type: "item",
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 461s,
-			tag: {
-				Configuration: 1
-			}
-		}
+		uid: "5e29249d",
+		type: "choice",
+		table: 11
 	},
 	{
-		uid: "14766add",
+		uid: "7f21cb34",
 		type: "item",
 		item: "gregtech:meta_item_1 1 621",
 		count: 4
 	},
 	{
-		uid: "09ae570c",
+		uid: "2b50efb3",
 		type: "ftbmoney:money",
 		ftb_money: 25L
 	}]

@@ -28,26 +28,15 @@
 		dim: 10
 	}],
 	rewards: [{
-		uid: "b54b91c0",
-		type: "item",
-		item: {
-			id: "quark:archaeologist_hat",
-			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 0s
-				}],
-				RepairCost: 1
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			Count: 1b
-		}
-	},
-	{
 		uid: "9d940fe1",
 		type: "item",
 		item: "harvestcraft:homestylelunchitem"
+	},
+	{
+		uid: "ca099163",
+		type: "gamestage",
+		team_reward: false,
+		auto: "invisible",
+		stage: "Fossil_Stage"
 	}]
 }

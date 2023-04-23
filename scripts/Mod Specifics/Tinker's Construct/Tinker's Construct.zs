@@ -7,6 +7,8 @@ import mods.tconstruct.Melting as Melting;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.enderio.AlloySmelter as AlloySmelter;
 
+import mods.jei.JEI as JEI;
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
 //			Tinker's Construct Script                                                                                                        //
@@ -419,5 +421,84 @@ craft.make(<tcomplement:melter:8>, ["pretty",
   "S": <pyrotech:stone_kiln>,  # Stone Kiln
 });
 
-<tconstruct:toolforge>.addTooltip(format.white("Can be made with ") + format.green("Any Metal Block") + format.white("."));
-<conarm:armorforge>.addTooltip(format.white("Can be made with ") + format.green("Any Metal Block") + format.white("."));
+# [Tool Forge] and [Armor Forge] =============================================================================================
+
+<tconstruct:toolforge>.addTooltip(format.white("Can Only be made with ") + format.green("Iron Blocks") + format.white("."));
+recipes.remove(<tconstruct:toolforge>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<tconstruct:seared_slab>, <contenttweaker:searedplate>, <tconstruct:seared_slab>],
+    [<ore:blockIron>, <tconstruct:tooltables:3>, <ore:blockIron>],
+    [<ore:blockIron>, null, <ore:blockIron>]])
+  .setFluid(<liquid:water> * 500)
+  .addTool(<ore:gtceHardHammers>, 20)
+  .addOutput(<tconstruct:toolforge>.withTag({textureBlock: {id: "tconevo:metal_block", Count: 1, Damage: 0 as short}}))
+.create();
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<tconstruct:seared_slab>, <contenttweaker:searedplate>, <tconstruct:seared_slab>],
+    [<ore:blockIron>, <tconstruct:tooltables:3>, <ore:blockIron>],
+    [<ore:blockIron>, null, <ore:blockIron>]])
+  .setFluid(<liquid:water> * 500)
+  .addTool(<ore:gtceHardHammers>, 20)
+  .addOutput(<tconstruct:toolforge>)
+.create();
+
+<conarm:armorforge>.addTooltip(format.white("Can Only be made with ") + format.green("Iron Blocks") + format.white("."));
+recipes.remove(<conarm:armorforge>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<tconstruct:seared_slab>, <contenttweaker:searedplate>, <tconstruct:seared_slab>],
+    [<ore:blockIron>, <conarm:armorstation>, <ore:blockIron>],
+    [<ore:blockIron>, null, <ore:blockIron>]])
+  .setFluid(<liquid:water> * 500)
+  .addTool(<ore:gtceHardHammers>, 20)
+  .addOutput(<conarm:armorforge>.withTag({textureBlock: {id: "tconevo:metal_block", Count: 1, Damage: 0 as short}}))
+.create();
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<tconstruct:seared_slab>, <contenttweaker:searedplate>, <tconstruct:seared_slab>],
+    [<ore:blockIron>, <conarm:armorstation>, <ore:blockIron>],
+    [<ore:blockIron>, null, <ore:blockIron>]])
+  .setFluid(<liquid:water> * 500)
+  .addTool(<ore:gtceHardHammers>, 20)
+  .addOutput(<conarm:armorforge>)
+.create();
+
+// ============================================================================================================================
+
+# Hiding Tinker's Tables and only showing the correct ones.
+
+//Stencil Table
+<tconstruct:tooltables:1>.addTooltip(format.white("Can be made with almost ") + format.green("Any plankWood") + format.white("."));
+recipes.remove(<tconstruct:tooltables:1>);
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_item_1:347>, <ore:pattern>, <gregtech:meta_item_1:347>],
+    [<ore:plankWood>, null, <ore:plankWood>],
+    [<ore:plankWood>, null, <ore:plankWood>]])
+  .addTool(<ore:gtceSaws>, 10)
+  .addOutput(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1, Damage: 0 as short}}))
+.create();
+
+//Part Builder
+<tconstruct:tooltables:2>.addTooltip(format.white("Can be made with almost ") + format.green("Any logWood") + format.white("."));
+recipes.remove(<tconstruct:tooltables:2>);
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<gregtech:meta_item_1:347>, <ore:pattern>, <gregtech:meta_item_1:347>],
+    [<ore:logWood>, null, <ore:logWood>],
+    [<ore:logWood>, null, <ore:logWood>]])
+  .addTool(<ore:gtceSaws>, 10)
+  .addOutput(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1, Damage: 0 as short}}))
+.create();
+
+//Stone Dust -> Seared Ingot
+alloy.recipeBuilder()
+    .inputs(<ore:dustStone>)
+    .notConsumable(<gregtech:meta_item_1:16>)
+    .outputs(<ore:ingotBrickSeared>.firstItem)
+    .duration(200)
+    .EUt(2)
+.buildAndRegister();
+

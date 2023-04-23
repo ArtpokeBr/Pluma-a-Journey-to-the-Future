@@ -1,7 +1,7 @@
 {
 	title: "Want some Seeds?",
 	x: 18.0d,
-	y: -1.0d,
+	y: -1.5d,
 	shape: "rsquare",
 	description: "Pay up!",
 	text: [
@@ -11,7 +11,7 @@
 		"",
 		"- §bInside of its GUI§f you'll be able to buy almost any sappling or seed that you desire!",
 		"",
-		"§8§o~ Don't forget that you'll need Emeralds tho...§r§f"
+		"§8§o~ Don't forget that you'll need Credits tho...§r§f"
 	],
 	dependencies: [
 		"58b68df5"
@@ -26,7 +26,7 @@
 	rewards: [{
 		uid: "364de549",
 		type: "item",
-		item: "minecraft:emerald",
+		item: "gregtech:meta_item_1 1 3",
 		random_bonus: 7
 	}]
 }

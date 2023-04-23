@@ -1,7 +1,7 @@
 {
 	title: "Bronze Storage",
 	x: 18.0d,
-	y: 1.0d,
+	y: 0.5d,
 	shape: "rsquare",
 	description: "Enhancing your Wood Storages to Bronze ones!",
 	text: [

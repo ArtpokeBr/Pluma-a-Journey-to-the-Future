@@ -1,0 +1,37 @@
+{
+	title: "Purifying Crystal's at high speeds!",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Let's make a Crystal Growth Accelerator setup!",
+	text: [
+		"Perhaps you've already noticed that §bPurifying Crystal's§f inside of §9Pools of Water§f take a §areally long time§f.",
+		"",
+		"- And this §eAccelerator§f can help you with just that!",
+		"",
+		"- §9§nPlace 5 of them surrounding the Pool of Water§r§f and provide some §epower to them§f, your §bCrystal's§f will be §3ready in a matter of Seconds§f!",
+		"",
+		"§8§o(Remember: they must be powered with AE Power, wich means that you'll need to connect all of them using Glass Cables. Energy can be provided from your Main Network or by using an Energy Acceptor)§r§f"
+	],
+	dependencies: [
+		"e54b21e4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ff9177dc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "01751ff6",
+		type: "item",
+		item: "appliedenergistics2:quartz_growth_accelerator",
+		random_bonus: 3
+	},
+	{
+		uid: "11980585",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "Finally, A Crafting Table!",
 	x: 17.0d,
-	y: 0.0d,
+	y: -0.5d,
 	description: "No need to hammer recipes anymore!",
 	text: [
 		"That's right! now that you finally have Treated Wood, you can make yourself a normal Crafting Table!",

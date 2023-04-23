@@ -1,7 +1,7 @@
 {
 	title: "A Really OP Crafting Table",
 	x: 18.0d,
-	y: 0.0d,
+	y: -0.5d,
 	description: "Crafting Station MK II",
 	text: [
 		"§6The Tinker's Crafting Station§f is an awesome option aswell, but:",

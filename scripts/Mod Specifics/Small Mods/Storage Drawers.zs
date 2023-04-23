@@ -370,7 +370,7 @@ RecipeBuilder.get("basic")
   .create();
 
 assembler.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:172>, <ore:gearBronze>, <ore:basic1x2Drawer>, <ore:plateStone> * 5])
+    .inputs([<ore:craftingPiston> * 2, <ore:gearBronze>, <ore:basic1x2Drawer>, <ore:plateStone> * 5])
     .fluidInputs([<liquid:refined_glue> * 200]) 
     .circuit(8)
     .outputs(<storagedrawers:compdrawers>)

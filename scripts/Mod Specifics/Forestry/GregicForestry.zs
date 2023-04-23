@@ -88,23 +88,23 @@ alloy.recipeBuilder()
 //Binnies Resin
 extractor.recipeBuilder()
     .inputs(<ore:logWood>)
-    .fluidOutputs([<liquid:binnie.resin> * 25])
+    .fluidOutputs([<liquid:binnie.resin> * 250])
     .duration(300)
     .EUt(32)
     .buildAndRegister();
 
 extractor.recipeBuilder()
     .inputs(<minecraft:log:1>)
-    .fluidOutputs([<liquid:binnie.resin> * 50])
+    .fluidOutputs([<liquid:binnie.resin> * 500])
     .duration(300)
     .EUt(32)
     .buildAndRegister();
 
-//Refined Canola Oil
+//Turpentine
 distillery.recipeBuilder()
-    .fluidInputs([<liquid:binnie.resin> * 5])
+    .fluidInputs([<liquid:binnie.resin> * 50])
     .circuit(4)
-    .fluidOutputs(<liquid:binnie.turpentine> * 3)
+    .fluidOutputs(<liquid:binnie.turpentine> * 30)
     .duration(600)
     .EUt(32)
     .buildAndRegister();

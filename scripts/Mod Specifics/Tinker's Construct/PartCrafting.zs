@@ -174,7 +174,7 @@ var ToolMaterials as IItemStack[string] = {
 	"livingwood": <botania:livingwood>,
 	"livingrock": <botania:livingrock>,
 	"dreamwood": <botania:dreamwood>,
-	"mirion": <plustic:mirioningot>,
+	"mirion": <ore:ingotMirion>.firstItem,
 
 	"xu_magical_wood": <extrautils2:decorativesolidwood:1>,
 	"xu_demonic_metal": <extrautils2:ingredients:11>,
@@ -390,7 +390,7 @@ var ToolMaterialsII as IItemStack[string] = {
 	"livingwood": <botania:livingwood>,
 	"livingrock": <botania:livingrock>,
 	"dreamwood": <botania:dreamwood>,
-	"mirion": <plustic:mirioningot>,
+	"mirion": <ore:ingotMirion>.firstItem,
 
 	"xu_magical_wood": <extrautils2:decorativesolidwood:1>,
 	"xu_demonic_metal": <extrautils2:ingredients:11>,
@@ -600,7 +600,7 @@ var ConarmMaterials as IItemStack[string] = {
 	"livingwood": <botania:livingwood>,
 	"livingrock": <botania:livingrock>,
 	"dreamwood": <botania:dreamwood>,
-	"mirion": <plustic:mirioningot>,
+	"mirion": <ore:ingotMirion>.firstItem,
 
 	"xu_magical_wood": <extrautils2:decorativesolidwood:1>,
 	"xu_demonic_metal": <extrautils2:ingredients:11>,
@@ -754,8 +754,7 @@ for mat, ingot in ArcaneFocusMaterials {
 var BatteryCellMaterials as IItemStack[string] = {
 	"stone" : <minecraft:stone>,
 	"manyullyn" : <ore:ingotManyullyn>.firstItem,
-    //"copper" : <ore:ingotCopper>.firstItem,
-	"copper" : <gregtech:meta_ingot:25>,
+    "copper" : <ore:ingotCopper>.firstItem,
 	"silver" : <ore:ingotSilver>.firstItem,
 	"blaze" : <minecraft:blaze_rod>,
 	"endrod" : <minecraft:end_rod>,

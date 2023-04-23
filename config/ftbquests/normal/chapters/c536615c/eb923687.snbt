@@ -1,6 +1,6 @@
 {
 	title: "An Industrial Type of Leather!",
-	x: -0.5d,
+	x: 5.0d,
 	y: -16.0d,
 	description: "Time to make a very processed type of Leather!",
 	text: [
@@ -10,7 +10,6 @@
 		"",
 		"~ §6Industrial Leather§f will be the key to unlock a §avery special item soon§f."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"5c43a2ea",
 		"6af8a25e"

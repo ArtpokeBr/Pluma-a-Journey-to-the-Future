@@ -1,7 +1,7 @@
 {
 	title: "Machines... Enhance!",
-	x: -0.7568027210884338d,
-	y: 4.847810374149674d,
+	x: -0.75d,
+	y: 4.86204825680273d,
 	description: "More Powah!",
 	text: [
 		"By using an §6Enhanced Chassis§f and a few §3End Steel§f you'll be able to §bEnhance your Ender IO Machines§f!",

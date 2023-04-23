@@ -1,7 +1,7 @@
 {
 	title: "An MV Lathe for Ruby Lens!",
-	x: -2.0d,
-	y: -14.0d,
+	x: 0.0d,
+	y: -17.0d,
 	description: "Lets start making Lenses!",
 	text: [
 		"Now that you're going to start using §6Silicon Wafers§f, you'll need a §3Laser Engraver§f but also some §cLenses§f.",

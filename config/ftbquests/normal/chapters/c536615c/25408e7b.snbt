@@ -1,28 +1,18 @@
 {
-	title: "Cutting with High Precision!",
-	x: 1.0d,
-	y: -14.5d,
-	description: "Lets make an MV Cutting Machine to cut those Wafers!",
+	title: "Precisely Cutting Silicon!",
+	x: 3.0d,
+	y: -17.0d,
+	description: "Let's make some Integrated Circuit's",
 	text: [
-		"You've recently obtained §7Vanadiumsteel§f, well, now you can finally make an §6MV Cutting Machine§f.",
+		"With your recently produced §aIntegrated Logic Circuit Wafer's§f, lets §3precisely cut them§f §eone more time§f using an §6MV Cutting Machine§f!",
 		"",
-		"- You'll need it to §3cut down§f those and more types of §3Wafer's in the future§f.",
-		"",
-		"- Also, always remember that a better machine will consume §emore energy§f but it will make §ecraftings faster§f. §9Overclocking is Fun§f!"
+		"§8§o- Also, always remember that a better machine will consume more energy but it will make craftings faster. Overclocking is Fun!§r§f"
 	],
 	dependencies: [
-		"6af8a25e",
 		"b8babd89"
 	],
 	min_width: 300,
 	tasks: [{
-		uid: "d0b4002e",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 246"
-		}]
-	},
-	{
 		uid: "322569f7",
 		type: "item",
 		items: [{

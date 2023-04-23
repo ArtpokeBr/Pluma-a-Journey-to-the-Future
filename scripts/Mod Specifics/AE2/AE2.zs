@@ -15,15 +15,15 @@ mods.chisel.Carving.addVariation("skystone", i);
 
 // AE2 Crystal Seeds to Pure Crystal's ==================================================
 
-<appliedenergistics2:crystal_seed>.addTooltip(format.red(format.bold("Attention: ")) + format.white("cannot grow outside a conditioned environment."));
-<appliedenergistics2:crystal_seed:600>.addTooltip(format.red(format.bold("Attention: ")) + format.white("cannot grow outside a conditioned environment."));
-<appliedenergistics2:crystal_seed:1200>.addTooltip(format.red(format.bold("Attention: ")) + format.white("cannot grow outside a conditioned environment."));
+<appliedenergistics2:crystal_seed>.addTooltip(format.red(format.bold("Attention: ")) + format.white("Can grow inside of a conditioned environment or by using ") + format.blue("A Pool of Water") + format.white("."));
+<appliedenergistics2:crystal_seed:600>.addTooltip(format.red(format.bold("Attention: ")) + format.white("Can grow inside of a conditioned environment or by using ") + format.blue("A Pool of Water") + format.white("."));
+<appliedenergistics2:crystal_seed:1200>.addTooltip(format.red(format.bold("Attention: ")) + format.white("Can grow inside of a conditioned environment or by using ") + format.blue("A Pool of Water") + format.white("."));
 
 # Certuz
 recipes.remove(<appliedenergistics2:crystal_seed>);
 mixer.recipeBuilder()
     .inputs(<ore:dustCertusQuartz>, <ore:dustQuartzSand>*2, <ore:dustSiliconDioxide>)
-    .outputs(<appliedenergistics2:crystal_seed> * 2)
+    .outputs(<appliedenergistics2:crystal_seed> * 4)
     .duration(120)
     .EUt(500)
 .buildAndRegister();
@@ -35,7 +35,7 @@ chemreactor.recipeBuilder()
     .circuit(13)
     .outputs(<appliedenergistics2:material:10>)
     .chancedOutput(<appliedenergistics2:crystal_seed>, 500, 200)
-    .duration(1200)
+    .duration(120)
     .EUt(500)
 .buildAndRegister();
 
@@ -43,7 +43,7 @@ chemreactor.recipeBuilder()
 recipes.remove(<appliedenergistics2:crystal_seed:600>);
 mixer.recipeBuilder()
     .inputs(<ore:dustNetherQuartz>, <ore:dustQuartzSand>*2, <ore:dustSiliconDioxide>)
-    .outputs(<appliedenergistics2:crystal_seed:600> * 2)
+    .outputs(<appliedenergistics2:crystal_seed:600> * 4)
     .duration(120)
     .EUt(500)
 .buildAndRegister();
@@ -55,7 +55,7 @@ chemreactor.recipeBuilder()
     .circuit(13)
     .outputs(<appliedenergistics2:material:11>)
     .chancedOutput(<appliedenergistics2:crystal_seed:600>, 500, 200)
-    .duration(1200)
+    .duration(120)
     .EUt(500)
 .buildAndRegister();
 
@@ -63,7 +63,7 @@ chemreactor.recipeBuilder()
 recipes.remove(<appliedenergistics2:crystal_seed:1200>);
 mixer.recipeBuilder()
     .inputs(<ore:dustFluix>, <ore:dustQuartzSand>*2, <ore:dustSiliconDioxide>)
-    .outputs(<appliedenergistics2:crystal_seed:1200> * 2)
+    .outputs(<appliedenergistics2:crystal_seed:1200> * 4)
     .duration(120)
     .EUt(500)
 .buildAndRegister();
@@ -75,7 +75,7 @@ chemreactor.recipeBuilder()
     .circuit(13)
     .outputs(<appliedenergistics2:material:12>)
     .chancedOutput(<appliedenergistics2:crystal_seed:1200>, 500, 200)
-    .duration(1200)
+    .duration(120)
     .EUt(500)
 .buildAndRegister();
 
@@ -428,7 +428,7 @@ recipes.addShaped(<appliedenergistics2:condenser>, [[<ore:plateHslaSteel>,<appli
 
 # Energy Acceptor
 recipes.remove(<appliedenergistics2:energy_acceptor>);
-recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<ore:plateStainlessSteel>,<appliedenergistics2:part:16>,<ore:plateStainlessSteel>],[<appliedenergistics2:part:16>,<plustic:battery_cell>.withTag({Material: "manyullyn"}),<appliedenergistics2:part:16>],[<ore:plateStainlessSteel>,<appliedenergistics2:part:16>,<ore:plateStainlessSteel>]]);
+recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<ore:plateStainlessSteel>,<appliedenergistics2:part:16>,<ore:plateStainlessSteel>],[<appliedenergistics2:part:16>,<appliedenergistics2:dense_energy_cell>,<appliedenergistics2:part:16>],[<ore:plateStainlessSteel>,<appliedenergistics2:part:16>,<ore:plateStainlessSteel>]]);
 
 # Energy Cell
 recipes.remove(<appliedenergistics2:energy_cell>);
@@ -1009,7 +1009,17 @@ craft.make(<packagedauto:recipe_holder> * 4, ["pretty",
   "P": <packagedauto:package_component>, # Packaging Component
 });
 
-
+# [Crystal Growth Accelerator] from [Fluix Block][+3]
+recipes.removeByRecipeName("appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator");
+craft.make(<appliedenergistics2:quartz_growth_accelerator>, ["pretty",
+  "□ M □",
+  "⌃ п ⌃",
+  "□ M □"], {
+  "□": <ore:plateStainlessSteel>,          # Stainless Steel Plate
+  "M": <appliedenergistics2:part:16>,      # ME Glass Cable - Fluix
+  "⌃": <appliedenergistics2:quartz_glass>, # Dense Quartz Glass
+  "п": <appliedenergistics2:fluix_block>,  # Fluix Block
+});
 
 
 

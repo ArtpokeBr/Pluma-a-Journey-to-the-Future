@@ -1,18 +1,20 @@
 {
 	title: "Silicon Boules",
 	icon: "gregtech:meta_item_1 1 361",
-	x: -2.0d,
-	y: -13.0d,
+	x: -1.0d,
+	y: -17.0d,
 	description: "Looks like a Silicon Bullet, Doesn't it?",
 	text: [
 		"For your §3Future Circuits§f, you'll need some §6Silicon Wafers§f, and the first step is the §9Boule§f!",
 		"",
 		"- If you're wondering how to obtain a ton o §6Silicon Dust§f, maybe it is a good idea to make an §3MV Electrolyzer§f and use §9Clay Dust§f to get it!",
 		"",
-		"- Also, thank god this §9Boules§f actually reward you with §616 Wafers§f after you cut them, wich can last for a little bit."
+		"- And You've also recently obtained §7Vanadiumsteel§f, well, now you can finally make an §6MV Cutting Machine§f.",
+		"",
+		"- Cut your §9Boules§f to make some §6Wafers§f after all of this, they'll be very usefull."
 	],
 	dependencies: [
-		"36e5c070"
+		"6af8a25e"
 	],
 	min_width: 300,
 	tasks: [{
@@ -38,7 +40,14 @@
 		}]
 	},
 	{
-		uid: "b588ded6",
+		uid: "0e3113f4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 246"
+		}]
+	},
+	{
+		uid: "e33d3310",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 371"

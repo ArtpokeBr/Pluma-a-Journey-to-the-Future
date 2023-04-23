@@ -317,31 +317,6 @@ heart_of_the_magical_woods.register();
 var osglolapis = VanillaFactory.createItem("osglolapis");
 osglolapis.register();
 
-
-// Mirion Plate ================================================================================
-var mirionplate = VanillaFactory.createItem("mirionplate");
-mirionplate.register();
-
-// Mirion Gear ================================================================================
-var miriongear = VanillaFactory.createItem("miriongear");
-miriongear.register();
-
-// Alumite Plate ================================================================================
-var alumiteplate = VanillaFactory.createItem("alumiteplate");
-alumiteplate.register();
-
-// Alumite Gear ================================================================================
-var alumitegear = VanillaFactory.createItem("alumitegear");
-alumitegear.register();
-
-// Osgloglas Plate ================================================================================
-var osgloglasplate = VanillaFactory.createItem("osgloglasplate");
-osgloglasplate.register();
-
-// Osgloglas Gear ================================================================================
-var osgloglasgear = VanillaFactory.createItem("osgloglasgear");
-osgloglasgear.register();
-
 // KnightMetal Plate ================================================================================
 var knightmetalplate = VanillaFactory.createItem("knightmetalplate");
 knightmetalplate.register();
@@ -1033,8 +1008,8 @@ inscriber_speculative_circuit.register();
 // === //
 
 // Blank Press
-var inscriber_blank_press = VanillaFactory.createItem("inscriber_blank_press");
-inscriber_blank_press.register();
+// var inscriber_blank_press = VanillaFactory.createItem("inscriber_blank_press");
+// inscriber_blank_press.register();
 
 // === //
 

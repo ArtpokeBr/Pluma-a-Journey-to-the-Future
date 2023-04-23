@@ -141,15 +141,6 @@ tile.contenttweaker.diabolic_carbide_block.name=Diabolic Carbide Block
 item.contenttweaker.osglolapis.name=Osglolapis
 tile.contenttweaker.osglolapis_block.name=Osglolapis Block
 
-item.contenttweaker.mirionplate.name=Mirion Plate
-item.contenttweaker.miriongear.name=Mirion Gear
-
-item.contenttweaker.alumiteplate.name=Alumite Plate
-item.contenttweaker.alumitegear.name=Alumite Gear
-
-item.contenttweaker.osgloglasplate.name=Osgloglas Plate
-item.contenttweaker.osgloglasgear.name=Osgloglas Gear
-
 item.contenttweaker.knightmetalplate.name=Knightmetal Plate
 item.contenttweaker.knightmetalgear.name=Knightmetal Gear
 item.contenttweaker.fieryplate.name=Fiery Plate

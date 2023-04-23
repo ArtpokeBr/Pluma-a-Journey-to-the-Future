@@ -1,0 +1,26 @@
+{
+	title: "Time to Improve your Tinker's Tools!",
+	x: -6.0d,
+	y: -6.0d,
+	description: "Let's make a Tool Forge!",
+	text: [
+		""
+	],
+	dependencies: [
+		"d030ed85"
+	],
+	tasks: [{
+		uid: "ac17b307",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "iron_block",
+					Count: 1,
+					Damage: 0
+				}
+			}
+		}]
+	}]
+}

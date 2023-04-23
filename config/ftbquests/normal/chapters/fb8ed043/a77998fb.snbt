@@ -1,7 +1,7 @@
 {
 	title: "Wooden Storage",
 	x: 17.0d,
-	y: 1.0d,
+	y: 0.5d,
 	shape: "rsquare",
 	description: "With a Production of Treated Wood, you'll get some Storage Enhancements!",
 	text: [

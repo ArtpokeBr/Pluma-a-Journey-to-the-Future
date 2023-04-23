@@ -1,14 +1,14 @@
 {
 	title: "A Tinkery World!",
-	x: 19.0d,
-	y: 0.5d,
+	x: 16.0d,
+	y: 4.0d,
 	description: "There are so many Possibilities Now!",
 	text: [
 		"With a Melter you'll not be able to make Tools and Armor Pieces out of Alloys and Metals, but still good.",
 		"",
 		"- Craft all the Necessary Tables for that.",
 		"",
-		"- The Tool and Armor Forge can both be made whenever you need, you don't need to craft it right now. :)",
+		"- The Tool and Armor Forge can both be made whenever you need, you don't need to craft them right now. :)",
 		"",
 		"§8§o~ And Remember, Look at JEI cause some advanced materials cannot be casted into tools/armor pieces.§r§f",
 		"",

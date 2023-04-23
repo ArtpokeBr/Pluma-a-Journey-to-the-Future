@@ -1,7 +1,7 @@
 {
 	title: "Laser Engraving Wafers!",
-	x: -0.5d,
-	y: -14.0d,
+	x: 2.0d,
+	y: -17.0d,
 	description: "Time to start using those Ruby Lenses",
 	text: [
 		"Well, previously you've crafted a §cRuby Lens§f, now, use a §6Laser Engraver§f and the Lens to obtain some §9ILC Wafers§f!",

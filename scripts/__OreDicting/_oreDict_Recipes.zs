@@ -404,15 +404,6 @@ makeContenttweakerIntegration(<ore:DiamantineCrystal>.firstItem, <ore:plateDiama
 //Palis
 makeContenttweakerIntegration(<ore:PalisCrystal>.firstItem, <ore:platePalis>.firstItem, <ore:gearPalis>.firstItem, <tconstruct:tool_rod>.withTag({Material: "palis_crystal"}));
 
-//Mirion
-makeContenttweakerIntegration(<ore:ingotMirion>.firstItem, <ore:plateMirion>.firstItem, <ore:gearMirion>.firstItem, <tconstruct:tool_rod>.withTag({Material: "mirion"}));
-
-//Alumite
-makeContenttweakerIntegration(<ore:ingotAlumite>.firstItem, <ore:plateAlumite>.firstItem, <ore:gearAlumite>.firstItem, <tconstruct:tool_rod>.withTag({Material: "alumite"}));
-
-//Osgloglas
-makeContenttweakerIntegration(<ore:ingotOsgloglas>.firstItem, <ore:plateOsgloglas>.firstItem, <ore:gearOsgloglas>.firstItem, <tconstruct:tool_rod>.withTag({Material: "osgloglas"}));
-
 //Fiery
 recipes.remove(<ore:blockFiery>.firstItem);
 makeContenttweakerIntegration(<ore:ingotFiery>.firstItem, <ore:plateFiery>.firstItem, <ore:gearFiery>.firstItem, <tconstruct:tool_rod>.withTag({Material: "fierymetal"}));

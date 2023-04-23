@@ -50,30 +50,29 @@ forming.recipeBuilder()
 .buildAndRegister();
 }
 
-// Adding the Blank one too
-mods.chisel.Carving.addVariation("AE2_Presses", <contenttweaker:inscriber_blank_press>);
+// // Adding the Blank one too
+// mods.chisel.Carving.addVariation("AE2_Presses", <contenttweaker:inscriber_blank_press>);
 
-var AE2BlankPress as IItemStack[] = [
-<ore:dustAbyssalStone>.firstItem,
-<ore:dustDreadStone>.firstItem,
-<ore:dustAbyssalniteStone>.firstItem,
-<ore:dustOmotholStone>.firstItem
-];
-for i in AE2BlankPress {
-forming.recipeBuilder()
-    .inputs(<ore:plateTitaniumIridium>, i, <ore:foilTerrasteel>*2, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*4)
-    .outputs(<contenttweaker:inscriber_blank_press>)
-    .duration(400)
-    .EUt(1200)
-.buildAndRegister();
-}
-
+// var AE2BlankPress as IItemStack[] = [
+// <ore:dustAbyssalStone>.firstItem,
+// <ore:dustDreadStone>.firstItem,
+// <ore:dustAbyssalniteStone>.firstItem,
+// <ore:dustOmotholStone>.firstItem
+// ];
+// for i in AE2BlankPress {
+// forming.recipeBuilder()
+//     .inputs(<ore:plateTitaniumIridium>, i, <ore:foilTerrasteel>*2, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]})*4)
+//     .outputs(<contenttweaker:inscriber_blank_press>)
+//     .duration(400)
+//     .EUt(1200)
+// .buildAndRegister();
+// }
 
 // Printed Operation Processor
 engraver.recipeBuilder()
 	.inputs(<ore:ingotMithril>)
     .notConsumable(<contenttweaker:inscriber_operation_press>)
-    .outputs(<contenttweaker:printed_operation_circuit>)
+    .outputs(<contenttweaker:printed_operation_circuit>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(1100)
@@ -83,7 +82,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<ore:ingotPolyvinylButyral>)
     .notConsumable(<contenttweaker:inscriber_estimation_press>)
-    .outputs(<contenttweaker:printed_estimation_circuit>)
+    .outputs(<contenttweaker:printed_estimation_circuit>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(1100)
@@ -93,7 +92,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<ore:ingotTungstenSteel>)
     .notConsumable(<contenttweaker:inscriber_methodology_press>)
-    .outputs(<contenttweaker:printed_methodolgy_circuit>)
+    .outputs(<contenttweaker:printed_methodolgy_circuit>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(1100)
@@ -103,7 +102,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<ore:ingotAwakenedDraconium>)
     .notConsumable(<contenttweaker:inscriber_scheduling_press>)
-    .outputs(<contenttweaker:printed_scheduling_circuit>)
+    .outputs(<contenttweaker:printed_scheduling_circuit>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(1100)
@@ -113,7 +112,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<threng:material>)
     .notConsumable(<contenttweaker:inscriber_parallel_press>)
-    .outputs(<contenttweaker:inscriber_parallel_circuit>)
+    .outputs(<contenttweaker:inscriber_parallel_circuit>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(1100)
@@ -123,7 +122,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<threng:material:13>)
     .notConsumable(<contenttweaker:inscriber_speculative_press>)
-    .outputs(<contenttweaker:inscriber_speculative_circuit>)
+    .outputs(<contenttweaker:inscriber_speculative_circuit>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(1100)
@@ -133,7 +132,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<ore:ingotGold>)
     .notConsumable(<appliedenergistics2:material:15>)
-    .outputs(<appliedenergistics2:material:18>)
+    .outputs(<appliedenergistics2:material:18>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(512)
@@ -143,7 +142,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<ore:gemDiamond>)
     .notConsumable(<appliedenergistics2:material:14>)
-    .outputs(<appliedenergistics2:material:17>)
+    .outputs(<appliedenergistics2:material:17>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(512)
@@ -153,7 +152,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<ore:crystalPureCertusQuartz>)
     .notConsumable(<appliedenergistics2:material:13>)
-    .outputs(<appliedenergistics2:material:16>)
+    .outputs(<appliedenergistics2:material:16>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(512)
@@ -163,7 +162,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<ore:ingotSilicon>)
     .notConsumable(<appliedenergistics2:material:19>)
-    .outputs(<appliedenergistics2:material:20>)
+    .outputs(<appliedenergistics2:material:20>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(512)
@@ -173,7 +172,7 @@ engraver.recipeBuilder()
 engraver.recipeBuilder()
 	.inputs(<ore:ingotElementium>)
     .notConsumable(<contenttweaker:inscriber_clearance_press>)
-    .outputs(<contenttweaker:printed_clearance_circuit>)
+    .outputs(<contenttweaker:printed_clearance_circuit>*2)
 	.property("cleanroom", "cleanroom")
 	.duration(275)
 	.EUt(1100)
@@ -181,13 +180,13 @@ engraver.recipeBuilder()
 
 // ================================================================ //
 
-circuit_assembler.recipeBuilder().inputs(<appliedenergistics2:material:16>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<appliedenergistics2:material:23>).property("cleanroom", "cleanroom").duration(250).EUt(512).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<appliedenergistics2:material:17>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<appliedenergistics2:material:24>).property("cleanroom", "cleanroom").duration(250).EUt(512).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<appliedenergistics2:material:18>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<appliedenergistics2:material:22>).property("cleanroom", "cleanroom").duration(250).EUt(512).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_operation_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:operation_processor>).property("cleanroom", "cleanroom").duration(250).EUt(1115).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_estimation_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:estimation_processor>).property("cleanroom", "cleanroom").duration(250).EUt(1115).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_methodolgy_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:methodology_processor>).property("cleanroom", "cleanroom").duration(250).EUt(1115).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_clearance_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:clearance_processor>).property("cleanroom", "cleanroom").duration(250).EUt(1115).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_scheduling_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:scheduling_processor>).property("cleanroom", "cleanroom").duration(250).EUt(1115).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<contenttweaker:inscriber_parallel_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<threng:material:6>).property("cleanroom", "cleanroom").duration(250).EUt(1115).buildAndRegister();
-circuit_assembler.recipeBuilder().inputs(<contenttweaker:inscriber_speculative_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<threng:material:14>) .property("cleanroom", "cleanroom").duration(250).EUt(1115).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<appliedenergistics2:material:16>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<appliedenergistics2:material:23>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<appliedenergistics2:material:17>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<appliedenergistics2:material:24>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<appliedenergistics2:material:18>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<appliedenergistics2:material:22>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_operation_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:operation_processor>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_estimation_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:estimation_processor>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_methodolgy_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:methodology_processor>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_clearance_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:clearance_processor>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<contenttweaker:printed_scheduling_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<contenttweaker:scheduling_processor>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<contenttweaker:inscriber_parallel_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<threng:material:6>).property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs(<contenttweaker:inscriber_speculative_circuit>, <appliedenergistics2:material:20>).fluidInputs(<liquid:redstone> * 288).outputs(<threng:material:14>) .property("cleanroom", "cleanroom").duration(100).EUt(512).buildAndRegister();

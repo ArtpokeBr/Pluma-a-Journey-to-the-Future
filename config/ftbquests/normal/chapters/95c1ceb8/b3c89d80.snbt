@@ -17,13 +17,13 @@
 		uid: "ea5a8eee",
 		type: "item",
 		items: [{
-			item: "plustic:osgloglasingot"
+			item: "gregtech:meta_ingot 1 32088"
 		}]
 	}],
 	rewards: [{
 		uid: "4e07261a",
 		type: "item",
-		item: "plustic:osgloglasingot",
+		item: "gregtech:meta_ingot 1 32088",
 		count: 4,
 		random_bonus: 4
 	},
