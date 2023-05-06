@@ -976,7 +976,8 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("pluma:shaped/internal/alta
 # Goddess' Pearl
 // mods.alchemistry.Combiner.addRecipe(<contenttweaker:goddess_pearl>, [<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<alchemistry:ingot:42>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>]);
 <contenttweaker:goddess_pearl>.addTooltip(format.red("Does not get consumed by regular crafting."));
-<contenttweaker:goddess_pearl>.addTooltip(format.red(format.bold("WARNING: ")) + format.gray(format.bold("AE2 autocrafting consumes the item! Use an external crafter like an RFTools Crafter when using this item in your ME System!")));
+<contenttweaker:goddess_pearl>.addTooltip(format.gray("<Press Shift for more Info>"));
+<contenttweaker:goddess_pearl>.addShiftTooltip(format.red(format.bold("WARNING: ")) + format.gray(format.bold("AE2 autocrafting consumes the item! Use an external crafter like an RFTools Crafter when using this item in your ME System!")));
 
 # Impetus Crystal
 recipes.addShapeless(<contenttweaker:impetus_crystal>, [<thaumcraft:primordial_pearl>.anyDamage().transformDamage(1),<ore:ingotVoid>.firstItem,<quantumflux:voidbucket>,<contenttweaker:magical_leather>,<embers:shifting_scales>]);

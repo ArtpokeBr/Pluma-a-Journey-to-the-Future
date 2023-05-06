@@ -1,18 +1,78 @@
 {
 	title: "Time to Automate Empowered Canola Oil §6Part II",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "refinedcanolaoil",
+			Amount: 1000
+		}
+	},
 	x: -7.0d,
 	y: -10.0d,
 	description: "Producing and Refining Canola Oil",
 	text: [
-		"With your Canola Farm working, use an Extractor to get the Oil out of it and refine it with a Distillery!",
+		"There are §e2 Aproaches§f for this part of the Setup.",
 		"",
-		"- Remember, you can always revisit your setups in the future to improve them."
+		"- §bThe First one§f, you can use default ways from §3Actually Additions§f to §aProduce§f and §2Refine§f §6Canola Oil§f.",
+		"",
+		"- §9The Second one§f, you can use §3Gregtech§f ways to §aProduce and §2Refine§f §6Canola Oil§f.",
+		"",
+		"§8§o~ Being quite honest, maybe it is a good idea to use the Actually Additions way for now, as it is much cheaper than the GT way.",
+		"Altough it might be better to swap this with the GT way once it gets cheaper, as you could be faster down the line.§r§f",
+		"",
+		"- Also, it is worth noting that the §5Fermenting Barrel§f §e§ndoesn't consume Energy§r§f!"
 	],
 	dependencies: [
 		"cf44bc63"
 	],
+	min_width: 300,
 	tasks: [{
-		uid: "69be09c6",
+		uid: "ea8de69e",
+		type: "item",
+		title: "A Way to Produce Canola Oil",
+		items: [{
+			item: "actuallyadditions:block_canola_press"
+		},
+		{
+			item: "gregtech:machine 1 7"
+		},
+		{
+			item: "gregtech:machine 1 8"
+		},
+		{
+			item: "gregtech:machine 1 305"
+		},
+		{
+			item: "gregtech:machine 1 306"
+		},
+		{
+			item: "gregtech:machine 1 307"
+		}]
+	},
+	{
+		uid: "3a44a5f1",
+		type: "fluid",
+		fluid: "canolaoil"
+	},
+	{
+		uid: "ecd057b3",
+		type: "item",
+		title: "A Way to Refine Canola Oil",
+		items: [{
+			item: "actuallyadditions:block_fermenting_barrel"
+		},
+		{
+			item: "gregtech:machine 1 260"
+		},
+		{
+			item: "gregtech:machine 1 261"
+		},
+		{
+			item: "gregtech:machine 1 262"
+		}]
+	},
+	{
+		uid: "d2fa6a14",
 		type: "fluid",
 		fluid: "refinedcanolaoil"
 	}],

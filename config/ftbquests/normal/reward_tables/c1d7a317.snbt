@@ -1,0 +1,11 @@
+{
+	title: "Choose a Tesseract",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "enderio:block_transceiver"
+	},
+	{
+		item: "mekanism:machineblock3"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "A Powerfull Drill",
+	x: -3.5d,
+	y: -13.5d,
+	description: "Let's make an Actually Additions Drill!",
+	text: [
+		"§dUsing your recently§f obtained §bAluminium§f, you'll be able to make the §acircuitry§f needed for a §3Drill Core§f.",
+		"",
+		"- And using this core, an §6Actually Additions Drill§f! a powerfull §6Drill§f that accepts some §eUpgrades§f.",
+		"",
+		"§8§o~ Simply Search in JEI for them, I recommend you to maybe consider some expansion upgrades to mine 3x3.§r§f"
+	],
+	dependencies: [
+		"b6568fbc"
+	],
+	tasks: [{
+		uid: "cc35bcfc",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_drill",
+			Damage: 3s,
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88de86b0",
+		type: "item",
+		item: "actuallyadditions:item_drill_upgrade_speed"
+	},
+	{
+		uid: "69943ca5",
+		type: "item",
+		item: "actuallyadditions:item_drill_upgrade_block_placing"
+	}]
+}

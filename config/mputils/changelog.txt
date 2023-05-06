@@ -1,39 +1,40 @@
-§a§lVersion Beta§r§f 2.6:
+§a§lVersion Beta§r§f 3.0:
 
 §b§lMod Related Changes§r§f:
 
-- Updated Thaumic Augmentation
-- Updated Aqua Acrobatics
-- Updated NotEnough Energistics
-- Updated Legendary Tooltips
-- Updated Inventory BogoSorter
+- Added Bansokou
+- Added Gambling Style (Better Trading GUI for Villagers)
+- Added GregTech Drawers (Drawers made from Rubber!)
+- Added Baubley Heart Canisters
+- Added Ender Storage Continuation
+
+- Updated AE2 Unnofficial
+- Updated Carry On
+- Updated Roughly Enough Items
+- Updated Had Enough Items
+- Updated Lootr
+
+- Swapped Mekanism --> Mekanism Community Edition
+- Swapped Thaumic Energistics Fork --> Thaumic Energistics Fork from CF.
 
 §2§lFixes§r§f:
 
-- Fixed Mobs dropping Thermal Expansion's Sulfur Dust.
-- Paper Bark from HarvestCraft should not be obtained trough the marked anymore.
-- Added a Conversion between the Original Terrasteel Ingot and the GT One (fixes not being able to summon Gaia).
-- Fixed Conflicting Recipes for certain HarvestCraft Crops in the Macerator.
-- Fixed GT Salt not being able to be used in HarvestCraft's Recipes.
-- Fixed some Progression Issues in the Chapter 5.
-- Pig Iron has a recipe now.
-- Xtones now is properly integrated with Chisel.
-- Tinker's Complement Sledge Hammers now work properly.
-- Smoothies Recipes should have correct input values now.
-- Fixed some Roasted Food's and Marshmallow from Pyrotech not having a Recipe.
+- Removed Fossil and Archeology structres from Villages (Thx Krutoy!)
+- Balanced the Floralchemy Village House (Thx once again Krutoy!)
+- Fixed Unbalanced Scorched Bricks Solidifying Recipes.
+- Fixed Tinker's Armor Forge and Tool Forge Questlines (they were merged into one)
+- Fixed Wrong Electrical Steel Ingots as a reward for the "Simple Machines for a Simple Task" Quest.
+- Gendustry Machines shouldn't be NBT Specific on their respective Quests anymore.
 
 §5§lMiscellaneous§r§f:
 
-- Rehidden AE2's Facades in JEI.
-- Buffed AE's Crystal Seeds to give x4 instead of x2
-- You can now Purify Crystal's AE's Crystal Seeds in the default way.
-(this allows acess to AE2 before actually needing a Cleanroom, altough it is much faster and efficient)
-- More Plustic Stuff have been sucefully readded! (previously for some reason, some laser mediums and other parts where mssing).
-- Tinker's and Conarm Tables Have been correctly organized in JEI (only the correct ones are in JEI and with correct Recipes).
-- Turpentine take less time to be produced now.
-- Storage Drawers Label's now only Render on a 32 Blocks Range.
-- Increased the Spawn Chances of Imps (by disabling the Spawn Chance Boost applied to Hell Sprouts).
-- Stone Dust can now be Smelted into Seared Bricks.
-- Flesh Block from Biomes'O Plenty can now be made with "Simple" Blood.
-- Magic Tallow from Thaumcraft now have 2 brand new possible recipes instead of the default one.
-- Compacting Drawers are now made with 2 Vanilla Pistons on the Assembler, instead of a single GT One.
+- Villages and Villagers are now back! (Unfotunatly previously created Worlds, will not generate Villages =/)
+- Scorched Blocks can now be chiseled.
+- Added a few more ways to produce Mutagen.
+- The Actually Additions Compost Bin is now Back!
+- Conduit Binders now require the Compost from Actually Additions to be produced.
+- The Canola Press and Fermenting Barrel from Actually Additions are now back!
+- The Actually Additions Drill is now back!
+- AE2 Quartz Wrenches now hava proper recipe.
+- A New Font has been added to the Pack! (Arial -> Bahnschrift)
+

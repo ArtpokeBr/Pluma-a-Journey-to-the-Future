@@ -131,7 +131,7 @@ mixer.recipeBuilder()
 
 //Scorched Block
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:scorched> * 200)
+    .fluidInputs(<liquid:scorched> * 400)
     .notConsumable(<gregtech:meta_item_1:18>)
     .outputs(<tcomplement:scorched_block>)
     .duration(720)
@@ -192,6 +192,23 @@ recipes.addShaped(<tcomplement:high_oven_io> * 2, [[<ore:plateScorched>, null, <
 recipes.remove(<tcomplement:scorched_faucet>);
 recipes.addShaped(<tcomplement:scorched_faucet> * 2, [[null, null, null], [<ore:plateScorched>, null, <ore:plateScorched>],[null, <ore:plateScorched>, null]]);
 
+var scorched as IItemStack[] = [
+<tcomplement:scorched_block>,
+<tcomplement:scorched_block:1>,
+<tcomplement:scorched_block:2>,
+<tcomplement:scorched_block:3>,
+<tcomplement:scorched_block:4>,
+<tcomplement:scorched_block:5>,
+<tcomplement:scorched_block:6>,
+<tcomplement:scorched_block:7>,
+<tcomplement:scorched_block:8>,
+<tcomplement:scorched_block:9>,
+<tcomplement:scorched_block:10>,
+<tcomplement:scorched_block:11>
+];
+for i in scorched {
+mods.chisel.Carving.addVariation("scorched", i);
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //

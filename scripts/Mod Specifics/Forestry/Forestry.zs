@@ -378,7 +378,7 @@ craft.make(<forestry:engine_peat>, ["pretty",
 # [Biogas Engine] from [Fine Copper Wire Coil][+4]
 recipes.removeByRecipeName("forestry:biogas_engine");
 craft.make(<forestry:engine_biogas>, ["pretty",
-  "□ □  ",
+  "□ □ □",
   "C F C",
   "¤ L ¤"], {
   "□": <ore:plateBronze>,                      # Bronze Plate

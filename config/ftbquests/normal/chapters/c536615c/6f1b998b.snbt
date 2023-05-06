@@ -25,7 +25,7 @@
 	rewards: [{
 		uid: "360ac866",
 		type: "item",
-		item: "enderio:item_alloy_ingot",
+		item: "gregtech:meta_ingot 1 32009",
 		count: 16
 	},
 	{

@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.gregtech.recipe.RecipeMap;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.actuallyadditions.Compost;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -458,7 +459,7 @@ forming.recipeBuilder()
 
 // Dimensional Transceiver
 recipes.remove(<enderio:block_transceiver>);
-recipes.addShaped(<enderio:block_transceiver> * 1, [[<ore:lightPlateTitanium>, <ore:skullSentientEnder>, <ore:lightPlateTitanium>], [<ore:fusedQuartz>, <ore:itemWeatherCrystal>, <ore:fusedQuartz>],[<ore:lightPlateTitanium>, <contenttweaker:integrated_botanical_processor>, <ore:lightPlateTitanium>]]);
+recipes.addShaped(<enderio:block_transceiver> * 1, [[<ore:lightPlateEnderium>, <ore:skullSentientEnder>, <ore:lightPlateEnderium>], [<ore:fusedQuartz>, <mekanism:teleportationcore>, <ore:fusedQuartz>],[<ore:lightPlateEnderium>, <ore:itemWeatherCrystal>, <ore:lightPlateEnderium>]]);
 
 //Magnet
 recipes.remove(<enderio:item_magnet>);
@@ -487,10 +488,14 @@ recipes.remove(<enderio:item_material:22>);
 mixer.recipeBuilder()
     .inputs(<ore:dustClay>*2, <ore:gravel>*2, <ore:dustQuartzSand>*2)
     .fluidInputs(<liquid:concrete> * 288)
-    .outputs(<enderio:item_material:22>*6)
+    .outputs(<enderio:item_material:22>*12)
     .duration(180)
     .EUt(16)
 .buildAndRegister();
+
+# Binder now needs a Composter
+furnace.remove(<enderio:item_material:4>);
+mods.actuallyadditions.Compost.addRecipe(<enderio:item_material:4>, <quark:quilted_wool:8>, <enderio:item_material:22>, <biomesoplenty:dirt:2>);
 
 // Energy Conduit (Conductive Iron)
 recipes.remove(<enderio:item_power_conduit:0>);

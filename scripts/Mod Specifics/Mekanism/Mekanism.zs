@@ -795,7 +795,7 @@ recipes.addShaped(<mekanism:machineblock2:2> * 1, [[<ore:lightPlateRedSteel>, <m
 
 // Quantum Entangloporter
 recipes.remove(<mekanism:machineblock3:0>);
-recipes.addShaped(<mekanism:machineblock3:0> * 1, [[<ore:lightPlateTitanium>, <mekanism:controlcircuit:3>, <ore:lightPlateTitanium>], [<opencomputers:material:9>, <mekanism:teleportationcore>, <opencomputers:material:9>],[<ore:lightPlateTitanium>, <mekanism:controlcircuit:3>, <ore:lightPlateTitanium>]]);
+recipes.addShaped(<mekanism:machineblock3:0> * 1, [[<ore:lightPlateEnderium>, <mekanism:controlcircuit:3>, <ore:lightPlateEnderium>], [<opencomputers:material:9>, <mekanism:teleportationcore>, <opencomputers:material:9>],[<ore:lightPlateEnderium>, <mekanism:controlcircuit:3>, <ore:lightPlateEnderium>]]);
 
 // Fluidic Plenisher
 recipes.remove(<mekanism:machineblock2:12>);

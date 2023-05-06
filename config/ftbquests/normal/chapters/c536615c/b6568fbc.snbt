@@ -110,9 +110,6 @@
 			Damage: 471s,
 			tag: {
 				Charge: 100000L
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

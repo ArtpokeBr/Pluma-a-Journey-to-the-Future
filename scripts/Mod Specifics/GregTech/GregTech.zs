@@ -190,7 +190,7 @@ recipes.removeByRecipeName("enderio:ender_dust");
 <recipemap:assembler>.findRecipe(480, [<metaitem:plateEnderPearl> * 9, <metaitem:plateDoubleStainlessSteel>, <metaitem:sensor.hv>, <metaitem:emitter.hv>, <metaitem:electric.pump.hv>], [<liquid:plastic> * 288]).remove();
 
 assembler.recipeBuilder()
-    .inputs(<enderio:block_transceiver>, <enderio:item_capacitor_crystalline>, <gregtech:meta_item_1:234>, <gregtech:meta_item_1:219>, <gregtech:meta_item_1:144>)
+    .inputs(<enderstorage:ender_storage:1>, <enderio:item_capacitor_melodic>, <gregtech:meta_item_1:234>, <gregtech:meta_item_1:219>, <gregtech:meta_item_1:144>)
     .fluidInputs(<liquid:plastic>*288)
     .outputs(<gregtech:meta_item_1:311>)
     .duration(320)

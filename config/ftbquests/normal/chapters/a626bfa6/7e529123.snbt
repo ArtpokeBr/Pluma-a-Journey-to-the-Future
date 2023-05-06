@@ -1,26 +1,38 @@
 {
-	title: "Time to Improve your Tinker's Tools!",
+	title: "Time to Improve your Tinker's Situation!",
 	x: -6.0d,
 	y: -6.0d,
-	description: "Let's make a Tool Forge!",
+	description: "Let's make a Tinker's Forge!",
 	text: [
-		""
+		"Now that you have acess to a §aBlacksmith's Worktable§f, you're finally able to improve §bTinker's Infraestructure§f!",
+		"",
+		"- By making a §6Tool Forge§f, you'll get acess to variety of new and §3Advanced Tools§f.",
+		"",
+		"- And you're also able to make an §6Armor Forge§f, great for improving your §3Armory§f!"
 	],
 	dependencies: [
 		"d030ed85"
 	],
+	min_width: 300,
 	tasks: [{
-		uid: "ac17b307",
+		uid: "b872f3ae",
 		type: "item",
 		items: [{
-			id: "tconstruct:toolforge",
-			tag: {
-				textureBlock: {
-					id: "iron_block",
-					Count: 1,
-					Damage: 0
-				}
-			}
+			item: "tconstruct:toolforge"
+		},
+		{
+			item: "conarm:armorforge"
 		}]
+	}],
+	rewards: [{
+		uid: "5eb2f8c1",
+		type: "item",
+		item: "tconstruct:ingots 1 4",
+		count: 8
+	},
+	{
+		uid: "b655fb2f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

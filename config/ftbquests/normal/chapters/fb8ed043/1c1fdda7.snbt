@@ -1,0 +1,41 @@
+{
+	title: "A Cheap way to Produce Fertilizers!",
+	x: 18.0d,
+	y: 1.5d,
+	description: "Let's make a Compost from Actually Additions!",
+	text: [
+		"There are some usefull recipes with this special §6Composting Bin§f.",
+		"",
+		"► §bFirst§f, by using a §3Knife from Actually Additions§f to make §2Bio Mash§f, you can then Compost it into §aFertilizer§f!",
+		"",
+		"▬ The §aFertilizer§f from §3Actually Additions§f work's just like §9Bone Meal§f, but it could be §emuch Cheaper§f.",
+		"",
+		"► §bSecond§f, you might find it usefull, but you'll be able to convert §2Plant Balls§f into §aBiomass§f, and then into §7Bio Coal§f! an alternative to §8Coal§f.",
+		"",
+		"§8§o▬ Also, Bio Coal can be converted into Carbon Bricks or Carbon Dusts, may be usefull in the Future!§r§f",
+		"",
+		"► And probally the §2main utility if this device§f, on the §6§nnext chapter you'll be able to make Conduit Binders with it§f!"
+	],
+	dependencies: [
+		"67345fdc"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "403ded8b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_compost"
+		}]
+	}],
+	rewards: [{
+		uid: "1a2d5a0b",
+		type: "item",
+		item: "actuallyadditions:item_fertilizer",
+		count: 64
+	},
+	{
+		uid: "d995a1b9",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

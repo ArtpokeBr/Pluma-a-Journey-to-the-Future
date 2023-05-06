@@ -19,7 +19,8 @@
 		type: "item",
 		items: [{
 			item: "gendustry:mutagen_producer"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "4fb71972",
@@ -30,7 +31,8 @@
 		},
 		{
 			item: "gendustry:mutatron_advanced"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e6c0a3d4",

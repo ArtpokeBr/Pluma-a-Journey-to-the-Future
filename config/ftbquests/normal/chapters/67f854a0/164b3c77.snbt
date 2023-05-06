@@ -10,6 +10,9 @@
 		"",
 		"▬ §5Scheelite§f and §dTungstate§f will be straight up used to get §9Tungsten§f at the §6EV Tier§f, §avery important§f!"
 	],
+	dependencies: [
+		"14593cf3"
+	],
 	min_width: 300,
 	tasks: [{
 		uid: "ae9ceac4",

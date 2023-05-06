@@ -52,6 +52,9 @@ recipes.removeByRecipeName("pyrotech:saddle");
 
 recipes.removeByRecipeName("natura:common/daylight_sensor");
 
+recipes.removeByRecipeName("bhc:god_apple");
+recipes.removeByRecipeName("cyclicmagic:item.applegod_1");
+
 
 // Crafting Table ===========================================
 recipes.remove(<minecraft:crafting_table>);

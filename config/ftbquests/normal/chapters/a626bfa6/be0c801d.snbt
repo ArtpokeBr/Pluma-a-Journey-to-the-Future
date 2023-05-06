@@ -1,0 +1,33 @@
+{
+	title: "Generating Bits of RF!",
+	x: -6.0d,
+	y: 3.0d,
+	description: "A Good way to make Isolate Setups",
+	text: [
+		"Perhaps you've found yourself in a situation §awhere only a few bits of RF are needed§f to maintain a setup, why not make a §6Coal Generator§f?",
+		"",
+		"§eIt doesn't generate that much RF§f, but it could be handy!"
+	],
+	dependencies: [
+		"a45b245e"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e77d9cd5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_coal_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "5e292576",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 22",
+		count: 16
+	},
+	{
+		uid: "a07b7433",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

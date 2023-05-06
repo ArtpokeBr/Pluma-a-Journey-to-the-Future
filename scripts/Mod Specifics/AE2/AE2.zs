@@ -1021,6 +1021,27 @@ craft.make(<appliedenergistics2:quartz_growth_accelerator>, ["pretty",
   "п": <appliedenergistics2:fluix_block>,  # Fluix Block
 });
 
+# [Certus Quartz Wrench] from [Flawless Certus Quartz][+2]
+recipes.removeByRecipeName("appliedenergistics2:tools/certus_quartz_wrench");
+craft.make(<appliedenergistics2:certus_quartz_wrench>, ["pretty",
+  "  ⌃  ",
+  "⌃ ^ ⌃",
+  "F ⌃  "], {
+  "⌃": <ore:plateCertusQuartz>,       # Certus Quartz Plate
+  "^": <ore:gemFlawlessCertusQuartz>, # Flawless Certus Quartz
+  "F": <ore:gtceFiles>,               # Iron File
+});
+
+# [Nether Quartz Wrench] from [Flawless Nether Quartz][+2]
+recipes.removeByRecipeName("appliedenergistics2:tools/nether_quartz_wrench");
+craft.make(<appliedenergistics2:nether_quartz_wrench>, ["pretty",
+  "  ⌃  ",
+  "⌃ ^ ⌃",
+  "F ⌃  "], {
+  "⌃": <ore:plateNetherQuartz>,       # Nether Quartz Plate
+  "^": <ore:gemFlawlessNetherQuartz>, # Flawless Nether Quartz
+  "F": <ore:gtceFiles>,               # Iron File
+});
 
 
 

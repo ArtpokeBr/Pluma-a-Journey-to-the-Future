@@ -1,5 +1,12 @@
 {
 	title: "Time to Automate Empowered Canola Oil §6Part III",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "crystaloil",
+			Amount: 1000
+		}
+	},
 	x: -6.0d,
 	y: -10.0d,
 	description: "Transforming Refined Canola Oil into Crystallized Oil",
