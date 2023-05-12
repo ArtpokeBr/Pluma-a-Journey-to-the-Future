@@ -30,7 +30,7 @@
         "between": "ore:chromite"
       },
       {
-        "sporadic": "ore:gold"
+        "sporadic": "ore:precious_metal"
       }
     ]
   }

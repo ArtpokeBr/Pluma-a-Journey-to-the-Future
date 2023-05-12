@@ -613,7 +613,8 @@ var ItensRemovidos as IItemStack[] = [
 <extrautils2:machine>.withTag({Type: "extrautils2:furnace"}),
 <extrautils2:machine>.withTag({Type: "extrautils2:crusher"}),
 <extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}),
-<extrautils2:teleporter:1>
+<extrautils2:teleporter:1>,
+<extrautils2:book>
 
         ];
 for item in ItensRemovidos {

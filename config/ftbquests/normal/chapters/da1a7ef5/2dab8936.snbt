@@ -4,9 +4,11 @@
 	y: -2.0d,
 	description: "Always Look at JEI for more Info",
 	text: [
-		"This Vein will be usefull for many Crafts and also for Tinker's!",
+		"§aThis Vein§f will be usefull for many §eRecipes§f and also for §3Tinker's§f!",
 		"",
-		"- You'll need some Cobalt and Ardite for some Roots Recipes."
+		"- You'll need some §9Cobalt§f and §cArdite§f for some §3Roots§f §eRecipes§f.",
+		"",
+		"- And you might find §8§nBlack Quartz§f to be extra usefull for §3Actually Additions§f §2Items/Blocks§f!"
 	],
 	dependencies: [
 		"f2026ad7"

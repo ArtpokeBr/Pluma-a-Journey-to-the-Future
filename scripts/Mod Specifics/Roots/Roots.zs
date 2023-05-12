@@ -29,41 +29,46 @@ macerator.recipeBuilder()
 //Runic Steel Recipe =============================================================================================
 
 // HighOven.newMixRecipe(ILiquidStack output, ILiquidStack input, int temp);
-var Runic_Steel = HighOven.newMixRecipe(<liquid:runic_steel> * 144, <liquid:iron> * 100, 3000);
-Runic_Steel.addOxidizer(<roots:runic_dust>, 98);
-Runic_Steel.addReducer(<ore:dustCarbon>, 99);
+var Runic_Steel = HighOven.newMixRecipe(<liquid:runic_steel> * 144, <liquid:iron> * 144, 6000);
+Runic_Steel.addOxidizer(<roots:runic_dust>, 100);
+Runic_Steel.addReducer(<ore:dustCoke>, 75);
 Runic_Steel.addPurifier(<ore:wildroot>, 50);
 Runic_Steel.register();
 
-blast_furnace.recipeBuilder()
-    .inputs(<ore:ingotSteel>, <ore:wildroot>, <roots:runic_dust>)
-    .outputs(<ore:ingotRunicSteel>.firstItem * 2)
-    .property("temperature", 2500)
-    .duration(600)
-    .EUt(500)
-.buildAndRegister();
+<ore:ingotRunicSteel>.firstItem.addTooltip(format.white("Can also be made inside a ") + format.lightPurple("High Oven") + format.white("."));
 
-//mods.tconstruct.Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
-//Casting.addTableRecipe(<ore:ingotRunicSteel>.firstItem, <tconstruct:cast_custom>, <liquid:runic_steel>, 100, false, 80);
-//mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
-//Casting.addBasinRecipe(<ore:blockRunicSteel>.firstItem, null, <liquid:runic_steel>, 900, false, 720);
+Casting.addTableRecipe(<ore:ingotRunicSteel>.firstItem, <tconstruct:cast_custom>, <liquid:runic_steel>, 144, false, 100);
+Casting.addBasinRecipe(<ore:blockRunicSteel>.firstItem, null, <liquid:runic_steel>, 1296, false, 900);
+
+// blast_furnace.recipeBuilder()
+//     .inputs(<ore:ingotSteel>, <ore:wildroot>, <roots:runic_dust>)
+//     .outputs(<ore:ingotRunicSteel>.firstItem * 2)
+//     .property("temperature", 2500)
+//     .duration(600)
+//     .EUt(500)
+// .buildAndRegister();
 
 //Terrastone Recipe =============================================================================================
 
 // HighOven.newMixRecipe(ILiquidStack output, ILiquidStack input, int temp);
-var terrastone = HighOven.newMixRecipe(<liquid:terrastone> * 144, <liquid:bronze> * 100, 1500);
-terrastone.addOxidizer(<roots:terra_moss>, 98);
-terrastone.addReducer(<ore:dustSmallBrass>, 85);
+var terrastone = HighOven.newMixRecipe(<liquid:terrastone> * 144, <liquid:bronze> * 144, 2700);
+terrastone.addOxidizer(<roots:terra_moss>, 100);
+terrastone.addReducer(<ore:dustBrass>, 25);
 terrastone.addPurifier(<ore:wildroot>, 50);
 terrastone.register();
 
-blast_furnace.recipeBuilder()
-    .inputs(<ore:ingotBrass>, <ore:wildroot>, <roots:terra_moss>)
-    .outputs(<ore:ingotTerrastone>.firstItem * 2)
-    .property("temperature", 2500)
-    .duration(600)
-    .EUt(500)
-.buildAndRegister();
+<ore:ingotTerrastone>.firstItem.addTooltip(format.white("Can also be made inside a ") + format.lightPurple("High Oven") + format.white("."));
+
+Casting.addTableRecipe(<ore:ingotTerrastone>.firstItem, <tconstruct:cast_custom>, <liquid:terrastone>, 144, false, 100);
+Casting.addBasinRecipe(<ore:blockTerrastone>.firstItem, null, <liquid:terrastone>, 1296, false, 900);
+
+// blast_furnace.recipeBuilder()
+//     .inputs(<ore:ingotBrass>, <ore:wildroot>, <roots:terra_moss>)
+//     .outputs(<ore:ingotTerrastone>.firstItem * 2)
+//     .property("temperature", 2500)
+//     .duration(600)
+//     .EUt(500)
+// .buildAndRegister();
 
 // Knifes ============================================================================================================
 

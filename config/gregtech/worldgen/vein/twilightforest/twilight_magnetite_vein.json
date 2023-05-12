@@ -31,7 +31,7 @@
         "between": "ore:vanadium_magnetite"
       },
       {
-        "sporadic": "ore:gold"
+        "sporadic": "ore:precious_metal"
       }
     ]
   }

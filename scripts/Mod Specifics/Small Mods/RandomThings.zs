@@ -25,14 +25,15 @@ blast_furnace.recipeBuilder()
     .EUt(600)
 .buildAndRegister();
 
-blast_furnace.recipeBuilder()
-    .inputs(<randomthings:ingredient:2>, <ore:ingotBlackBronze>, <ore:dustLazurite>)
-    .fluidInputs(<liquid:nitrogen> * 250)
-    .outputs(<randomthings:ingredient:3>*2)
-    .property("temperature", 2600)
-    .duration(250)
-    .EUt(512)
-.buildAndRegister();
+// blast_furnace.recipeBuilder()
+//     .inputs(<randomthings:ingredient:2>, <ore:ingotBlackBronze>, <ore:dustLazurite>)
+//     .circuit(13)
+//     .fluidInputs(<liquid:nitrogen> * 250)
+//     .outputs(<randomthings:ingredient:3>*2)
+//     .property("temperature", 2600)
+//     .duration(250)
+//     .EUt(512)
+// .buildAndRegister();
 
 //Spectre String
 recipes.remove(<randomthings:ingredient:12>);

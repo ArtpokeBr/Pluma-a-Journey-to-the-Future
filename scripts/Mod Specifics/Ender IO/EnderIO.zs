@@ -4,6 +4,9 @@ import crafttweaker.item.IIngredient;
 import mods.gregtech.recipe.RecipeMap;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.actuallyadditions.Compost;
+import mods.tcomplement.highoven.HighOven;
+import mods.tcomplement.highoven.MixRecipeBuilder;
+import mods.inworldcrafting.FluidToItem;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -242,12 +245,20 @@ alloy.recipeBuilder()
 .buildAndRegister();
 
 //Redstone Alloy
-alloy.recipeBuilder()
-    .inputs(<ore:dustSilicon>, <ore:ingotRedAlloy>)
-    .outputs(<ore:ingotRedstoneAlloy>.firstItem)
-    .duration(180)
-    .EUt(20)
-.buildAndRegister();
+// alloy.recipeBuilder()
+//     .inputs(<ore:dustSilicon>, <ore:ingotRedAlloy>)
+//     .outputs(<ore:ingotRedstoneAlloy>.firstItem)
+//     .duration(180)
+//     .EUt(20)
+// .buildAndRegister();
+
+var Redstone_Alloy = HighOven.newMixRecipe(<liquid:redstone_alloy> *144, <liquid:tin>*144, 5400);
+Redstone_Alloy.addOxidizer(<ore:dustRedstone>, 50);
+Redstone_Alloy.addReducer(<ore:itemInfinityGoop>, 100);
+Redstone_Alloy.addPurifier(<ore:dustSilicon>, 50);
+Redstone_Alloy.register();
+
+<ore:ingotRedstoneAlloy>.firstItem.addTooltip(format.white("Can also be made inside a ") + format.lightPurple("High Oven") + format.white("."));
 
 //Iron Alloy
 AlloySmelter.addRecipe(<ore:ingotConstructionAlloy>.firstItem*2, [<ore:ingotIron>, <ore:ingotLead>, <ore:ingotBrickNether>], 1000, 1.0);
@@ -620,3 +631,60 @@ RecipeBuilder.get("blacksmith")
 // Powered Spawner
 recipes.remove(<enderio:block_powered_spawner>);
 recipes.addShaped(<enderio:block_powered_spawner> * 1, [[<ore:plateCrystallinePinkSlime>, <ore:itemSkull>, <ore:plateCrystallinePinkSlime>], [<tconstruct:large_plate>.withTag({Material: "meat_metal"}), <ore:itemSoulMachineChassi>, <tconstruct:large_plate>.withTag({Material: "meat_metal"})],[<ore:itemVibrantCrystal>, <ore:skullZombieController>, <ore:itemVibrantCrystal>]]);
+
+//Infinity Reagent ========================
+mods.inworldcrafting.FluidToItem.transform(<ore:itemInfinityGoop>.firstItem, <liquid:glue>, [<actuallyadditions:item_misc:11>], true);
+mods.inworldcrafting.FluidToItem.transform(<ore:itemInfinityGoop>.firstItem*8, <liquid:glue>, [<ore:gemCharcoal>.firstItem], true);
+
+mods.inworldcrafting.FluidToItem.transform(<ore:itemInfinityGoop>.firstItem, <liquid:glue>, [<actuallyadditions:item_misc:10>], true);
+mods.inworldcrafting.FluidToItem.transform(<ore:itemInfinityGoop>.firstItem*8, <liquid:glue>, [<ore:gemCoal>.firstItem], true);
+
+#Charcoal
+chemical_bath.recipeBuilder()
+    .inputs(<actuallyadditions:item_misc:11>)
+    .fluidInputs(<liquid:glue>*1000)
+    .outputs(<ore:itemInfinityGoop>.firstItem)
+    .duration(30)
+    .EUt(15)
+.buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<ore:gemCharcoal>)
+    .fluidInputs(<liquid:glue>*1000)
+    .outputs(<ore:itemInfinityGoop>.firstItem*8)
+    .duration(60)
+    .EUt(30)
+.buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<ore:blockCharcoal>)
+    .fluidInputs(<liquid:glue>*1000)
+    .outputs(<ore:itemInfinityGoop>.firstItem*64, <ore:itemInfinityGoop>.firstItem*8)
+    .duration(120)
+    .EUt(40)
+.buildAndRegister();
+
+#Coal
+chemical_bath.recipeBuilder()
+    .inputs(<actuallyadditions:item_misc:10>)
+    .fluidInputs(<liquid:glue>*1000)
+    .outputs(<ore:itemInfinityGoop>.firstItem)
+    .duration(30)
+    .EUt(15)
+.buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<ore:gemCoal>)
+    .fluidInputs(<liquid:glue>*1000)
+    .outputs(<ore:itemInfinityGoop>.firstItem*8)
+    .duration(60)
+    .EUt(30)
+.buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs(<ore:blockCoal>)
+    .fluidInputs(<liquid:glue>*1000)
+    .outputs(<ore:itemInfinityGoop>.firstItem*64, <ore:itemInfinityGoop>.firstItem*8)
+    .duration(120)
+    .EUt(40)
+.buildAndRegister();

@@ -31,7 +31,7 @@
 		uid: "fd69dca3",
 		type: "item",
 		items: [{
-			item: "contenttweaker:obsidian_glass"
+			item: "mia:armored_glass"
 		}],
 		count: 8L
 	},

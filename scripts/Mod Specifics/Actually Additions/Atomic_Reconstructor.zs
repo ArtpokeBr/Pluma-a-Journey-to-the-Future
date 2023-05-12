@@ -41,6 +41,12 @@ AtomicReconstructor.addRecipe(<contenttweaker:glod_crystal_block>, <ore:blockGol
 AtomicReconstructor.addRecipe(<contenttweaker:endor_crystal>, <ore:gemEnderPearl>, 10000);
 AtomicReconstructor.addRecipe(<contenttweaker:endor_crystal_block>, <ore:blockEnderPearl>, 10000);
 
+# Void Stone (Coal -> Black Quartz)
+AtomicReconstructor.removeRecipe(<actuallyadditions:block_crystal:3>);
+AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:3>);
+AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <ore:gemBlackQuartz>.firstItem, 100);
+AtomicReconstructor.addRecipe(<actuallyadditions:block_crystal:3>, <ore:blockBlackQuartz>.firstItem, 1000);
+
 //Prismarine with Quartzite
 AtomicReconstructor.removeRecipe(<minecraft:prismarine_shard>);
 AtomicReconstructor.addRecipe(<ore:gemPrismarine>.firstItem, <ore:gemQuartzite>, 30000);

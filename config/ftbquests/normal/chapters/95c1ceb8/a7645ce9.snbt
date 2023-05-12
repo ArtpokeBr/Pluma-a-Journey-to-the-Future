@@ -28,7 +28,7 @@
 	rewards: [{
 		uid: "f136076a",
 		type: "item",
-		item: "extrautils2:compresseddirt",
+		item: "overloaded:compressed_dirt",
 		count: 9
 	},
 	{

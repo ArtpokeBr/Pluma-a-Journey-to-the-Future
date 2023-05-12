@@ -260,3 +260,11 @@ enderio.keybind.fovplus
 enderio.keybind.fovminus
 enderio.keybind.fovplusfast
 enderio.keybind.fovminusfast
+key.open_wireless_terminal.desc
+key.open_wireless_crafting_terminal.desc
+key.open_wireless_pattern_terminal.desc
+key.open_wireless_fluid_terminal.desc
+MAtmos
+key.neenergistics.ingredient.switch
+key.neenergistics.stack.count.change
+key.neenergistics.crafting.helper.noPreview

@@ -19,6 +19,8 @@ Alloying.removeRecipe(<liquid:hard_carbon>);
 Alloying.removeRecipe(<liquid:magnesium_diboride>);
 Alloying.removeRecipe(<liquid:lead_platinum>);
 Alloying.removeRecipe(<liquid:enderium>);
+Alloying.removeRecipe(<liquid:energetic_silver>);
+Alloying.removeRecipe(<liquid:energetic_alloy>);
 
 Alloying.removeRecipe(<liquid:osgloglas>, [<liquid:refinedglowstone>, <liquid:refinedobsidian>, <liquid:osmium>]);
 Alloying.removeRecipe(<liquid:osmiridium>, [<liquid:iridium>, <liquid:osmium>]);

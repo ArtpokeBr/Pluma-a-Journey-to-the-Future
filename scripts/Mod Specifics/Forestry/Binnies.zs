@@ -6,6 +6,8 @@ import mods.gregtech.recipe.RecipeMap;
 //			         																													 	 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//The Empty Bottle from Binnies could be used to make Normal Glass Bottles.
+recipes.remove(<minecraft:glass_bottle>);
 
 //Growth Medium Rework
 <genetics:misc:4>.displayName ="Binnie's Special Growth Medium";

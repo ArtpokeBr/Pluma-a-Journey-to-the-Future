@@ -5,7 +5,7 @@ var categoriesToHide as string[] = [
 	
 	"minecraft.anvil",
 	"actuallyadditions.booklet",
-	"tconstruct.dryingrack",
+	//"tconstruct.dryingrack",
 	"roots.chrysopoeia",
 	"roots.runic_shears_summon_entity",
 	"Painter",

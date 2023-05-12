@@ -165,9 +165,9 @@ extractor.recipeBuilder()
 
 //Refined Canola Oil
 distillery.recipeBuilder()
-    .fluidInputs([<liquid:canolaoil> * 5])
+    .fluidInputs([<liquid:canolaoil> * 80])
     .circuit(4)
-    .fluidOutputs(<liquid:refinedcanolaoil> * 5)
+    .fluidOutputs(<liquid:refinedcanolaoil> * 80)
     .duration(600)
     .EUt(32)
     .buildAndRegister();
@@ -274,21 +274,84 @@ recipes.addShaped(<actuallyadditions:block_player_interface> * 1, [[<ore:plateSt
 recipes.remove(<actuallyadditions:block_item_viewer>);
 recipes.addShaped(<actuallyadditions:block_item_viewer> * 1, [[<actuallyadditions:item_misc:7>, <ore:plateSteel>, <actuallyadditions:item_misc:7>], [<ore:plateRestonia>, <ore:chestWood>, <ore:plateRestonia>],[<actuallyadditions:item_misc:7>, <ore:plateSteel>, <actuallyadditions:item_misc:7>]]);
 
-// Energy Laser Relay
+# [Energy Laser Relay]*4 from [4x Energetic Alloy Wire][+4]
+AtomicReconstructor.removeRecipe(<actuallyadditions:block_laser_relay>);
 recipes.remove(<actuallyadditions:block_laser_relay>);
-recipes.addShaped(<actuallyadditions:block_laser_relay> * 1, [[null, <ore:ringConductiveIron>, null], [<ore:screwSteel>, <ore:wireGtQuadrupleConductiveIron>, <ore:screwSteel>],[<ore:plateAAVoid>, <ore:plateDoubleConductiveIron>, <ore:plateAAVoid>]]);
+craft.make(<actuallyadditions:block_laser_relay> * 4, ["pretty",
+  "  E  ",
+  "R G R",
+  "□ п □"], {
+  "E": <ore:ringEnergeticAlloy>,            # Energetic Alloy Ring
+  "R": <ore:screwRefinedObsidian>,          # Refined Obsidian Screw
+  "G": <ore:wireGtQuadrupleEnergeticAlloy>, # 4x Energetic Alloy Wire
+  "□": <ore:plateAAVoidEmpowered>,          # Empowered Void Plate
+  "п": <ore:lightPlateEnergeticAlloy>,      # Light Energetic Alloy Plate
+});
 
-// Advanced Energy Laser Relay
+# [Advanced Energy Laser Relay]*4 from [8x Energetic Alloy Wire][+4]
 recipes.remove(<actuallyadditions:block_laser_relay_advanced>);
-recipes.addShaped(<actuallyadditions:block_laser_relay_advanced> * 1, [[<ore:plateRestoniaEmpowered>, <ore:plateEnoriEmpowered>, <ore:plateRestoniaEmpowered>], [<ore:plateEnoriEmpowered>, <actuallyadditions:block_laser_relay>, <ore:plateEnoriEmpowered>],[<ore:plateRestoniaEmpowered>, <ore:plateEnoriEmpowered>, <ore:plateRestoniaEmpowered>]]);
+craft.make(<actuallyadditions:block_laser_relay_advanced> * 4, ["pretty",
+  "  E  ",
+  "D G D",
+  "□ п □"], {
+  "E": <ore:ringEnergeticAlloy>,        # Energetic Alloy Ring
+  "D": <ore:screwDarkSteel>,            # Dark Steel Screw
+  "G": <ore:wireGtOctalEnergeticAlloy>, # 8x Energetic Alloy Wire
+  "□": <ore:plateAAVoidEmpowered>,      # Empowered Void Plate
+  "п": <ore:lightPlateEnergeticAlloy>,  # Light Energetic Alloy Plate
+});
 
-// Extreme Energy Laser Relay
+# [Extreme Energy Laser Relay]*4 from [16x Energetic Alloy Wire][+4]
 recipes.remove(<actuallyadditions:block_laser_relay_extreme>);
-recipes.addShaped(<actuallyadditions:block_laser_relay_extreme> * 1, [[<ore:plateRestoniaEmpowered>, <ore:plateDiamatineEmpowered>, <ore:plateRestoniaEmpowered>], [<ore:plateDiamatineEmpowered>, <actuallyadditions:block_laser_relay_advanced>, <ore:plateDiamatineEmpowered>],[<ore:plateRestoniaEmpowered>, <ore:plateDiamatineEmpowered>, <ore:plateRestoniaEmpowered>]]);
+craft.make(<actuallyadditions:block_laser_relay_extreme> * 4, ["pretty",
+  "  E  ",
+  "D G D",
+  "□ п □"], {
+  "E": <ore:ringEnergeticAlloy>,       # Energetic Alloy Ring
+  "D": <ore:screwDarkSteel>,           # Dark Steel Screw
+  "G": <ore:wireGtHexEnergeticAlloy>,  # 16x Energetic Alloy Wire
+  "□": <ore:plateAAVoidEmpowered>,     # Empowered Void Plate
+  "п": <ore:heavyPlateEnergeticAlloy>, # Heavy Energetic Alloy Plate
+});
 
-// Advanced Item Laser Relay
+# [Fluid Laser Relay]*4 from [Huge Polyethylene (PE) Fluid Pipe][+4]
+AtomicReconstructor.removeRecipe(<actuallyadditions:block_laser_relay_fluids>);
+craft.remake(<actuallyadditions:block_laser_relay_fluids> * 4, ["pretty",
+  "  M  ",
+  "R H R",
+  "□ п □"], {
+  "M": <ore:ringManasteel>,        # Manasteel Ring
+  "R": <ore:screwRefinedObsidian>, # Refined Obsidian Screw
+  "H": <ore:pipeHugeFluidPlastic>, # Huge Polyethylene (PE) Fluid Pipe
+  "□": <ore:plateAAVoidEmpowered>, # Empowered Void Plate
+  "п": <ore:lightPlatePlastic>,    # Light Polyethylene (PE) Plate
+});
+
+# [Item Laser Relay]*4 from [Restrictive Electrum Item Pipe][+4]
+AtomicReconstructor.removeRecipe(<actuallyadditions:block_laser_relay_item>);
+craft.remake(<actuallyadditions:block_laser_relay_item> * 4, ["pretty",
+  "  T  ",
+  "R N R",
+  "□ п □"], {
+  "T": <ore:ringTerrastone>,                # Terrastone Ring
+  "R": <ore:screwRefinedObsidian>,          # Refined Obsidian Screw
+  "N": <ore:pipeNormalRestrictiveElectrum>, # Restrictive Electrum Item Pipe
+  "□": <ore:plateAAVoidEmpowered>,          # Empowered Void Plate
+  "п": <ore:lightPlateTerrastone>,          # Light Terrastone Plate
+});
+
+# [Advanced Item Laser Relay]*4 from [Large Restrictive Electrum Item Pipe][+4]
 recipes.remove(<actuallyadditions:block_laser_relay_item_whitelist>);
-recipes.addShaped(<actuallyadditions:block_laser_relay_item_whitelist> * 1, [[<ore:plateEmeradicEmpowered>, <ore:plateEnoriEmpowered>, <ore:plateEmeradicEmpowered>], [<ore:plateEnoriEmpowered>, <actuallyadditions:block_laser_relay_item>, <ore:plateEnoriEmpowered>],[<ore:plateEmeradicEmpowered>, <ore:plateEnoriEmpowered>, <ore:plateEmeradicEmpowered>]]);
+craft.make(<actuallyadditions:block_laser_relay_item_whitelist> * 4, ["pretty",
+  "  T  ",
+  "R L R",
+  "□ п □"], {
+  "T": <ore:ringTerrastone>,               # Terrastone Ring
+  "R": <ore:screwRefinedObsidian>,         # Refined Obsidian Screw
+  "L": <ore:pipeLargeRestrictiveElectrum>, # Large Restrictive Electrum Item Pipe
+  "□": <ore:plateAAVoidEmpowered>,         # Empowered Void Plate
+  "п": <ore:heavyPlateTerrastone>,         # Heavy Terrastone Plate
+});
 
 // Ranged Collector
 recipes.remove(<actuallyadditions:block_ranged_collector>);

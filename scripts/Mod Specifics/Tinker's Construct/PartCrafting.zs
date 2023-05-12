@@ -32,8 +32,8 @@ var ToolMaterialsThatCanBeCasted as IItemStack[string] = {
 	"alumite" : <ore:ingotAlumite>.firstItem,
 	"tin" : <ore:ingotTin>.firstItem,
 
-	//"conductive_iron" : <ore:ingotConductiveIron>.firstItem,		
-	//"construction_alloy" : <ore:ingotConstructionAlloy>.firstItem,
+	"conductive_iron" : <ore:ingotConductiveIron>.firstItem,		
+	"construction_alloy" : <ore:ingotConstructionAlloy>.firstItem,
 
 };
 
@@ -204,14 +204,14 @@ var ToolMaterials as IItemStack[string] = {
 	"refined_coralium" : <ore:ingotLiquifiedCoralium>.firstItem,
 	"dreadium" : <ore:ingotDreadium>.firstItem,
 
-	//"energetic_alloy" : <ore:ingotEnergeticAlloy>.firstItem,
-	//"vibrant_alloy" : <ore:ingotVibrantAlloy>.firstItem,
-	//"redstone_alloy" : <ore:ingotRedstoneAlloy>.firstItem,
-	//"pulsating_iron" : <ore:ingotPulsatingIron>.firstItem,			
-	//"dark_steel" : <ore:ingotDarkSteel>.firstItem,
-	//"soularium" : <ore:ingotSoularium>.firstItem,
-	//"end_steel" : <ore:ingotEndSteel>.firstItem,
-	//"electrical_steel" : <ore:ingotElectricalSteel>.firstItem
+	"energetic_alloy" : <ore:ingotEnergeticAlloy>.firstItem,
+	"vibrant_alloy" : <ore:ingotVibrantAlloy>.firstItem,
+	"redstone_alloy" : <ore:ingotRedstoneAlloy>.firstItem,
+	"pulsating_iron" : <ore:ingotPulsatingIron>.firstItem,			
+	"dark_steel" : <ore:ingotDarkSteel>.firstItem,
+	"soularium" : <ore:ingotSoularium>.firstItem,
+	"end_steel" : <ore:ingotEndSteel>.firstItem,
+	"electrical_steel" : <ore:ingotElectricalSteel>.firstItem,
 
 	"neutronium" : <ore:ingotNeutronium>.firstItem,
 	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,
@@ -420,16 +420,16 @@ var ToolMaterialsII as IItemStack[string] = {
 	"refined_coralium" : <ore:ingotLiquifiedCoralium>.firstItem,
 	"dreadium" : <ore:ingotDreadium>.firstItem,
 
-	//"energetic_alloy" : <ore:ingotEnergeticAlloy>.firstItem,
-	//"vibrant_alloy" : <ore:ingotVibrantAlloy>.firstItem,
-	//"redstone_alloy" : <ore:ingotRedstoneAlloy>.firstItem,
-	//"conductive_iron" : <ore:ingotConductiveIron>.firstItem,
-	//"pulsating_iron" : <ore:ingotPulsatingIron>.firstItem,			
-	//"dark_steel" : <ore:ingotDarkSteel>.firstItem,
-	//"soularium" : <ore:ingotSoularium>.firstItem,
-	//"end_steel" : <ore:ingotEndSteel>.firstItem,
-	//"construction_alloy" : <ore:ingotConstructionAlloy>.firstItem,
-	//"electrical_steel" : <ore:ingotElectricalSteel>.firstItem	
+	"energetic_alloy" : <ore:ingotEnergeticAlloy>.firstItem,
+	"vibrant_alloy" : <ore:ingotVibrantAlloy>.firstItem,
+	"redstone_alloy" : <ore:ingotRedstoneAlloy>.firstItem,
+	"conductive_iron" : <ore:ingotConductiveIron>.firstItem,
+	"pulsating_iron" : <ore:ingotPulsatingIron>.firstItem,			
+	"dark_steel" : <ore:ingotDarkSteel>.firstItem,
+	"soularium" : <ore:ingotSoularium>.firstItem,
+	"end_steel" : <ore:ingotEndSteel>.firstItem,
+	"construction_alloy" : <ore:ingotConstructionAlloy>.firstItem,
+	"electrical_steel" : <ore:ingotElectricalSteel>.firstItem,	
 
 	"neutronium" : <ore:ingotNeutronium>.firstItem,
 	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,
@@ -631,16 +631,16 @@ var ConarmMaterials as IItemStack[string] = {
 	"refined_coralium" : <ore:ingotLiquifiedCoralium>.firstItem,
 	"dreadium" : <ore:ingotDreadium>.firstItem,
 
-	//"energetic_alloy" : <ore:ingotEnergeticAlloy>.firstItem,
-	//"vibrant_alloy" : <ore:ingotVibrantAlloy>.firstItem,
-	//"redstone_alloy" : <ore:ingotRedstoneAlloy>.firstItem,
-	//"conductive_iron" : <ore:ingotConductiveIron>.firstItem,
-	//"pulsating_iron" : <ore:ingotPulsatingIron>.firstItem,			
-	//"dark_steel" : <ore:ingotDarkSteel>.firstItem,
-	//"soularium" : <ore:ingotSoularium>.firstItem,
-	//"end_steel" : <ore:ingotEndSteel>.firstItem,
-	//"construction_alloy" : <ore:ingotConstructionAlloy>.firstItem,
-	//"electrical_steel" : <ore:ingotElectricalSteel>.firstItem	
+	"energetic_alloy" : <ore:ingotEnergeticAlloy>.firstItem,
+	"vibrant_alloy" : <ore:ingotVibrantAlloy>.firstItem,
+	"redstone_alloy" : <ore:ingotRedstoneAlloy>.firstItem,
+	"conductive_iron" : <ore:ingotConductiveIron>.firstItem,
+	"pulsating_iron" : <ore:ingotPulsatingIron>.firstItem,			
+	"dark_steel" : <ore:ingotDarkSteel>.firstItem,
+	"soularium" : <ore:ingotSoularium>.firstItem,
+	"end_steel" : <ore:ingotEndSteel>.firstItem,
+	"construction_alloy" : <ore:ingotConstructionAlloy>.firstItem,
+	"electrical_steel" : <ore:ingotElectricalSteel>.firstItem,	
 
 	"neutronium" : <ore:ingotNeutronium>.firstItem,
 	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,

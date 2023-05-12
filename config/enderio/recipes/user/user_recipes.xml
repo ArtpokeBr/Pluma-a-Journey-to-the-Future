@@ -50,6 +50,9 @@
     <recipe name="End Steel Chassis" disabled="true" />
     <recipe name="Enhanced Chassis" disabled="true" />
 
+  <recipe name="Infinity Goop" disabled="true" />
+  <recipe name="Infinity Goop, Charcoal" disabled="true" />
+  
 <!-- Ardite (TiC) -->
   <recipe name="Ardite" required="false" disabled="true" />
 

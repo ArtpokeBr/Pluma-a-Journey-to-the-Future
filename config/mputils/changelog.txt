@@ -1,40 +1,36 @@
-§a§lVersion Beta§r§f 3.0:
+§a§lVersion Beta§r§f 3.1:
 
 §b§lMod Related Changes§r§f:
 
-- Added Bansokou
-- Added Gambling Style (Better Trading GUI for Villagers)
-- Added GregTech Drawers (Drawers made from Rubber!)
-- Added Baubley Heart Canisters
-- Added Ender Storage Continuation
+- Updated OpenComputers
+- Updated Universal Tweaks
+- Updated GTCEU
+- Updated GTCEU Multiblocks
+- Updated Multiblocked
 
-- Updated AE2 Unnofficial
-- Updated Carry On
-- Updated Roughly Enough Items
-- Updated Had Enough Items
-- Updated Lootr
+- Removed Gambling Style (Villager Trades are Banned again, to much work to balance them =/)
 
-- Swapped Mekanism --> Mekanism Community Edition
-- Swapped Thaumic Energistics Fork --> Thaumic Energistics Fork from CF.
+- Swapped Sound Physics with Sound Filters (in order to properly work with MAtmos)
+
+- Added ItemPhysics Lite
+- Added Advancements Plaques
+- Added MAtmos
+- Added FTB Backups
 
 §2§lFixes§r§f:
 
-- Removed Fossil and Archeology structres from Villages (Thx Krutoy!)
-- Balanced the Floralchemy Village House (Thx once again Krutoy!)
-- Fixed Unbalanced Scorched Bricks Solidifying Recipes.
-- Fixed Tinker's Armor Forge and Tool Forge Questlines (they were merged into one)
-- Fixed Wrong Electrical Steel Ingots as a reward for the "Simple Machines for a Simple Task" Quest.
-- Gendustry Machines shouldn't be NBT Specific on their respective Quests anymore.
+- Fixed Incorrect Obsidian Glass on the "Bio Fabricating Mobs!" Quest.
+- Fixed Incorrect Compressed Dirt Reward on the "High Voltage Sifting!" Quest.
+- Runic Steel and Terrastone can now be casted using Tinker's Methods.
+- Fixed an Incorrect Recipe for Glass Bottles.
+- Fixed a Crash when trying to Carry On FTB Quest Blocks.
 
 §5§lMiscellaneous§r§f:
 
-- Villages and Villagers are now back! (Unfotunatly previously created Worlds, will not generate Villages =/)
-- Scorched Blocks can now be chiseled.
-- Added a few more ways to produce Mutagen.
-- The Actually Additions Compost Bin is now Back!
-- Conduit Binders now require the Compost from Actually Additions to be produced.
-- The Canola Press and Fermenting Barrel from Actually Additions are now back!
-- The Actually Additions Drill is now back!
-- AE2 Quartz Wrenches now hava proper recipe.
-- A New Font has been added to the Pack! (Arial -> Bahnschrift)
+- Tweaked The Silk Touch Enchanted Book Recipe.
+- Redstone Alloy now can only be made inside of a High Oven.
+- Infinity Reagent from EnderIO now has a proper recipe.
+- EnderIO Tinker's Materials are now back!
+- Ported a Greenhouse Multiblock from the GTCEU Community Pack.
+- Tweaked Overworld Veins and tweaked some other veins. (Gold Ore -> Precious Metal Ore)
 

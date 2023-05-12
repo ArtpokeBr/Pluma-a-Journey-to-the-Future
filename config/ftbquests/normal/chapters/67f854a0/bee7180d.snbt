@@ -1,0 +1,59 @@
+{
+	title: "Let's Automate Epoxy Resin §6Part I§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hydrochloric_acid",
+			Amount: 1000
+		}
+	},
+	x: -0.7666666666666586d,
+	y: -4.910594706632654d,
+	description: "Let's Make Hydrochloric Acid!",
+	text: [
+		"You should have an §3Infinite Source of Chlorine§f by now, so let's improve our §bCircuit Board§f situation!",
+		"",
+		"► §5And the next one§f that we will §2automate§f next will be one that requires §6Epoxy Resin§f!",
+		"",
+		"▬ §dThe First step§f tho is to simply start by making a §apassive automation§f for §eHydrochloric Acid§f."
+	],
+	dependencies: [
+		"54ca0e8a"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "f0616863",
+		type: "fluid",
+		fluid: "chlorine"
+	},
+	{
+		uid: "f7bfffb3",
+		type: "fluid",
+		fluid: "hydrogen"
+	},
+	{
+		uid: "fcee47e9",
+		type: "fluid",
+		fluid: "hydrochloric_acid"
+	}],
+	rewards: [{
+		uid: "97465e22",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 85s,
+			tag: {
+				Fluid: {
+					FluidName: "hydrochloric_acid",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "1f7db232",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

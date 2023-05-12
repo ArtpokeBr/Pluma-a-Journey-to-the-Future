@@ -8,9 +8,9 @@ key_key.jump:57:NONE
 key_key.sneak:42:NONE
 key_key.sprint:29:NONE
 key_key.drop:16:NONE
-key_key.inventory:15:NONE
+key_key.inventory:18:NONE
 key_key.chat:20:NONE
-key_key.playerlist:18:NONE
+key_key.playerlist:15:NONE
 key_key.pickItem:-98:NONE
 key_key.command:53:NONE
 key_key.screenshot:60:NONE
@@ -18,10 +18,10 @@ key_key.togglePerspective:63:NONE
 key_key.smoothCamera:0:NONE
 key_key.fullscreen:87:NONE
 key_key.spectatorOutlines:0:NONE
-key_key.swapHands:0:NONE
-key_key.saveToolbarActivator:0:NONE
+key_key.swapHands:33:NONE
+key_key.saveToolbarActivator:46:NONE
 key_key.loadToolbarActivator:45:NONE
-key_key.advancements:0:NONE
+key_key.advancements:38:NONE
 key_key.hotbar.1:2:NONE
 key_key.hotbar.2:3:NONE
 key_key.hotbar.3:4:NONE
@@ -33,14 +33,20 @@ key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
 key_Change Caster Focus:33:NONE
 key_Misc Caster Toggle:34:NONE
-key_key.staff_mode.desc:0:NONE
+key_key.staff_mode.desc:50:NONE
 key_key.use_cage.desc:49:NONE
 key_key.configurator_mode.desc:47:NONE
-key_key.configurator_filter.desc:0:NONE
+key_key.configurator_filter.desc:48:NONE
 key_key.configurator_path.desc:34:NONE
-key_keybind.baublesinventory:0:NONE
-key_quark.keybind.lockBuilding:37:NONE
+key_roots.keybinds.pouch:0:NONE
+key_roots.keybinds.quiver:0:NONE
+key_roots.keybinds.spell_library:37:NONE
+key_roots.keybinds.cycle:0:NONE
+key_roots.keybinds.delete_spell:0:NONE
+key_keybind.baublesinventory:48:NONE
 key_quark.keybind.changeHotbar:44:NONE
+key_quark.keybind.toggleAutojump:48:NONE
+key_quark.keybind.lockBuilding:37:NONE
 key_quark.emote.no:0:NONE
 key_quark.emote.yes:0:NONE
 key_quark.emote.wave:0:NONE
@@ -59,7 +65,6 @@ key_quark.emote.dab:0:NONE
 key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:0:NONE
 key_quark.emote.zombie:0:NONE
-key_quark.keybind.toggleAutojump:0:NONE
 key_key.conarm.toggle_helm.desc:34:NONE
 key_key.conarm.toggle_chest.desc:35:NONE
 key_key.conarm.toggle_leg.desc:36:NONE
@@ -73,7 +78,7 @@ key_key.next_item.desc:0:NONE
 key_key.previous_item.desc:0:NONE
 key_key.open_danknull.desc:0:NONE
 key_key.togglehud.desc:0:NONE
-key_gregtech.key.armor_mode_switch:0:NONE
+key_gregtech.key.armor_mode_switch:50:NONE
 key_gregtech.key.armor_hover:35:NONE
 key_gregtech.key.armor_charging:49:NONE
 key_gregtech.key.tool_aoe_change:47:NONE
@@ -92,15 +97,9 @@ key_keybind.railcraft.cart.bed:208:NONE
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.togglePotionParticles:66:CONTROL
-key_roots.keybinds.pouch:0:NONE
-key_roots.keybinds.quiver:0:NONE
-key_roots.keybinds.spell_library:37:NONE
-key_roots.keybinds.cycle:0:NONE
-key_roots.keybinds.delete_spell:0:NONE
-key_key.toastcontrol.clear:36:NONE
 key_key.xtones.scroll:42:NONE
 key_key.dismount:42:NONE
-key_key.narrator:0:NONE
+key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -115,10 +114,14 @@ key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
 key_key.cofh.multimode:47:NONE
 key_key.toggle_focus.desc:15:NONE
+key_key.open_wireless_terminal.desc:20:SHIFT
+key_key.open_wireless_crafting_terminal.desc:18:SHIFT
+key_key.open_wireless_pattern_terminal.desc:19:SHIFT
+key_key.open_wireless_fluid_terminal.desc:33:SHIFT
 key_key.keyExtraInvo:45:NONE
 key_key.keyWheel:19:NONE
 key_key.keyExtraCraftin:46:NONE
-key_mekanism.key.mode:0:NONE
+key_mekanism.key.mode:50:NONE
 key_mekanism.key.armorMode:34:NONE
 key_mekanism.key.feetMode:35:NONE
 key_mekanism.key.voice:22:NONE
@@ -138,7 +141,7 @@ key_key.craftingtweaks.decompressAll:0:NONE
 key_key.craftingtweaks.refill_last:15:NONE
 key_key.craftingtweaks.refill_last_stack:15:NONE
 key_astraladditions.key.ring_toggle:82:NONE
-key_bbw.key.mode:0:NONE
+key_bbw.key.mode:50:NONE
 key_bbw.key.fluidmode:33:ALT
 key_binniecore.key.hold.for.help.tooltips:15:NONE
 key_nei.options.keys.gui.botania_corporea_request:46:NONE
@@ -149,7 +152,7 @@ key_key.anchor:35:NONE
 key_key.fuzzy:0:NONE
 key_key.connected_area:0:NONE
 key_key.rotate_mirror:0:NONE
-key_key.material_list:0:NONE
+key_key.material_list:50:NONE
 key_key.carry.desc:42:NONE
 key_key.clienttweaks.disable_step_assist:0:NONE
 key_key.clienttweaks.hide_offhand_item:0:NONE
@@ -177,11 +180,16 @@ key_key.jeiutilities.transferRecipe:17:CONTROL
 key_key.jeiutilities.transferRecipeMax:20:CONTROL
 key_jecalculation.key.gui_craft:0:NONE
 key_jecalculation.key.gui_math:0:NONE
+key_MAtmos:66:NONE
 key_key.music_player_gui:82:NONE
 key_key.music_player_toggle:80:NONE
 key_key.music_player_next:81:NONE
 key_key.music_player_previous:79:NONE
 key_Quick Commands:83:NONE
+key_key.neenergistics.ingredient.switch:42:NONE
+key_key.neenergistics.stack.count.change:29:NONE
+key_key.neenergistics.crafting.helper.noPreview:56:NONE
+key_key.neenergistics.crafting.helper.noPreview:56:NONE
 key_key.nutrition:49:NONE
 key_key.clipboardPaste:210:NONE
 key_overloaded.key.noclip:47:NONE
@@ -197,7 +205,7 @@ key_key.plustic_brown_magic.desc:24:NONE
 key_key.plustic_toggle_tool.desc:51:ALT
 key_key.plustic_fruit_salad.desc:12:ALT
 key_key.plustic_mots.desc:13:ALT
-key_key.quantumflux.magnet:0:NONE
+key_key.quantumflux.magnet:50:NONE
 key_key.vaultopic.view:34:NONE
 key_key.vaultopic.vice:47:NONE
 key_gui.xaero_switch_waypoint_set:0:NONE
@@ -211,7 +219,7 @@ key_gui.xaero_enlarge_map:44:NONE
 key_gui.xaero_waypoints_key:22:NONE
 key_gui.xaero_zoom_in:0:NONE
 key_gui.xaero_zoom_out:0:NONE
-key_gui.xaero_new_waypoint:0:NONE
+key_gui.xaero_new_waypoint:48:NONE
 key_gui.xaero_display_all_sets:0:NONE
 key_gui.xaero_toggle_light_overlay:0:NONE
 key_gui.xaero_toggle_entity_radar:0:NONE
@@ -237,7 +245,7 @@ key_key.control:29:NONE
 key_keybind.railcraft.loco.reverse:53:ALT
 key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
-key_keybind.railcraft.loco.mode:0:NONE
+key_keybind.railcraft.loco.mode:50:ALT
 key_keybind.railcraft.loco.whistle:49:ALT
 key_enderio.keybind.inventory:23:NONE
 key_enderio.keybind.dsu:0:NONE
