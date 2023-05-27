@@ -1,0 +1,73 @@
+{
+	title: "Time to make Diesel! §6Part II§f",
+	x: -3.0d,
+	y: -14.5d,
+	description: "Desulfurizing your Chemical Products!",
+	text: [
+		"Now this is a §asimple step§f.",
+		"",
+		"- §6Mix all§f of your recently adquired §eChemical's§f with §9Hydrogen§f and voilá!"
+	],
+	dependencies: [
+		"940a381d"
+	],
+	tasks: [{
+		uid: "233eb305",
+		type: "item",
+		title: "An LV up to HV Chemical Reactor",
+		items: [{
+			item: "gregtech:machine 1 215"
+		},
+		{
+			item: "gregtech:machine 1 216"
+		},
+		{
+			item: "gregtech:machine 1 217"
+		}]
+	},
+	{
+		uid: "05f3620d",
+		type: "fluid",
+		fluid: "hydrogen",
+		amount: 2000
+	},
+	{
+		uid: "3e8276e3",
+		type: "fluid",
+		fluid: "refinery_gas"
+	},
+	{
+		uid: "9c0ac128",
+		type: "fluid",
+		fluid: "heavy_fuel"
+	},
+	{
+		uid: "69e32624",
+		type: "fluid",
+		fluid: "light_fuel"
+	},
+	{
+		uid: "a43bab33",
+		type: "fluid",
+		fluid: "naphtha"
+	}],
+	rewards: [{
+		uid: "3f56c6b0",
+		type: "item",
+		item: {
+			id: "evilcraft:dark_tank",
+			tag: {
+				capacity: 32000,
+				Fluid: {
+					FluidName: "hydrogen",
+					Amount: 32000
+				}
+			}
+		}
+	},
+	{
+		uid: "b3aec86a",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

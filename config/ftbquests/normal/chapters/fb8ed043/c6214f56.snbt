@@ -1,19 +1,30 @@
 {
 	title: "Making Porcelain",
 	icon: "contenttweaker:unfiredporcelainbrick",
-	x: 11.5d,
+	x: 12.0d,
 	y: -0.5d,
 	description: "The First Step to a Tinker's Smeltery!",
 	text: [
-		"You're going to be using Porcelain to assemble a rudimentary smeltery soon, time to start crafting!",
+		"You're going to be using §bPorcelain§f to assemble a §2rudimentary smeltery§f soon, time to start crafting!",
 		"",
-		"- Quartz Sand can be made simply by macerating Sand"
+		"But First, dont forget to use your brand new §aTools§f to make a §6Brick Mold§f!",
+		"",
+		"- §3Quartz Sand§f can be made simply by §6macerating§f Sand."
 	],
 	dependencies: [
+		"6163423f",
 		"52c48059"
 	],
+	min_width: 300,
 	tasks: [{
-		uid: "7abd096a",
+		uid: "7c60a025",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 348"
+		}]
+	},
+	{
+		uid: "f20a4fad",
 		type: "item",
 		items: [{
 			item: "ceramics:unfired_clay 1 4"
@@ -21,7 +32,7 @@
 		count: 8L
 	},
 	{
-		uid: "79ca2f71",
+		uid: "eb7e65b6",
 		type: "item",
 		items: [{
 			item: "contenttweaker:unfiredporcelainbrick"
@@ -29,7 +40,7 @@
 		count: 8L
 	},
 	{
-		uid: "d89523a0",
+		uid: "f2230407",
 		type: "item",
 		items: [{
 			item: "ceramics:unfired_clay 1 5"

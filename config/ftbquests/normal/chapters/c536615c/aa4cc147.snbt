@@ -6,7 +6,7 @@
 			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
-	x: -0.5d,
+	x: -3.5d,
 	y: -3.5d,
 	description: "{pluma.logupgs.subtitle}",
 	text: [

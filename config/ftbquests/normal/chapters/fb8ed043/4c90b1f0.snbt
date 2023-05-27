@@ -1,6 +1,6 @@
 {
 	title: "A Primitive Automatic Compactor",
-	x: 14.5d,
+	x: 16.0d,
 	y: -3.5d,
 	shape: "rsquare",
 	description: "Cogs are Fun!",

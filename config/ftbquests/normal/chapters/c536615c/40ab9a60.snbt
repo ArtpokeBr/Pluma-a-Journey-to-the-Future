@@ -1,6 +1,5 @@
 {
 	title: "{pluma.logpipewrenches.title}",
-	icon: "logisticspipes:pipe_manager",
 	x: 1.5d,
 	y: -2.5d,
 	description: "{pluma.logpipewrenches.subtitle}",
@@ -16,7 +15,34 @@
 		title: "{pluma.logpipewrenches.task}",
 		items: [{
 			item: "logisticspipes:pipe_manager"
+		},
+		{
+			item: "thermalfoundation:wrench"
+		},
+		{
+			item: "enderio:item_yeta_wrench"
+		},
+		{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceWrenches"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gtceWrenches"
+				}
+			}
+		},
+		{
+			item: "appliedenergistics2:nether_quartz_wrench"
+		},
+		{
+			item: "appliedenergistics2:certus_quartz_wrench"
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

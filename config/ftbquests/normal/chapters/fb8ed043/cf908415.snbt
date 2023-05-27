@@ -1,8 +1,8 @@
 {
 	title: "A Coke Oven",
 	icon: "gregtech:machine 1 1017",
-	x: 13.0d,
-	y: 0.5d,
+	x: 14.504761904761885d,
+	y: 0.5112244897959286d,
 	description: "Time to start enhancing Coal and obtaining Creosote Oil!",
 	text: [
 		"The §6Coke Oven§f is a §aHollow 3x3x3 Structure§f that will basically make §3Charcoal and Coke Coal§f.",
@@ -14,8 +14,7 @@
 		"§8§o~ Remember again, GT pipes will require pumps, arms or conveyors in order to extract stuff. But don't worry, the Coke Oven have Auto Output.§r§f"
 	],
 	dependencies: [
-		"bcca038f",
-		"a1a2f093"
+		"bcca038f"
 	],
 	size: 1.5d,
 	min_width: 300,

@@ -1,13 +1,12 @@
 {
-	x: -2.5d,
-	y: -0.5d,
+	x: -4.0d,
+	y: 4.0d,
 	description: "{pluma.logfire.subtitle}",
 	text: [
 		"{pluma.logfire.desc1}",
 		"",
 		"{pluma.logfire.desc2}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"008c7cba"
 	],

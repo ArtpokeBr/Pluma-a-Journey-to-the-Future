@@ -1,13 +1,8 @@
 {
 	title: "{pluma.craftlogi2.title}",
-	icon: {
-		id: "minecraft:writable_book",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
-	x: -4.5d,
-	y: 0.0d,
+	icon: "gregtech:meta_item_1 1 464",
+	x: -6.0d,
+	y: 2.0d,
 	shape: "square",
 	description: "{pluma.craftlogi2.subtitle}",
 	text: [
@@ -18,6 +13,7 @@
 	dependencies: [
 		"59e8425d"
 	],
+	size: 0.75d,
 	tasks: [{
 		uid: "274f0292",
 		type: "checkmark"

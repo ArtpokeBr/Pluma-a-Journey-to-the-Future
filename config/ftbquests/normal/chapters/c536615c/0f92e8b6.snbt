@@ -1,6 +1,6 @@
 {
-	x: -1.5d,
-	y: 1.0d,
+	x: -4.0d,
+	y: 0.0d,
 	description: "{pluma.loginvsyscon.subtitle}",
 	text: [
 		"{pluma.loginvsyscon.desc1}",
@@ -11,7 +11,6 @@
 		"",
 		"{pluma.loginvsyscon.desc4}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"008c7cba"
 	],

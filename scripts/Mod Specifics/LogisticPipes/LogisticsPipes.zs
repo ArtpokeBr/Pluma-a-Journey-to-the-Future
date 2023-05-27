@@ -7,6 +7,55 @@ import mods.enderio.AlloySmelter as AlloySmelter;
 //			         																                                                         //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+# [Logistics HUD Glasses] from [Logistics HUD Nose Bridge][+5]
+recipes.removeByRecipeName("nuclearcraft:hud_glasses_2");
+recipes.removeByRecipeName("nuclearcraft:hud_glasses_1");
+recipes.removeByRecipeName("nuclearcraft:hud_glasses");
+craft.make(<logisticspipes:hud_glasses>, ["pretty",
+  "C c C",
+  "o g o",
+  "L S L"], {
+  "C": <ore:screwConstructionAlloy>, # Iron Alloy Screw
+  "c": <ore:gtceScrewdrivers>,       # Iron Screwdriver
+  "o": <logisticspipes:parts:1>,     # Logistics HUD Glass
+  "g": <logisticspipes:parts:2>,     # Logistics HUD Nose Bridge
+  "L": <logisticspipes:parts>,       # Logistics HUD Bow
+  "S": <ore:artisansSolderer>.reuse().transformDamage(5),       # Artisan's Solderer
+});
+
+# [Logistics HUD Glass] from [Glass Pane][+3]
+craft.make(<logisticspipes:parts:1>, ["pretty",
+  "  C S",
+  "C □ C",
+  "B C  "], {
+  "C": <ore:foilConstructionAlloy>, # Iron Alloy Foil
+  "S": <ore:artisansSolderer>.reuse().transformDamage(5), # Artisan's Solderer
+  "□": <ore:plateGlass>,            # Glass Pane
+  "B": <ore:artisansBurner>.reuse().transformDamage(5), # Artisan's Burner
+});
+
+# [Logistics HUD Nose Bridge] from [Iron Alloy Plate][+3]
+craft.make(<logisticspipes:parts:2>, ["pretty",
+  "     ",
+  "B □ S",
+  "C   C"], {
+  "B": <ore:artisansBurner>.reuse().transformDamage(5), # Artisan's Burner
+  "□": <ore:plateConstructionAlloy>, # Iron Alloy Plate
+  "S": <ore:artisansSolderer>.reuse().transformDamage(5), # Artisan's Solderer
+  "C": <ore:foilConstructionAlloy>,  # Iron Alloy Foil
+});
+
+# [Logistics HUD Bow] from [Artisan's Burner][+3]
+craft.make(<logisticspipes:parts>, ["pretty",
+  "    S",
+  "C C □",
+  "  B C"], {
+  "S": <ore:artisansSolderer>.reuse().transformDamage(5), # Artisan's Solderer
+  "C": <ore:foilConstructionAlloy>,  # Iron Alloy Foil
+  "□": <ore:plateConstructionAlloy>, # Iron Alloy Plate
+  "B": <ore:artisansBurner>.reuse().transformDamage(5), # Artisan's Burner
+});
+
 //Blank Modules and Blank Upgrades
 recipes.remove(<logisticspipes:module_blank>);
 

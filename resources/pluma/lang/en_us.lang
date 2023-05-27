@@ -20,11 +20,11 @@ pluma.highspeedpipes.task3=Any non-straight Highspeed Tube
 pluma.logpipewrenches.title=Pipe Management
 pluma.logpipewrenches.subtitle=Make something that can manage pipes
 pluma.logpipewrenches.task=Items that can open pipe GUIs
-pluma.logpipewrenches.desc=Certain pipes have GUIs that can't be accessed normally. You can use a &bPipe Manager&r.
+pluma.logpipewrenches.desc=Certain pipes have GUIs that can't be accessed normally. You can use a &bPipe Manager&r or any &bCompatible Wrench Listed here&r.
 
 pluma.basiclogpipes.subtitle=Make Basic Logistics Pipes
 pluma.basiclogpipes.desc1=&bBasic Logistics Pipes&r are one step above Unrouted Transport Pipes. They can connect to inventories and certain other blocks. 
-pluma.basiclogpipes.desc2=Open the Basic Logistics Pipe's GUI (with a Pipe Manager) to set what items are allowed to enter the inventory it is placed on. You can also toggle &6Default route&r, which allows all items through.
+pluma.basiclogpipes.desc2=Open the Basic &3Logistics Pipe's&f GUI (with a Pipe Manager) to set what items are allowed to enter the inventory it is placed on. You can also toggle &6Default route&r, which allows all items through.
 pluma.basiclogpipes.desc3=&cIf the inventory is full, items will be dropped out of the pipe into the world.&r
 pluma.basiclogpipes.desc4=Basic Logistics Pipes should be used where Unrouted Transport Pipes &6intersect&r, items will move in the correct path intelligently.
 pluma.basiclogpipes.desc5=All intelligent pipes &6require energy to function&r.
@@ -48,25 +48,25 @@ pluma.routedpipes.desc1=Every pipe that isn't Unrouted is, by definition, routed
 pluma.routedpipes.desc2=Routed pipes are the only pipes that connect to inventories and other special blocks, and are also the only pipes that can accept upgrades.
 
 pluma.logprovider.title=Providing
-pluma.logprovider.subtitle=Make a Provider Logistics Pipe
+pluma.logprovider.subtitle=Just like a AE2 Storage Bus!
 pluma.logprovider.desc1=The &bProvider Logistics Pipe&r will make the system treat its inventory as a source, &6allowing other pipes to pull from it&r. This can be a chest, machine, or even an ME Interface or Drawer Controller!
-pluma.logprovider.desc2=Open the Provider Logistics Pipe's GUI to set a blacklist or whitelist. You can also set it to keep the &6first and/or last stacks&r of the inventory, keep &61 item per stack&r, or keep &61 item per item type&r. 
+pluma.logprovider.desc2=Open the Provider &3Logistics Pipe's&f GUI to set a blacklist or whitelist. You can also set it to keep the &6first and/or last stacks&r of the inventory, keep &61 item per stack&r, or keep &61 item per item type&r. 
 
 pluma.logsupplier.title=Supplying
 pluma.logsupplier.subtitle=Make a Supplier Logistics Pipe
 pluma.logsupplier.desc1=The &bSupplier Logistics Pipe&r will attempt to pull items into the inventory it is connected to from any source within the system.
-pluma.logsupplier.desc2=Open the Supplier Logistics Pipe's GUI to set a list of up to 9 items to keep stocked from Provider Pipes/Modules. If you place a stack of 32, it will try to keep it at 32 of that item in the inventory.
+pluma.logsupplier.desc2=Open the Supplier &3Logistics Pipe's&f GUI to set a list of up to 9 items to keep stocked from Provider Pipes/Modules. If you place a stack of 32, it will try to keep it at 32 of that item in the inventory.
 pluma.logsupplier.desc3=• If it is set to &6Bulk 50&r, it will only retrieve more when the inventory is at 50%% of the specified amount.
 pluma.logsupplier.desc4=• &6Bulk 100&r is &nSUPPOSED&r to only refill when there's no remaining items, but it's bugged and works like Partial mode.
 pluma.logsupplier.desc5=• &6Infinite&r will make it pull regardless of how much is already in the inventory.
 pluma.logsupplier.desc6=• &6Partial&r will pull when any amount is removed.
 
 pluma.logrequest.title=Requesting
-pluma.logrequest.subtitle=Make a Request Logistics Pipe
+pluma.logrequest.subtitle=Requesting [X] Items to a specific Inventory!
 pluma.logrequest.desc1=The &bRequest Logistics Pipe&r will allow you to manually request any item from sources within the system. If the Pipe is connected to an inventory, the requested items will enter it. Otherwise, the items will be spit out into the world.
 pluma.logrequest.desc2=You can open the Pipe's GUI with just your hands.
 
-pluma.logordreq.subtitle=Make a Remote Orderer Logistics Pipe
+pluma.logordreq.subtitle=Requesting [X] Items to a specific Inventory (from a Remote Orderer)!
 pluma.logordreq.desc1=The &bRemote Orderer&r can be connected to a &bRemote Orderer Logistics Pipe&r by sneak right-clicking.
 pluma.logordreq.desc2=Then, you can right-click the connected Remote Orderer, you can &6use it like a Request Logistics Pipe&r, and the items will be sent to the connected inventory.
 pluma.logordreq.desc3=If you connect it to an Ender Chest, you can request items from your base from anywhere and take them out using an Ender Pouch.

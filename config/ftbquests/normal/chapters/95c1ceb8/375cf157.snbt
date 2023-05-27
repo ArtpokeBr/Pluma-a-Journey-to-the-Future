@@ -1,0 +1,110 @@
+{
+	title: "Time to make Diesel! §6Part V§f",
+	icon: "gregtech:machine 1 1005",
+	x: 3.0d,
+	y: -14.5d,
+	description: "A Massive Distillation Tower for a lot more of Byproducts!",
+	text: [
+		"Well... time to make one more §bDistillation Tower§f!",
+		"",
+		"- But now, we have §911 Fluid Outputs§f, since we will be §bDistillating§f §eSeverely Steam-Cracked Naptha§f down to §911 Byproducts§f!",
+		"",
+		"- §dYou'll be using most of them for something in the Future§f, §abut for this questline§f, you'll be able to get some §6§nExtra Light and Heavy Fuel§f."
+	],
+	dependencies: [
+		"dd759d06"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "ac44bb39",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1005"
+		}]
+	},
+	{
+		uid: "41748e7d",
+		type: "item",
+		title: "An ULV up to HV Output Hatch",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		},
+		{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		},
+		{
+			item: "gregtech:machine 1 1198"
+		}],
+		count: 11L
+	},
+	{
+		uid: "6164e38a",
+		type: "item",
+		title: "Any Maitenance Hatch",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		},
+		{
+			item: "gregtech:machine 1 1655"
+		},
+		{
+			item: "gregtech:machine 1 1656"
+		}]
+	},
+	{
+		uid: "a9b6feef",
+		type: "item",
+		title: "An ULV up to HV Energy Hatch",
+		items: [{
+			item: "gregtech:machine 1 1210"
+		},
+		{
+			item: "gregtech:machine 1 1211"
+		},
+		{
+			item: "gregtech:machine 1 1212"
+		},
+		{
+			item: "gregtech:machine 1 1213"
+		}]
+	},
+	{
+		uid: "cd1bc443",
+		type: "item",
+		title: "An ULV up to HV Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		},
+		{
+			item: "gregtech:machine 1 1181"
+		},
+		{
+			item: "gregtech:machine 1 1182"
+		},
+		{
+			item: "gregtech:machine 1 1183"
+		}]
+	},
+	{
+		uid: "ae33b5aa",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 5"
+		}],
+		count: 83L
+	}],
+	rewards: [{
+		uid: "5e6ae603",
+		type: "item",
+		item: "gregtech:machine 1 1656"
+	},
+	{
+		uid: "cfb63238",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

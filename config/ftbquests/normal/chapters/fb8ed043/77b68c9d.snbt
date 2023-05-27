@@ -1,7 +1,7 @@
 {
 	title: "Steam Era, Lets go!",
-	x: 12.0d,
-	y: 5.0d,
+	x: 12.479591836734684d,
+	y: 5.025510204081634d,
 	shape: "gear",
 	description: "Time to make a Small Boiler and Start playing with Steam!",
 	text: [

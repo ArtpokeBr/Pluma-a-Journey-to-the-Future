@@ -1,7 +1,7 @@
 {
 	title: "{pluma.tabsup.title}",
-	x: 3.0d,
-	y: -0.5d,
+	x: 2.0d,
+	y: 0.5d,
 	description: "{pluma.tabsup.subtitle}",
 	text: [
 		"{pluma.tabsup.desc1}",
@@ -10,7 +10,6 @@
 		"",
 		"{pluma.tabsup.desc3}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"99b7a703"
 	],

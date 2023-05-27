@@ -40,7 +40,7 @@ compressor.recipeBuilder()
 recipes.remove(<darkutils:material:1>);
 RandomThingsTweaker.addImbuingRecipe(
 	<extrautils2:unstableingots>,
-	<embers:shifting_scales>,
+	<ore:AAVoidCrystal>.firstItem,
 	<darkutils:material>,
 	<ore:gemEnderEye>.firstItem,
 	<darkutils:material:1>
@@ -48,14 +48,14 @@ RandomThingsTweaker.addImbuingRecipe(
 
 RandomThingsTweaker.addImbuingRecipe(
 	<extrautils2:unstableingots:2>,
-	<embers:shifting_scales>,
+	<ore:AAVoidCrystal>.firstItem,
 	<darkutils:material>,
 	<ore:gemEnderEye>.firstItem,
 	<darkutils:material:1>
 );
 
 mixer.recipeBuilder()
-	.inputs(<ore:ingotUnstable>, <embers:shifting_scales>, <darkutils:material>, <ore:gemEnderEye>)
+	.inputs(<ore:ingotUnstable>, <ore:AAVoidCrystal>, <darkutils:material>, <ore:gemEnderEye>)
 	.fluidInputs(<liquid:dark_fluid>*288)
 	.outputs(<darkutils:material:1>)
 	.duration(300)

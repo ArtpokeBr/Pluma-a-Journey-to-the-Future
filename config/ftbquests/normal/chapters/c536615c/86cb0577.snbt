@@ -1,6 +1,6 @@
 {
 	x: 2.0d,
-	y: 1.5d,
+	y: 2.0d,
 	description: "{pluma.enchsink.subtitle}",
 	text: [
 		"{pluma.enchsink.desc1}",

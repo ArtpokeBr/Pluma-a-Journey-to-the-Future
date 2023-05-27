@@ -1,36 +1,39 @@
-§a§lVersion Beta§r§f 3.1:
+§a§lVersion Beta§r§f 3.2:
 
 §b§lMod Related Changes§r§f:
 
-- Updated OpenComputers
-- Updated Universal Tweaks
-- Updated GTCEU
-- Updated GTCEU Multiblocks
+- Added Mini Effects (compacts the potion effects tabs in your Inventory Gui)
+- Added Sledgehammer (Fixes some Server and Client Issues hopefully)
+- Added Hole Filler Mod (Neat way to fill random Holes generated in your World)
+- Added Little Tiles (A Way to enhance even more Base Building QOL).
+
+- Updated Crafttweaker
+- Updated MAtmos
+- Updated Xaeros Package (Minimap and Worldmap)
+- Updated CensoredASM
+- Updated HEI
 - Updated Multiblocked
 
-- Removed Gambling Style (Villager Trades are Banned again, to much work to balance them =/)
-
-- Swapped Sound Physics with Sound Filters (in order to properly work with MAtmos)
-
-- Added ItemPhysics Lite
-- Added Advancements Plaques
-- Added MAtmos
-- Added FTB Backups
+- Swapped Phosphor -> Hesperus (A Now maintened Fork with new Fixes)
 
 §2§lFixes§r§f:
 
-- Fixed Incorrect Obsidian Glass on the "Bio Fabricating Mobs!" Quest.
-- Fixed Incorrect Compressed Dirt Reward on the "High Voltage Sifting!" Quest.
-- Runic Steel and Terrastone can now be casted using Tinker's Methods.
-- Fixed an Incorrect Recipe for Glass Bottles.
-- Fixed a Crash when trying to Carry On FTB Quest Blocks.
+- Charged Certus and Fluix Crystals now have a proper recipe.
+- Removed some Incorrect Vanilla Rail recipes in the assembler.
 
 §5§lMiscellaneous§r§f:
 
-- Tweaked The Silk Touch Enchanted Book Recipe.
-- Redstone Alloy now can only be made inside of a High Oven.
-- Infinity Reagent from EnderIO now has a proper recipe.
-- EnderIO Tinker's Materials are now back!
-- Ported a Greenhouse Multiblock from the GTCEU Community Pack.
-- Tweaked Overworld Veins and tweaked some other veins. (Gold Ore -> Precious Metal Ore)
-
+- There are now Brand New Dark Mode Textures in the Included Resource Pack (Updated Default Options to include it)!
+- Tweaked Chisel's Cloud Block Recipe
+- Nature's Core from RandomThings now have a Recipe (It doesn't generate naturally anymore).
+- Rearranged some Quests in Chapter 1 in order to make the progression more clearer.
+- Carpets now require a Cutting Saw to be done.
+- The AE2 Charger is back! added a quest for it in HV.
+- The Logistic Pipes HUD Glasses now have recipe.
+- Re-Enabled Cyclic's Forester and Item Magnet Plate.
+- Unstable Ender Pearl's are a bit cheaper now (Shifting Scales -> AA Void Crystal).
+- Ender IO's Pulsating and Vibrant Crystals can be made inside of a Smeltery and are a bit cheaper.
+- Tweaked some recipes of Ember's Gadgets.
+- Tweaked some recipes of LazyAE2 Blocks.
+- Drawer Controller and Controller Slave are a bit cheaper now (Super Glue -> Refined Glue)
+- AE2 Processors now also require +100mb of Super Glue aswell and a Redstone Dust instead of Liquid Redstone.

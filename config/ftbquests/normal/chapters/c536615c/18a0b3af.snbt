@@ -1,7 +1,7 @@
 {
 	title: "{pluma.logdisc.title}",
-	x: -3.5d,
-	y: -2.5d,
+	x: -3.0d,
+	y: -1.5d,
 	description: "{pluma.logdisc.subtitle}",
 	text: [
 		"{pluma.logdisc.desc1}",
@@ -10,7 +10,6 @@
 		"",
 		"{pluma.logdisc.desc3}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"aa4cc147"
 	],

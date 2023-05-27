@@ -1,28 +1,20 @@
 {
 	title: "Making Coke Bricks",
 	icon: "gregtech:metal_casing 1 8",
-	x: 10.5d,
+	x: 13.0d,
 	y: 0.5d,
 	description: "But... it requires a Mold!",
 	text: [
 		"Use your brand new §aTools§f to make a §6Brick Mold§f!",
 		"",
-		"§8§o~ Make sure to have a Saw, there's a quest for it in this chapter.§r§f",
-		"",
 		"- Them, simply make a ton of §6Coke Oven Bricks§f, as you'll be using it to assemble a §3Coke Oven§f in the next quest."
 	],
 	dependencies: [
+		"6163423f",
 		"412de3db"
 	],
 	min_width: 300,
 	tasks: [{
-		uid: "88984d89",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 347"
-		}]
-	},
-	{
 		uid: "f1b261e7",
 		type: "item",
 		items: [{

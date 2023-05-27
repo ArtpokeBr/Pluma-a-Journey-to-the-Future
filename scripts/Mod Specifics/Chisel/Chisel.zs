@@ -258,3 +258,13 @@ mods.chisel.Carving.addVariation("PearlizedBlock", i);
 <ore:stonePearlized>.add(i);
 }
 
+# [Cloud]*32 from [Cotton][+2]
+recipes.removeByRecipeName("chisel:cloud");
+craft.make(<chisel:cloud> * 32, ["pretty",
+  "s w s",
+  "w C w",
+  "s w s"], {
+  "s": <ore:string> | <ore:twine> | <ore:cropFlax>, # String
+  "w": <ore:wool> | <ore:blockWool>,                # White Wool
+  "C": <ore:cropCotton>,                            # Cotton
+});

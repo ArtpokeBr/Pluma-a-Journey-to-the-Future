@@ -1,0 +1,58 @@
+{
+	title: "Time to make Diesel! §6Part III§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "diesel",
+			Amount: 1000
+		}
+	},
+	x: -1.0d,
+	y: -14.5d,
+	description: "Heavy Fuel + Light Fuel = Diesel!",
+	text: [
+		"Finally! We've reached a point where we are able to produce §eDiesel§f!",
+		"",
+		"- §eDiesel§f is a potent §9Liquid Fuel§f that you should consider §2mass producing§f it in order to generate tons of §eEnergy§f in a near future!",
+		"",
+		"- Also, later you may also mix it with §3Tetranitromethane§f in order to make §aCetane-Boosted Diesel§f §8§o(or Nitro Diesel)§f.",
+		"",
+		"► But we are not done yet! you still have some §bByproducts§f like §6Refinery Gas and Naptha§f left, lets use them for something!",
+		"§8§o(Please take a look at the following quests)§f"
+	],
+	dependencies: [
+		"fa38a99e"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "403e67d9",
+		type: "item",
+		title: "An LV up to HV Mixer",
+		items: [{
+			item: "gregtech:machine 1 470"
+		},
+		{
+			item: "gregtech:machine 1 471"
+		},
+		{
+			item: "gregtech:machine 1 472"
+		}]
+	},
+	{
+		uid: "fa1de355",
+		type: "fluid",
+		fluid: "diesel"
+	}],
+	rewards: [{
+		uid: "d515dc38",
+		type: "item",
+		item: "gregtech:metal_casing 1 5",
+		count: 83
+	},
+	{
+		uid: "f1e66e78",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

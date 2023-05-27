@@ -1,7 +1,7 @@
 {
 	title: "Making Seared Stone",
 	icon: "tconstruct:seared",
-	x: 12.0d,
+	x: 12.5d,
 	y: 2.5d,
 	description: "Kinda Different Process and Kinda Fun!",
 	text: [

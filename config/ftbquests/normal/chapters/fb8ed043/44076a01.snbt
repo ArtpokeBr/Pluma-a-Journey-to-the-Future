@@ -1,7 +1,7 @@
 {
 	title: "Refractory Bricks",
 	icon: "pyrotech:material 1 5",
-	x: 13.0d,
+	x: 13.5d,
 	y: 2.0d,
 	shape: "rsquare",
 	description: "An Enhance to Pyrotech Devices",

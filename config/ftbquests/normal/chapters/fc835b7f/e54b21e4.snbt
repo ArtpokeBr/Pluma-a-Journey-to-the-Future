@@ -16,6 +16,7 @@
 		"- §6Cables§f can be §9D§f§ay§f§ce§f§ed§f, use this in order to better organize your §dNetwork§f."
 	],
 	dependencies: [
+		"ac13c3b3",
 		"dce6647b"
 	],
 	min_width: 300,

@@ -1,12 +1,12 @@
 {
 	title: "Fluid Manipulation with LP",
-	x: 0.5d,
-	y: 1.0d,
+	x: -3.0d,
+	y: 0.0d,
 	description: "Pretty Simple!",
 	text: [
 		"Almost all quests that you're currently completing related to LP, can be applied to the Fluid System from it, it may be very good for your base logistics!",
 		"",
-		"- This Fluid Upgrade that you've received for example, can be used to allow your autocrafting system to pull fluids connected to the Network for the recipe."
+		"- This Fluid Upgrade that you've received for example, can be used to allow your autocrafting system to pull fluids connected to the Network for a recipe."
 	],
 	dependencies: [
 		"008c7cba"

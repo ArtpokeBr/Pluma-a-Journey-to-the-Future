@@ -1,6 +1,6 @@
 {
 	title: "Want some Seeds?",
-	x: 18.0d,
+	x: 20.0d,
 	y: -1.5d,
 	shape: "rsquare",
 	description: "Pay up!",

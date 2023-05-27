@@ -502,12 +502,14 @@ val ancient_metal = MaterialBuilder(32056, "ancient_metal")
 val refined_glue = MaterialBuilder(32057, "refined_glue")
     .fluid("fluid")
     .iconSet("dull")
+    .flags(["GENERATE_PLATE", "GENERATE_FOIL", "GENERATE_INGOT"])
     .color(0xebb360)
     .build();
 
 val super_glue = MaterialBuilder(32058, "super_glue")
     .fluid("fluid")
     .iconSet("dull")
+    .flags(["GENERATE_PLATE", "GENERATE_FOIL", "GENERATE_INGOT"])
     .color(0xE8E2CF)
     .build();
 

@@ -1,6 +1,6 @@
 {
 	title: "Refractorized Expanse!",
-	x: 14.0d,
+	x: 14.5d,
 	y: 2.0d,
 	shape: "rsquare",
 	description: "Time to put those Refractory Bricks to use!",

@@ -1,14 +1,13 @@
 {
 	title: "{pluma.logprovider.title}",
-	x: -1.5d,
-	y: -1.0d,
+	x: -2.0d,
+	y: 2.0d,
 	description: "{pluma.logprovider.subtitle}",
 	text: [
 		"{pluma.logprovider.desc1}",
 		"",
 		"{pluma.logprovider.desc2}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"008c7cba"
 	],

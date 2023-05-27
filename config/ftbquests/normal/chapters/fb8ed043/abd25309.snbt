@@ -1,7 +1,7 @@
 {
 	title: "Let's Make Mulch!",
 	icon: "pyrotech:mulch",
-	x: 15.5d,
+	x: 17.0d,
 	y: -1.5d,
 	shape: "rsquare",
 	text: [

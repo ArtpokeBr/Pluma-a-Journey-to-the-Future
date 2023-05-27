@@ -287,3 +287,28 @@ recipes.addShapeless(<cyclicmagic:plate_launch_large>, [<tconstruct:slime_channe
 // Extreme Slime Plate
 recipes.remove(<cyclicmagic:plate_launch_extra>);
 recipes.addShapeless(<cyclicmagic:plate_launch_extra>, [<tconstruct:slime_channel:4>, <minecraft:heavy_weighted_pressure_plate>, <ore:gtceScrewdrivers>, <ore:screwAluminium>]);
+
+# [Forester] from [Living Axe][+5]
+recipes.removeByRecipeName("cyclicmagic:tile.block_forester_1");
+craft.make(<cyclicmagic:block_forester>, ["pretty",
+  "# D #",
+  "E i E",
+  "░ L ░"], {
+  "#": <forestry:wood_pile>,           # Wood Pile
+  "D": <forestry:thermionic_tubes:2>,  # Bronze Thermionic Tube
+  "E": <ore:springElectrum>,           # Electrum Spring
+  "i": <roots:living_axe>.anyDamage(), # Living Axe
+  "░": <ore:compressed1xCobblestone>,  # 1x Compressed Cobblestone
+  "L": <ore:batteryLv>,                # Small Lithium Battery
+});
+
+# [Item Magnet]*4 from [Light Magnetic Steel Plate][+2]
+recipes.removeByRecipeName("cyclicmagic:tile.magnet_block_1");
+craft.make(<cyclicmagic:magnet_block> * 4, ["pretty",
+  "R □ R",
+  "□ п □",
+  "R □ R"], {
+  "R": <ore:boltRunicSteel>,          # Runic Steel Bolt
+  "□": <ore:plateSteel>,              # Steel Plate
+  "п": <ore:lightPlateSteelMagnetic>, # Light Magnetic Steel Plate
+});

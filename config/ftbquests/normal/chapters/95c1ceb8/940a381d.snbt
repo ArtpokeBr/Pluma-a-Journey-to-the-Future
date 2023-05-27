@@ -1,0 +1,184 @@
+{
+	title: "Time to make Diesel! §6Part I§f",
+	icon: "gregtech:machine 1 1005",
+	x: -3.0d,
+	y: -12.0d,
+	description: "Distilling Oil into  many types of Fuels!",
+	text: [
+		"The §3GregTech Distillation Tower§f is an Interesting §2Multiblock§f, as you can basically make it in §bany size that you need§f.",
+		"",
+		"- In this case, since we will be processing §8Oil§f into §e4 Byproducts§f, we will need one that has §54 Output hatches§f, wich means, §d4 Height§f.",
+		"",
+		"- And the §eByproducts§f will be §3Sulfuric Gas§f, §aSulfuric Light Fuel§f and §aHeavy Fuel§f and also some §6Sulfuric Naphtha§f."
+	],
+	dependencies: [
+		"f6da0680"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1e83f1cc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1005"
+		}]
+	},
+	{
+		uid: "d0cd04ab",
+		type: "item",
+		title: "An ULV up to HV Fluid Output Hatch",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		},
+		{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		},
+		{
+			item: "gregtech:machine 1 1198"
+		}],
+		count: 4L
+	},
+	{
+		uid: "0202b4cd",
+		type: "item",
+		title: "An ULV up to HV Fluid Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		},
+		{
+			item: "gregtech:machine 1 1181"
+		},
+		{
+			item: "gregtech:machine 1 1182"
+		},
+		{
+			item: "gregtech:machine 1 1183"
+		}]
+	},
+	{
+		uid: "8d549b66",
+		type: "item",
+		title: "An ULV up to HV Energy Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1210"
+		},
+		{
+			item: "gregtech:machine 1 1211"
+		},
+		{
+			item: "gregtech:machine 1 1212"
+		},
+		{
+			item: "gregtech:machine 1 1213"
+		}]
+	},
+	{
+		uid: "756d5120",
+		type: "item",
+		title: "Any Maintenance Hatch",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		},
+		{
+			item: "gregtech:machine 1 1655"
+		},
+		{
+			item: "gregtech:machine 1 1656"
+		}]
+	},
+	{
+		uid: "55a1b846",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 5"
+		}],
+		count: 34L
+	},
+	{
+		uid: "14b862d5",
+		type: "fluid",
+		fluid: "sulfuric_gas"
+	},
+	{
+		uid: "a64c1953",
+		type: "fluid",
+		fluid: "sulfuric_heavy_fuel"
+	},
+	{
+		uid: "b860ad88",
+		type: "fluid",
+		fluid: "sulfuric_light_fuel"
+	},
+	{
+		uid: "b001607b",
+		type: "fluid",
+		fluid: "sulfuric_naphtha"
+	}],
+	rewards: [{
+		uid: "9f80b61e",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_gas",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "b7ed2eb5",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_heavy_fuel",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "fd1a5bc4",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_light_fuel",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "87266ed0",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_naphtha",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "bb707f81",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -2,6 +2,7 @@
 	title: "Great Runic Tools!",
 	x: 15.5d,
 	y: -1.0d,
+	shape: "rsquare",
 	description: "The High End Tools of Roots!",
 	text: [
 		"Slower, but resistent and it retains the ability of durability regeneration",

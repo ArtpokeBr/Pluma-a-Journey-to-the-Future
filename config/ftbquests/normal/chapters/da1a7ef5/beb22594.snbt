@@ -2,6 +2,7 @@
 	title: "Living Tools!",
 	x: 13.5d,
 	y: -1.0d,
+	shape: "rsquare",
 	description: "Not Insanely Good, but decently Good",
 	text: [
 		"Any Living tool from Roots have a downside wich is being low in Harvest level, but, they provide 1 Interesting atribute",

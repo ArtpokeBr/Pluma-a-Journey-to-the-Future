@@ -1,20 +1,14 @@
 {
 	title: "{pluma.routedpipes.title}",
-	icon: {
-		id: "minecraft:writable_book",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
-	x: 0.5d,
-	y: 0.0d,
+	icon: "minecraft:writable_book",
+	x: -3.5d,
+	y: 2.0d,
 	description: "{pluma.routedpipes.subtitle}",
 	text: [
 		"{pluma.routedpipes.desc1}",
 		"",
 		"{pluma.routedpipes.desc2}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"ba9953a3"
 	],

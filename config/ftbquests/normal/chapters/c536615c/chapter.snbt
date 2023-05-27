@@ -3,5 +3,16 @@
 	icon: "gregtech:machine 1 987",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 4.0d,
+		y: 2.0d,
+		width: 4.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

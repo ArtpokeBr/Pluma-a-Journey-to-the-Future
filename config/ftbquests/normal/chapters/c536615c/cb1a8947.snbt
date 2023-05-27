@@ -6,6 +6,8 @@
 	text: [
 		"This §6Dimension§f is the next one that you're going to visit in order to §6progress§f in this Pack.",
 		"",
+		"- Need more §8Basalt§f? you can easily §2Farm§f more with a §bStone Dust§f and §cLava§f in a §eExNihilo Crucible§f!",
+		"",
 		"- There you'll find some known §3Ore Veins§f, but there are some §3exclusive§f ones.",
 		"",
 		"- Also, it is known that this Dimensions has some concentration of §7Natural Gas§f.",
@@ -16,7 +18,7 @@
 		"eb249210"
 	],
 	size: 2.0d,
-	min_width: 260,
+	min_width: 300,
 	tasks: [{
 		uid: "4928788b",
 		type: "item",

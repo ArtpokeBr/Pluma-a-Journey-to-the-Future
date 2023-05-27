@@ -1,6 +1,6 @@
 {
 	title: "{pluma.itemsinkmodule.title}",
-	x: 4.0d,
+	x: 3.5d,
 	y: -2.5d,
 	description: "{pluma.itemsinkmodule.subtitle}",
 	text: [
@@ -8,6 +8,7 @@
 		"",
 		"{pluma.itemsinkmodule.desc2}"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"99b7a703"
 	],

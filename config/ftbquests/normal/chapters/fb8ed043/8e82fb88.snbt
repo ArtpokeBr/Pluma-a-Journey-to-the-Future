@@ -1,7 +1,7 @@
 {
 	title: "Your First Smeltery",
 	icon: "tcomplement:porcelain_melter",
-	x: 11.5d,
+	x: 12.0d,
 	y: 1.5d,
 	description: "Time to Start Smelting Baby!",
 	text: [
@@ -13,6 +13,7 @@
 		"",
 		"- Simply place the heat source bellow the melter, and use faucets to extract the fluids from the Melter."
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"c426da7b",
 		"c6214f56"

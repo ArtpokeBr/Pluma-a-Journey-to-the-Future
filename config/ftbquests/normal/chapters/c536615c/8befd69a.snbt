@@ -1,6 +1,6 @@
 {
 	title: "{pluma.logfuzzy.title}",
-	x: -5.5d,
+	x: -5.0d,
 	y: -3.5d,
 	description: "{pluma.logfuzzy.subtitle}",
 	text: [
@@ -10,7 +10,6 @@
 		"",
 		"{pluma.logfuzzy.desc3}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"aa4cc147"
 	],

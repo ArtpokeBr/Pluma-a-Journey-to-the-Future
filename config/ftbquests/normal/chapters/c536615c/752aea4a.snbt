@@ -1,7 +1,7 @@
 {
 	title: "Stealth 100%?",
-	x: -4.5d,
-	y: -3.0d,
+	x: -5.0d,
+	y: -2.5d,
 	description: "{pluma.logsneak.subtitle}",
 	text: [
 		"{pluma.logsneak.desc1}",
@@ -10,7 +10,6 @@
 		"",
 		"{pluma.logsneak.desc3}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"aa4cc147"
 	],

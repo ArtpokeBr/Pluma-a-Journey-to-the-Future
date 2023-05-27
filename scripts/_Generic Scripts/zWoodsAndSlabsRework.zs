@@ -302,7 +302,9 @@ var Woods as IItemStack[IIngredient] = {
     <randomthings:spectrelog:0>: <randomthings:spectreplank:0>,
     <extrautils2:decorativesolidwood:1>: <extrautils2:decorativesolidwood>,
     //<forbiddenmagicre:log_tainted>: <forbiddenmagicre:taint_planks>,
-    <thaumcraft:taint_log>: <thaumadditions:taintwood_planks>
+    <thaumcraft:taint_log>: <thaumadditions:taintwood_planks>,
+    <extrautils2:ironwood_log:0>: <extrautils2:ironwood_planks:0>,
+    <extrautils2:ironwood_log:1>: <extrautils2:ironwood_planks:1>
     };
 for IItemStack, IIngredient in Woods {
         recipes.remove(IIngredient);

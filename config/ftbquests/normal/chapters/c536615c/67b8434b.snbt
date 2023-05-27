@@ -1,6 +1,6 @@
 {
-	x: -5.25d,
-	y: -0.5d,
+	x: -6.75d,
+	y: 2.25d,
 	shape: "square",
 	description: "{pluma.logcraftsign.subtitle}",
 	text: [
@@ -8,6 +8,7 @@
 		"",
 		"{pluma.logcraftsign.desc2}"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"59e8425d"
 	],

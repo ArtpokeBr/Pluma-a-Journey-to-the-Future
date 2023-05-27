@@ -388,3 +388,52 @@ recipes.addShaped(<embers:item_pump> * 1, [[null, <embers:plate_caminite>, null]
 recipes.remove(<embers:item_dropper>);
 recipes.addShaped(<embers:item_dropper> * 1, [[<minecraft:dropper>, <embers:plate_caminite>, <minecraft:dropper>], [<embers:item_pipe>, <gregtech:meta_item_1:157>, <embers:item_pipe>],[<minecraft:dropper>, <embers:plate_caminite>, <minecraft:dropper>]]);
 
+# [Item Vacuum] from [Item Pipe][+4]
+recipes.removeByRecipeName("embers:vacuum");
+craft.make(<embers:vacuum>, ["pretty",
+  "⌂ □ □",
+  "♥ I e",
+  "⌂ □ □"], {
+  "⌂": <ore:casingLead>,   # Lead Casing
+  "□": <ore:plateLead>,    # Lead Plate
+  "♥": <ore:gearRedstone>, # Redstone Gear
+  "I": <embers:item_pipe>, # Item Pipe
+  "e": <ore:enderpearl> | <ore:materialEnderPearl> | <ore:gemEnderPearl>, # Ender Pearl
+});
+
+# [Automatic Breaker] from [Redstone Gear][+4]
+recipes.removeByRecipeName("embers:breaker");
+craft.make(<embers:breaker>, ["pretty",
+  "□ L □",
+  "п ♥ п",
+  "P   P"], {
+  "□": <ore:plateWroughtIron>,            # Wrought Iron Plate
+  "L": <embers:pickaxe_lead>.anyDamage(), # Lead Pickaxe
+  "п": <ore:plateLead>,                   # Lead Plate
+  "♥": <ore:gearRedstone>,                # Redstone Gear
+  "P": <ore:lightPlateLead>,              # Light Lead Plate
+});
+
+# [Item Transfer]*4 from [Item Pipe][+2]
+recipes.removeByRecipeName("embers:item_transfer");
+craft.make(<embers:item_transfer> * 4, ["pretty",
+  "□ I □",
+  "п I п",
+  "□   □"], {
+  "□": <ore:plateLead>,      # Lead Plate
+  "I": <embers:item_pipe>,   # Item Pipe
+  "п": <ore:lightPlateLead>, # Light Lead Plate
+});
+
+# [Mechanical Pump] from [LV Electric Pump][+4]
+recipes.removeByRecipeName("embers:mechanical_pump");
+craft.make(<embers:mechanical_pump>, ["pretty",
+  "F □ F",
+  "□ L □",
+  "C l C"], {
+  "F": <embers:pipe>,              # Fluid Pipe
+  "□": <ore:plateWroughtIron>,     # Wrought Iron Plate
+  "L": <gregtech:meta_item_1:142>, # LV Electric Pump
+  "C": <embers:brick_caminite>,    # Caminite Brick
+  "l": <embers:pump>,              # Fluid Extractor
+});

@@ -409,14 +409,14 @@ RecipeBuilder.get("basic")
     [<ore:plateStone>, <ore:plateStone>, <ore:plateStone>],
     [<ore:lightPlateConstructionAlloy>, <ore:basicDrawer>, <ore:lightPlateConstructionAlloy>],
     [<ore:plateStone>, <ore:circuitMv>, <ore:plateStone>]])
-  .setFluid(<liquid:super_glue> * 400)   
+  .setFluid(<liquid:refined_glue> * 400)   
   .addTool(<ore:gtceHardHammers>, 5)
   .addOutput(<storagedrawers:controller>)
   .create();
 
 assembler.recipeBuilder()
     .inputs([<ore:lightPlateConstructionAlloy> * 2, <ore:plateStone> * 5, <ore:circuitMv>, <ore:basicDrawer>])
-    .fluidInputs([<liquid:super_glue> * 400])
+    .fluidInputs([<liquid:refined_glue> * 400])
     .circuit(8)
     .outputs(<storagedrawers:controller>)
     .duration(100)
@@ -430,14 +430,14 @@ RecipeBuilder.get("basic")
     [<ore:plateStone>, <ore:plateStone>, <ore:plateStone>],
     [<minecraft:comparator>, <ore:basicDrawer>, <minecraft:comparator>],
     [<ore:plateStone>, <ore:circuitMv>, <ore:plateStone>]])
-  .setFluid(<liquid:super_glue> * 300)   
+  .setFluid(<liquid:refined_glue> * 300)   
   .addTool(<ore:gtceHardHammers>, 5)
   .addOutput(<storagedrawers:controllerslave>)
   .create();
 
 assembler.recipeBuilder()
     .inputs([<minecraft:comparator> * 2, <ore:plateStone> * 5, <ore:circuitMv>, <ore:basicDrawer>])
-    .fluidInputs([<liquid:super_glue> * 300])  
+    .fluidInputs([<liquid:refined_glue> * 300])  
     .circuit(8)
     .outputs(<storagedrawers:controllerslave>)
     .duration(100)

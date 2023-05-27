@@ -1,8 +1,8 @@
 {
 	title: "A Smeltery!",
 	icon: "tconstruct:smeltery_controller",
-	x: 14.0d,
-	y: 5.0d,
+	x: 14.485714285714316d,
+	y: 5.024489795918356d,
 	shape: "gear",
 	description: "Time to start making some progress!",
 	text: [

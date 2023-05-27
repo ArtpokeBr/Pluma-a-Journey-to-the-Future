@@ -1,7 +1,8 @@
 {
 	title: "Pyrotech Machines go Brr",
 	x: 8.5d,
-	y: 0.5d,
+	y: -3.5d,
+	shape: "rsquare",
 	description: "Using Bellows to increse Air Flow",
 	text: [
 		"By using a Bellow attached to a Pyrotech Machine, you'll be able to REALLY INCREASE the speed of the operations.",

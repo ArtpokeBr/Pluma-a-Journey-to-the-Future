@@ -1,6 +1,6 @@
 {
-	x: -5.25d,
-	y: 0.0d,
+	x: -5.0d,
+	y: 1.0d,
 	shape: "square",
 	description: "{pluma.satlog.subtitle}",
 	text: [
@@ -13,7 +13,6 @@
 	dependencies: [
 		"59e8425d"
 	],
-	size: 0.5d,
 	tasks: [{
 		uid: "ab55bf48",
 		type: "item",

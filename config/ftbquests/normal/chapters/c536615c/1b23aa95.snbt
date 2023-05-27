@@ -1,6 +1,6 @@
 {
 	title: "{pluma.modpolysink.title}",
-	x: 3.5d,
+	x: 3.0d,
 	y: -1.5d,
 	description: "{pluma.modpolysink.subtitle}",
 	text: [

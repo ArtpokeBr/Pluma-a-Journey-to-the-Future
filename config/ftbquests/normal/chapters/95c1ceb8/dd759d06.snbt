@@ -1,0 +1,151 @@
+{
+	title: "Time to make Diesel! §6Part IV§f",
+	icon: "gregtech:machine 1 1009",
+	x: 1.0d,
+	y: -14.5d,
+	description: "Steam-Cracking the remanescent Byproducts",
+	text: [
+		"And we are not done with this §eDiesel§f Processing Line yet!",
+		"",
+		"- I mean, technically you already have §eDiesel§f, but you're also able to §breprocess the remanescent byproducts§f into more §cFuel and some extras§f.",
+		"",
+		"- You may use §eNaptha§f or §3Refinery Gas§f, for now, I recommend you to use §eNaptha§f, as §3Refinery Gas§f can be used in other §bprocesses/situations§f.",
+		"",
+		"- First, make a §6Oil Cracking Multiblock§f! after you do so, simply crack §7Steam§f and all of your §eNaptha§f inside of it.",
+		"",
+		"- After the §2Recipe Finishes§f, voilá! §6Severely Steam-Cracked Naptha§f!"
+	],
+	dependencies: [
+		"9f0d29e0"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "88e3991c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1009"
+		}]
+	},
+	{
+		uid: "509e2f5a",
+		type: "item",
+		title: "Any Maintenance Hatch",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		},
+		{
+			item: "gregtech:machine 1 1655"
+		},
+		{
+			item: "gregtech:machine 1 1656"
+		}]
+	},
+	{
+		uid: "0132fce5",
+		type: "item",
+		title: "An ULV up to HV Output Hatch",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		},
+		{
+			item: "gregtech:machine 1 1196"
+		},
+		{
+			item: "gregtech:machine 1 1197"
+		},
+		{
+			item: "gregtech:machine 1 1198"
+		}]
+	},
+	{
+		uid: "cd794050",
+		type: "item",
+		title: "An ULV up to HV Input Bus",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		},
+		{
+			item: "gregtech:machine 1 1151"
+		},
+		{
+			item: "gregtech:machine 1 1152"
+		},
+		{
+			item: "gregtech:machine 1 1153"
+		}]
+	},
+	{
+		uid: "976d80c5",
+		type: "item",
+		title: "An ULV up to HV Energy Hatch",
+		items: [{
+			item: "gregtech:machine 1 1210"
+		},
+		{
+			item: "gregtech:machine 1 1211"
+		},
+		{
+			item: "gregtech:machine 1 1212"
+		},
+		{
+			item: "gregtech:machine 1 1213"
+		}]
+	},
+	{
+		uid: "6ed58b8f",
+		type: "item",
+		title: "An ULV up to HV Input Hatch",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		},
+		{
+			item: "gregtech:machine 1 1181"
+		},
+		{
+			item: "gregtech:machine 1 1182"
+		},
+		{
+			item: "gregtech:machine 1 1183"
+		}]
+	},
+	{
+		uid: "c171341a",
+		type: "item",
+		title: "An Cupronickel up to Tungstensteel Coil",
+		items: [{
+			item: "gregtech:wire_coil"
+		},
+		{
+			item: "gregtech:wire_coil 1 1"
+		},
+		{
+			item: "gregtech:wire_coil 1 3"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0ce5c4c8",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 5"
+		}],
+		count: 20L
+	},
+	{
+		uid: "57378a26",
+		type: "fluid",
+		fluid: "severely_steamcracked_naphtha"
+	}],
+	rewards: [{
+		uid: "4d3949b6",
+		type: "item",
+		item: "gregtech:metal_casing 1 5",
+		count: 20
+	},
+	{
+		uid: "48e240b7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

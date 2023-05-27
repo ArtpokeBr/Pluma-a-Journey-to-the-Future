@@ -1,6 +1,6 @@
 {
-	x: 5.5d,
-	y: 0.5d,
+	x: 4.0d,
+	y: -0.5d,
 	description: "{pluma.passsup.subtitle}",
 	text: [
 		"{pluma.passsup.desc1}",

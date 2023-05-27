@@ -1,0 +1,30 @@
+{
+	title: "Charging Certus Quartz Crystal's",
+	x: 9.0d,
+	y: -10.5d,
+	description: "Let's make an AE2 Crystal Charger!",
+	text: [
+		"Now that you have acess to §cSoot Covered Redstone§f, time to make a special type of §eCharger§f!",
+		"",
+		"- This will grant you acess to §bCharged Certus Quartz§f, wich itself grants you acess to §5Fluix Crystals§f!",
+		"",
+		"§8§o~ Make sure to check out the AE2 Chapter after this quest =)§f"
+	],
+	dependencies: [
+		"752d6c0d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8c378a5e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:charger"
+		}]
+	}],
+	rewards: [{
+		uid: "28e38b23",
+		type: "item",
+		item: "appliedenergistics2:charger",
+		random_bonus: 2
+	}]
+}

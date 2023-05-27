@@ -1,6 +1,6 @@
 {
-	x: 5.0d,
-	y: 1.5d,
+	x: 4.0d,
+	y: 0.5d,
 	description: "{pluma.actsup.subtitle}",
 	text: [
 		"{pluma.actsup.desc1}",

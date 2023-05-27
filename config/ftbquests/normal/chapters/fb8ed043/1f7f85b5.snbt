@@ -1,7 +1,7 @@
 {
 	title: "A Tinkery World!",
-	x: 16.0d,
-	y: 4.0d,
+	x: 17.0d,
+	y: 2.5d,
 	description: "There are so many Possibilities Now!",
 	text: [
 		"With a Melter you'll not be able to make Tools and Armor Pieces out of Alloys and Metals, but still good.",

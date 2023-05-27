@@ -6,11 +6,44 @@
 	default_quest_shape: "square",
 	images: [{
 		x: 7.5d,
-		y: -5.0d,
+		y: -5.5d,
 		width: 10.0d,
 		height: 5.0d,
 		rotation: 0.0d,
 		image: "assets:pluma/quests/banner1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 10.0d,
+		y: 0.5d,
+		width: 6.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 9.5d,
+		y: 1.5d,
+		width: 5.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 12.0d,
+		y: 0.5d,
+		width: 1.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
 		dev: false

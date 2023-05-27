@@ -1,13 +1,12 @@
 {
-	x: -4.5d,
-	y: -4.0d,
+	x: -5.0d,
+	y: -4.5d,
 	description: "{pluma.itmextupg.subtitle}",
 	text: [
 		"{pluma.itmextupg.desc1}",
 		"",
 		"{pluma.itmextupg.desc2}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"aa4cc147"
 	],

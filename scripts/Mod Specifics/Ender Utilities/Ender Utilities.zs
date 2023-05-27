@@ -155,7 +155,7 @@ recipes.addShaped(<enderutilities:storage_0:6> * 1, [[null, null, null], [<gregt
 
 // Junk Storage Unit
 recipes.remove(<enderutilities:storage_0:7>);
-recipes.addShaped(<enderutilities:storage_0:7> * 1, [[<ore:compressed1xCobblestone>, <gregtech:machine:1625>, <ore:compressed1xCobblestone>], [<ore:compressed2xCobblestone>, <enderutilities:barrel:0>, <ore:compressed2xCobblestone>],[<ore:compressed1xCobblestone>, <gregtech:machine:1625>, <ore:compressed1xCobblestone>]]);
+recipes.addShaped(<enderutilities:storage_0:7> * 1, [[<ore:plateConstructionAlloy>, <ore:plateAAVoid>, <ore:plateConstructionAlloy>], [<ore:compressed2xCobblestone>, <enderutilities:barrel:0>, <ore:compressed2xCobblestone>],[<ore:plateConstructionAlloy>, <ore:plateAAVoid>, <ore:plateConstructionAlloy>]]);
 
 // Ender Capacitor (Basic)
 recipes.remove(<enderutilities:endercapacitor:0>);

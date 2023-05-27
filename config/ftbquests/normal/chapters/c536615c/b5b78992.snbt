@@ -1,7 +1,7 @@
 {
 	icon: "logisticspipes:pipe_remote_orderer",
-	x: -0.5d,
-	y: -0.5d,
+	x: -3.0d,
+	y: 4.0d,
 	description: "{pluma.logordreq.subtitle}",
 	text: [
 		"{pluma.logordreq.desc1}",
@@ -10,7 +10,6 @@
 		"",
 		"{pluma.logordreq.desc3}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"008c7cba"
 	],

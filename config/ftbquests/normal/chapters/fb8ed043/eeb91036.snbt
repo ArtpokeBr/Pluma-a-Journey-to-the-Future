@@ -1,8 +1,8 @@
 {
 	title: "Igniting for Free!",
 	icon: "pyrotech:igniter",
-	x: 12.5d,
-	y: -3.5d,
+	x: 13.5d,
+	y: -2.5d,
 	shape: "rsquare",
 	description: "By simply providing a Redstone Signal",
 	text: [

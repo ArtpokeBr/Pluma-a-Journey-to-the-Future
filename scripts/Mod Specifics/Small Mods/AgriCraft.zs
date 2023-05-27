@@ -52,3 +52,5 @@ RecipeBuilder.get("basic")
   .addTool(<ore:gtceScrewdrivers>, 10)
   .addOutput(<agricraft:clipper>)
 .create();
+
+<agricraft:agri_seed>.addTooltip(format.white("Can only be planted in a ") + format.green("Crop Stick") + format.white("."));

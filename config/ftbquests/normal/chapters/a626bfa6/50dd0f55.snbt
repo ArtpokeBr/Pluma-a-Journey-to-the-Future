@@ -1,0 +1,67 @@
+{
+	title: "A Cheap way to Make a Tree Farm!",
+	icon: "cyclicmagic:block_forester",
+	x: 6.0d,
+	y: -1.5d,
+	description: "Let's make a Cyclic Forester!",
+	text: [
+		"§aThe Cyclic Forester§f is a neat block that consumes §elittle amounts of RF§f to §2§nbreak and replant Trees in a configurable area§f.",
+		"",
+		"- But there's a catch, §d§oit does not collect their drops automatically§f, §3you'll need§f some type of §3Item Collection system§f for it.",
+		"",
+		"- §eYou have a plethora of options§f for §3Item Collection§f, the ones §bvalid for this quest are just a few§f."
+	],
+	dependencies: [
+		"a2030010"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b706bb3f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_forester"
+		}]
+	},
+	{
+		uid: "d2e11090",
+		type: "item",
+		title: "Any Way to Collect Items from the Ground",
+		items: [{
+			item: "minecraft:hopper_minecart"
+		},
+		{
+			item: "randomthings:itemcollector"
+		},
+		{
+			item: "randomthings:advanceditemcollector"
+		},
+		{
+			item: "actuallyadditions:block_ranged_collector"
+		},
+		{
+			item: "cyclicmagic:block_vacuum"
+		},
+		{
+			item: "gregtech:machine 1 980"
+		},
+		{
+			item: "gregtech:machine 1 981"
+		},
+		{
+			item: "enderio:block_vacuum_chest"
+		},
+		{
+			item: "darkutils:ender_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "890d14cb",
+		type: "item",
+		item: "forestry:forester_bag_t2"
+	},
+	{
+		uid: "ef275532",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,6 +1,6 @@
 {
 	title: "Finally, A Crafting Table!",
-	x: 17.0d,
+	x: 18.0d,
 	y: -0.5d,
 	description: "No need to hammer recipes anymore!",
 	text: [

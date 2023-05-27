@@ -1,6 +1,6 @@
 {
-	x: 2.5d,
-	y: 0.5d,
+	x: 5.0d,
+	y: -1.5d,
 	description: "{pluma.advextractmod.subtitle}",
 	text: [
 		"{pluma.advextractmod.desc1}",

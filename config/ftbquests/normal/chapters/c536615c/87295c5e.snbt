@@ -1,7 +1,7 @@
 {
 	title: "{pluma.terminus.title}",
-	x: 6.0d,
-	y: 1.5d,
+	x: 4.0d,
+	y: 2.5d,
 	description: "{pluma.terminus.subtitle}",
 	text: [
 		"{pluma.terminus.desc1}",
@@ -10,7 +10,6 @@
 		"",
 		"{pluma.terminus.desc3}"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"99b7a703"
 	],

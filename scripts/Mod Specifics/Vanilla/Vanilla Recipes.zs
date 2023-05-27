@@ -55,6 +55,15 @@ recipes.removeByRecipeName("natura:common/daylight_sensor");
 recipes.removeByRecipeName("bhc:god_apple");
 recipes.removeByRecipeName("cyclicmagic:item.applegod_1");
 
+// Booster Track * 12
+<recipemap:assembler>.findRecipe(30, [<metaitem:stickGold> * 12, <minecraft:stick:0>, <minecraft:redstone:0>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], null).remove();
+// Detector Track * 12
+<recipemap:assembler>.findRecipe(30, [<metaitem:stickIron> * 12, <minecraft:stick:0>, <minecraft:redstone:0>, <metaitem:circuit.integrated>.withTag({Configuration: 5})], null).remove();
+// Track * 32
+<recipemap:assembler>.findRecipe(30, [<metaitem:stickIron> * 12, <minecraft:stick:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
+// Activator Track * 12
+<recipemap:assembler>.findRecipe(30, [<metaitem:stickIron> * 12, <minecraft:stick:0> * 2, <minecraft:redstone_torch:0>, <metaitem:circuit.integrated>.withTag({Configuration: 5})], null).remove();
+
 
 // Crafting Table ===========================================
 recipes.remove(<minecraft:crafting_table>);
@@ -396,3 +405,8 @@ craft.make(<thermalfoundation:tool.fishing_rod_diamond>, ["pretty",
   "I": <ore:screwIron>,                             # Iron Screw
 });
 
+// Removing Carpet Recipes by Hand (As it can also be done in a Cutting Saw)
+for i in 0 to 16 {
+  recipes.remove(<minecraft:carpet>.withDamage(i));
+  recipes.addShapeless(<minecraft:carpet>.withDamage(i) * 3,[<ore:gtceKnife>, <minecraft:wool>.withDamage(i), <minecraft:wool>.withDamage(i)]);
+}
