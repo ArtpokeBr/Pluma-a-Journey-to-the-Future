@@ -49,7 +49,8 @@ var RemovingOnlyTheRecipe as IItemStack[] = [
 <randomthings:rainshield>,
 <randomthings:biomeradar>,
 <randomthings:obsidianskull>,
-<randomthings:timeinabottle>
+<randomthings:timeinabottle>,
+<actuallyadditions:item_crate_keeper>
 
     ];
 for i in RemovingOnlyTheRecipe {
@@ -565,6 +566,7 @@ var ItensRemovidos as IItemStack[] = [
 <binniecore:storage:5>,
 <forestry:bottler>,
 <forestry:still>,
+<binniecore:field_kit>,
 
 //Industrial Foregoing
 <industrialforegoing:tinydryrubber>,

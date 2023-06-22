@@ -1,5 +1,5 @@
 {
-	title: "Chapter 4: Beelive in your Dreams",
+	title: "&64.&f An Apiarist's Dream",
 	icon: {
 		id: "forestry:bee_queen_ge",
 		tag: {
@@ -143,7 +143,7 @@
 		}
 	},
 	always_invisible: false,
-	group: 0,
+	group: -1258097374,
 	default_quest_shape: "hexagon",
 	images: [{
 		x: 2.0d,

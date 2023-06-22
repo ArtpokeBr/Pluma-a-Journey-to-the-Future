@@ -1,0 +1,40 @@
+{
+	title: "What's all this Info in the HUD?",
+	icon: {
+		id: "gregtech:meta_item_1",
+		Damage: 465s,
+		tag: {
+			terminal: {
+				_creative: 1b
+			}
+		}
+	},
+	x: -2.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "In Game Info Mod is neat!",
+	text: [
+		"By §9default§f you can §e§ntoggle§r§f this overlay by §a§npressing \"F4\"§r§f.",
+		"",
+		"- However, §2I really encourage you to play with it§f as its info may be §dvery usefull in certain situations§f.",
+		"",
+		"- §bHumidity§f for example is really usefull when §aautomating§f the collection of §9water§f with a §6Primitive Pump§f.",
+		"",
+		"- §eEntities Rendered / Loaded§f may help you understand why certain places of your base are §blagging§f that much.",
+		"",
+		"- And once you start playing with §cBlood Magic§f and/or §5Thaumcraft§f, you'll also unlock some §arelevant information§f for them."
+	],
+	dependencies: [
+		"26b332de"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b2563b1a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "bdaef00b",
+		type: "xp",
+		xp: 100
+	}]
+}

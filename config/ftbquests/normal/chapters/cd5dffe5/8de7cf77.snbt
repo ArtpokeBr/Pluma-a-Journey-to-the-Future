@@ -1,0 +1,41 @@
+{
+	title: "Making the Best Mobtrap possible",
+	x: 6.0d,
+	y: -3.0d,
+	description: "Using a Mob Crusher!",
+	text: [
+		"Please, always refer to the §bIndustrial Foregoing's Manual§f for more precise Info, but here's a brief explanation:",
+		"",
+		"- §3The Mob Crusher§f has a §2range§f, and once §9every a few ticks§f it will §cdeal 600 damage§f to all Mobs in it.",
+		"",
+		"- §aThe Result§f will be some amount of §6Essence§f that can be converted into §aXP§f later.",
+		"",
+		"- But most importantly, §2It will collect ALL DROPS§f from Mobs that it has §ckilled§f."
+	],
+	dependencies: [
+		"cde3886a"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "b7d97269",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	},
+	{
+		uid: "3d202fb5",
+		type: "fluid",
+		fluid: "essence"
+	}],
+	rewards: [{
+		uid: "5c9c54b0",
+		type: "item",
+		item: "enderio:item_material 1 42"
+	},
+	{
+		uid: "dff49e29",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

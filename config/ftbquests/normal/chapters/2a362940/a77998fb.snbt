@@ -1,0 +1,34 @@
+{
+	title: "Wood Level Storage",
+	x: -6.6d,
+	y: -6.8999999999999995d,
+	description: "With Acess to Treated Wood, Wooden Level Storage!",
+	text: [
+		"► §3GregTech§f also Offers §aCrates§f and §bBarrels§f as a Way to Store §9Fluids§f and §2Items§f.",
+		"",
+		"▬ This §bBarrel§f will offer you up to §916b of Fluid Storage§f.",
+		"",
+		"▬ This §aCrate§f will offer you up to §227 Slots of Storage§f.",
+		"",
+		"▬ Also it is §dgood to remember§f that any §3GregTech Block§f can have §6Utility Covers§f placed on them."
+	],
+	dependencies: [
+		"67345fdc"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "511fc491",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1610"
+		},
+		{
+			item: "gregtech:machine 1 1625"
+		}]
+	}],
+	rewards: [{
+		uid: "2e8c2cb5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "An Adjustable Storage Unit",
+	x: -3.9d,
+	y: -0.6d,
+	description: "Extremely usefull for automations!",
+	text: [
+		"► Inside its §eGUI§f you'll find an §aⓘ§f, §5hover it with your mouse§f for more specific §5configuration options§f.",
+		"",
+		"► But just so you know, basically once you open this §6Storage Unit§f, you'll be able to §bselect the amount of Slots that it has and how much items each slot can hold§f!",
+		"",
+		"▬ Is there a §2specific item§f that you want to make a passive automation for, §ebut you can't afford to have tons of it§f? use §athis unit with your desired threshold§f!",
+		"",
+		"§8§o▬ This is one of those blocks that is both a way to store stuff and also logistically manage stuff.§f"
+	],
+	dependencies: [
+		"5c91e6d0"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6ca7426c",
+		type: "item",
+		items: [{
+			item: "enderutilities:asu"
+		}]
+	}],
+	rewards: [{
+		uid: "33cd3a40",
+		type: "item",
+		item: "enderutilities:asu",
+		random_bonus: 3
+	}]
+}

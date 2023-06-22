@@ -1,0 +1,26 @@
+{
+	title: "A Diamond Chest!",
+	x: -3.9d,
+	y: -1.7999999999999998d,
+	description: "When Diamonds aren't a problem anymore...",
+	text: [
+		"▬ §6108 Slots§f",
+		"",
+		"▬ Capable of §aStoring up to 6912 Items§f. "
+	],
+	dependencies: [
+		"78fda709"
+	],
+	tasks: [{
+		uid: "52837cb8",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "9dffc090",
+		type: "item",
+		item: "ironchest:iron_chest 1 2"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "A New Circuit Board!",
+	x: 3.7959183673469425d,
+	y: -5.81979100233842d,
+	description: "For brand new and Advanced Circuits!",
+	text: [
+		"► With your recently adquired §6Epoxy Resin§f, time to make some §aCircuit Boards§f!"
+	],
+	dependencies: [
+		"8df8bdec"
+	],
+	tasks: [{
+		uid: "03c92203",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 384"
+		}]
+	},
+	{
+		uid: "f934ba6b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 404"
+		}]
+	}],
+	rewards: [{
+		uid: "c53db6dc",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -14,10 +14,7 @@
 		uid: "bdfa3ce6",
 		type: "item",
 		items: [{
-			id: "actuallyadditions:stone_paxel",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "actuallyadditions:stone_paxel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

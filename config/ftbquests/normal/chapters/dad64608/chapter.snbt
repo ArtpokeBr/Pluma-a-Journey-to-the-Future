@@ -1,0 +1,10 @@
+{
+	title: "&63.&f Interesting Gizmos",
+	icon: {
+		id: "cyclicmagic:tool_launcher",
+		tag: {}
+	},
+	always_invisible: false,
+	group: -1258097374,
+	default_quest_shape: "rsquare"
+}

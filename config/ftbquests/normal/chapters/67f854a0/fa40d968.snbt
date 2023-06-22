@@ -1,0 +1,57 @@
+{
+	title: "Let's Automate Epoxy Resin §6Part II§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "epichlorohydrin",
+			Amount: 1000
+		}
+	},
+	x: -0.7704081632653086d,
+	y: -5.848569036989783d,
+	description: "Let's make Epichlorohydrin!",
+	text: [
+		"§6This Chemical§f is a bit §dtricky§f, as you can have §5multiple paths to obtain it§f.",
+		"",
+		"▬ §nChoose the one that you think that its the best§f, but here's §amy recommendation§f.",
+		"",
+		"► In The Quest §2\"Time to make Diesel! Part V\"§f you've assembled a way to get §ePropene§f, and you'll be using it!",
+		"",
+		"▬ Inside an §6LCR§f, React §b3 Sodium Hydroxide Dust§f, §91000mb of Water§f, §e1000mb of Propene§f and §34000mb of Chlorine§f.",
+		"§8§o(Large Chemical Reactor with a Circuit 24 - 30 EU/t (LV) with a Duration of 32.00 Secs)§f",
+		"",
+		"▬ §aRemember§f: §bSodium Hydroxide Dust§f is a byproduct of your §3Chlorine Production§f.",
+		"",
+		"► If you've already have a §3good source of Chlorine§f and have a §6Distillation Tower generating Propene§f you §cshouldn't have a problem§f."
+	],
+	dependencies: [
+		"54ca0e8a",
+		"375cf157"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "0a2cfb98",
+		type: "fluid",
+		fluid: "epichlorohydrin"
+	}],
+	rewards: [{
+		uid: "512d65f8",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "epichlorohydrin",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "3d976a9a",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

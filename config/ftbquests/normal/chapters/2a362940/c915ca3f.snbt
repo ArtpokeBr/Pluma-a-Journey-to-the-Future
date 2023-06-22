@@ -1,0 +1,85 @@
+{
+	title: "Storing Large Quantites of Items Easily",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: -3.9d,
+	y: -4.2d,
+	description: "Let's make some Storage Drawers!",
+	text: [
+		"► These are a §9§oClassic§f.",
+		"",
+		"▬ §6Drawers§f have §aslots§f, by §bdefault§f, §a1 Slot can hold 32 Stacks§f.",
+		"",
+		"▬ §6Drawers§f have some variations, §a1x1, 1x2, 2x2§f.",
+		"",
+		"▬ §eStorage Amounts are divided by the Amount of Slots§f, so if by default you have §b1 Slot = 32 Stacks§f, once you make a §b2x2 Variation§f, Each §aSlot will be = 8 Stacks§f.",
+		"",
+		"► And to top it all, §6Drawers§f can be made out of many types of §eWood§f §daltering their appearance§f or you can also make a §3Framed Version an Customize them yourself§f!"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "fc82e1cb",
+		type: "item",
+		title: "Any Drawer or Framed Drawer",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerBasic"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "drawerBasic"
+				}
+			}
+		},
+		{
+			item: "storagedrawers:customdrawers"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 1"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 2"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 3"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 4"
+		},
+		{
+			item: "gregtechdrawers:basicdrawers_gregtech_rubber_wood"
+		},
+		{
+			item: "gregtechdrawers:basicdrawers_gregtech_rubber_wood 1 1"
+		},
+		{
+			item: "gregtechdrawers:basicdrawers_gregtech_rubber_wood 1 2"
+		},
+		{
+			item: "gregtechdrawers:basicdrawers_gregtech_rubber_wood 1 3"
+		},
+		{
+			item: "gregtechdrawers:basicdrawers_gregtech_rubber_wood 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "501bed43",
+		type: "item",
+		item: "storagedrawers:customdrawers",
+		count: 4
+	},
+	{
+		uid: "1de3c6c0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

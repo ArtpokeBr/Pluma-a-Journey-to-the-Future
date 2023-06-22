@@ -1,0 +1,26 @@
+{
+	title: "Tungstensteel Level Storage",
+	x: -3.0d,
+	y: -6.8999999999999995d,
+	description: "Finally, The End of a Line!",
+	text: [
+		"► Want tons of Fluid Storage? consider making Super Tanks!",
+		"",
+		"▬ This §aCrate§f will offer you up to §2144 Slots of Storage§f.",
+		"",
+		"▬ Also it is §dgood to remember§f that any §3GregTech Block§f can have §6Utility Covers§f placed on them."
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "b39c0a32",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1631"
+		}]
+	}],
+	rewards: [{
+		uid: "d695586f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

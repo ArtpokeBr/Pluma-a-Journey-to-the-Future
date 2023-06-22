@@ -1,0 +1,43 @@
+{
+	title: "Wireless RF Energy Transfer at last!",
+	x: 0.0d,
+	y: -0.5d,
+	description: "Not the best... but viable!",
+	text: [
+		"If you don't need tons of §eRF Transfered§f to a specific spot in your §bbase§f, maybe this §3Extra Utils Method§f could be used.",
+		"",
+		"- First. have at least some §5GP being generated§f and provide the §cbattery block with some RF§f.",
+		"",
+		"- Second, simply place your §6Transmitter§f near the §2spot you wish to transfer§f and voilá! it will §etransfer about 80 RF/t§f §8§o(or about 20 EU/t)§f."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1f69ab74"
+	],
+	tasks: [{
+		uid: "7aba1c68",
+		type: "item",
+		items: [{
+			item: "extrautils2:powerbattery"
+		}]
+	},
+	{
+		uid: "5d180bd9",
+		type: "item",
+		items: [{
+			item: "extrautils2:powertransmitter"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0cb54e64",
+		type: "item",
+		item: "enderutilities:ender_elevator",
+		count: 2
+	},
+	{
+		uid: "281f8b75",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

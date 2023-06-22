@@ -74,27 +74,6 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "7e75ac23",
-		type: "item",
-		title: "Any Hammer",
-		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceHardHammers"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "gtceHardHammers"
-				}
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
 		uid: "7cd697c9",
 		type: "item",
 		title: "Any File",

@@ -154,5 +154,10 @@
     "fluidName": "seed_oil",
     "input": "exnihilocreatio:hive:0",
     "output": "exnihilocreatio:hive:1"
+  },
+  {
+    "fluidName": "water",
+    "input": "gregtech:stone_smooth:4",
+    "output": "gregtech:stone_smooth:5"
   }
 ]

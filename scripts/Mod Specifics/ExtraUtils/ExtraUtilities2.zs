@@ -426,11 +426,11 @@ craft.make(<extrautils2:angelblock>, ["pretty",
 recipes.removeByRecipeName("extrautils2:redstone_clock");
 craft.make(<extrautils2:redstoneclock>, ["pretty",
   "s ♥ s",
-  "♥ □ ♥",
+  "♥ P ♥",
   "s ♥ s"], {
-  "s": <ore:stone>, 					      # Stone
-  "♥": <ore:dustRedstone> | <ore:alloyBasic>, # Redstone
-  "□": <minecraft:clock>					  # Clock
+  "s": <ore:stone>,                           # Stone
+  "♥": <ore:dustRedstone>,                    # Redstone
+  "P": <projectred-core:resource_item:12>,    # Pointer
 });
 
 # [Analog Crafter] from [Crafting Table][+2]

@@ -1,0 +1,31 @@
+{
+	title: "Aluminium Level Storage",
+	x: -4.8d,
+	y: -7.8d,
+	description: "Using Solid Energy as a way to improve your Storage Facility!",
+	text: [
+		"► §3GregTech§f Offers §aCrates§f and §bBarrels§f as a Way to Store §9Fluids§f and §2Items§f.",
+		"",
+		"▬ This §bBarrel§f will offer you up to §9128b of Fluid Storage§f.",
+		"",
+		"▬ This §aCrate§f will offer you up to §290 Slots of Storage§f.",
+		"",
+		"▬ Also it is §dgood to remember§f that any §3GregTech Block§f can have §6Utility Covers§f placed on them."
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "622d5c1f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1628"
+		},
+		{
+			item: "gregtech:machine 1 1613"
+		}]
+	}],
+	rewards: [{
+		uid: "865a6d33",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

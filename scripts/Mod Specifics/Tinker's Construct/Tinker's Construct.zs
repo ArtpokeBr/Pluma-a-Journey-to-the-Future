@@ -94,7 +94,7 @@ craft.make(<tinkersaddons:modifier_item:4>, ["pretty",
 
 // Smeltery Controller
 recipes.remove(<tconstruct:smeltery_controller:0>);
-recipes.addShaped(<tconstruct:smeltery_controller:0> * 1, [[<contenttweaker:searedplate>, <contenttweaker:searedplate>, <contenttweaker:searedplate>], [<contenttweaker:searedplate>, <pyrotech:cog_gold>, <contenttweaker:searedplate>],[<contenttweaker:searedplate>, <contenttweaker:searedplate>, <contenttweaker:searedplate>]]);
+recipes.addShaped(<tconstruct:smeltery_controller:0> * 1, [[<contenttweaker:searedplate>, <contenttweaker:searedplate>, <contenttweaker:searedplate>], [<contenttweaker:searedplate>, <ore:gearBronze>, <contenttweaker:searedplate>],[<contenttweaker:searedplate>, <contenttweaker:searedplate>, <contenttweaker:searedplate>]]);
 
 // Seared Tank
 recipes.remove(<tconstruct:seared_tank:0>);

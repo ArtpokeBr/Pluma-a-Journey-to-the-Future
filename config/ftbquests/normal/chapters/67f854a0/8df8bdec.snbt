@@ -1,0 +1,52 @@
+{
+	title: "Let's Automate Epoxy Resin §6Final Part§f",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "epoxy",
+			Amount: 1000
+		}
+	},
+	x: 0.5561224489795933d,
+	y: -5.848569036989787d,
+	description: "Finally, Epoxy Resin!",
+	text: [
+		"► Finally a §aNew Tier of Plastic§f!",
+		"",
+		"▬ Inside a §6LCR§f, React §93 Sodium Hydroxide Dust§f, §31000mb of Acetone§f, §e2000mb of Phenol§f, §61000mb of Epychlorohydrin§f and §b1000mb of Hydrochloric Acid§f.",
+		"§8§o(Large Chemical Reactor with Circuit 24 - 30 EU/t (LV) with a Duration of 24.00 Secs)§f",
+		"",
+		"▬ And as a §2Byproduct§f you'll also get some §9Salt Water§f and §3Diluted Hydrochloric Acid§f, this is nice, cause you can them §2reprocess and reuse them§f!"
+	],
+	dependencies: [
+		"fa40d968",
+		"bee7180d",
+		"38d41ab3"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "04441baf",
+		type: "fluid",
+		fluid: "epoxy"
+	}],
+	rewards: [{
+		uid: "b217d463",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "epoxy",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "1454e8d4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

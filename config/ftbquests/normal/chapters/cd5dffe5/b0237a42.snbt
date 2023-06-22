@@ -1,0 +1,52 @@
+{
+	title: "A Special Type of Plastic",
+	x: -1.0d,
+	y: -3.0d,
+	description: "Industrial Plastic!",
+	text: [
+		"Time to set up a §3Plastic Production§f! §bIndustrial Foregoing§f is a neat mod and it §arequires a ton of it§f!",
+		"",
+		"- First, get some §eSticky Resin§f from §2Rubber Trees§f and §edry them§f to get some §6Dry Rubber§f.",
+		"",
+		"§8§o(You'll be able to easilly automate this with NuclearCraft later on)§r§f",
+		"",
+		"- Second, mix this §6Dry Rubber§f with §9Latex§f and some §eSulfur§f and voilá! §bIndustrial Plastic Sheets§f!"
+	],
+	dependencies: [
+		"2e2ec59e"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "dd04a2c0",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:dryrubber"
+		}]
+	},
+	{
+		uid: "9e899135",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}]
+	}],
+	rewards: [{
+		uid: "4b56b90b",
+		type: "item",
+		item: "gregtech:rubber_sapling",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "67edb654",
+		type: "item",
+		item: "forestry:fertilizer_compound",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "9d5bfbd9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

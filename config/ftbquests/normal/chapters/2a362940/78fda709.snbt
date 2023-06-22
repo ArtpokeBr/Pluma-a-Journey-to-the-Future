@@ -1,0 +1,26 @@
+{
+	title: "A Golden Chest!",
+	x: -4.8d,
+	y: -1.7999999999999998d,
+	description: "Huge amounts of Storage!",
+	text: [
+		"▬ §681 Slots§f",
+		"",
+		"▬ Capable of §aStoring up to 5184 Items§f. "
+	],
+	dependencies: [
+		"0a284a94"
+	],
+	tasks: [{
+		uid: "b23d5517",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "507d61e1",
+		type: "item",
+		item: "ironchest:iron_chest 1 1"
+	}]
+}

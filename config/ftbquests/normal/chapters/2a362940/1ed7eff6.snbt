@@ -1,0 +1,29 @@
+{
+	title: "A Massive Storage Bundle!",
+	x: -8.7d,
+	y: -3.5999999999999996d,
+	description: "A Ridiculous way to store tons of Items!",
+	text: [
+		"► Inside its §eGUI§f you'll find an §aⓘ§f, §5hover it with your mouse§f for more specific §5configuration options§f.",
+		"",
+		"▬ §aEverything explained§f in the §6\"A Massive Storage Unit\"§f quest applies here, but now with §e9 Slots§f!",
+		"",
+		"§8§o~ Please, do not try to fill this as a secondary objetive after completing the pack...  (for some reason people like this type of grind)§f"
+	],
+	dependencies: [
+		"ddd75b16"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "06ab37f9",
+		type: "item",
+		items: [{
+			item: "enderutilities:msu 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "77037396",
+		type: "item",
+		item: "enderutilities:msu 1 1"
+	}]
+}

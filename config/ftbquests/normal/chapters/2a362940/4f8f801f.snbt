@@ -1,0 +1,24 @@
+{
+	title: "A Copper Chest",
+	x: -5.7d,
+	y: -2.6999999999999997d,
+	description: "A Good way to use your First Copper Ingots!",
+	text: [
+		"▬ §645 Slots§f",
+		"",
+		"▬ Capable of §aStoring up to 2880 Items§f. "
+	],
+	tasks: [{
+		uid: "6653921b",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "2cffbd50",
+		type: "item",
+		item: "ironchest:wood_copper_chest_upgrade",
+		random_bonus: 3
+	}]
+}

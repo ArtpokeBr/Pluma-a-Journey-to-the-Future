@@ -1,39 +1,37 @@
-§a§lVersion Beta§r§f 3.2:
+§a§lVersion Beta§r§f 3.3:
 
 §b§lMod Related Changes§r§f:
 
-- Added Mini Effects (compacts the potion effects tabs in your Inventory Gui)
-- Added Sledgehammer (Fixes some Server and Client Issues hopefully)
-- Added Hole Filler Mod (Neat way to fill random Holes generated in your World)
-- Added Little Tiles (A Way to enhance even more Base Building QOL).
-
-- Updated Crafttweaker
-- Updated MAtmos
-- Updated Xaeros Package (Minimap and Worldmap)
+- Updated AE2 Fluid Crafting
+- Updated Mekanism Community Edition
+- Updated Open Computers
 - Updated CensoredASM
 - Updated HEI
-- Updated Multiblocked
+- Updated Crafttweaker
 
-- Swapped Phosphor -> Hesperus (A Now maintened Fork with new Fixes)
+- Added IronChests
+- Added Startup Timer
+- Added Performant
+- Added ULV Covers
 
 §2§lFixes§r§f:
 
-- Charged Certus and Fluix Crystals now have a proper recipe.
-- Removed some Incorrect Vanilla Rail recipes in the assembler.
+- Fixed Incorrect Flour Recipes.
+- Fixed Broken Main Menu Buttom (CurseForge Page)
+- Fixed Incorrect Recipe for the ExNihilo Sieve
+- Fixed Incorrect Baguette and Rice Bread Recipes.
 
 §5§lMiscellaneous§r§f:
 
-- There are now Brand New Dark Mode Textures in the Included Resource Pack (Updated Default Options to include it)!
-- Tweaked Chisel's Cloud Block Recipe
-- Nature's Core from RandomThings now have a Recipe (It doesn't generate naturally anymore).
-- Rearranged some Quests in Chapter 1 in order to make the progression more clearer.
-- Carpets now require a Cutting Saw to be done.
-- The AE2 Charger is back! added a quest for it in HV.
-- The Logistic Pipes HUD Glasses now have recipe.
-- Re-Enabled Cyclic's Forester and Item Magnet Plate.
-- Unstable Ender Pearl's are a bit cheaper now (Shifting Scales -> AA Void Crystal).
-- Ender IO's Pulsating and Vibrant Crystals can be made inside of a Smeltery and are a bit cheaper.
-- Tweaked some recipes of Ember's Gadgets.
-- Tweaked some recipes of LazyAE2 Blocks.
-- Drawer Controller and Controller Slave are a bit cheaper now (Super Glue -> Refined Glue)
-- AE2 Processors now also require +100mb of Super Glue aswell and a Redstone Dust instead of Liquid Redstone.
+- Really Improved the Quest Book with more Chapters, organization and descriptions for certain items,mechanics and aspects of the pack.
+- Tweaked some values for Gendustry Machines, in general, increasing their buffers and energy comsumption.
+- Some Tweaks to Chapter 1 Quests in order to make them more Clear.
+- Removed Flint Mortar and Knife alternate Recipes.
+- Buffed the Redstone Clock (XU2) Recipe, doesn't need a Clock anymore, wich means no need for Gold.
+- Lowered the amount of minimum saturation for contribuitions to Spice of Life Health Milestones, wich means, Binnies Brews will now contribute to it.
+- Disabled Binnies Field Kit (essentially a bee analyzer that consumes Paper instead of honey drops).
+- Buffed Smeltery Controller Recipe (Gold Cog -> Bronze Gear).
+- Gregtech's Concrete and Dark Concrete now have compat with Chisel
+- Gregtech's Light Concrete can now be melted aswell.
+- Gregetech's Dark Concrete can now also be made using ExNihilo's Barrel and Pyrotech's Soaking Pot.
+- Added Crop to Seed Recipes for certain Crops (Wheat, Barley, Lotus...)

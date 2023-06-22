@@ -1,8 +1,8 @@
 {
 	title: "Producing Industrial Amounts of EU!",
 	icon: "gregtech:machine 1 2027",
-	x: 3.5d,
-	y: -8.0d,
+	x: 3.9263605442176868d,
+	y: -8.004761904761892d,
 	description: "Lets assemble an Industrial Steam Engine!",
 	text: [
 		"Simple yet very effective.",

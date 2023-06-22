@@ -1,0 +1,30 @@
+{
+	title: "More Slots, More Storage!",
+	icon: "actuallyadditions:block_giant_chest",
+	x: -0.8999999999999999d,
+	y: -4.8d,
+	description: "Let's make an Actually Additions Small Storage Crate",
+	text: [
+		"► §3Iron Chests§f aren't enough for your needs? Let's make §asomething bigger§f!",
+		"",
+		"▬ §3Actually Additions§f can offer you this §6Crate§f, §b&nit can hold up to 117 Stacks of items§f.",
+		"",
+		"▬ Don't forget that just like §3Iron Chests§f, §eyou can also use upgrades on them§f."
+	],
+	tasks: [{
+		uid: "7c26ced4",
+		type: "item",
+		title: "A Small Crate or an Chest to Small Crate Upgrade",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		},
+		{
+			item: "actuallyadditions:item_chest_to_crate_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "d4f57f74",
+		type: "item",
+		item: "actuallyadditions:item_chest_to_crate_upgrade"
+	}]
+}

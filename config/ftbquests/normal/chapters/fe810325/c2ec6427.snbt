@@ -1,0 +1,61 @@
+{
+	title: "Let's Get Dynamic!",
+	x: -2.0d,
+	y: -1.5d,
+	description: "Time to get into Integrated Dynamics!",
+	text: [
+		"Thats correct! it is finally time to get into this §6awesome mod§f.",
+		"",
+		"- I'am not going to listen all §2blocks§f and §2possibilities§f with this §3Mod§f since it is §cvery massive§f.",
+		"",
+		"- But with a couple of §bvariable cards§f and this §bcrafting components§f, you'll be able to §2craft/use§f some §6readers and writers§f!",
+		"",
+		"~ Want to know how to use it? feel free to ask in our §9Discord§f. §aLink at the Main Menu§f."
+	],
+	dependencies: [
+		"5c98b7a0",
+		"4f0e8e33"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6f2ae433",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variable_transformer"
+		}],
+		count: 8L
+	},
+	{
+		uid: "399bd2d5",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variable_transformer 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "c886d99d",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:variable"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3f701ae4",
+		type: "item",
+		item: "integrateddynamics:variable",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "7e0b1b69",
+		type: "item",
+		item: "integrateddynamics:portable_logic_programmer"
+	},
+	{
+		uid: "98335602",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "An Early Game Storage Solution!",
+	x: -1.7999999999999998d,
+	y: -6.0d,
+	description: "Tired of Searching in your Chests for Materials?",
+	text: [
+		"§6The Shelving Unit§f is a very §aNeat Storage solution§f for all your §bEarly game problems§f!",
+		"",
+		"- Simply §2Right Click§f with some §3Chests§f on each of its layers to fill them.",
+		"",
+		"- §3Each layer§f is a separate storage compartiment.",
+		"",
+		"- You can simply §aright click on the structure to acess its GUI§f and search for items this way!"
+	],
+	dependencies: [
+		"8b8ed045"
+	],
+	tasks: [{
+		uid: "4eb584f8",
+		type: "item",
+		items: [{
+			item: "magneticraft:shelving_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "9a4bbffa",
+		type: "item",
+		item: "magneticraft:multiblock_parts 1 2",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "760b8588",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

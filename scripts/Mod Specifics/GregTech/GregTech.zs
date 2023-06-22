@@ -1,4 +1,9 @@
 import mods.gregtech.recipe.RecipeMap;
+import mods.pyrotech.SoakingPot as SoakingPot;
+import crafttweaker.item.IItemStack;
+import mods.tconstruct.Melting as Melting;
+import mods.tconstruct.Casting as Casting;
+import crafttweaker.item.IIngredient;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -18,12 +23,12 @@ import mods.gregtech.recipe.RecipeMap;
 
 // Mortar Tools being made with Flint Shards
 
+/*
 recipes.remove(<gregtech:mortar>.withTag({DisallowContainerItem: 0 as byte, "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 64, AttackDamage: 0.0 as float, Durability: 0, Material: "flint", HarvestLevel: 1, AttackSpeed: -2.4 as float}}));
 recipes.remove(<gregtech:knife>.withTag({DisallowContainerItem: 0 as byte, ench: [{lvl: 2 as short, id: 20}], "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 64, AttackDamage: 1.0 as float, Durability: 0, Material: "flint", AttackSpeed: 3.0 as float}}));
-
 recipes.addShaped(<gregtech:mortar>.withTag({DisallowContainerItem: 0 as byte, "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 64, AttackDamage: 0.0 as float, Durability: 0, Material: "flint", HarvestLevel: 1, AttackSpeed: -2.4 as float}}) * 1, [[null, <pyrotech:material:10>, null], [<ore:stone>, <pyrotech:material:10>, <ore:stone>],[<ore:stone>, <ore:stone>, <ore:stone>]]);
 recipes.addShapeless("GTFlintKnife",<gregtech:knife>.withTag({DisallowContainerItem: 0 as byte, ench: [{lvl: 2 as short, id: 20}], "GT.Behaviours": {}, HideFlags: 2, "GT.Tool": {MaxDurability: 64, AttackDamage: 1.0 as float, Durability: 0, Material: "flint", AttackSpeed: 3.0 as float}}),[<pyrotech:material:10>, <ore:stickWood>]);
-
+*/
 
 // Early Game Concrete
 recipes.remove(<forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000}));
@@ -711,5 +716,98 @@ autoclave.recipeBuilder()
     .duration(1200)
     .EUt(480)
 .buildAndRegister();
+
+/// =========================================================================================================
+
+//Concrete Integration
+var GTConcreteChisel as IItemStack[] = [
+<gregtech:stone_smooth:4>,
+<gregtech:stone_polished:4>,
+<gregtech:stone_bricks:4>,
+<gregtech:stone_bricks_cracked:4>,
+<gregtech:stone_bricks_mossy:4>,
+<gregtech:stone_chiseled:4>,
+<gregtech:stone_tiled:4>,
+<gregtech:stone_bricks_square:4>,
+<gregtech:stone_windmill_b:4>,
+<gregtech:stone_windmill_a:4>,
+<gregtech:stone_bricks_small:4>,
+<gregtech:stone_tiled_small:4>,
+];
+for i in GTConcreteChisel {
+mods.chisel.Carving.addVariation("gt_concrete", i);
+}
+
+# Also Dark Concrete Chiseling
+var GTDarkConcreteChisel as IItemStack[] = [
+<gregtech:stone_smooth:5>,
+<gregtech:stone_polished:5>,
+<gregtech:stone_bricks:5>,
+<gregtech:stone_bricks_cracked:5>,
+<gregtech:stone_bricks_mossy:5>,
+<gregtech:stone_chiseled:5>,
+<gregtech:stone_tiled:5>,
+<gregtech:stone_tiled_small:5>,
+<gregtech:stone_bricks_small:5>,
+<gregtech:stone_windmill_a:5>,
+<gregtech:stone_windmill_b:5>,
+<gregtech:stone_bricks_square:5>
+];
+for i in GTDarkConcreteChisel {
+mods.chisel.Carving.addVariation("gt_darkConcrete", i);
+}
+
+# Dark Concrete "Easier" Recipe
+
+var DarkConcreteAdditionalRecipes as IItemStack[IIngredient] = {
+    <gregtech:stone_smooth:4>:  <gregtech:stone_smooth:5>,
+    <gregtech:stone_polished:4>:  <gregtech:stone_polished:5>,
+    <gregtech:stone_bricks:4>:  <gregtech:stone_bricks:5>,
+    <gregtech:stone_bricks_cracked:4>:  <gregtech:stone_bricks_cracked:5>,
+    <gregtech:stone_bricks_mossy:4>:  <gregtech:stone_bricks_mossy:5>,
+    <gregtech:stone_chiseled:4>:  <gregtech:stone_chiseled:5>,
+    <gregtech:stone_tiled:4>:  <gregtech:stone_tiled:5>,
+    <gregtech:stone_bricks_square:4>:  <gregtech:stone_bricks_square:5>,
+    <gregtech:stone_windmill_b:4>:  <gregtech:stone_windmill_b:5>,
+    <gregtech:stone_windmill_a:4>:  <gregtech:stone_windmill_a:5>,
+    <gregtech:stone_bricks_small:4>:  <gregtech:stone_bricks_small:5>,
+    <gregtech:stone_tiled_small:4>:  <gregtech:stone_tiled_small:5>,
+    <gregtech:stone_cobble_mossy:4>: <gregtech:stone_cobble_mossy:5>,
+    <gregtech:stone_cobble:4>: <gregtech:stone_cobble:5>
+
+    };
+for IItemStack, IIngredient in DarkConcreteAdditionalRecipes {
+        SoakingPot.addRecipe(
+            "DarkConcreteSoak-" + IIngredient.name,    // unique recipe name
+            IIngredient,                              // recipe output
+            <liquid:water> * 500,                    // input fluid
+            IItemStack,                             // input item
+            600                                    // recipe duration in ticks
+        );
+}
+
+//Casting and Melting Concrete
+Casting.addBasinRecipe(<gregtech:stone_smooth:4>, null, <liquid:concrete>, 144);
+
+var GTConcreteMelt as IItemStack[] = [
+<gregtech:stone_cobble:4>,
+<gregtech:stone_smooth:4>,
+<gregtech:stone_cobble_mossy:4>,
+<gregtech:stone_polished:4>,
+<gregtech:stone_bricks:4>,
+<gregtech:stone_bricks_cracked:4>,
+<gregtech:stone_bricks_mossy:4>,
+<gregtech:stone_chiseled:4>,
+<gregtech:stone_tiled:4>,
+<gregtech:stone_bricks_square:4>,
+<gregtech:stone_windmill_b:4>,
+<gregtech:stone_windmill_a:4>,
+<gregtech:stone_bricks_small:4>,
+<gregtech:stone_tiled_small:4>,
+<ore:dustConcrete>.firstItem
+];
+for i in GTConcreteMelt {
+Melting.addRecipe(<liquid:concrete>*144, i, 350);
+}
 
 /// =========================================================================================================

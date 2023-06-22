@@ -1,0 +1,33 @@
+{
+	title: "Automating Potions",
+	icon: "industrialforegoing:potion_enervator",
+	x: 0.0d,
+	y: -4.5d,
+	shape: "rsquare",
+	description: "Lets make a Potion Brewer",
+	text: [
+		"Please, always refer to the §bIndustrial Foregoing's Manual§f for more precise Info, but here's a brief explanation:",
+		"",
+		"- The §6Potion Brewer§f is an excellent solution if you want to automate some §5potions§f.",
+		"",
+		"- Simply provide the right §eReagents§f, §9Water§f and some §bBottles§f.",
+		"",
+		"- But, keep in mind that it can only produce §5\"vanilla style\" potions§f, this means that those §dadvanced ones§f from §3Cofh Core§f aren't possible here."
+	],
+	dependencies: [
+		"10614672"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2c29b054",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:potion_enervator"
+		}]
+	}],
+	rewards: [{
+		uid: "ba5d2927",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

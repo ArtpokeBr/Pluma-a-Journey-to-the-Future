@@ -1,0 +1,37 @@
+{
+	title: "Time to make a Nanoprocessor!",
+	x: 5.020408163265309d,
+	y: -5.819791002338416d,
+	description: "The Best HV Circuit!",
+	text: [
+		"► After finally getting §6Epoxy Circuit Boards§f and §bNano CPU Wafers§f, time to make a really nice §aCircuit§f!",
+		"",
+		"▬ As it was mentioned in the §bSubtitle§f, this is the §e§nBest HV Circuit§f that you can get, make sure to §2fully automate it§f!",
+		"",
+		"▬ Oh and there are §a2 possible recipes for it§f, one will be unlocked at §eLuV§f and you'll probally §dswitch to it in the future§f as it is much better."
+	],
+	dependencies: [
+		"cb242a30",
+		"5d14cdff"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "747c3675",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 632"
+		}]
+	}],
+	rewards: [{
+		uid: "835dde02",
+		type: "item",
+		item: "gregtech:meta_item_1 1 632",
+		count: 2
+	},
+	{
+		uid: "d9651ef3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

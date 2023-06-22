@@ -1,0 +1,44 @@
+{
+	title: "A Silver/Iron Chest!",
+	x: -5.7d,
+	y: -1.7999999999999998d,
+	description: "The Silver Chest seems to be better... but the cost...",
+	text: [
+		"§2Both of them§f are in the same quest, as §2both of them§f can be used to §emake the next tier of Chest§f!",
+		"",
+		"► §bSilver Chest§f:",
+		"",
+		"▬ §672 Slots§f",
+		"",
+		"▬ Capable of §aStoring up to 4608 Items§f. ",
+		"",
+		"§8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬§f",
+		"",
+		"► §3Iron Chest§f:",
+		"",
+		"▬ §654 Slots§f",
+		"",
+		"▬ Capable of §aStoring up to 3456 Items§f. "
+	],
+	dependencies: [
+		"4f8f801f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "5f4c5f7f",
+		type: "item",
+		title: "A Silver or Iron Chest",
+		items: [{
+			item: "ironchest:iron_chest"
+		},
+		{
+			item: "ironchest:iron_chest 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "e4b89aa4",
+		type: "choice",
+		title: "Choose! 2x Iron or 2x Silver Chest Upgrades?",
+		table: 14
+	}]
+}

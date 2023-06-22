@@ -41,10 +41,7 @@
 		uid: "4bde3155",
 		type: "item",
 		items: [{
-			id: "harvestcraft:cuttingboarditem",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "harvestcraft:cuttingboarditem"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

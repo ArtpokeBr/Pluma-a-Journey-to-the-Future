@@ -1,8 +1,8 @@
 {
 	title: "Nano CPU Wafers!",
 	icon: "gregtech:meta_item_1 1 594",
-	x: 6.0d,
-	y: -2.0d,
+	x: 5.0204081632653015d,
+	y: -3.4524440635629077d,
 	description: "A Much more advanced type of Wafer",
 	text: [
 		"Now that we are working at §bEV Level§f, it is time to further expand our §6HV Infrastructure§f.",

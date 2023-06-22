@@ -267,3 +267,14 @@ craft.make(<pyrotech:barrel>, ["pretty",
   "W": <exnihilocreatio:block_barrel0>, # Wooden Barrel
   "a": <pyrotech:planks_tarred>,        # Tarred Planks
 });
+
+# [Ironclad Anvil] from [Polished Granite][+2]
+recipes.removeByRecipeName("pyrotech:tech/basic/anvil_iron_plated");
+craft.make(<pyrotech:anvil_iron_plated>, ["pretty",
+  "□ □ □",
+  "G G G",
+  "S S S"], {
+  "□": <ore:plateIron>,              # Iron Plate
+  "G": <ore:stoneGranitePolished>, # Polished Granite
+  "S": <ore:slabStone>, # Stone Slab
+});

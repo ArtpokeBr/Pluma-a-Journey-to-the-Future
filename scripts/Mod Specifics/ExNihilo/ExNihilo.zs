@@ -26,7 +26,7 @@ recipes.remove(<exnihilocreatio:block_sieve>);
 Pyre.addRecipe(
   "ExNihiloSieve",
   <exnihilocreatio:block_sieve>,   // the output of this recipe
-  [<magneticraft:crafting:5>, <forestry:oak_stick>, <forestry:oak_stick>, <actuallyadditions:block_misc:4>, <ore:dustArdite>] // a list of five ingredients (no more, no less)
+  [<ore:screwWroughtIron>, <forestry:oak_stick>, <forestry:oak_stick>, <actuallyadditions:block_misc:4>, <ore:dustArdite>] // a list of five ingredients (no more, no less)
 );
 
 # [String Mesh] from [Fabric Mesh][+1]

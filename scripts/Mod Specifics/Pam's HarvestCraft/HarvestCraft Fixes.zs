@@ -110,4 +110,70 @@ craft.shapeless(<harvestcraft:fishtrapbaititem>*4, "ttotAT", {
 //Disabling the Paper Bark
 recipes.remove(<harvestcraft:paperbark_sapling>);
 
+//Wheat/Barley Fix
+recipes.removeByRecipeName("gregtech:wheat_to_dust");
+recipes.removeByRecipeName("natura:common/barley_flour");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropamaranth");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropchestnut");
+recipes.removeByRecipeName("harvestcraft:flouritem_croppeas");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropoats");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropbarley");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropbanana");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropquinoa");
+recipes.removeByRecipeName("harvestcraft:flouritem_croprice");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropwheat");
+recipes.removeByRecipeName("harvestcraft:flouritem_croptaro");
+recipes.removeByRecipeName("harvestcraft:flouritem_croppotato");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropcassava");
+recipes.removeByRecipeName("harvestcraft:flouritem_croprye");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropchickpea");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropbean");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropalmond");
+recipes.removeByRecipeName("harvestcraft:flouritem_listallwheat");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropsoybean");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropcoconut");
+recipes.removeByRecipeName("harvestcraft:flouritem_cropmillet");
+<recipemap:macerator>.findRecipe(2, [<minecraft:wheat:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:hay_block:0>], null).remove();
+
+# [Flour] from [Barley][+1]
+craft.shapeless(<ore:dustWheat>.firstItem, "MB", {
+  "M": <ore:gtceMortars>, # Iron Mortar
+  "B": <ore:cropWheat> | <ore:cropOats> | <ore:cropRye>, # Wheat, Oats and Rye
+});
+
+macerator.recipeBuilder()
+  .inputs([<ore:cropBarley>])
+  .outputs(<natura:materials:1> * 2)
+  .duration(98)
+  .EUt(2)
+.buildAndRegister();
+
+macerator.recipeBuilder()
+  .inputs([<minecraft:hay_block>])
+  .outputs(<ore:dustWheat>.firstItem * 27)
+  .duration(882)
+  .EUt(2)
+.buildAndRegister();
+
+macerator.recipeBuilder()
+  .inputs([<ore:cropWheat>])
+  .outputs(<ore:dustWheat>.firstItem * 3)
+  .duration(98)
+  .EUt(2)
+.buildAndRegister();
+
+macerator.recipeBuilder()
+  .inputs([<ore:cropOats>])
+  .outputs(<ore:dustWheat>.firstItem * 3)
+  .duration(98)
+  .EUt(2)
+.buildAndRegister();
+
+macerator.recipeBuilder()
+  .inputs([<ore:cropRye>])
+  .outputs(<ore:dustWheat>.firstItem * 3)
+  .duration(98)
+  .EUt(2)
+.buildAndRegister();
 

@@ -1,0 +1,27 @@
+{
+	title: "You've Unlocked some Storage Options!",
+	icon: "ftbquests:chest",
+	x: 2.5017006802721156d,
+	y: 1.4166666666666714d,
+	description: "Remember to Always Check out new Quest Chapters being Unlocked!",
+	text: [
+		"► Now that you have acess to §3Wood and a Crafting Table§f, you can make yourself some §2Storage Blocks§f.",
+		"",
+		"▬ Inside of the §a\"Expanding your Knowledge\"§f Group, you'll find a bunch of §6Quest Chapters§f focused on teaching you §emechanics§f, including, §2Storage§f!",
+		"",
+		"▬ §nAlways make sure to go there check them out§f, as you'll be §bunlocking more and more quests§f as you progress further."
+	],
+	dependencies: [
+		"d0cedb3d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f6ccd282",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "9e603e5f",
+		type: "xp",
+		xp: 100
+	}]
+}

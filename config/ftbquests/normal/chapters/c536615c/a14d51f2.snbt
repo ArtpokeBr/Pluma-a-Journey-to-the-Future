@@ -1,0 +1,44 @@
+{
+	title: "A Crazy way to produce Lava!",
+	x: 2.967176870748304d,
+	y: -8.004761904761892d,
+	description: "Did you know this interesting secret?",
+	text: [
+		"► This is something quite interesting to know.",
+		"",
+		"▬ If you pipe §eCobblestone§f into a §6Pressurized Tank§f that already has §cLava§f inside and it is accepting Items into its §5Void Slot§f...",
+		"",
+		"► You'll get a simple way to §cGenerate Lava§f only by using §3Cobblestone§f and no §eEnergy§f at all!",
+		"",
+		"§8§o~ This is quite slow, but it is always good to have a cheap and infinite way to produce something right?§f"
+	],
+	dependencies: [
+		"7efb13b3"
+	],
+	tasks: [{
+		uid: "ee19c13b",
+		type: "item",
+		items: [{
+			id: "enderio:block_tank",
+			Damage: 1s,
+			tag: {
+				"enderio:data": {
+					tank: {
+						Empty: "",
+						Capacity: 32000
+					}
+				}
+			}
+		}]
+	},
+	{
+		uid: "56ad7a4c",
+		type: "fluid",
+		fluid: "lava"
+	}],
+	rewards: [{
+		uid: "440fd6a8",
+		type: "item",
+		item: "nuclearcraft:cobblestone_generator"
+	}]
+}

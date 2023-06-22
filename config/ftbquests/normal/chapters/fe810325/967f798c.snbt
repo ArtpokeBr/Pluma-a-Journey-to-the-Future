@@ -1,0 +1,42 @@
+{
+	title: "Finally a Tesseract!",
+	x: 0.0d,
+	y: -1.5d,
+	description: "Almost feels like where back to 1.7!",
+	text: [
+		"Now that you have §3Enderium§f, you've reached §aa major progress mark§f.",
+		"",
+		"► Now you can craft an §dEnder IO Transceiver§f or an §5Mekanism Entangloporter§f.",
+		"",
+		"▬ And they both work in a similar way, you're able to create §2different channels and connect them together to transfer stuff wirelessly§f.",
+		"",
+		"▬ Also keep in mind that if you wish to Transfer §eGasses Wirelessly§f, the §dEnder IO Transceiver§f unfortunatly §c§ncan't do that§f.",
+		"",
+		"§8~ Remember that the Thermal Expansion Tesseract used to be a thing? I really miss them... =<§r"
+	],
+	dependencies: [
+		"fd583ee9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ad205f2d",
+		type: "item",
+		title: "Any \"Tesseract\"",
+		items: [{
+			item: "enderio:block_transceiver"
+		},
+		{
+			item: "mekanism:machineblock3"
+		}]
+	}],
+	rewards: [{
+		uid: "89c6fbf1",
+		type: "choice",
+		table: 13
+	},
+	{
+		uid: "6b1adbd6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

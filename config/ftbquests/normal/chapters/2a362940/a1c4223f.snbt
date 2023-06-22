@@ -1,0 +1,36 @@
+{
+	title: "An Elegant Solution for Storage!",
+	x: -1.7999999999999998d,
+	y: -3.5999999999999996d,
+	description: "Let's make a Barrel!",
+	text: [
+		"The Barrel from §3Ender Utilities§f will be your best friend if you want to §6store large quantities of Items§f in a single place!",
+		"",
+		"- Wanto to §eUpgrade it§f? use a §6capacity upgrade§f to increase its §2internal storage§f by §a256 stacks§f!",
+		"",
+		"- Want to §2not drop its content's when broken§f? add a §6structural upgrade§f!",
+		"",
+		"- Want §9extra Labels§f on other sides? use a §6Barrel Label§f!",
+		"",
+		"- Want to §5Void the Excess§f? There's an §6Void Upgrade§f too!",
+		"",
+		"- Oh and you can also use a §akey§f  to §9lock it§f. "
+	],
+	dependencies: [
+		"c498572f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "9aa7f31b",
+		type: "item",
+		items: [{
+			item: "enderutilities:barrel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "739317fa",
+		type: "item",
+		item: "enderutilities:enderpart 1 80"
+	}]
+}

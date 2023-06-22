@@ -1,0 +1,66 @@
+{
+	title: "Let's Automate Epoxy Resin §6Part III§f",
+	x: -0.7704081632653086d,
+	y: -6.766936383928556d,
+	description: "Producing Phenol and Acetone!",
+	text: [
+		"Also with §ePropene§f, time ot make §a2 Important Chemicals§f at the same time!",
+		"",
+		"► If you have already a §6Distillation Tower§f producing §6Propene§f, you should have some §7Benzene§f aswell.",
+		"",
+		"▬ Now simply use an §6LCR§f to React §b1000mb of Oxygen§f, §71000mb of Benzene§f, §61000mb of Propene§f and §e100mb of Phosphoric Acid§f.",
+		"§8§o(Large Chemical Reactor with Circuit 24 - 30 EU/t (LV) with a Duration of 24.00 Secs)§f",
+		"",
+		"▬ §aRemember§f: You've probally already have a source of §ePhosphoric Acid§f beacuse of the §2HV Progression Requirements§f and §bOxygen... its easy to obtain right?§f."
+	],
+	dependencies: [
+		"adbdc444",
+		"375cf157"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a0ab8bf7",
+		type: "fluid",
+		fluid: "phenol"
+	},
+	{
+		uid: "12eb6983",
+		type: "fluid",
+		fluid: "acetone"
+	}],
+	rewards: [{
+		uid: "43bba22b",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "acetone",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "36272076",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "phenol",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "f0b2fd06",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Expanding your Capabilities",
+	x: -4.8d,
+	y: -0.6d,
+	description: "Time to really start transporting stuff Wirelessly!",
+	text: [
+		"Now with some §bMithrilium§f, §6Ender Chests and Ender Tanks§f are a thing!",
+		"",
+		"- You can §eColor Code§f them using §cD§f§by§f§de§f§es§f in order to have §2multiple channels§f.",
+		"",
+		"- Also, remember that you can §aright click§f with a §bDiamond to make them Private§f. ",
+		"",
+		"§8§o(Or if you're playing in Single Player, you're able to double the amount of channels possible).§f",
+		"",
+		"- And a neat feature that comes with §6Ender Tanks§f is that they're also able to §d§nTransfer Mekanism Gasses too§f!"
+	],
+	dependencies: [
+		"3a1043fe"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "81228f80",
+		type: "item",
+		title: "An Ender Tank or Chest",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		},
+		{
+			item: "enderstorage:ender_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "e066de5c",
+		type: "choice",
+		table: 12
+	},
+	{
+		uid: "26cb9f20",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

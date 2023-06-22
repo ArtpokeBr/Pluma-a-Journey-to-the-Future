@@ -1,0 +1,81 @@
+{
+	title: "Menril",
+	icon: "integrateddynamics:menril_sapling",
+	x: -2.0d,
+	y: -0.5d,
+	description: "A Very Special Tree that contains a Very Special Resin!",
+	text: [
+		"That's correct! Menril is a very desirable §6Tree§f that §cdoesn't generate naturally§f, you'll need §2druidic rituals§f for it!",
+		"",
+		"- Once you've obtained it, §6extract§f its §3Resin Chunks§f!",
+		"",
+		"- You'll need to §6extract§f even more those §3Chunks§f to get the §bMenril Resin§f itself!",
+		"",
+		"~ This §9Fluid§f will be §dimportant§f."
+	],
+	dependencies: [
+		"2ab08f70",
+		"f7183029",
+		"0fa27f33",
+		"e534879a"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "870d4456",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:menril_sapling"
+		}]
+	},
+	{
+		uid: "dcd48187",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:menril_log"
+		}],
+		count: 8L
+	},
+	{
+		uid: "98f7fab4",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:crystalized_menril_chunk"
+		}],
+		count: 32L
+	},
+	{
+		uid: "8acdcdf7",
+		type: "fluid",
+		fluid: "menril"
+	}],
+	rewards: [{
+		uid: "320bb869",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "menril",
+					Amount: 1000
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "a9c45086",
+		type: "item",
+		item: {
+			id: "integrateddynamics:on_the_dynamics_of_integration",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "3f432360",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

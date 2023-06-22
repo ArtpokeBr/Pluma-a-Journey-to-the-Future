@@ -1,0 +1,47 @@
+{
+	title: "Upgrading your Inserter",
+	x: -4.0d,
+	y: -1.5d,
+	description: "It is pretty but it can also be fast!",
+	text: [
+		"The Upgrades are very straight foward.",
+		"",
+		"- The Stack Upgrade will allow the Inserter to move up to an Stack per operation.",
+		"",
+		"- The Speed Upgrade will increse the speed of operations that it is capable of."
+	],
+	dependencies: [
+		"a3fa19b6"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "4ae2a3d5",
+		type: "item",
+		items: [{
+			id: "magneticraft:inserter_upgrade",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b0ec82e2",
+		type: "item",
+		items: [{
+			id: "magneticraft:inserter_upgrade",
+			Damage: 1s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9941ec4",
+		type: "item",
+		team_reward: false,
+		item: "harvestcraft:softpretzelandmustarditem",
+		count: 4
+	}]
+}

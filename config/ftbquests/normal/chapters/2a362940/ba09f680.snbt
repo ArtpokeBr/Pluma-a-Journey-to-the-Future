@@ -1,0 +1,28 @@
+{
+	title: "A Great way to Store Enchantments!",
+	x: -0.8999999999999999d,
+	y: -3.5999999999999996d,
+	description: "Let's make a Junk Storage Unit!",
+	text: [
+		"With this §2neat storage§f option from §3Ender Utilities§f... Finally a place to store §5Junk§f!",
+		"",
+		"- Any §aNon-Stackable item§f can go in here, §6256 per Slot§f and a total of §2270 Slots§f."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a1c4223f"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "4e9741e5",
+		type: "item",
+		items: [{
+			item: "enderutilities:storage_0 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "b092df5f",
+		type: "item",
+		item: "actuallyadditions:item_chest_to_crate_upgrade"
+	}]
+}

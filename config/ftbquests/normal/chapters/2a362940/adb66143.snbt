@@ -1,0 +1,34 @@
+{
+	title: "Storing Large Quantities of Fluids!",
+	icon: "fluiddrawers:tank",
+	x: -3.0d,
+	y: -4.2d,
+	description: "Let's make some Fluid Drawers!",
+	text: [
+		"► Just like §a§oNormal Drawers§f but for §9Fluids§f!",
+		"",
+		"▬ By Default, A §9Fluid Drawer§f without upgrades can hold up to §b32000mb§f.",
+		"",
+		"▬ §9Fluid Drawers§f don't have multiple variations theres only a §a1x1§f variant.",
+		"",
+		"► And to top it all, §9Fluid Drawers§f have a §3Framed Version§f!"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "25907f80",
+		type: "item",
+		title: "Any Fluid Drawer",
+		items: [{
+			item: "fluiddrawers:tank"
+		},
+		{
+			item: "fluiddrawers:tank_custom"
+		}]
+	}],
+	rewards: [{
+		uid: "0dda46e4",
+		type: "item",
+		item: "fluiddrawers:tank",
+		random_bonus: 3
+	}]
+}

@@ -25,10 +25,7 @@
 		uid: "a4854145",
 		type: "item",
 		items: [{
-			id: "pyrotech:cog_flint",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:cog_flint"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,0 +1,33 @@
+{
+	title: "Watch out for the Moon",
+	icon: "extrautils2:ingredients 1 5",
+	x: -0.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	description: "Certain Moon Phases are kinda relevant...",
+	text: [
+		"► Interesting enough there are §b2 Moon Phases§f that you maybe should watch out for.",
+		"",
+		"▬ The First one is a §cBlood Moon§f! they occur at a rate of §a5% of all nights§f and when it does... you better be prepared.",
+		"",
+		"▬ When a §cBlood Moon§f is at the Sky, §6Tons of Buffed Mobs will Spawn, everything shall be Dark and you'll not be able to Sleep§f.",
+		"",
+		"► And also, It is important for §3Astral Sorcery§f aswell! maybe it is too early to inform you about this, but when an §5Eclipse§f ocurrs, §bHorologium§f will be visible at the next §7night§f!",
+		"",
+		"§8§o~ And If you don't know yet, with Astral Sorcery you'll be able to utilize Constellations to your advantage and Horologium is a Time Constellation... wich means... Tick Acceleration!§f"
+	],
+	dependencies: [
+		"26b332de"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "14a09411",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "08c0795e",
+		type: "item",
+		title: "Kaguya's Onigiri",
+		item: "harvestcraft:salmononigiriitem"
+	}]
+}

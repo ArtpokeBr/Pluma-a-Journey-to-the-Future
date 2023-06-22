@@ -210,8 +210,8 @@ import mods.jei.JEI as JEI;
 <ore:ingotHSLASteel>.add(<ore:ingotHslaSteel>.firstItem);
 
 # Adding Extra OreDicts to GT Salt
-<ore:itemSalt>.add(<ore:dustSalt>.firstItem);
-<ore:foodSalt>.add(<ore:dustSalt>.firstItem);
+<ore:itemSalt>.add(<gregtech:meta_dust:312>);
+<ore:foodSalt>.add(<gregtech:meta_dust:312>);
 
 #Adding Extra OreDicts to NC's Marshmallow
 <ore:foodMarshmellows>.add(<nuclearcraft:marshmallow>);

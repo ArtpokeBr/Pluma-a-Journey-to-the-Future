@@ -1,0 +1,12 @@
+{
+	title: "Choose Iron or Silver Chest Upgrade",
+	loot_size: 1,
+	rewards: [{
+		item: "ironchest:wood_iron_chest_upgrade",
+		count: 2
+	},
+	{
+		item: "ironchest:copper_silver_chest_upgrade",
+		count: 2
+	}]
+}

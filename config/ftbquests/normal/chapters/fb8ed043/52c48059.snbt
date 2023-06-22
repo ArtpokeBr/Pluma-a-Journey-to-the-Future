@@ -22,8 +22,9 @@
 		uid: "143fd4fe",
 		type: "item",
 		items: [{
-			item: "pyrotech:limestone"
-		}]
+			item: "pyrotech:cobblestone 1 3"
+		}],
+		consume_items: false
 	},
 	{
 		uid: "e6e905b9",

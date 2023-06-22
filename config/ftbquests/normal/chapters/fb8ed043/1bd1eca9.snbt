@@ -1,0 +1,30 @@
+{
+	title: "Easy Fluid Manipulation",
+	x: 7.519727891156457d,
+	y: 2.506122448979575d,
+	shape: "rsquare",
+	description: "Let's make a Pipette!",
+	text: [
+		"► Now that you have acess to §3Glass§f and are also able to obtain §bWool§f, time to make an §ainteresting gadget§f!",
+		"",
+		"▬ A §6Pipette§f can be used to §9move any amount of Fluid up to 1000mb§f, really handy for the §2early game§f!"
+	],
+	dependencies: [
+		"c426da7b"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "de0ccc71",
+		type: "item",
+		items: [{
+			item: "forestry:pipette"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a1785eff",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

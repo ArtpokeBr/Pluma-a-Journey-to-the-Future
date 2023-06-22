@@ -1,0 +1,57 @@
+{
+	title: "Just Like Notch Wanted!",
+	x: -3.9795918367346914d,
+	y: -2.7244897959183696d,
+	description: "Moving Items using Water Streams!",
+	text: [
+		"► This is a §aClassic Way of Moving Items around§f, If you use a §9Water Stream§f, §aItems dropped will be moved by it§f!",
+		"",
+		"▬ Don't forget that you can use §bIce§f to make them §emove faster§f."
+	],
+	tasks: [{
+		uid: "7652aafc",
+		type: "item",
+		title: "Any Water Bucket",
+		items: [{
+			item: "minecraft:water_bucket"
+		},
+		{
+			id: "pyrotech:bucket_clay",
+			tag: {
+				fluids: {
+					FluidName: "water",
+					Amount: 1000
+				},
+				durability: 12
+			}
+		},
+		{
+			id: "pyrotech:bucket_stone",
+			tag: {
+				fluids: {
+					FluidName: "water",
+					Amount: 1000
+				},
+				durability: 16
+			}
+		},
+		{
+			id: "pyrotech:bucket_refractory",
+			tag: {
+				fluids: {
+					FluidName: "water",
+					Amount: 1000
+				},
+				durability: 24
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ebe589c",
+		type: "item",
+		item: "minecraft:ice",
+		count: 16
+	}]
+}

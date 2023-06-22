@@ -15,7 +15,8 @@
 		"§8§o~ The Pattern Chest that you've crafted for this Quest §r§f§8§nWILL BE CONSUMED§r§f§8§o, but you get an awesome one in exchange.§r§f"
 	],
 	dependencies: [
-		"67345fdc"
+		"67345fdc",
+		"f5036ad9"
 	],
 	min_width: 300,
 	tasks: [{

@@ -1,0 +1,29 @@
+{
+	title: "A Obsidian Chest!",
+	x: -3.0d,
+	y: -2.6999999999999997d,
+	description: "Just like a Diamond Chest.... but more resistent!",
+	text: [
+		"▬ §6108 Slots§f",
+		"",
+		"▬ Capable of §aStoring up to 6912 Items§f. ",
+		"",
+		"▬ Basically a §5Blast-Proof Item Storage§f!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"177fd87f"
+	],
+	tasks: [{
+		uid: "2ffcad3c",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "645e18a9",
+		type: "item",
+		item: "ironchest:iron_chest 1 6"
+	}]
+}

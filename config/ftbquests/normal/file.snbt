@@ -22,5 +22,5 @@
 		boss: 0
 	},
 	disable_gui: false,
-	grid_scale: 0.5d
+	grid_scale: 0.3d
 }

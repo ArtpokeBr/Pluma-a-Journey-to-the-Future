@@ -1,0 +1,49 @@
+{
+	title: "How do I use this Questing System?",
+	icon: "ftbquests:book",
+	x: -1.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "Usefull to Know!",
+	text: [
+		"► Let's Start with the Basics.",
+		"",
+		"▬ &3This Modpack&f has a &6Main Progression System&f, this is the one that you're going to be &dfollowing as a Long Term Goal&f.",
+		"",
+		"~ And you can easily spot the related Quests cause all of them are in &6Organized in Chapters&f.",
+		"",
+		"&8&o(Example: ►Chapter 1 - It all starts somewhere)&f",
+		"",
+		"▬ Also, you may find some &bOptional Quests&f in almost any &6Chapter&f, they have a &5Rounded Square Shape&f.",
+		"",
+		"▬ And don't forget that when opening any given quest, you'll be able to &aclick on the \"►\" buttom at the top&f to see the respective &2dependencies or dependants&f of a quest.",
+		"",
+		"&8&l────────────────────────────&f",
+		"",
+		"▬ &3This Modpack&f also has some &aExtra Quest Chapters&f to help you in your Journey, &9they'll be unlocked as you progress/get acess to more resources&f and they will provide you with all sorts of &e&nTips and Guides to certain Mods or Aspects of Gameplay&f.",
+		"",
+		"&8&o~ AE2 for example, is in this Group of Quests, but you may also find a Chapter to help you with Storage, Logistics and even Bees!&f"
+	],
+	dependencies: [
+		"26b332de"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2a69b7be",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d42f4938",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "harvestcraft:energydrinkitem",
+			tag: {
+				display: {
+					Name: "Thanks for the Energy to Read This!"
+				},
+				RepairCost: 0
+			}
+		}
+	}]
+}

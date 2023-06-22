@@ -1,0 +1,29 @@
+{
+	title: "A Crystal Chest!",
+	x: -3.9d,
+	y: -2.6999999999999997d,
+	description: "Just like a Diamond Chest.... but Fancier!",
+	text: [
+		"▬ §6108 Slots§f",
+		"",
+		"▬ Capable of §aStoring up to 6912 Items§f. ",
+		"",
+		"▬ Basically a §bTransparent Item Storage§f!"
+	],
+	dependencies: [
+		"177fd87f"
+	],
+	tasks: [{
+		uid: "54886d56",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8a301f7b",
+		type: "item",
+		item: "ironchest:diamond_crystal_chest_upgrade",
+		count: 4
+	}]
+}

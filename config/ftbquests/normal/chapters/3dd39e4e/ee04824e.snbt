@@ -1,0 +1,34 @@
+{
+	title: "Water is Finite!",
+	x: -3.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "You better find a Good Biome to live at!",
+	text: [
+		"&aThat's Correct&f! In this &3Modpack&f there is this Interesting mechanic that essentially makes you really consider living near a &9River or Ocean&f.",
+		"",
+		"- &c&nThere isn't a Specific Biome that you'll be able to get Infinite Water&f.",
+		"",
+		"- But don't worry, &6you'll unlock plenty of ways&f to produce &bInfinite Water&f in this &3Modpack&f."
+	],
+	dependencies: [
+		"26b332de"
+	],
+	tasks: [{
+		uid: "ef492b30",
+		type: "checkmark",
+		icon: "minecraft:water_bucket"
+	}],
+	rewards: [{
+		uid: "7dec835d",
+		type: "item",
+		item: {
+			id: "harvestcraft:colasodaitem",
+			tag: {
+				display: {
+					Name: "Unfortunatly, this is not an Infinite Source of Water..."
+				}
+			}
+		}
+	}]
+}

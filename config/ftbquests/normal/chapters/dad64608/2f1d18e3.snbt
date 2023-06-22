@@ -1,0 +1,41 @@
+{
+	title: "Flying Around without a Jetpack",
+	x: 1.5d,
+	y: -0.5d,
+	description: "A Player Launcher!",
+	text: [
+		"► §3Cylic§f offers this §aneat and Interesting Gadget§f.",
+		"",
+		"▬ Simply hold §dright click§f to changer and §2ZOOOOOOOOOOM§f. You will fly in the direction that you're looking at.",
+		"",
+		"▬ And an Interesting observation is that you'll also get a special §dpotion effect§f that allows you to §emove even faster§f afterwards."
+	],
+	dependencies: [
+		"f7183029"
+	],
+	tasks: [{
+		uid: "a6ac469b",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e393f1c4",
+		type: "item",
+		item: {
+			id: "conarm:boots_core",
+			tag: {
+				Material: "slime"
+			}
+		}
+	},
+	{
+		uid: "c7d74d03",
+		type: "item",
+		item: "harvestcraft:slimepieitem"
+	}]
+}

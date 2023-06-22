@@ -1,0 +1,7 @@
+{
+	title: "&65.&f An Industrial Expansion",
+	icon: "industrialforegoing:resourceful_furnace",
+	always_invisible: false,
+	group: -1258097374,
+	default_quest_shape: ""
+}

@@ -1,0 +1,61 @@
+{
+	title: "Metals out of Mobs!",
+	x: 4.5d,
+	y: -3.0d,
+	description: "Let's Make some Pink Metal and Meat Metal!",
+	text: [
+		"Interesting enough, §bPink Slime§f and §6Liquid Meat§f can both be converted into usefull §3Metal's§f.",
+		"",
+		"- §6Liquid Meat§f is a really easy one, as you'll need only to §csmelt it§f after you §9Solidify the Liquid§f.",
+		"",
+		"- §bPink Slime§f is a little bit trickier but, simply process it with some §dMagnesium§f and §3Vanadium§f in a §aBlast Furnace§f to obtain results.",
+		"",
+		"§8§o~ Later on, you'll actually be able to make these materials easily with NuclearCraft!§r§f"
+	],
+	dependencies: [
+		"efa2764b"
+	],
+	tasks: [{
+		uid: "fc6839d1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime_ingot"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0d86bf69",
+		type: "item",
+		items: [{
+			item: "tconevo:edible 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1e54fe1b",
+		type: "item",
+		item: {
+			id: "conarm:armor_plate",
+			tag: {
+				Material: "pink_metal"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "bf7f38e9",
+		type: "item",
+		item: {
+			id: "conarm:armor_plate",
+			tag: {
+				Material: "meat_metal"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "f966b72e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

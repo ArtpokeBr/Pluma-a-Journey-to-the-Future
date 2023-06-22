@@ -1,0 +1,28 @@
+{
+	title: "An Upgrade to your Granite Anvil",
+	x: 11.507823129251697d,
+	y: -2.4887755102041d,
+	shape: "rsquare",
+	description: "Let's make an Ironclad Anvil!",
+	text: [
+		"► Now, by using §bIron Plates§f you can §eUpgrade§f your §3Pyrotech Anvil§f!",
+		"",
+		"▬ §6This Anvil§f need §dHalf the amount of hits§f to complete recipes and will also §5Exhaust half of the amount§f upon recipe completion!"
+	],
+	dependencies: [
+		"a1a2f093"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "e1a68075",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_iron_plated"
+		}]
+	}],
+	rewards: [{
+		uid: "ed2885c8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

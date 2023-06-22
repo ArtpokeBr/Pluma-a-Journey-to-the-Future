@@ -37,13 +37,6 @@
 		}]
 	},
 	{
-		uid: "f0201d38",
-		type: "item",
-		items: [{
-			item: "tcomplement:porcelain_casting"
-		}]
-	},
-	{
 		uid: "9fdeeb52",
 		type: "item",
 		items: [{

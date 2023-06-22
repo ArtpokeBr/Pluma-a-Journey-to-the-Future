@@ -25,6 +25,12 @@
 	rewards: [{
 		uid: "c041ee23",
 		type: "item",
-		item: "gregtech:machine 1 638"
+		item: "gregtech:meta_item_1 1 631",
+		random_bonus: 1
+	},
+	{
+		uid: "ba00ada5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

@@ -1,0 +1,26 @@
+{
+	title: "A Massive Storage Unit",
+	x: -7.8d,
+	y: -3.5999999999999996d,
+	description: "When Drawers aren't enough...",
+	text: [
+		"► Inside its §eGUI§f you'll find an §aⓘ§f, §5hover it with your mouse§f for more specific §5configuration options§f.",
+		"",
+		"▬ Just like a §3Storage Drawer§f, but without §aupgrades§f and §dmuch more space§f!",
+		"",
+		"▬ It is probally §efaster to finish this whole pack than to fill§f this §6Massive Storage Unit§f."
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "fe81fcd8",
+		type: "item",
+		items: [{
+			item: "enderutilities:msu"
+		}]
+	}],
+	rewards: [{
+		uid: "04546d3b",
+		type: "item",
+		item: "enderutilities:msu"
+	}]
+}

@@ -19,10 +19,7 @@
 		uid: "fb90bc28",
 		type: "item",
 		items: [{
-			id: "totemic:totem_whittling_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "totemic:totem_whittling_knife"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -30,7 +30,9 @@
 		items: [{
 			item: "gregtech:metal_casing 1 1"
 		}],
-		count: 32L
+		count: 32L,
+		ignore_damage: true,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "06d93b15",

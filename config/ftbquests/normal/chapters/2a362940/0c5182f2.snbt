@@ -1,0 +1,28 @@
+{
+	title: "Titanium Level of Storage",
+	x: -3.9d,
+	y: -6.8999999999999995d,
+	description: "Where's the Titanium Barrel?",
+	text: [
+		"► §3GregTech§f from this Level and above offers only §aCrates§f as a Way to Store §2Items§f.",
+		"",
+		"▬ §dFrom this Level and beyond§f maybe you should consider making §bSuper Tanks§f! as they should grant you tons of §9Fluid Storage§f.",
+		"",
+		"▬ This §aCrate§f will offer you up to §2126 Slots of Storage§f.",
+		"",
+		"▬ Also it is §dgood to remember§f that any §3GregTech Block§f can have §6Utility Covers§f placed on them."
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "2b8e4e37",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1630"
+		}]
+	}],
+	rewards: [{
+		uid: "6ba79499",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

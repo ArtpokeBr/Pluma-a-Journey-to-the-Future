@@ -20,10 +20,7 @@
 		uid: "a1e9fec5",
 		type: "item",
 		items: [{
-			id: "hotornot:mitts",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "hotornot:mitts"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

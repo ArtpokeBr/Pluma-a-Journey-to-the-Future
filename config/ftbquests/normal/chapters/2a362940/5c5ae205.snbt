@@ -1,0 +1,38 @@
+{
+	title: "Compacting and Storing!",
+	icon: "storagedrawers:compdrawers",
+	x: -3.0d,
+	y: -5.3999999999999995d,
+	description: "Let's make a Compacting Drawer!",
+	text: [
+		"► §6Compacting Drawers§f are a very interesting variation of §aDrawer§f.",
+		"",
+		"▬ They have §b3 Slots dedicated to \"Compacting\" Recipes§f, in other Words:",
+		"",
+		"▬ If you place a §2Melon inside of it§f, you'll be able to §2extract both the Melon Block or the Melon Slices§f!",
+		"",
+		"▬ §eNot all recipes work§f, but generally the ones following the concept of §3\"compacting\"§f like §3blocks and nuggets§f should work.",
+		"",
+		"§8§o(If a specific recipe should work and it isn't, please report to Github! I would love to implement it! =>)§f",
+		"",
+		"▬ Also a key thing to note is that although  this §6Drawer§f would work with a §bStorage Bus or any External Storage System§f reading it, §c§nI do not recommend to do so§f, as this could lead to §dTPS Issues in really large Storage Systems§f."
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "c4260c2d",
+		type: "item",
+		title: "Any Compacting Drawer",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		},
+		{
+			item: "framedcompactdrawers:framed_compact_drawer"
+		}]
+	}],
+	rewards: [{
+		uid: "7ddd656c",
+		type: "item",
+		item: "storagedrawers:compdrawers",
+		random_bonus: 2
+	}]
+}

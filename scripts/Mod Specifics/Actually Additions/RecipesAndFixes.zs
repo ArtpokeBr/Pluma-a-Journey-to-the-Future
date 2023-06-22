@@ -210,21 +210,43 @@ alloy.recipeBuilder()
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
 recipes.addShaped(<actuallyadditions:block_atomic_reconstructor> * 1, [[<ore:heavyPlateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<magneticraft:crafting:1>, <actuallyadditions:block_misc:9>, <ore:craftingLensGreen>],[<ore:heavyPlateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
-// Small Storage Crate
+# [Small Storage Crate] from [Wood Chassis][+2]
 recipes.remove(<actuallyadditions:block_giant_chest>);
-recipes.addShaped(<actuallyadditions:block_giant_chest> * 1, [[<ore:chestWood>, <ore:empoweredEndorCrystal>, <ore:chestWood>], [<ore:empoweredEndorCrystal>, <actuallyadditions:block_misc:4>, <ore:empoweredEndorCrystal>],[<ore:chestWood>, <ore:empoweredEndorCrystal>, <ore:chestWood>]]);
+craft.make(<actuallyadditions:block_giant_chest>, ["pretty",
+  "I * I",
+  "* # *",
+  "I * I"], {
+  "I": <ironchest:iron_chest> | <ironchest:iron_chest:4>,# Iron Chest or Silver Chest
+  "*": <ore:endorCrystal>,               # Endor Crystal
+  "#": <actuallyadditions:block_misc:4>, # Wood Chassis
+});
 
-// Medium Storage Crate
+# [Medium Storage Crate] from [Small Storage Crate][+2]
 recipes.remove(<actuallyadditions:block_giant_chest_medium>);
-recipes.addShaped(<actuallyadditions:block_giant_chest_medium> * 1, [[<ore:plankTreatedWood>, <ore:empoweredEndorCrystal>, <ore:plankTreatedWood>], [<ore:empoweredEndorCrystal>, <actuallyadditions:block_giant_chest>, <ore:empoweredEndorCrystal>],[<ore:plankTreatedWood>, <ore:empoweredEndorCrystal>, <ore:plankTreatedWood>]]);
+craft.make(<actuallyadditions:block_giant_chest_medium>, ["pretty",
+  "G * G",
+  "* S *",
+  "G * G"], {
+  "G": <ironchest:iron_chest:1>,              # Gold Chest
+  "*": <ore:empoweredEndorCrystal>,           # Empowered Endor Crystal
+  "S": <actuallyadditions:block_giant_chest>, # Small Storage Crate
+});
 
-// Large Storage Crate
+# [Large Storage Crate] from [Medium Storage Crate][+2]
 recipes.remove(<actuallyadditions:block_giant_chest_large>);
-recipes.addShaped(<actuallyadditions:block_giant_chest_large> * 1, [[<ore:plankTreatedWood>, <actuallyadditions:block_crystal_empowered:2>, <ore:plankTreatedWood>], [<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_giant_chest_medium>, <actuallyadditions:block_crystal_empowered:2>],[<ore:plankTreatedWood>, <actuallyadditions:block_crystal_empowered:2>, <ore:plankTreatedWood>]]);
+craft.make(<actuallyadditions:block_giant_chest_large>, ["pretty",
+  "D * D",
+  "* M *",
+  "D * D"], {
+  "D": <ironchest:iron_chest:2>,         # Diamond Chest
+  "*": <ore:empoweredBlockEndorCrystal>, # Empowered Endor Crystal Block
+  "M": <actuallyadditions:block_giant_chest_medium>, # Medium Storage Crate
+});
 
-// Storage Crate Keeper
-recipes.remove(<actuallyadditions:item_crate_keeper>);
-recipes.addShaped(<actuallyadditions:item_crate_keeper> * 1, [[<ore:plateEnori>, <ore:endorCrystal>, <ore:plateEnori>], [<ore:endorCrystal>, <ore:gearBlackQuartz>, <ore:endorCrystal>],[<ore:plateEnori>, <ore:endorCrystal>, <ore:plateEnori>]]);
+// Storage Crate Keeper (Recipe Removed in Removals.zs)
+//recipes.remove(<actuallyadditions:item_crate_keeper>);
+<actuallyadditions:item_crate_keeper>.addTooltip(format.green("Shift + Right Click to carry a Crate,") + format.white(" you don't actually need this Upgrade!"));
+//recipes.addShaped(<actuallyadditions:item_crate_keeper> * 1, [[<ore:plateEnori>, <ore:endorCrystal>, <ore:plateEnori>], [<ore:endorCrystal>, <ore:gearBlackQuartz>, <ore:endorCrystal>],[<ore:plateEnori>, <ore:endorCrystal>, <ore:plateEnori>]]);
 
 // Batteries ========================================================================
 
@@ -732,3 +754,35 @@ craft.make(<actuallyadditions:item_drill_upgrade_five_by_five>, ["pretty",
   "¤": <ore:gearBlackQuartz>,          # Black Quartz Gear
 });
 
+# [Chest To Storage Crate Upgrade] from [Wood Chassis][+2]
+recipes.removeByRecipeName("actuallyadditions:recipes13");
+craft.make(<actuallyadditions:item_chest_to_crate_upgrade>, ["pretty",
+  "# * #",
+  "* ≢ *",
+  "# * #"], {
+  "#": <tconstruct:large_plate>.withTag({Material: "iron"}), # Tinkers Iron Large Plate
+  "*": <ore:endorCrystal>,               # Endor Crystal
+  "≢": <actuallyadditions:block_misc:4>, # Wood Chassis
+});
+
+# [Small To Medium Storage Crate Upgrade] from [Chest To Storage Crate Upgrade][+2]
+recipes.removeByRecipeName("actuallyadditions:recipes14");
+craft.make(<actuallyadditions:item_small_to_medium_crate_upgrade>, ["pretty",
+  "≢ # ≢",
+  "# C #",
+  "≢ # ≢"], {
+  "≢": <tconstruct:large_plate>.withTag({Material: "electrum"}), # Tinkers Electrum Large Plate
+  "#": <ore:empoweredEndorCrystal>,      # Empowered Endor Crystal
+  "C": <actuallyadditions:item_chest_to_crate_upgrade>, # Chest To Storage Crate Upgrade
+});
+
+# [Medium To Large Storage Crate Upgrade] from [Small To Medium Storage Crate Upgrade][+2]
+recipes.removeByRecipeName("actuallyadditions:recipes15");
+craft.make(<actuallyadditions:item_medium_to_large_crate_upgrade>, ["pretty",
+  "≢ # ≢",
+  "# S #",
+  "≢ # ≢"], {
+  "≢": <tconstruct:large_plate>.withTag({Material: "diamantine_crystal"}), # Tinkers Diamantine Large Plate
+  "#": <ore:empoweredBlockEndorCrystal>, # Empowered Endor Crystal Block
+  "S": <actuallyadditions:item_small_to_medium_crate_upgrade>, # Small To Medium Storage Crate Upgrade
+});

@@ -803,7 +803,13 @@ var NonWoodSlabs as IItemStack[IIngredient] = {
     <natura:colored_grass>: <natura:colored_grass_slab>,
 
     <pyrotech:masonry_brick_block>: <pyrotech:masonry_brick_slab>,
-    <pyrotech:refractory_brick_block>: <pyrotech:refractory_brick_slab>
+    <pyrotech:refractory_brick_block>: <pyrotech:refractory_brick_slab>,
+
+    <thaumcraft:stone_arcane> : <thaumcraft:slab_arcane_stone>,
+    <thaumcraft:stone_arcane_brick> : <thaumcraft:slab_arcane_brick>,
+    <thaumcraft:stone_ancient> : <thaumcraft:slab_ancient>,
+    <thaumcraft:stone_eldritch_tile> : <thaumcraft:slab_eldritch>,
+    <thaumcraft:stone_ancient_tile> : <thaumicaugmentation:slab>, 
 
     };
 

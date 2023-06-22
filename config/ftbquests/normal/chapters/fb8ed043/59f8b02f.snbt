@@ -1,8 +1,8 @@
 {
 	title: "A Smeltery!",
 	icon: "tconstruct:smeltery_controller",
-	x: 14.485714285714316d,
-	y: 5.024489795918356d,
+	x: 15.25102040816325d,
+	y: 6.010204081632658d,
 	shape: "gear",
 	description: "Time to start making some progress!",
 	text: [
@@ -50,15 +50,29 @@
 	{
 		uid: "ee41a3f5",
 		type: "item",
+		title: "Any Valid Casting Table",
 		items: [{
 			item: "tconstruct:casting"
+		},
+		{
+			item: "tcomplement:porcelain_casting"
+		},
+		{
+			item: "tcomplement:scorched_casting"
 		}]
 	},
 	{
 		uid: "60cc7738",
 		type: "item",
+		title: "Any Valid Casting Basin",
 		items: [{
 			item: "tconstruct:casting 1 1"
+		},
+		{
+			item: "tcomplement:porcelain_casting 1 1"
+		},
+		{
+			item: "tcomplement:scorched_casting 1 1"
 		}]
 	},
 	{

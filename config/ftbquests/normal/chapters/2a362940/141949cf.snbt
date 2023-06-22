@@ -1,0 +1,49 @@
+{
+	title: "Easily Controlling Storage with Covers",
+	x: -8.7d,
+	y: -6.0d,
+	description: "Gregtech Offers some neat Covers!",
+	text: [
+		"► Using §6Detector Covers§f, you should be able to §ebetter control your automations§f!",
+		"",
+		"▬ Using the §bAdvanced Ones§f, you are able to §ddefine a threshold§f and based on that emit a §cRedstone Signal§f.",
+		"",
+		"§8§o~ Really usefull for turning on passive automations when needed!§f",
+		"",
+		"▬ Using the §9Basic Ones§f, you are able to have §afine control over exact amounts of contents stored§f, as they emit a specific §cRedstone Signal§f for the §2current amount stored§f."
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a66228a7",
+		type: "item",
+		title: "Any Storage Detector",
+		items: [{
+			item: "gregtech:meta_item_1 1 320"
+		},
+		{
+			item: "gregtech:meta_item_1 1 319"
+		},
+		{
+			item: "gregtech:meta_item_1 1 305"
+		},
+		{
+			item: "gregtech:meta_item_1 1 304"
+		},
+		{
+			item: "gregtech:meta_item_1 1 306"
+		},
+		{
+			item: "gregtech:meta_item_1 1 318"
+		}]
+	}],
+	rewards: [{
+		uid: "5772f7cb",
+		type: "item",
+		item: "draconicevolution:potentiometer"
+	},
+	{
+		uid: "fcf09605",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

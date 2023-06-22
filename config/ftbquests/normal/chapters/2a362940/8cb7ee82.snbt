@@ -1,0 +1,40 @@
+{
+	title: "Storage... just for Rocks!",
+	x: -6.6d,
+	y: -4.2d,
+	description: "Let's make a Rock Bag!",
+	text: [
+		"►You can Craft any of the §d2 Versions of this back§f, but note that §eone is much better than the other§f.",
+		"",
+		"▬ The §2Basic Rock Bag§f allows you to store up to §3640 Pyrotech's Rocks§f.",
+		"",
+		"▬ The §aDurable Rock Bag§f allows to store up to §b1280 Pyrotech's Rocks§f.",
+		"",
+		"§8§o~ Not the most usefull block to have, but if you have tons of Pebbles around, maybe it could be very usefull early on.§f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2d5c9310",
+		type: "item",
+		title: "A Basic or Durable Rock Bag",
+		items: [{
+			item: "pyrotech:bag_simple"
+		},
+		{
+			item: "pyrotech:bag_durable"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45ac285f",
+		type: "item",
+		item: "extrabees:hive 1 1",
+		count: 2
+	},
+	{
+		uid: "8d196062",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

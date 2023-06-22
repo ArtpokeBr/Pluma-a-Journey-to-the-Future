@@ -1,0 +1,47 @@
+{
+	title: "Welcome to Pluma!",
+	icon: "minecraft:feather",
+	x: -2.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "A Long Journey Awaits you!",
+	text: [
+		"§aFirst of all§f, §dthanks for dowloading this Modpack§f!",
+		"",
+		"- Take this §eInitial gift§f for you and §bgood luck§f with your §aJourney§f!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f8b75b07",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "d2159dee",
+		type: "gamestage",
+		team_reward: false,
+		auto: "invisible",
+		stage: "WorktableJEI"
+	},
+	{
+		uid: "4b2842ea",
+		type: "item",
+		team_reward: false,
+		auto: "invisible",
+		item: "minecraft:bread",
+		count: 10
+	},
+	{
+		uid: "e803111a",
+		type: "item",
+		team_reward: false,
+		auto: "invisible",
+		item: "minecraft:torch"
+	},
+	{
+		uid: "904e7725",
+		type: "item",
+		auto: "invisible",
+		item: "akashictome:tome"
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "An Enchanting Upgrade!",
+	x: 1.0d,
+	y: -4.5d,
+	shape: "rsquare",
+	description: "Time to start Manipulating Enchantments!",
+	text: [
+		"Please, always refer to the §bIndustrial Foregoing's Manual§f for more precise Info, but here's a brief explanation:",
+		"",
+		"- §3The Enchantment Sorter§f allows you to §dsort/filter Enchanted Items and non Enchant Items§f, very §2usefull for Mobfarms§f!",
+		"",
+		"- §3The Enchantment Extractor§f is by far the §emost \"OP\" one§f, since it allows you to §5extract any Enchantment into a Book§f, very §9usefull for those randomly enchanted loot's§f.",
+		"",
+		"- §3The Enchantment Applicator§f is interesting, as it allows you to §dEnchant stuff without actually using XP§f, but you better §ahave an Essence Farm first§f."
+	],
+	dependencies: [
+		"10614672"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b8082e12",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_refiner"
+		}]
+	},
+	{
+		uid: "a79d507c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_extractor"
+		}]
+	},
+	{
+		uid: "cb16eb51",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_aplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "7d1a1586",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Automating your Coke Oven",
+	x: 15.299999999999999d,
+	y: -0.6749999999999999d,
+	shape: "rsquare",
+	description: "A Special Hatch to fix all your Creosote needs!",
+	text: [
+		"You've probally already felt this, but you'll need a §6good supply of Creosote§f as you progress.",
+		"",
+		"▬ And you can use this §9Hatch§f to help you achieve just that!",
+		"",
+		"▬ It will be your §3\"Output Hatch\"§f for this §2Multiblock§f, allowing you to §9pump§f out all the §6Creosote§f into a Tank.",
+		"",
+		"§7§o~ Take this ULV Pump as a Generous Gift!§f"
+	],
+	dependencies: [
+		"06c93fff"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "74f58325",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1018"
+		}]
+	}],
+	rewards: [{
+		uid: "cec428e7",
+		type: "item",
+		item: "ulv_covers:ulv_cover_meta_item 1 1"
+	}]
+}

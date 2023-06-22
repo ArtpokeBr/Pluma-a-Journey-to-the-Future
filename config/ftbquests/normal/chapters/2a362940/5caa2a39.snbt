@@ -1,0 +1,30 @@
+{
+	title: "A Dirt Chest!",
+	x: -6.6d,
+	y: -2.6999999999999997d,
+	description: "Why would you want to make this? ...",
+	text: [
+		"§8§oFor the Memes of course!§f",
+		"",
+		"▬ §61 Slot§f",
+		"",
+		"▬ Capable of §aStoring up to 64 Items§f. ",
+		"",
+		"§8§obut only Dirt!§f"
+	],
+	dependencies: [
+		"58b68df5"
+	],
+	tasks: [{
+		uid: "d7afe8bd",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "85b75b65",
+		type: "item",
+		item: "overloaded:compressed_dirt 1 2"
+	}]
+}

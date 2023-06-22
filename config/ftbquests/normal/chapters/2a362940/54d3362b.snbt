@@ -1,0 +1,25 @@
+{
+	title: "A Way to Store Items...",
+	x: -7.8d,
+	y: -6.0d,
+	description: "Outside of a Gregtech Block?",
+	text: [
+		"► §5As Oddly as this Sounds§f, you can place this §aCover in any Side of a Gregtech Block§f and have a tiny space to §2Store Items§f!",
+		"",
+		"▬ §eMaybe you'll be able to find§f an §2utility§f for this?"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "1615d8f3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 321"
+		}]
+	}],
+	rewards: [{
+		uid: "53b01a7f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 321",
+		random_bonus: 3
+	}]
+}

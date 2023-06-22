@@ -1,0 +1,11 @@
+{
+	x: -5.7d,
+	y: -9.0d,
+	tasks: [{
+		uid: "63866457",
+		type: "item",
+		items: [{
+			item: "forestry:butterfly_chest"
+		}]
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "A Vanilla Furnace",
-	x: 12.5d,
-	y: 3.5d,
+	x: 13.5d,
+	y: 4.0d,
 	description: "When you're a Simplistic Person",
 	text: [
 		"Now that you have acess to Seared Bricks, you can craft a Vanilla Furnace!",
@@ -13,7 +13,7 @@
 		"~ In the Next Quest you'll be able to craft a Seared Furnace for example, wich is INSANE for Smelting Stuff! :)"
 	],
 	dependencies: [
-		"f7a19676"
+		"6089c9b6"
 	],
 	tasks: [{
 		uid: "aa684d7b",

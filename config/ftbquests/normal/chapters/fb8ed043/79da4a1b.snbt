@@ -1,8 +1,8 @@
 {
 	title: "A Seared Furnace!",
 	icon: "tconstruct:seared_furnace_controller",
-	x: 11.5d,
-	y: 3.5d,
+	x: 11.494897959183675d,
+	y: 4.015306122448976d,
 	shape: "rsquare",
 	description: "When Smelting 1 Item at once isn't enough",
 	text: [

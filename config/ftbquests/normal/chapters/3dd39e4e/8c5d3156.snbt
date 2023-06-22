@@ -1,0 +1,39 @@
+{
+	title: "You are what you Eat",
+	icon: "solcarrot:food_book",
+	x: -3.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	description: "There is a Nutrition System in this pack?",
+	text: [
+		"§8§oTLDR: Yes, you have to pay attention to what you're eating, you'll need to maintain sort of a balanced diet in order to no get some debuffs.§f",
+		"",
+		"► Yes! and let me briefly explain, as §2it isn't that complicated or difficult to play with§f.",
+		"",
+		"▬ Always look at your §bNutrition Tab§f. §8§o(a Carrot Button inside of your inventory)§f",
+		"",
+		"▬ And the logic is simple, if you have a §areally balanced diet§f, your Bars will be high and §ayou'll get rewarded with some nice buffs§f.",
+		"",
+		"▬ But the §copposite is also true§f, if §5you don't have a balanced diet§f, one of your bars may get low and §dyou'll start getting some debuffs§f.",
+		"",
+		"► And there's an §bExtra Bonus§f! §6for every 5 different foods you eat, you'll get an Extra Heart!§f a really nice reward for all of your Kitchen Work.",
+		"",
+		"▬ §eIt can get really OP really fast§f if you try to eat every single food available §8§o(cause there's a ton!)§f. §d§nYou'll probally have more Life than an Ender Dragon§f at the end of the pack if you try to eat every single food available.",
+		"",
+		"▬ §aOverall, try to§f at least worry a bit about making a §aFood Farm early§f and hopefully §3setting up an Automation for some really balanced foods from HarvestCraft§f. §8§oThere will be a Questline to guide you through that, keep your eyes on this Quest Book!§f"
+	],
+	dependencies: [
+		"26b332de"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "5cf65284",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "fff9517b",
+		type: "item",
+		team_reward: false,
+		item: "solcarrot:food_book"
+	}]
+}

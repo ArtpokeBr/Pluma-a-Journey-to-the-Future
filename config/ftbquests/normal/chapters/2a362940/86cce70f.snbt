@@ -1,0 +1,42 @@
+{
+	title: "Durable Storage!",
+	x: -5.7d,
+	y: -4.2d,
+	description: "Increased Stack Size and maybe their beauty?",
+	text: [
+		"With §6Tarred Planks and Boards§f, you can actually improve your §dPrimitive Storage§f.",
+		"",
+		"- §9Shelves and Crates§f only allow §91 Stack of each item§f. The §bTarred version allows 4§f.",
+		"",
+		"- §2The Stash only allows 16 Stacks§f. The §aTarred Version allows 32§f."
+	],
+	dependencies: [
+		"df224012"
+	],
+	tasks: [{
+		uid: "1b863740",
+		type: "item",
+		items: [{
+			item: "pyrotech:shelf_stone"
+		}]
+	},
+	{
+		uid: "ae26c045",
+		type: "item",
+		items: [{
+			item: "pyrotech:stash_stone"
+		}]
+	},
+	{
+		uid: "46403dc5",
+		type: "item",
+		items: [{
+			item: "pyrotech:crate_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "f7651166",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

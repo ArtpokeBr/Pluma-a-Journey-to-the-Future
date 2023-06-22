@@ -15,7 +15,18 @@
 		uid: "89ec9d7c",
 		type: "item",
 		items: [{
-			item: "gregtech:planks 1 1"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankTreatedWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plankTreatedWood"
+				}
+			}
 		}]
 	}],
 	rewards: [{

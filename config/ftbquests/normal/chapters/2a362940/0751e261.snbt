@@ -1,0 +1,31 @@
+{
+	title: "Stainless Steel Level Storage",
+	x: -3.9d,
+	y: -7.8d,
+	description: "Stainless Steel could be expensive, but it also gives you a ton of Storage!",
+	text: [
+		"► §3GregTech§f Offers §aCrates§f and §bBarrels§f as a Way to Store §9Fluids§f and §2Items§f.",
+		"",
+		"▬ This §bBarrel§f will offer you up to §9256b of Fluid Storage§f.",
+		"",
+		"▬ This §aCrate§f will offer you up to §2108 Slots of Storage§f.",
+		"",
+		"▬ Also it is §dgood to remember§f that any §3GregTech Block§f can have §6Utility Covers§f placed on them."
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "a01c2a85",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1629"
+		},
+		{
+			item: "gregtech:machine 1 1614"
+		}]
+	}],
+	rewards: [{
+		uid: "8e2ef438",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

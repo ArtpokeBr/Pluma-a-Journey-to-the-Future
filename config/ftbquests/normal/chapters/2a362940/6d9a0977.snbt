@@ -1,0 +1,47 @@
+{
+	title: "Storing TONS and TONS of Items!",
+	icon: "magneticraft:container",
+	x: -0.8999999999999999d,
+	y: -6.0d,
+	description: "With an Actual beatifull Multiblock",
+	text: [
+		"Well, you also finally have acess to an §bInteresting way of Storing Tons of Items§f.",
+		"",
+		"- Why not use an §6INDUSTRIAL CONTAINER§f! to §2store all your cobblestones§f?",
+		"",
+		"- It is capable of storing §365,536 of an Single Item§f.",
+		"",
+		"§8§o~ And yes, you can pipe in or out from it.§f"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"38fa477e"
+	],
+	tasks: [{
+		uid: "67435f0c",
+		type: "item",
+		items: [{
+			item: "magneticraft:container"
+		}]
+	},
+	{
+		uid: "41e48249",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 56L
+	}],
+	rewards: [{
+		uid: "80018386",
+		type: "item",
+		title: "Free Container for your hard work!",
+		item: "magneticraft:multiblock_parts 1 5",
+		count: 56
+	},
+	{
+		uid: "252d5f2b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

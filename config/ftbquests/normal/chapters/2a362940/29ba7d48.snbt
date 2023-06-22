@@ -1,0 +1,70 @@
+{
+	title: "Backpacks!",
+	x: -9.6d,
+	y: -4.8d,
+	description: "With Auto Input and Auto Output Options!",
+	text: [
+		"► §3Forestry Backpack's§f can be a §2cheap and really usefull§f type of Backpack to have.",
+		"",
+		"▬ Altough you'll need §5different ones for different purposes§f.",
+		"",
+		"▬ §e§nHold Shift on each one of them to get a details about what it can hold§f.",
+		"",
+		"▬ And if you §aShift + Right Click§f with it you'll §eswitch between its different modes§f, one of them being the §clocked mode§f, for when you don't want stuff to get in it. §3As Forestry Backpacks§f will §9automatically pick up§f their respective accepted items.",
+		"",
+		"▬ And don't forget about the §6Auto Output Mode!§f as you can make it §bautomatically keep a stack of Cobblestone in your Hotbar§f when needed for example."
+	],
+	dependencies: [
+		"ce424e85"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "596dd573",
+		type: "item",
+		title: "Any Simple Forestry Backpack",
+		items: [{
+			item: "forestry:apiarist_bag"
+		},
+		{
+			item: "forestry:lepidopterist_bag"
+		},
+		{
+			item: "forestry:miner_bag"
+		},
+		{
+			item: "forestry:digger_bag"
+		},
+		{
+			item: "forestry:forester_bag"
+		},
+		{
+			item: "forestry:hunter_bag"
+		},
+		{
+			item: "forestry:adventurer_bag"
+		},
+		{
+			item: "forestry:builder_bag"
+		},
+		{
+			item: "railcraft:backpack_apothecary_t1"
+		},
+		{
+			item: "railcraft:backpack_iceman_t1"
+		},
+		{
+			item: "railcraft:backpack_trackman_t1"
+		},
+		{
+			item: "railcraft:backpack_signalman_t1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0835121",
+		type: "item",
+		item: "forestry:crafting_material 1 2",
+		count: 63
+	}]
+}

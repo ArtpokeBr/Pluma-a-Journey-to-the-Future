@@ -113,9 +113,6 @@ Casting.removeBasinRecipe(<minecraft:coal_block>);
 Casting.removeTableRecipe(<minecraft:diamond>);
 Casting.removeBasinRecipe(<minecraft:diamond_block>);
 
-//Casting Concrete
-Casting.addBasinRecipe(<gregtech:stone_smooth:4>, null, <liquid:concrete>, 144);
-
 //Arrow Shaft Specifically
 mods.chisel.Carving.addVariation("tinkers_casts", <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_shaft"}));
 

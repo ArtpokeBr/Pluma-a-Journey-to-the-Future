@@ -1,0 +1,84 @@
+{
+	title: "&61.&f Storage Management",
+	icon: "minecraft:chest",
+	always_invisible: false,
+	group: -1258097374,
+	default_quest_shape: "rsquare",
+	images: [{
+		x: -4.799999999999997d,
+		y: -4.9571428571428555d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/square.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -4.8d,
+		y: -3.5999999999999996d,
+		width: 8.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -4.8d,
+		y: -6.0d,
+		width: 8.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -4.799999999999997d,
+		y: -7.071428571428555d,
+		width: 1.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/verticalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -4.8d,
+		y: -2.4d,
+		width: 1.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/verticalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.6999999999999997d,
+		y: -4.8d,
+		width: 4.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -6.8999999999999995d,
+		y: -4.8d,
+		width: 4.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:pluma/quests/horizontalline.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}
