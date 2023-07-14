@@ -1,4 +1,3 @@
-# Pluma-a-Journey-to-the-Future
 <p>&nbsp;</p>
 <p><a href="https://github.com/ArtpokeBr/Pluma-a-Journey-to-the-Future" rel="nofollow"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/git_vector.svg" alt="Github Repository" /></a> <a href="https://discord.com/invite/FprwvNQ" rel="nofollow"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-singular_vector.svg" alt="discord-singular" height="56" /></a> <a href="https://legacy.curseforge.com/minecraft/modpacks/pluma/files"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/pc_vector.svg" alt="pc" height="56" /></a></p>
 <p>&nbsp;</p>
