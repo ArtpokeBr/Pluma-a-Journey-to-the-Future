@@ -28,39 +28,6 @@
 <p style="text-align: center;"><span style="color: #808080;">To play this pack <span style="text-decoration: underline;">you must update</span> your <a href="https://www.java.com/en/download/" target="_blank" rel="noopener noreferrer">Java</a> from version 1.8.0_51 to a newer one if you didn't already.</span><br /><span style="color: #808080;"> You can check out your current Java version in F3 menu or on 5th line of file logs/latest.log.</span></p>
 </blockquote>
 <p>&nbsp;</p>
-<p><span style="font-size: 24px;"><strong><img src="https://i.imgur.com/uT349gD.png" alt="" width="1802" height="188" /></strong></span></p>
-<p style="text-align: center;"><span style="font-size: 24px; font-family: helvetica, arial, sans-serif;"><strong>🎥 ReplayMod</strong></span>:</p>
-<p style="text-align: center;">&nbsp;Want to use ReplayMod to record fancy videos? here's what you'll need to do:&nbsp;&nbsp;</p>
-<div class="spoiler">
-<ul>
-<li>Disable ScalingGUI's, unfortunaly it is uncompatible with the ReplayMod.</li>
-<li>And add the following block of code to this file located here "Pluma a Journey to the Future\config\CustomMainMenu\mainmenu.json"</li>
-</ul>
-<div style="text-align: left;">
-<div>&nbsp; &nbsp; &nbsp; &nbsp; "replayMod":</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; {</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "text" : "",</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "tooltip" : "ReplayMod Viewer",</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "texture" : "mainmenu:replay.png",</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "posX" : -75,</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "posY" : -92,</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "width" : 20,</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "height" : 20,</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "alignment" : "center",</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "wrappedButton": 17890234,</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "action" :</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "type" : "openGui",</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "gui" : "replaymod.gui.replayviewer"</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div>
-<div>&nbsp; &nbsp; &nbsp; &nbsp; }</div>
-</div>
-<p style="text-align: left;">&nbsp;</p>
-<ul>
-<li style="text-align: left;">After this steps you should be good to go, don't forget to respect the json formating when inserting this block of code, if you place it bellow or above a certain buttom, you may need to use ","s.</li>
-</ul>
-</div>
-<p>&nbsp;</p>
 <p>&nbsp;<img src="https://i.imgur.com/pe5KzMX.png" alt="" width="1802" height="188" /></p>
 <p style="text-align: center;"><span style="font-size: 14px;"><strong><span style="color: #339966;">🩹 Pluma</span></strong> has some special content that was ported from many popular Modpacks and they are respectively:</span></p>
 <ul>
