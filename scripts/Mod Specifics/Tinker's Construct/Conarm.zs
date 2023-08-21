@@ -64,7 +64,7 @@ recipes.remove(<conarm:gauntlet_mat>);
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [null, null, <ore:lightPlateIron>],
-    [<ore:plateIron>, <hotornot:mitts>, <ore:plateIron>],
+    [<ore:plateIron>, <contenttweaker:industrial_leather>, <ore:plateIron>],
     [null, <ore:heavyPlateIron>, <ore:plateIron>]])
   .setFluid(<liquid:lava> * 1000)
   .addTool(<ore:gtceHardHammers>, 15)

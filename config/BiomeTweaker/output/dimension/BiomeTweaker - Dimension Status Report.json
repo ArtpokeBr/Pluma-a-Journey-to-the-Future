@@ -16,9 +16,54 @@
     "ID": 1
   },
   {
+    "Name": "planet",
+    "Suffix": "planet",
+    "ID": 2
+  },
+  {
+    "Name": "space",
+    "Suffix": "space",
+    "ID": 3
+  },
+  {
+    "Name": "asteroid",
+    "Suffix": "asteroid",
+    "ID": 4
+  },
+  {
+    "Name": "The Abyssal Wasteland",
+    "Suffix": "_aw",
+    "ID": 50
+  },
+  {
+    "Name": "The Dreadlands",
+    "Suffix": "_dl",
+    "ID": 51
+  },
+  {
+    "Name": "Omothol",
+    "Suffix": "_omt",
+    "ID": 52
+  },
+  {
+    "Name": "The Dark Realm",
+    "Suffix": "_dl",
+    "ID": 53
+  },
+  {
+    "Name": "twilight_forest",
+    "Suffix": "_twilightforest",
+    "ID": 7
+  },
+  {
     "Name": "Nether",
     "Suffix": "_nether",
     "ID": -1
+  },
+  {
+    "Name": "CompactMachines",
+    "Suffix": "_suffix",
+    "ID": 144
   },
   {
     "Name": "Anu Lair",
@@ -31,9 +76,29 @@
     "ID": -24
   },
   {
+    "Name": "simplevoidworld",
+    "Suffix": "void",
+    "ID": 43
+  },
+  {
+    "Name": "emptiness",
+    "Suffix": "_emptiness",
+    "ID": 14676
+  },
+  {
     "Name": "The Beneath",
     "Suffix": "_tb",
     "ID": 10
+  },
+  {
+    "Name": "Spectre",
+    "Suffix": "Spectre_",
+    "ID": -343800852
+  },
+  {
+    "Name": "End",
+    "Suffix": "_end",
+    "ID": 1
   },
   {
     "Name": "Storage Cell",

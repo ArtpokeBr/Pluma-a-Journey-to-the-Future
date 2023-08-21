@@ -73,12 +73,11 @@ val crushingPlates as IItemStack[][IOreDictEntry] = {
 	, <ore:ingotSilver>  : [<gregtech:meta_plate:100>]
 	, <ore:ingotZinc>  : [<gregtech:meta_plate:122>]
 	, <ore:ingotBrass>  : [<gregtech:meta_plate:259>]	
-	, <ore:ingotCupronickel>  : [<gregtech:meta_plate:274>]
-	, <ore:ingotElectrum>  : [<gregtech:meta_plate:277>]
 	, <ore:ingotInvar>  : [<gregtech:meta_plate:287>]
 	, <ore:ingotWroughtIron>  : [<gregtech:meta_plate:335>]
 	, <ore:ingotPotin>  : [<gregtech:meta_plate:2037>]
 	, <ore:ingotRedAlloy>  : [<gregtech:meta_plate:2517>]
+	, <ore:ingotSteel>  : [<gregtech:meta_plate:324>]
 };
 
 for oreDictEntry, itemStacks in crushingPlates {

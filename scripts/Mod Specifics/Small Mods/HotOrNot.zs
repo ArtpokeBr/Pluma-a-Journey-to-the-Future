@@ -1,3 +1,5 @@
+#modloaded hotornot
+
 import mods.artisanworktables.builder.RecipeBuilder;
 
 // Mitts

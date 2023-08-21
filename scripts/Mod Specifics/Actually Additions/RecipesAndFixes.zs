@@ -786,3 +786,9 @@ craft.make(<actuallyadditions:item_medium_to_large_crate_upgrade>, ["pretty",
   "#": <ore:empoweredBlockEndorCrystal>, # Empowered Endor Crystal Block
   "S": <actuallyadditions:item_small_to_medium_crate_upgrade>, # Small To Medium Storage Crate Upgrade
 });
+
+<actuallyadditions:item_laser_upgrade_range>.addTooltip(format.darkGray(format.italic("<Hold Shift for more info>")));
+<actuallyadditions:item_laser_upgrade_range>.addShiftTooltip(format.aqua("Unfortunatly due to a Bug when Applying this Upgrade,") + format.red(" always Right Click with 2 in your hand."));
+
+<actuallyadditions:item_laser_upgrade_invisibility>.addTooltip(format.darkGray(format.italic("<Hold Shift for more info>")));
+<actuallyadditions:item_laser_upgrade_invisibility>.addShiftTooltip(format.aqua("Unfortunatly due to a Bug when Applying this Upgrade,") + format.red(" always Right Click with 2 in your hand."));

@@ -1,5 +1,5 @@
-#Tue Jun 13 20:22:37 BRT 2023
-shaderPack=OFF
+#Mon Jun 26 19:59:32 BRT 2023
+shaderPack=
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

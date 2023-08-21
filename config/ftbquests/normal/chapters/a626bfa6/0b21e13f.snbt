@@ -1,8 +1,8 @@
 {
 	title: "The Process of Making Gems",
 	icon: "gregtech:machine 1 125",
-	x: -1.5d,
-	y: 8.5d,
+	x: -2.8545918367346914d,
+	y: 8.482142857142861d,
 	description: "Let's set up an Autoclave!",
 	text: [
 		"In order to get most of the §aGems§f in the Pack, you'll need this handy machine, an §6Autoclave§f!",

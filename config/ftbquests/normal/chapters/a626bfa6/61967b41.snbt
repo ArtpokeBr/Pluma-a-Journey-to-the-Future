@@ -1,0 +1,48 @@
+{
+	title: "An Alternative to Ender Chests!",
+	x: 3.49744897959183d,
+	y: -3.9278061224489846d,
+	description: "Let's make a Long Distance Pipeline System",
+	text: [
+		"This §6Pipeline§f will allow you to move §9Fluid's§f And §2Items§f between a §eDistance§f from §b50 Blocks and beyond§f!",
+		"",
+		"• You'll only need to §aChunk Load§f the §dIn/Out Points§f.",
+		"",
+		"• Use a §3Wrench§f to §aRotate§f the §5Endpoints§f and define the §9Input Point§f and the §6Output Point§f.",
+		"",
+		"• This §6Pipeline§f will finally allow you to Move §8Oil§f or §2Ores§f from your §3Miners§f that are far far away!"
+	],
+	dependencies: [
+		"8b8ed045"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "5d7a6b3a",
+		type: "item",
+		title: "An Item or Fluid I/O for your Pipeline",
+		items: [{
+			item: "gregtech:machine 1 1750"
+		},
+		{
+			item: "gregtech:machine 1 1749"
+		}],
+		count: 2L
+	},
+	{
+		uid: "564888fe",
+		type: "item",
+		title: "An Long Distance Item or Fluid Pipe",
+		items: [{
+			item: "gregtech:ld_item_pipe"
+		},
+		{
+			item: "gregtech:ld_fluid_pipe"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "c293c966",
+		type: "item",
+		item: "gregtech:machine 1 920"
+	}]
+}

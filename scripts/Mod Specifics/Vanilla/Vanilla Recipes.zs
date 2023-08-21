@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -64,6 +65,57 @@ recipes.removeByRecipeName("cyclicmagic:item.applegod_1");
 // Activator Track * 12
 <recipemap:assembler>.findRecipe(30, [<metaitem:stickIron> * 12, <minecraft:stick:0> * 2, <minecraft:redstone_torch:0>, <metaitem:circuit.integrated>.withTag({Configuration: 5})], null).remove();
 
+//Wooden Tools ==============================================
+
+#Sword
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>],
+    [<ore:plankWood>],
+    [<ore:stickWood>]])
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addOutput(<minecraft:wooden_sword>)
+.create();
+
+#Pickaxe
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [null, <ore:stickWood>, null],
+    [null, <ore:stickWood>, null]])
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addOutput(<minecraft:wooden_pickaxe>)
+.create();
+
+#Axe
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:stickWood>],
+    [null, <ore:stickWood>]])
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addOutput(<minecraft:wooden_axe>)
+.create();
+
+#Shovel
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>],
+    [<ore:stickWood>],
+    [<ore:stickWood>]])
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addOutput(<minecraft:wooden_shovel>)
+.create();
+
+#Hoe
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<ore:plankWood>, <ore:plankWood>],
+    [null, <ore:stickWood>],
+    [null, <ore:stickWood>]])
+  .addTool(<ore:artisansFramingHammer>, 5)
+  .addOutput(<minecraft:wooden_hoe>)
+.create();
 
 // Crafting Table ===========================================
 recipes.remove(<minecraft:crafting_table>);

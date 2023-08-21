@@ -147,4 +147,14 @@ extractor.recipeBuilder()
 .buildAndRegister();
 
 // Ancient Wood Pillar
-recipes.addShapeless(<fossil:ancient_wood_pillar>*3, [<fossil:ancient_wood>, <fossil:ancient_wood>, <fossil:ancient_wood>, <ore:artisansChisel>.reuse().transformDamage(10)]);  
+recipes.addShapeless(<fossil:ancient_wood_pillar>*3, [<fossil:ancient_wood>, <fossil:ancient_wood>, <fossil:ancient_wood>, <ore:artisansChisel>.reuse().transformDamage(10)]);
+
+// Bio-Goo Recipe
+recipes.remove(<fossil:bio_goo>);
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:milk>*1000, <liquid:slime>*288)
+    .inputs(<fossil:failuresaurus_flesh>, <ore:egg>)
+    .outputs(<fossil:bio_goo>*6)
+    .duration(1200)
+    .EUt(300)
+.buildAndRegister();

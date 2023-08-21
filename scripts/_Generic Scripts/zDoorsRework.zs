@@ -174,7 +174,20 @@ for IItemStack, IIngredient in WoodDoors {
 			.outputs(<enderio:block_dark_steel_door> * 1)   
 			.duration(400)
 			.EUt(4)
-			.buildAndRegister();
+		.buildAndRegister();
+
+// Iron Door
+    recipes.remove(<minecraft:iron_door>);
+    recipes.addShaped(<minecraft:iron_door> * 1, [[<ore:plateIron>, <ore:barsIron>, <ore:gtceScrewdrivers>], [<ore:plateIron>, <ore:ringIron>, <ore:screwIron>],[<ore:plateIron>, <ore:plateIron>, <ore:gtceSaws>]]);
+    <recipemap:assembler>.findRecipe(16, [<metaitem:plateIron> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+
+		assembler.recipeBuilder()
+			.inputs(<ore:plateIron> * 4, <ore:barsIron>)
+            .fluidInputs(<liquid:iron> * 16)
+			.outputs(<minecraft:iron_door> * 1)   
+			.duration(400)
+			.EUt(4)
+		.buildAndRegister();
 
 // Pyrotech Doors
     recipes.remove(<pyrotech:stone_door>);

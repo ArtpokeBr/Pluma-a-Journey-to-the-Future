@@ -4,17 +4,16 @@
 	y: 0.0d,
 	description: "Terrastone!",
 	text: [
-		"With some Bronze and Runic Dust inside a High Oven with some other components, you can make Terrastone!",
+		"With some §6Bronze§f and §3Runic Dust§f inside a §eHigh Oven§f with some other components, you can make §aTerrastone§f!",
 		"",
-		"- This Metal will e used in some Important Crafts soon! Stockpile some.",
+		"- §bThis Metal§f will be used in some §2Important Recipes§f soon! so §ebatchcraft§f them.",
 		"",
-		"- Oh and please note that you'll need a solidifier, as this metal can't solidify itself in Tinker's Tables.",
-		"",
-		"~ There's an Quest for the High Oven in the Chapter 2."
+		"§8§o~ Also, you'll find a Quest for the High Oven in the Chapter 2."
 	],
 	dependencies: [
 		"2ab08f70"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "ac813e5a",
 		type: "item",

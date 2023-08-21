@@ -216,6 +216,13 @@ import mods.jei.JEI as JEI;
 #Adding Extra OreDicts to NC's Marshmallow
 <ore:foodMarshmellows>.add(<nuclearcraft:marshmallow>);
 
+# Adding an Extra OreDict for Pyrotech's Glass
+<ore:refractoryGlass>.add(<pyrotech:refractory_glass>);
+
+# Adding GT's Stone Rod to an Additional Stone Rod OreDict (fixes inconsistencies)
+recipes.replaceAllOccurences(<exnihilocreatio:item_material:6>, <ore:stickStone>);
+<ore:rodStone>.add(<ore:stickStone>.firstItem);
+
 // Adding OreDicts for Overloaded
 
 # Compressed Cobblestone ==========================================================================

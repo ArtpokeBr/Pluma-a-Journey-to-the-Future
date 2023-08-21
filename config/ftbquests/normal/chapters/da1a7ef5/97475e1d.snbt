@@ -18,14 +18,9 @@
 		uid: "e2c911cb",
 		type: "item",
 		items: [{
-			id: "totemic:flute",
-			Damage: 1s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "totemic:flute 1 1"
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "c844125a",

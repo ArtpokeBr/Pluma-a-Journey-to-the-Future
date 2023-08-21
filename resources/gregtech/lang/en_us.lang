@@ -1,9 +1,4 @@
 
-material.black_quartz=§bBlack Quartz§f
-material.biotite=§5Biotite§f
-material.obscure_compound=§5Obscure§f
-material.slaked_composite=Slaked Composite
-
 item.material.oreprefix.oreClump=%s Clump
 item.material.oreprefix.oreCluster=Native %s Cluster
 item.material.oreprefix.oreCrystal=%s Crystal
@@ -14,202 +9,207 @@ item.material.oreprefix.orePurified=Purified %s Ore
 item.material.oreprefix.enrichedEgg=%s Enriched Egg
 item.material.oreprefix.casing=%s Casing
 
-material.starmetal=Starmetal
+gregtech.material.black_quartz=§bBlack Quartz§f
+gregtech.material.biotite=§5Biotite§f
+gregtech.material.obscure_compound=§5Obscure§f
+gregtech.material.slaked_composite=Slaked Composite
 
-material.lumium=Lumium
-material.enderium=Enderium
-material.signalum=Signalum
+gregtech.material.starmetal=Starmetal
 
-material.electrotine=Electrotine
+gregtech.material.lumium=Lumium
+gregtech.material.enderium=Enderium
+gregtech.material.signalum=Signalum
 
-material.triberium=Triberium
+gregtech.material.electrotine=Electrotine
 
-material.osram=Osram
+gregtech.material.triberium=Triberium
 
-material.iox=Iox
+gregtech.material.osram=Osram
 
-material.honeycomb=Honey-Comb
+gregtech.material.iox=Iox
 
-material.modularium=Modularium
+gregtech.material.honeycomb=Honey-Comb
 
-material.stygian=Stygian
+gregtech.material.modularium=Modularium
 
-material.fluix=Fluix
+gregtech.material.stygian=Stygian
 
-material.sigberium=Sigberium
+gregtech.material.fluix=Fluix
 
-material.Dbreath=Dragon's Breath
+gregtech.material.sigberium=Sigberium
 
-material.enderlyne=Enderlyne
+gregtech.material.Dbreath=Dragon's Breath
 
-material.polyenderlyne=Polyenderlyne
+gregtech.material.enderlyne=Enderlyne
 
-material.chorus_flower=Chorus Flower
+gregtech.material.polyenderlyne=Polyenderlyne
 
-material.enbiotic=Enbiotic
+gregtech.material.chorus_flower=Chorus Flower
 
-material.wyrmwood=Wyrmwood
+gregtech.material.enbiotic=Enbiotic
 
-material.refinedglue=Refined Glue
+gregtech.material.wyrmwood=Wyrmwood
 
-material.ferroboron=Ferroboron
+gregtech.material.refinedglue=Refined Glue
 
-material.tough=Tough Alloy
+gregtech.material.ferroboron=Ferroboron
 
-material.hslasteel=HSLA Steel
+gregtech.material.tough=Tough Alloy
 
-material.extreme=Extreme Alloy
+gregtech.material.hslasteel=HSLA Steel
 
-material.thermoconducting=Thermoconducting Alloy
+gregtech.material.extreme=Extreme Alloy
 
-material.boronnitride=Boron Nitride
+gregtech.material.thermoconducting=Thermoconducting Alloy
 
-material.hard_carbon=Hard Carbon
+gregtech.material.boronnitride=Boron Nitride
 
-material.zircaloy=Zircaloy
+gregtech.material.hard_carbon=Hard Carbon
 
-material.sicsiccmc=SiC-SiC Ceramic Matrix Composite
+gregtech.material.zircaloy=Zircaloy
 
-material.ardite=Ardite
+gregtech.material.sicsiccmc=SiC-SiC Ceramic Matrix Composite
 
-material.manyullyn=Manyullyn
+gregtech.material.ardite=Ardite
 
-material.treated_wood=Treated Wood
+gregtech.material.manyullyn=Manyullyn
 
-material.peridot=Peridot
+gregtech.material.treated_wood=Treated Wood
 
+gregtech.material.peridot=Peridot
 
 
-material.nc_boron=Boron
 
-material.ovium=Ovium
+gregtech.material.nc_boron=Boron
 
-material.terrastone=Terrastone
+gregtech.material.ovium=Ovium
 
-material.runic_steel=Runic Steel
+gregtech.material.terrastone=Terrastone
 
-material.dark_steel=Dark Steel
+gregtech.material.runic_steel=Runic Steel
 
-material.electrical_steel=Electrical Steel
+gregtech.material.dark_steel=Dark Steel
 
-material.pulsating_iron=Pulsating Iron
+gregtech.material.electrical_steel=Electrical Steel
 
-material.conductive_iron=Conductive Iron
+gregtech.material.pulsating_iron=Pulsating Iron
 
-material.energetic_alloy=Energetic Alloy
+gregtech.material.conductive_iron=Conductive Iron
 
-material.vibrant_alloy=Vibrant Alloy
+gregtech.material.energetic_alloy=Energetic Alloy
 
-material.end_steel=End Steel
+gregtech.material.vibrant_alloy=Vibrant Alloy
 
-material.ardite=Ardite
+gregtech.material.end_steel=End Steel
 
-material.menril=Menril
-material.chorus=Chorus
+gregtech.material.ardite=Ardite
 
-material.scorched=Scorched
+gregtech.material.menril=Menril
+gregtech.material.chorus=Chorus
 
-material.honey_steel=Honey-Steel
+gregtech.material.scorched=Scorched
 
-material.refined_obsidian=Refined Obsidian
+gregtech.material.honey_steel=Honey-Steel
 
-material.construction_alloy=Iron Alloy
+gregtech.material.refined_obsidian=Refined Obsidian
 
-material.stellar_alloy=Stellar Alloy
+gregtech.material.construction_alloy=Iron Alloy
 
-material.fossil=Fossil
+gregtech.material.stellar_alloy=Stellar Alloy
 
-material.lignite_coal=Lignite Coal
+gregtech.material.fossil=Fossil
 
-material.amber=Amber
+gregtech.material.lignite_coal=Lignite Coal
 
-material.beneath_gas=The Beneath Air
+gregtech.material.amber=Amber
 
-material.modularium=Modularium
+gregtech.material.beneath_gas=The Beneath Air
 
-material.time_vortex_fluid=Time Vortex Fluid
+gregtech.material.modularium=Modularium
 
-material.glitch_infused=§bGlitch Infused§f
+gregtech.material.time_vortex_fluid=Time Vortex Fluid
 
-material.soularium=Soularium
+gregtech.material.glitch_infused=§bGlitch Infused§f
 
-material.manasteel=Manasteel
-material.elementium=Elementium
-material.terrasteel=Terrasteel
+gregtech.material.soularium=Soularium
 
-material.ember=Ember
-material.dawnstone=Dawnstone
+gregtech.material.manasteel=Manasteel
+gregtech.material.elementium=Elementium
+gregtech.material.terrasteel=Terrasteel
 
-material.demonlord=Demonlord
-material.diabolic_carbide=Diabolic Carbide
+gregtech.material.ember=Ember
+gregtech.material.dawnstone=Dawnstone
 
-material.dwarven_solution=Dwarven Solution
+gregtech.material.demonlord=Demonlord
+gregtech.material.diabolic_carbide=Diabolic Carbide
 
-material.unstable_mana=Unstable Mana
+gregtech.material.dwarven_solution=Dwarven Solution
 
-material.liquid_nightmares=Nightmares
+gregtech.material.unstable_mana=Unstable Mana
 
-material.vinteum=Vinteum
+gregtech.material.liquid_nightmares=Nightmares
 
-material.red_sand=Red Sand
+gregtech.material.vinteum=Vinteum
 
-material.twilight_metal=Twilight Metal
+gregtech.material.red_sand=Red Sand
 
-material.dark_fluid=Liquid Darkness
+gregtech.material.twilight_metal=Twilight Metal
 
-material.ender_mixture=Ender Mixture
+gregtech.material.dark_fluid=Liquid Darkness
 
-material.aquamarine=Aquamarine
+gregtech.material.ender_mixture=Ender Mixture
 
-material.draconium=Draconium
+gregtech.material.aquamarine=Aquamarine
 
-material.awakened_draconium=Awakened Draconium
+gregtech.material.draconium=Draconium
 
-material.enderlyne=Enderlyne
-material.fermented_enderlyne=Fermented Enderlyne
-material.polyenderlyne=Polyenderlyne
+gregtech.material.awakened_draconium=Awakened Draconium
 
-material.infinity_metal=Infinity
+gregtech.material.enderlyne=Enderlyne
+gregtech.material.fermented_enderlyne=Fermented Enderlyne
+gregtech.material.polyenderlyne=Polyenderlyne
 
-material.ancient_metal=§4Ancient Metal
+gregtech.material.infinity_metal=Infinity
 
-material.refined_glue=Refined Glue
-material.super_glue=Super Glue
+gregtech.material.ancient_metal=§4Ancient Metal
 
-material.cobalt_steel=Cobalt Steel
+gregtech.material.refined_glue=Refined Glue
+gregtech.material.super_glue=Super Glue
 
-material.copper_magnetic=Magnetic Copper
+gregtech.material.cobalt_steel=Cobalt Steel
 
-material.aer_infused=Aer Infused
-material.terra_infused=Terra Infused
-material.aqua_infused=Aqua Infused
-material.ignis_infused=Ignis Infused
-material.ordo_infused=Ordo Infused
-material.entropy_infused=Entropy Infused
+gregtech.material.copper_magnetic=Magnetic Copper
 
-material.concentrated_titanium=Concentrated Titanium
+gregtech.material.aer_infused=Aer Infused
+gregtech.material.terra_infused=Terra Infused
+gregtech.material.aqua_infused=Aqua Infused
+gregtech.material.ignis_infused=Ignis Infused
+gregtech.material.ordo_infused=Ordo Infused
+gregtech.material.entropy_infused=Entropy Infused
 
-material.abyssal_stone=Abyssal
-material.dread_stone=Dread
-material.abyssalnite_stone=Abyssalnite
-material.omothol_stone=Omothol
+gregtech.material.concentrated_titanium=Concentrated Titanium
 
-material.moon=Moon
+gregtech.material.abyssal_stone=Abyssal
+gregtech.material.dread_stone=Dread
+gregtech.material.abyssalnite_stone=Abyssalnite
+gregtech.material.omothol_stone=Omothol
 
-material.gold_alloy=Gold Alloy
-material.precious_metal=Precious Metal
-material.gold_leach=Gold Leach
-material.copper_leach=Leached Copper
-material.chloroauric_acid=Chloroauric Acid
-material.potassium_metabisulfite=Potassium Metabisulfite
+gregtech.material.moon=Moon
 
-material.advanced_alloy=Advanced Alloy
+gregtech.material.gold_alloy=Gold Alloy
+gregtech.material.precious_metal=Precious Metal
+gregtech.material.gold_leach=Gold Leach
+gregtech.material.copper_leach=Leached Copper
+gregtech.material.chloroauric_acid=Chloroauric Acid
+gregtech.material.potassium_metabisulfite=Potassium Metabisulfite
 
-material.thaumium=Thaumium
-material.void=Void Metal
-material.mithrillium=Mithrillium
-material.thaumic_steel=Thaumic Steel
+gregtech.material.advanced_alloy=Advanced Alloy
 
-material.osgloglas=Osgloglas
-material.alumite=Alumite
-material.mirion=Mirion
+gregtech.material.thaumium=Thaumium
+gregtech.material.void=Void Metal
+gregtech.material.mithrillium=Mithrillium
+gregtech.material.thaumic_steel=Thaumic Steel
+
+gregtech.material.osgloglas=Osgloglas
+gregtech.material.alumite=Alumite
+gregtech.material.mirion=Mirion

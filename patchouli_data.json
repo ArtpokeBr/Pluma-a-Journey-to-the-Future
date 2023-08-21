@@ -1,1 +1,28 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "techguns:techguns_manual": {
+      "viewedEntries": [
+        "techguns:machines/camo_bench",
+        "techguns:machines/upgrade_bench",
+        "techguns:machines/repair_bench",
+        "techguns:machine_mechanics",
+        "techguns:oredrills/ore_clusters",
+        "techguns:oredrills/ore_drills",
+        "techguns:machines/reactionchamber"
+      ],
+      "bookmarks": [],
+      "history": [
+        "techguns:machines/reactionchamber",
+        "techguns:oredrills/ore_drills",
+        "techguns:oredrills/ore_clusters",
+        "techguns:machine_mechanics",
+        "techguns:machines/repair_bench",
+        "techguns:machines/upgrade_bench",
+        "techguns:machines/camo_bench"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

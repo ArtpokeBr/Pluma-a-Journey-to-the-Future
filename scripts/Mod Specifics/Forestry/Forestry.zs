@@ -711,3 +711,22 @@ craft.make(<forestry:peat_bog>, ["pretty",
 });
 
 // ===================================================
+
+# [Ash Bricks]*4 from [Bricks][+1]
+recipes.removeByRecipeName("forestry:ash_brick");
+craft.make(<forestry:ash_brick> * 4, ["pretty",
+  "■ ▲ ■",
+  "▲ ▲ ▲",
+  "■ ▲ ■"], {
+  "■": <ore:blockBrick>, # Bricks
+  "▲": <ore:dustAsh>,    # Ashes
+});
+
+# [Ash Brick Stairs]*8 from [Ash Bricks]
+recipes.removeByRecipeName("forestry:ash_stairs");
+craft.make(<forestry:ash_stairs> * 8, ["pretty",
+  "A    ",
+  "A A  ",
+  "A A A"], {
+  "A": <forestry:ash_brick>, # Ash Bricks
+});

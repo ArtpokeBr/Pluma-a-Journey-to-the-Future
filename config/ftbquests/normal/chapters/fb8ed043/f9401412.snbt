@@ -1,16 +1,19 @@
 {
-	title: "Making Flint Shards!",
+	title: "Making Flint Shards Efficiently!",
 	x: 5.5d,
 	y: -0.5d,
-	description: "Want Flint Tools? You'll Shards for them!",
+	description: "Want Better Tools? Time to Efficiently collect Flint Shards!",
 	text: [
-		"Now that you have a Granite Anvil, you'll be finally able to make Flint Tools, wich are much better than Crude!",
+		"Now that you have a §6Granite Anvil§f, you'll finally be able to make §3Flint Tools§f, as you can now §aefficiently§f get §3Flint Shards§f.",
 		"",
-		"- Simply use a Flint and hit it with your Pickaxe in the Anvil to obtain Shards!"
+		"§8(Flint Tools are much better than the Crude ones!)§f",
+		"",
+		"• Simply use a §3Flint§f and smash it with your §2Pickaxe§f in an §6Pyrotech's Anvil§f to obtain §3Shards§f!"
 	],
 	dependencies: [
 		"6aa61e3b"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "3ab630a0",
 		type: "item",

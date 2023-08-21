@@ -1,0 +1,54 @@
+{
+	title: "Extruding...",
+	x: -1.5d,
+	y: 8.4d,
+	description: "Time to make an LV Extruder!",
+	text: [
+		"§aMost Extruding Recipes§f will require §eMV Level Power§f, but... there are some really §2usefull recipes in LV aswell§f!",
+		"",
+		"► Also, §5don't forget§f that you'll need §6Extruder Shapes§f for it.",
+		"",
+		"§8§o▪ (Remember that once you have one, you can always chisel it into another one.)§f",
+		"",
+		"► Upon Completing this §6Quest§f you'll §aUnlock a New Chapter in \"Expanding your Knowledge\"§f!"
+	],
+	dependencies: [
+		"de02f604"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "5f12a46c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 320"
+		}]
+	},
+	{
+		uid: "f3d2f4a1",
+		type: "item",
+		title: "Any LV Level Extruder Shape",
+		items: [{
+			item: "gregtech:meta_item_1 1 36"
+		},
+		{
+			item: "gregtech:meta_item_1 1 35"
+		},
+		{
+			item: "gregtech:meta_item_1 1 53"
+		},
+		{
+			item: "gregtech:meta_item_1 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "6ab7f704",
+		type: "item",
+		item: "gregtech:meta_item_1 1 172"
+	},
+	{
+		uid: "d92c452b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	}]
+}

@@ -41,4 +41,6 @@ legibleCaveMaps:false
 displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:1
+biomeBlending:true
+trackedPlayers:true
 globalVersion:1

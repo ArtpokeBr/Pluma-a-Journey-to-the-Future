@@ -144,6 +144,41 @@ function makeBlockIntegrationSimple (inputMaterial as IItemStack, outputBlock as
 
 }
 
+function makeFluid_Gem_Block_Integration (inputGem as IItemStack, inputBlock as IItemStack, fluidMaterial as ILiquidStack){
+
+        #Gem
+        extractor.recipeBuilder()
+        .inputs(inputGem)
+        .fluidOutputs(fluidMaterial*666)
+        .duration(56)
+        .EUt(30)
+        .buildAndRegister();
+
+        solidifier.recipeBuilder()
+        .fluidInputs(fluidMaterial * 666)
+        .notConsumable(<gregtech:meta_item_1:17>) 
+        .outputs(inputGem)
+        .duration(20)
+        .EUt(7)
+        .buildAndRegister();
+
+        #Block
+        extractor.recipeBuilder()
+        .inputs(inputBlock)
+        .fluidOutputs(fluidMaterial*5994)
+        .duration(504)
+        .EUt(30)
+        .buildAndRegister();
+
+        solidifier.recipeBuilder()
+        .fluidInputs(fluidMaterial * 5994)
+        .notConsumable(<gregtech:meta_item_1:18>) 
+        .outputs(inputBlock)
+        .duration(56)
+        .EUt(7)
+        .buildAndRegister();
+}
+
 function makeFluidIngotIntegration (inputMaterial as IItemStack, fluidMaterial as ILiquidStack){
 
         extractor.recipeBuilder()
@@ -510,6 +545,9 @@ recipes.remove(<extrautils2:simpledecorative:2>);
 makeContenttweakerIntegration(<ore:ingotEvilMetal>.firstItem, <ore:plateEvilInfused>.firstItem, <ore:gearEvilInfused>.firstItem, <tconstruct:tool_rod>.withTag({Material: "xu_evil_metal"}));
 makeFluidIngotIntegration (<ore:ingotEvilMetal>.firstItem, <liquid:xu_evil_metal>);
 makeBlockIntegration(<ore:ingotEvilMetal>.firstItem, <ore:blockEvilMetal>.firstItem, <liquid:xu_evil_metal>);
+
+# Molten Lapis Integration (Molten Lapis is Added by NuclearCraft)
+makeFluid_Gem_Block_Integration (<ore:gemLapis>.firstItem, <ore:blockLapis>.firstItem, <liquid:lapis>);
 
 ////////////////////////////////////////////////////////
 //  Resources Ported from MorePlates (Empowered Ones) //

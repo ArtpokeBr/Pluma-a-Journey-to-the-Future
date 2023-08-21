@@ -56,7 +56,8 @@ var GTShapes as IItemStack[] = [
 <gregtech:meta_item_1:41>,
 <gregtech:meta_item_1:40>,
 <gregtech:meta_item_1:39>,
-<gregtech:meta_item_1:38>
+<gregtech:meta_item_1:38>,
+//<contenttweaker:shape.mechanical_parts>
 ];
 for i in GTShapes {
 mods.chisel.Carving.addVariation("gt_shapes", i);

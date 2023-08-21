@@ -1045,13 +1045,16 @@ abyssal_tablet.register();
 
 // === //
 
-// Casing Mold and Shape
+// Extra GT Shapes
 
 var casing_mold = VanillaFactory.createItem("casing_mold");
 casing_mold.register();
 
 var casing_shape = VanillaFactory.createItem("casing_shape");
 casing_shape.register();
+
+// var shape_mechanical_parts = VanillaFactory.createItem("shape.mechanical_parts");
+// shape_mechanical_parts.register();
 
 // Mixed Metal Ingot
 

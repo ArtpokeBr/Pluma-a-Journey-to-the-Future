@@ -729,3 +729,30 @@ for i, oreBase in "Copper Tin Silver Lead".split(' ') {
   // swapBonus(<thaumcraft:cluster>.definition.makeStack(i+2), wrong, nugget * 2 % 33);
   // swapBonus(<thaumicwonders:eldritch_cluster>.definition.makeStack(i+2), wrong, nugget * 4 % 33);
 }
+
+//Conversion between Thaum and Greg
+
+# [Alchemical Brass Ingot] from [Brass Ingot]
+# [Brass Ingot] from [Alchemical Brass Ingot]
+craft.reshapeless(<thaumcraft:ingot:2>, "▬", {
+  "▬": <ore:ingotBrass>, # Brass Ingot
+});
+craft.reshapeless(<ore:ingotBrass>.firstItem, "▬", {
+  "▬": <thaumcraft:ingot:2>, # Alchemical Brass Ingot
+});
+
+# [Thaumium Ingot] from [Thaumium Ingot]
+craft.reshapeless(<thaumcraft:ingot>, "▬", {
+  "▬": <ore:ingotThaumium>, # Thaumium Ingot
+});
+craft.reshapeless(<ore:ingotThaumium>.firstItem, "▬", {
+  "▬": <thaumcraft:ingot>, # Thaumium Ingot
+});
+
+# [Void Metal Ingot] from [Void Metal Ingot]
+craft.reshapeless(<thaumcraft:ingot:1>, "▬", {
+  "▬": <ore:ingotVoid>, # Void Metal Ingot
+});
+craft.reshapeless(<ore:ingotVoid>.firstItem, "▬", {
+  "▬": <thaumcraft:ingot:1>, # Void Metal Ingot
+});

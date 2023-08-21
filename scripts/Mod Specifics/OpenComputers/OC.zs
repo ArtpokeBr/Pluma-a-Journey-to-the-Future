@@ -267,7 +267,12 @@ craft.make(<opencomputers:relay>, ["pretty",
 # [Transistor Rework]
 <opencomputers:material:6>.displayName = "Tiny Transistor";
 recipes.remove(<opencomputers:material:6>);
-AtomicReconstructor.addRecipe(<opencomputers:material:6>*4, <gregtech:meta_item_1:518>, 10000);
+extractor.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:518>)
+	.outputs(<opencomputers:material:6>*4)
+	.duration(350)
+	.EUt(48)
+.buildAndRegister();
 
 # [Microchip Tier 1]
 recipes.remove(<opencomputers:material:7>);

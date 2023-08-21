@@ -811,3 +811,27 @@ Melting.addRecipe(<liquid:concrete>*144, i, 350);
 }
 
 /// =========================================================================================================
+
+//Adding a "Pyrotech Style" Boat Recipe for GT Boats.
+
+# [Rubber Wood Boat] from [Tarred Board][+2]
+recipes.removeByRecipeName("gregtech:rubber_boat");
+craft.make(<gregtech:meta_item_1:473>, ["pretty",
+  "     ",
+  "#   #",
+  "T a T"], {
+  "#": <ore:plankWood>,          # Rubber Wood Planks
+  "T": <pyrotech:planks_tarred>, # Tarred Planks
+  "a": <pyrotech:material:23>,   # Tarred Board
+});
+
+# [Treated Wood Boat] from [Tarred Board][+2]
+recipes.removeByRecipeName("gregtech:treated_boat");
+craft.make(<gregtech:meta_item_1:474>, ["pretty",
+  "     ",
+  "#   #",
+  "T a T"], {
+  "#": <ore:plankTreatedWood>,   # Treated Wood Planks
+  "T": <pyrotech:planks_tarred>, # Tarred Planks
+  "a": <pyrotech:material:23>,   # Tarred Board
+});

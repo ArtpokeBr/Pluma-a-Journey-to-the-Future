@@ -8,83 +8,59 @@ import mods.gregtech.material.MaterialRegistry;
 
 // Editing Existent Materials ======================================//
 
-var brass = MaterialRegistry.get("brass");
-brass.addFlags("GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FINE_WIRE", "GENERATE_FOIL");
+<material:brass>.addFlags("GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING", "GENERATE_FINE_WIRE", "GENERATE_FOIL");
 
-var Salt = MaterialRegistry.get("salt");
-Salt.addFlags("MORTAR_GRINDABLE");
+<material:salt>.addFlags("MORTAR_GRINDABLE");
 
-var red_alloy = MaterialRegistry.get("red_alloy");
-red_alloy.addFlags("GENERATE_GEAR");
+<material:red_alloy>.addFlags("GENERATE_GEAR", "GENERATE_DOUBLE_PLATE");
 
-var copper = MaterialRegistry.get("copper");
-copper.addFlags("GENERATE_GEAR");
+<material:copper>.addFlags("GENERATE_GEAR");
 
-var tin = MaterialRegistry.get("tin");
-tin.addFlags("GENERATE_GEAR");
+<material:tin>.addFlags("GENERATE_GEAR");
 
-var titanium = MaterialRegistry.get("titanium");
-titanium.addFlags("GENERATE_FOIL", "GENERATE_SPRING", "GENERATE_SPRING_SMALL");
+<material:titanium>.addFlags("GENERATE_FOIL", "GENERATE_SPRING", "GENERATE_SPRING_SMALL");
 
-var vanadium_steel = MaterialRegistry.get("vanadium_steel");
-vanadium_steel.addFlags("GENERATE_FRAME");
+<material:vanadium_steel>.addFlags("GENERATE_FRAME");
 
-var red_steel = MaterialRegistry.get("red_steel");
-red_steel.addFlags("GENERATE_ROTOR", "GENERATE_DENSE");
+<material:red_steel>.addFlags("GENERATE_ROTOR", "GENERATE_DENSE");
 
-var annealed_copper = MaterialRegistry.get("annealed_copper");
-annealed_copper.addFlags("GENERATE_FRAME");
+<material:annealed_copper>.addFlags("GENERATE_FRAME");
 
-var certus_quartz = MaterialRegistry.get("certus_quartz");
-certus_quartz.addFlags("GENERATE_GEAR");
+<material:certus_quartz>.addFlags("GENERATE_GEAR");
 
-var nether_quartz = MaterialRegistry.get("nether_quartz");
-nether_quartz.addFlags("GENERATE_GEAR");
+<material:nether_quartz>.addFlags("GENERATE_GEAR");
 
-var quartzite = MaterialRegistry.get("quartzite");
-quartzite.addFlags("GENERATE_GEAR");
+<material:quartzite>.addFlags("GENERATE_GEAR");
 
-var magnesium = MaterialRegistry.get("magnesium");
-magnesium.addFlags("GENERATE_GEAR", "GENERATE_INGOT", "GENERATE_PLATE");
+<material:magnesium>.addFlags("GENERATE_GEAR", "GENERATE_INGOT", "GENERATE_PLATE");
 
-var gold = MaterialRegistry.get("gold");
-gold.addFlags("GENERATE_GEAR");
+<material:gold>.addFlags("GENERATE_GEAR");
 
-var rose_gold = MaterialRegistry.get("rose_gold");
-rose_gold.addFlags("GENERATE_FOIL", "GENERATE_SPRING", "GENERATE_SPRING_SMALL");
+<material:rose_gold>.addFlags("GENERATE_FOIL", "GENERATE_SPRING", "GENERATE_SPRING_SMALL");
 
-var stainless_steel = MaterialRegistry.get("stainless_steel");
-stainless_steel.addFlags("GENERATE_SPRING");
+<material:stainless_steel>.addFlags("GENERATE_SPRING", "GENERATE_SPRING_SMALL");
 
-var hsla_steel = MaterialRegistry.get("hsla_steel");
-hsla_steel.addFlags("GENERATE_ROTOR");
+<material:hsla_steel>.addFlags("GENERATE_ROTOR");
 
-var aluminium = MaterialRegistry.get("aluminium");
-aluminium.addFlags("GENERATE_DENSE");
+<material:aluminium>.addFlags("GENERATE_DENSE");
 
-var silver = MaterialRegistry.get("silver");
-silver.addFlags("GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING");
+<material:silver>.addFlags("GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING");
 
-var electrum = MaterialRegistry.get("electrum");
-electrum.addFlags("GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING");
+<material:electrum>.addFlags("GENERATE_GEAR", "GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING");
 
-var bronze = MaterialRegistry.get("bronze");
-bronze.addFlags("GENERATE_DENSE", "GENERATE_SPRING_SMALL", "GENERATE_SPRING");
+<material:bronze>.addFlags("GENERATE_DENSE", "GENERATE_SPRING_SMALL", "GENERATE_SPRING");
 
-var invar = MaterialRegistry.get("invar");
-invar.addFlags("GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING");
+<material:invar>.addFlags("GENERATE_DENSE", "GENERATE_ROTOR", "GENERATE_SMALL_GEAR", "GENERATE_SPRING_SMALL", "GENERATE_SPRING");
 
-var iron_magnetic = MaterialRegistry.get("iron_magnetic");
-iron_magnetic.addFlags("GENERATE_DENSE");
+<material:iron_magnetic>.addFlags("GENERATE_DENSE");
 
-var steel_magnetic = MaterialRegistry.get("steel_magnetic");
-steel_magnetic.addFlags("GENERATE_DENSE");
+<material:steel_magnetic>.addFlags("GENERATE_DENSE");
 
-var nickel = MaterialRegistry.get("nickel");
-nickel.addFlags("GENERATE_ROTOR");
+<material:nickel>.addFlags("GENERATE_ROTOR");
 
-var zinc = MaterialRegistry.get("zinc");
-zinc.addFlags("GENERATE_ROTOR");
+<material:zinc>.addFlags("GENERATE_ROTOR");
+
+<material:iron>.addFlags("GENERATE_DOUBLE_PLATE");
 
 // ========================= //
 

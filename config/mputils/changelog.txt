@@ -1,37 +1,76 @@
-§a§lVersion Beta§r§f 3.3:
+§a§lVersion Beta§r§f 3.4:
 
 §b§lMod Related Changes§r§f:
 
-- Updated AE2 Fluid Crafting
-- Updated Mekanism Community Edition
-- Updated Open Computers
+- Updated AE2 Extended Life
+- Updated Enderio Package
+- Updated MouseTweaks
+- Updated Placebo
+- Updated BdLib
+- Updated Athenaeum
+- Updated Craftweaker
+- Updated Quark
+- Updated JEI Utilities
+- Updated OpenComputers
+- Updated StorageDrawers
+- Updated PackagedAuto and PackagedExCrafting
+- Updated Packaged Draconic and Astral
 - Updated CensoredASM
-- Updated HEI
-- Updated Crafttweaker
+- Updated Deep Mob Evolution
+- Updated UniversalTweaks (currently using a Mixin 7 Compat Version)
+- Updated Xaeros Minimap and WorldMap
+- Updated AdvancedRocketry
+- Updated Inventory BogoSorter
+- Updated ModularUI
+- Updated HammerLib
+- Updated RTG Unnofficial
+- Updated PlusTic
 
-- Added IronChests
-- Added Startup Timer
-- Added Performant
-- Added ULV Covers
+- Updated GTCEU (This is Huge!)
+- Update GTCEU Multiblocks
+- Updated GTCEU Drawers
+- Updated MultiblockTweaker
+
+- Added Uber Conduit Probe
+- Added AE2 Network Visualizer
+- Added Visual Ores
+- Added NetherAPI
+- Added VintageFix
+
+- Swapped Binnies Mod to BinniesMod Patched
+
+- Removed Inventory BogoSorter (Swapped with InventoryTweaks)
+(There are some issues with it crrently, should be readded in the future)
+- Removed MixingCompat
+- Removed MixingBootstrap
+- Removed Hot or Not
+(Unfortunatly didn't work as intended, not actually being able to identify all possible Fluid containers).
+(Removing this mod may also improve the experience for certain people, and overall, removing a mod always help with performance)
+
 
 §2§lFixes§r§f:
 
-- Fixed Incorrect Flour Recipes.
-- Fixed Broken Main Menu Buttom (CurseForge Page)
-- Fixed Incorrect Recipe for the ExNihilo Sieve
-- Fixed Incorrect Baguette and Rice Bread Recipes.
+- Fixed a Crash related to Pyrotech's Igniters and Wood Piles.
+- Unhidden Vanilla Wooden Tools and added a way to obtain them.
+- Fixed "Improving your Flute!" Quest to require the correct Flute. (it should respect NBT now)
+- Fixed Incorrect Mattock Texture being displayed with the ResourcePack Provided.
+- Added Convertion Recipes for Thaumcraft Ingots, fixing the progression.
+- Osmiridium and Carbon Fiber are now properly implemented as Tcon Materials.
+- Fixed Tiny Transistor Recipe from OpenComputers not outputing the correct amount per recipe.
+- Added Recipes for Forge MicroBlocks Saws (fixes them using an incorrect Stone Rod.)
 
 §5§lMiscellaneous§r§f:
 
-- Really Improved the Quest Book with more Chapters, organization and descriptions for certain items,mechanics and aspects of the pack.
-- Tweaked some values for Gendustry Machines, in general, increasing their buffers and energy comsumption.
-- Some Tweaks to Chapter 1 Quests in order to make them more Clear.
-- Removed Flint Mortar and Knife alternate Recipes.
-- Buffed the Redstone Clock (XU2) Recipe, doesn't need a Clock anymore, wich means no need for Gold.
-- Lowered the amount of minimum saturation for contribuitions to Spice of Life Health Milestones, wich means, Binnies Brews will now contribute to it.
-- Disabled Binnies Field Kit (essentially a bee analyzer that consumes Paper instead of honey drops).
-- Buffed Smeltery Controller Recipe (Gold Cog -> Bronze Gear).
-- Gregtech's Concrete and Dark Concrete now have compat with Chisel
-- Gregtech's Light Concrete can now be melted aswell.
-- Gregetech's Dark Concrete can now also be made using ExNihilo's Barrel and Pyrotech's Soaking Pot.
-- Added Crop to Seed Recipes for certain Crops (Wheat, Barley, Lotus...)
+- More Dark Textures added to the Pluma Graphical Enhancement (MagneticCraft, Tinker's Complement)
+- The Endergy Transceiver from EnderIO doesn't have an energyLoss anymore.
+- Buffed Totemic Instruments, now they should contribute more Music to Rituals.
+- Renabled Pyrotech Burning.
+- Tweaked Ash Bricks and Stairs Recipe.
+- Tweaked Cobbblestone and Water Generator Recipes from NuclearCraft allowing them to be acessible earlier on the progression. (Cobble = LV, Water = MV)
+- Lapis Lazuli can now be properly melted and solidified using GT Methods.
+- Added a Refractory Bricks and Refractory Glass Alternate Recipe (Iside an Alloy Smelter).
+- Redesigned the Flint Shards Quest.
+- Redesigned the Flint and Tinder Quest.
+- Updated Seared Plate Texture.
+- Added a Quest for Long Distance Pipeline Systems from GregTech.
+

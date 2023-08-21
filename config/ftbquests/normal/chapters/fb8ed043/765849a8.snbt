@@ -1,16 +1,19 @@
 {
-	title: "A Way to light up flames!",
+	title: "Light it Up!",
 	x: 3.5d,
 	y: -1.5d,
-	description: "A Flint and Tinder!",
+	description: "Let's make a Flint and Tinder!",
 	text: [
-		"Not for Dating, but for Lighting up flames!",
+		"Not actually for Dating, but actually for §cLighting up Flames§f!",
 		"",
-		"Currently you don't have Steel to make a Flint and Steel, so this is your first way to light up fire!"
+		"• Currently you don't have §3Steel§f to make a §6Flint and Steel§f, so this will be your §2first tool§f to §cMake Fire§f!",
+		"",
+		"• §aPro Tip§f: you can get some §3Flint Shards§f by breaking §9Gravel§f with a §5Crude Shovel§f."
 	],
 	dependencies: [
 		"a9967abd"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "7587f080",
 		type: "item",

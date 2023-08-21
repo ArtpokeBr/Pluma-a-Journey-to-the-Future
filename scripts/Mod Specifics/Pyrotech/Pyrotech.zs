@@ -247,16 +247,6 @@ craft.make(<pyrotech:brick_sawmill>, ["pretty",
 //Compostic Bin Tooltip Help
 <pyrotech:compost_bin>.addTooltip(format.white("Place ") + format.green("Organic Items/Foods ") + format.white("and ") + format.blue("Water ") + format.white("to make ") + format.yellow("Mulch."));
 
-# [Refractory Glass]*4 from [Strengthened Glass][+2]
-craft.make(<pyrotech:refractory_glass> * 4, ["pretty",
-  "e R e",
-  "R G R",
-  "e R e"], {
-  "e": <pyrotech:material:4>,   # Refractory Clay
-  "R": <pyrotech:material:5>,   # Refractory Brick
-  "G": <ore:strengthenedGlass>, # Strengthened Glass
-});
-
 # [Barrel] from [Wooden Barrel][+2]
 recipes.removeByRecipeName("pyrotech:tech/basic/barrel");
 craft.make(<pyrotech:barrel>, ["pretty",
@@ -278,3 +268,74 @@ craft.make(<pyrotech:anvil_iron_plated>, ["pretty",
   "G": <ore:stoneGranitePolished>, # Polished Granite
   "S": <ore:slabStone>, # Stone Slab
 });
+
+# [Stone Collector]*3 from [Stone Tank][+2]
+recipes.removeByRecipeName("pyrotech:tech/refractory/tar_collector_stone");
+craft.make(<pyrotech:tar_collector> * 3, ["pretty",
+  "M   M",
+  "M S M",
+  "a M a"], {
+  "M": <pyrotech:material:16>,         # Masonry Brick
+  "S": <pyrotech:stone_tank>,          # Stone Tank
+  "a": <pyrotech:masonry_brick_block>, # Masonry Bricks
+});
+
+# [Refractory Collector]*3 from [Refractory Tank][+2]
+recipes.removeByRecipeName("pyrotech:tech/refractory/tar_collector_brick");
+craft.make(<pyrotech:tar_collector:1> * 3, ["pretty",
+  "R   R",
+  "R f R",
+  "e R e"], {
+  "R": <pyrotech:material:5>,             # Refractory Brick
+  "f": <pyrotech:brick_tank>,             # Refractory Tank
+  "e": <pyrotech:refractory_brick_block>, # Refractory Bricks
+});
+
+# [Stone Drain] from [Stone Bucket][+2]
+recipes.removeByRecipeName("pyrotech:tech/refractory/tar_drain_stone");
+craft.make(<pyrotech:tar_drain>, ["pretty",
+  "M   M",
+  "M ~ M",
+  "M A M"], {
+  "M": <pyrotech:material:16>,  # Masonry Brick
+  "~": <pyrotech:bucket_stone>, # Stone Bucket
+  "A": <pyrotech:masonry_brick_block>, # Masonry Bricks
+});
+
+# [Refractory Drain] from [Refractory Bucket][+2]
+recipes.removeByRecipeName("pyrotech:tech/refractory/tar_drain_brick");
+craft.make(<pyrotech:tar_drain:1>, ["pretty",
+  "R   R",
+  "R ~ R",
+  "R e R"], {
+  "R": <pyrotech:material:5>,             # Refractory Brick
+  "~": <pyrotech:bucket_refractory>,      # Refractory Bucket
+  "e": <pyrotech:refractory_brick_block>, # Refractory Bricks
+});
+
+# Easier Refractory Bricks ======
+
+//Ingot
+alloy.recipeBuilder()
+    .inputs(<ore:ingotBrickSeared>*2, <ore:dustSlakedComposite>)
+    .outputs(<pyrotech:material:5>)
+    .duration(80)
+    .EUt(4)
+.buildAndRegister();
+
+//Block
+alloy.recipeBuilder()
+    .inputs(<tconstruct:seared:3>, <ore:dustSlakedComposite>*2)
+    .outputs(<pyrotech:refractory_brick_block>)
+    .duration(160)
+    .EUt(8)
+.buildAndRegister();
+
+# [Refractory Glass]
+alloy.recipeBuilder()
+    .inputs(<ore:compressed1xSand>, <ore:dustSlakedComposite>*4)
+    .outputs(<pyrotech:refractory_glass>*9)
+    .duration(180)
+    .EUt(6)
+.buildAndRegister();
+

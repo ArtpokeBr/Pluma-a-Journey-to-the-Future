@@ -7,6 +7,7 @@ import mods.actuallyadditions.Compost;
 import mods.tcomplement.highoven.HighOven;
 import mods.tcomplement.highoven.MixRecipeBuilder;
 import mods.inworldcrafting.FluidToItem;
+import mods.tconstruct.Casting;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -686,5 +687,27 @@ chemical_bath.recipeBuilder()
     .fluidInputs(<liquid:glue>*1000)
     .outputs(<ore:itemInfinityGoop>.firstItem*64, <ore:itemInfinityGoop>.firstItem*8)
     .duration(120)
+    .EUt(40)
+.buildAndRegister();
+
+# [Omnivoir]*4 from [Hardened Glass][+2]
+recipes.removeByRecipeName("enderio:omni_reservoir");
+craft.make(<enderio:block_omni_reservoir> * 4, ["pretty",
+  "⌃ ▬ ⌃",
+  "▬ ■ ▬",
+  "⌃ ▬ ⌃"], {
+  "⌃": <ore:plateBlackQuartz>,   # Black Quartz Plate
+  "▬": <ore:ingotDarkSteel>,     # Dark Steel Ingot
+  "■": <ore:blockGlassHardened>, # Hardened Glass
+});
+
+# Endervoir
+recipes.remove(<enderio:block_reservoir>);
+Casting.addBasinRecipe(<enderio:block_reservoir>, <enderio:block_omni_reservoir>, <liquid:lapis>, 666, true);
+chemical_bath.recipeBuilder()
+    .inputs(<enderio:block_omni_reservoir>)
+    .fluidInputs(<liquid:lapis>*666)
+    .outputs(<enderio:block_reservoir>)
+    .duration(320)
     .EUt(40)
 .buildAndRegister();
