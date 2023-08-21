@@ -545,7 +545,6 @@ var ItensRemovidos as IItemStack[] = [
 <randomthings:spectrecharger:2>,
 
 //Pyrotech
-<pyrotech:log_pile>,
 <pyrotech:material:27>,
 <pyrotech:anvil_obsidian>,
 <pyrotech:material:50>,
@@ -557,7 +556,6 @@ var ItensRemovidos as IItemStack[] = [
 <microblockcbe:stone_rod>,
 
 //Forestry
-<forestry:charcoal>,
 <binniecore:storage>,
 <binniecore:storage:1>,
 <binniecore:storage:2>,

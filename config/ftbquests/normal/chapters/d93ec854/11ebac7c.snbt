@@ -11,7 +11,7 @@
 		"",
 		"- §2Right click§f with an §eScarab Gem§f to open the Seal of the §6Sarcophagus§f, you'll free an §4§lAncient One§r§f! ",
 		"",
-		"- §4Anu§f has 2 §2Stances§f and many §2Abilities§f, it is §cnot§f going to be an §cEasy fight§f, specially beacuse you don't have acess to Jetpacks.",
+		"- §4Anu§f has 2 §2Stances§f and many §2Abilities§f, it is §cnot§f going to be an §cEasy fight§f, specially if you don't have acess to Jetpacks.",
 		"",
 		"- Prepare §bPotions§f, Prepare a Strong §bBow§f and also... a Good §bPickaxe§f... why? you'll see."
 	],
@@ -33,5 +33,17 @@
 		icon: "fossil:anu_statue",
 		entity: "fossil:fossil.anu",
 		value: 1L
+	},
+	{
+		uid: "aeae7304",
+		type: "item",
+		items: [{
+			item: "fossil:scarab_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "a7ef6097",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

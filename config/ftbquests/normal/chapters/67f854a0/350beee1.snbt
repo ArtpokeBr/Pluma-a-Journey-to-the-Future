@@ -1,0 +1,41 @@
+{
+	title: "Time to Make a Nuclear Chassis!",
+	x: 5.403911564625851d,
+	y: 4.739732807185405d,
+	description: "A Sturdy Chassis + A Radiation-Proof Material =",
+	text: [
+		"► Now, with your §2Recently Adquired Material§f and an §3HSLA Chassis§f, A Full §bRadiation-Proof Chassis§f!"
+	],
+	dependencies: [
+		"7c509c3b",
+		"b1b21e81"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "cc2e3704",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "55f1af40",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 79s,
+			tag: {
+				Fluid: {
+					FluidName: "modularium",
+					Amount: 1000
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "ec744cb9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

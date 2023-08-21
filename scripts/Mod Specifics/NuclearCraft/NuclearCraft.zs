@@ -41,7 +41,7 @@ assembler.recipeBuilder()
 	recipes.addShapedMirrored("Copper Solenoid", 
 	<nuclearcraft:part:4> * 4, 
 	[[<ore:plateCopper>, <ore:casingCopper>, <ore:plateCopper>],
-	[<ore:stickFerroboron>, <ore:plateAdvancedAlloy>, <ore:stickFerroboron>], 
+	[<ore:stickTough>, <ore:plateAdvancedAlloy>, <ore:stickTough>], 
 	[<ore:plateCopper>, <ore:casingCopper>, <ore:plateCopper>]]);
 
 # [Cobblestone Generator] from [NAND Chip][+4]
@@ -153,3 +153,11 @@ craft.make(<nuclearcraft:water_source_dense>, ["pretty",
   "▬": <ore:ingotCobaltSteel>,              # Cobalt Steel Ingot
   "C": <nuclearcraft:water_source_compact>, # Compact Infinite Water Source
 });
+
+# Tough Alloy Recipe
+mixer.recipeBuilder()
+	.inputs(<ore:dustLiquifiedCoralium>, <ore:dustDarkSteel>)
+  .outputs(<ore:dustTough>.firstItem*2)
+	.duration(700)
+	.EUt(150)
+.buildAndRegister();

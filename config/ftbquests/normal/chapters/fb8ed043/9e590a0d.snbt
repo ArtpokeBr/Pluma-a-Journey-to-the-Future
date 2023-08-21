@@ -1,5 +1,20 @@
 {
 	title: "Tools for Crafting!",
+	icon: {
+		id: "gregtech:mortar",
+		tag: {
+			DisallowContainerItem: 0b,
+			GT.Tool: {
+				Material: "gregtech:flint",
+				MaxDurability: 63,
+				Durability: 0,
+				AttackDamage: 0.0f,
+				AttackSpeed: -2.4f
+			},
+			HideFlags: 2,
+			GT.Behaviours: {}
+		}
+	},
 	x: 5.5d,
 	y: -1.5d,
 	description: "Time to make a Flint Mortar and a Flint Knife!",
@@ -17,18 +32,17 @@
 		uid: "7ffc91aa",
 		type: "item",
 		items: [{
-			id: "gregtech:mortar",
+			id: "itemfilters:filter",
 			tag: {
-				DisallowContainerItem: 0b,
-				GT.Tool: {
-					Material: "flint",
-					MaxDurability: 64,
-					Durability: 0,
-					AttackDamage: 0.0f,
-					AttackSpeed: -2.4f
-				},
-				HideFlags: 2,
-				GT.Behaviours: {}
+				display: {
+					Name: "Any gtceMortars"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gtceMortars"
+				}
 			}
 		}],
 		ignore_damage: true
@@ -37,22 +51,17 @@
 		uid: "19203811",
 		type: "item",
 		items: [{
-			id: "gregtech:knife",
+			id: "itemfilters:filter",
 			tag: {
-				DisallowContainerItem: 0b,
-				GT.Tool: {
-					Material: "flint",
-					MaxDurability: 64,
-					Durability: 0,
-					AttackDamage: 1.0f,
-					AttackSpeed: 3.0f
-				},
-				HideFlags: 2,
-				ench: [{
-					id: 20,
-					lvl: 2s
-				}],
-				GT.Behaviours: {}
+				display: {
+					Name: "Any gtceKnife"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gtceKnife"
+				}
 			}
 		}],
 		ignore_damage: true

@@ -162,6 +162,7 @@ recipes.addShapeless("WoodenBoxMAC_1",<minecraft:chest>,[<magneticraft:box>, <or
 
 mixer.recipeBuilder()
     .inputs(<railcraft:brick_red_nether:2>)
+	.circuit("12")
     .fluidInputs([<liquid:ghastlycerin> * 100])
     .outputs(<magneticraft:limestone>)
     .duration(80)
@@ -170,7 +171,7 @@ mixer.recipeBuilder()
 
 mixer.recipeBuilder()
     .inputs(<railcraft:brick_red_nether:2> * 2)
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 13}))
+    .circuit("13")
     .fluidInputs([<liquid:ghastlycerin> * 200])
     .outputs(<magneticraft:limestone> * 4)
     .duration(100)

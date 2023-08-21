@@ -11,7 +11,10 @@
 		"",
 		"- Inside of them, you'll find a §6Totem§f, place the 4 §cRedstone Dusts§f in the 4 §eCardinal Signs§f from the §6Totem§f.",
 		"",
-		"- Them, place the §bFigurines§f in the Edges of the §6Totem§f, right on the sides of those §cRedstone Dusts§f you've placed."
+		"- Them, place the §bFigurines§f in the Edges of the §6Totem§f, right on the sides of those §cRedstone Dusts§f you've placed.",
+		"",
+		"",
+		"§8§o~ Also, don't forget to bring a Scarab Gem and a few Blocks, as this dimension will be locked into Adventure Mode until you kill the Boss for the first time!§f"
 	],
 	dependencies: [
 		"22b90a6a"

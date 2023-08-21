@@ -1,0 +1,14 @@
+{
+	x: 7.8d,
+	y: 6.0d,
+	dependencies: [
+		"2e6ea375"
+	],
+	tasks: [{
+		uid: "f74420db",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime_ingot"
+		}]
+	}]
+}

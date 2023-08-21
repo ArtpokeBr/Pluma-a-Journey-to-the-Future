@@ -339,3 +339,8 @@ alloy.recipeBuilder()
     .EUt(6)
 .buildAndRegister();
 
+# [Log Pile] from [Oak Log]
+recipes.removeByRecipeName("pyrotech:log_pile");
+craft.shapeless(<pyrotech:log_pile>, "####", {
+  "#": <ore:logWood>, # Oak Log
+});

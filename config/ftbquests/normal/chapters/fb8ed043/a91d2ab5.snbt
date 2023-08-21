@@ -22,7 +22,7 @@
 		uid: "32087520",
 		type: "item",
 		items: [{
-			item: "forestry:wood_pile"
+			item: "pyrotech:log_pile"
 		}],
 		count: 9L
 	},

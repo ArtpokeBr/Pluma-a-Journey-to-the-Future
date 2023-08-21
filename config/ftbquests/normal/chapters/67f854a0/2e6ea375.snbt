@@ -1,0 +1,16 @@
+{
+	x: 7.254931972789123d,
+	y: 4.731909677933679d,
+	dependencies: [
+		"2f852c6f",
+		"350beee1"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "7005a01d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy_furnace"
+		}]
+	}]
+}

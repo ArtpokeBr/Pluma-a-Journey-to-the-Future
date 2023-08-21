@@ -116,13 +116,6 @@
 				}
 			}
 		}]
-	},
-	{
-		uid: "691716bf",
-		type: "item",
-		items: [{
-			item: "evilcraft:dark_ore"
-		}]
 	}],
 	rewards: [{
 		uid: "9d9c8c63",

@@ -1,0 +1,35 @@
+{
+	title: "Mixing Different Metals...",
+	x: 7.199999999999999d,
+	y: 0.0d,
+	description: "To obtain an Advanced Result!",
+	text: [
+		"By §6Mixing§f §33 different Metals§f, you'll obtain a §aSpecial Ingot§f.",
+		"",
+		"• And by §6Compressing§f it at §eextreme§f levels, §bAdvanced Alloy§f!"
+	],
+	dependencies: [
+		"640f775c"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "f8f87f1b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mixed_metal"
+		}]
+	},
+	{
+		uid: "71ec4fd2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 32083"
+		}]
+	}],
+	rewards: [{
+		uid: "9822ea8a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

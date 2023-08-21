@@ -1,76 +1,39 @@
-§a§lVersion Beta§r§f 3.4:
+§a§lVersion Beta§r§f 3.5:
 
 §b§lMod Related Changes§r§f:
 
 - Updated AE2 Extended Life
-- Updated Enderio Package
-- Updated MouseTweaks
-- Updated Placebo
-- Updated BdLib
-- Updated Athenaeum
-- Updated Craftweaker
-- Updated Quark
-- Updated JEI Utilities
-- Updated OpenComputers
-- Updated StorageDrawers
-- Updated PackagedAuto and PackagedExCrafting
-- Updated Packaged Draconic and Astral
-- Updated CensoredASM
-- Updated Deep Mob Evolution
-- Updated UniversalTweaks (currently using a Mixin 7 Compat Version)
-- Updated Xaeros Minimap and WorldMap
-- Updated AdvancedRocketry
-- Updated Inventory BogoSorter
-- Updated ModularUI
-- Updated HammerLib
-- Updated RTG Unnofficial
-- Updated PlusTic
+- Updated Crafttweaker
+- Updated CreativeCore
+- Updated AE2 FluidCrafting
+- Updated LittleTiles
+- Updated Xaeros Package
+- Updated UniversalTweaks
+- Updated Visual Ores
+- Updated Binnies Fork
+- Updated Lootr
+- Updated Multiblocked
+- Updated VintageFix
 
-- Updated GTCEU (This is Huge!)
-- Update GTCEU Multiblocks
-- Updated GTCEU Drawers
-- Updated MultiblockTweaker
+- Swapped Stygian End with Stygian End (Continuation)
 
-- Added Uber Conduit Probe
-- Added AE2 Network Visualizer
-- Added Visual Ores
-- Added NetherAPI
-- Added VintageFix
+- Added ThaumicPackage
 
-- Swapped Binnies Mod to BinniesMod Patched
-
-- Removed Inventory BogoSorter (Swapped with InventoryTweaks)
-(There are some issues with it crrently, should be readded in the future)
-- Removed MixingCompat
-- Removed MixingBootstrap
-- Removed Hot or Not
-(Unfortunatly didn't work as intended, not actually being able to identify all possible Fluid containers).
-(Removing this mod may also improve the experience for certain people, and overall, removing a mod always help with performance)
-
+- Removed Loading Progress Bar
+(Currently Not Being correctly displayed)
+- Removed MiniEffects
+(Didn't work as well as I tought it would, and also messes with Potion Icons)
 
 §2§lFixes§r§f:
 
-- Fixed a Crash related to Pyrotech's Igniters and Wood Piles.
-- Unhidden Vanilla Wooden Tools and added a way to obtain them.
-- Fixed "Improving your Flute!" Quest to require the correct Flute. (it should respect NBT now)
-- Fixed Incorrect Mattock Texture being displayed with the ResourcePack Provided.
-- Added Convertion Recipes for Thaumcraft Ingots, fixing the progression.
-- Osmiridium and Carbon Fiber are now properly implemented as Tcon Materials.
-- Fixed Tiny Transistor Recipe from OpenComputers not outputing the correct amount per recipe.
-- Added Recipes for Forge MicroBlocks Saws (fixes them using an incorrect Stone Rod.)
+- Fixed the "Brand New Resources to Find" Quest Requirements at Chapter 6.
+- Now Fossil and Archeology Machines should consume 2048rf per tick.
+- Fixed one more issue related to Charcoal Burning
+- Fixed "Tools for Crafting" Quest not recognizing Tools properly.
+- Now the HV Sensor Recipe doesn't require Ender Eyes (this fixes a progression loop issue)
+- Fixed Ghastly Stone Recipe Conflicts.
 
 §5§lMiscellaneous§r§f:
 
-- More Dark Textures added to the Pluma Graphical Enhancement (MagneticCraft, Tinker's Complement)
-- The Endergy Transceiver from EnderIO doesn't have an energyLoss anymore.
-- Buffed Totemic Instruments, now they should contribute more Music to Rituals.
-- Renabled Pyrotech Burning.
-- Tweaked Ash Bricks and Stairs Recipe.
-- Tweaked Cobbblestone and Water Generator Recipes from NuclearCraft allowing them to be acessible earlier on the progression. (Cobble = LV, Water = MV)
-- Lapis Lazuli can now be properly melted and solidified using GT Methods.
-- Added a Refractory Bricks and Refractory Glass Alternate Recipe (Iside an Alloy Smelter).
-- Redesigned the Flint Shards Quest.
-- Redesigned the Flint and Tinder Quest.
-- Updated Seared Plate Texture.
-- Added a Quest for Long Distance Pipeline Systems from GregTech.
-
+- Buffed Mixed Metal Recipe (1x Output --> 3x Output)
+- Now the IGI (InGameInfo) Overlay should warn you that you're in an Ore Chunk.

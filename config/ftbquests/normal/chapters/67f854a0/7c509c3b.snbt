@@ -1,0 +1,38 @@
+{
+	title: "Time for a 2 Stage Bath Session!",
+	x: 2.5059523809523867d,
+	y: 4.760140970450713d,
+	description: "Time to Improve your Thermical Silver Chassis!",
+	text: [
+		"▬ By §6Chemically Bathing§f your §bThermical Silver Chassis§f, you'll be able to §2enhance its properties in order to support heavy processing up ahead§f!",
+		"",
+		"► First: §6A Chemical Bath§f in a §5Lead Solution§f.",
+		"",
+		"► Second: §6A Chemical Bath§f in an §3HSLA Solution§f.",
+		"",
+		"▬ This should grant you a §2Sturdy Chassis§f for your §dFuture Machines§f!"
+	],
+	dependencies: [
+		"736de7e5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "382be040",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 128"
+		}]
+	},
+	{
+		uid: "b969b09d",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 129"
+		}]
+	}],
+	rewards: [{
+		uid: "af68f7bb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

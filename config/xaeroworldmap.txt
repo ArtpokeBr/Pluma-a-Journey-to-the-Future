@@ -43,4 +43,8 @@ caveModeToggleTimer:1000
 defaultCaveModeType:1
 biomeBlending:true
 trackedPlayers:true
+multipleImagesExport:false
+nightExport:false
+highlightsExport:false
+exportScaleDownSquare:20
 globalVersion:1

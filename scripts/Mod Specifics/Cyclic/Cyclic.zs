@@ -294,7 +294,7 @@ craft.make(<cyclicmagic:block_forester>, ["pretty",
   "# D #",
   "E i E",
   "░ L ░"], {
-  "#": <forestry:wood_pile>,           # Wood Pile
+  "#": <pyrotech:log_pile>,           # Wood Pile
   "D": <forestry:thermionic_tubes:2>,  # Bronze Thermionic Tube
   "E": <ore:springElectrum>,           # Electrum Spring
   "i": <roots:living_axe>.anyDamage(), # Living Axe

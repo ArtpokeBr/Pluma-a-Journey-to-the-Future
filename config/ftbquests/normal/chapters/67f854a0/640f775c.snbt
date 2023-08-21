@@ -1,0 +1,36 @@
+{
+	title: "Compressing at an Extreme Level!",
+	x: 5.3999999999999995d,
+	y: 0.0d,
+	description: "Let's make and Advanced Compressor Mark III",
+	text: [
+		"Despite the benefits of §eOverclocking§f, there's an §2extra yet usefull material§f to obtain via this §6Level of Compressing§f."
+	],
+	dependencies: [
+		"0ef0d105"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "68eb3070",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 233"
+		}]
+	}],
+	rewards: [{
+		uid: "3e93b918",
+		type: "item",
+		item: "gregtech:meta_item_1 1 630",
+		count: 2
+	},
+	{
+		uid: "0f4bbdc2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 175"
+	},
+	{
+		uid: "16fef535",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

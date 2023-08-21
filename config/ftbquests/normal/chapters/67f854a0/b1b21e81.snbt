@@ -1,0 +1,61 @@
+{
+	title: "A Really Tough Alloy!",
+	x: 5.3999999999999995d,
+	y: 1.5d,
+	description: "Let's Mix some Refined Coralium with Dark Steel!",
+	text: [
+		"► With this Interesting §3Mixture of Components§f, you'll be able to make a §6Sturdy and Radiation-Proof Material§f.",
+		"",
+		"§8§o▬ Don't forget to maybe make an Extra Blast Furnace in order to keep this Resource in Stock."
+	],
+	dependencies: [
+		"5c91e6d0"
+	],
+	tasks: [{
+		uid: "52542bbb",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustTough"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustTough"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5411091e",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotTough"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotTough"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b377e555",
+		type: "item",
+		item: "abyssalcraft:ingotblock 1 1",
+		count: 4
+	},
+	{
+		uid: "0e7533bf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

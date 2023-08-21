@@ -835,3 +835,27 @@ craft.make(<gregtech:meta_item_1:474>, ["pretty",
   "T": <pyrotech:planks_tarred>, # Tarred Planks
   "a": <pyrotech:material:23>,   # Tarred Board
 });
+
+# HV Sensor Rework (Ender Eyes are unlocked after it) ===============================================
+
+# [HV Sensor] from [Chrome Rod][+3]
+recipes.removeByRecipeName("gregtech:sensor_hv");
+craft.make(<gregtech:meta_item_1:234>, ["pretty",
+  "□   *",
+  "□ ╱  ",
+  "H □ □"], {
+  "□": <ore:plateStainlessSteel>,      # Stainless Steel Plate
+  "*": <ore:EmpoweredEmeradicCrystal>, # Empowered Emeradic Crystal
+  "╱": <ore:stickChrome>,              # Chrome Rod
+  "H": <ore:circuitHv>,                # Processor Assembly
+});
+
+<recipemap:assembler>.findRecipe(30, [<metaitem:stickChrome>, <metaitem:plateStainlessSteel> * 4, <metaitem:circuit.advanced_integrated>, <minecraft:ender_eye:0>], null).remove();
+<recipemap:assembler>.recipeBuilder()
+    .inputs(<ore:stickChrome>, <ore:plateStainlessSteel> * 4, <ore:circuitHv>, <ore:EmpoweredEmeradicCrystal>)
+    .outputs(<gregtech:meta_item_1:234>)
+    .duration(100)
+    .EUt(30)
+.buildAndRegister();
+
+// ==================================================================================================

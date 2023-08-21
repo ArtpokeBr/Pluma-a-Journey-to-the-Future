@@ -9,6 +9,6 @@ craft.make(<testdummy:dummy>, ["pretty",
   "S": <pyrotech:material:2>,             # Straw
   "l": <ore:leather> | <ore:itemLeather>, # Leather
   "T": <ore:gtceKnife>,                   # Knife
-  "#": <forestry:wood_pile>,              # Wood Pile
+  "#": <pyrotech:log_pile>,              # Wood Pile
 });
 
