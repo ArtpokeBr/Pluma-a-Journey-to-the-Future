@@ -1,0 +1,42 @@
+{
+	title: "Extracting Resources from Diorite",
+	x: 10.5d,
+	y: 4.8d,
+	description: "Zirconium, Fluorite and Carobbiite!",
+	text: [
+		"► And by doing so, you'll get a §dchance§f of obtaining §2the following materials§f:",
+		"",
+		"▬ §6Zirconium§f 1% Chance §3§o(0-2 Dusts)§f",
+		"",
+		"▬ §3Fluorite§f 0.9% Chance §3§o(0-2 Dusts)§f",
+		"",
+		"▬ §eCarobbiite§f 0.7% Chance §3§o(0-1 Dusts)§f",
+		"",
+		"§8§o~ And Don't forget that you can use an Igneous Extruder or a GregTech's Rock Breaker to Farm this Rock.§f"
+	],
+	dependencies: [
+		"3be8f362"
+	],
+	tasks: [{
+		uid: "56331d7f",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "452bb936",
+		type: "item",
+		item: "nuclearcraft:dust 1 10"
+	},
+	{
+		uid: "fd478539",
+		type: "item",
+		item: "nuclearcraft:gem_dust 1 5"
+	},
+	{
+		uid: "a95485f1",
+		type: "item",
+		item: "nuclearcraft:gem_dust 1 9"
+	}]
+}

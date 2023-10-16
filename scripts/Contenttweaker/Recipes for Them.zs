@@ -994,3 +994,110 @@ function(out, ins, cInfo) {
 }, null);
 <contenttweaker:conducted_impetus>.addTooltip(format.white("Requires an ") + format.lightPurple("Impetus Conductor") + format.white(" with"));
 <contenttweaker:conducted_impetus>.addTooltip(format.white("Impetus Level: ") + format.darkGreen("Maximum") + format.white("."));
+
+var SheetMetals as IItemStack[IIngredient] = {
+    <ore:lightPlateIron>.firstItem : <contenttweaker:ie_iron_sheetmetal>,
+    <ore:lightPlateAluminium>.firstItem : <contenttweaker:ie_aluminium_sheetmetal>,
+    <ore:lightPlateSilver>.firstItem : <contenttweaker:ie_silver_sheetmetal>,
+    <ore:lightPlateLead>.firstItem : <contenttweaker:ie_lead_sheetmetal>,
+    <ore:lightPlateElectrum>.firstItem : <contenttweaker:ie_electrum_sheetmetal>,
+    <ore:lightPlateCupronickel>.firstItem : <contenttweaker:ie_cupronickel_sheetmetal>,
+    <ore:lightPlateUranium>.firstItem : <contenttweaker:ie_uranium_sheetmetal>,
+    <ore:lightPlateNickel>.firstItem : <contenttweaker:ie_nickel_sheetmetal>,
+    <ore:lightPlateSteel>.firstItem : <contenttweaker:ie_steel_sheetmetal>,
+    <ore:lightPlateGold>.firstItem : <contenttweaker:ie_gold_sheetmetal>,
+    <ore:lightPlateCopper>.firstItem : <contenttweaker:ie_copper_sheetmetal>
+    };
+for IItemStack, IIngredient in SheetMetals {
+        recipes.remove(IIngredient);
+        craft.remake(IIngredient * 8, ["pretty",
+        "  □  ",
+        "□ H □",
+        "  □  "], {
+        "□": IItemStack, # Light Copper Plate
+        "H": <ore:gtceHardHammers>, # Iron Hammer
+        });
+
+		hammer.recipeBuilder()
+			.inputs(IItemStack * 4)
+			.outputs(IIngredient * 8)   
+			.duration(400)
+			.EUt(2)
+		.buildAndRegister();
+     
+}
+
+#Engineers Concrete
+alloy.recipeBuilder()
+	.inputs(<gregtech:stone_smooth:4>, <ore:dustSlakedComposite>)
+	.outputs(<contenttweaker:ie_concrete>)   
+	.duration(200)
+	.EUt(4)
+.buildAndRegister();
+
+#Hempcrete
+alloy.recipeBuilder()
+	.inputs(<pyrotech:cob_wet>, <contenttweaker:ie_concrete_tile>)
+	.outputs(<contenttweaker:ie_hempcrete> * 2)   
+	.duration(200)
+	.EUt(4)
+.buildAndRegister();
+
+#Insulating Glass
+alloy.recipeBuilder()
+	.inputs(<gregtech:transparent_casing>, <minecraft:dye:2>*2)
+	.outputs(<contenttweaker:ie_insulating_glass>)   
+	.duration(250)
+	.EUt(8)
+.buildAndRegister();
+
+# [Engineers Leaded Concrete]*4 from [Engineers Concrete Tile][+1]
+craft.make(<contenttweaker:ie_leaded_concrete> * 4, ["pretty",
+  "□ E □",
+  "E   E",
+  "□ E □"], {
+  "□": <ore:plateLead>,                   # Lead Plate
+  "E": <contenttweaker:ie_concrete_tile>, # Engineers Concrete Tile
+});
+
+# [Engineers Concrete Tile]*4 from [Engineers Concrete]
+craft.shapeless(<contenttweaker:ie_concrete_tile> * 4, "EEEE", {
+  "E": <contenttweaker:ie_concrete>, # Engineers Concrete
+});
+
+# [Engineers Generator Block]*16 from [Copper Coil][+2]
+craft.make(<contenttweaker:ie_generator_block> * 16, ["pretty",
+  "□ п □",
+  "п C п",
+  "□ п □"], {
+  "□": <ore:lightPlateSteel>,                  # Light Steel Plate
+  "п": <ore:plateConstantan>,                  # Constantan Plate
+  "C": <magneticraft:copper_coil>,             # Copper Coil
+});
+
+# [Low Voltage Coil Block (Decorative)]*4 from [Copper Sheetmetal][+1]
+craft.make(<contenttweaker:ie_lv_coil> * 4, ["pretty",
+  "G G G",
+  "G C G",
+  "G G G"], {
+  "G": <ore:wireGtSingleCopper>,              # 1x Copper Wire
+  "C": <contenttweaker:ie_copper_sheetmetal>, # Copper Sheetmetal
+});
+
+# [Medium Voltage Coil Block (Decorative)]*4 from [Electrum Sheetmetal][+1]
+craft.make(<contenttweaker:ie_mv_coil> * 4, ["pretty",
+  "G G G",
+  "G E G",
+  "G G G"], {
+  "G": <ore:wireGtSingleElectrum>,              # 1x Electrum Wire
+  "E": <contenttweaker:ie_electrum_sheetmetal>, # Electrum Sheetmetal
+});
+
+# [High Voltage Voltage Coil Block (Decorative)]*4 from [Steel Sheetmetal][+1]
+craft.make(<contenttweaker:ie_hv_coil> * 4, ["pretty",
+  "G G G",
+  "G S G",
+  "G G G"], {
+  "G": <ore:wireGtSingleSteel>,              # 1x Steel Wire
+  "S": <contenttweaker:ie_steel_sheetmetal>, # Steel Sheetmetal
+});

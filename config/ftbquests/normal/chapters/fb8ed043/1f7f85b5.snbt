@@ -71,17 +71,15 @@
 	{
 		uid: "e0f9509e",
 		type: "item",
+		title: "A Tool or Armor Station",
+		icon: "tconstruct:tooltables 1 3",
 		items: [{
 			item: "tconstruct:tooltables 1 3"
+		},
+		{
+			item: "conarm:armorstation"
 		}],
 		ignore_nbt: 1b
-	},
-	{
-		uid: "443f1e3b",
-		type: "item",
-		items: [{
-			item: "conarm:armorstation"
-		}]
 	}],
 	rewards: [{
 		uid: "97734f0f",

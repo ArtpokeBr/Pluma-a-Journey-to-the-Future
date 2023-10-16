@@ -1,0 +1,38 @@
+{
+	title: "Understanding Neutron Irradiators",
+	x: 14.963775510204037d,
+	y: -4.510540563881783d,
+	description: "How to Build your First Nuclear Fission Reactor §6Part III§f",
+	text: [
+		"► §6This quest§f will §2help you understand§f how to process §dIrradiator recipes§f.",
+		"",
+		"▬ After each §6Fuel Cell§r is receiving enough §aFlux Factor§f to §eactivate§f, you can §bCreate Additional Moderator Lines§f extending out from your §6Fuel Cells§f capped by an §dIrradiator§f. ",
+		"",
+		"▬ Adding up the total §aFlux Factor§r in the §bModerator Line§r between the §6Cell§r and §dIrradiator§r will give us the §eamount of Radiation per tick used§f in §2processing recipes§f such as §3N-Type Doped Silicon§f.",
+		"",
+		"§8§o~ And don't Forget, each Moderator Line extending from a Cell will increase the Heat!§f"
+	],
+	dependencies: [
+		"816d069a"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "8beb4f2e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_irradiator"
+		}]
+	}],
+	rewards: [{
+		uid: "65820b87",
+		type: "item",
+		item: "nuclearcraft:part 1 12",
+		random_bonus: 3
+	},
+	{
+		uid: "e534c28c",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

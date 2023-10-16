@@ -26,10 +26,14 @@
 	rewards: [{
 		uid: "e393f1c4",
 		type: "item",
+		team_reward: false,
 		item: {
-			id: "conarm:boots_core",
+			id: "minecraft:enchanted_book",
 			tag: {
-				Material: "slime"
+				StoredEnchantments: [{
+					id: 2,
+					lvl: 4s
+				}]
 			}
 		}
 	},

@@ -151,17 +151,17 @@ layerRadiation.register();
 
 // Space Suit ================================================================================
 
-var unpreparedspaceHelmet = VanillaFactory.createItem("unpreparedspacehelmet");
-unpreparedspaceHelmet.register();
+// var unpreparedspaceHelmet = VanillaFactory.createItem("unpreparedspacehelmet");
+// unpreparedspaceHelmet.register();
 
-var unpreparedspaceChestplate = VanillaFactory.createItem("unpreparedspacechestplate");
-unpreparedspaceChestplate.register();
+// var unpreparedspaceChestplate = VanillaFactory.createItem("unpreparedspacechestplate");
+// unpreparedspaceChestplate.register();
 
-var unpreparedspaceLeggins = VanillaFactory.createItem("unpreparedspaceleggins");
-unpreparedspaceLeggins.register();
+// var unpreparedspaceLeggins = VanillaFactory.createItem("unpreparedspaceleggins");
+// unpreparedspaceLeggins.register();
 
-var unpreparedspaceBoots = VanillaFactory.createItem("unpreparedspaceboots");
-unpreparedspaceBoots.register();
+// var unpreparedspaceBoots = VanillaFactory.createItem("unpreparedspaceboots");
+// unpreparedspaceBoots.register();
 
 // Red Alloy Wiring ================================================================================
 var etchedRedAlloyWiring = VanillaFactory.createItem("etchedredalloywiring");

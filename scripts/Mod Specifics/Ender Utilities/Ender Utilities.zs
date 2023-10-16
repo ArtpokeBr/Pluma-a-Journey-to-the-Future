@@ -71,9 +71,18 @@ recipes.addShaped(<enderutilities:draw_bridge:0> * 1, [[<ore:plateCobalt>, <ore:
 recipes.remove(<enderutilities:draw_bridge:1>);
 recipes.addShaped(<enderutilities:draw_bridge:1> * 1, [[<ore:plateCobaltSteel>, <enderutilities:enderpart:15>, <ore:plateCobaltSteel>], [<ore:springManasteel>, <enderutilities:draw_bridge:0>, <ore:springManasteel>],[<ore:plateCobaltSteel>, <ore:circuitHv>, <ore:plateCobaltSteel>]]);
 
-// Ender Elevator (white)
+# [Ender Elevator (white)] from [Aluminium Frame Box][+4]
 recipes.remove(<enderutilities:ender_elevator:0>);
-recipes.addShaped(<enderutilities:ender_elevator:0> * 2, [[<ore:plateGreenSapphire>, <minecraft:stone_pressure_plate>, <ore:plateGreenSapphire>], [<ore:endorCrystal>, <opencomputers:upgrade:20>, <ore:endorCrystal>],[<ore:plateGreenSapphire>, <gregtech:meta_item_1:173>, <ore:plateGreenSapphire>]]);
+craft.make(<enderutilities:ender_elevator>, ["pretty",
+  "□ п □",
+  "* ◙ *",
+  "□ M □"], {
+  "□": <ore:plateGreenSapphire>,   # Green Sapphire Plate
+  "п": <ore:plateEnderPearl>,      # Enderpearl Plate
+  "*": <ore:endorCrystal>,         # Endor Crystal
+  "◙": <ore:frameGtAluminium>,     # Aluminium Frame Box
+  "M": <gregtech:meta_item_1:128>, # MV Electric Motor
+});
 
 // Inserter
 recipes.remove(<enderutilities:inserter:0>);

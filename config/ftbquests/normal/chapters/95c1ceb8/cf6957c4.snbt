@@ -23,5 +23,10 @@
 		items: [{
 			item: "randomthings:spectreenergyinjector"
 		}]
+	}],
+	rewards: [{
+		uid: "9cf66bd3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

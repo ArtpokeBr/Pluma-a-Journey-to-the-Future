@@ -1,0 +1,35 @@
+{
+	title: "Reflectors are also something that you should consider!",
+	x: 16.5d,
+	y: -0.3d,
+	description: "How to build your first Nuclear Fission Reactor §6Part I.V§f",
+	text: [
+		"► This could be §2helpfull to know§f:",
+		"",
+		"▬ A §6Fuel Cell§r can also reach §cCriticality Factor§r by §6Reflecting§f §aFlux Factor§r back onto itself if you place a §9Reflector§r at the end of a §bModerator Line§r."
+	],
+	dependencies: [
+		"e2fb4e1e"
+	],
+	tasks: [{
+		uid: "a1e7851e",
+		type: "item",
+		title: "Any Reflector",
+		items: [{
+			item: "nuclearcraft:fission_reflector"
+		},
+		{
+			item: "nuclearcraft:fission_reflector 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6ea86b51",
+		type: "item",
+		item: "nuclearcraft:part 1 12"
+	},
+	{
+		uid: "6585e439",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

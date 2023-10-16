@@ -1,0 +1,42 @@
+{
+	title: "Extracting Resources from Granite",
+	x: 10.5d,
+	y: 6.0d,
+	description: "Rhodochrosite, Sulfur and Villiaumite!",
+	text: [
+		"► And by doing so, you'll get a §dchance§f of obtaining §2the following materials§f:",
+		"",
+		"▬ §6Rhodochrosite§f 0.8% Chance §3§o(0-2 Dusts)§f",
+		"",
+		"▬ §eSulfur§f 0.6% Chance §3§o(0-1 Dusts)§f",
+		"",
+		"▬ §cVilliaumite§f 0.35% Chance §3§o(0-2 Dusts)§f",
+		"",
+		"§8§o~ And Don't forget that you can use an Igneous Extruder or a GregTech's Rock Breaker to Farm this Rock.§f"
+	],
+	dependencies: [
+		"3be8f362"
+	],
+	tasks: [{
+		uid: "d6283373",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "9a62584e",
+		type: "item",
+		item: "nuclearcraft:gem_dust 1 1"
+	},
+	{
+		uid: "0bf33b20",
+		type: "item",
+		item: "gregtech:meta_dust 1 103"
+	},
+	{
+		uid: "04a794da",
+		type: "item",
+		item: "nuclearcraft:gem_dust 1 8"
+	}]
+}

@@ -1,39 +1,48 @@
-§a§lVersion Beta§r§f 3.5:
+§a§lVersion Beta§r§f 3.6:
 
 §b§lMod Related Changes§r§f:
 
-- Updated AE2 Extended Life
-- Updated Crafttweaker
-- Updated CreativeCore
-- Updated AE2 FluidCrafting
-- Updated LittleTiles
-- Updated Xaeros Package
-- Updated UniversalTweaks
-- Updated Visual Ores
-- Updated Binnies Fork
-- Updated Lootr
-- Updated Multiblocked
-- Updated VintageFix
+- Added Entity Distance (Should Help with Lag related to Entities)
+- Added Quantum Minecraft Dynamics (Addon enhancing even more NuclearCraft: Overhauled)
 
-- Swapped Stygian End with Stygian End (Continuation)
+- Updated CensoredASM
+- Updated Packaged Auto
+- Updated Packaged Astral
+- Updated Packaged Draconic
+- Updated PackagedExCrafting
+- Updated Pyrotech
+- Updated GTCEU
 
-- Added ThaumicPackage
+- Added Caliper (Provides some Dev Info for me =D)
+- Added Open Glider
 
-- Removed Loading Progress Bar
-(Currently Not Being correctly displayed)
-- Removed MiniEffects
-(Didn't work as well as I tought it would, and also messes with Potion Icons)
+- Removed Tinker's Tool Leveling with Random Modifiers (reverted to the stable "without random" version)
+~ This Fixes some issues specially for servers and apparently improve loading times a bit?
+
+- Removed VintageFix
+~ For some odd reason, it was causing some crashes/perfomance issues if combined with Optifine in my instance.
 
 §2§lFixes§r§f:
 
-- Fixed the "Brand New Resources to Find" Quest Requirements at Chapter 6.
-- Now Fossil and Archeology Machines should consume 2048rf per tick.
-- Fixed one more issue related to Charcoal Burning
-- Fixed "Tools for Crafting" Quest not recognizing Tools properly.
-- Now the HV Sensor Recipe doesn't require Ender Eyes (this fixes a progression loop issue)
-- Fixed Ghastly Stone Recipe Conflicts.
+- Reverted Charcoal Production back to Forestry instead of Pyrotech's one.
+(Unfortunaly wasn't working properly, reverted back to the Forestry System until a fix is found)
+- HV Emitters now Require Empowered Emeradic Crystals
+- Fixed some Missing Textures on the Pluma Graphical Enhancement Texture Pack.
+- Removed Incorrect EnderIO Gears and Crystal Recipes from the Smeltery.
+
 
 §5§lMiscellaneous§r§f:
 
-- Buffed Mixed Metal Recipe (1x Output --> 3x Output)
-- Now the IGI (InGameInfo) Overlay should warn you that you're in an Ore Chunk.
+- Now Construct Armory and its addons can be safely removed if desired by the user.
+(Scripts and anything related to it got reorganized to make this possible)
+- Pyrotech's Igniters now have a tooltip warning about a Game Crash if you try to ignite Forestry's Wood Piles.
+- Cheaper Wood to Iron Chest Upgrades.
+- Some Tweaks to Ice Related HarvestCraft Recipes.
+- Ported some Blocks from Immersive Engineering! (This Should allow more Base Decoration Options)
+- Added More Quests to Chapter 12.
+- Reworked Slimy Muds, now they require a Mixer and a bit of Water to be Made.
+- Pulsating Crystals now are available at MV.
+- Fully implemented a bunch more of EnderIO Recipes.
+
+- Started Implementing NuclearCraft and AdvancedRocketry (EV Stage Mods)
+~ Hopefully it should be done in the next updates.

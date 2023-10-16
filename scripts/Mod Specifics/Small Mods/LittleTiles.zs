@@ -71,7 +71,7 @@ craft.make(<littletiles:premade>.withTag({structure: {id: "workbench"}}), ["pret
   "#   #"], {
   "E": <gregtech:meta_item_1:347>,                # Empty Wooden Form
   "w": <ore:workbench>, # Crafting Table
-  "#": <pyrotech:log_pile>,                      # Wood Pile
+  "#": <forestry:wood_pile>,                      # Wood Pile
   "L": <littletiles:wrench>.reuse(),                      # Little Wrench
 });
 

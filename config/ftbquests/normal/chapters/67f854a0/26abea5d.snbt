@@ -1,0 +1,46 @@
+{
+	title: "Better safe than Sorry!",
+	x: 12.597448979591817d,
+	y: 0.18190967793369595d,
+	description: "Let's make RadAways!",
+	text: [
+		"► Your recent §aNuclear Expansion§f probally got you worried about §eRadiation§f... and that's something that should really worry about if you aren't.",
+		"",
+		"▬ §6RadAways§f are a great way to §bClean Yourself§f after collecting or transporting a really §eRadioactive Materials§f.",
+		"",
+		"▬ The Names are very straightfoward, A Normal §6RadAway§f will §bclean you faster§f than a §cSlow-Acting§f one, but when dealing with §cEmergencies§f that's the one to use.",
+		"",
+		"▬ And Also, you may use your §6Normal RadAways§f to make some §6§nRad-X§f! §bConsuming§f §6§nRad-X§f §bpills§f should grant you §eRad Resistence§f for some §ehours§f... but they §cloose efficiency§f as you §2stack them§f!"
+	],
+	dependencies: [
+		"f5061cf9"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6826ed54",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:radaway"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ff05e08e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:radaway_slow"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "cfc0b45c",
+		type: "item",
+		item: "nuclearcraft:rad_x",
+		count: 2
+	},
+	{
+		uid: "001144e0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

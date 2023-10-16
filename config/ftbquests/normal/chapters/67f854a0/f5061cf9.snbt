@@ -1,0 +1,36 @@
+{
+	title: "Enriching Fluids with Materials",
+	x: 12.607653061224468d,
+	y: 3.377487909226211d,
+	description: "Let's make a Fluid Enricher!",
+	text: [
+		"► A Simple yet §2very effective§f §6Machine§f!",
+		"",
+		"▬ The §6Fluid Enricher§f is used specially to make §bSolutions§f and delicate §9Fluid Materials§f.. such as §cRadAways§f!",
+		"",
+		"§8§o~ Just like other NuclearCraft's Machine, it is a good idea to have one of this automated in your Factory.§f"
+	],
+	dependencies: [
+		"9fd6aa90"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e709e101",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:enricher"
+		}]
+	}],
+	rewards: [{
+		uid: "50da82aa",
+		type: "item",
+		item: "gregtech:meta_item_1 1 630",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "43dfa3e2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

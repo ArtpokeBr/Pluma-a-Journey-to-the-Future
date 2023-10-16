@@ -145,10 +145,6 @@ recipes.addShaped(<enderio:block_impulse_hopper> * 1, [[<ore:plateElectricalStee
 recipes.remove(<enderio:block_crafter>);
 recipes.addShaped(<enderio:block_crafter> * 1, [[<ore:plateSilicon>, <ore:plateSilicon>, <ore:plateSilicon>], [<ore:springSmallConstructionAlloy>, <enderio:item_material:1>, <ore:springSmallConstructionAlloy>],[<ore:gearIronInfinity>, <ore:craftingTableWood>, <ore:gearIronInfinity>]]);
 
-// Conduit Facade
-recipes.remove(<enderio:item_conduit_facade:0>);
-recipes.addShaped(<enderio:item_conduit_facade:0> * 4, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:itemConduitBinder>, null, <ore:itemConduitBinder>],[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-
 //Dark Steel Anvil
 recipes.remove(<enderio:block_dark_steel_anvil>);
 
@@ -420,8 +416,8 @@ autoclave.recipeBuilder()
     .inputs(<ore:gemDiamond>)
     .fluidInputs(<liquid:pulsating_iron> * 128)
     .outputs(<ore:itemPulsatingCrystal>.firstItem)
-    .duration(250)
-    .EUt(512)
+    .duration(300)
+    .EUt(80)
 .buildAndRegister();
 
 //Vibrant Crystal
@@ -430,7 +426,7 @@ autoclave.recipeBuilder()
     .inputs(<ore:gemEmerald>)
     .fluidInputs(<liquid:vibrant_alloy> * 128)
     .outputs(<ore:itemVibrantCrystal>.firstItem)
-    .duration(250)
+    .duration(300)
     .EUt(512)
 .buildAndRegister();
 
@@ -711,3 +707,478 @@ chemical_bath.recipeBuilder()
     .duration(320)
     .EUt(40)
 .buildAndRegister();
+
+# [Infinity Bimetal Gear] from [Grains of Infinity][+2]
+recipes.removeByRecipeName("enderio:gear_iron");
+craft.make(<enderio:item_material:11>, ["pretty",
+  "C □ C",
+  "□ ▲ □",
+  "C □ C"], {
+  "C": <ore:boltConstructionAlloy>,  # Iron Alloy Bolt
+  "□": <ore:plateConstructionAlloy>, # Iron Alloy Plate
+  "▲": <ore:dustBedrock>,            # Grains of Infinity
+});
+
+# [Energized Bimetal Gear] from [Infinity Bimetal Gear][+2]
+recipes.removeByRecipeName("enderio:gear_energized");
+craft.make(<enderio:item_material:12>, ["pretty",
+  "E □ E",
+  "□ ¤ □",
+  "E □ E"], {
+  "E": <ore:boltEnergeticAlloy>,  # Energetic Alloy Bolt
+  "□": <ore:plateEnergeticAlloy>, # Energetic Alloy Plate
+  "¤": <ore:gearIronInfinity>,    # Infinity Bimetal Gear
+});
+
+# [Dark Bimetal Gear] from [Infinity Bimetal Gear][+2]
+recipes.removeByRecipeName("enderio:gear_dark");
+craft.make(<enderio:item_material:73>, ["pretty",
+  "D □ D",
+  "□ ¤ □",
+  "D □ D"], {
+  "D": <ore:boltDarkSteel>,    # Dark Steel Bolt
+  "□": <ore:plateDarkSteel>,   # Dark Steel Plate
+  "¤": <ore:gearIronInfinity>, # Infinity Bimetal Gear
+});
+
+# [Vibrant Bimetal Gear] from [Infinity Bimetal Gear][+2]
+recipes.removeByRecipeName("enderio:gear_vibrant");
+craft.make(<enderio:item_material:13>, ["pretty",
+  "V □ V",
+  "□ ¤ □",
+  "V □ V"], {
+  "V": <ore:boltVibrantAlloy>,  # Vibrant Alloy Bolt
+  "□": <ore:plateVibrantAlloy>, # Vibrant Alloy Plate
+  "¤": <ore:gearIronInfinity>,  # Infinity Bimetal Gear
+});
+
+# [Conduit Probe] from [Yeta Wrench][+3]
+recipes.removeByRecipeName("enderio:conduit_probe");
+craft.make(<enderio:item_conduit_probe>, ["pretty",
+  "E   E",
+  "□ Y □",
+  "□ ▲ □"], {
+  "E": <ore:boltElectricalSteel>,    # Electrical Steel Bolt
+  "□": <ore:plateConstructionAlloy>, # Iron Alloy Plate
+  "Y": <enderio:item_yeta_wrench>,   # Yeta Wrench
+  "▲": <ore:dustBedrock>,            # Grains of Infinity
+});
+
+# [Travel Anchor] from [Ender Elevator (white)][+2]
+recipes.removeByRecipeName("enderio:travel_anchor");
+craft.make(<enderio:block_travel_anchor>, ["pretty",
+  "□ C □",
+  "C E C",
+  "□ C □"], {
+  "□": <ore:plateConstructionAlloy>,    # Iron Alloy Plate
+  "C": <ore:itemConduitBinder>,         # Conduit Binder
+  "E": <enderutilities:ender_elevator>, # Ender Elevator (white)
+});
+
+# [Glider Wing] from [Dark Steel Rod][+1]
+recipes.removeByRecipeName("enderio:glider_wing");
+craft.make(<enderio:item_material:6>, ["pretty",
+  "    ╱",
+  "  ╱ I",
+  "╱ I I"], {
+  "╱": <ore:stickDarkSteel>,                # Dark Steel Rod
+  "I": <contenttweaker:industrial_leather>, # Industrial Leather
+});
+
+# [Glider Wings] from [Long Dark Steel Rod][+2]
+recipes.removeByRecipeName("enderio:gilder_wings");
+craft.make(<enderio:item_material:7>, ["pretty",
+  "     ",
+  "  ╱  ",
+  "G □ G"], {
+  "╱": <ore:stickLongDarkSteel>, # Long Dark Steel Rod
+  "G": <ore:itemGliderWing>,     # Glider Wing
+  "□": <ore:plateDarkSteel>,     # Dark Steel Plate
+});
+
+# [Block Detector] from [LV Electric Motor][+3]
+recipes.removeByRecipeName("enderio:detector_block");
+craft.make(<enderio:block_detector_block>, ["pretty",
+  "C □ C",
+  "C L C",
+  "C ♥ C"], {
+  "C": <ore:itemChassiParts>,                    # Machine Parts
+  "□": <enderio:block_painted_pressure_plate:8>, # Dark Pressure Plate
+  "L": <gregtech:meta_item_1:127>,               # LV Electric Motor
+  "♥": <ore:blockRedstone>,                      # Block of Redstone
+});
+
+# [Extract Speed Upgrade]*4 from [Menril Crystal][+3]
+recipes.removeByRecipeName("enderio:upgrade_speed");
+craft.make(<enderio:item_extract_speed_upgrade> * 4, ["pretty",
+  "п п п",
+  "□ * □",
+  "□ ♥ □"], {
+  "п": <ore:plateConstructionAlloy>, # Iron Alloy Plate
+  "□": <ore:plateElectricalSteel>,   # Electrical Steel Plate
+  "*": <ore:crystalMenril>,          # Menril Crystal
+  "♥": <ore:craftingRedstoneTorch>,  # Redstone Torch
+});
+
+# [Extract Speed Downgrade]*4 from [Flint][+3]
+recipes.removeByRecipeName("enderio:upgrade_slowness");
+craft.make(<enderio:item_extract_speed_downgrade> * 4, ["pretty",
+  "п п п",
+  "□ ◊ □",
+  "□ ♥ □"], {
+  "п": <ore:plateConstructionAlloy>,     # Iron Alloy Plate
+  "□": <ore:plateElectricalSteel>,       # Electrical Steel Plate
+  "◊": <ore:gemFlint>,                   # Flint
+  "♥": <ore:craftingRedstoneTorch>,      # Redstone Torch
+});
+
+# [Power Monitor] from [Simple Machine Chassis][+4]
+recipes.removeByRecipeName("enderio:energy_monitor");
+craft.make(<enderio:block_power_monitor>, ["pretty",
+  "□ C □",
+  "E S E",
+  "□ Ϟ □"], {
+  "□": <ore:plateElectricalSteel>,    # Electrical Steel Plate
+  "C": <enderio:item_conduit_probe>,  # Conduit Probe
+  "E": <ore:springElectricalSteel>,   # Electrical Steel Spring
+  "S": <ore:itemSimpleMachineChassi>, # Simple Machine Chassis
+  "Ϟ": <enderio:item_power_conduit>,  # Energy Conduit
+});
+
+# [Graphical Power Monitor] from [Power Monitor][+4]
+recipes.removeByRecipeName("enderio:energy_monitor_2");
+craft.make(<enderio:block_advanced_power_monitor>, ["pretty",
+  "□ □ □",
+  "□ Σ □",
+  "R Y d"], {
+  "□": <ore:plateConstructionAlloy>,      # Iron Alloy Plate
+  "Σ": <enderio:block_power_monitor>,     # Power Monitor
+  "R": <ore:dyeRed>,                      # Red Dye
+  "Y": <ore:dyeYellow>,                   # Yellow Dye
+  "d": <ore:dyeGreen>,                    # Green Dye
+});
+
+# [Reinforced Obsidian] from [Crushed Obsidian][+2]
+recipes.removeByRecipeName("enderio:reinforced_obsidian");
+craft.make(<enderio:block_reinforced_obsidian>, ["pretty",
+  "□ ▲ □",
+  "▲ C ▲",
+  "□ ▲ □"], {
+  "□": <ore:lightPlateDarkSteel>, # Light Dark Steel Plate
+  "▲": <ore:dustBedrock>,         # Grains of Infinity
+  "C": <railcraft:generic:7>,     # Crushed Obsidian
+});
+
+# [Dark Backhoe] from [Obsidian Hoe][+2]
+recipes.removeByRecipeName("enderio:dark_hand");
+craft.make(<enderio:item_dark_steel_hand>, ["pretty",
+  "□ □ □",
+  "□ O □",
+  "D D D"], {
+  "□": <ore:plateDarkSteel>,                # Dark Steel Plate
+  "O": <pyrotech:obsidian_hoe>.anyDamage(), # Obsidian Hoe
+  "D": <ore:boltDarkSteel>,                 # Dark Steel Bolt
+});
+
+# [Simple Inventory Charger] from [Silver Capacitor][+2]
+recipes.removeByRecipeName("enderio:inventory_charger_simple");
+craft.make(<enderio:item_inventory_charger_simple>, ["pretty",
+  "D □ D",
+  "□ S □",
+  "D □ D"], {
+  "D": <ore:boltDarkSteel>,             # Dark Steel Bolt
+  "□": <ore:plateConductiveIron>,       # Conductive Iron Plate
+  "S": <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, # Silver Capacitor
+});
+
+# [Basic Capacitor Bank] from [Block of Redstone][+2]
+recipes.removeByRecipeName("enderio:capacitor_bank_simple");
+craft.make(<enderio:block_cap_bank:1>, ["pretty",
+  "□ S □",
+  "S ♥ S",
+  "□ S □"], {
+  "□": <ore:plateConstructionAlloy>,    # Iron Alloy Plate
+  "S": <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, # Silver Capacitor
+  "♥": <ore:blockRedstone>,             # Block of Redstone
+});
+
+# [Capacitor Bank] from [Block of Redstone][+2]
+recipes.removeByRecipeName("enderio:capbank_basic2normal");
+recipes.removeByRecipeName("enderio:capacitor_bank_activated");
+craft.make(<enderio:block_cap_bank:2>, ["pretty",
+  "□ D □",
+  "D ♥ D",
+  "□ D □"], {
+  "□": <ore:plateElectricalSteel>,       # Electrical Steel Plate
+  "D": <enderio:item_basic_capacitor:1> | <enderio:item_capacitor_energetic_silver>, # Double-Layer Capacitor
+  "♥": <ore:blockRedstone>,              # Block of Redstone
+});
+
+# [Vibrant Capacitor Bank] from [Vibrant Crystal][+2]
+recipes.removeByRecipeName("enderio:capacitor_bank_vibrant");
+recipes.removeByRecipeName("enderio:capbank_normal2vibrant");
+craft.make(<enderio:block_cap_bank:3>, ["pretty",
+  "□ O □",
+  "O * O",
+  "□ O □"], {
+  "□": <ore:plateVibrantAlloy>,          # Vibrant Alloy Plate
+  "O": <enderio:item_basic_capacitor:2> | <enderio:item_capacitor_vivid>, # Octadic Capacitor
+  "*": <ore:itemVibrantCrystal>,         # Vibrant Crystal
+});
+
+# [Energy Gauge] from [Conduit Probe][+2]
+recipes.removeByRecipeName("enderio:r_f_gauge");
+craft.make(<enderio:block_gauge>, ["pretty",
+  "□   □",
+  "п C п",
+  "□   □"], {
+  "□": <ore:plateConstructionAlloy>, # Iron Alloy Plate
+  "п": <ore:plateElectricalSteel>,   # Electrical Steel Plate
+  "C": <enderio:item_conduit_probe>, # Conduit Probe
+});
+
+# [Item Buffer] from [Industrial Machine Chassis][+3]
+recipes.removeByRecipeName("enderio:item_buffer");
+craft.make(<enderio:block_buffer>, ["pretty",
+  "□ п □",
+  "c M c",
+  "□ п □"], {
+  "□": <ore:plateConstructionAlloy>,  # Iron Alloy Plate
+  "п": <ore:plateElectricalSteel>,    # Electrical Steel Plate
+  "c": <ore:chest> | <ore:chestWood>, # Chest
+  "M": <ore:itemMachineChassi>,       # Industrial Machine Chassis
+});
+
+# [Enchanter] from [Enchanted Gear][+4]
+recipes.removeByRecipeName("enderio:enchanter");
+craft.make(<enderio:block_enchanter>, ["pretty",
+  "* E *",
+  "□ ¤ □",
+  "  п  "], {
+  "*": <ore:itemPulsatingCrystal>,           # Pulsating Crystal
+  "E": <ore:bookEmpty> | <ore:craftingBook>, # Book
+  "□": <ore:plateEnchanted>,                 # Enchanted Plate
+  "¤": <ore:gearEnchanted>,                  # Enchanted Gear
+  "п": <ore:plateDenseDarkSteel>,            # Dense Dark Steel Plate
+});
+
+# [Zombie Generator] from [Zombie Electrode][+3]
+recipes.removeByRecipeName("enderio:zombie_generator");
+craft.make(<enderio:block_zombie_generator>, ["pretty",
+  "□ п □",
+  "■ Z ■",
+  "■ ■ ■"], {
+  "□": <ore:plateElectricalSteel>,      # Electrical Steel Plate
+  "п": <ore:lightPlateElectricalSteel>, # Light Electrical Steel Plate
+  "■": <ore:fusedQuartz>, # Fused Quartz
+  "Z": <ore:skullZombieElectrode>,      # Zombie Electrode
+});
+
+# [Frank'n'Zombie Generator] from [Frank'N'Zombie][+3]
+recipes.removeByRecipeName("enderio:frank_n_zombie_generator");
+craft.make(<enderio:block_franken_zombie_generator>, ["pretty",
+  "□ п □",
+  "■ Z ■",
+  "■ ■ ■"], {
+  "□": <ore:plateSoularium>,          # Soularium Plate
+  "п": <ore:lightPlateSoularium>,     # Light Soularium Plate
+  "■": <ore:fusedQuartz>, # Fused Quartz
+  "Z": <ore:skullZombieFrankenstein>, # Frank'N'Zombie
+});
+
+# [Ender Generator] from [Ender Resonator][+3]
+recipes.removeByRecipeName("enderio:ender_generator");
+craft.make(<enderio:block_ender_generator>, ["pretty",
+  "□ п □",
+  "■ E ■",
+  "■ ■ ■"], {
+  "□": <ore:plateEndSteel>,       # End Steel Plate
+  "п": <ore:lightPlateEndSteel>,  # Light End Steel Plate
+  "■": <ore:fusedQuartz>, # Fused Quartz
+  "E": <ore:skullEnderResonator>, # Ender Resonator
+});
+
+# [Lava Heat Exchanger] from [Simple Machine Chassis][+2]
+recipes.removeByRecipeName("enderio:lava_generator");
+craft.make(<enderio:block_lava_generator>, ["pretty",
+  "▬ ▬ ▬",
+  "▬ S ▬",
+  "▬ F ▬"], {
+  "▬": <ore:ingotBrickNetherGlazed>,  # Nethercotta
+  "S": <ore:itemSimpleMachineChassi>, # Simple Machine Chassis
+  "F": <enderio:block_tank>,          # Fluid Tank
+});
+
+# [Killer Joe] from [Frank'N'Zombie][+3]
+recipes.removeByRecipeName("enderio:killer_joe");
+craft.make(<enderio:block_killer_joe>, ["pretty",
+  "□ п □",
+  "■ Z ■",
+  "■ ■ ■"], {
+  "□": <ore:plateDarkSteel>,          # Dark Steel Plate
+  "п": <ore:lightPlateDarkSteel>,     # Light Dark Steel Plate
+  "■": <ore:fusedQuartz>, # Fused Quartz
+  "Z": <ore:skullZombieFrankenstein>, # Frank'N'Zombie
+});
+
+# [Electric Light]*8 from [White Illumar][+3]
+recipes.removeByRecipeName("enderio:light_electric_un_invert");
+recipes.removeByRecipeName("enderio:light_electric");
+craft.make(<enderio:block_electric_light> * 8, ["pretty",
+  "■ ■ ■",
+  "□ I □",
+  "□ B □"], {
+  "■": <ore:fusedQuartz>, # Fused Quartz
+  "□": <ore:plateSilicon>,             # Silicon Plate
+  "I": <ore:projredIllumar>,           # White Illumar
+  "B": <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, # Basic Capacitor
+});
+
+# [Light]*8 from [Glowstone][+2]
+recipes.removeByRecipeName("enderio:light_basic");
+recipes.removeByRecipeName("enderio:light_basic_un_invert");
+craft.make(<enderio:block_electric_light:2> * 8, ["pretty",
+  "     ",
+  "■ ■ ■",
+  "□ g □"], {
+  "■": <ore:blockGlassColorless> | <ore:blockGlass>, # Glass
+  "□": <ore:plateConstructionAlloy>,           # Iron Alloy Plate
+  "g": <ore:glowstone> | <ore:blockGlowstone>, # Glowstone
+});
+
+# [The Niard] from [Simple Machine Chassis][+4]
+recipes.removeByRecipeName("enderio:niard");
+craft.make(<enderio:block_niard>, ["pretty",
+  "□ F □",
+  "L S L",
+  "□ D □"], {
+  "□": <ore:plateElectricalSteel>,     # Electrical Steel Plate
+  "F": <enderio:block_tank>,           # Fluid Tank
+  "L": <gregtech:meta_item_1:127>,     # LV Electric Motor
+  "S": <ore:itemSimpleMachineChassi>,  # Simple Machine Chassis
+  "D": <enderio:block_dark_iron_bars>, # Dark Iron Bars
+});
+
+# [Telepad Block] from [Travel Anchor][+4]
+recipes.removeByRecipeName("enderio:tele_pad");
+craft.make(<enderio:block_tele_pad>, ["pretty",
+  "■ п ■",
+  "□ T □",
+  "□ B □"], {
+  "■": <ore:fusedQuartz>, # Fused Quartz
+  "п": <ore:plateDoubleVibrantAlloy>,  # Double Vibrant Alloy Plate
+  "□": <ore:plateDarkSteel>,           # Dark Steel Plate
+  "T": <enderio:block_travel_anchor>,  # Travel Anchor
+  "B": <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, # Basic Capacitor
+});
+
+# [Attractor Obelisk] from [Light Magnetic Steel Plate][+4]
+recipes.removeByRecipeName("enderio:attractor_obelisk");
+craft.make(<enderio:block_attractor_obelisk>, ["pretty",
+  "  *  ",
+  "E п E",
+  "□ S □"], {
+  "*": <ore:itemAttractorCrystal>,    # Enticing Crystal
+  "E": <ore:foilEnergeticAlloy>,      # Energetic Alloy Foil
+  "п": <ore:lightPlateSteelMagnetic>, # Light Magnetic Steel Plate
+  "□": <ore:lightPlateSoularium>,     # Light Soularium Plate
+  "S": <ore:itemSoulMachineChassi>,   # Soul Machine Chassis
+});
+
+# [Aversion Obelisk] from [Energized Bimetal Gear][+4]
+recipes.removeByRecipeName("enderio:aversion_obelisk");
+craft.make(<enderio:block_aversion_obelisk>, ["pretty",
+  "  T  ",
+  "E ¤ E",
+  "□ S □"], {
+  "T": <enderio:block_enderman_skull:2>, # Tormented Enderman Head
+  "E": <ore:foilEnergeticAlloy>,         # Energetic Alloy Foil
+  "¤": <ore:gearEnergized>,              # Energized Bimetal Gear
+  "□": <ore:lightPlateSoularium>,        # Light Soularium Plate
+  "S": <ore:itemSoulMachineChassi>,      # Soul Machine Chassis
+});
+
+# [Inhibitor Obelisk] from [Ender Pearl][+4]
+recipes.removeByRecipeName("enderio:inhibitor_obelisk");
+craft.make(<enderio:block_inhibitor_obelisk>, ["pretty",
+  "  *  ",
+  "E e E",
+  "□ S □"], {
+  "*": <ore:itemEnderCrystal>,      # Ender Crystal
+  "E": <ore:foilEnergeticAlloy>,    # Energetic Alloy Foil
+  "e": <ore:enderpearl> | <ore:materialEnderPearl> | <ore:gemEnderPearl>, # Ender Pearl
+  "□": <ore:lightPlateSoularium>,   # Light Soularium Plate
+  "S": <ore:itemSoulMachineChassi>, # Soul Machine Chassis
+});
+
+# [Relocator Obelisk] from [Aversion Obelisk][+2]
+recipes.removeByRecipeName("enderio:relocator_obelisk");
+craft.make(<enderio:block_relocator_obelisk>, ["pretty",
+  "  ■  ",
+  "■ A ■",
+  "  ¤  "], {
+  "■": <ore:blockPrismarine> | <ore:prismarine>, # Prismarine
+  "A": <enderio:block_aversion_obelisk>,         # Aversion Obelisk
+  "¤": <ore:gearVibrant>,                        # Vibrant Bimetal Gear
+});
+
+# [Weather Obelisk] from [Octadic Capacitor][+4]
+recipes.removeByRecipeName("enderio:weather_obelisk");
+craft.make(<enderio:block_weather_obelisk>, ["pretty",
+  "  *  ",
+  "E O E",
+  "□ S □"], {
+  "*": <ore:itemWeatherCrystal>,         # Weather Crystal
+  "E": <ore:foilEnergeticAlloy>,         # Energetic Alloy Foil
+  "O": <enderio:item_capacitor_vivid> | <enderio:item_basic_capacitor:2>, # Octadic Capacitor
+  "□": <ore:lightPlateSoularium>,        # Light Soularium Plate
+  "S": <ore:itemSoulMachineChassi>,      # Soul Machine Chassis
+});
+
+# [Experience Obelisk] from [Fluid Tank][+4]
+recipes.removeByRecipeName("enderio:experience_obelisk");
+craft.make(<enderio:block_experience_obelisk>, ["pretty",
+  "  /  ",
+  "E F E",
+  "□ S □"], {
+  "/": <enderio:item_xp_transfer>,  # Experience Rod
+  "E": <ore:foilEnergeticAlloy>,    # Energetic Alloy Foil
+  "F": <enderio:block_tank>,        # Fluid Tank
+  "□": <ore:lightPlateSoularium>,   # Light Soularium Plate
+  "S": <ore:itemSoulMachineChassi>, # Soul Machine Chassis
+});
+
+# [Dialing Device] from [Ender Resonator][+4]
+recipes.removeByRecipeName("enderio:dialing_device");
+craft.make(<enderio:block_dialing_device>, ["pretty",
+  "  ¤  ",
+  "E n E",
+  "□ d □"], {
+  "¤": <ore:gearElectricalSteel>,      # Electrical Steel Gear
+  "E": <ore:foilElectricalSteel>,      # Electrical Steel Foil
+  "n": <ore:skullEnderResonator>,      # Ender Resonator
+  "□": <ore:plateDarkSteel>,           # Dark Steel Plate
+  "d": <enderio:item_capacitor_vivid> | <enderio:item_basic_capacitor:2>, # Endergised Capacitor
+});
+
+# [Exit Rail] from [Wooden Railbed][+3]
+recipes.removeByRecipeName("enderio:exit_rail");
+craft.make(<enderio:block_exit_rail>, ["pretty",
+  "S □ S",
+  "S W S",
+  "S P S"], {
+  "S": <railcraft:rail>,                 # Standard Rail
+  "□": <minecraft:stone_pressure_plate>, # Stone Pressure Plate
+  "W": <railcraft:railbed>,              # Wooden Railbed
+  "P": <ore:craftingPiston>,             # Piston
+});
+
+# [Conduit Facade]*16 from [Conduit Binder]
+recipes.remove(<enderio:item_conduit_facade:0>);
+craft.make(<enderio:item_conduit_facade> * 16, ["pretty",
+  "C C C",
+  "C   C",
+  "C C C"], {
+  "C": <ore:itemConduitBinder>, # Conduit Binder
+});
+

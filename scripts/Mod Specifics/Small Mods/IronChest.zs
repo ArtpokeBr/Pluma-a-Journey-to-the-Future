@@ -13,7 +13,7 @@ craft.make(<ironchest:wood_iron_chest_upgrade>, ["pretty",
   "□ п □",
   "□ □ □"], {
   "□": <ore:plateIron>, # Iron Plate
-  "п": <actuallyadditions:block_misc:4>, # TreatedWood Frame
+  "п": <railcraft:generic:5>, # Creosote Wood (Railcraft)
 });
 
 # [Iron to Gold Chest Upgrade] from [Heavy Iron Plate][+1]
@@ -43,7 +43,7 @@ craft.make(<ironchest:wood_copper_chest_upgrade>, ["pretty",
   "□ п □",
   "□ □ □"], {
   "□": <ore:plateCopper>, # Copper Plate
-  "п": <actuallyadditions:block_misc:4>, # TreatedWood Frame
+  "п": <railcraft:generic:5>, # Creosote Wood (Railcraft)
 });
 
 # [Copper to Silver Chest Upgrade] from [Heavy Copper Plate][+1]

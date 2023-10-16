@@ -269,49 +269,49 @@ craft.make(<pyrotech:anvil_iron_plated>, ["pretty",
   "S": <ore:slabStone>, # Stone Slab
 });
 
-# [Stone Collector]*3 from [Stone Tank][+2]
-recipes.removeByRecipeName("pyrotech:tech/refractory/tar_collector_stone");
-craft.make(<pyrotech:tar_collector> * 3, ["pretty",
-  "M   M",
-  "M S M",
-  "a M a"], {
-  "M": <pyrotech:material:16>,         # Masonry Brick
-  "S": <pyrotech:stone_tank>,          # Stone Tank
-  "a": <pyrotech:masonry_brick_block>, # Masonry Bricks
-});
+// # [Stone Collector]*3 from [Stone Tank][+2]
+// recipes.removeByRecipeName("pyrotech:tech/refractory/tar_collector_stone");
+// craft.make(<pyrotech:tar_collector> * 3, ["pretty",
+//   "M   M",
+//   "M S M",
+//   "a M a"], {
+//   "M": <pyrotech:material:16>,         # Masonry Brick
+//   "S": <pyrotech:stone_tank>,          # Stone Tank
+//   "a": <pyrotech:masonry_brick_block>, # Masonry Bricks
+// });
 
-# [Refractory Collector]*3 from [Refractory Tank][+2]
-recipes.removeByRecipeName("pyrotech:tech/refractory/tar_collector_brick");
-craft.make(<pyrotech:tar_collector:1> * 3, ["pretty",
-  "R   R",
-  "R f R",
-  "e R e"], {
-  "R": <pyrotech:material:5>,             # Refractory Brick
-  "f": <pyrotech:brick_tank>,             # Refractory Tank
-  "e": <pyrotech:refractory_brick_block>, # Refractory Bricks
-});
+// # [Refractory Collector]*3 from [Refractory Tank][+2]
+// recipes.removeByRecipeName("pyrotech:tech/refractory/tar_collector_brick");
+// craft.make(<pyrotech:tar_collector:1> * 3, ["pretty",
+//   "R   R",
+//   "R f R",
+//   "e R e"], {
+//   "R": <pyrotech:material:5>,             # Refractory Brick
+//   "f": <pyrotech:brick_tank>,             # Refractory Tank
+//   "e": <pyrotech:refractory_brick_block>, # Refractory Bricks
+// });
 
-# [Stone Drain] from [Stone Bucket][+2]
-recipes.removeByRecipeName("pyrotech:tech/refractory/tar_drain_stone");
-craft.make(<pyrotech:tar_drain>, ["pretty",
-  "M   M",
-  "M ~ M",
-  "M A M"], {
-  "M": <pyrotech:material:16>,  # Masonry Brick
-  "~": <pyrotech:bucket_stone>, # Stone Bucket
-  "A": <pyrotech:masonry_brick_block>, # Masonry Bricks
-});
+// # [Stone Drain] from [Stone Bucket][+2]
+// recipes.removeByRecipeName("pyrotech:tech/refractory/tar_drain_stone");
+// craft.make(<pyrotech:tar_drain>, ["pretty",
+//   "M   M",
+//   "M ~ M",
+//   "M A M"], {
+//   "M": <pyrotech:material:16>,  # Masonry Brick
+//   "~": <pyrotech:bucket_stone>, # Stone Bucket
+//   "A": <pyrotech:masonry_brick_block>, # Masonry Bricks
+// });
 
-# [Refractory Drain] from [Refractory Bucket][+2]
-recipes.removeByRecipeName("pyrotech:tech/refractory/tar_drain_brick");
-craft.make(<pyrotech:tar_drain:1>, ["pretty",
-  "R   R",
-  "R ~ R",
-  "R e R"], {
-  "R": <pyrotech:material:5>,             # Refractory Brick
-  "~": <pyrotech:bucket_refractory>,      # Refractory Bucket
-  "e": <pyrotech:refractory_brick_block>, # Refractory Bricks
-});
+// # [Refractory Drain] from [Refractory Bucket][+2]
+// recipes.removeByRecipeName("pyrotech:tech/refractory/tar_drain_brick");
+// craft.make(<pyrotech:tar_drain:1>, ["pretty",
+//   "R   R",
+//   "R ~ R",
+//   "R e R"], {
+//   "R": <pyrotech:material:5>,             # Refractory Brick
+//   "~": <pyrotech:bucket_refractory>,      # Refractory Bucket
+//   "e": <pyrotech:refractory_brick_block>, # Refractory Bricks
+// });
 
 # Easier Refractory Bricks ======
 
@@ -339,8 +339,40 @@ alloy.recipeBuilder()
     .EUt(6)
 .buildAndRegister();
 
+# [Stone Igniter] from [Redstone Gear][+3]
+<pyrotech:igniter>.addTooltip(format.red("WARNING") + format.white(":") + format.white(" Do not try to") + format.white(" Ignite a Forestry's Wood Pile.") + format.red(" This will Crash your Game!"));
+recipes.removeByRecipeName("pyrotech:ignition/igniter_stone");
+craft.make(<pyrotech:igniter>, ["pretty",
+  "M M M",
+  "▼ ♥ I",
+  "M M M"], {
+  "M": <pyrotech:material:16>,                # Masonry Brick
+  "▼": <ore:dustRedstone>,                    # Redstone
+  "♥": <ore:gearRedstone>,                    # Redstone Gear
+  "I": <ore:barsIron>,                        # Iron Bars
+});
+
+# [Refractory Igniter] from [Redstone Gear][+3]
+<pyrotech:igniter:1>.addTooltip(format.red("WARNING") + format.white(":") + format.white(" Do not try to") + format.white(" Ignite a Forestry's Wood Pile.") + format.red(" This will Crash your Game!"));
+recipes.removeByRecipeName("pyrotech:ignition/igniter_brick");
+craft.make(<pyrotech:igniter:1>, ["pretty",
+  "R R R",
+  "▼ ♥ I",
+  "R R R"], {
+  "R": <pyrotech:material:5>,                 # Refractory Brick
+  "▼": <ore:dustRedstone>,                    # Redstone
+  "♥": <ore:gearRedstone>,                    # Redstone Gear
+  "I": <ore:barsIron>,                        # Iron Bars
+});
+
 # [Log Pile] from [Oak Log]
-recipes.removeByRecipeName("pyrotech:log_pile");
-craft.shapeless(<pyrotech:log_pile>, "####", {
-  "#": <ore:logWood>, # Oak Log
+mods.jei.JEI.removeAndHide(<pyrotech:log_pile>);
+// recipes.removeByRecipeName("pyrotech:log_pile");
+// craft.shapeless(<forestry:wood_pile>, "####", {
+//   "#": <ore:logWood>, # Oak Log
+// });
+
+//Converting Pyrotech's Wood Pile into Forestry's Log Pile
+craft.shapeless(<forestry:wood_pile>, "L", {
+  "L": <pyrotech:log_pile>, # Log Pile
 });

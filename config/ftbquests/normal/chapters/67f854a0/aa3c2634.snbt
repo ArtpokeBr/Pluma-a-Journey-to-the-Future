@@ -1,14 +1,35 @@
 {
+	title: "Easier Essence-Infused Ingots!",
 	x: 6.6d,
-	y: 6.0d,
+	y: 3.3d,
+	description: "Thanks to our recently made Alloy Furnace!",
+	text: [
+		"► §eSimple yet effective§f. ",
+		"",
+		"▬ Now you can simply §6Alloy§f §eExperience Imbues§f with §aGlitch Infused Ingots§f in order to obtain this §dImportant Material§f. "
+	],
 	dependencies: [
 		"2e6ea375"
 	],
+	min_width: 250,
 	tasks: [{
 		uid: "5f017289",
 		type: "item",
 		items: [{
 			item: "tconevo:metal 1 15"
-		}]
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "c0db64f8",
+		type: "item",
+		item: "randomthings:imbue 1 2",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		uid: "80062b09",
+		type: "ftbmoney:money",
+		ftb_money: 15L
 	}]
 }

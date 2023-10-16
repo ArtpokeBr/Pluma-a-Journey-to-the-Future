@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "contenttweaker:blocks/ie_lv_coil_top",
+      "down": "contenttweaker:blocks/ie_lv_coil_top",
+      "texture": "contenttweaker:blocks/ie_lv_coil",
+      "particle": "contenttweaker:blocks/ie_lv_coil"
+    },
+    "model": "base:storage",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

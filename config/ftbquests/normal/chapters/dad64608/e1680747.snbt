@@ -1,0 +1,36 @@
+{
+	title: "Gliding Around the World!",
+	x: 1.4880952380952337d,
+	y: -1.654761904761905d,
+	description: "I can show your the World ♫",
+	text: [
+		"Now that you can make yourself a §emore refined type of Leather§f, you should be able to make this §2interesting Gizmo§f!",
+		"",
+		"- §2This Glider§f will allow you to simply §aRight Click to Glide Around§f!",
+		"",
+		"§8§o~ If you wish something cheaper but with Durability, you could also try to make a Medicine Bag from Totemic imbued with the Bat Pole Blessing.§f"
+	],
+	dependencies: [
+		"c117701c"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "c79caa3f",
+		type: "item",
+		items: [{
+			item: "openglider:hang_glider_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68e3594f",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "cofhcore:leaping2+"
+			}
+		}
+	}]
+}

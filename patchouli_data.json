@@ -23,6 +23,48 @@
         "techguns:machines/camo_bench"
       ],
       "completedManualQuests": []
+    },
+    "engineersdecor:engineersdecor_manual": {
+      "viewedEntries": [
+        "engineersdecor:buildingblocks/windows"
+      ],
+      "bookmarks": [],
+      "history": [
+        "engineersdecor:buildingblocks/windows"
+      ],
+      "completedManualQuests": []
+    },
+    "nuclearcraft:guide": {
+      "viewedEntries": [
+        "nuclearcraft:items/hazmatsuit",
+        "nuclearcraft:items/spaxelhoe"
+      ],
+      "bookmarks": [],
+      "history": [
+        "nuclearcraft:items/spaxelhoe",
+        "nuclearcraft:items/hazmatsuit"
+      ],
+      "completedManualQuests": []
+    },
+    "qmd:guide": {
+      "viewedEntries": [
+        "qmd:items_and_devices/hev_suit",
+        "qmd:items_and_devices/gluon_gun",
+        "qmd:items_and_devices/lepton_cannon",
+        "qmd:items_and_devices/beam_meter",
+        "qmd:blocks_and_machines/atmosphere_collector",
+        "qmd:multiblocks/accelerators/general"
+      ],
+      "bookmarks": [],
+      "history": [
+        "qmd:multiblocks/accelerators/general",
+        "qmd:blocks_and_machines/atmosphere_collector",
+        "qmd:items_and_devices/beam_meter",
+        "qmd:items_and_devices/lepton_cannon",
+        "qmd:items_and_devices/gluon_gun",
+        "qmd:items_and_devices/hev_suit"
+      ],
+      "completedManualQuests": []
     }
   }
 }

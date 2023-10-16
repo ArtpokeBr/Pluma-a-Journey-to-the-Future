@@ -5,10 +5,15 @@ import mods.advancedrocketry.ArcFurnace as ArcFurnace;
 
 //Restricting Advanced Rocketry (currenltly in DEV)
 mods.recipestages.Recipes.setRecipeStageByMod("advancedrocketrylock", "advancedrocketry");
-
+mods.recipestages.Recipes.setRecipeStageByMod("advancedrocketrylock", "libvulpes");
 
 // Plate Presser Hiding
 JEI.removeAndHide(<advancedrocketry:platepress>);
+
+//Hiding Bipropellant Related Content (Allows Oxygen and Hydrogen as Fuel)
+JEI.removeAndHide(<advancedrocketry:bipropellantrocketmotor>);
+JEI.removeAndHide(<advancedrocketry:advbipropellantrocketmotor>);
+JEI.removeAndHide(<advancedrocketry:bipropellantfueltank>);
 
 //Lathe Recipe Fixes
 mods.advancedrocketry.Lathe.clear();
@@ -75,7 +80,7 @@ mixer.recipeBuilder()
 
 //Thermal Cloth
 assembler.recipeBuilder()
-    .inputs([<tconstruct:materials:15> * 8, <ore:foilAluminium> * 8, <pyrotech:material:26> * 8])
+    .inputs([<tconstruct:materials:15>, <ore:foilAluminium> * 4, <pyrotech:material:26> * 4, <contenttweaker:refinedcloth>])
     .outputs(<contenttweaker:thermalcloth>)
     .duration(160)
     .EUt(120)
@@ -121,44 +126,6 @@ implosion.recipeBuilder()
 
 // Artisan's ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Unprepared Space Helmet
-RecipeBuilder.get("tailor")
-  .setShaped([
-    [<contenttweaker:refinedcloth>, <contenttweaker:refinedcloth>, <contenttweaker:refinedcloth>],
-    [<contenttweaker:refinedcloth>, null, <contenttweaker:refinedcloth>]])
-  .addTool(<ore:artisansNeedle>, 5)
-  .addOutput(<contenttweaker:unpreparedspacehelmet>)
-  .create();
-
-//Unprepared Space Chestplate
-RecipeBuilder.get("tailor")
-  .setShaped([
-    [<contenttweaker:refinedcloth>, null, <contenttweaker:refinedcloth>],
-    [<contenttweaker:refinedcloth>, <contenttweaker:refinedcloth>, <contenttweaker:refinedcloth>],
-    [<contenttweaker:refinedcloth>, <contenttweaker:refinedcloth>, <contenttweaker:refinedcloth>]])
-  .addTool(<ore:artisansNeedle>, 10)
-  .addOutput(<contenttweaker:unpreparedspacechestplate>)
-  .create();
-
-//Unprepared Space Leggings
-RecipeBuilder.get("tailor")
-  .setShaped([
-    [<contenttweaker:refinedcloth>, <contenttweaker:refinedcloth>, <contenttweaker:refinedcloth>],
-    [<contenttweaker:refinedcloth>, null, <contenttweaker:refinedcloth>],
-    [<contenttweaker:refinedcloth>, null, <contenttweaker:refinedcloth>]])
-  .addTool(<ore:artisansNeedle>, 8)
-  .addOutput(<contenttweaker:unpreparedspaceleggins>)
-  .create();
-
-//Unprepared Space Boots
-RecipeBuilder.get("tailor")
-  .setShaped([
-    [<contenttweaker:refinedcloth>, null, <contenttweaker:refinedcloth>],
-    [<contenttweaker:refinedcloth>, null, <contenttweaker:refinedcloth>]])
-  .addTool(<ore:artisansNeedle>, 5)
-  .addOutput(<contenttweaker:unpreparedspaceboots>)
-  .create();
-
 // Arc Furnace Fixes ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ArcFurnace.clear();
 
@@ -170,3 +137,84 @@ ArcFurnace.addRecipe(<ore:ingotTitaniumAluminide>.firstItem*3, 800/*ticks*/, 800
 
 #Titanium Iridium Alloy
 ArcFurnace.addRecipe(<ore:ingotTitaniumIridium>.firstItem*2, 800/*ticks*/, 16000/*rf/t*/, <ore:ingotTitanium>.firstItem*1, <ore:ingotIridium>.firstItem*1);
+
+# Structure Tower
+recipes.remove(<advancedrocketry:structuretower>);
+chemical_bath.recipeBuilder()
+    .inputs(<ore:frameGtStainlessSteel>)
+    .fluidInputs(<liquid:zirconium> * 288)
+    .outputs(<advancedrocketry:structuretower>)
+    .duration(100)
+    .EUt(130)
+.buildAndRegister();
+
+# Launch Pad
+recipes.remove(<advancedrocketry:launchpad>);
+mixer.recipeBuilder()
+    .inputs(<advancedrocketry:concrete>)
+    .fluidInputs(<liquid:dye_yellow> * 144, <liquid:dye_black> * 144)
+    .outputs(<advancedrocketry:launchpad>)
+    .duration(80)
+    .EUt(75)
+.buildAndRegister();
+
+# [Space Suit Helmet] from [Fortified Glass Pane][+3]
+recipes.remove(<advancedrocketry:spacehelmet>);
+craft.make(<advancedrocketry:spacehelmet>.withTag({}), ["pretty",
+  "□ ╱ □",
+  "╱ F ╱",
+  "T T T"], {
+  "□": <ore:plateAdvancedAlloy>,                   # Advanced Alloy Plate
+  "╱": <ore:stickAdvancedAlloy>,                   # Advanced Alloy Rod
+  "F": <thaumicaugmentation:fortified_glass_pane>, # Fortified Glass Pane
+  "T": <contenttweaker:thermalcloth>,              # Thermal Cloth
+});
+
+# [Space Suit Chest-Piece] from [Scuba Tank][+3]
+recipes.remove(<advancedrocketry:spacechestplate>);
+craft.make(<advancedrocketry:spacechestplate>.withTag({}), ["pretty",
+  "T ╱ T",
+  "T S T",
+  "T □ T"], {
+  "T": <contenttweaker:thermalcloth>, # Thermal Cloth
+  "╱": <ore:stickAdvancedAlloy>,      # Advanced Alloy Rod
+  "S": <mekanism:scubatank>,          # Scuba Tank
+  "□": <ore:plateAdvancedAlloy>,      # Advanced Alloy Plate
+});
+
+# [Space Suit Leggings] from [Advanced Alloy Rod][+1]
+recipes.remove(<advancedrocketry:spaceleggings>);
+craft.make(<advancedrocketry:spaceleggings>.withTag({}), ["pretty",
+  "T ╱ T",
+  "T   T",
+  "T   T"], {
+  "T": <contenttweaker:thermalcloth>, # Thermal Cloth
+  "╱": <ore:stickAdvancedAlloy>,      # Advanced Alloy Rod
+});
+
+# [Space Suit Boots] from [Advanced Alloy Rod][+2]
+recipes.remove(<advancedrocketry:spaceboots>);
+craft.make(<advancedrocketry:spaceboots>.withTag({}), ["pretty",
+  "     ",
+  "T ╱ T",
+  "□   □"], {
+  "T": <contenttweaker:thermalcloth>, # Thermal Cloth
+  "╱": <ore:stickAdvancedAlloy>,      # Advanced Alloy Rod
+  "□": <ore:plateAdvancedAlloy>,      # Advanced Alloy Plate
+});
+
+# Refined Cloth
+forming.recipeBuilder()
+    .inputs(<thaumcraft:fabric>, <ore:clothManaweave>, <projectred-core:resource_item:420>)
+    .outputs(<contenttweaker:refinedcloth>*3)
+    .duration(80)
+    .EUt(80)
+.buildAndRegister();
+
+forming.recipeBuilder()
+    .inputs(<thaumcraft:fabric>, <ore:clothManaweave>, <projectred-core:resource_item:420>, <forestry:bee_combs:3>)
+    .outputs(<contenttweaker:refinedcloth>*6)
+    .duration(100)
+    .EUt(120)
+.buildAndRegister();
+

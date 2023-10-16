@@ -1,16 +1,27 @@
 {
-	x: 7.254931972789123d,
-	y: 4.731909677933679d,
+	title: "Another Type of Alloyer!",
+	x: 7.211862244897965d,
+	y: 1.5808175223214391d,
+	description: "Let's make a NuclearCraft's Alloy Furnace!",
+	text: [
+		"► §bNuclearCraft§f has some pretty unique §2Alloys and Materials§f, and this §6Alloy Furnace§f will help you make them!"
+	],
 	dependencies: [
 		"2f852c6f",
-		"350beee1"
+		"b1b21e81"
 	],
 	size: 1.5d,
+	min_width: 250,
 	tasks: [{
 		uid: "7005a01d",
 		type: "item",
 		items: [{
 			item: "nuclearcraft:alloy_furnace"
 		}]
+	}],
+	rewards: [{
+		uid: "883efc33",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

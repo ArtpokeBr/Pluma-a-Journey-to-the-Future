@@ -1,0 +1,38 @@
+{
+	title: "A Solidifier from NuclearCraft",
+	x: 12.604251700680251d,
+	y: 6.059800834396263d,
+	description: "Let's make an Ingot Former!",
+	text: [
+		"► It may seem a bit strange to make another type of §6\"Solidifier\"§f but trust me, there are some §2exclusive and important recipes§f!",
+		"",
+		"▬ §bIsotopes§f can only be §6solidified here§f.",
+		"",
+		"▬ §3NuclearCraft Gems§f can only be §6solidified here§f.",
+		"",
+		"▬ And don't forget... this §eMachine doesn't use Energy§! it is a §a\"free way\"§f to §6solidify§f any §9fluid material§f."
+	],
+	dependencies: [
+		"e5472311"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "ee4eb2e8",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot_former"
+		}]
+	}],
+	rewards: [{
+		uid: "f344f2e2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 145",
+		count: 2
+	},
+	{
+		uid: "081e1c33",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

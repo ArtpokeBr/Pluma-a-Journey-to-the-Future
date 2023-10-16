@@ -2,9 +2,9 @@
 	title: "LV Chemical Bath",
 	x: 3.5d,
 	y: 7.0d,
-	description: "Bathing Materiasl with EU!",
+	description: "Bathing Materials with EU!",
 	text: [
-		"It has some unique Recipes and it is specially usefull for Leather Treating."
+		"This Machine will Unlock you some unique Recipes but it is specially usefull for Leather Treating."
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -17,5 +17,10 @@
 		items: [{
 			item: "gregtech:machine 1 200"
 		}]
+	}],
+	rewards: [{
+		uid: "6b96e003",
+		type: "item",
+		item: "gregtech:meta_item_1 1 142"
 	}]
 }

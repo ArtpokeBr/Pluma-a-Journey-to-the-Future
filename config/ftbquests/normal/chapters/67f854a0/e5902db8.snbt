@@ -1,0 +1,111 @@
+{
+	title: "Putting it all together!",
+	icon: "nuclearcraft:solid_fission_controller",
+	x: 15.011904761904773d,
+	y: -6.737956725659014d,
+	description: "How to Build your first Fission Nuclear Reactor §6Part IV§f",
+	text: [
+		"► §6This quest§f will §2guide§f in §asetting up the frame§f, and help with setting up §5ports§f for §9in§f/§6outputs§f.",
+		"",
+		"► §aAfter assembling the internal aspect§f of your §6Reactor§f, its time to finish it and see if it §eworks§f!",
+		"",
+		"▬ §bAll edges§f must be made of §bReactor Casing§f, while §3the faces§f can be made of either §3Reactor Casing§f or §3Reactor Glass§r.",
+		"",
+		"► §aOnce you have it fully inclosed§f, place the §6Controller§f in one of the faces. §3§oIf assembled correctly§f, you should see §bthe edge casings snap to a connected texture§f.",
+		"",
+		"───────────────────────────────",
+		"",
+		"► Now, §aLet's build inside of the Reactor§f!",
+		"",
+		"▬ §aPlace§f the §5Neutron Sources§r so they are set in §da face and pointed directly at§f a §6Fuel Cell§r. §aRight click§f a §5Source§r to see if it is §6bound to§f a §6Cell§r. ",
+		"",
+		"▬ And don't forget that §9Reflectors§r and §dIrradiators§r will block §5Sources §rfrom finding §6Cells§r in a path.",
+		"",
+		"► §aAfter that§f, Use a §cRedstone Signal§f on each §5Source§r to §eactivate§f each §6Fuel Cell§r.",
+		"",
+		"▬ §aNext§f, place each §9Port and Vent§f on a face. §aRight click§f one of each with the §6Multitool§f to switch to §9output mode§f. ",
+		"",
+		"▬ §aThese will be your methods of interaction§f with your §6Fuel Cells§r, §dIrradiators§r, and §eCooling§r. §9Pipe Water§f into one of the §bVents§f, and prepare to pipe §3Steam out of the other§f. ",
+		"",
+		"Using this §3Steam§f to §epower a Turbine§f will be your §dmain source§f of §ePower Generation§f from a §6Fission Reactor§f!",
+		"",
+		"▬ §aAnd as a Final Step§f, Insert your §eFuel§r into the §6Cell Ports§f, and your §3Wafers§f into the §7Irradiator Port§f.",
+		"",
+		"§8§o~ Congratulations! You've just designed and built your very own Fission Reactor!§f"
+	],
+	dependencies: [
+		"6df01314"
+	],
+	size: 2.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "e47a78f5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:solid_fission_controller"
+		}]
+	},
+	{
+		uid: "277dddb2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_glass"
+		}],
+		count: 32L
+	},
+	{
+		uid: "69cab357",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_source"
+		}],
+		count: 2L
+	},
+	{
+		uid: "cd2b9ebc",
+		type: "item",
+		items: [{
+			item: "minecraft:lever"
+		}],
+		count: 2L
+	},
+	{
+		uid: "033998e5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:multitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e393f3cf",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_cell_port"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c5b91aaa",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_vent"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5bac820f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_irradiator_port"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "ca863f81",
+		type: "item",
+		item: "nuclearcraft:fission_glass",
+		random_bonus: 31
+	}]
+}

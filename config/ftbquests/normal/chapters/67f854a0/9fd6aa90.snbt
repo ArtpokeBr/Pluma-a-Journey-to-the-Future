@@ -1,0 +1,42 @@
+{
+	title: "Extracting Resources from Andesite",
+	x: 10.5d,
+	y: 3.5999999999999996d,
+	description: "Beryllium, Alugentum and Arsenic!",
+	text: [
+		"► And by doing so, you'll get a §dchance§f of obtaining §2the following materials§f:",
+		"",
+		"▬ §aBeryllium§f 1% Chance §3§o(0-2 Dusts)§f",
+		"",
+		"▬ §3Alugentum§f 0.6% Chance §3§o(0-2 Dusts)§f",
+		"",
+		"▬ §2Arsenic§f 0.3% Chance §3§o(0-1 Dusts)§f",
+		"",
+		"§8§o~ And Don't forget that you can use an Igneous Extruder or a GregTech's Rock Breaker to Farm this Rock.§f"
+	],
+	dependencies: [
+		"3be8f362"
+	],
+	tasks: [{
+		uid: "047148b4",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8c2979eb",
+		type: "item",
+		item: "gregtech:meta_dust 1 10"
+	},
+	{
+		uid: "55ee9079",
+		type: "item",
+		item: "nuclearcraft:compound 1 11"
+	},
+	{
+		uid: "cbd0ec42",
+		type: "item",
+		item: "gregtech:meta_dust 1 6"
+	}]
+}

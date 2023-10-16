@@ -1,14 +1,34 @@
 {
+	title: "Easier Pink Slime Ingots!",
 	x: 7.8d,
-	y: 6.0d,
+	y: 3.3d,
+	description: "Thanks to our recently made Alloy Furnace!",
+	text: [
+		"► §eSimple yet effective§f. ",
+		"",
+		"▬ Now you can simply §6Alloy§f §dPink Slime Crystals§f with §5Magnesium Ingots§f in order to obtain this §bImportant Material§f. "
+	],
 	dependencies: [
 		"2e6ea375"
 	],
+	min_width: 250,
 	tasks: [{
 		uid: "f74420db",
 		type: "item",
 		items: [{
 			item: "industrialforegoing:pink_slime_ingot"
-		}]
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "830bc1be",
+		type: "item",
+		item: "tconevo:material 1 1",
+		count: 3
+	},
+	{
+		uid: "47a46a7c",
+		type: "ftbmoney:money",
+		ftb_money: 15L
 	}]
 }

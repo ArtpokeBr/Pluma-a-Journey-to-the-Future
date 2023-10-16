@@ -1,14 +1,37 @@
 {
-	x: 8.87806122448982d,
-	y: 4.721705596301014d,
+	title: "Boron + Steel =",
+	x: 8.722066326530609d,
+	y: 1.5808175223214391d,
+	description: "Let's make Ferroboron!",
+	text: [
+		"► Now that we are officialy working with §6NuclearCraft§f, time to make the next tier of §3Alloy from this Mod§f, §dFerroboron§f!",
+		"",
+		"▬ You'll be using it to §2craft a variety of Components§f but it can be also used to make §3Tough Alloy§f if you §emix§f it with §bLithium§f!",
+		"§8§o(More about this process shall be explained in the following Quests)§f",
+		"",
+		"§8§o~ Ferro = Iron in PT-BR, why this is made with Steel instead of Iron then?§f"
+	],
 	dependencies: [
 		"2e6ea375"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "8e4b14ab",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_ingot 1 32080"
-		}]
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5a023ad8",
+		type: "item",
+		item: "nuclearcraft:ore 1 5",
+		count: 16
+	},
+	{
+		uid: "13070536",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

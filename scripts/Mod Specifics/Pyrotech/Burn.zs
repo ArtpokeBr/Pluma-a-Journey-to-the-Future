@@ -1,3 +1,4 @@
+/*
 import mods.pyrotech.Burn as Burn;
 
 Burn.removeAllRecipes();
@@ -95,3 +96,4 @@ Burn.createBuilder(
     .register();
 
 // ============================================ //
+*/

@@ -1,0 +1,38 @@
+{
+	title: "Enhancing Materials with Fluids",
+	x: 12.604251700680251d,
+	y: 4.726467501062942d,
+	description: "Let's make a Fluid Infuser!",
+	text: [
+		"► A §6Fluid Infuser§f will prove itself §2very usefull§f soon enough, as you'll be using it to make §bOxidized Materials§f, but not only that:",
+		"",
+		"▬ You'll be using it to make §cRad Away's§f.",
+		"",
+		"▬ You'll be using it to make §aReactor Coolers§f.",
+		"",
+		"▬ And as a §2pretty neat§f feature, now you'll get acess to §aAlternative Recipes§f for §3Thermal Expansion's Alloys§f."
+	],
+	dependencies: [
+		"0302b462",
+		"b8c4b791"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "11d0ef20",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:infuser"
+		}]
+	}],
+	rewards: [{
+		uid: "5bab6b6c",
+		type: "item",
+		item: "nuclearcraft:glowing_mushroom",
+		count: 21
+	},
+	{
+		uid: "ac7b51b6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

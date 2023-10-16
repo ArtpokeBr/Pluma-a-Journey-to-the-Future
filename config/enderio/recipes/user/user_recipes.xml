@@ -131,4 +131,38 @@
   <recipe name="Alloy: EXTREME Alloy (Nuclearcraft)" disabled="true" />
   <recipe name="Alloy: Thermoconducting Alloy (Nuclearcraft)" disabled="true" />
 
+<!-- Removing Castables -->
+
+<recipe name="Pulsating Crystal, casting" disabled="true" />
+<recipe name="Vibrant Crystal, casting" disabled="true" />
+
+<!-- <recipe name="Gear, Stone, casting" disabled="true" /> -->
+<recipe name="Gear, Iron, Casting" disabled="true" />
+<recipe name="Gear, Energized, Casting" disabled="true" />
+<recipe name="Gear, Vibrant, Casting" disabled="true" />
+<recipe name="Gear, Dark, Casting" disabled="true" />
+
+<recipe name="Electrical Steel Casting" disabled="true" />
+<recipe name="Energetic Alloy Casting" disabled="true" />
+<recipe name="Vibrant Alloy Casting" disabled="true" />
+<recipe name="Redstone Alloy Casting" disabled="true" />
+<recipe name="Conductive Iron Casting" disabled="true" />
+<recipe name="Pulsating Iron Casting" disabled="true" />
+<recipe name="Dark Steel Casting" disabled="true" />
+<recipe name="Soularium Casting" disabled="true" />
+<recipe name="End Steel Casting" disabled="true" />
+<recipe name="Construction Alloy Casting" disabled="true" />
+
+<recipe name="Lumium Casting" disabled="true" />
+<recipe name="Signalum Casting" disabled="true" />
+<recipe name="Enderium Casting" disabled="true" />
+
+<recipe name="Crude Steel Casting" disabled="true" />
+<recipe name="Crystalline Alloy Casting" disabled="true" />
+<recipe name="Melodic Alloy Casting" disabled="true" />
+<recipe name="Stellar Alloy Casting" disabled="true" />
+<recipe name="Crystalline Pink Slime Casting" disabled="true" />
+<recipe name="Energetic Silver Casting" disabled="true" />
+<recipe name="Vivid Alloy Casting" disabled="true" />
+
 </enderio:recipes>

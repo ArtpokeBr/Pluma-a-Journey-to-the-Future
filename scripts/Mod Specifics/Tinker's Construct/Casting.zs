@@ -67,16 +67,8 @@ var castsAndCasters as IItemStack[IIngredient] = {
     <gregtech:meta_nugget:260>: <tconstruct:cast_custom:1>, //Bronze Nugget
     //<minecraft:emerald>: <tconstruct:cast_custom:2>,
     <gregtech:meta_plate:260>: <tconstruct:cast_custom:3>, //Bronze Plate
-    <conarm:leggings_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:leggings_core"}),
-    <conarm:boots_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:boots_core"}),
-    <conarm:chest_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:chest_core"}),
-    <conarm:armor_plate>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:armor_plate"}),
-    <conarm:armor_trim>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:armor_trim"}),
-    <conarm:helmet_core>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:helmet_core"}),
-    //<plustic:pipe_piece>.withTag({Material: "steel"}) : <tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}),
+   //<plustic:pipe_piece>.withTag({Material: "steel"}) : <tconstruct:cast>.withTag({PartType: "plustic:pipe_piece"}),
     //<plustic:battery_cell>.withTag({Material: "silver"}) : <tconstruct:cast>.withTag({PartType: "plustic:battery_cell"}),
-    <conarm:polishing_kit>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "conarm:polishing_kit"}),
-
     <tcomplement:sledge_head>.withTag({Material: "bronze"}) : <tconstruct:cast>.withTag({PartType: "tcomplement:sledge_head"})
 
     };

@@ -50,7 +50,17 @@ var RemovingOnlyTheRecipe as IItemStack[] = [
 <randomthings:biomeradar>,
 <randomthings:obsidianskull>,
 <randomthings:timeinabottle>,
-<actuallyadditions:item_crate_keeper>
+<actuallyadditions:item_crate_keeper>,
+<nuclearcraft:solar_panel_basic>,
+<nuclearcraft:solar_panel_advanced>,
+<nuclearcraft:solar_panel_du>,
+<nuclearcraft:solar_panel_elite>,
+<nuclearcraft:rtg_uranium>,
+<nuclearcraft:rtg_plutonium>,
+<nuclearcraft:rtg_americium>,
+<nuclearcraft:rtg_californium>,
+<botania:enderhand>,
+
 
     ];
 for i in RemovingOnlyTheRecipe {

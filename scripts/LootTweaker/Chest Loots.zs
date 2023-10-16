@@ -612,7 +612,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 			<minecraft:spectral_arrow>*8									: 50,
 			<thermalfoundation:tool.shield_platinum>						: 18,
 			<cyclicmagic:food_step>											: 15,
-			<botania:enderhand>												: 15,
+			<nuclearcraft:portable_ender_chest>								: 15,
 	});
 
 	# Foods

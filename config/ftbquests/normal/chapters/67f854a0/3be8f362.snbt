@@ -1,0 +1,44 @@
+{
+	title: "Extracting Resources out of Rocks",
+	x: 8.7d,
+	y: 4.8d,
+	description: "Let's make a Rock Crusher!",
+	text: [
+		"► At a first glance §6this machine§f is §bvery expensive§f in terms of both §dRecipe Cost§f and §eEnergy Comsumption§f but hear me when I say...",
+		"",
+		"▬ Make §a3x of them§f cause you'll basically be able to §3passively produce§f §2Important Resources for Progression§f!",
+		"",
+		"▬ Also, don't forget that you can always upgrade your §6NuclearCraft§f Machines by using §eupgrades§f."
+	],
+	dependencies: [
+		"c98982d8",
+		"350beee1"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "40016a47",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rock_crusher"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "577b4917",
+		type: "item",
+		item: "nuclearcraft:part 1 9",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "ea8cf93a",
+		type: "item",
+		item: "nuclearcraft:part 1 8",
+		random_bonus: 2
+	},
+	{
+		uid: "f73ae47b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -31,8 +31,6 @@ var CylindersAndBalls as IItemStack[IIngredient] = {
     <ore:ingotSignalum>.firstItem: <enderio:item_material:57>,
     <ore:ingotEnderium>.firstItem: <enderio:item_material:58>,
 
-    <ore:ingotSilicon>.firstItem: <projectred-core:resource_item:301>
-
     };
 for IItemStack, IIngredient in CylindersAndBalls {
         recipes.remove(IIngredient);

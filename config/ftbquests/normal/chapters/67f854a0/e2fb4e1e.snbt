@@ -1,0 +1,93 @@
+{
+	title: "Understanding Reactor Fuel Cells",
+	x: 14.939625850340136d,
+	y: -0.3095201557185234d,
+	description: "How to build your first Nuclear Fission Reactor §6Part I§f",
+	text: [
+		"► First, §aLet's Collect these blocks§f to get started. ",
+		"§8§o(Also make sure to choose a place for your Reactor and place a floor of casing to get started.)§f",
+		"",
+		"► Take a look at your §6chosen fuel§f. We are going to use §a§2L(ow) E(nriched) U(ranium)-235 Zirconium Alloy Fuel§r for this walkthrough.",
+		"",
+		"▬ Pay close attention to the §eBase heat gen: 150 H/t, §rand §cCriticality factor: 87 N/t§r.",
+		"",
+		"► This quest will teach you how to assemble §bModerator Lines§r, reach the §c§cCriticality Factor§r, and how §eHeat§r is caculated. ↓",
+		"",
+		"§o───────────────────────────────§f",
+		"",
+		"▬ §aFirst§f place a §6Fuel Cell§r, with a line of §bModerators§r §8§o(max length of 4)§f containing a sum §aFlux Factor§r equal to or higher than the §cCriticality Factor§r of your fuel, extending away from it. ",
+		"",
+		"Then place a second §6Fuel Cell §rat the other end of the §bModerator Line§r. ",
+		"",
+		"▬ Each §6Fuel Cell§r will be able to keep the other §6activated§f, because of the §aFlux Factor§r meeting or excceding the §cCriticality Factor§r of the fuel in the opposite §6Cell§r.",
+		"",
+		"▬ Each §bModerator Line§r extending off of a §6Fuel Cell§r causes one instance of §eHeat§r. For example, in the §9above build§f we have §dtwo connections§f, one coming from each §6Fuel Cell§r, so we have §ea total of 300 H/t§r."
+	],
+	dependencies: [
+		"5968433b"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "7516db83",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_casing"
+		}],
+		count: 32L
+	},
+	{
+		uid: "846dea34",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:solid_fission_cell"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c4ceb938",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockBeryllium"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockBeryllium"
+				}
+			}
+		}]
+	},
+	{
+		uid: "97825400",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:heavy_water_moderator"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3f640894",
+		type: "item",
+		item: "nuclearcraft:fission_casing",
+		count: 32
+	},
+	{
+		uid: "44f2c1fe",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "nuclearcraft:smore",
+			tag: {
+				display: {
+					Name: "Thanks for Reading!"
+				},
+				RepairCost: 0
+			}
+		}
+	}]
+}

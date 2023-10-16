@@ -1,0 +1,35 @@
+{
+	title: "Watch Out for Radiation!",
+	icon: "nuclearcraft:rtg_plutonium",
+	x: -2.5d,
+	y: -3.2261904761904674d,
+	shape: "hexagon",
+	description: "Things may get dangerous if you're in the wrong place at the wrong time!",
+	text: [
+		"► That's correct, §6NuclearCraft's Radiation System is enabled§f! wich means that if you're not careful with your §2Factory Facilities§f, things may get §cdangerous§f.",
+		"",
+		"▬ But Honestly, this should only be a real concern later on §8§o(if you're reading this at the beginning of your journey)§f, as §eRadiation§f is present, but §anot in high quantities most of the time§f.",
+		"",
+		"▬ If you §dpay close attention to the lower right corner of your screen§f you'll find your §eRadiation Meter§f §8§o(enabled by default to make things easier for you)§f ↓",
+		"",
+		"§dAlways pay attention to items that you're holding or storing in your chests§f, as §eRadiation§f §amay be present§f not only in you but also it may be present in the §3current chunk§f that you're standing in!",
+		"",
+		"▬ In the §6EV Chapter§f you're probaly going to need to §efight against Radiation in your Base§f, and of course, §ayou'll learn plenty of ways to deal with it§f ↓",
+		"",
+		"§dBut Currently§f, you may be able to §aControl Radiation§f §3by not storing Radioactive Material near you§f, or by §econsuming Items that give you Rad Resistence and/or clean your Radiation directly§f."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"26b332de"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "6dfee5e8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ad3f8ee8",
+		type: "item",
+		item: "nuclearcraft:rad_x"
+	}]
+}

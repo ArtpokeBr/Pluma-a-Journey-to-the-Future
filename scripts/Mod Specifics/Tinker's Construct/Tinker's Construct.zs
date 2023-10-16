@@ -461,27 +461,6 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<tconstruct:toolforge>)
 .create();
 
-<conarm:armorforge>.addTooltip(format.white("Can Only be made with ") + format.green("Iron Blocks") + format.white("."));
-recipes.remove(<conarm:armorforge>);
-RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [<tconstruct:seared_slab>, <contenttweaker:searedplate>, <tconstruct:seared_slab>],
-    [<ore:blockIron>, <conarm:armorstation>, <ore:blockIron>],
-    [<ore:blockIron>, null, <ore:blockIron>]])
-  .setFluid(<liquid:water> * 500)
-  .addTool(<ore:gtceHardHammers>, 20)
-  .addOutput(<conarm:armorforge>.withTag({textureBlock: {id: "tconevo:metal_block", Count: 1, Damage: 0 as short}}))
-.create();
-RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [<tconstruct:seared_slab>, <contenttweaker:searedplate>, <tconstruct:seared_slab>],
-    [<ore:blockIron>, <conarm:armorstation>, <ore:blockIron>],
-    [<ore:blockIron>, null, <ore:blockIron>]])
-  .setFluid(<liquid:water> * 500)
-  .addTool(<ore:gtceHardHammers>, 20)
-  .addOutput(<conarm:armorforge>)
-.create();
-
 // ============================================================================================================================
 
 # Hiding Tinker's Tables and only showing the correct ones.
@@ -519,3 +498,48 @@ alloy.recipeBuilder()
     .EUt(2)
 .buildAndRegister();
 
+// Slime Muds being Made in the Mixer ==========================================
+
+#Green
+recipes.remove(<tconstruct:soil:1>);
+mixer.recipeBuilder()
+    .inputs(<ore:slimeballGreen>*4, <ore:dirt>, <ore:sand>)
+    .fluidInputs(<liquid:water>*1000)
+    .circuit(11)
+    .outputs(<tconstruct:soil:1>)
+    .duration(200)
+    .EUt(12)
+.buildAndRegister();
+
+#Blue
+recipes.remove(<tconstruct:soil:2>);
+mixer.recipeBuilder()
+    .inputs(<ore:slimeballBlue>*4, <ore:dirt>, <ore:sand>)
+    .fluidInputs(<liquid:water>*1000)
+    .circuit(11)
+    .outputs(<tconstruct:soil:2>)
+    .duration(200)
+    .EUt(12)
+.buildAndRegister();
+
+#Orange
+recipes.remove(<tconstruct:soil:5>);
+mixer.recipeBuilder()
+    .inputs(<ore:slimeballMagma>*2, <minecraft:magma_cream>*2, <ore:netherrack>, <ore:soulSand>)
+    .fluidInputs(<liquid:water>*1000)
+    .circuit(11)
+    .outputs(<tconstruct:soil:5>)
+    .duration(200)
+    .EUt(16)
+.buildAndRegister();
+
+#Pink
+recipes.remove(<tconevo:earth_material_block>);
+mixer.recipeBuilder()
+    .inputs(<ore:slimeballPink>*4, <ore:dirt>, <ore:sand>)
+    .fluidInputs(<liquid:water>*1000)
+    .circuit(11)
+    .outputs(<tconevo:earth_material_block>)
+    .duration(200)
+    .EUt(12)
+.buildAndRegister();

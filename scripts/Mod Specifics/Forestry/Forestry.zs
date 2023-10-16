@@ -83,7 +83,7 @@ recipes.addShaped(<careerbees:beegun> * 1, [[<ore:screwHoneySteel>, <ore:gtceScr
 
 //Readding the Ash OreDict and adding convertions for it
 recipes.addShapeless(<ore:dustAsh>.firstItem, [<forestry:ash>]);
-furnace.addRecipe(<ore:dustAsh>.firstItem, <pyrotech:log_pile>);
+furnace.addRecipe(<ore:dustAsh>.firstItem, <forestry:wood_pile>);
 
 ## Backpack's Recipes and Tooltips =============================
 
@@ -144,7 +144,7 @@ craft.make(<forestry:forester_bag>, ["pretty",
   "s": <ore:twine>, # String
   "w": <ore:wool>, # White Wool
   "L": <pyrotech:material:39>,                      # Leather Strap
-  "#": <pyrotech:log_pile>,                        # Wood Pile
+  "#": <forestry:wood_pile>,                        # Wood Pile
 });
 
 # [Hunting Backpack] from [Iron Bowlimb][+3]

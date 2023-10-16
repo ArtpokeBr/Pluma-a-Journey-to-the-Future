@@ -1,0 +1,74 @@
+{
+	title: "Time to Protect yourself!",
+	x: 12.592517006802701d,
+	y: 1.612862058886087d,
+	description: "Let's make a Hazmat Suit",
+	text: [
+		"► From now on, you'll start handling §eRadioactive Materials§f! better prepare ourselves for this.",
+		"",
+		"▬ Make a §6Hazmat Suit§f to increase your §eRad Resistence§f. This should help you with §asmall amounts of Radiation§f.",
+		"",
+		"▬ As you progress you'll start also handling more §cdangerous Materials§f, that's why you should also consider following the §6Next Quests carefully§f.",
+		"",
+		"▬ §aA Pro Tip§f: make yourself a §2\"Radiation Safe Base\"§f  wich basically means §dbuilding a shelter far from your Main Base in case something goes wrong§f."
+	],
+	dependencies: [
+		"e4742344"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "43ccf216",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:helm_hazmat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99e379bf",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:chest_hazmat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f70c0890",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:legs_hazmat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3189e778",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:boots_hazmat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c918a57c",
+		type: "item",
+		item: "nuclearcraft:geiger_block"
+	},
+	{
+		uid: "c6b610cf",
+		type: "item",
+		item: "nuclearcraft:geiger_counter"
+	},
+	{
+		uid: "8fb2a824",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

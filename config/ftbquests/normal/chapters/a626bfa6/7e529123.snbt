@@ -8,7 +8,8 @@
 		"",
 		"- By making a §6Tool Forge§f, you'll get acess to variety of new and §3Advanced Tools§f.",
 		"",
-		"- And you're also able to make an §6Armor Forge§f, great for improving your §3Armory§f!"
+		"- And you're also able to make an §6Armor Forge§f, great for improving your §3Armory§f!",
+		"§8§o[ Requires Construct Armory to be Installed ]§f"
 	],
 	dependencies: [
 		"d030ed85"
@@ -17,6 +18,17 @@
 	tasks: [{
 		uid: "b872f3ae",
 		type: "item",
+		title: "A Tool Forge or Armor Forge",
+		icon: {
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1,
+					Damage: 0s
+				}
+			}
+		},
 		items: [{
 			item: "tconstruct:toolforge"
 		},

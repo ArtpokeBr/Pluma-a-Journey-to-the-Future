@@ -1,0 +1,39 @@
+{
+	title: "Increasing your Yields!",
+	x: 10.375127551020412d,
+	y: 1.6012256855867477d,
+	description: "Time to make a Manufactory!",
+	text: [
+		"► The §6Manufactory§f is a really versatile Machine, some of its features are:",
+		"",
+		"▬ No more Lubricant to get §e6x Wood Processing§f!",
+		"",
+		"▬ Easier §6Leather Recipe using Rotten Flesh§f!",
+		"",
+		"▬ Easier §2Material → Dust Recycling§f!",
+		"",
+		"▬ Easier §bSilicon Balls out of Clay§f!"
+	],
+	dependencies: [
+		"c98982d8"
+	],
+	size: 1.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "b3dad074",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:manufactory"
+		}]
+	}],
+	rewards: [{
+		uid: "b62a4f1f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 633"
+	},
+	{
+		uid: "66a41d10",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Let's find a Special Vein in the End",
+	icon: "gregtech:ore_uraninite_0 1 2",
+	x: 15.0d,
+	y: 4.8d,
+	description: "Time to Start Mining for Uranium!",
+	text: [
+		"► In the §dFirst Dark Magic Chapter§f you've probally unlocked your way into §5The End§f, time to look for a specific §3Vein§f there!",
+		"",
+		"▬ You'll Obtain §5Lead§f, §2Thorium§f and most importantly, §8Uraninite§f after you §6Process the ores found within this vein§f."
+	],
+	dependencies: [
+		"14593cf3"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "0e03cfd9",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_uraninite_0 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "79da767d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pitchblende_0 1 2"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7a02c80c",
+		type: "item",
+		item: "gregtech:meta_dust 1 332",
+		count: 18
+	},
+	{
+		uid: "e5d0fb5d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

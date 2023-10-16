@@ -1,0 +1,43 @@
+{
+	title: "Upgrading your NuclearCraft Machines!",
+	x: 10.427380952380929d,
+	y: 0.19075321534864997d,
+	description: "Let's make some Speed and Energy Upgrades!",
+	text: [
+		"► Now that you're able to produce some §3Bio Plastic§f, time to §2start developing and enhancing your Nuclear Facility§f.",
+		"",
+		"▬ §bSpeed Upgrades§f follow the same concept of §eGT Overclocking§f, §cMore Speed = More Energy Consumed§f.",
+		"",
+		"▬ §eEnergy Upgrades§f will §ddecrease the amount of Energy Consumed§f, however, §a§nthey are tied to your Speed Upgrades§f, wich means that you can only Install §eEnergy Upgrades§f up to the same number of §bSpeed Upgrades§f Installed."
+	],
+	dependencies: [
+		"e4742344"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "166b04fd",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:upgrade"
+		}]
+	},
+	{
+		uid: "5659c31b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "06132e09",
+		type: "item",
+		item: "nuclearcraft:upgrade",
+		count: 3
+	},
+	{
+		uid: "8e4bb1a4",
+		type: "item",
+		item: "nuclearcraft:upgrade 1 1",
+		count: 3
+	}]
+}

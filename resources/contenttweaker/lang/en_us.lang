@@ -1,3 +1,27 @@
+tile.contenttweaker.ie_iron_sheetmetal.name=Iron Sheetmetal
+tile.contenttweaker.ie_aluminium_sheetmetal.name=Aluminium Sheetmetal
+tile.contenttweaker.ie_silver_sheetmetal.name=Silver Sheetmetal
+tile.contenttweaker.ie_lead_sheetmetal.name=Lead Sheetmetal
+tile.contenttweaker.ie_copper_sheetmetal.name=Copper Sheetmetal
+tile.contenttweaker.ie_gold_sheetmetal.name=Gold Sheetmetal
+tile.contenttweaker.ie_nickel_sheetmetal.name=Nickel Sheetmetal
+tile.contenttweaker.ie_steel_sheetmetal.name=Steel Sheetmetal
+tile.contenttweaker.ie_uranium_sheetmetal.name=Uranium Sheetmetal
+tile.contenttweaker.ie_cupronickel_sheetmetal.name=Cupronickel Sheetmetal
+tile.contenttweaker.ie_electrum_sheetmetal.name=Electrum Sheetmetal
+
+tile.contenttweaker.ie_generator_block.name=Engineers Generator Block
+
+tile.contenttweaker.ie_insulating_glass.name=Insulating Glass
+
+tile.contenttweaker.ie_concrete.name=Engineers Concrete
+tile.contenttweaker.ie_concrete_tile.name=Engineers Concrete Tile
+tile.contenttweaker.ie_leaded_concrete.name=Engineers Leaded Concrete
+tile.contenttweaker.ie_hempcrete.name=Hempcrete
+
+tile.contenttweaker.ie_lv_coil.name=Low Voltage Coil Block (Decorative)
+tile.contenttweaker.ie_mv_coil.name=Medium Voltage Coil Block (Decorative)
+tile.contenttweaker.ie_hv_coil.name=High Voltage Voltage Coil Block (Decorative)
 
 tile.contenttweaker.obsidian_glass.name=Obsidian Glass
 tile.contenttweaker.baykoksbloodiedstone.name=Baykok's Sanguine Stone

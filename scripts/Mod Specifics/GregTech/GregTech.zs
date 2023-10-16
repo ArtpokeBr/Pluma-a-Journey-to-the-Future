@@ -836,7 +836,7 @@ craft.make(<gregtech:meta_item_1:474>, ["pretty",
   "a": <pyrotech:material:23>,   # Tarred Board
 });
 
-# HV Sensor Rework (Ender Eyes are unlocked after it) ===============================================
+# HV Sensor and Emitter Rework (Ender Eyes are unlocked after it) ===============================================
 
 # [HV Sensor] from [Chrome Rod][+3]
 recipes.removeByRecipeName("gregtech:sensor_hv");
@@ -854,6 +854,26 @@ craft.make(<gregtech:meta_item_1:234>, ["pretty",
 <recipemap:assembler>.recipeBuilder()
     .inputs(<ore:stickChrome>, <ore:plateStainlessSteel> * 4, <ore:circuitHv>, <ore:EmpoweredEmeradicCrystal>)
     .outputs(<gregtech:meta_item_1:234>)
+    .duration(100)
+    .EUt(30)
+.buildAndRegister();
+
+# [HV Emitter] from [Empowered Emeradic Crystal][+3]
+recipes.removeByRecipeName("gregtech:emitter_hv");
+craft.make(<gregtech:meta_item_1:219>, ["pretty",
+  "G ╱ H",
+  "╱ * ╱",
+  "H ╱ G"], {
+  "G": <ore:cableGtSingleGold>,        # 1x Gold Cable
+  "╱": <ore:stickChrome>,              # Chrome Rod
+  "H": <ore:circuitHv>,                # Advanced Integrated Circuit
+  "*": <ore:EmpoweredEmeradicCrystal>, # Empowered Emeradic Crystal
+});
+
+<recipemap:assembler>.findRecipe(30, [<metaitem:stickChrome> * 4, <metaitem:cableGtSingleGold> * 2, <metaitem:circuit.advanced_integrated> * 2, <minecraft:ender_eye:0>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
+<recipemap:assembler>.recipeBuilder()
+    .inputs(<ore:stickChrome>*4, <ore:circuitHv>*2, <ore:cableGtSingleGold>*2, <ore:EmpoweredEmeradicCrystal>)
+    .outputs(<gregtech:meta_item_1:219>)
     .duration(100)
     .EUt(30)
 .buildAndRegister();

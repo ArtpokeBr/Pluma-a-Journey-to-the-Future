@@ -1,0 +1,64 @@
+{
+	title: "Time to Obtain Uranium!",
+	x: 15.0d,
+	y: 3.5999999999999996d,
+	description: "Let's turn Uraninite into Uranium!",
+	text: [
+		"► You've probally noticed already, but, there's no §aUranium Ore§f available for your to obtain §aUranium§f directly, We will need a §eProcessing Chain§f for it!",
+		"",
+		"▬ §bFirst§f: Lets Chemically React §83x Uraninite§f with §32b of Fluorine§f and §bHydrofluoric Acid§f.",
+		"",
+		"This §6Reaction§f will produce §a1b of Uranium Hexafluoride§f and that's what we are looking for!",
+		"",
+		"▬ §bSecond§f: §6Centrifuge§f your §aUranium Hexafluoride§f and you'll obtain some §aEnriched§f and even more §2Depleted Uranium Hexafluoride§f.",
+		"",
+		"▬ §bThird and Final Step§f: §aEnriched Uranium Hexafluoride§f can be §6Eletrolyzed§f for §aUranium-235§f and the §2Depleted§f can also be §6Eletrolyzed§f, but for §2Uranium-238§f instead.",
+		"",
+		"And Voilá! this is a simple §eProcessing Chain§f but it should grant you acess to §aUranium§f! an §2important Radioactive component§f for your §3NuclearCraft Journey§f.",
+		"",
+		"§8§o~ Also, did you know that in most Modpacks/Mods The \"Simply called Uranium\" is actually Uranium-238. This is beacuse it is a much more commonly type of Uranium found in the World.§f"
+	],
+	dependencies: [
+		"e6f88927"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "7acb2268",
+		type: "fluid",
+		fluid: "uranium_hexafluoride"
+	},
+	{
+		uid: "98c8d61a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 117"
+		}]
+	},
+	{
+		uid: "72929810",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 116"
+		}]
+	}],
+	rewards: [{
+		uid: "f5b5e379",
+		type: "item",
+		item: {
+			id: "mekanism:basicblock",
+			Damage: 6s,
+			tag: {
+				tier: 3,
+				mekData: {
+					itemCount: 0
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "eb9ac365",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

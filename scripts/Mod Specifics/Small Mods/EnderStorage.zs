@@ -54,6 +54,6 @@ ArcaneWorkbench.registerShapedRecipe(
   "▲ W ▲"], {
   "▲": <ore:dustBlaze>,                  # Blaze Powder
   "M": <contenttweaker:magical_leather>, # Magical Leather
-  "H": <botania:enderhand>,              # Hand of Ender
+  "H": <nuclearcraft:portable_ender_chest>, # Hand of Ender
   "W": <quark:quilted_wool>,             # White Quilted Wool
 }).shaped());

@@ -12,7 +12,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 //Recipe for the Crushing Table Itself
 recipes.remove(<magneticraft:crushing_table:0>);
-recipes.addShaped(<magneticraft:crushing_table:0> * 1, [[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>], [<ore:plankWood>, <ore:compressed1xCobblestone>, <ore:plankWood>],[<ore:ingotBronze>, <pyrotech:log_pile>, <ore:ingotBronze>]]);
+recipes.addShaped(<magneticraft:crushing_table:0> * 1, [[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>], [<ore:plankWood>, <ore:compressed1xCobblestone>, <ore:plankWood>],[<ore:ingotBronze>, <forestry:wood_pile>, <ore:ingotBronze>]]);
 
 ### Removing Crushing Table Recipes ###
 

@@ -1,0 +1,58 @@
+{
+	title: "Let's produce our First Nuclear Fuel!",
+	x: 14.991156462585025d,
+	y: 1.6274879092262182d,
+	description: "From an Uranium Processing Chain to A Reactor Fuel!",
+	text: [
+		"► By Simpy §6Mixing§f §aUranium-235 Dust§f and §2Uranium-238 Dusts§f, our First §3Nuclear Fuel§f!",
+		"",
+		"► With your §eIsotopes§f, you can now make either §2LEU-235§f or §aHEU-235§f. Both fuels have §cdifferences in the amount of heat they produce§f, the §etime they last§f, and more. ",
+		"",
+		"§dThese differences will matter when designing your reactor§f.",
+		"",
+		"▬ §aBefore using them to fuel your reactor§f, however, they need to go through §6one last step of processing§f:",
+		"",
+		"There are three different fuel types you can make from either §2§rbase fuel§r: an §9Oxide§r, a §aNitride§r, or a §eZirconium Alloy§r. §dThere is no \"best\"§f out of these three fuel types; §3each one has its own benefits over each other§f.",
+		"",
+		"§9You can check the differences in their stats in the tooltips each fuel has§f. When building your reactor, §nmake sure to choose the best fuel for your purposes§f.",
+		"",
+		"§8§o~ Watch out, remember that you're now handling Radioactive Materials! make sure to wear your Hazmat Suit!§f"
+	],
+	dependencies: [
+		"0a56c7c1",
+		"a9ab8208"
+	],
+	size: 1.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "57f15ff8",
+		type: "item",
+		title: "An HEU or LEU-235 Isotope",
+		items: [{
+			item: "nuclearcraft:pellet_uranium 1 4"
+		},
+		{
+			item: "nuclearcraft:pellet_uranium 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "1afb4d53",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "uranium_hexafluoride",
+					Amount: 1000
+				}
+			}
+		},
+		random_bonus: 7
+	},
+	{
+		uid: "c0c6ccb0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

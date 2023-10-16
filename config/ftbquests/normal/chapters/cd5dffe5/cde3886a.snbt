@@ -35,23 +35,21 @@
 		uid: "1e54fe1b",
 		type: "item",
 		item: {
-			id: "conarm:armor_plate",
+			id: "tconstruct:pick_head",
 			tag: {
 				Material: "pink_metal"
 			}
-		},
-		count: 2
+		}
 	},
 	{
 		uid: "bf7f38e9",
 		type: "item",
 		item: {
-			id: "conarm:armor_plate",
+			id: "tconstruct:axe_head",
 			tag: {
 				Material: "meat_metal"
 			}
-		},
-		count: 2
+		}
 	},
 	{
 		uid: "f966b72e",
