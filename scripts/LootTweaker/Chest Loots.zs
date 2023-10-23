@@ -67,7 +67,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_carts_custom", 1, 4, 1, 4);
 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_tracks_custom", 4, 8, 1, 2);
-	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_foods_custom", 2, 6, 1, 2);
+	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_foods_custom", 0, 6, 1, 2);
 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_tools_custom", 1, 4, 1, 3);
 	LootTweaker.getTable("railcraft:chests/village_workshop").addPool("railcraft_resources_custom", 2, 6, 1, 2);
 
@@ -187,7 +187,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 	clear_pool("minecraft:chests/village_blacksmith", "botania_inject_pool");
 	clear_pool("railcraft:chests/village_blacksmith", "railcraft_general");
 
-	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_foods_custom", 2, 6, 1, 2);
+	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_foods_custom", 0, 6, 1, 2);
 	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_tools_custom", 1, 2, 0, 1);
 	LootTweaker.getTable("minecraft:chests/village_blacksmith").addPool("blacksmith_resources_custom", 4, 10, 1, 2);
 
@@ -279,7 +279,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	LootTweaker.getTable("railcraft:chests/abandoned_mineshaft").addPool("abandoned_mineshaft_carts_custom", 1, 4, 1, 4);
 	LootTweaker.getTable("railcraft:chests/abandoned_mineshaft").addPool("abandoned_mineshaft_tracks_custom", 4, 8, 1, 2);
-	LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").addPool("abandoned_mineshaft_foods_custom", 2, 6, 1, 2);
+	LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").addPool("abandoned_mineshaft_foods_custom", 0, 6, 1, 2);
 	LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").addPool("abandoned_mineshaft_tools_custom", 1, 2, 0, 1);
 	LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").addPool("abandoned_mineshaft_resources_custom", 4, 10, 1, 2);
 
@@ -397,7 +397,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	clear_pool("minecraft:chests/desert_pyramid", "randomthings:biomeCrystal");
 
-	LootTweaker.getTable("minecraft:chests/desert_pyramid").addPool("desert_pyramid_foods_custom", 2, 6, 1, 2);
+	LootTweaker.getTable("minecraft:chests/desert_pyramid").addPool("desert_pyramid_foods_custom", 0, 6, 1, 2);
 	LootTweaker.getTable("minecraft:chests/desert_pyramid").addPool("desert_pyramid_tools_custom", 1, 2, 0, 1);
 	LootTweaker.getTable("minecraft:chests/desert_pyramid").addPool("desert_pyramid_resources_custom", 4, 10, 1, 2);
 
@@ -489,7 +489,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	//clear_pool("minecraft:chests/stronghold_corridor", "randomthings:biomeCrystal");
 
-	LootTweaker.getTable("minecraft:chests/stronghold_corridor").addPool("stronghold_corridor_foods_custom", 2, 4, 1, 2);
+	LootTweaker.getTable("minecraft:chests/stronghold_corridor").addPool("stronghold_corridor_foods_custom", 0, 4, 1, 2);
 	LootTweaker.getTable("minecraft:chests/stronghold_corridor").addPool("stronghold_corridor_tools_custom", 1, 2, 0, 1);
 	LootTweaker.getTable("minecraft:chests/stronghold_corridor").addPool("stronghold_corridor_resources_custom", 2, 6, 1, 2);
 
@@ -568,7 +568,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	//clear_pool("minecraft:chests/stronghold_crossing", "randomthings:biomeCrystal");
 
-	LootTweaker.getTable("minecraft:chests/stronghold_crossing").addPool("stronghold_crossing_foods_custom", 2, 4, 1, 2);
+	LootTweaker.getTable("minecraft:chests/stronghold_crossing").addPool("stronghold_crossing_foods_custom", 0, 4, 1, 2);
 	LootTweaker.getTable("minecraft:chests/stronghold_crossing").addPool("stronghold_crossing_tools_custom", 1, 2, 0, 1);
 	LootTweaker.getTable("minecraft:chests/stronghold_crossing").addPool("stronghold_crossing_resources_custom", 2, 6, 1, 2);
 
@@ -647,7 +647,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	//clear_pool("minecraft:chests/stronghold_library", "randomthings:biomeCrystal");
 
-	LootTweaker.getTable("minecraft:chests/stronghold_library").addPool("stronghold_library_foods_custom", 2, 4, 1, 2);
+	LootTweaker.getTable("minecraft:chests/stronghold_library").addPool("stronghold_library_foods_custom", 0, 4, 1, 2);
 	LootTweaker.getTable("minecraft:chests/stronghold_library").addPool("stronghold_library_tools_custom", 1, 2, 0, 1);
 	LootTweaker.getTable("minecraft:chests/stronghold_library").addPool("stronghold_library_resources_custom", 2, 6, 1, 2);
 	LootTweaker.getTable("minecraft:chests/stronghold_library").addPool("stronghold_library_celestial_notes_custom", 1, 2, 0, 0);
@@ -754,7 +754,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	//clear_pool("minecraft:chests/woodland_mansion", "randomthings:biomeCrystal");
 
-	LootTweaker.getTable("minecraft:chests/woodland_mansion").addPool("woodland_mansion_foods_custom", 2, 8, 1, 2);
+	LootTweaker.getTable("minecraft:chests/woodland_mansion").addPool("woodland_mansion_foods_custom", 0, 8, 1, 2);
 	LootTweaker.getTable("minecraft:chests/woodland_mansion").addPool("woodland_mansion_tools_custom", 1, 2, 0, 0);
 	LootTweaker.getTable("minecraft:chests/woodland_mansion").addPool("woodland_mansion_terrarium_custom", 1, 2, 0, 1);
 	LootTweaker.getTable("minecraft:chests/woodland_mansion").addPool("woodland_mansion_resources_custom", 2, 4, 0, 2);
@@ -857,7 +857,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	//clear_pool("minecraft:chests/simple_dungeon", "randomthings:biomeCrystal");
 
-	LootTweaker.getTable("minecraft:chests/simple_dungeon").addPool("simple_dungeon_foods_custom", 2, 6, 1, 2);
+	LootTweaker.getTable("minecraft:chests/simple_dungeon").addPool("simple_dungeon_foods_custom", 0, 6, 1, 2);
 	LootTweaker.getTable("minecraft:chests/simple_dungeon").addPool("simple_dungeon_tools_custom", 1, 2, 0, 0);
 	LootTweaker.getTable("minecraft:chests/simple_dungeon").addPool("simple_dungeon_resources_custom", 4, 8, 0, 2);
 

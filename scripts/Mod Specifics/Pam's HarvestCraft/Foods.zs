@@ -23,6 +23,17 @@ furnace.remove(i);
 // Flour
 <ore:foodFlour>.add(<gregtech:meta_dust:1615>);
 
+// Conversion Fixes
+
+#Juniper Berry
+craft.reshapeless(<harvestcraft:juniperberryitem>, "C", {
+    "C": <extratrees:food:47>,
+});
+
+craft.reshapeless(<extratrees:food:47>, "C", {
+    "C": <harvestcraft:juniperberryitem>,
+});
+
 // --- Cooking Tools =================================================================
 
 // --- Pot
@@ -360,3 +371,112 @@ for IIngredient, itemStacks in RoastedFoodsCompat {
     });
 }
 
+# [Lychee Tea] from [Fresh Water][+3]
+recipes.remove(<harvestcraft:lycheeteaitem>);
+craft.shapeless(<harvestcraft:lycheeteaitem>, "PlTA", {
+  "P": <ore:toolPot>.reuse(),      # Pot
+  "l": <harvestcraft:lycheeitem>,  # Lychee
+  "T": <harvestcraft:tealeafitem>, # Tea Leaf
+  "A": <ore:listAllwater>,         # Fresh Water
+});
+
+# [Schnitzel] from [Cooking Oil][+5]
+recipes.remove(<harvestcraft:schnitzelitem>);
+craft.shapeless(<harvestcraft:schnitzelitem>, "SNFLOB", {
+  "S": <ore:toolSkillet>.reuse(),                        # Skillet
+  "N": <ore:listAllporkraw>,                    # Raw Porkchop
+  "F": <ore:foodFlour>,                         # Flour
+  "L": <ore:cropLemon>,                         # Lemon
+  "O": <ore:foodOliveoil>,                      # Cooking Oil
+  "B": <ore:foodBlackpepper>,                   # Black Pepper
+});
+
+# [Sauced Lamb Kebab] from [Garlic][+6]
+recipes.remove(<harvestcraft:saucedlambkebabitem>);
+craft.shapeless(<harvestcraft:saucedlambkebabitem>, "MLPAGsl", {
+  "M": <ore:toolMixingbowl>.reuse(),                 # Mixing Bowl
+  "L": <ore:foodLambkebab>,                  # Lamb Kebab
+  "P": <ore:foodPlainyogurt>,                # Plain Yogurt
+  "A": <ore:listAllheavycream> | <ore:foodSilkentofu>, # Silken Tofu
+  "G": <ore:cropGarlic>,                     # Garlic
+  "s": <harvestcraft:spiceleafitem>,         # Spice Leaf
+  "l": <ore:cropLime>,                       # Lime
+});
+
+# [Cantonese Noodles] from [Corn][+8]
+recipes.remove(<harvestcraft:cantonesenoodlesitem>);
+craft.shapeless(<harvestcraft:cantonesenoodlesitem>, "SoNelCvAO", {
+  "S": <ore:toolSkillet>.reuse(),                    # Skillet
+  "o": <ore:foodNoodles>,                    # Noodles
+  "N": <ore:listAllbeefraw>,                 # Raw Beef
+  "e": <ore:egg> | <ore:listAllegg>,         # Egg
+  "l": <ore:cropCorn>,                       # Corn
+  "C": <minecraft:carrot>,                   # Carrot
+  "v": <ore:cropCabbage>,                    # Cabbage
+  "A": <minecraft:brown_mushroom>,           # Mushroom
+  "O": <ore:foodOystersauce>,                # Oyster Sauce
+});
+
+# [Swedish Meatballs] from [Sweet and Sour Meatballs][+2]
+recipes.remove(<harvestcraft:swedishmeatballsitem>);
+craft.shapeless(<harvestcraft:swedishmeatballsitem>, "dYdYSYdYd", {
+  "d": <ore:dyeBlue>,                   # Blue Dye
+  "Y": <ore:dyeYellow>,                 # Chemical Yellow Dye
+  "S": <ore:foodSweetandsourmeatballs>, # Sweet and Sour Meatballs
+});
+
+# [Bratwurst] from [Bread][+4]
+recipes.remove(<harvestcraft:bratwurstitem>);
+craft.shapeless(<harvestcraft:bratwurstitem>, "CoPAb", {
+  "C": <ore:toolCuttingboard>.reuse(),                # Cutting Board
+  "o": <ore:foodPorksausage>,                 # Pork Sausage
+  "P": <ore:foodPickles>,                     # Pickles
+  "A": <ore:cropOnion>,                       # Onion
+  "b": <ore:bread> | <ore:foodBread>,         # Bread
+});
+
+# [Bean Stew] from [Stock][+3]
+recipes.remove(<randomthings:beanstew>);
+craft.shapeless(<randomthings:beanstew>, "PWBBS", {
+  "P": <ore:toolPot>.reuse(),                        # Pot
+  "W": <minecraft:wheat>,                    # Wheat
+  "B": <ore:cropBean>,                       # Beans
+  "S": <ore:foodStock>,                      # Stock
+});
+
+# [Pork Rinds] from [Flour][+4]
+recipes.remove(<harvestcraft:porkrindsitem>);
+craft.shapeless(<harvestcraft:porkrindsitem>, "P▲AFB", {
+  "P": <ore:toolPot>.reuse(),                            # Pot
+  "▲": <ore:dustSalt> | <ore:itemSalt> | <ore:foodSalt>, # Salt
+  "A": <ore:foodOlivejuice>,                     # Olive Oil Bottle
+  "F": <ore:foodFlour>,                          # Flour
+  "B": <ore:foodBlackpepper>,                    # Black Pepper
+});
+
+# [Garlic Steak] from [Butter][+3]
+recipes.remove(<harvestcraft:garlicsteakitem>);
+craft.shapeless(<harvestcraft:garlicsteakitem>, "SNGB", {
+  "S": <ore:toolSkillet>.reuse(),            # Skillet
+  "N": <ore:listAllbeefraw>,                 # Raw Beef
+  "G": <ore:cropGarlic> | <ore:listAllherb>, # Garlic
+  "B": <ore:foodButter>,                     # Butter
+});
+
+# [Imitation Crab Sticks] from [Cooking Oil][+4]
+recipes.removeByRecipeName("harvestcraft:imitationcrabsticksitem");
+craft.shapeless(<harvestcraft:imitationcrabsticksitem>, "uCeFO", {
+  "u": <ore:toolCuttingboard>.reuse(),           # Cutting Board
+  "C": <ore:foodCrabcooked>,                     # Cooked Crab
+  "e": <ore:egg> | <ore:listAllegg>,             # Egg
+  "F": <ore:foodFlour>,                          # Flour
+  "O": <ore:foodOliveoil>,                       # Cooking Oil
+});
+
+# [BBQ Jackfruit] from [Jackfruit][+2]
+recipes.removeByRecipeName("harvestcraft:bbqjackfruititem");
+craft.shapeless(<harvestcraft:bbqjackfruititem>, "SAB", {
+  "S": <ore:toolSkillet>.reuse(),   # Skillet
+  "A": <harvestcraft:jackfruititem>, # Jackfruit
+  "B": <ore:foodBbqsauce>,  # BBQ Sauce
+});

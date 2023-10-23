@@ -41,6 +41,8 @@ tile.contenttweaker.mason_bricks_plain.name=Mason Plain Bricks
 
 tile.contenttweaker.alien_meteorite_block.name=Strange Meteorite
 
+tile.contenttweaker.nethersteel.name=Nethercotta Block
+
 fluid.ghastlycerin=Ghastlycerin
 fluid.liquid_mana=Mana
 fluid.nacre=Nacre

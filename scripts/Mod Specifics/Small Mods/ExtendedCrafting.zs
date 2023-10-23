@@ -226,7 +226,7 @@ CombinationCrafting.addRecipe(<actuallyadditions:item_crystal_empowered:5>, 8000
 CombinationCrafting.addRecipe(<contenttweaker:empowered_glod_crystal>, 80000, <contenttweaker:glod_crystal>, [<minecraft:double_plant>, <gendustry:honey_drop:21>, <roots:wildewheet>, <ore:foodCheese>.firstItem]);
 
 //Endor ===========================
-CombinationCrafting.addRecipe(<contenttweaker:empowered_endor_crystal>, 80000, <contenttweaker:endor_crystal>, [<gendustry:honey_drop:16>, <roots:moonglow_leaf>, <ore:dustElectrotine>.firstItem, <ore:cropJuniperberry>.firstItem]);
+CombinationCrafting.addRecipe(<contenttweaker:empowered_endor_crystal>, 80000, <contenttweaker:endor_crystal>, [<gendustry:honey_drop:16>, <roots:moonglow_leaf>, <ore:dustElectrotine>.firstItem, <extratrees:food:47>/*JuniperBerry*/]);
 
 // ==== //
 

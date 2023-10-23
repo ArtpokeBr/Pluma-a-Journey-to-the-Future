@@ -1,0 +1,68 @@
+{
+	title: "Improving your §dBackpacks§r!",
+	x: 2.017857142857139d,
+	y: -3.3035714285714306d,
+	shape: "hexagon",
+	description: "When Simple §dBackpacks§r aren't Enough",
+	text: [
+		"Now that you Have acess to §2Woven Silk§r.",
+		"",
+		"Why not §eUpgrade§r your current §dBackpacks§r to better ones?"
+	],
+	dependencies: [
+		"d9b1b409"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3748589f",
+		type: "item",
+		title: "Any Woven Backpack",
+		items: [{
+			item: "forestry:miner_bag_t2"
+		},
+		{
+			item: "forestry:digger_bag_t2"
+		},
+		{
+			item: "forestry:forester_bag_t2"
+		},
+		{
+			item: "forestry:hunter_bag_t2"
+		},
+		{
+			item: "forestry:adventurer_bag_t2"
+		},
+		{
+			item: "forestry:builder_bag_t2"
+		},
+		{
+			item: "railcraft:backpack_apothecary_t2"
+		},
+		{
+			item: "railcraft:backpack_iceman_t2"
+		},
+		{
+			item: "railcraft:backpack_trackman_t2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e90ab85",
+		type: "item",
+		item: {
+			id: "forestry:apiarist_bag",
+			tag: {
+				UID: -1281957919
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "1bc5fe83",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

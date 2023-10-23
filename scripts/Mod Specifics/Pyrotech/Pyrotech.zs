@@ -376,3 +376,14 @@ mods.jei.JEI.removeAndHide(<pyrotech:log_pile>);
 craft.shapeless(<forestry:wood_pile>, "L", {
   "L": <pyrotech:log_pile>, # Log Pile
 });
+
+# [Wood Rack] from [Oak Fence][+2]
+recipes.removeByRecipeName("pyrotech:storage/wood_rack");
+craft.make(<pyrotech:wood_rack>, ["pretty",
+  "# ≢ #",
+  "≠ ≢ ≠",
+  "# ≢ #"], {
+  "#": <ore:logWood>,         # Oak Log
+  "≢": <ore:slabWood>,        # Jungle Wood Slab
+  "≠": <ore:fenceWood>,       # Oak Fence
+});

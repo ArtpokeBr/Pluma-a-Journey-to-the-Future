@@ -421,3 +421,11 @@ ie_generator_block.setToolLevel(1);
 ie_generator_block.setBlockSoundType(<soundtype:metal>);
 ie_generator_block.register();
 
+#Nethersteel from Bewitchment
+var nethersteel = VanillaFactory.createBlock("nethersteel", <blockmaterial:iron>);
+nethersteel.setBlockHardness(6);
+nethersteel.setBlockResistance(6);
+nethersteel.setToolClass("pickaxe");
+nethersteel.setToolLevel(3);
+nethersteel.setBlockSoundType(<soundtype:metal>);
+nethersteel.register();

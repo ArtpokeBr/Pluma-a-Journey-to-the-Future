@@ -1,12 +1,18 @@
 {
-	title: "A Simplistic Drawer",
+	title: "A Simplistic Drawer and a cool way to store Logs!",
 	x: -6.6d,
 	y: -5.3999999999999995d,
-	description: "The Stash!",
+	description: "The Stash and the Wood Rack!",
 	text: [
 		"§6The Stash§f is an §aEarly Game alternative to Drawers§f!",
 		"",
-		"- They can store §donly 1 item§f, §3but up to 16 Stacks of it§f!"
+		"- They can store §donly 1 item§f, §3but up to 16 Stacks of it§f!",
+		"",
+		"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+		"",
+		"§6The Wood Rack§f is an §aEarly Game way to store a lot of Logs§f!",
+		"",
+		"- They can store §dup to 9 stacks§f of §3any type of wood§f!"
 	],
 	dependencies: [
 		"c3dc0ea8"
@@ -18,6 +24,13 @@
 		items: [{
 			item: "pyrotech:stash"
 		}]
+	},
+	{
+		uid: "0f898c96",
+		type: "item",
+		items: [{
+			item: "pyrotech:wood_rack"
+		}]
 	}],
 	rewards: [{
 		uid: "211738f6",
@@ -26,8 +39,14 @@
 		count: 2
 	},
 	{
-		uid: "04f469f6",
+		uid: "5994d23b",
+		type: "item",
+		item: "pyrotech:wood_rack",
+		count: 2
+	},
+	{
+		uid: "ca27efdd",
 		type: "ftbmoney:money",
-		ftb_money: 100L
+		ftb_money: 50L
 	}]
 }

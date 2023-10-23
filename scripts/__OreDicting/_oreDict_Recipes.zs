@@ -629,6 +629,15 @@ makeContenttweakerIntegration(<ore:ingotMithril>.firstItem, <ore:plateMithril>.f
 makeBlockIntegrationWithoutFluid (<ore:ingotMithril>.firstItem, <ore:blockMithril>.firstItem);
 makeDustIntegration(<ore:ingotMithril>.firstItem, <ore:blockMithril>.firstItem, <ore:dustMithril>.firstItem);
 
+//Pig Iron (Uses the Contenttweaker Function aswell, besides not being added by Contentttweaker.)
+recipes.remove(<ore:blockPigiron>.firstItem);
+makeBlockIntegration(<ore:ingotPigiron>.firstItem, <ore:blockPigiron>.firstItem, <liquid:pigiron>);
+makeFluidIngotIntegration(<ore:ingotPigiron>.firstItem, <liquid:pigiron>);
+makeFluidNuggetIntegration(<ore:nuggetPigiron>.firstItem, <liquid:pigiron>);
+
+//Nethercotta
+makeBlockIntegrationWithoutFluid (<ore:ingotBrickNetherGlazed>.firstItem, <contenttweaker:nethersteel>);
+
 ##### Fixing Materials from Advanced Rocketry ##### =========================
 
 //Titanium Aluminide

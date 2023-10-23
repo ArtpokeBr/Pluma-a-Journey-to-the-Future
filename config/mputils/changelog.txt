@@ -1,48 +1,37 @@
-§a§lVersion Beta§r§f 3.6:
+§a§lVersion Beta§r§f 3.6.1:
 
 §b§lMod Related Changes§r§f:
 
-- Added Entity Distance (Should Help with Lag related to Entities)
-- Added Quantum Minecraft Dynamics (Addon enhancing even more NuclearCraft: Overhauled)
+- Updated AE2 FluidCrafting
+- Updated HammerLib
+- Updated Mekanism Community Edition
+- Updated CraftPresence
+- Updated MixinBooter
+- Updated Updated ModularUI
+- Updated Visual Ores
+- Updated Xaeros Package
+- Updated HEI
 
-- Updated CensoredASM
-- Updated Packaged Auto
-- Updated Packaged Astral
-- Updated Packaged Draconic
-- Updated PackagedExCrafting
-- Updated Pyrotech
-- Updated GTCEU
+- Added Omniwand (All Tools, Staffs, Wands and even Usefull Items in one!)
+- Added CraftPresence (Discord Rich Presence finally coming to Pluma! :>)
+- Added Valkyrie (New Optimization Mod!)
 
-- Added Caliper (Provides some Dev Info for me =D)
-- Added Open Glider
+- Swapped Hesperus --> Alfheim Lightning Engine.
+- Swapped Inventory Twekas --> Inventory Bogo Sorter.
 
-- Removed Tinker's Tool Leveling with Random Modifiers (reverted to the stable "without random" version)
-~ This Fixes some issues specially for servers and apparently improve loading times a bit?
-
-- Removed VintageFix
-~ For some odd reason, it was causing some crashes/perfomance issues if combined with Optifine in my instance.
+- Removed SledgeHammer (Messing with the Modpack Mixin's)
+- Removed DJ2 Addons (Outdated Mixin's)
 
 §2§lFixes§r§f:
 
-- Reverted Charcoal Production back to Forestry instead of Pyrotech's one.
-(Unfortunaly wasn't working properly, reverted back to the Forestry System until a fix is found)
-- HV Emitters now Require Empowered Emeradic Crystals
-- Fixed some Missing Textures on the Pluma Graphical Enhancement Texture Pack.
-- Removed Incorrect EnderIO Gears and Crystal Recipes from the Smeltery.
-
+- AbyssalCraft's Mobs don't spawn in the Overworld Anymore.
+- Wood Racks from Pyrotech are now Acessible on the Early Game.
+- Fixed a lot of HarvestCraft Foods missing their respective Recipes.
+- Silkworm from ExNihilo can now be obtained by using a Crook.
 
 §5§lMiscellaneous§r§f:
 
-- Now Construct Armory and its addons can be safely removed if desired by the user.
-(Scripts and anything related to it got reorganized to make this possible)
-- Pyrotech's Igniters now have a tooltip warning about a Game Crash if you try to ignite Forestry's Wood Piles.
-- Cheaper Wood to Iron Chest Upgrades.
-- Some Tweaks to Ice Related HarvestCraft Recipes.
-- Ported some Blocks from Immersive Engineering! (This Should allow more Base Decoration Options)
-- Added More Quests to Chapter 12.
-- Reworked Slimy Muds, now they require a Mixer and a bit of Water to be Made.
-- Pulsating Crystals now are available at MV.
-- Fully implemented a bunch more of EnderIO Recipes.
-
-- Started Implementing NuclearCraft and AdvancedRocketry (EV Stage Mods)
-~ Hopefully it should be done in the next updates.
+- Ported Nethersteel block from Bewitchment (More Decorative Options, yay!)
+- Wood Racks are now documentated corretly in the "Storage Options" Chapter.
+- Lowered the chances for HarvestCraft Foods to spawn in Loot Chests. (Decreased all MinRolls to 0)
+- Removed HarvestCraft Cakes from the Nutrition List. (now they aren't considered for Nutrition)
