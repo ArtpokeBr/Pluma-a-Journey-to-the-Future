@@ -46,7 +46,7 @@ var castsAndCasters as IItemStack[IIngredient] = {
     <tconstruct:excavator_head>.withTag({Material: "bronze"}): <tconstruct:cast>.withTag({PartType: "tconstruct:excavator_head"}),
     <tconstruct:scythe_head>.withTag({Material: "bronze"}): <tconstruct:cast>.withTag({PartType: "tconstruct:scythe_head"}),
     <tconstruct:binding>.withTag({Material: "bronze"}): <tconstruct:cast>.withTag({PartType: "tconstruct:binding"}),
-    <tconevo:part_arcane_focus>.withTag({Material: "silver"}): <tconstruct:cast>.withTag({PartType: "tconevo:part_arcane_focus"}),
+    //<tconevo:part_arcane_focus>.withTag({Material: "silver"}): <tconstruct:cast>.withTag({PartType: "tconevo:part_arcane_focus"}),
     <tconstruct:axe_head>.withTag({Material: "bronze"}): <tconstruct:cast>.withTag({PartType: "tconstruct:axe_head"}),
     <tconstruct:tool_rod>.withTag({Material: "bronze"}): <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}),
     <tconstruct:large_sword_blade>.withTag({Material: "bronze"}): <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}),

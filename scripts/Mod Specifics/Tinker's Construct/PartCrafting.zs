@@ -480,67 +480,67 @@ for mat, ingot in ToolMaterialsII {
 	}
 }
 
-###### Arcane Focus Parts (HV) #####
+// ###### Arcane Focus Parts (HV) #####
 
-var ArcaneFocusMaterials as IItemStack[string] = {
-	"stone" : <minecraft:stone>,
-	"silver" : <ore:ingotSilver>.firstItem,
-	"black_quartz" : <ore:gemBlackQuartz>.firstItem,
-	"fluix" : <ore:crystalFluix>.firstItem,
-	"restonia_crystal" : <actuallyadditions:item_crystal>,
-	"palis_crystal" : <actuallyadditions:item_crystal:1>,
-	"diamantine_crystal" : <actuallyadditions:item_crystal:2>,
-	"void_crystal" : <actuallyadditions:item_crystal:3>,
-	"emeraldic_crystal" : <actuallyadditions:item_crystal:4>,	
-	"enori_crystal" : <actuallyadditions:item_crystal:5>,
-	"certus_quartz" : <ore:gemCertusQuartz>.firstItem,
-	"apatite" : <ore:gemApatite>.firstItem,
-	//"flux_crystal" : <ore:gemCrystalFlux>.firstItem,
-	"platinum" : <ore:ingotPlatinum>.firstItem,
-	"lumium" : <ore:ingotLumium>.firstItem,	
-	"enderium" : <ore:ingotEnderium>.firstItem,
-	"refined_glowstone" : <ore:ingotRefinedGlowstone>.firstItem,
-	"mana_pearl": <ore:manaPearl>.firstItem,
-	"dragonstone": <ore:elvenDragonstone>.firstItem,
-	"vibrant_crystal": <ore:itemVibrantCrystal>.firstItem,
-	"pulsating_crystal": <ore:itemPulsatingCrystal>.firstItem,
-	"amber": <ore:gemAmber>.firstItem,
-	"mana_diamond": <ore:manaDiamond>.firstItem,
-	"ender_crystal": <ore:itemEnderCrystal>.firstItem,
-	"weather_crystal": <ore:itemWeatherCrystal>.firstItem,
-	"void_metal": <ore:ingotVoid>.firstItem,
-	"aquamarine": <ore:gemAquamarine>.firstItem,
-	"thaumium": <ore:ingotThaumium>.firstItem,
-	"primal_metal": <ore:ingotPrimordial>.firstItem,
-	"sentient_metal": <ore:ingotSentientMetal>.firstItem,
-	"quicksilver": <thaumcraft:quicksilver>,
-	"wyvern_metal" : <ore:ingotWyvernMetal>.firstItem,
-	"draconic_metal" : <ore:ingotDraconicMetal>.firstItem,			
-	"chaotic_metal" : <ore:ingotChaoticMetal>.firstItem,
+// var ArcaneFocusMaterials as IItemStack[string] = {
+// 	"stone" : <minecraft:stone>,
+// 	"silver" : <ore:ingotSilver>.firstItem,
+// 	"black_quartz" : <ore:gemBlackQuartz>.firstItem,
+// 	"fluix" : <ore:crystalFluix>.firstItem,
+// 	"restonia_crystal" : <actuallyadditions:item_crystal>,
+// 	"palis_crystal" : <actuallyadditions:item_crystal:1>,
+// 	"diamantine_crystal" : <actuallyadditions:item_crystal:2>,
+// 	"void_crystal" : <actuallyadditions:item_crystal:3>,
+// 	"emeraldic_crystal" : <actuallyadditions:item_crystal:4>,	
+// 	"enori_crystal" : <actuallyadditions:item_crystal:5>,
+// 	"certus_quartz" : <ore:gemCertusQuartz>.firstItem,
+// 	"apatite" : <ore:gemApatite>.firstItem,
+// 	//"flux_crystal" : <ore:gemCrystalFlux>.firstItem,
+// 	"platinum" : <ore:ingotPlatinum>.firstItem,
+// 	"lumium" : <ore:ingotLumium>.firstItem,	
+// 	"enderium" : <ore:ingotEnderium>.firstItem,
+// 	"refined_glowstone" : <ore:ingotRefinedGlowstone>.firstItem,
+// 	"mana_pearl": <ore:manaPearl>.firstItem,
+// 	"dragonstone": <ore:elvenDragonstone>.firstItem,
+// 	"vibrant_crystal": <ore:itemVibrantCrystal>.firstItem,
+// 	"pulsating_crystal": <ore:itemPulsatingCrystal>.firstItem,
+// 	"amber": <ore:gemAmber>.firstItem,
+// 	"mana_diamond": <ore:manaDiamond>.firstItem,
+// 	"ender_crystal": <ore:itemEnderCrystal>.firstItem,
+// 	"weather_crystal": <ore:itemWeatherCrystal>.firstItem,
+// 	"void_metal": <ore:ingotVoid>.firstItem,
+// 	"aquamarine": <ore:gemAquamarine>.firstItem,
+// 	"thaumium": <ore:ingotThaumium>.firstItem,
+// 	"primal_metal": <ore:ingotPrimordial>.firstItem,
+// 	"sentient_metal": <ore:ingotSentientMetal>.firstItem,
+// 	"quicksilver": <thaumcraft:quicksilver>,
+// 	"wyvern_metal" : <ore:ingotWyvernMetal>.firstItem,
+// 	"draconic_metal" : <ore:ingotDraconicMetal>.firstItem,			
+// 	"chaotic_metal" : <ore:ingotChaoticMetal>.firstItem,
 
-	"neutronium" : <ore:ingotNeutronium>.firstItem,
-	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,
-	"infinity_metal" : <ore:ingotInfinityMetal>.firstItem,
+// 	"neutronium" : <ore:ingotNeutronium>.firstItem,
+// 	"crystal_matrix" : <ore:ingotCrystalMatrix>.firstItem,
+// 	"infinity_metal" : <ore:ingotInfinityMetal>.firstItem,
 
-	"essence_metal" : <tconevo:metal:15>,							
-};
+// 	"essence_metal" : <tconevo:metal:15>,							
+// };
 
-var ArcaneFocusParts as IData[][IItemStack] = {
-    <tconevo:part_arcane_focus> : [12, "tconevo:part_arcane_focus"]
-};
+// var ArcaneFocusParts as IData[][IItemStack] = {
+//     <tconevo:part_arcane_focus> : [12, "tconevo:part_arcane_focus"]
+// };
 
-for mat, ingot in ArcaneFocusMaterials {
-	for part, info in ArcaneFocusParts {
-		mods.tconstruct.Casting.removeTableRecipe(part.withTag({Material: mat}));
-			<recipemap:extruder>.recipeBuilder()
-				.inputs(ingot * info[0])
-				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
-				.outputs(part.withTag({Material: mat}))
-				.duration(300 * info[0])
-				.EUt(512)
-			.buildAndRegister();
-	}
-}
+// for mat, ingot in ArcaneFocusMaterials {
+// 	for part, info in ArcaneFocusParts {
+// 		mods.tconstruct.Casting.removeTableRecipe(part.withTag({Material: mat}));
+// 			<recipemap:extruder>.recipeBuilder()
+// 				.inputs(ingot * info[0])
+// 				.notConsumable(<tconstruct:cast>.withTag({PartType: info[1]}))
+// 				.outputs(part.withTag({Material: mat}))
+// 				.duration(300 * info[0])
+// 				.EUt(512)
+// 			.buildAndRegister();
+// 	}
+// }
 
 ###### Battery Cell Parts (HV) #####
 
