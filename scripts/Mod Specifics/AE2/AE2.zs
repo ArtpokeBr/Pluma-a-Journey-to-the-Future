@@ -295,12 +295,12 @@ recipes.addShaped(<appliedenergistics2:spatial_io_port> * 1, [[<ore:lightPlateHs
 
 # ME Controller
 recipes.remove(<appliedenergistics2:controller>);
-recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smooth_sky_stone_block>,<appliedenergistics2:material:24>,<appliedenergistics2:smooth_sky_stone_block>],[<ore:oc:circuitChip3>,<ore:crystalPureCertusQuartz>,<ore:oc:circuitChip3>],[<appliedenergistics2:smooth_sky_stone_block>,<appliedenergistics2:material:24>,<appliedenergistics2:smooth_sky_stone_block>]]);
-recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smooth_sky_stone_block>,<ore:oc:circuitChip3>,<appliedenergistics2:smooth_sky_stone_block>],[<appliedenergistics2:material:24>,<ore:crystalPureCertusQuartz>,<appliedenergistics2:material:24>],[<appliedenergistics2:smooth_sky_stone_block>,<ore:oc:circuitChip3>,<appliedenergistics2:smooth_sky_stone_block>]]);
+recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smooth_sky_stone_block>,<appliedenergistics2:material:24>,<appliedenergistics2:smooth_sky_stone_block>],[<ore:circuitEv>,<ore:crystalPureCertusQuartz>,<ore:circuitEv>],[<appliedenergistics2:smooth_sky_stone_block>,<appliedenergistics2:material:24>,<appliedenergistics2:smooth_sky_stone_block>]]);
+recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smooth_sky_stone_block>,<ore:circuitEv>,<appliedenergistics2:smooth_sky_stone_block>],[<appliedenergistics2:material:24>,<ore:crystalPureCertusQuartz>,<appliedenergistics2:material:24>],[<appliedenergistics2:smooth_sky_stone_block>,<ore:circuitEv>,<appliedenergistics2:smooth_sky_stone_block>]]);
 
 # ME Drive
 recipes.remove(<appliedenergistics2:drive>);
-recipes.addShaped(<appliedenergistics2:drive> * 1, [[<ore:plateStainlessSteel>, <appliedenergistics2:material:24>, <ore:plateStainlessSteel>], [<opencomputers:component:10>, <opencomputers:diskdrive:0>, <opencomputers:component:10>],[<ore:plateStainlessSteel>, <appliedenergistics2:material:24>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<appliedenergistics2:drive> * 1, [[<ore:plateStainlessSteel>, <appliedenergistics2:material:24>, <ore:plateStainlessSteel>], [<contenttweaker:condensed_vis_crystal_cognitio>, <ore:frameGtStainlessSteel>, <contenttweaker:condensed_vis_crystal_cognitio>],[<ore:plateStainlessSteel>, <appliedenergistics2:material:24>, <ore:plateStainlessSteel>]]);
 
 
 # ME Chest
@@ -829,8 +829,8 @@ craft.make(<packagedauto:package_component> * 4, ["pretty",
   "c ◊ c",
   "□ : □"], {
   "□": <ore:lightPlateAdvancedAlloy>,           # Light Advanced Alloy Plate
-  ":": <ore:oc:materialCircuitBoardPrinted>,    # Printed Circuit Board (PCB)
-  "c": <ore:oc:circuitChip3>,                   # Microchip (Tier 3)
+  ":": <gregtech:meta_item_1:385>,              # Fiber-Reinforced Circuit Board
+  "c": <ore:circuitEv>,                         # EV Circuit
   "◊": <ore:gemEnderEye> | <ore:pearlEnderEye>, # Eye of Ender
 });
 
@@ -860,7 +860,7 @@ craft.make(<packagedauto:packager>, ["pretty",
   "S": <threng:material:14>,                # Speculative Processor
 });
 
-# [Package Recipe Encoder] from [Database Upgrade (Tier 3)][+4]
+# [Package Recipe Encoder] from [EV Circuit)][+4]
 recipes.removeByRecipeName("packagedauto:encoder");
 craft.make(<packagedauto:encoder>, ["pretty",
   "□ P □",
@@ -869,7 +869,7 @@ craft.make(<packagedauto:encoder>, ["pretty",
   "□": <ore:plateAdvancedAlloy>,              # Advanced Alloy Plate
   "P": <packagedauto:package_component>,      # Packaging Component
   "C": <avaritia:compressed_crafting_table>,  # Compressed Crafting Table
-  ":": <ore:oc:databaseUpgrade3>,             # Database Upgrade (Tier 3)
+  ":": <ore:circuitEv>,                       # EV Circuit
   "E": <contenttweaker:estimation_processor>, # Estimation Processor
 });
 
@@ -894,7 +894,7 @@ craft.make(<packagedauto:packager_extension>, ["pretty",
   "□ S □"], {
   "□": <ore:plateAdvancedAlloy>,            # Advanced Alloy Plate
   "M": <packagedauto:me_package_component>, # ME Packaging Component
-  ":": <ore:oc:circuitChip3>,               # Microchip (Tier 3)
+  ":": <ore:circuitEv>,                     # EV Circuit
   "A": <gregtech:machine:503>,              # Advanced Packager III
   "S": <threng:material:14>,                # Speculative Processor
 });

@@ -795,7 +795,7 @@ recipes.addShaped(<mekanism:machineblock2:2> * 1, [[<ore:lightPlateRedSteel>, <m
 
 // Quantum Entangloporter
 recipes.remove(<mekanism:machineblock3:0>);
-recipes.addShaped(<mekanism:machineblock3:0> * 1, [[<ore:lightPlateEnderium>, <mekanism:controlcircuit:3>, <ore:lightPlateEnderium>], [<opencomputers:material:9>, <mekanism:teleportationcore>, <opencomputers:material:9>],[<ore:lightPlateEnderium>, <mekanism:controlcircuit:3>, <ore:lightPlateEnderium>]]);
+recipes.addShaped(<mekanism:machineblock3:0> * 1, [[<ore:lightPlateEnderium>, <mekanism:controlcircuit:3>, <ore:lightPlateEnderium>], [<ore:circuitEv>, <mekanism:teleportationcore>, <ore:circuitEv>],[<ore:lightPlateEnderium>, <mekanism:controlcircuit:3>, <ore:lightPlateEnderium>]]);
 
 // Fluidic Plenisher
 recipes.remove(<mekanism:machineblock2:12>);
@@ -811,7 +811,7 @@ recipes.addShaped(<mekanism:machineblock2:14> * 4, [[<ore:plateTungstenSteel>, <
 
 // Solar Neutron Activator
 recipes.remove(<mekanism:machineblock3:1>);
-recipes.addShaped(<mekanism:machineblock3:1> * 1, [[<mekanism:reinforcedalloy>, <opencomputers:upgrade:22>, <mekanism:reinforcedalloy>], [<mekanism:controlcircuit:2>, <mekanism:basicblock:8>, <mekanism:controlcircuit:2>],[<ore:lightPlateRedSteel>, <ore:lightPlateRedSteel>, <ore:lightPlateRedSteel>]]);
+recipes.addShaped(<mekanism:machineblock3:1> * 1, [[<mekanism:reinforcedalloy>, <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar2"}), <mekanism:reinforcedalloy>], [<mekanism:controlcircuit:2>, <mekanism:basicblock:8>, <mekanism:controlcircuit:2>],[<ore:lightPlateRedSteel>, <ore:lightPlateRedSteel>, <ore:lightPlateRedSteel>]]);
 
 // Resistive Heater
 recipes.remove(<mekanism:machineblock3:4>);

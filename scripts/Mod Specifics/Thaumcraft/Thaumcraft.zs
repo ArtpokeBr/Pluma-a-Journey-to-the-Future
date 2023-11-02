@@ -382,12 +382,12 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
   "l": <thaumcraft:metal_alchemical>, # Alchemical Construct
 }).shaped());
 
-# [Blank Label]*4 from [Grog][+2]
+# [Blank Label]*4 from [Slimeball][+2]
 recipes.removeByRecipeName("thaumcraft:jarlabelnull");
 recipes.removeByRecipeName("thaumcraft:jarlabel");
 craft.shapeless(<thaumcraft:label> * 4, "B:pppp", {
   "B": <ore:itemBeeswax>,     # Beeswax
-  ":": <ore:oc:materialAcid>, # Grog
+  ":": <ore:slimeball>,       # Slimeball
   "p": <ore:paper> | <ore:platePaper> | <ore:paperEmpty>, # Paper
 });
 

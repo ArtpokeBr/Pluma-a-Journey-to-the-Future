@@ -92,7 +92,7 @@ for item in <ore:listAllmeatraw>.items {
 
 // Tree Fluid Extractor
 recipes.remove(<industrialforegoing:tree_fluid_extractor>);
-recipes.addShaped(<industrialforegoing:tree_fluid_extractor> * 1, [[<ore:plateVanadiumSteel>, <ore:oc:circuitChip2>, <ore:plateVanadiumSteel>], [<ore:plateVanadiumSteel>, <gregtech:meta_item_1:144>, <ore:plateVanadiumSteel>],[<ore:plateVanadiumSteel>, <ore:gearModularium>, <ore:plateVanadiumSteel>]]);
+recipes.addShaped(<industrialforegoing:tree_fluid_extractor> * 1, [[<ore:plateVanadiumSteel>, <ore:circuitMv>, <ore:plateVanadiumSteel>], [<ore:plateVanadiumSteel>, <gregtech:meta_item_1:144>, <ore:plateVanadiumSteel>],[<ore:plateVanadiumSteel>, <ore:gearModularium>, <ore:plateVanadiumSteel>]]);
 
 // White Conveyor Belt
 recipes.remove(<industrialforegoing:conveyor:0>);

@@ -40,7 +40,7 @@ RecipeBuilder.get("basic")
 
 // Computer Controlled Seed Analyzer
 recipes.remove(<agricraft:peripheral>);
-recipes.addShaped(<agricraft:peripheral> * 1, [[<ore:lightPlateSteel>, <mia:armored_glass>, <ore:lightPlateSteel>], [<ore:lightPlateSteel>, <agricraft:seed_analyzer>, <ore:lightPlateSteel>],[<ore:lightPlateSteel>, <opencomputers:case1:0>, <ore:lightPlateSteel>]]);
+recipes.addShaped(<agricraft:peripheral> * 1, [[<ore:lightPlateSteel>, <mia:armored_glass>, <ore:lightPlateSteel>], [<ore:lightPlateSteel>, <agricraft:seed_analyzer>, <ore:lightPlateSteel>],[<ore:lightPlateSteel>, <ore:circuitMv>, <ore:lightPlateSteel>]]);
 
 //Clipper
 recipes.remove(<agricraft:clipper>);

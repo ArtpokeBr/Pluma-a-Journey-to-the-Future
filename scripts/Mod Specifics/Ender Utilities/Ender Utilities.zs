@@ -140,15 +140,15 @@ alloy.recipeBuilder()
 
 // Small Memory Chest
 recipes.remove(<enderutilities:storage_0:0>);
-recipes.addShaped(<enderutilities:storage_0:0> * 1, [[null, null, null], [<ore:oc:ram1>, <extrautils2:ingredients:2>, <ore:oc:ram1>],[<enderutilities:enderpart:0>, <minecraft:chest>, <enderutilities:enderpart:0>]]);
+recipes.addShaped(<enderutilities:storage_0:0> * 1, [[null, null, null], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]}), <extrautils2:ingredients:2>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cognitio"}]})],[<enderutilities:enderpart:0>, <minecraft:chest>, <enderutilities:enderpart:0>]]);
 
 // Memory Chest
 recipes.remove(<enderutilities:storage_0:1>);
-recipes.addShaped(<enderutilities:storage_0:1> * 1, [[null, null, null], [<ore:oc:ram3>, <extrautils2:ingredients:2>, <ore:oc:ram3>],[<enderutilities:enderpart:0>, <enderutilities:storage_0:0>, <enderutilities:enderpart:0>]]);
+recipes.addShaped(<enderutilities:storage_0:1> * 1, [[null, null, null], [<thaumadditions:crystal_block>.withTag({Aspect: "cognitio"}), <extrautils2:ingredients:2>, <thaumadditions:crystal_block>.withTag({Aspect: "cognitio"})],[<enderutilities:enderpart:0>, <enderutilities:storage_0:0>, <enderutilities:enderpart:0>]]);
 
 // Large Memory Chest
 recipes.remove(<enderutilities:storage_0:2>);
-recipes.addShaped(<enderutilities:storage_0:2> * 1, [[null, null, null], [<ore:oc:ram5>, <extrautils2:ingredients:2>, <ore:oc:ram5>],[<enderutilities:enderpart:0>, <enderutilities:storage_0:1>, <enderutilities:enderpart:0>]]);
+recipes.addShaped(<enderutilities:storage_0:2> * 1, [[null, null, null], [<contenttweaker:condensed_vis_crystal_cognitio>, <extrautils2:ingredients:2>, <contenttweaker:condensed_vis_crystal_cognitio>],[<enderutilities:enderpart:0>, <enderutilities:storage_0:1>, <enderutilities:enderpart:0>]]);
 
 // Handy Chest (Normal)
 recipes.remove(<enderutilities:storage_0:4>);
@@ -188,7 +188,7 @@ recipes.addShaped(<enderutilities:enderpart:45> * 1, [[<enderutilities:enderpart
 
 // Memory Card (misc)
 recipes.remove(<enderutilities:enderpart:50>);
-recipes.addShaped(<enderutilities:enderpart:50> * 1, [[<ore:boltRoseGold>, <ore:boltRoseGold>, <ore:boltRoseGold>], [<enderutilities:enderpart:0>, <opencomputers:component:7>, <enderutilities:enderpart:0>],[<enderutilities:enderpart:0>, <opencomputers:component:7>, <enderutilities:enderpart:0>]]);
+recipes.addShaped(<enderutilities:enderpart:50> * 1, [[<ore:boltRoseGold>, <ore:boltRoseGold>, <ore:boltRoseGold>], [<enderutilities:enderpart:0>, <contenttweaker:condensed_vis_crystal_cognitio>, <enderutilities:enderpart:0>],[<enderutilities:enderpart:0>, <contenttweaker:condensed_vis_crystal_cognitio>, <enderutilities:enderpart:0>]]);
 
 // Memory Card (items) 6 B
 recipes.remove(<enderutilities:enderpart:51>);

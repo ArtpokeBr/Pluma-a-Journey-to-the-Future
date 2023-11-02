@@ -472,10 +472,6 @@ var ItensRemovidos as IItemStack[] = [
 <draconicevolution:generator>,
 <draconicevolution:rain_sensor>,
 
-//Open Computers
-<opencomputers:material>,
-<opencomputers:material:29>,
-
 //Thermal Expansion
 <thermalexpansion:augment:256>,
 <thermalexpansion:augment:257>,

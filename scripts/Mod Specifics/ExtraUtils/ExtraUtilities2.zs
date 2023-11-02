@@ -288,7 +288,7 @@ recipes.addShaped(<extrautils2:miner> * 1, [[<actuallyadditions:item_misc:7>, <m
 
 // Mechanical User
 recipes.remove(<extrautils2:user>);
-recipes.addShaped(<extrautils2:user> * 1, [[<actuallyadditions:item_misc:8>, <ore:oc:cpu2>, <actuallyadditions:item_misc:8>], [<ore:ingotRedstoneAlloy>, <extrautils2:machine:0>, <ore:ingotRedstoneAlloy>],[<ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>]]);
+recipes.addShaped(<extrautils2:user> * 1, [[<actuallyadditions:item_misc:8>, <ore:circuitMv>, <actuallyadditions:item_misc:8>], [<ore:ingotRedstoneAlloy>, <extrautils2:machine:0>, <ore:ingotRedstoneAlloy>],[<ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>]]);
 
 // Stone Drum
 recipes.remove(<extrautils2:drum:0>);
@@ -478,7 +478,7 @@ craft.make(<extrautils2:playerchest>, ["pretty",
   "♥": <ore:gemRedstone>,                     # Resonating Redstone Crystal
 });
 
-# [Chunk Loading Ward] from [Chunkloader Upgrade][+2]
+# [Chunk Loading Ward] from [MV Circuit][+2]
 recipes.removeByRecipeName("extrautils2:chunk_loader");
 craft.make(<extrautils2:chunkloader>, ["pretty",
   "╱ e ╱",
@@ -486,7 +486,7 @@ craft.make(<extrautils2:chunkloader>, ["pretty",
   "  ╱  "], {
   "╱": <ore:itemNutritiousStick>,   # Nutritious Stick
   "e": <ore:eyeofredstone>,         # Eye of Redstone
-  ":": <ore:oc:chunkloaderUpgrade>, # Chunkloader Upgrade
+  ":": <ore:circuitMv>, # MV Circuit
 });
 
 # [Glass Cutter] from [Nutritious Stick][+5]

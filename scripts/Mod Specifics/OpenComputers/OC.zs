@@ -1,6 +1,30 @@
 #modloaded opencomputers
 
+import crafttweaker.item.IItemStack;
 import mods.actuallyadditions.AtomicReconstructor as AtomicReconstructor;
+
+var ItensRemovidos as IItemStack[] = [
+//Open Computers
+<opencomputers:material>,
+<opencomputers:material:29>
+];
+for item in ItensRemovidos {
+	mods.jei.JEI.removeAndHide(item);
+
+	var ores = item.ores;
+	if (!isNull(ores)) {
+		for entry in ores {
+			entry.remove(item);
+		}
+	}
+
+	val actualItem = (item.damage == 0 && item.isDamageable)
+        ? item.anyDamage()
+        : item;
+    furnace.remove(<*>, actualItem);
+    furnace.remove(actualItem);
+    recipes.remove(actualItem);
+}
 
 //Block of Chameleon
 recipes.removeByRecipeName("opencomputers:chameliumblock6");
