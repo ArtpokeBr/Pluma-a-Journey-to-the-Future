@@ -25,7 +25,6 @@ mods.abyssalcraft.Crystallizer.addSingleCrystallization(<abyssalcraft:shoggothfl
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<abyssalcraft:abydreadore>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<abyssalcraft:abyore>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<thaumcraft:nugget>);
-mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:3>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<enderio:item_material:23>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<actuallyadditions:item_dust:6>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<bloodmagic:component:21>);
@@ -36,13 +35,11 @@ mods.abyssalcraft.Crystallizer.addSingleCrystallization(<thermalfoundation:mater
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<mekanism:nugget:6>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<thaumcraft:nugget:2>);
 //mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<libvulpes:productnugget:5>);
-mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:5>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<mekanism:nugget:2>);
 //mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<libvulpes:metal0:4>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<thaumcraft:nugget:1>);
 //mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<libvulpes:productnugget:4>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<mekanism:nugget:5>);
-mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:4>);
 mods.abyssalcraft.Crystallizer.addSingleCrystallization(<appliedenergistics2:material:5>, <abyssalcraft:crystal:18>, 0.1);
 //mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<libvulpes:ore0:9>);
 mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<thermalfoundation:ore:4>);
