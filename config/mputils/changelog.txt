@@ -1,37 +1,33 @@
-§a§lVersion Beta§r§f 3.6.1:
+§a§lVersion Beta§r§f 3.6.2:
 
 §b§lMod Related Changes§r§f:
 
-- Updated AE2 FluidCrafting
-- Updated HammerLib
-- Updated Mekanism Community Edition
-- Updated CraftPresence
 - Updated MixinBooter
-- Updated Updated ModularUI
-- Updated Visual Ores
-- Updated Xaeros Package
-- Updated HEI
-
-- Added Omniwand (All Tools, Staffs, Wands and even Usefull Items in one!)
-- Added CraftPresence (Discord Rich Presence finally coming to Pluma! :>)
-- Added Valkyrie (New Optimization Mod!)
-
-- Swapped Hesperus --> Alfheim Lightning Engine.
-- Swapped Inventory Twekas --> Inventory Bogo Sorter.
-
-- Removed SledgeHammer (Messing with the Modpack Mixin's)
-- Removed DJ2 Addons (Outdated Mixin's)
+- Updated RedCore
+- Updated AE2
+- Updated Inventory Bogosorter
+- Updated CraftPresence
+- Updated Crafttweaker
+- Updated Packaged Astral
+- Updated PackagedAuto
+- Updated PackagedDraconic
+- Updated PackagedThaumic
+- Updated Tinker's Evolution
+- Updated Xaeros Minimap and WorldMap
+- Updated Matmos
 
 §2§lFixes§r§f:
 
-- AbyssalCraft's Mobs don't spawn in the Overworld Anymore.
-- Wood Racks from Pyrotech are now Acessible on the Early Game.
-- Fixed a lot of HarvestCraft Foods missing their respective Recipes.
-- Silkworm from ExNihilo can now be obtained by using a Crook.
+- Blacklisted Gregtech Tools in the Omniwand (they break the entire wand when the tools inside also break)
 
 §5§lMiscellaneous§r§f:
 
-- Ported Nethersteel block from Bewitchment (More Decorative Options, yay!)
-- Wood Racks are now documentated corretly in the "Storage Options" Chapter.
-- Lowered the chances for HarvestCraft Foods to spawn in Loot Chests. (Decreased all MinRolls to 0)
-- Removed HarvestCraft Cakes from the Nutrition List. (now they aren't considered for Nutrition)
+- Disabled Tinker's Evolution Scepter
+
+- OpenComputers isn't installed by Default now. (Although it is offically suported)
+~ (Great Mod, but it adds almost 9s of loading and 90% of players don't actually use it)
+
+- AgriCraft isn't installed by Default now. (Although it is offically suported)
+~ (Provided some neat Gameplay Aspects, but, it isn't that necessary, specially without Mystical Agriculture)
+
+- Removed some unused Contenttweaker Models
