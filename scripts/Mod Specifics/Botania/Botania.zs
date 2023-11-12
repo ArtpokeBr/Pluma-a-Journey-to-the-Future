@@ -158,7 +158,7 @@ RecipeBuilder.get("basic")
   .setShapeless([<ore:dustBone>, <embers:dust_ember>, <twilightforest:magic_leaves:2>, <twilightforest:liveroot>, <twilightforest:magic_leaves:1>])
   .setFluid(<liquid:fermented_biomass> * 1000)
   .addTool(<ore:artisansBeaker>, 15)
-  .addOutput(<botania:fertilizer> * 3)
+  .addOutput(<botania:fertilizer> * 6)
   .create();
 
 // Mushrooms Removal
