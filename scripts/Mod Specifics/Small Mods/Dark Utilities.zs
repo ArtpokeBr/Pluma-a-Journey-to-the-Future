@@ -341,7 +341,7 @@ craft.make(<darkutils:trap_move> * 8, ["pretty",
   "W ◊ W"], {
   "□": <ore:lightPlateIron>,                   # Light Iron Plate
   "s": <ore:slimeball>, 					   # Slimeball
-  "W": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>,        # White Reinforced Concrete
+  "W": <ore:reinforcedConcrete> | <ic2:resource:11>,        # White Reinforced Concrete
   "◊": <ore:gemSugar>,                         # Sugar Cube
 });
 
@@ -373,7 +373,7 @@ craft.make(<darkutils:trap_tile> * 4, ["pretty",
   "W : W"], {
   "□": <ore:lightPlateIron>,            # Light Iron Plate
   "B": <minecraft:carpet:15>,           # Black Carpet
-  "W": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # White Reinforced Concrete
+  "W": <ore:reinforcedConcrete> | <ic2:resource:11>, # White Reinforced Concrete
   ":": <minecraft:potion>.withTag({Potion: "minecraft:long_poison"}),# Potion of Poison
 });
 
@@ -385,7 +385,7 @@ craft.make(<darkutils:trap_tile:1> * 4, ["pretty",
   "W : W"], {
   "□": <ore:lightPlateIron>,            # Light Iron Plate
   "B": <minecraft:carpet:15>,           # Black Carpet
-  "W": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # White Reinforced Concrete
+  "W": <ore:reinforcedConcrete> | <ic2:resource:11>, # White Reinforced Concrete
   ":": <minecraft:potion>.withTag({Potion: "minecraft:long_weakness"}),# Potion of Weakness
 });
 
@@ -397,7 +397,7 @@ craft.make(<darkutils:trap_tile:2> * 4, ["pretty",
   "C I C"], {
   "□": <ore:lightPlateIron>,     # Light Iron Plate
   "B": <minecraft:carpet:15>,    # Black Carpet
-  "C": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # Reinforced Concrete
+  "C": <ore:reinforcedConcrete> | <ic2:resource:11>, # Reinforced Concrete
   "I": <extrautils2:spike_iron>, # Iron Spikes
 });
 
@@ -409,7 +409,7 @@ craft.make(<darkutils:trap_tile:3> * 4, ["pretty",
   "C S C"], {
   "□": <ore:lightPlateIron>,     # Light Iron Plate
   "B": <minecraft:carpet:15>,    # Black Carpet
-  "C": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # Reinforced Concrete
+  "C": <ore:reinforcedConcrete> | <ic2:resource:11>, # Reinforced Concrete
   "S": <ore:soulSand>,           # Soul Sand
 });
 
@@ -421,7 +421,7 @@ craft.make(<darkutils:trap_tile:4> * 4, ["pretty",
   "C ■ C"], {
   "□": <ore:lightPlateIron>,     # Light Iron Plate
   "B": <minecraft:carpet:15>,    # Black Carpet
-  "C": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # Reinforced Concrete
+  "C": <ore:reinforcedConcrete> | <ic2:resource:11>, # Reinforced Concrete
   "■": <ore:blockMagma>,         # Magma Block
 });
 
@@ -433,7 +433,7 @@ craft.make(<darkutils:trap_tile:5> * 4, ["pretty",
   "C ■ C"], {
   "□": <ore:lightPlateIron>,     # Light Iron Plate
   "B": <minecraft:carpet:15>,    # Black Carpet
-  "C": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # Reinforced Concrete
+  "C": <ore:reinforcedConcrete> | <ic2:resource:11>, # Reinforced Concrete
   "■": <ore:blockWither>,        # Wither Dust Block
 });
 
@@ -445,7 +445,7 @@ craft.make(<darkutils:trap_tile:6> * 4, ["pretty",
   "R * R"], {
   "□": <ore:lightPlateIron>,              # Light Iron Plate
   "п": <ore:lightPlateArdite>,            # Light Ardite Plate
-  "R": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # Reinforced Concrete
+  "R": <ore:reinforcedConcrete> | <ic2:resource:11>, # Reinforced Concrete
   "*": <contenttweaker:condensed_vis_crystal_victus>, # Condensed Victus Vis Crystal
 });
 
@@ -457,7 +457,7 @@ craft.make(<darkutils:trap_tile:7> * 4, ["pretty",
   "R : R"], {
   "□": <ore:lightPlateIron>,              # Light Iron Plate
   "п": <ore:lightPlateAluminium>,         # Light Aluminium Plate
-  "R": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # Reinforced Concrete
+  "R": <ore:reinforcedConcrete> | <ic2:resource:11>, # Reinforced Concrete
   ":": <minecraft:potion>.withTag({Potion: "minecraft:strong_harming"}),# Potion of Harming
 });
 
@@ -469,7 +469,7 @@ craft.make(<darkutils:trap_anchor> * 4, ["pretty",
   "R : R"], {
   "□": <ore:lightPlateIron>,              # Light Iron Plate
   "п": <tconstruct:large_plate>.withTag({Material: "slime"}), # Slime Large Plate
-  "R": <ore:reinforcedConcrete> | <contenttweaker:reinforced_stone>, # Reinforced Concrete
+  "R": <ore:reinforcedConcrete> | <ic2:resource:11>, # Reinforced Concrete
   ":": <minecraft:potion>.withTag({Potion: "minecraft:long_slowness"}),# Potion of Slowness
 });
 

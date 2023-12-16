@@ -904,25 +904,6 @@ for aspect in allThaumcraftAspects {
 # Star Leather
 mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:magical_leather>, <contenttweaker:star_leather>, false, 1.0, 30);
 
-# [Mixed Metal] from [Light Brass Plate][+2]
-craft.remake(<contenttweaker:mixed_metal>*3, ["pretty",
-  "п п п",
-  "□ □ □",
-  "P P P"], {
-  "п": <ore:lightPlateStainlessSteel>, # Light Stainless Steel Plate
-  "□": <ore:lightPlateBrass>,          # Light Brass Plate
-  "P": <ore:lightPlateNichrome>,       # Light Nichrome Plate
-});
-
-# [Reinforced Stone]
-chemical_bath.recipeBuilder()
-    .inputs(<ore:frameGtSteel>)
-    .fluidInputs(<liquid:concrete>*144)
-    .outputs(<contenttweaker:reinforced_stone>)
-    .duration(200)
-    .EUt(4)
-.buildAndRegister();
-
 # [Devil's Dust]
 FireCrafting.addRecipe(<contenttweaker:devil_dust>, <contenttweaker:hellishflesh>, 160);
 

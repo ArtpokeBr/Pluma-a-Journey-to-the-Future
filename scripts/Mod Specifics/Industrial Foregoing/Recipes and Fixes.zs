@@ -12,11 +12,11 @@ import crafttweaker.item.IIngredient;
 
 # Dry Rubber
 recipes.remove(<industrialforegoing:dryrubber>);
-mods.nuclearcraft.Extractor.addRecipe(<gregtech:meta_item_1:438>, <industrialforegoing:dryrubber>, <liquid:glue>*10);
+mods.nuclearcraft.Extractor.addRecipe(<ic2:misc_resource:4>, <industrialforegoing:dryrubber>, <liquid:glue>*10);
 DryingRack.addRecipe(
   "DryRubber",
   <industrialforegoing:dryrubber>,
-  <gregtech:meta_item_1:438>,          // Sticky Resin
+  <ic2:misc_resource:4>,          // Sticky Resin
   750,
   false
 );
@@ -41,7 +41,7 @@ SludgeRefiner.add(<thaumcraft:nugget:10>, 10);
 
 # Fluid Extractor outputs
 FluidExtractor.add(<integrateddynamics:menril_log>, <fluid:menrilresin> * 5);
-FluidExtractor.add(<gregtech:rubber_log>, <liquid:latex> * 5);
+FluidExtractor.add(<ic2:rubber_wood>, <liquid:latex> * 5);
 
 # BioReactor, additional entries
 	val otherCrops = [

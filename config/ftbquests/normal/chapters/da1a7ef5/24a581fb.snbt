@@ -44,15 +44,7 @@
 	rewards: [{
 		uid: "0b434ccb",
 		type: "item",
-		item: {
-			id: "minecraft:enchanted_book",
-			tag: {
-				StoredEnchantments: [{
-					lvl: 1s,
-					id: 51
-				}]
-			}
-		}
+		item: "enderio:block_inhibitor_obelisk"
 	},
 	{
 		uid: "9a409b43",

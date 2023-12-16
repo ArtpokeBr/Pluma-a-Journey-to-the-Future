@@ -241,15 +241,6 @@ alien_meteorite_block.setToolLevel(8);
 alien_meteorite_block.setBlockSoundType(<soundtype:stone>);
 alien_meteorite_block.register();
 
-// Reinforced Stone from IC2
-var reinforced_stone = VanillaFactory.createBlock("reinforced_stone", <blockmaterial:iron>);
-reinforced_stone.setBlockHardness(80);
-reinforced_stone.setBlockResistance(540);
-reinforced_stone.setToolClass("pickaxe");
-reinforced_stone.setToolLevel(3);
-reinforced_stone.setBlockSoundType(<soundtype:metal>);
-reinforced_stone.register();
-
 // Immersive Engineering Blocks ===================================
 
 #Concrete

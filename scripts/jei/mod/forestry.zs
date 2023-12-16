@@ -37,6 +37,7 @@ return t
   <actuallyadditions:item_fertilizer> * 42,
   <ic2:crop_res:2> * 42,
   <thermalfoundation:fertilizer> * 42,
+  <gregtech:meta_item_1:1001> * 42,
 /**/
 ];
 

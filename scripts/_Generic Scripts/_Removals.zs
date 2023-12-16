@@ -337,10 +337,6 @@ var ItensRemovidos as IItemStack[] = [
 <fossil:sifter>,
 
 //Mekanism
-<mekanism:transmitter>.withTag({tier: 0}),
-<mekanism:transmitter>.withTag({tier: 1}),
-<mekanism:transmitter>.withTag({tier: 2}),
-<mekanism:transmitter>.withTag({tier: 3}),
 <mekanism:transmitter:1>.withTag({tier: 0}),
 <mekanism:transmitter:1>.withTag({tier: 1}),
 <mekanism:transmitter:1>.withTag({tier: 2}),
@@ -644,9 +640,9 @@ for item in ItensRemovidos {
 
 // Furnace Removals ================================
 
-var FurnaceRemovals as IItemStack[] = [
+// var FurnaceRemovals as IItemStack[] = [
 	
-        ];
-for item in ItensRemovidos {
-	furnace.remove(item);
-}
+//         ];
+// for item in ItensRemovidos {
+// 	furnace.remove(item);
+// }

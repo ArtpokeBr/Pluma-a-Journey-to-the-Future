@@ -16,7 +16,7 @@
 		uid: "f8f87f1b",
 		type: "item",
 		items: [{
-			item: "contenttweaker:mixed_metal"
+			item: "ic2:ingot"
 		}]
 	},
 	{

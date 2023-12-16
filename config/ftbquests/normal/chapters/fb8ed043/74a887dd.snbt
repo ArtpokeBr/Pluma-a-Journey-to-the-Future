@@ -1,0 +1,28 @@
+{
+	title: "An Improvement to the Vanilla Furnace!",
+	x: 11.491496598639458d,
+	y: 4.945578231292522d,
+	shape: "rsquare",
+	description: "A Little bit more Efficient and a Little bit more Fast!",
+	text: [
+		"► By using §b5x Iron Plates§f, an §3IC2 Iron Furnace§f can be made from your simple §6Vanilla Stone Furnace§f!",
+		"",
+		"▬ Its a §elittle bit more efficient and a little bit more fast§f, if you have some spare Iron in your chests, this §2might be worth it§f!"
+	],
+	dependencies: [
+		"7f887820"
+	],
+	tasks: [{
+		uid: "1d67b4f9",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 46"
+		}]
+	}],
+	rewards: [{
+		uid: "ae1ee98e",
+		type: "item",
+		item: "minecraft:furnace",
+		count: 3
+	}]
+}

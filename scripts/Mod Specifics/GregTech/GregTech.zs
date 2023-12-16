@@ -242,7 +242,7 @@ assembler.recipeBuilder()
 
 // Wooden Barrel
 recipes.removeByRecipeName("gregtech:wooden_barrel");
-recipes.addShaped(<gregtech:machine:1610> * 1, [[<ore:gtceSoftHammers>, <gregtech:meta_item_1:438>, <ore:gtceSaws>], [<ore:plankTreatedWood>, <ore:stickLongIron>, <ore:plankTreatedWood>],[<ore:plankTreatedWood>, <ore:stickLongIron>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<gregtech:machine:1610> * 1, [[<ore:gtceSoftHammers>, <ic2:misc_resource:4>, <ore:gtceSaws>], [<ore:plankTreatedWood>, <ore:stickLongIron>, <ore:plankTreatedWood>],[<ore:plankTreatedWood>, <ore:stickLongIron>, <ore:plankTreatedWood>]]);
 
 assembler.recipeBuilder()
     .inputs(<ore:plankTreatedWood>*4,<ore:stickLongIron>*2)
@@ -513,14 +513,6 @@ canner.recipeBuilder()
 // Automatic Maintenance Hatch
 recipes.remove(<gregtech:machine:1656>);
 recipes.addShaped(<gregtech:machine:1656> * 1, [[<ore:circuitIv>, <gregtech:machine:1654>, <ore:circuitIv>], [<gregtech:meta_item_1:190>, <gregtech:machine:989>, <gregtech:meta_item_1:190>],[<ore:circuitIv>, <gregtech:machine:1654>, <ore:circuitIv>]]);
-
-// Advanced Alloy Recipe
-compressor.recipeBuilder()
-    .inputs(<contenttweaker:mixed_metal>)
-    .outputs(<ore:plateAdvancedAlloy>.firstItem)
-    .duration(400)
-    .EUt(800)
-.buildAndRegister();
 
 # [Red Alloy Dust] from [Copper Dust][+1]
 craft.reshapeless(<gregtech:meta_dust:2517>, "▲♥♥♥♥", {

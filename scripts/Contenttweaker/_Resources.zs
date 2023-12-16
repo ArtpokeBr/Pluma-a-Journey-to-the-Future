@@ -1056,11 +1056,6 @@ casing_shape.register();
 // var shape_mechanical_parts = VanillaFactory.createItem("shape.mechanical_parts");
 // shape_mechanical_parts.register();
 
-// Mixed Metal Ingot
-
-var mixed_metal = VanillaFactory.createItem("mixed_metal");
-mixed_metal.register();
-
 // Devil Dust
 
 var devil_dust = VanillaFactory.createItem("devil_dust");

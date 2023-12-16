@@ -22,6 +22,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.SmeltingBonus;
 
+import mods.ic2.MetalFormer;
+
 val lightPlate = OrePrefix.getPrefix("lightPlate");
 val heavyPlate = OrePrefix.getPrefix("heavyPlate");
 
@@ -263,6 +265,8 @@ casing.generateRecipes(function(casing as OrePrefix, material as Material) {
         .EUt(15)
         .duration(128)
 .buildAndRegister();
+
+MetalFormer.addRollingRecipe(Utils.item(casing, material)*6, Utils.ore("ingot", material)*4);
 
 <recipemap:cutter>.recipeBuilder()
         .inputs(Utils.ore("plate", material))

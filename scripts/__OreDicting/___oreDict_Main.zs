@@ -10,6 +10,8 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.Recipe;
 import crafttweaker.item.IItemDefinition;
 import mods.jei.JEI as JEI;
+import mods.mekanism.enrichment as EnrichmentChamber;
+import mods.nuclearcraft.Melter as Melter;
 
 ///////////////////////////////////////
 //  Adding OreDicts First            //
@@ -222,6 +224,56 @@ import mods.jei.JEI as JEI;
 # Adding GT's Stone Rod to an Additional Stone Rod OreDict (fixes inconsistencies)
 recipes.replaceAllOccurences(<exnihilocreatio:item_material:6>, <ore:stickStone>);
 <ore:rodStone>.add(<ore:stickStone>.firstItem);
+
+# Carbon Compat
+<ore:plateCarbon>.add(<gregtech:meta_item_1:501>);
+<ore:itemCarbonMesh>.add(<gregtech:meta_item_1:500>);
+<ore:itemCarbonFiber>.add(<gregtech:meta_item_1:499>);
+
+# Removing Industrial Diamond from GemDiamond OreDict
+<ore:gemDiamond>.remove(<ic2:crafting:19>);
+
+# IC2 Cropts ======================================================================================
+
+# Hops ======
+<ore:cropHops>.add(<ic2:crop_res:4>);
+
+# Gold Fruit ======
+<ore:fruitGold>.add(<ic2:dust:20>);
+
+# Sulfur Fruit ======
+<ore:fruitSulfur>.add(<ic2:dust:16>);
+EnrichmentChamber.removeRecipe(<ic2:dust:16>, <minecraft:gunpowder>);
+
+# Tin Fruit ======
+<ore:fruitTin>.add(<ic2:dust:28>);
+
+# Copper Fruit ======
+<ore:fruitCopper>.add(<ic2:dust:19>);
+
+# Iron Fruit ======
+<ore:fruitIron>.add(<ic2:dust:21>);
+# Lead Fruit ======
+<ore:fruitLead>.add(<ic2:dust:23>);
+
+# Silver Fruit ======
+<ore:fruitSilver>.add(<ic2:dust:26>);
+
+# Coal Fruit ======
+<ore:fruitCoal>.add(<ic2:dust:2>);
+EnrichmentChamber.removeRecipe(<ic2:dust:2>, <minecraft:coal>);
+Melter.removeRecipeWithInput(<ic2:dust:2>);
+
+# Ender Fruit ======
+<ore:fruitEnder>.add(<ic2:dust:31>);
+
+# Diamond Fruit ======
+<ore:fruitDiamond>.add(<ic2:dust:36>);
+
+// ================================================================================================
+
+// Adding GT's Fertilizer to IC2's Fertilizer
+<ore:itemFertilizer>.add(<gregtech:meta_item_1:1001>);
 
 // Adding OreDicts for Overloaded
 
@@ -455,7 +507,7 @@ recipes.replaceAllOccurences(<exnihilocreatio:item_material:6>, <ore:stickStone>
 
 // ======================================================================================================================================
 
-static mods as string[] = ["contenttweaker", "gregtech", "astralsorcery", "devtech", "minecraft", "thermalfoundation", "enderio", "tconstruct", "tcomplement", "botania", "mekanism", "magneticraft", "embers", "thaumcraft", "abyssalcraft", "bloodmagic", "projectred-core", "actuallyadditions", "forestry", "careebees", "biomesoplenty", "libvulpes"];
+static mods as string[] = ["contenttweaker", "gregtech", "astralsorcery", "devtech", "minecraft", "ic2", "thermalfoundation", "enderio", "tconstruct", "tcomplement", "botania", "mekanism", "magneticraft", "embers", "thaumcraft", "abyssalcraft", "bloodmagic", "projectred-core", "actuallyadditions", "forestry", "careebees", "biomesoplenty", "libvulpes"];
 static size as int = mods.length - 1;
 
 function unify_oredicts (oredict as [IOreDictEntry]) {

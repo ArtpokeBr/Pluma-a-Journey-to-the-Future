@@ -393,7 +393,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 
 	clear_pool("minecraft:chests/desert_pyramid", "botania_inject_pool");
 
-	clear_pool("minecraft:chests/desert_pyramid", "moms_spaghetti");
+	//clear_pool("minecraft:chests/desert_pyramid", "moms_spaghetti");
 
 	clear_pool("minecraft:chests/desert_pyramid", "randomthings:biomeCrystal");
 
@@ -564,7 +564,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 	clear_pool("minecraft:chests/stronghold_crossing", "main");
 	clear_pool("minecraft:chests/stronghold_crossing", "railcraft_general");
 	clear_pool("minecraft:chests/stronghold_crossing", "floralchemy_inject_pool");
-	clear_pool("minecraft:chests/stronghold_crossing", "moms_spaghetti");
+	//clear_pool("minecraft:chests/stronghold_crossing", "moms_spaghetti");
 
 	//clear_pool("minecraft:chests/stronghold_crossing", "randomthings:biomeCrystal");
 

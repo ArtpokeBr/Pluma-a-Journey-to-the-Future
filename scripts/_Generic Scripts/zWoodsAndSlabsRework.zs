@@ -866,7 +866,7 @@ var LogToPlanksWithoutGT as IItemStack[IIngredient] = {
     <minecraft:log:1>: <minecraft:planks:1>,
     <minecraft:log:2>: <minecraft:planks:2>,
     <minecraft:log:3>: <minecraft:planks:3>,
-    <gregtech:rubber_log>: <gregtech:planks>,
+    <ic2:rubber_wood>: <gregtech:planks>,
     
     };
 for IItemStack, IIngredient in LogToPlanksWithoutGT {
