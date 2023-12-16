@@ -1,33 +1,33 @@
-§a§lVersion Beta§r§f 3.6.2:
+§a§lVersion Beta§r§f 3.6.3:
 
 §b§lMod Related Changes§r§f:
 
-- Updated MixinBooter
-- Updated RedCore
-- Updated AE2
-- Updated Inventory Bogosorter
-- Updated CraftPresence
-- Updated Crafttweaker
-- Updated Packaged Astral
-- Updated PackagedAuto
-- Updated PackagedDraconic
-- Updated PackagedThaumic
 - Updated Tinker's Evolution
-- Updated Xaeros Minimap and WorldMap
-- Updated Matmos
+- Updated CraftPresence
+- Updated Abyssalcraft
+- Updated ModularUI
+- Updated Inventory Bogosorter
+- Updated AE2 Extended
+- Updated AE2 FluidCrafting
+- Updated HammerLib
+- Updated Alfheim Lightning Engine
+- Updated Entity Distance
+
+- Swapped Embers --> Embers Extended Life
+
+- Added JustEnough Magiculture
+- Added IC2
+
+- Removed ItemPhysics Lite (Causing Visua Glitches with Astral Sorcery)
+- Removed Steve's Factory Manager (Now an Officially Suported Mod but not shipped by default)
 
 §2§lFixes§r§f:
 
-- Blacklisted Gregtech Tools in the Omniwand (they break the entire wand when the tools inside also break)
-
 §5§lMiscellaneous§r§f:
 
-- Disabled Tinker's Evolution Scepter
-
-- OpenComputers isn't installed by Default now. (Although it is offically suported)
-~ (Great Mod, but it adds almost 9s of loading and 90% of players don't actually use it)
-
-- AgriCraft isn't installed by Default now. (Although it is offically suported)
-~ (Provided some neat Gameplay Aspects, but, it isn't that necessary, specially without Mystical Agriculture)
-
-- Removed some unused Contenttweaker Models
+- Buffed Botania's Floral Fertilizer Recipe Output
+- Reinforced Stone and Mixed Metal added with Contenttweaker are now provided by IC2.
+- Botania's Mana Generating Flowers now have JEI Tabs!
+- Added a JEI Tab for Witch Water and also reorganized the Scented Hive JEI Script.
+- Reworked RequiousFrakto JEI Scripts.
+- Added a JEI Tab for Forestry Farm compatible Fertilizers.
