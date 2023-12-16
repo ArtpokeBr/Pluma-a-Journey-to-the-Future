@@ -1,3 +1,5 @@
+#modloaded superfactorymanager
+
 import mods.jei.JEI as JEI;
 
 #player interface
