@@ -1,3 +1,5 @@
+#modloaded enderquarrymod
+
 # [Ender Quarry] from [Black Iron Chassis][+4]
 craft.remake(<enderquarrymod:enderquarry>, ["pretty",
   "□ n □",
