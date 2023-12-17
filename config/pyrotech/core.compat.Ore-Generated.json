@@ -261,7 +261,7 @@
     "oreUranium": {
       "slagColor": "5c734b",
       "langKey": [
-        "nuclearcraft:tile.nuclearcraft.ore.uranium"
+        "ic2:ic2.resource.uranium_ore"
       ],
       "output": [
         "gregtech:meta_nugget:116"

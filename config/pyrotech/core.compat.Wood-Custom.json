@@ -17,6 +17,7 @@
     "minecraft:log:2": "minecraft:planks:2",
     "minecraft:log:3": "minecraft:planks:3",
     "gregtech:rubber_log:0": "gregtech:planks:0",
+    "ic2:rubber_wood": "gregtech:planks:0",
     "integrateddynamics:menril_log:0": "integrateddynamics:menril_planks:0",
     "minecraft:planks:0": "minecraft:wooden_slab:0",
     "minecraft:planks:1": "minecraft:wooden_slab:1",
