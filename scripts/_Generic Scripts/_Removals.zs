@@ -3,8 +3,6 @@ import crafttweaker.item.IItemStack;
 // Creating a Game Stage that specifically is used to Remove Items.
 
 var RemovingOnlyTheRecipe as IItemStack[] = [
-<scannable:scanner>,
-<scannable:module_blank>,
 <jecalculation:item_calculator>,
 <jecalculation:item_calculator:1>,
 <actuallyadditions:block_coffee_machine>,
