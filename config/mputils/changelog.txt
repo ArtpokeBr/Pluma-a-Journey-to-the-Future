@@ -4,6 +4,7 @@
 
 - Updated Tinker's Evolution
 - Updated CraftPresence
+- Updated Crafttweaker
 - Updated Abyssalcraft
 - Updated ModularUI
 - Updated Inventory Bogosorter
@@ -12,14 +13,25 @@
 - Updated HammerLib
 - Updated Alfheim Lightning Engine
 - Updated Entity Distance
+- Updated IC2 Patches
+- Updated Pyrotech
+- Updated Roots
+- Updated Roughly Enough ID's
+- Updated Xaeros's Package
 
 - Swapped Embers --> Embers Extended Life
 
 - Added JustEnough Magiculture
 - Added IC2
+- Added IC2 Patches
+- Added Crops++
+- Added IC2Tweaker
+- Added IC2 Crop Breeding Plugin
 
 - Removed ItemPhysics Lite (Causing Visua Glitches with Astral Sorcery)
+- Removed Scannable (now really usefull considering that GT has its own Scanner)
 - Removed Steve's Factory Manager (Now an Officially Suported Mod but not shipped by default)
+- Removed Ender Quarry Mod (Now an Officially Suported Mod but not shipped by default)
 
 §2§lFixes§r§f:
 
