@@ -819,6 +819,17 @@ recipes.addShaped(<mekanism:machineblock3:4> * 1, [[<ore:lightPlateRedSteel>, <o
 
 // Pipes ==========================================================================================
 
+# [Basic Universal Cable]*8 from [Enriched Alloy][+2]
+recipes.removeByRecipeName("mekanism:transmitter_0");
+craft.make(<mekanism:transmitter>.withTag({tier: 0}) * 8, ["pretty",
+  "□ S □",
+  "□ A □",
+  "□ S □"], {
+  "□": <ore:plateSteel>,           # Steel Plate
+  "S": <ore:springSmallOsgloglas>, # Small Osgloglas Spring
+  "A": <ore:itemEnrichedAlloy>,    # Enriched Alloy
+});
+
 // Basic Pressurized Tube
 recipes.remove(<mekanism:transmitter:2>);
 recipes.addShapedMirrored(<mekanism:transmitter:2> * 8, [[null, null, null], [<ore:lightPlateSteel>, <ore:fusedQuartz>, <ore:lightPlateSteel>],[null, null, null]]);
