@@ -112,6 +112,7 @@ var ItensRemovidos as IItemStack[] = [
     <ic2:te:132>,
     <ic2:te:133>,
     <ic2:te:134>,
+    <ic2:misc_resource:5>,/*Slag*/
 
         ];
 for item in ItensRemovidos {
