@@ -18,6 +18,8 @@
 - Updated Roots
 - Updated Roughly Enough ID's
 - Updated Xaeros's Package
+- Updates QMD
+- Updated UniversalTweaks
 
 - Swapped Embers --> Embers Extended Life
 
@@ -32,6 +34,7 @@
 - Removed Scannable (now really usefull considering that GT has its own Scanner)
 - Removed Steve's Factory Manager (Now an Officially Suported Mod but not shipped by default)
 - Removed Ender Quarry Mod (Now an Officially Suported Mod but not shipped by default)
+- Removed StartupTime (Unfortunatly it was actually increasing Load Times)
 
 §2§lFixes§r§f:
 
