@@ -177,7 +177,7 @@ craft.make(<ic2:resource:12>, ["pretty",
 
 assembler.recipeBuilder()
     .inputs(<ore:casingSteel>*4, <ore:plateSteel>*4)
-    .circuit(2)
+    .circuit(8)
     .outputs(<ic2:resource:12>)
     .duration(50)
     .EUt(16)
@@ -198,7 +198,7 @@ craft.make(<ic2:resource:13>, ["pretty",
 
 assembler.recipeBuilder()
     .inputs(<ic2:resource:12>, <ore:plateAluminium>*4, <ore:plateAdvancedAlloy>*2, <ore:plateCarbon>*2)
-    .circuit(2)
+    .circuit(8)
     .outputs(<ic2:resource:13>)
     .duration(50)
     .EUt(16)
@@ -228,3 +228,53 @@ assembler.recipeBuilder()
     .EUt(8)
 .buildAndRegister();
 
+//Circuits Compat with GT
+<ore:circuitBasic>.remove(<ic2:crafting:1>);
+<ore:circuitAdvanced>.remove(<ic2:crafting:2>);
+
+recipes.remove(<ic2:crafting:1>);
+recipes.remove(<ic2:crafting:2>);
+
+val CircuitBasic = <ore:circuitBasic>;
+val LVCircuit = <ore:circuitLv>;
+
+val CircuitAdvanced = <ore:circuitAdvanced>;
+val HVCircuit = <ore:circuitHv>;
+
+# LV Circuits Compat
+CircuitBasic.addAll(LVCircuit);
+
+# HV Circuits Compat
+CircuitAdvanced.addAll(HVCircuit);
+
+//Cable Implementation
+
+# Tin
+recipes.addShapeless(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), [<ore:wireGtSingleTin>]);
+recipes.addShapeless(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}), [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ore:plateRubber>]);
+
+# Copper
+recipes.addShapeless(<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), [<ore:wireGtSingleCopper>]);
+recipes.addShapeless(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ore:plateRubber>]);
+
+# Gold
+recipes.addShapeless(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), [<ore:wireGtSingleGold>]);
+recipes.addShapeless(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte}), [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ore:plateRubber>]);
+recipes.addShapeless(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ore:plateRubber>, <ore:plateRubber>]);
+
+# Iron
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), [<ore:wireGtSingleIron>]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte}), [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <ore:plateRubber>]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte}), [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <ore:plateRubber>, <ore:plateRubber>]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]);
+
+# [RE-Battery] from [Insulated Tin Cable][+2]
+recipes.removeByRecipeName("ic2:124");
+craft.make(<ic2:re_battery>.withTag({}), ["pretty",
+  "  T  ",
+  "⌂ * ⌂",
+  "⌂ * ⌂"], {
+  "T": <ore:itemTinCable> | <ore:itemInsulatedTinCable>, # Insulated Tin Cable
+  "⌂": <ore:casingTin>, # Tin Casing
+  "*": <ore:RestoniaCrystal> | <ore:crystalRestonia>, # Restonia Crystal
+});
