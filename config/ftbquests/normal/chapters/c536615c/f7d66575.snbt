@@ -1,0 +1,33 @@
+{
+	title: "Storing Low Voltage IC2 Eu",
+	x: -4.2d,
+	y: -18.0d,
+	description: "Its always good to have an Energy Buffer, specially for IC2 Machines",
+	text: [
+		"Until you unlock upgrades to §2improve performance§f, its a good idea to always have some sort of §eEnergy Buffer§f for them!",
+		"",
+		"► Also, You'll need some §bTin Cables§f to make this §6Bat Box§f, make some extra ones as those will be your §3LV IC2 Cables§f."
+	],
+	dependencies: [
+		"bc793e60"
+	],
+	tasks: [{
+		uid: "b5d0df23",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			Damage: 72s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "8a6391c6",
+		type: "item",
+		item: "ic2:meter"
+	},
+	{
+		uid: "d3bcd1ea",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -22,7 +22,7 @@
 		uid: "d124b55c",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 438"
+			item: "ic2:misc_resource 1 4"
 		}]
 	},
 	{

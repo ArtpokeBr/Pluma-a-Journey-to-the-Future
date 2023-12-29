@@ -1,0 +1,33 @@
+{
+	title: "Back to Low Voltage?",
+	x: -5.466836734693885d,
+	y: -17.21224489795916d,
+	description: "Technically yes... but not for long!",
+	text: [
+		"§6IC2§f offers both §dUtility§f and an §2Awesome Crop system§f for all your §bInfinite Resources§f needs.",
+		"",
+		"► This is the begining! Let's make ourselves a §6Basic Machine Casing§f."
+	],
+	dependencies: [
+		"7e9e06e6"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "183e0763",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "a323ddaa",
+		type: "item",
+		item: "ic2:resource 1 12",
+		count: 3
+	},
+	{
+		uid: "7367c80c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "Time to start Converting!",
+	x: -5.507653061224488d,
+	y: -15.494897959183639d,
+	description: "Wait, another Energy Type is comming?",
+	text: [
+		"Now that you have acess to §aMV Circuits§f, Its time to start making §3Mekanism's Universal Cables§f!",
+		"",
+		"► Perhaps you've noticed, but §6IC2§f will be an interesting Mod to start playing with, specially its §2Crop System§f!"
+	],
+	dependencies: [
+		"42088c69"
+	],
+	tasks: [{
+		uid: "d84022af",
+		type: "item",
+		title: "Any Universal Cable",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			}
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		},
+		{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0271d550",
+		type: "item",
+		item: "ic2:mug 1 3"
+	},
+	{
+		uid: "c4ecd36e",
+		type: "item",
+		item: {
+			id: "ic2:tool_box",
+			tag: {
+				Items: []
+			}
+		}
+	}]
+}
