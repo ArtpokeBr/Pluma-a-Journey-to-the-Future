@@ -825,9 +825,9 @@ craft.make(<mekanism:transmitter>.withTag({tier: 0}) * 8, ["pretty",
   "□ S □",
   "□ A □",
   "□ S □"], {
-  "□": <ore:plateSteel>,           # Steel Plate
-  "S": <ore:springSmallOsgloglas>, # Small Osgloglas Spring
-  "A": <ore:itemEnrichedAlloy>,    # Enriched Alloy
+  "□": <ore:plateSteel>,      # Steel Plate
+  "S": <ore:springSmallGold>, # Small Gold Spring
+  "A": <ore:circuitMv>,       # Enriched Alloy
 });
 
 // Basic Pressurized Tube
