@@ -407,6 +407,19 @@ var SmeltableOres as IItemStack[IIngredient] = {
   <ore:oreMarbleGypsum>.firstItem : <ore:dustGypsum>.firstItem,
   <ore:oreBasaltGypsum>.firstItem : <ore:dustGypsum>.firstItem,
 
+  # ===== #
+
+  <ore:oreCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreRedSandCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreSandCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreGraniteCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreDioriteCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreAndesiteCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreBlackgraniteCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreRedgraniteCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreMarbleCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+  <ore:oreBasaltCalcite>.firstItem : <ore:dustCalcite>.firstItem,
+
 };
 
 for ore, ingot in SmeltableOres {
@@ -508,5 +521,15 @@ StoneKiln.addRecipe(
   1000,
   0.05,
   [<pyrotech:material:17> * 2, <ore:dustSmallQuartzSand>.firstItem * 1, <ore:dustTinyBone>.firstItem * 1],
+  true
+);
+
+StoneKiln.addRecipe(
+  "KilnRefractoryIngoSmelting", 
+  <pyrotech:material:5>,
+  <pyrotech:material:9>,
+  1600,
+  0.06,
+  [<ore:dustSlakedComposite>.firstItem * 1],
   true
 );
