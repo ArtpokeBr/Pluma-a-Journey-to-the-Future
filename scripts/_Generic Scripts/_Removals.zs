@@ -58,7 +58,7 @@ var RemovingOnlyTheRecipe as IItemStack[] = [
 <nuclearcraft:rtg_americium>,
 <nuclearcraft:rtg_californium>,
 <botania:enderhand>,
-
+<ic2:meter>,
 
     ];
 for i in RemovingOnlyTheRecipe {
