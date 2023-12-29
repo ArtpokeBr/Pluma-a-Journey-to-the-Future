@@ -38,6 +38,8 @@
 
 §2§lFixes§r§f:
 
+- Calcite Dust and Refractory Bricks can now be smelted in Kilns
+
 §5§lMiscellaneous§r§f:
 
 - Buffed Botania's Floral Fertilizer Recipe Output
