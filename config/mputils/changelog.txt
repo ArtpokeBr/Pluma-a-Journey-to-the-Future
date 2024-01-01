@@ -48,3 +48,4 @@
 - Added a JEI Tab for Witch Water and also reorganized the Scented Hive JEI Script.
 - Reworked RequiousFrakto JEI Scripts.
 - Added a JEI Tab for Forestry Farm compatible Fertilizers.
+- New Aesthetics to Xaero's Minimap.
