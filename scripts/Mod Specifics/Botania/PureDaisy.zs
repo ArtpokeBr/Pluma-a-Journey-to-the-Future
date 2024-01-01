@@ -36,5 +36,9 @@ for item in prehistoricMatterBlocks {
 ElvenTrade.addRecipe([<contenttweaker:dreammatter>], [<contenttweaker:livingmatter>]);
 
 // Ancient Wood and Ancient Stone
-PureDaisy.addRecipe(<abyssalcraft:stone:2>, <fossil:ancient_stone>, 75);
-PureDaisy.addRecipe(<abyssalcraft:dreadlog>, <fossil:ancient_wood>, 75);
+PureDaisy.addRecipe(<thaumcraft:stone_ancient>, <fossil:ancient_stone>, 75);
+
+PureDaisy.addRecipe(<fossil:cordaites_planks>, <fossil:ancient_wood>, 75);
+PureDaisy.addRecipe(<fossil:palm_planks>, <fossil:ancient_wood>, 75);
+PureDaisy.addRecipe(<fossil:calamites_planks>, <fossil:ancient_wood>, 75);
+PureDaisy.addRecipe(<fossil:sigillaria_planks>, <fossil:ancient_wood>, 75);

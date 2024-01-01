@@ -101,7 +101,7 @@ mods.thaumcraft.Crucible.registerRecipe("thaumicaugmentation:impetus_jewel", "",
 
 # Alumentum
 mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:alumentum>);
-mods.thaumcraft.Crucible.registerRecipe("thaumcraft:alumentum", "ALUMENTUM", <thaumcraft:alumentum>, <ore:crystalAlumina>.firstItem, [<aspect:potentia> * 5, <aspect:ignis> * 2, <aspect:metallum> * 2, <aspect:perditio> * 2]);
+mods.thaumcraft.Crucible.registerRecipe("thaumcraft:alumentum", "ALUMENTUM", <thaumcraft:alumentum>, <ore:dustAluminium>.firstItem, [<aspect:potentia> * 5, <aspect:ignis> * 2, <aspect:metallum> * 2, <aspect:perditio> * 2]);
 
 # Magic Tallow
 mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:tallow>);

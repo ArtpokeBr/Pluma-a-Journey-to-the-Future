@@ -666,7 +666,7 @@ chemical_reactor.recipeBuilder()
 .buildAndRegister();
 
 chemical_reactor.recipeBuilder()
-    .inputs(<metaitem:dustMeat>, <ore:crystalClusterCalcium>)
+    .inputs(<metaitem:dustMeat>, <ore:dustCalciumSulfate>)
     .fluidInputs(<liquid:sulfuric_acid> * 500)
     .property("cleanroom", "cleanroom")
     .outputs(<ore:dustCollagen>.firstItem*9)

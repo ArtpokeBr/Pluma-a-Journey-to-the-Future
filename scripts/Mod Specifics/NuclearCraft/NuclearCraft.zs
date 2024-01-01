@@ -157,7 +157,7 @@ craft.make(<nuclearcraft:water_source_dense>, ["pretty",
 
 # Tough Alloy Recipe
 mixer.recipeBuilder()
-	.inputs(<ore:dustLiquifiedCoralium>, <ore:dustDarkSteel>)
+	.inputs(<ore:dustVibrantAlloy>, <ore:dustDarkSteel>)
   .outputs(<ore:dustTough>.firstItem*2)
 	.duration(700)
 	.EUt(150)

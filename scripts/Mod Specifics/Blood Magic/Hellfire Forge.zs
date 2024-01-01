@@ -49,11 +49,11 @@ TartaricForge.addRecipe(<bloodmagic:sentient_axe>.withTag({}), [<ore:ingotSentie
 
 # Sentient Bow
 TartaricForge.removeRecipe([<minecraft:bow>,<bloodmagic:soul_gem:1>,<ore:string>.firstItem,<ore:string>.firstItem]);
-TartaricForge.addRecipe(<bloodmagic:sentient_bow>.withTag({}), [<abyssalcraft:corbow>,<ore:ingotSentientMetal>,<randomthings:ingredient:12>,<randomthings:ingredient:12>], 75, 4);
+TartaricForge.addRecipe(<bloodmagic:sentient_bow>.withTag({}), [<roots:wildwood_bow>,<ore:ingotSentientMetal>,<randomthings:ingredient:12>,<randomthings:ingredient:12>], 75, 4);
 
 # Sentient Armor (deployed with a single item)
 TartaricForge.removeRecipe([<minecraft:diamond_chestplate>, <bloodmagic:soul_gem:1>.withTag({}), <minecraft:iron_block>, <minecraft:obsidian>]);
-TartaricForge.addRecipe(<bloodmagic:sentient_armour_gem>, [<abyssalcraft:dreadiumplate>,<contenttweaker:potency_core>,<ore:blockSentientMetal>,<ore:compressed1xObsidian>], 100, 25);
+TartaricForge.addRecipe(<bloodmagic:sentient_armour_gem>, [<roots:wildwood_chestplate>,<contenttweaker:potency_core>,<ore:blockSentientMetal>,<ore:compressed1xObsidian>], 100, 25);
 
 
 // Reagents ===================================================================================== //

@@ -508,24 +508,6 @@ makeContenttweakerIntegration(<ore:quartzBlaze>.firstItem, <ore:plateBlazeQuartz
 # Sunny
 makeContenttweakerIntegration(<ore:quartzSunny>.firstItem, <ore:plateSunnyQuartz>.firstItem, <ore:gearSunnyQuartz>.firstItem, <ore:stickQuartzite>.firstItem);
 
-//AbyssalCraft Materials
-makeFluidIngotIntegration(<ore:ingotDreadium>.firstItem, <liquid:moltendreadium>);
-makeFluidIngotIntegration(<ore:ingotAbyssalnite>.firstItem, <liquid:moltenabyssalnite>);
-makeFluidIngotIntegration(<ore:ingotLiquifiedCoralium>.firstItem, <liquid:moltenrefinedcoralium>);
-
-makeBlockIntegration(<ore:ingotDreadium>.firstItem, <ore:blockDreadium>.firstItem, <liquid:moltendreadium>);
-makeBlockIntegration(<ore:ingotAbyssalnite>.firstItem, <ore:blockAbyssalnite>.firstItem, <liquid:moltenabyssalnite>);
-makeBlockIntegration(<ore:ingotLiquifiedCoralium>.firstItem, <ore:blockLiquifiedCoralium>.firstItem, <liquid:moltenrefinedcoralium>);
-
-
-makeFluidNuggetIntegration(<ore:nuggetDreadium>.firstItem, <liquid:moltendreadium>);
-makeFluidNuggetIntegration(<ore:nuggetAbyssalnite>.firstItem, <liquid:moltenabyssalnite>);
-makeFluidNuggetIntegration(<ore:nuggetLiquifiedCoralium>.firstItem, <liquid:moltenrefinedcoralium>);
-
-makeDustIntegration(<ore:ingotDreadium>.firstItem, <ore:blockDreadium>.firstItem, <ore:dustDreadium>.firstItem);
-makeDustIntegration(<ore:ingotAbyssalnite>.firstItem, <ore:blockAbyssalnite>.firstItem, <ore:dustAbyssalnite>.firstItem);
-makeDustIntegration(<ore:ingotLiquifiedCoralium>.firstItem, <ore:blockLiquifiedCoralium>.firstItem, <ore:dustLiquifiedCoralium>.firstItem);
-
 //Extra Utils 2 Materials =====================
 
 # Enchanted

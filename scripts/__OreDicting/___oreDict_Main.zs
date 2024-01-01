@@ -205,9 +205,6 @@ import mods.nuclearcraft.Melter as Melter;
 // <ore:ingotAstralStarmetal>.add(<astralsorcery:itemcraftingcomponent:1>);
 // <ore:dustAstralStarmetal>.add(<astralsorcery:itemcraftingcomponent:2>);
 
-# Fixing Coralium OreDict for a correct OreGen
-<ore:oreAbyssalCoralium>.add(<abyssalcraft:abycorore>);
-
 # NuclearCraft's HSLA Compat
 <ore:ingotHSLASteel>.add(<ore:ingotHslaSteel>.firstItem);
 
@@ -507,7 +504,7 @@ Melter.removeRecipeWithInput(<ic2:dust:2>);
 
 // ======================================================================================================================================
 
-static mods as string[] = ["contenttweaker", "gregtech", "astralsorcery", "devtech", "minecraft", "ic2", "thermalfoundation", "enderio", "tconstruct", "tcomplement", "botania", "mekanism", "magneticraft", "embers", "thaumcraft", "abyssalcraft", "bloodmagic", "projectred-core", "actuallyadditions", "forestry", "careebees", "biomesoplenty", "libvulpes"];
+static mods as string[] = ["contenttweaker", "gregtech", "astralsorcery", "devtech", "minecraft", "ic2", "thermalfoundation", "enderio", "tconstruct", "tcomplement", "botania", "mekanism", "magneticraft", "embers", "thaumcraft", "bloodmagic", "projectred-core", "actuallyadditions", "forestry", "careebees", "biomesoplenty", "libvulpes"];
 static size as int = mods.length - 1;
 
 function unify_oredicts (oredict as [IOreDictEntry]) {

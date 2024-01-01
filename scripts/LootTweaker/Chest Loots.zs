@@ -361,7 +361,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 	addLootList(
 		"minecraft:chests/abandoned_mineshaft", 
 		"abandoned_mineshaft_foods_custom", {
-		<abyssalcraft:mre>   						: 5,
+		//<abyssalcraft:mre>   						: 5,
 		<minecraft:bread>   						: 40,
 		<harvestcraft:applepieitem>   				: 40,
 		<harvestcraft:fishsandwichitem>   			: 40,

@@ -38,13 +38,13 @@ for IItemStack, IIngredient in PressurePlatesTierI {
 }
 
 var PressurePlatesTierII as IItemStack[IIngredient] = {
-    <abyssalcraft:darkstoneslab1>: <abyssalcraft:dspplate>,
-    <abyssalcraft:dltslab1>: <abyssalcraft:dltpplate>,
+    // <abyssalcraft:darkstoneslab1>: <abyssalcraft:dspplate>,
+    // <abyssalcraft:dltslab1>: <abyssalcraft:dltpplate>,
     <mysticalworld:mud_block_slab>: <mysticalworld:mud_block_pressure_plate>,
     <mysticalworld:mud_brick_slab>: <mysticalworld:mud_brick_pressure_plate>,
     <mysticalworld:pearl_slab>: <mysticalworld:pearl_pressure_plate>,
-    <abyssalcraft:stone:1>: <abyssalcraft:abypplate>,
-    <abyssalcraft:stone:4>: <abyssalcraft:cstonepplate>
+    // <abyssalcraft:stone:1>: <abyssalcraft:abypplate>,
+    // <abyssalcraft:stone:4>: <abyssalcraft:cstonepplate>
     };
 for IItemStack, IIngredient in PressurePlatesTierII {
         recipes.remove(IIngredient);

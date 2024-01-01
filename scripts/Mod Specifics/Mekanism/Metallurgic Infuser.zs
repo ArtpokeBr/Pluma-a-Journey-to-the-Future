@@ -35,8 +35,8 @@ InfuserType.addTypeObject(<contenttweaker:compressed_garmonbozia>, "GARMONBOZIA"
 InfuserType.addTypeObject(<ore:dustSentientMetal>, "SENTIENT", 100);
 InfuserType.addTypeObject(<contenttweaker:compressed_sentient>, "SENTIENT", 200);
 
-InfuserType.addTypeObject(<ore:dustLiquifiedCoralium>, "CORALIUM", 100);
-InfuserType.addTypeObject(<contenttweaker:compressed_coralium>, "CORALIUM", 200);
+// InfuserType.addTypeObject(<ore:dustLiquifiedCoralium>, "CORALIUM", 100);
+// InfuserType.addTypeObject(<contenttweaker:compressed_coralium>, "CORALIUM", 200);
 
 // ===============================================================================================================
 

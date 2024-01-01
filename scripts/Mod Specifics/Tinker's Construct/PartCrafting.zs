@@ -201,9 +201,9 @@ var ToolMaterials as IItemStack[string] = {
 	"draconic_metal" : <ore:ingotDraconicMetal>.firstItem,
 	"chaotic_metal" : <ore:ingotChaoticMetal>.firstItem,
 
-	"abyssalnite" : <ore:ingotAbyssalnite>.firstItem,
-	"refined_coralium" : <ore:ingotLiquifiedCoralium>.firstItem,
-	"dreadium" : <ore:ingotDreadium>.firstItem,
+	// "abyssalnite" : <ore:ingotAbyssalnite>.firstItem,
+	// "refined_coralium" : <ore:ingotLiquifiedCoralium>.firstItem,
+	// "dreadium" : <ore:ingotDreadium>.firstItem,
 
 	"energetic_alloy" : <ore:ingotEnergeticAlloy>.firstItem,
 	"vibrant_alloy" : <ore:ingotVibrantAlloy>.firstItem,
@@ -418,9 +418,9 @@ var ToolMaterialsII as IItemStack[string] = {
 	"draconic_metal" : <ore:ingotDraconicMetal>.firstItem,
 	"chaotic_metal" : <ore:ingotChaoticMetal>.firstItem,
 
-	"abyssalnite" : <ore:ingotAbyssalnite>.firstItem,
-	"refined_coralium" : <ore:ingotLiquifiedCoralium>.firstItem,
-	"dreadium" : <ore:ingotDreadium>.firstItem,
+	// "abyssalnite" : <ore:ingotAbyssalnite>.firstItem,
+	// "refined_coralium" : <ore:ingotLiquifiedCoralium>.firstItem,
+	// "dreadium" : <ore:ingotDreadium>.firstItem,
 
 	"energetic_alloy" : <ore:ingotEnergeticAlloy>.firstItem,
 	"vibrant_alloy" : <ore:ingotVibrantAlloy>.firstItem,

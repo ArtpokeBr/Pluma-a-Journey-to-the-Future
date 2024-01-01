@@ -142,68 +142,68 @@ PureDaisy.addRecipe(<ore:oreTerraInfused>, <thaumcraft:crystal_terra>);
 PureDaisy.addRecipe(<ore:oreOrdoInfused>, <thaumcraft:crystal_ordo>);
 PureDaisy.addRecipe(<ore:oreEntropyInfused>, <thaumcraft:crystal_perditio>);
 
-# Abyssal Stone Dust Recipe
-macerator.recipeBuilder()
-    .inputs(<abyssalcraft:stone:1>) 
-    .outputs(<ore:dustAbyssalStone>.firstItem)
-    .duration(80)
-    .EUt(8)
-.buildAndRegister();
+// # Abyssal Stone Dust Recipe
+// macerator.recipeBuilder()
+//     .inputs(<abyssalcraft:stone:1>) 
+//     .outputs(<ore:dustAbyssalStone>.firstItem)
+//     .duration(80)
+//     .EUt(8)
+// .buildAndRegister();
 
-macerator.recipeBuilder()
-    .inputs(<abyssalcraft:cobblestone:1>) 
-    .outputs(<ore:dustAbyssalStone>.firstItem)
-    .duration(80)
-    .EUt(8)
-.buildAndRegister();
+// macerator.recipeBuilder()
+//     .inputs(<abyssalcraft:cobblestone:1>) 
+//     .outputs(<ore:dustAbyssalStone>.firstItem)
+//     .duration(80)
+//     .EUt(8)
+// .buildAndRegister();
 
-# Using Abyssal Stone to get stuff
+// # Using Abyssal Stone to get stuff
 
-centrifuge.recipeBuilder()
-    .inputs(<ore:dustAbyssalStone>*7)
-    .outputs(<ore:dustSodium>.firstItem*2, <ore:dustPotassium>.firstItem*2)
-    .chancedOutput(<ore:dustTinyOlivine>.firstItem*1, 1000 ,100)
-    .chancedOutput(<ore:dustTinyGarnierite>.firstItem*4, 1500 ,100)
-    .fluidOutputs(<liquid:sodium_potassium>*1000)
-    .duration(845)
-    .EUt(325)
-.buildAndRegister();
+// centrifuge.recipeBuilder()
+//     .inputs(<ore:dustAbyssalStone>*7)
+//     .outputs(<ore:dustSodium>.firstItem*2, <ore:dustPotassium>.firstItem*2)
+//     .chancedOutput(<ore:dustTinyOlivine>.firstItem*1, 1000 ,100)
+//     .chancedOutput(<ore:dustTinyGarnierite>.firstItem*4, 1500 ,100)
+//     .fluidOutputs(<liquid:sodium_potassium>*1000)
+//     .duration(845)
+//     .EUt(325)
+// .buildAndRegister();
 
-# Dread Stone Dust Recipe
-macerator.recipeBuilder()
-    .inputs(<abyssalcraft:stone:2>) 
-    .outputs(<ore:dustDreadStone>.firstItem)
-    .duration(80)
-    .EUt(8)
-.buildAndRegister();
+// # Dread Stone Dust Recipe
+// macerator.recipeBuilder()
+//     .inputs(<abyssalcraft:stone:2>) 
+//     .outputs(<ore:dustDreadStone>.firstItem)
+//     .duration(80)
+//     .EUt(8)
+// .buildAndRegister();
 
-macerator.recipeBuilder()
-    .inputs(<abyssalcraft:cobblestone:2>) 
-    .outputs(<ore:dustDreadStone>.firstItem)
-    .duration(80)
-    .EUt(8)
-.buildAndRegister();
+// macerator.recipeBuilder()
+//     .inputs(<abyssalcraft:cobblestone:2>) 
+//     .outputs(<ore:dustDreadStone>.firstItem)
+//     .duration(80)
+//     .EUt(8)
+// .buildAndRegister();
 
-# Abyssalnite Stone Dust Recipe
-macerator.recipeBuilder()
-    .inputs(<abyssalcraft:stone:3>) 
-    .outputs(<ore:dustAbyssalniteStone>.firstItem)
-    .duration(80)
-    .EUt(8)
-.buildAndRegister();
+// # Abyssalnite Stone Dust Recipe
+// macerator.recipeBuilder()
+//     .inputs(<abyssalcraft:stone:3>) 
+//     .outputs(<ore:dustAbyssalniteStone>.firstItem)
+//     .duration(80)
+//     .EUt(8)
+// .buildAndRegister();
 
-macerator.recipeBuilder()
-    .inputs(<abyssalcraft:cobblestone:3>) 
-    .outputs(<ore:dustAbyssalniteStone>.firstItem)
-    .duration(80)
-    .EUt(8)
-.buildAndRegister();
+// macerator.recipeBuilder()
+//     .inputs(<abyssalcraft:cobblestone:3>) 
+//     .outputs(<ore:dustAbyssalniteStone>.firstItem)
+//     .duration(80)
+//     .EUt(8)
+// .buildAndRegister();
 
-# Omothol Stone Dust Recipe
-macerator.recipeBuilder()
-    .inputs(<abyssalcraft:stone:6>) 
-    .outputs(<ore:dustOmotholStone>.firstItem)
-    .duration(80)
-    .EUt(8)
-.buildAndRegister();
+// # Omothol Stone Dust Recipe
+// macerator.recipeBuilder()
+//     .inputs(<abyssalcraft:stone:6>) 
+//     .outputs(<ore:dustOmotholStone>.firstItem)
+//     .duration(80)
+//     .EUt(8)
+// .buildAndRegister();
 

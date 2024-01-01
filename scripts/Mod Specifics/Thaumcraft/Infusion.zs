@@ -92,7 +92,7 @@ mods.thaumcraft.Infusion.registerRecipe(
   "TAR_ADAMINITE", # Research
   <thaumadditions:adaminite_ingot> * 4, # Output
   12, # Instability
-  [<aspect:draco> * 10, <aspect:alkimia> * 30, <aspect:spiritus> * 120, <aspect:metallum> * 40, <aspect:infernum> * 50, <aspect:dreadia> * 100, <aspect:praecantatio> * 100, <aspect:victus> * 100],
+  [<aspect:draco> * 10, <aspect:alkimia> * 30, <aspect:spiritus> * 120, <aspect:metallum> * 40, <aspect:infernum> * 50, <aspect:praecantatio> * 100, <aspect:victus> * 100],
   <thaumadditions:mithrillium_ingot>, # Central Item
   Grid(["pretty",
   "▬ A ▬",

@@ -94,33 +94,6 @@ recipes.remove(i);
 
 var ItensRemovidos as IItemStack[] = [
 
-//Abyssalcraft
-<abyssalcraft:crate>,
-<abyssalcraft:odbcore>,
-<abyssalcraft:odb>,
-<abyssalcraft:charcoal>,
-<abyssalcraft:materializer>,
-<abyssalcraft:dpick>,
-<abyssalcraft:daxe>,
-<abyssalcraft:dshovel>,
-<abyssalcraft:dsword>,
-<abyssalcraft:dhoe>,
-<abyssalcraft:apick>,
-<abyssalcraft:aaxe>,
-<abyssalcraft:ashovel>,
-<abyssalcraft:asword>,
-<abyssalcraft:dreadiumhoe>,
-<abyssalcraft:dreadiumsword>,
-<abyssalcraft:dreadiumshovel>,
-<abyssalcraft:dreadiumaxe>,
-<abyssalcraft:dreadiumpickaxe>,
-<abyssalcraft:corhoe>,
-<abyssalcraft:corsword>,
-<abyssalcraft:corshovel>,
-<abyssalcraft:coraxe>,
-<abyssalcraft:corpick>,
-<abyssalcraft:ahoe>,
-
 //Avaritia
 <avaritia:extreme_crafting_table>,
 <botania_tweaks:dire_crafty_crate>,

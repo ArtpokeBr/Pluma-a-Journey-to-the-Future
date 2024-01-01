@@ -216,15 +216,15 @@ recipes.addShaped(<enderutilities:enderpart:70> * 2, [[<ore:stickTreatedWood>, <
 
 // Link Crystal (Location)
 recipes.remove(<enderutilities:linkcrystal:0>);
-recipes.addShaped(<enderutilities:linkcrystal:0> * 1, [[<ore:plateEndSteel>, <ore:empoweredEndorCrystal>, <ore:plateEndSteel>], [<ore:empoweredEndorCrystal>, <abyssalcraft:lifecrystal>, <ore:empoweredEndorCrystal>],[<ore:plateEndSteel>, <ore:empoweredEndorCrystal>, <ore:plateEndSteel>]]);
+recipes.addShaped(<enderutilities:linkcrystal:0> * 1, [[<ore:plateEndSteel>, <ore:empoweredEndorCrystal>, <ore:plateEndSteel>], [<ore:empoweredEndorCrystal>, <appliedenergistics2:material:10>, <ore:empoweredEndorCrystal>],[<ore:plateEndSteel>, <ore:empoweredEndorCrystal>, <ore:plateEndSteel>]]);
 
 // Link Crystal (Block)
 recipes.remove(<enderutilities:linkcrystal:1>);
-recipes.addShaped(<enderutilities:linkcrystal:1> * 1, [[<ore:plateEndSteel>, <ore:EmpoweredPalisCrystal>, <ore:plateEndSteel>], [<ore:EmpoweredPalisCrystal>, <abyssalcraft:lifecrystal>, <ore:EmpoweredPalisCrystal>],[<ore:plateEndSteel>, <ore:EmpoweredPalisCrystal>, <ore:plateEndSteel>]]);
+recipes.addShaped(<enderutilities:linkcrystal:1> * 1, [[<ore:plateEndSteel>, <ore:EmpoweredPalisCrystal>, <ore:plateEndSteel>], [<ore:EmpoweredPalisCrystal>, <appliedenergistics2:material:10>, <ore:EmpoweredPalisCrystal>],[<ore:plateEndSteel>, <ore:EmpoweredPalisCrystal>, <ore:plateEndSteel>]]);
 
 // Link Crystal (Portal)
 recipes.remove(<enderutilities:linkcrystal:2>);
-recipes.addShaped(<enderutilities:linkcrystal:2> * 1, [[<ore:plateEndSteel>, <ore:ingotCrystallinePinkSlime>, <ore:plateEndSteel>], [<ore:ingotCrystallinePinkSlime>, <abyssalcraft:lifecrystal>, <ore:ingotCrystallinePinkSlime>],[<ore:plateEndSteel>, <ore:ingotCrystallinePinkSlime>, <ore:plateEndSteel>]]);
+recipes.addShaped(<enderutilities:linkcrystal:2> * 1, [[<ore:plateEndSteel>, <ore:ingotCrystallinePinkSlime>, <ore:plateEndSteel>], [<ore:ingotCrystallinePinkSlime>, <appliedenergistics2:material:10>, <ore:ingotCrystallinePinkSlime>],[<ore:plateEndSteel>, <ore:ingotCrystallinePinkSlime>, <ore:plateEndSteel>]]);
 
 // Wand of the Lazy Builder
 recipes.remove(<enderutilities:builderswand>);

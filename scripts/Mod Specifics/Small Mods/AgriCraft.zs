@@ -1,12 +1,12 @@
 #modloaded agricraft
 
 import mods.artisanworktables.builder.RecipeBuilder;
-import mods.abyssalcraft.Crystallizer;
+//import mods.abyssalcraft.Crystallizer;
 
 #Removing some recipes in the Crystallizer
-mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:3>);
-mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:5>);
-mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:4>);
+// mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:3>);
+// mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:5>);
+// mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<agricraft:agri_nugget:4>);
 
 //Crop Sticks
 recipes.remove(<agricraft:crop_sticks>);

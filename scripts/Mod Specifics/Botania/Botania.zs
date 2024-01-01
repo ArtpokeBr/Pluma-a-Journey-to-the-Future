@@ -231,7 +231,7 @@ Fey.addRecipe("arcanerose", <botania:specialflower>.withTag({type: "arcanerose"}
 
 # Gourmaryllis
 mods.botania.Apothecary.removeRecipe("gourmaryllis");
-Fey.addRecipe("gourmaryllis", <botania:specialflower>.withTag({type: "gourmaryllis"}), [<contenttweaker:petal_of_the_gourmaryllis>,<contenttweaker:petal_of_the_gourmaryllis>,<contenttweaker:rune_of_gluttony>,<abyssalcraft:mre>,<botania:manaresource:9>]);
+Fey.addRecipe("gourmaryllis", <botania:specialflower>.withTag({type: "gourmaryllis"}), [<contenttweaker:petal_of_the_gourmaryllis>,<contenttweaker:petal_of_the_gourmaryllis>,<contenttweaker:rune_of_gluttony>,<ic2:filled_tin_can>,<botania:manaresource:9>]);
 
 # Narslimmus
 mods.botania.Apothecary.removeRecipe("narslimmus");
@@ -247,7 +247,7 @@ Fey.addRecipe("bellethorn", <botania:specialflower>.withTag({type: "bellethorn"}
 
 # Dreadthorn
 mods.botania.Apothecary.removeRecipe("dreadthorn");
-Fey.addRecipe("dreadthorn", <botania:specialflower>.withTag({type: "dreadthorn"}), [<contenttweaker:thorny_dread_petal>,<contenttweaker:thorny_dread_petal>,<contenttweaker:damage_reagent>,<abyssalcraft:ingotblock:2>,<extrautils2:spike_iron>]);
+Fey.addRecipe("dreadthorn", <botania:specialflower>.withTag({type: "dreadthorn"}), [<contenttweaker:thorny_dread_petal>,<contenttweaker:thorny_dread_petal>,<contenttweaker:damage_reagent>,<fossil:obsidian_spikes>,<extrautils2:spike_iron>]);
 
 # Tigerseye
 mods.botania.Apothecary.removeRecipe("tigerseye");
@@ -311,7 +311,7 @@ Fey.addRecipe("rafflowsia", <botania:specialflower>.withTag({type: "rafflowsia"}
 
 # Dandelifeon
 mods.botania.Apothecary.removeRecipe("dandelifeon");
-Fey.addRecipe("dandelifeon", <botania:specialflower>.withTag({type: "dandelifeon"}), [<contenttweaker:petal_of_the_game_of_life>,<contenttweaker:petal_of_the_game_of_life>,<botania:manaresource:5>,<abyssalcraft:lifecrystal>,<contenttweaker:rune_of_greed>]);
+Fey.addRecipe("dandelifeon", <botania:specialflower>.withTag({type: "dandelifeon"}), [<contenttweaker:petal_of_the_game_of_life>,<contenttweaker:petal_of_the_game_of_life>,<botania:manaresource:5>,<bloodmagic:item_demon_crystal:4>,<contenttweaker:rune_of_greed>]);
 
 # Kekimurus
 mods.botania.Apothecary.removeRecipe("kekimurus");

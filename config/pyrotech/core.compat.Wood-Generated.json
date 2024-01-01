@@ -10,9 +10,6 @@
     "Entry item strings are in the format: (domain):(path):(meta)"
   ],
   "entries": {
-    "abyssalcraft:dltlog:0": "abyssalcraft:dltplank:0",
-    "abyssalcraft:dltplank:0": "abyssalcraft:dltslab1:0",
-    "abyssalcraft:dreadlog:0": "abyssalcraft:dreadplanks:0",
     "advancedrocketry:alienwood:0": "advancedrocketry:planks:0",
     "biomesoplenty:log_0:4": "biomesoplenty:planks_0:0",
     "biomesoplenty:log_0:5": "biomesoplenty:planks_0:1",

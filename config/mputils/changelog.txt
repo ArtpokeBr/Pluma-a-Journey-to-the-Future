@@ -5,7 +5,6 @@
 - Updated Tinker's Evolution
 - Updated CraftPresence
 - Updated Crafttweaker
-- Updated Abyssalcraft
 - Updated ModularUI
 - Updated Inventory Bogosorter
 - Updated AE2 Extended
@@ -35,6 +34,8 @@
 - Removed Steve's Factory Manager (Now an Officially Suported Mod but not shipped by default)
 - Removed Ender Quarry Mod (Now an Officially Suported Mod but not shipped by default)
 - Removed StartupTime (Unfortunatly it was actually increasing Load Times)
+
+- Removed Abyssalcraft (Huge change, should improve pack's performance, its the first major removal of future optmization updates)
 
 §2§lFixes§r§f:
 

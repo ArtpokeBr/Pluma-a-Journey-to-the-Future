@@ -6,7 +6,7 @@ import mods.botania.RuneAltar as RunicAltar;
 import mods.botania.ElvenTrade;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
-import mods.abyssalcraft.InfusionRitual;
+//import mods.abyssalcraft.InfusionRitual;
 
 # [Canister] from [Necrotic Bone][+2]
 recipes.removeByRecipeName("bhc:canister");
@@ -83,4 +83,4 @@ mods.thaumcraft.Crucible.registerRecipe("blue_heart", "BASEALCHEMY", <bhc:blue_h
 
 // Blue Heart Canister
 recipes.remove(<bhc:blue_heart_canister>);
-mods.abyssalcraft.InfusionRitual.addRitual("blue_heart_canister", 0, -1, 20000, false, <bhc:blue_heart_canister>, <bhc:canister>, [<bhc:blue_heart>, <deepmoblearning:pristine_matter_tinker_slime>, <contenttweaker:potency_core>, <deepmoblearning:pristine_matter_tinker_slime>, <bhc:relic_apple>, <deepmoblearning:pristine_matter_tinker_slime>, <contenttweaker:potency_core>, <deepmoblearning:pristine_matter_tinker_slime>], true);
+CombinationCrafting.addRecipe(<bhc:blue_heart_canister>, 80000, <bhc:canister>, [<bhc:blue_heart>, <deepmoblearning:pristine_matter_tinker_slime>, <contenttweaker:potency_core>, <deepmoblearning:pristine_matter_tinker_slime>, <bhc:relic_apple>, <deepmoblearning:pristine_matter_tinker_slime>, <contenttweaker:potency_core>, <deepmoblearning:pristine_matter_tinker_slime>]);

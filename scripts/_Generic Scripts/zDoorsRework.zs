@@ -128,8 +128,8 @@ var WoodDoors as IItemStack[IIngredient] = {
 
     <integrateddynamics:menril_planks>: <integrateddynamics:menril_door>,
     
-    <abyssalcraft:dltplank>: <abyssalcraft:door_dlt>,
-    <abyssalcraft:dreadplanks>: <abyssalcraft:door_drt>
+    // <abyssalcraft:dltplank>: <abyssalcraft:door_dlt>,
+    // <abyssalcraft:dreadplanks>: <abyssalcraft:door_drt>
 
     };
 for IItemStack, IIngredient in WoodDoors {

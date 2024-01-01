@@ -143,7 +143,7 @@ EnrichmentChamber.addRecipe(<ore:dustManasteel>, <contenttweaker:compressed_mana
 EnrichmentChamber.addRecipe(<ore:dustStygian>, <contenttweaker:compressed_stygian>);
 EnrichmentChamber.addRecipe(<evilcraft:garmonbozia>, <contenttweaker:compressed_garmonbozia>);
 EnrichmentChamber.addRecipe(<ore:dustSentientMetal>, <contenttweaker:compressed_sentient>);
-EnrichmentChamber.addRecipe(<ore:dustLiquifiedCoralium>, <contenttweaker:compressed_coralium>);
+//EnrichmentChamber.addRecipe(<ore:dustLiquifiedCoralium>, <contenttweaker:compressed_coralium>);
 
 var EnrichmentChamberClearing as IItemStack[] = [
 <mekanism:dirtydust>,
@@ -759,7 +759,7 @@ recipes.addShaped(<mekanism:machineblock:1> * 1, [[<ore:lightPlateRedSteel>, <me
 
 // Digital Miner
 recipes.remove(<mekanism:machineblock:4>);
-recipes.addShaped(<mekanism:machineblock:4> * 1, [[<mekanism:atomicalloy>, <ore:circuitIv>, <mekanism:atomicalloy>], [<abyssalcraft:ethaxiumpickaxe>, <bloodmagic:sigil_fast_miner>, <abyssalcraft:ethaxiumpickaxe>],[<mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>]]);
+recipes.addShaped(<mekanism:machineblock:4> * 1, [[<mekanism:atomicalloy>, <ore:circuitIv>, <mekanism:atomicalloy>], [<fossil:scarab_pickaxe>, <bloodmagic:sigil_fast_miner>, <fossil:scarab_pickaxe>],[<mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>]]);
 
 // Teleporter Frame
 recipes.remove(<mekanism:basicblock:7>);

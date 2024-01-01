@@ -13,7 +13,7 @@ BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <
 BloodAltar.addRecipe(<contenttweaker:corruptedstarmetal>, <ore:ingotAstralStarmetal>.firstItem, 2, 50000,500,300);
 
 // Blank Slate
-val Slate_Materials = [<botania:livingrock>, <fossil:volcanic_rock>, <astralsorcery:blockblackmarble>, <abyssalcraft:stone>] as IItemStack[];
+val Slate_Materials = [<botania:livingrock>, <fossil:volcanic_rock>, <astralsorcery:blockblackmarble>, <thaumicaugmentation:stone>] as IItemStack[];
 
 BloodAltar.removeRecipe(<minecraft:stone>);
 for item in Slate_Materials {

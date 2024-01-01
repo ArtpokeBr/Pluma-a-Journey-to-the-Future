@@ -38,13 +38,6 @@
 		}]
 	},
 	{
-		uid: "5c66e031",
-		type: "item",
-		items: [{
-			item: "abyssalcraft:coraliumore"
-		}]
-	},
-	{
 		uid: "704fe141",
 		type: "item",
 		items: [{

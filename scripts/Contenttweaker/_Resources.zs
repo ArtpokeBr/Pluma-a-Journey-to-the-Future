@@ -916,7 +916,7 @@ abyssal_pearl.register();
 
 
 // Thaumcraft Vis Crystal's
-val allThaumcraftAspects_ = ["aer", "terra", "ignis", "aqua", "ordo", "perditio", "vacuos", "lux", "motus", "gelum", "vitreus", "metallum", "victus", "mortuus", "potentia", "permutatio", "praecantatio", "auram", "alkimia", "vitium", "tenebrae", "alienis", "volatus", "herba", "instrumentum", "fabrico", "machina", "vinculum", "spiritus", "cognitio", "sensus", "aversio", "praemunio", "desiderium", "exanimis", "bestia", "humanus", "coralos", "priscus", "chronos", "anteanus", "dreadia", "imperium", "fluctus", "ventus", "exitium", "infernum", "sonus", "draco", "visum", "caeles"] as string[];
+val allThaumcraftAspects_ = ["aer", "terra", "ignis", "aqua", "ordo", "perditio", "vacuos", "lux", "motus", "gelum", "vitreus", "metallum", "victus", "mortuus", "potentia", "permutatio", "praecantatio", "auram", "alkimia", "vitium", "tenebrae", "alienis", "volatus", "herba", "instrumentum", "fabrico", "machina", "vinculum", "spiritus", "cognitio", "sensus", "aversio", "praemunio", "desiderium", "exanimis", "bestia", "humanus", "coralos", "priscus", "chronos", "anteanus", "imperium", "fluctus", "ventus", "exitium", "infernum", "sonus", "draco", "visum", "caeles"] as string[];
 for aspect in allThaumcraftAspects_ {
 	var condensed_vis_crystal = VanillaFactory.createItem("condensed_vis_crystal_" + aspect);
 	condensed_vis_crystal.register();

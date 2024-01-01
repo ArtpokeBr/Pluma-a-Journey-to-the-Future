@@ -358,7 +358,6 @@ val RoastedFoodsCompat as IItemStack[][IIngredient] = {
 	<mysticalworld:cooked_carrot>   : [<pyrotech:carrot_roasted>]
 	, <mysticalworld:cooked_beetroot>  : [<pyrotech:beetroot_roasted>]	
 	, <fossil:cooked_egg>  : [<pyrotech:egg_roasted>]
-    , <pyrotech:egg_roasted>  : [<abyssalcraft:friedegg>]
     , <ore:foodMarshmellows>.firstItem  : [<pyrotech:marshmallow>]
 };
 

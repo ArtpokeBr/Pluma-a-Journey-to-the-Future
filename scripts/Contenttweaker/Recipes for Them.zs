@@ -743,7 +743,7 @@ mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:reductus>, [<contenttweak
 mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:tenebrae>, [<contenttweaker:intensive_catalyst>,<contenttweaker:crepitous>,<contenttweaker:magicales>,<embers:shifting_scales>,<ore:blockDarkSteel>,<ore:dyeBlack>], 20000, 10, 4);
 
 # Praesidium
-mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:praesidium>, [<contenttweaker:intensive_catalyst>,<contenttweaker:crepitous>,<contenttweaker:sanctus>,<minecraft:splash_potion>.withTag({Potion: "minecraft:long_strength"}),<abyssalcraft:coraliumstone>,<thermalfoundation:glass_alloy:2>], 20000, 10, 4);
+mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:praesidium>, [<contenttweaker:intensive_catalyst>,<contenttweaker:crepitous>,<contenttweaker:sanctus>,<minecraft:splash_potion>.withTag({Potion: "minecraft:long_strength"}),<ore:dustFossil>.firstItem,<thermalfoundation:glass_alloy:2>], 20000, 10, 4);
 
 # Potentia
 mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:potentia>, [<contenttweaker:intensive_catalyst>,<contenttweaker:tempestas>,<contenttweaker:magicales>,<minecraft:lapis_block>,<draconicevolution:potentiometer>,<embers:winding_gears>], 20000, 10, 4);
@@ -870,7 +870,7 @@ mods.thaumcraft.Infusion.registerRecipe(
   "INFUSION", # Research
   <contenttweaker:abyssal_pearl>, # Output
   16, # Instability
-  [<aspect:vitium> * 20, <aspect:infernum> * 20, <aspect:coralos> * 30, <aspect:tenebrae> * 10, ],
+  [<aspect:vitium> * 20, <aspect:infernum> * 20, <aspect:exanimis> * 30, <aspect:tenebrae> * 10, ],
   <contenttweaker:sanguine_pearl>, # Central Item
   Grid(["pretty",
   "□ п F",
@@ -891,10 +891,10 @@ mods.evilcraft.BloodInfuser.addRecipe(<contenttweaker:magical_leather>, <liquid:
 
 # Condensed Vis Crystals ============
 
-global allThaumcraftAspects as string[] = ["aer", "terra", "ignis", "aqua", "ordo", "perditio", "vacuos", "lux", "motus", "gelum", "vitreus", "metallum", "victus", "mortuus", "potentia", "permutatio", "praecantatio", "auram", "alkimia", "vitium", "tenebrae", "alienis", "volatus", "herba", "instrumentum", "fabrico", "machina", "vinculum", "spiritus", "cognitio", "sensus", "aversio", "praemunio", "desiderium", "exanimis", "bestia", "humanus", "coralos", "priscus", "chronos", "anteanus", "dreadia", "imperium", "fluctus", "ventus", "exitium", "infernum", "sonus", "draco", "visum", "caeles"];
+global allThaumcraftAspects as string[] = ["aer", "terra", "ignis", "aqua", "ordo", "perditio", "vacuos", "lux", "motus", "gelum", "vitreus", "metallum", "victus", "mortuus", "potentia", "permutatio", "praecantatio", "auram", "alkimia", "vitium", "tenebrae", "alienis", "volatus", "herba", "instrumentum", "fabrico", "machina", "vinculum", "spiritus", "cognitio", "sensus", "aversio", "praemunio", "desiderium", "exanimis", "bestia", "humanus", "priscus", "chronos", "anteanus", "imperium", "fluctus", "ventus", "exitium", "infernum", "sonus", "draco", "visum", "caeles"];
 
 var aspect_counter = 0 as int;
-val allThaumcraftCTAspectStacks = [<aspect:aer>, <aspect:terra>, <aspect:ignis>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>, <aspect:vacuos>, <aspect:lux>, <aspect:motus>, <aspect:gelum>, <aspect:vitreus>, <aspect:metallum>, <aspect:victus>, <aspect:mortuus>, <aspect:potentia>, <aspect:permutatio>, <aspect:praecantatio>, <aspect:auram>, <aspect:alkimia>, <aspect:vitium>, <aspect:tenebrae>, <aspect:alienis>, <aspect:volatus>, <aspect:herba>, <aspect:instrumentum>, <aspect:fabrico>, <aspect:machina>, <aspect:vinculum>, <aspect:spiritus>, <aspect:cognitio>, <aspect:sensus>, <aspect:aversio>, <aspect:praemunio>, <aspect:desiderium>, <aspect:exanimis>, <aspect:bestia>, <aspect:humanus>, <aspect:coralos>, <aspect:priscus>, <aspect:chronos>, <aspect:anteanus>, <aspect:dreadia>, <aspect:imperium>, <aspect:fluctus>, <aspect:ventus>, <aspect:exitium>, <aspect:infernum>, <aspect:sonus>, <aspect:draco>, <aspect:visum>, <aspect:caeles>] as CTAspectStack[];
+val allThaumcraftCTAspectStacks = [<aspect:aer>, <aspect:terra>, <aspect:ignis>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>, <aspect:vacuos>, <aspect:lux>, <aspect:motus>, <aspect:gelum>, <aspect:vitreus>, <aspect:metallum>, <aspect:victus>, <aspect:mortuus>, <aspect:potentia>, <aspect:permutatio>, <aspect:praecantatio>, <aspect:auram>, <aspect:alkimia>, <aspect:vitium>, <aspect:tenebrae>, <aspect:alienis>, <aspect:volatus>, <aspect:herba>, <aspect:instrumentum>, <aspect:fabrico>, <aspect:machina>, <aspect:vinculum>, <aspect:spiritus>, <aspect:cognitio>, <aspect:sensus>, <aspect:aversio>, <aspect:praemunio>, <aspect:desiderium>, <aspect:exanimis>, <aspect:bestia>, <aspect:humanus>, <aspect:priscus>, <aspect:chronos>, <aspect:anteanus>, <aspect:imperium>, <aspect:fluctus>, <aspect:ventus>, <aspect:exitium>, <aspect:infernum>, <aspect:sonus>, <aspect:draco>, <aspect:visum>, <aspect:caeles>] as CTAspectStack[];
 for aspect in allThaumcraftAspects {
 	var cur_vis_crystal = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: aspect}]});
 	Infusion.registerRecipe("condensed_vis_crystal_" + aspect + "_crafting", "", itemUtils.getItem("contenttweaker:condensed_vis_crystal_" + aspect), 2, [allThaumcraftCTAspectStacks[aspect_counter] * 30], <thaumcraft:salis_mundus>, [cur_vis_crystal,cur_vis_crystal,cur_vis_crystal,cur_vis_crystal,cur_vis_crystal,cur_vis_crystal,cur_vis_crystal,cur_vis_crystal]);
