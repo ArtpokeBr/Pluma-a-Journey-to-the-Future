@@ -34,12 +34,15 @@
 - Removed Steve's Factory Manager (Now an Officially Suported Mod but not shipped by default)
 - Removed Ender Quarry Mod (Now an Officially Suported Mod but not shipped by default)
 - Removed StartupTime (Unfortunatly it was actually increasing Load Times)
+- Removed Conarm (Now an Officially Suported Mod but not shipped by default)
 
 - Removed Abyssalcraft (Huge change, should improve pack's performance, its the first major removal of future optmization updates)
 
 §2§lFixes§r§f:
 
 - Calcite Dust and Refractory Bricks can now be smelted in Kilns
+- Fixed a Bunch of Quest Issues
+- Slimeslings should now be craftable
 
 §5§lMiscellaneous§r§f:
 
@@ -50,3 +53,4 @@
 - Reworked RequiousFrakto JEI Scripts.
 - Added a JEI Tab for Forestry Farm compatible Fertilizers.
 - New Aesthetics to Xaero's Minimap.
+- Cleaned some Contenttweaker Related Code/Files
