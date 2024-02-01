@@ -55,8 +55,20 @@
 		uid: "d20a97bd",
 		type: "item",
 		title: "Did you know you can make a Clay Armor?",
-		item: "ceramics:unfired_clay 1 9",
-		count: 24
+		item: {
+			id: "ceramics:clay_chestplate",
+			tag: {
+				RepairCost: 3,
+				ench: [{
+					id: 34,
+					lvl: 3s
+				},
+				{
+					id: 4,
+					lvl: 4s
+				}]
+			}
+		}
 	},
 	{
 		uid: "4622b92f",

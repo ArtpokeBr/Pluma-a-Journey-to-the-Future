@@ -4,9 +4,9 @@
 	y: -1.5d,
 	description: "Time to Start making \"Cheaper\" Plates",
 	text: [
-		"By Making a Steam Forge Hammer you'll be able to finally make somewhat cheaper Plates and also other recipes!",
+		"By Making a §6Steam Forge Hammer§f you'll be able to finally make certain §aPlates§f easily or even §2Automate§f them!",
 		"",
-		"- This Steam Forge Hammer will require Steam to operate and it will only process ULV and LV level Recipes."
+		"- This §6Steam Forge Hammer§f will require Steam to operate and it will only process §eULV§f and §eLV level Recipes§f."
 	],
 	dependencies: [
 		"b320813f"

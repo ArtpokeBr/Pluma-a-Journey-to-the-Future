@@ -1,7 +1,7 @@
 {
 	title: "Extruding...",
-	x: -1.5d,
-	y: 8.4d,
+	x: 1.5102040816326507d,
+	y: -0.48775510204081485d,
 	description: "Time to make an LV Extruder!",
 	text: [
 		"§aMost Extruding Recipes§f will require §eMV Level Power§f, but... there are some really §2usefull recipes in LV aswell§f!",
@@ -12,8 +12,9 @@
 		"",
 		"► Upon Completing this §6Quest§f you'll §aUnlock a New Chapter in \"Expanding your Knowledge\"§f!"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
-		"de02f604"
+		"40ed11cf"
 	],
 	min_width: 300,
 	tasks: [{
