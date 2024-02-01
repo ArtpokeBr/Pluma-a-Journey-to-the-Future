@@ -266,7 +266,7 @@ RecipeBuilder.get("basic")
     [<tconstruct:slime_congealed>, <ore:plateConstantan>, <tconstruct:slime_congealed>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansDriver>, 5)
+  .addTool(<ore:gtceScrewdrivers>, 5)
   .addOutput(<tconstruct:slimesling>)
   .create();
 
@@ -278,7 +278,7 @@ RecipeBuilder.get("basic")
     [<tconstruct:slime_congealed:1>, <ore:plateConstantan>, <tconstruct:slime_congealed:1>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed:1>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansDriver>, 5)
+  .addTool(<ore:gtceScrewdrivers>, 5)
   .addOutput(<tconstruct:slimesling:1>)
   .create();
 
@@ -290,7 +290,7 @@ RecipeBuilder.get("basic")
     [<tconstruct:slime_congealed:2>, <ore:plateConstantan>, <tconstruct:slime_congealed:2>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed:2>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansDriver>, 5)
+  .addTool(<ore:gtceScrewdrivers>, 5)
   .addOutput(<tconstruct:slimesling:2>)
   .create();  
 
@@ -302,7 +302,7 @@ RecipeBuilder.get("basic")
     [<tconstruct:slime_congealed:3>, <ore:plateConstantan>, <tconstruct:slime_congealed:3>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed:3>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansDriver>, 5)
+  .addTool(<ore:gtceScrewdrivers>, 5)
   .addOutput(<tconstruct:slimesling:3>)
   .create();  
 
@@ -314,7 +314,7 @@ RecipeBuilder.get("basic")
     [<tconstruct:slime_congealed:4>, <ore:plateConstantan>, <tconstruct:slime_congealed:4>],
     [<ore:screwElectrotine>, <tconstruct:slime_congealed:4>, <ore:screwElectrotine>]])
   .setFluid(<liquid:creosote> * 500)
-  .addTool(<ore:artisansDriver>, 5)
+  .addTool(<ore:gtceScrewdrivers>, 5)
   .addOutput(<tconstruct:slimesling:4>)
   .create();
 
