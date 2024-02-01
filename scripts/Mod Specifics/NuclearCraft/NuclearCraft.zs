@@ -340,7 +340,7 @@ craft.make(<nuclearcraft:separator>, ["pretty",
   "m": <ore:motor>,         # Electric Motor
 });
 
-# [Hazmat Suit Headwear] from [Carbon Fiber Helmet Core][+4]
+# [Hazmat Suit Headwear] from [Lead Helmet][+4]
 recipes.remove(<nuclearcraft:helm_hazmat>);
 craft.make(<nuclearcraft:helm_hazmat>, ["pretty",
   "Y M Y",
@@ -349,11 +349,11 @@ craft.make(<nuclearcraft:helm_hazmat>, ["pretty",
   "Y": <extrabees:honey_drop:14>,        # Yellow Tinted Honey
   "M": <contenttweaker:magical_leather>, # Magical Leather
   "H": <nuclearcraft:rad_shielding:2>,   # Heavy Radiation Shielding
-  "C": <conarm:helmet_core>.withTag({Material: "carbon_fiber"}), # Carbon Fiber Helmet Core
+  "C": <thermalfoundation:armor.helmet_lead>, # Lead Helmet
   "b": <ore:bioplastic>,                 # Bioplastic
 });
 
-# [Hazmat Suit Chestpiece] from [Carbon Fiber Chestplate Core][+3]
+# [Hazmat Suit Chestpiece] from [Lead Chestplate][+3]
 recipes.remove(<nuclearcraft:chest_hazmat>);
 craft.make(<nuclearcraft:chest_hazmat>, ["pretty",
   "M H M",
@@ -362,10 +362,10 @@ craft.make(<nuclearcraft:chest_hazmat>, ["pretty",
   "M": <contenttweaker:magical_leather>, # Magical Leather
   "H": <nuclearcraft:rad_shielding:2>,   # Heavy Radiation Shielding
   "Y": <extrabees:honey_drop:14>,        # Yellow Tinted Honey
-  "C": <conarm:chest_core>.withTag({Material: "carbon_fiber"}), # Carbon Fiber Chestplate Core
+  "C": <thermalfoundation:armor.plate_lead>, # Lead Chestplate
 });
 
-# [Hazmat Suit Leggings] from [Carbon Fiber Leggings Core][+4]
+# [Hazmat Suit Leggings] from [Lead Leggings][+4]
 recipes.remove(<nuclearcraft:legs_hazmat>);
 craft.make(<nuclearcraft:legs_hazmat>, ["pretty",
   "Y b Y",
@@ -374,7 +374,7 @@ craft.make(<nuclearcraft:legs_hazmat>, ["pretty",
   "Y": <extrabees:honey_drop:14>,        # Yellow Tinted Honey
   "b": <ore:bioplastic>,                 # Bioplastic
   "H": <nuclearcraft:rad_shielding:2>,   # Heavy Radiation Shielding
-  "C": <conarm:leggings_core>.withTag({Material: "carbon_fiber"}), # Carbon Fiber Leggings Core
+  "C": <thermalfoundation:armor.legs_lead>, # Lead Leggings
   "M": <contenttweaker:magical_leather>, # Magical Leather
 });
 
@@ -387,7 +387,7 @@ craft.make(<nuclearcraft:boots_hazmat>, ["pretty",
   "H": <nuclearcraft:rad_shielding:2>, # Heavy Radiation Shielding
   "B": <extrabees:honey_drop:17>,      # Black Tinted Honey
   "b": <ore:bioplastic>,               # Bioplastic
-  "C": <conarm:boots_core>.withTag({Material: "carbon_fiber"}), # Carbon Fiber Boots Core
+  "C": <thermalfoundation:armor.boots_lead>, # Lead Boots
 });
 
 # [Light Radiation Shielding]*2 from [Compressed Carbon][+2]
