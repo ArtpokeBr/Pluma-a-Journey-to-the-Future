@@ -229,18 +229,6 @@ mason_bricks_4.setToolLevel(0);
 mason_bricks_4.setBlockSoundType(<soundtype:stone>);
 mason_bricks_4.register();
 
-// ======== Alien Blocks ===========
-
-var alien_meteorite_block = VanillaFactory.createBlock("alien_meteorite_block", <blockmaterial:rock>);
-alien_meteorite_block.setLightOpacity(3);
-alien_meteorite_block.setLightValue(0);
-alien_meteorite_block.setBlockHardness(5.0);
-alien_meteorite_block.setBlockResistance(5.0);
-alien_meteorite_block.setToolClass("pickaxe");
-alien_meteorite_block.setToolLevel(8);
-alien_meteorite_block.setBlockSoundType(<soundtype:stone>);
-alien_meteorite_block.register();
-
 // Immersive Engineering Blocks ===================================
 
 #Concrete
