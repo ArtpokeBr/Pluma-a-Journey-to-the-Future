@@ -18,7 +18,7 @@ function makeContenttweakerIntegration (inputMaterial as IItemStack, plate as II
         //Making the Plates
         bender.recipeBuilder()
             .inputs(inputMaterial)
-            .circuit(0)
+            .circuit(1)
             .outputs(plate)
             .duration(140)
             .EUt(24)

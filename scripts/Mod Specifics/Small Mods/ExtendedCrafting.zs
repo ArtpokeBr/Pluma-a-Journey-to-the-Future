@@ -64,7 +64,7 @@ recipes.remove(<extendedcrafting:material:2>);
 
 bender.recipeBuilder()
     .inputs(<ore:ingotBlackIron>)
-    .circuit(0)
+    .circuit(1)
     .outputs(<extendedcrafting:material:2>)
     .duration(140)
     .EUt(24)
