@@ -32,7 +32,7 @@ Mortar.changeSpell("spell_aqua_bubble", [<minecraft:ice>, <minecraft:snow>, <roo
 Mortar.changeSpell("spell_sanctuary", [<minecraft:armor_stand>, <roots:moonglow_leaf>, <gregtech:machine:1610>, <minecraft:piston>, <contenttweaker:fiery_baykoks_essence>]);
 Mortar.changeSpell("spell_growth_infusion", [<roots:spirit_herb>, <ore:treeSapling>, <minecraft:dye:15>, <minecraft:golden_hoe>, <contenttweaker:fiery_baykoks_essence>]);
 Mortar.changeSpell("spell_sky_soarer", [<roots:cloud_berry>, <pyrotech:material:26>, <roots:living_arrow>, <ore:blockSlime>, <contenttweaker:fiery_baykoks_essence>]);
-Mortar.changeSpell("spell_saturate", [<minecraft:mushroom_stew>, <actuallyadditions:item_food>, <roots:wildewheet>, <mysticalworld:cooked_aubergine>, <roots:petals>]);
+Mortar.changeSpell("spell_saturate", [<minecraft:mushroom_stew>, <forestry:honeyed_slice>, <roots:wildewheet>, <mysticalworld:cooked_aubergine>, <roots:petals>]);
 Mortar.changeSpell("spell_wild_fire", [<minecraft:diamond_sword>, <minecraft:tnt>, <roots:infernal_bulb>, <roots:stalicripe>, <contenttweaker:fiery_baykoks_essence>]);
 Mortar.changeSpell("spell_natures_scythe", [<roots:wildroot>, <roots:wildroot>, <ore:tallgrass>, <mysticalworld:aubergine>, <roots:diamond_knife>]);
 Mortar.changeSpell("spell_acid_cloud", [<minecraft:shield>, <roots:baffle_cap_mushroom>, <minecraft:poisonous_potato>, <minecraft:potion>.withTag({Potion: "cofhcore:poison4"}), <contenttweaker:fiery_baykoks_essence>]);

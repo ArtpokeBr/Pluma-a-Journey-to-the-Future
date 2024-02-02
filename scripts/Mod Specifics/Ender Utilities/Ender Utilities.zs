@@ -307,7 +307,7 @@ assembler.recipeBuilder()
 // Syringe (Paralyze)
 recipes.remove(<enderutilities:syringe:1>);
 mixer.recipeBuilder()
-    .inputs(<enderutilities:syringe>, <minecraft:fermented_spider_eye>, <ore:cropMushroomBrown>, <ore:cropMushroomRed>, <ore:cropWhitemushroom>)
+    .inputs(<enderutilities:syringe>, <minecraft:fermented_spider_eye>, <ore:listAllmushroom>*3)
     .fluidInputs(<liquid:distilled_water>*250)
     .outputs(<enderutilities:syringe:1>)
     .duration(250)
