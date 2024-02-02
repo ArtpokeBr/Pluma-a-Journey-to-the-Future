@@ -19,6 +19,9 @@
 - Updated Xaeros's Package
 - Updates QMD
 - Updated UniversalTweaks
+- Updated ConfigAnytime
+- Updated DeepMobEvolution
+- Updated PackageThaumic
 
 - Swapped Embers --> Embers Extended Life
 
