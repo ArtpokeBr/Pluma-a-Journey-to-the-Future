@@ -434,6 +434,18 @@ for ore, ingot in SmeltableOres {
     );
   }
 
+//Manually Adding Precious Metal Smelting (For some reason it caused Server Sync Issues)
+StoneKiln.addRecipe("KilnOreSmeltingPreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:orePreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingRedSandPreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreRedSandPreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingSandPreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreSandPreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingGranitePreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreGranitePreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingDioritePreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreDioritePreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingAndesitePreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreAndesitePreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingBlackGranitePreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreBlackgranitePreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingRedGranitePreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreRedgranitePreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingMarblePreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreMarblePreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+StoneKiln.addRecipe("KilnOreSmeltingBasaltPreciousMetal", <ore:ingotPreciousMetal>.firstItem, <ore:oreBasaltPreciousMetal>.firstItem,1600,0.06,[<ore:dustAsh>.firstItem * 2, <pyrotech:rock> * 4],true);
+
 StoneKiln.addRecipe(
   "KilnDustIronSmelting", 
   <ore:ingotIron>.firstItem,
