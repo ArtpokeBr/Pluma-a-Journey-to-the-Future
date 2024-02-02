@@ -46,6 +46,7 @@
 
 §5§lMiscellaneous§r§f:
 
+- Many Performance Updates ported from E2EE (Special Thanks for Krutoy and his awesome work on that project!)
 - Buffed Botania's Floral Fertilizer Recipe Output
 - Reinforced Stone and Mixed Metal added with Contenttweaker are now provided by IC2.
 - Botania's Mana Generating Flowers now have JEI Tabs!
