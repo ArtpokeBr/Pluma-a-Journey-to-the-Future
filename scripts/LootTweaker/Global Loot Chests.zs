@@ -38,7 +38,8 @@ var itemsToRemove as string[] = [
 	
 	"fossil:ancient_glass",
 
-	"ic2:misc_resource:1"
+	"ic2:misc_resource:1",
+	"ic2:misc_resource:2"
 
 ];
 
