@@ -946,10 +946,10 @@ recipes.addShapeless(<contenttweaker:primordial_fragment>, [<contenttweaker:godd
 
 # Unwarpification Talisman
 mods.astralsorcery.Altar.addConstellationAltarRecipe("pluma:shaped/internal/altar/unwarpification_talisman", <contenttweaker:unwarpification_talisman>, 500, 100,
-[<botania:incensestick>.withTag({brewKey: "thaumcraft:warpWard"}),<contenttweaker:condensed_vis_crystal_caeles>,<botania:incensestick>.withTag({brewKey: "thaumcraft:warpWard"}),
+[<botania:incensestick>.withTag({brewKey: "warpWard"}),<contenttweaker:condensed_vis_crystal_caeles>,<botania:incensestick>.withTag({brewKey: "warpWard"}),
 <contenttweaker:condensed_vis_crystal_caeles>,<thaumcraft:sanity_checker>,<contenttweaker:condensed_vis_crystal_caeles>,
-<botania:incensestick>.withTag({brewKey: "thaumcraft:warpWard"}),<contenttweaker:condensed_vis_crystal_caeles>,<botania:incensestick>.withTag({brewKey: "thaumcraft:warpWard"}),
-<botania:brewflask>.withTag({brewKey: "thaumcraft:warpWard"}),<botania:brewflask>.withTag({brewKey: "thaumcraft:warpWard"}),<botania:brewflask>.withTag({brewKey: "thaumcraft:warpWard"}),<botania:brewflask>.withTag({brewKey: "thaumcraft:warpWard"}),
+<botania:incensestick>.withTag({brewKey: "warpWard"}),<contenttweaker:condensed_vis_crystal_caeles>,<botania:incensestick>.withTag({brewKey: "warpWard"}),
+<botania:brewflask>.withTag({brewKey: "warpWard"}),<botania:brewflask>.withTag({brewKey: "warpWard"}),<botania:brewflask>.withTag({brewKey: "warpWard"}),<botania:brewflask>.withTag({brewKey: "warpWard"}),
 <thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>,<thaumicaugmentation:material:5>
 ]);
 <contenttweaker:unwarpification_talisman>.addTooltip(format.white("Right Click to set your Thaumcraft Warp level to 0!"));
