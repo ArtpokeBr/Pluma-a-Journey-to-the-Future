@@ -1,4 +1,4 @@
-§a§lVersion Beta§r§f 3.6.3:
+§a§lVersion Beta§r§f 4.0:
 
 §b§lMod Related Changes§r§f:
 
@@ -31,6 +31,7 @@
 - Added Crops++
 - Added IC2Tweaker
 - Added IC2 Crop Breeding Plugin
+- Added ExtraSounds Legacy
 
 - Removed ItemPhysics Lite (Causing Visua Glitches with Astral Sorcery)
 - Removed Scannable (now really usefull considering that GT has its own Scanner)
@@ -40,12 +41,15 @@
 - Removed Conarm (Now an Officially Suported Mod but not shipped by default)
 
 - Removed Abyssalcraft (Huge change, should improve pack's performance, its the first major removal of future optmization updates)
+- Removed Matmos
+~ I'am not totally sure if it impacts negatively performance and it also required a provided Resource Pack, removing it should make the pack lighter.
 
 §2§lFixes§r§f:
 
 - Calcite Dust and Refractory Bricks can now be smelted in Kilns
 - Fixed a Bunch of Quest Issues
 - Slimeslings should now be craftable
+- All Custom Plate Recipes now follow the GT Standart (Circuit 1 instead of 0) making it possible to use Ghost Circuits.
 
 §5§lMiscellaneous§r§f:
 
@@ -58,3 +62,4 @@
 - Added a JEI Tab for Forestry Farm compatible Fertilizers.
 - New Aesthetics to Xaero's Minimap.
 - Cleaned some Contenttweaker Related Code/Files
+- Revamped the whole "custom sounds" feature of the Pack, should be lighter than before.
