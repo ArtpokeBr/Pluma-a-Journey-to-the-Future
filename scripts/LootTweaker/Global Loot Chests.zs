@@ -36,7 +36,9 @@ var itemsToRemove as string[] = [
 
 	"astralsorcery:itemcraftingcomponent",
 	
-	"fossil:ancient_glass"
+	"fossil:ancient_glass",
+
+	"ic2:misc_resource:1"
 
 ];
 
