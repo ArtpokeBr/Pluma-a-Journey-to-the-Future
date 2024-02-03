@@ -1,8 +1,8 @@
 {
-	title: "&61.&f Where all the Dark Magic begins",
-	icon: "evilcraft:burning_gem_stone",
+	title: "&6►Chapter 11&f - The Essence of the Living",
+	icon: "evilcraft:vengeance_essence",
 	always_invisible: false,
-	group: 30328884,
+	group: 0,
 	default_quest_shape: "",
 	images: [{
 		x: 8.5d,

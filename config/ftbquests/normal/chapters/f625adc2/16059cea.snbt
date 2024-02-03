@@ -1,8 +1,8 @@
 {
 	title: "Your First Altar Upgrade!",
 	icon: "astralsorcery:blockaltar 1 1",
-	x: -2.0d,
-	y: 0.0d,
+	x: 3.0d,
+	y: -9.0d,
 	description: "Time to get a Starlight Crafting Altar",
 	text: [
 		"§3Astral Sorcery's Progression§f is heavily based on your §6Altar§f aswell!",

@@ -1,7 +1,7 @@
 {
 	title: "Observating the Stars!",
-	x: -2.0d,
-	y: 1.5d,
+	x: 3.0d,
+	y: -10.5d,
 	description: "Time to Discover Constellations!",
 	text: [
 		"§3Astral Sorcery§f has an interesting mechanic related to §bConstellations§f!",

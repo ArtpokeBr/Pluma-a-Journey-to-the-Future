@@ -1,7 +1,0 @@
-{
-	title: "&6►Chapter 11&f - Dark Magic Progression",
-	icon: "contenttweaker:dark_magic_dust",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,7 +1,0 @@
-{
-	title: "&6►Chapter 10&f - White Magic Progression",
-	icon: "contenttweaker:white_magic_dust",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
