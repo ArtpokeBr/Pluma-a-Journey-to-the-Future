@@ -4,8 +4,8 @@
     "color" : 15,
     "rarity" : [
       {
-        "whitelist": "",
-        "blacklist": "minecraft:hell, minecraft:sky",
+        "whitelist": "twilightforest:twilight_forest",
+        "blacklist": "",
         "depth_min": 6,
         "depth_max": 66,
         "weight": 2

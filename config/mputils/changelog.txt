@@ -50,6 +50,7 @@
 - Fixed a Bunch of Quest Issues
 - Slimeslings should now be craftable
 - All Custom Plate Recipes now follow the GT Standart (Circuit 1 instead of 0) making it possible to use Ghost Circuits.
+- Corrected Laser Drill Entries, it should provide the correct Ores now.
 
 §5§lMiscellaneous§r§f:
 
@@ -63,3 +64,5 @@
 - New Aesthetics to Xaero's Minimap.
 - Cleaned some Contenttweaker Related Code/Files
 - Revamped the whole "custom sounds" feature of the Pack, should be lighter than before.
+- Disable Transparent Rendering of Mekanism's Cables.
+- Disabled Quark's Automatic Tool Restock (Caused Issues with Bogosorter).

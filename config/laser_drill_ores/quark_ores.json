@@ -4,7 +4,7 @@
     "color": 15,
     "rarity": [
       {
-        "whitelist": "minecraft:sky",
+        "whitelist": "beneath:the_beneath",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
