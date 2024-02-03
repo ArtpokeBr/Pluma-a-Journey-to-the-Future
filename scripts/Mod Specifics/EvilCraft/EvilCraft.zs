@@ -103,9 +103,25 @@ recipes.addShaped(<evilcraft:golden_string> * 1, [[<ore:glodCrystal>, <ore:plate
 // Blood Infusion Core (Recipe is trough the Dwarven Matrix Multiblock)
 recipes.remove(<evilcraft:blood_infusion_core>);
 
-// Blood Infuser
+# [Blood Infuser] from [Blood Infusion Core][+7]
 recipes.remove(<evilcraft:blood_infuser>);
-recipes.addShaped(<evilcraft:blood_infuser> * 1, [[<ore:lightPlateRedSteel>, <tconstruct:large_plate>.withTag({Material: "xu_demonic_metal"}), <ore:lightPlateRedSteel>], [<evilcraft:werewolf_flesh:1>.withEmptyTag(), <evilcraft:blood_infusion_core>, <evilcraft:werewolf_flesh:1>.withEmptyTag()],[<ore:compressed2xNetherrack>, <ore:compressed2xNetherrack>, <ore:compressed2xNetherrack>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
+  "evilcraft:blood_infuser", # Name
+  "FIRSTSTEPS@2", # Research
+  100, # Vis cost
+  [<aspect:ignis> * 20, <aspect:perditio> * 20, ],
+  <evilcraft:blood_infuser>, # Output
+  Grid(["pretty",
+  "□ п □",
+  "H B H",
+  "2 2 2"], {
+  "□": <ore:lightPlateRedSteel>,        # Light Red Steel Plate
+  "п": <tconstruct:large_plate>.withTag({Material: "xu_demonic_metal"}), # Demonic Large Plate
+  "H": <contenttweaker:baykoksbloodiedstone>,    # Baykoks Bloodied Stone
+  "B": <evilcraft:blood_infusion_core>, # Blood Infusion Core
+  "2": <ore:compressed2xNetherrack>,    # 2x Compressed Netherrack
+}).shaped());
+
 
 // Dark Powered Gem and non Powered Block fix
 recipes.remove(<evilcraft:dark_power_gem_block>);
