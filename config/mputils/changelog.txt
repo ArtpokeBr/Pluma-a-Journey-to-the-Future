@@ -66,3 +66,8 @@
 - Revamped the whole "custom sounds" feature of the Pack, should be lighter than before.
 - Disable Transparent Rendering of Mekanism's Cables.
 - Disabled Quark's Automatic Tool Restock (Caused Issues with Bogosorter).
+
+§5§lHUGE§r§f:
+
+- Tinker's Parts cannot be Melted in the Smeltery, this improves the Pack's Performance considerably.
+- Removed Forestry Cans and Capsules Filling Recipes, this will also improve the Pack's Performance considerably.
