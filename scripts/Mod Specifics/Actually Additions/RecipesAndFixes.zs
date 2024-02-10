@@ -792,3 +792,14 @@ craft.make(<actuallyadditions:item_medium_to_large_crate_upgrade>, ["pretty",
 
 <actuallyadditions:item_laser_upgrade_invisibility>.addTooltip(format.darkGray(format.italic("<Hold Shift for more info>")));
 <actuallyadditions:item_laser_upgrade_invisibility>.addShiftTooltip(format.aqua("Unfortunatly due to a Bug when Applying this Upgrade,") + format.red(" always Right Click with 2 in your hand."));
+
+# [Fishing Net] from [Resources Fisher][+2]
+recipes.removeByRecipeName("actuallyadditions:recipes150");
+craft.make(<actuallyadditions:block_fishing_net>, ["pretty",
+  "╱ * ╱",
+  "* R *",
+  "╱ * ╱"], {
+  "╱": <ore:stickGold>,   # Gold Rod
+  "*": <ore:glodCrystal>, # Glod Crystal
+  "R": <industrialforegoing:water_resources_collector>, # Resources Fisher
+});

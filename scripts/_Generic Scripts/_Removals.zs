@@ -211,7 +211,6 @@ var ItensRemovidos as IItemStack[] = [
 <actuallyadditions:block_furnace_double>,
 <actuallyadditions:block_oil_generator>,
 <actuallyadditions:block_furnace_solar>,
-<actuallyadditions:block_fishing_net>,
 <actuallyadditions:block_heat_collector>,
 <actuallyadditions:item_bag>,
 <actuallyadditions:item_void_bag>,
