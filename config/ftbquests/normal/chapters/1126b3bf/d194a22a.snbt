@@ -17,10 +17,7 @@
 		type: "item",
 		items: [{
 			id: "evilcraft:blood_extractor",
-			tag: {},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
