@@ -143,7 +143,7 @@ recipes.remove(<industrialforegoing:enchantment_refiner>);
 recipes.addShaped(<industrialforegoing:enchantment_refiner> * 1, [[<industrialforegoing:plastic>, <gregtech:meta_item_1:189>, <industrialforegoing:plastic>], [<ore:bookEmpty>, <teslacorelib:machine_case>, <minecraft:enchanted_book>],[<ore:plateStainlessSteel>, <ore:circuitHv>, <ore:plateStainlessSteel>]]);
 
 // Mob Slaughter Factory
-var platSword = <tconstruct:sword_blade>.withTag({Material: "platinum"});
+var platSword = <tconstruct:sword_blade>.withTag({Material: "electrum"});
 recipes.remove(<industrialforegoing:mob_slaughter_factory>);
 recipes.addShaped(<industrialforegoing:mob_slaughter_factory> * 1, [[<industrialforegoing:plastic>, <ore:skullZombieFrankenstein>, <industrialforegoing:plastic>], [platSword, <teslacorelib:machine_case>, platSword],[<ore:plateStainlessSteel>, <ore:circuitHv>, <ore:plateStainlessSteel>]]);
 
@@ -291,7 +291,7 @@ craft.make(<industrialforegoing:water_resources_collector>, ["pretty",
   "H M H",
   "□ ¤ □"], {
   "R": <ore:itemRubber>,            # Industrial Plastic
-  "/": <thermalfoundation:tool.fishing_rod_platinum>.anyDamage(), # Platinum Fishing Rod
+  "/": <thermalfoundation:tool.fishing_rod_electrum>.anyDamage(), # electrum Fishing Rod
   "H": <gregtech:meta_item_1:129>,  # HV Electric Motor
   "M": <teslacorelib:machine_case>, # Machine Case
   "□": <ore:plateStainlessSteel>,   # Stainless Steel Plate
@@ -305,7 +305,7 @@ craft.make(<industrialforegoing:animal_resource_harvester>, ["pretty",
   "H M H",
   "□ ¤ □"], {
   "R": <ore:itemRubber>,            # Industrial Plastic
-  "P": <thermalfoundation:tool.shears_platinum>.anyDamage(), # Platinum Shears
+  "P": <thermalfoundation:tool.shears_electrum>.anyDamage(), # electrum Shears
   "H": <gregtech:meta_item_1:129>,  # HV Electric Motor
   "M": <teslacorelib:machine_case>, # Machine Case
   "□": <ore:plateStainlessSteel>,   # Stainless Steel Plate
@@ -824,7 +824,7 @@ craft.make(<industrialforegoing:range_addon:11>, ["pretty",
   "G": <ore:paneGlass>, # Glass Pane
 });
 
-# [Leaf Shearing Addon] from [Platinum Shears][+2]
+# [Leaf Shearing Addon] from [electrum Shears][+2]
 recipes.removeByRecipeName("industrialforegoing:leaf_shearing");
 craft.make(<industrialforegoing:leaf_shearing>, ["pretty",
   "□ R □",
@@ -832,7 +832,7 @@ craft.make(<industrialforegoing:leaf_shearing>, ["pretty",
   "□ R □"], {
   "□": <ore:plateEnori>, # Enori Plate
   "R": <ore:itemRubber>, # Industrial Plastic
-  "P": <thermalfoundation:tool.shears_platinum>.anyDamage(), # Platinum Shears
+  "P": <thermalfoundation:tool.shears_electrum>.anyDamage(), # electrum Shears
 });
 
 # [Fortune Addon] from [Enchanted Book][+2]
