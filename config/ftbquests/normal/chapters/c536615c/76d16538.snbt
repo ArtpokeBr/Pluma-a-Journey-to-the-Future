@@ -11,7 +11,8 @@
 		"- You'll need §8Grains of Infinity§f for this §2Recipe/Quest§f, and there's a questline about it in §3Chapter 3§f."
 	],
 	dependencies: [
-		"d0e88b2c"
+		"d0e88b2c",
+		"24a581fb"
 	],
 	min_width: 300,
 	tasks: [{
