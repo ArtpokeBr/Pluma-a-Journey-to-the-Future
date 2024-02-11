@@ -430,23 +430,6 @@ autoclave.recipeBuilder()
     .EUt(512)
 .buildAndRegister();
 
-//Infinity Dust and Infinity Dust Fog
-
-<enderio:item_material:20>.addTooltip(format.darkGray("Can only be obtained via Mobs Spawned by an ") + (format.darkPurple("Infinity Dust") + (format.darkGray(" Fog."))));
-
-recipes.addShapeless("EnderIOInfinityDust",<enderio:block_infinity_fog>*4,[<ore:dustBedrock>, <ore:gtceMortars>]);
-
-<enderio:block_infinity_fog>.addTooltip(format.darkGray("Created by chance when ") + (format.darkPurple("left clicking Bedrock with a Soul Bead.")));
-<enderio:block_infinity_fog>.addShiftTooltip(format.darkGray(format.italic("It will Consume 4 XP and often destroy the Soul Bead used.")));
-
-solidifier.recipeBuilder()
-    .notConsumable(<gregtech:meta_item_1:19>)
-    .fluidInputs([<liquid:liquid_nightmares> * 144])
-    .outputs(<enderio:block_infinity_fog>*9)
-    .duration(200)
-    .EUt(12)
-.buildAndRegister();
-
 //Tormented Enderman Head
 chemical_bath.recipeBuilder()
 	.inputs(<enderio:block_enderman_skull>)
@@ -1182,3 +1165,22 @@ craft.make(<enderio:item_conduit_facade> * 16, ["pretty",
   "C": <ore:itemConduitBinder>, # Conduit Binder
 });
 
+//Grains of Infinity Recipes
+<enderio:item_material:20>.addTooltip(format.darkGray("Can also be obtained via Mobs Spawned by an ") + (format.darkPurple("Infinity Dust") + (format.darkGray(" Fog."))));
+FluidToItem.transform(<ore:dustBedrock>.firstItem*3, <liquid:witchwater>, [<quark:soul_bead>, <ore:itemInfinityGoop>], true);
+mixer.recipeBuilder()
+    .inputs(<ore:itemInfinityGoop>, <quark:soul_bead>)
+    .fluidInputs([<liquid:liquid_nightmares> * 500, <liquid:witchwater>*1000])
+    .outputs(<ore:dustBedrock>.firstItem*9)
+    .duration(250)
+    .EUt(150)
+.buildAndRegister();
+
+//Infinity Dust Recipes
+recipes.addShapeless("EnderIOInfinityDust",<enderio:block_infinity_fog>*4,[<ore:dustBedrock>, <ore:gtceMortars>]);
+macerator.recipeBuilder()
+    .inputs(<ore:dustBedrock>)
+    .outputs(<enderio:block_infinity_fog>*4)
+    .duration(100)
+    .EUt(20)
+.buildAndRegister();
