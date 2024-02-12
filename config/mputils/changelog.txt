@@ -38,6 +38,7 @@
 - Removed Steve's Factory Manager (Now an Officially Suported Mod but not shipped by default)
 - Removed Ender Quarry Mod (Now an Officially Suported Mod but not shipped by default)
 - Removed StartupTime (Unfortunatly it was actually increasing Load Times)
+- Removed Conarm (Now an Officially Suported Mod but not shipped by default --> Increases Load Times by 20s)
 
 - Removed Abyssalcraft (Huge change, should improve pack's performance, its the first major removal of future optmization updates)
 - Removed Matmos
