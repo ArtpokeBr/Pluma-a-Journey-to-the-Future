@@ -697,8 +697,8 @@ craft.make(<enderio:item_material:11>, ["pretty",
   "C □ C",
   "□ ▲ □",
   "C □ C"], {
-  "C": <ore:boltConstructionAlloy>,  # Iron Alloy Bolt
-  "□": <ore:plateConstructionAlloy>, # Iron Alloy Plate
+  "C": <ore:boltSteel>,  # Steel Bolt
+  "□": <ore:plateSteel>, # Steel Plate
   "▲": <ore:dustBedrock>,            # Grains of Infinity
 });
 

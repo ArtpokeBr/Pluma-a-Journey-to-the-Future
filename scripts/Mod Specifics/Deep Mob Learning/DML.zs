@@ -130,6 +130,7 @@ recipes.remove(<deepmoblearning:polymer_clay>);
 chemreactor.recipeBuilder()
     .fluidInputs(<liquid:polyvinyl_chloride>*100, <liquid:phthalic_acid>*50)
     .notConsumable(<gregtech:meta_item_1:16>)
+    .circuit(3)
     .outputs(<deepmoblearning:polymer_clay>*4)
     .duration(160)
     .EUt(400)

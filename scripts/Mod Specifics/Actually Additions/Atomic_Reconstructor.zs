@@ -11,8 +11,6 @@ for i in RemovedFromAtomicReconstructor {
 AtomicReconstructor.removeRecipe(i);
 }
 
-//Glowstone trough Redstone
-AtomicReconstructor.addRecipe(<ore:dustGlowstone>.firstItem, <ore:dustRedstone>, 5000);
 //Nether Quartz trough Black Quartz
 AtomicReconstructor.addRecipe(<ore:gemBlackQuartz>.firstItem, <ore:gemNetherQuartz>, 5000);
 

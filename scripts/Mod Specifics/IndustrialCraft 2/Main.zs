@@ -278,3 +278,15 @@ craft.make(<ic2:re_battery>.withTag({}), ["pretty",
   "⌂": <ore:casingTin>, # Tin Casing
   "*": <ore:RestoniaCrystal> | <ore:crystalRestonia>, # Restonia Crystal
 });
+
+# [Tool Box] from [Chest][+3]
+recipes.removeByRecipeName("ic2:235");
+craft.make(<ic2:tool_box>, ["pretty",
+  "╱ B ╱",
+  "⌂ c ⌂",
+  "⌂ ⌂ ⌂"], {
+  "╱": <ore:stickBronze>,             # Bronze Rod
+  "B": <ore:ringBronze>,              # Bronze Ring
+  "⌂": <ore:casingBronze>,            # Bronze Casing
+  "c": <ore:chestWood>,               # Chest
+});
