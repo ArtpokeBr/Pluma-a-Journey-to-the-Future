@@ -34,11 +34,10 @@
 - Added ExtraSounds Legacy
 
 - Removed ItemPhysics Lite (Causing Visua Glitches with Astral Sorcery)
-- Removed Scannable (now really usefull considering that GT has its own Scanner)
+- Removed Scannable (not really usefull considering that GT has its own Scanner)
 - Removed Steve's Factory Manager (Now an Officially Suported Mod but not shipped by default)
 - Removed Ender Quarry Mod (Now an Officially Suported Mod but not shipped by default)
 - Removed StartupTime (Unfortunatly it was actually increasing Load Times)
-- Removed Conarm (Now an Officially Suported Mod but not shipped by default)
 
 - Removed Abyssalcraft (Huge change, should improve pack's performance, its the first major removal of future optmization updates)
 - Removed Matmos
@@ -51,6 +50,7 @@
 - Slimeslings should now be craftable
 - All Custom Plate Recipes now follow the GT Standart (Circuit 1 instead of 0) making it possible to use Ghost Circuits.
 - Corrected Laser Drill Entries, it should provide the correct Ores now.
+- Reworked The Methods of Obtaining Grains of Infinity
 
 §5§lMiscellaneous§r§f:
 
@@ -66,6 +66,7 @@
 - Revamped the whole "custom sounds" feature of the Pack, should be lighter than before.
 - Disable Transparent Rendering of Mekanism's Cables.
 - Disabled Quark's Automatic Tool Restock (Caused Issues with Bogosorter).
+- Dark Moded'd more Mods.
 
 §5§lHUGE§r§f:
 
