@@ -1,75 +1,16 @@
-§a§lVersion Beta§r§f 4.0:
+§a§lVersion Beta§r§f 4.0.1:
 
 §b§lMod Related Changes§r§f:
 
-- Updated Tinker's Evolution
-- Updated CraftPresence
-- Updated Crafttweaker
-- Updated ModularUI
 - Updated Inventory Bogosorter
-- Updated AE2 Extended
-- Updated AE2 FluidCrafting
 - Updated HammerLib
-- Updated Alfheim Lightning Engine
-- Updated Entity Distance
-- Updated IC2 Patches
-- Updated Pyrotech
-- Updated Roots
-- Updated Roughly Enough ID's
-- Updated Xaeros's Package
-- Updates QMD
-- Updated UniversalTweaks
-- Updated ConfigAnytime
-- Updated DeepMobEvolution
-- Updated PackageThaumic
-
-- Swapped Embers --> Embers Extended Life
-
-- Added JustEnough Magiculture
-- Added IC2
-- Added IC2 Patches
-- Added Crops++
-- Added IC2Tweaker
-- Added IC2 Crop Breeding Plugin
-- Added ExtraSounds Legacy
-
-- Removed ItemPhysics Lite (Causing Visua Glitches with Astral Sorcery)
-- Removed Scannable (not really usefull considering that GT has its own Scanner)
-- Removed Steve's Factory Manager (Now an Officially Suported Mod but not shipped by default)
-- Removed Ender Quarry Mod (Now an Officially Suported Mod but not shipped by default)
-- Removed StartupTime (Unfortunatly it was actually increasing Load Times)
-- Removed Conarm (Now an Officially Suported Mod but not shipped by default --> Increases Load Times by 20s)
-
-- Removed Abyssalcraft (Huge change, should improve pack's performance, its the first major removal of future optmization updates)
-- Removed Matmos
-~ I'am not totally sure if it impacts negatively performance and it also required a provided Resource Pack, removing it should make the pack lighter.
 
 §2§lFixes§r§f:
 
-- Calcite Dust and Refractory Bricks can now be smelted in Kilns
-- Fixed a Bunch of Quest Issues
-- Slimeslings should now be craftable
-- All Custom Plate Recipes now follow the GT Standart (Circuit 1 instead of 0) making it possible to use Ghost Circuits.
-- Corrected Laser Drill Entries, it should provide the correct Ores now.
-- Reworked The Methods of Obtaining Grains of Infinity
+- Infinity Bimetal Gears now Require Steel instead of Iron Alloy (Fixes Issue #226)
+- Added a Circuit to the Default Polymer Clay Recipe in the Chemical Reactor (Fixes Issue #228)
+- Removed Glowstone Recipe from the Atomic Reconstructor (Fixes Issue #203)
 
 §5§lMiscellaneous§r§f:
 
-- Many Performance Updates ported from E2EE (Special Thanks for Krutoy and his awesome work on that project!)
-- Buffed Botania's Floral Fertilizer Recipe Output
-- Reinforced Stone and Mixed Metal added with Contenttweaker are now provided by IC2.
-- Botania's Mana Generating Flowers now have JEI Tabs!
-- Added a JEI Tab for Witch Water and also reorganized the Scented Hive JEI Script.
-- Reworked RequiousFrakto JEI Scripts.
-- Added a JEI Tab for Forestry Farm compatible Fertilizers.
-- New Aesthetics to Xaero's Minimap.
-- Cleaned some Contenttweaker Related Code/Files
-- Revamped the whole "custom sounds" feature of the Pack, should be lighter than before.
-- Disable Transparent Rendering of Mekanism's Cables.
-- Disabled Quark's Automatic Tool Restock (Caused Issues with Bogosorter).
-- Dark Moded'd more Mods.
-
-§5§lHUGE§r§f:
-
-- Tinker's Parts cannot be Melted in the Smeltery, this improves the Pack's Performance considerably.
-- Removed Forestry Cans and Capsules Filling Recipes, this will also improve the Pack's Performance considerably.
+- Added a Recipe to the IC2's Toolbox
