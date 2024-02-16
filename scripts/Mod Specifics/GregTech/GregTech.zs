@@ -871,3 +871,22 @@ craft.make(<gregtech:meta_item_1:219>, ["pretty",
 .buildAndRegister();
 
 // ==================================================================================================
+
+//Removing Vanilla Stair Maceration Recipes due to Duplication Issues
+<recipemap:macerator>.findRecipe(2, [<minecraft:oak_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:stone_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:brick_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:stone_brick_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:nether_brick_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:sandstone_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:spruce_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:birch_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:jungle_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:quartz_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:acacia_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:dark_oak_stairs:0>], null).remove();
+<recipemap:macerator>.findRecipe(2, [<minecraft:red_sandstone_stairs:0>], null).remove();
+
+
+
+
