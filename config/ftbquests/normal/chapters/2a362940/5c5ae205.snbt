@@ -32,7 +32,6 @@
 	rewards: [{
 		uid: "7ddd656c",
 		type: "item",
-		item: "storagedrawers:compdrawers",
-		random_bonus: 2
+		item: "contenttweaker:hand_framing_tool"
 	}]
 }

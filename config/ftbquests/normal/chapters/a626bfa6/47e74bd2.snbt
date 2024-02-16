@@ -1,0 +1,37 @@
+{
+	title: "On Demand Machine Processing",
+	x: 5.1d,
+	y: -3.9d,
+	description: "Let's use a Machine Controller Cover!",
+	text: [
+		"► As simple as that, by adding §athis cover to a specific side§f of one of your §6machines§f §8§o(multiblock controllers also work)§f, you'll be able to toggle them!",
+		"",
+		"▬ And of course, to do so you need a §cRedstone Signal§f, or perhaps a simple §2Lever§f on it!"
+	],
+	dependencies: [
+		"8b8ed045"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "cd601981",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 301"
+		}]
+	}],
+	rewards: [{
+		uid: "4b9feeba",
+		type: "item",
+		item: "gregtech:meta_item_1 1 302"
+	},
+	{
+		uid: "e5bac232",
+		type: "item",
+		item: "gregtech:meta_item_1 1 303"
+	},
+	{
+		uid: "a465cfa4",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

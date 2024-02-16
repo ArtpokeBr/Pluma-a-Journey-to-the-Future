@@ -1,0 +1,49 @@
+{
+	title: "Starting with the Basics",
+	x: 2.1d,
+	y: -0.8999999999999999d,
+	description: "Seeds that you can simply collect in Grass!",
+	text: [
+		"§8►§f §6Seeds§f will provide you with... well, §6Wheat§f! and don't forget that tgo make §eBread§f you'll need a bit more than Wheat!",
+		"",
+		"§8►§f §6Aubergine§f is an §2Excellent Vegetable§f, that you can easily cook to get a bit more §eSaturation§f, or even §amix it with other ingredients to make different Foods§f!",
+		"",
+		"§8►§f And §6Cotton§f isn't actually and edible but is a really easy way to start §aFarming String§f, and trust me, §c§lyou're gonna need it§f!"
+	],
+	dependencies: [
+		"5f59ed42"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b2f33485",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "cd1fe03c",
+		type: "item",
+		items: [{
+			item: "natura:overworld_seeds 1 1"
+		}]
+	},
+	{
+		uid: "d09380f7",
+		type: "item",
+		items: [{
+			item: "mysticalworld:aubergine_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "20383d50",
+		type: "item",
+		item: "pyrotech:material 1 52",
+		count: 4
+	},
+	{
+		uid: "93b4d151",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Time to Start Cultivating Food!",
+	x: -0.6d,
+	y: -0.8999999999999999d,
+	description: "Food is an Important Resource!",
+	text: [
+		"One thing that you've probally noticed already is §6Nutrition§f! if you didn't, §apress \"N\" to open the menu§f, or click the §aCarrot Button§f in your §9Inventory§f!",
+		"",
+		"► And §2This Chapter§f is all about helping you handle that! and also to give tips about §aFarming Methods§f and all §eFood Related Content§f."
+	],
+	dependencies: [
+		"a9967abd"
+	],
+	size: 2.0d,
+	min_width: 300,
+	tasks: [{
+		uid: "32b15a82",
+		type: "observation",
+		title: "Observe a Farmland",
+		icon: "minecraft:farmland",
+		match_type: "block_id",
+		match: "minecraft:farmland",
+		timer: 80L
+	}],
+	rewards: [{
+		uid: "8abdb43f",
+		type: "item",
+		item: "farmingforblockheads:fertilizer",
+		count: 8
+	},
+	{
+		uid: "e6b8698a",
+		type: "item",
+		item: "farmingforblockheads:fertilizer 1 1",
+		count: 8
+	}]
+}
