@@ -8,7 +8,7 @@ val types = [
 	"cray",
 	"fort",
 	"glaxx",
-	"izsm",
+	"iszm",
 	"jelt",
 	"korp",
 	"kryp",
@@ -34,7 +34,7 @@ val types = [
 	"zome",
 	"zone",
 	"zorg",
-	"zytl",
+	"ztyl",
 	"zyth"
 ] as string[];
 
