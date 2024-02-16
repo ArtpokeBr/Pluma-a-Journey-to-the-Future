@@ -381,7 +381,7 @@ craft.shapeless(<harvestcraft:lycheeteaitem>, "PlTA", {
 
 # [Schnitzel] from [Cooking Oil][+5]
 recipes.remove(<harvestcraft:schnitzelitem>);
-craft.shapeless(<harvestcraft:schnitzelitem>, "SNFLOB", {
+craft.shapeless(<harvestcraft:schnitzelitem>, "SNNFLOB", {
   "S": <ore:toolSkillet>.reuse(),                        # Skillet
   "N": <ore:listAllporkraw>,                    # Raw Porkchop
   "F": <ore:foodFlour>,                         # Flour
