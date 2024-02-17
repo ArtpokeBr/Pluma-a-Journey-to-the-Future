@@ -50,7 +50,7 @@ for IItemStack, IIngredient in castsAndCasters {
     mods.chisel.Carving.addVariation("tinkers_casts", IIngredient);
 }
 
-<tconstruct:cast>.addTooltip(format.white("Incompatible with an ") + format.green("IChisel") + format.white("."));
+<tconstruct:cast>.addTooltip(format.white("Incompatible with the ") + format.green("IChisel") + format.white("."));
 
 // Blank Cast specifically
 Casting.removeTableRecipe(<tconstruct:cast>);
@@ -67,7 +67,7 @@ Casting.removeTableRecipe(<tconstruct:cast_custom:2>);
 
 //Arrow Shaft Specifically
 mods.chisel.Carving.addVariation("tinkers_casts", <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_shaft"}));
-Casting.removeTableRecipe(<tconstruct:cast>.withTag({PartType: "tconstruct:arrow_shaft"}), <liquid:fierymetal>);
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:arrow_shaft>.withTag({Material: "fierymetal"}));
 
 //Fletching Specifically
 mods.chisel.Carving.addVariation("tinkers_casts", <tconstruct:cast>.withTag({PartType: "tconstruct:fletching"}));
