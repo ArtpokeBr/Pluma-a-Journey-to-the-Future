@@ -1,16 +1,35 @@
-§a§lVersion Beta§r§f 4.0.1:
+§a§lVersion Beta§r§f 4.0.2:
 
 §b§lMod Related Changes§r§f:
 
-- Updated Inventory Bogosorter
-- Updated HammerLib
+- Updated EnderStorage Continuation
+- Updated Pyrotech
+- Updated Packaged Auto
+- Updated PackagedEx Crafting
+- Updated PackageThaumic
+- Updated PackageAstral
+- Updated PackageDraconic
+- Updated CensoredASM
+- Updated FluidCrafting Rework
+
+- Added ManaVisualizer
+- Added Better FTBQuest Popup
 
 §2§lFixes§r§f:
 
-- Infinity Bimetal Gears now Require Steel instead of Iron Alloy (Fixes Issue #226)
-- Added a Circuit to the Default Polymer Clay Recipe in the Chemical Reactor (Fixes Issue #228)
-- Removed Glowstone Recipe from the Atomic Reconstructor (Fixes Issue #203)
+- Fixed a Recipe Conflict in HarvestCraft (Schnitzel <-> Quesadilha).
+- Fixed Missing Xtone Block Variants Missing Chiseling.
+- Removed Vanilla Stair Maceration Recipes (Allowed a Duplication of Materials).
 
 §5§lMiscellaneous§r§f:
 
-- Added a Recipe to the IC2's Toolbox
+- Added a Tooltip to Alert about the Incompatibility of the IChisel with Tinker's Casts.
+- The Compacting Drawer (Storage Management Chapter) Quest should grant you a Hand Framing Tool now.
+- Added a Quest about the Gregtech's Machine Cover.
+- Removed Unused Multiblocked Folder.
+- Added a New Quest Chapter about Farming and Food Related.
+
+- Tinkers Scripting Rework:
+    ~ Removed Material Osmiridium
+    ~ Removed Material Emerald
+    ~ Removed Material Titanium
