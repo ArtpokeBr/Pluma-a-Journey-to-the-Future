@@ -1,0 +1,200 @@
+{
+  "version": 2,
+  "location": "pluma:improved_coke_oven",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 3,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/machine_coke_bricks",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_5",
+        "formedAsController": true,
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/machine_coke_bricks",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_5",
+        "formedAsController": true,
+        "type": "gregtech"
+      },
+      "lightEmissive": 8,
+      "parent": "idle",
+      "sound": {
+        "sound": "gregtech:tick.miner",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "improved_coke_oven",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "B@B",
+        "CCC"
+      ],
+      [
+        "AAA",
+        "B B",
+        "CBC"
+      ],
+      [
+        "AAA",
+        "BBB",
+        "CCC"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:steam_casing",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "pluma:improved_coke_oven",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "fluid_output": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
+      },
+      "Energy": {
+        "blocks": [
+          {
+            "id": "multiblocked:energy_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "item_input": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "item_output": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_output"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gregtech:steam_casing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B",
+        "item_input",
+        "item_output",
+        "fluid_output",
+        "Energy"
+      ],
+      "C": [
+        "C"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}
