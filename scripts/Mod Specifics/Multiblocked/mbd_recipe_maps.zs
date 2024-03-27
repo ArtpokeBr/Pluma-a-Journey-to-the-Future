@@ -153,3 +153,21 @@ bio_fabricator.start()
     .perTick(true)
     .inputEU(250)
 .buildAndRegister();
+
+//Fossil Ore Processing Plant Recipes ==========================================================================
+var fossil_ore_processing_plant = <mbd:recipe_map:fossil_ore_processing_plant>;
+
+//Main Recipe
+fossil_ore_processing_plant.start()
+    .duration(300)
+    .inputItems(<ore:oreBasaltFossil>)
+    .inputFluids(<liquid:distilled_water>*1000)
+    .outputItems(<ore:dustFossil>.firstItem*4)
+	.outputItems(0.75, <fossil:biofossil>)
+	.outputItems(0.75, <fossil:plant_fossil>)
+	.outputItems(0.50, <fossil:skull_block>)
+	.outputItems(0.30, <fossil:relic_scrap>)
+    .outputItems(0.20, <fossil:scarab_gem>)
+    .perTick(true)
+    .inputEU(120)
+.buildAndRegister();

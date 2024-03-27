@@ -36,3 +36,8 @@ tile.pluma.bio_fabricator.name=Bio Fabricator
 pluma.bio_fabricator.description=A §eMassive Machine§f capable of §aManipulating and Simulating DNA Structures§f.
 bio_fabricator.name=Bio Fabricator
 multiblocked.recipe_map.bio_fabricator=Bio Fabricator
+
+tile.pluma.fossil_ore_processing_plant.name=Fossil Ore Processing Plant
+pluma.fossil_ore_processing_plant.description=A §eMassive Machine§f capable of §aExtracting Materials§f out of §6Fossilized Ores§f.
+fossil_ore_processing_plant.name=Fossil Ore Processing Plant
+multiblocked.recipe_map.fossil_ore_processing_plant=Fossil Ore Processing Plant
