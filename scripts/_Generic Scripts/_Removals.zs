@@ -523,6 +523,9 @@ var ItensRemovidos as IItemStack[] = [
 <pyrotech:material:51>,
 <pyrotech:crafting_table_template>,
 <pyrotech:furnace_core>,
+<pyrotech:mulch>,
+<pyrotech:mechanical_mulch_spreader>,
+<pyrotech:compost_bin>,
 
 //Forge Microblocks
 <microblockcbe:stone_rod>,

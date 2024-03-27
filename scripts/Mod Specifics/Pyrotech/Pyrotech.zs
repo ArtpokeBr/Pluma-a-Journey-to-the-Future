@@ -245,7 +245,7 @@ craft.make(<pyrotech:brick_sawmill>, ["pretty",
 });
 
 //Compostic Bin Tooltip Help
-<pyrotech:compost_bin>.addTooltip(format.white("Place ") + format.green("Organic Items/Foods ") + format.white("and ") + format.blue("Water ") + format.white("to make ") + format.yellow("Mulch."));
+//<pyrotech:compost_bin>.addTooltip(format.white("Place ") + format.green("Organic Items/Foods ") + format.white("and ") + format.blue("Water ") + format.white("to make ") + format.yellow("Mulch."));
 
 # [Barrel] from [Wooden Barrel][+2]
 recipes.removeByRecipeName("pyrotech:tech/basic/barrel");

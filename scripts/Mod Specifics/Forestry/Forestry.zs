@@ -453,12 +453,13 @@ craft.make(<forestry:raintank>, ["pretty",
 # [Moistener] from [Impregnated Chassis][+2]
 recipes.removeByRecipeName("forestry:moistener");
 craft.make(<forestry:moistener>, ["pretty",
-  "# ⌂ #",
-  "# I #",
-  "# ⌂ #"], {
-  "#": <ore:plankTreatedWood>,        # Treated Wood Planks
-  "⌂": <ore:casingBronze>,            # Bronze Casing
-  "I": <forestry:impregnated_casing>, # Impregnated Chassis
+  "# □ #",
+  "L ≢ L",
+  "# □ #"], {
+  "#": <ore:plankTreatedWood>,   # Treated Wood Plank
+  "□": <ore:plateBronze>,        # Bronze Plate
+  "L": <minecraft:ladder>,       # Ladder
+  "≢": <ore:frameGtTreatedWood>, # Treated Wood Frame Box
 });
 
 # [Fermenter] from [Impregnated Chassis][+3]

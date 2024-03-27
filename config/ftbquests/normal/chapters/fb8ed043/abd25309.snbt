@@ -1,38 +1,36 @@
 {
 	title: "Let's Make Mulch!",
-	icon: "pyrotech:mulch",
 	x: 17.0d,
 	y: -1.5d,
 	shape: "rsquare",
 	text: [
 		"For future §6Leather Processing§f, you'll need §3Tannin§f wich itself needs §eMulch§f!",
 		"",
-		"And you have §aTwo Options§f for this.",
+		"And for that, you'll need a very specific machine from §3Forestry§f!",
 		"",
-		"- §3Forestry Mulch§f can easily automated with a §eMoistener§f.",
+		"► So Let's make a §6Moistener§f! §6This Special Device§f should accept a §eGrain§f, §2Seeds§f and some §9Water§f to make some §6Mulch§f!",
 		"",
-		"- But for now, you'll need §bPyrotech's Mulch§f!",
+		"• You can easily §aconsult JEI for the recipes§f, but essentially §eyou can use any \"Wheat alike\" Crop§f.",
 		"",
-		"• And for that, you'll need first to make a §eComposting Bin§f.",
-		"",
-		"• Fill it with any §2Organic Material/Food§f and also fill it with some §9Water§f, overtime this will produce §3Mulch§f!"
+		"• And Don't forget that §c§nyou need something at the right slot§f, and for that you have some options, but I recommend either §aSeeds or Leaves§f."
 	],
 	dependencies: [
-		"df224012"
+		"df224012",
+		"67345fdc"
 	],
-	min_width: 250,
+	min_width: 300,
 	tasks: [{
 		uid: "5ede0300",
 		type: "item",
 		items: [{
-			item: "pyrotech:mulch"
+			item: "forestry:mulch"
 		}]
 	},
 	{
 		uid: "ee91158d",
 		type: "item",
 		items: [{
-			item: "pyrotech:compost_bin"
+			item: "forestry:moistener"
 		}]
 	}],
 	rewards: [{

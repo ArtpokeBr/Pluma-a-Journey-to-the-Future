@@ -361,7 +361,7 @@ craft.make(<industrialforegoing:sewage_composter_solidifier>, ["pretty",
   "H M H",
   "□ o □"], {
   "R": <ore:itemRubber>,            # Industrial Plastic
-  "C": <pyrotech:compost_bin>,      # Compost Bin
+  "C": <forestry:moistener>,        # Forestry Moistener
   "H": <gregtech:meta_item_1:129>,  # HV Electric Motor
   "M": <teslacorelib:machine_case>, # Machine Case
   "□": <ore:plateStainlessSteel>,   # Stainless Steel Plate
