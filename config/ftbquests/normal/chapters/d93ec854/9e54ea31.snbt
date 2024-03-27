@@ -40,7 +40,7 @@
 		uid: "eb861681",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1213"
+			item: "multiblocked:energy_input"
 		}]
 	},
 	{

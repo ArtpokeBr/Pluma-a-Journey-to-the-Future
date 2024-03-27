@@ -1,6 +1,6 @@
 {
 	title: "Bio Fabricating Mobs!",
-	icon: "gregtech:machine 1 32000",
+	icon: "pluma:bio_fabricator",
 	x: 12.5d,
 	y: -2.5d,
 	description: "Just Like DML, but for Passive Mobs!",
@@ -24,7 +24,7 @@
 		uid: "e6106ecf",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 32000"
+			item: "pluma:bio_fabricator"
 		}]
 	},
 	{
@@ -33,7 +33,7 @@
 		items: [{
 			item: "mia:armored_glass"
 		}],
-		count: 8L
+		count: 9L
 	},
 	{
 		uid: "67457d8f",
@@ -41,77 +41,38 @@
 		items: [{
 			item: "contenttweaker:modular_casing"
 		}],
-		count: 21L
+		count: 20L
 	},
 	{
 		uid: "3beecf6c",
 		type: "item",
-		title: "An HV or EV Energy Hatch",
+		title: "An Energy Hatch",
 		items: [{
-			item: "gregtech:machine 1 1213"
-		},
-		{
-			item: "gregtech:machine 1 1214"
+			item: "multiblocked:energy_input"
 		}]
 	},
 	{
 		uid: "8dd3a3a7",
 		type: "item",
-		title: "An ULV up to EV Input Bus",
+		title: "An Input Bus",
 		items: [{
-			item: "gregtech:machine 1 1150"
-		},
-		{
-			item: "gregtech:machine 1 1151"
-		},
-		{
-			item: "gregtech:machine 1 1152"
-		},
-		{
-			item: "gregtech:machine 1 1153"
-		},
-		{
-			item: "gregtech:machine 1 1154"
+			item: "multiblocked:item_input"
 		}]
 	},
 	{
 		uid: "850df66a",
 		type: "item",
-		title: "An ULV up to EV Output Bus",
+		title: "An Output Bus",
 		items: [{
-			item: "gregtech:machine 1 1165"
-		},
-		{
-			item: "gregtech:machine 1 1166"
-		},
-		{
-			item: "gregtech:machine 1 1167"
-		},
-		{
-			item: "gregtech:machine 1 1168"
-		},
-		{
-			item: "gregtech:machine 1 1169"
+			item: "multiblocked:item_output"
 		}]
 	},
 	{
 		uid: "534e8c33",
 		type: "item",
-		title: "An ULV up to EV Input Hatch",
+		title: "An Fluid Input Hatch",
 		items: [{
-			item: "gregtech:machine 1 1180"
-		},
-		{
-			item: "gregtech:machine 1 1181"
-		},
-		{
-			item: "gregtech:machine 1 1182"
-		},
-		{
-			item: "gregtech:machine 1 1183"
-		},
-		{
-			item: "gregtech:machine 1 1184"
+			item: "multiblocked:fluid_input"
 		}],
 		count: 2L
 	}],

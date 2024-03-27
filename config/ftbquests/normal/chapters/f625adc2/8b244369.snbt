@@ -9,7 +9,7 @@
 		"",
 		"- Use a §bManapool§f in the middle block to store §bmana§f.",
 		"",
-		"- Use any §9Tank§f in the back to store §9fluids§f."
+		"- Use a §9Fluid Input Hatch§f in the back to store §9fluids§f."
 	],
 	dependencies: [
 		"d21c04b2"
