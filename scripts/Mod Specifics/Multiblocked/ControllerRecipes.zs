@@ -62,9 +62,9 @@ recipes.addShaped(
 );
 
 // Fossil Ore Processing Plant Controller
-<pluma:fossil_processing_plant>.addTooltip("A §eMassive Machine§f capable of §aExtracting Materials§f out of §6Fossilized Ores§f.");
+<pluma:fossil_ore_processing_plant>.addTooltip("A §eMassive Machine§f capable of §aExtracting Materials§f out of §6Fossilized Ores§f.");
 recipes.addShaped(
-    <pluma:fossil_processing_plant>,
+    <pluma:fossil_ore_processing_plant>,
     [
         [<ore:cableGtSingleEnergeticAlloy>, <ore:circuitHv>, <ore:cableGtSingleEnergeticAlloy>],
         [<ore:circuitHv>, <contenttweaker:modular_casing:0>, <ore:circuitHv>],
