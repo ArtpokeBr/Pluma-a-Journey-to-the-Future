@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "location": "pluma:bio_fabricator",
+  "traits": {
+    "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 79,
+        "y": 71,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/modular_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_3",
+        "formedAsController": true,
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/modular_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_3",
+        "formedAsController": true,
+        "type": "gregtech"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/modular_casing_ctm",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_3",
+        "type": "gregtech"
+      },
+      "lightEmissive": 8,
+      "parent": "idle",
+      "sound": {
+        "sound": "quark:item.soul_powder.spawn",
+        "loop": true,
+        "delay": 4,
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "bio_fabricator",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "ACA",
+        "ACA",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "CDC",
+        "CDC",
+        "ACA"
+      ],
+      [
+        "A@A",
+        "ACA",
+        "ACA",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "contenttweaker:modular_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "pluma:bio_fabricator",
+        "type": "component"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "mia:armored_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "fossil:cultivate",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "fluid_input": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "Energy": {
+        "blocks": [
+          {
+            "id": "multiblocked:energy_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "item_input": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "item_output": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_output"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A",
+        "item_input",
+        "item_output",
+        "fluid_input",
+        "Energy"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ]
+    }
+  }
+}

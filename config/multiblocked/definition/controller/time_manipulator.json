@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "location": "mbd:time_manipulator",
+  "version": 2,
+  "location": "pluma:time_manipulator",
   "traits": {
     "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
     "item": [
@@ -27,11 +27,10 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "contenttweaker:vanadiumsteel_casing",
-          "meta": 0
-        },
-        "type": "blockstate"
+        "baseTexture": "multiblocked:blocks/casing/vanadiumsteel_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_3",
+        "formedAsController": true,
+        "type": "gregtech"
       }
     },
     "idle": {
@@ -168,7 +167,7 @@
         "type": "states"
       },
       "controller": {
-        "location": "mbd:time_manipulator",
+        "location": "pluma:time_manipulator",
         "type": "component"
       },
       "B": {
@@ -228,13 +227,55 @@
       "any": {
         "type": "any"
       },
-      "items": {
-        "capability": "item",
-        "type": "capability"
+      "item_input": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
       },
-      "fluids": {
-        "capability": "fluid",
-        "type": "capability"
+      "item_output": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_output"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
+      },
+      "fluid_input": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "fluid_output": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
       },
       "energy": {
         "capability": "gtce_energy",
@@ -253,8 +294,10 @@
       ],
       "B": [
         "B",
-        "items",
-        "fluids",
+        "item_input",
+        "item_output",
+        "fluid_input",
+        "fluid_output",
         "energy"
       ],
       "C": [

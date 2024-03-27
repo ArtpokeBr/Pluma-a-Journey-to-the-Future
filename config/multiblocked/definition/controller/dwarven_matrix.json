@@ -1,32 +1,57 @@
 {
-  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
-  "consumeCatalyst": false,
-  "location": "mbd:dwarven_matrix",
+  "version": 2,
+  "location": "pluma:dwarven_matrix",
   "traits": {
     "background": "multiblocked:textures/gui/fluid_hatch_gui.png"
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "embers:archaic_edge",
-      "meta": 0
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/archaic_edge",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_4",
+        "upTexture": "multiblocked:blocks/casing/archaic_flat",
+        "downTexture": "multiblocked:blocks/casing/archaic_flat",
+        "formedAsController": true,
+        "type": "gregtech"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/archaic_edge",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_4",
+        "upTexture": "multiblocked:blocks/overlay/overlay_top_4",
+        "type": "gregtech"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/archaic_edge",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_4",
+        "upTexture": "multiblocked:blocks/overlay/overlay_top_4_active",
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "baseTexture": "multiblocked:blocks/casing/archaic_edge",
-    "frontTexture": "multiblocked:blocks/overlay/overlay_front_4",
-    "upTexture": "multiblocked:blocks/overlay/overlay_top_4",
-    "type": "gregtech"
-  },
-  "workingRenderer": {
-    "baseTexture": "multiblocked:blocks/casing/archaic_edge",
-    "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_4",
-    "upTexture": "multiblocked:blocks/overlay/overlay_top_4_active",
-    "type": "gregtech"
-  },
-  "isOpaqueCube": true,
+  "recipeMap": "dwarven_matrix",
+  "catalyst": "{id:\"minecraft:air\",Count:1,Damage:0s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -284,9 +309,31 @@
         ],
         "type": "states"
       },
-      "Fluids": {
-        "capability": "fluid",
-        "type": "capability"
+      "fluid_input": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "fluid_output": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
       },
       "S": {
         "states": [
@@ -342,16 +389,36 @@
         ],
         "type": "states"
       },
-      "Items": {
-        "capability": "item",
-        "type": "capability"
+      "item_input": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "item_output": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_output"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
       },
       "Embers": {
         "capability": "ember",
         "type": "capability"
       },
       "controller": {
-        "location": "mbd:dwarven_matrix",
+        "location": "pluma:dwarven_matrix",
         "type": "component"
       },
       "any": {
@@ -401,7 +468,8 @@
         "J"
       ],
       "K": [
-        "Items",
+        "item_input",
+        "item_output",
         "Eblock"
       ],
       "L": [
@@ -423,7 +491,8 @@
         "any"
       ],
       "Q": [
-        "Fluids",
+        "fluid_input",
+        "fluid_output",
         "Eblock"
       ],
       "R": [
@@ -457,6 +526,5 @@
         "any"
       ]
     }
-  },
-  "recipeMap": "dwarven_matrix"
+  }
 }

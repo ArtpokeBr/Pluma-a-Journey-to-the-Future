@@ -1,0 +1,250 @@
+{
+  "version": 2,
+  "location": "pluma:ender_molecular_manipulator",
+  "traits": {
+    "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 71,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/ptfe_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_5",
+        "formedAsController": true,
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/ptfe_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_5",
+        "type": "gregtech"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/ptfe_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_5",
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "ender_molecular_manipulator",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "CCC",
+        "CCC",
+        "CCC",
+        "AAA"
+      ],
+      [
+        "DEF",
+        "CGC",
+        "CHC",
+        "CGC",
+        "AEA"
+      ],
+      [
+        "A@A",
+        "CCC",
+        "CCC",
+        "CCC",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "pluma:ender_molecular_manipulator",
+        "type": "component"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "thermalfoundation:glass_alloy",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "gregtech:multiblock_casing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_compressed_100",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "actuallyadditions:block_misc",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "fluid_input": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "fluid_output": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
+      },
+      "Energy": {
+        "capability": "gtce_energy",
+        "type": "capability"
+      },
+      "item_input": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "item_output": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_output"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A",
+        "fluid_input",
+        "fluid_output",
+        "Energy",
+        "item_input",
+        "item_output"
+      ],
+      "B": [
+        "A",
+        "fluid_input",
+        "fluid_output",
+        "Energy",
+        "item_input",
+        "item_output"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "A"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "A",
+        "fluid_input",
+        "fluid_output",
+        "Energy",
+        "item_input",
+        "item_output"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ]
+    }
+  }
+}

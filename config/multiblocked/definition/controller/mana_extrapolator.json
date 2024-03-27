@@ -1,7 +1,6 @@
 {
-  "catalyst": "{id:\"minecraft:air\",Count:1b,Damage:0s}",
-  "consumeCatalyst": false,
-  "location": "mbd:mana_extrapolator",
+  "version": 2,
+  "location": "pluma:mana_extrapolator",
   "traits": {
     "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
     "item": [
@@ -14,26 +13,51 @@
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "baseTexture": "multiblocked:blocks/casing/castleblock_brick",
-    "frontTexture": "multiblocked:blocks/overlay/overlay_front_2",
-    "type": "gregtech"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "formedRenderer": {
-    "baseTexture": "multiblocked:blocks/casing/castleblock_brick",
-    "frontTexture": "multiblocked:blocks/overlay/overlay_front_2",
-    "formedAsController": true,
-    "type": "gregtech"
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/castleblock_brick",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_2",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/castleblock_brick",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_2",
+        "formedAsController": true,
+        "type": "gregtech"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/castleblock_brick",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_2",
+        "formedAsController": true,
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "workingRenderer": {
-    "baseTexture": "multiblocked:blocks/casing/castleblock_brick",
-    "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_2",
-    "formedAsController": true,
-    "type": "gregtech"
-  },
-  "isOpaqueCube": true,
+  "recipeMap": "mana_extrapolator",
+  "catalyst": "{id:\"minecraft:air\",Count:1,Damage:0s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "FRONT",
@@ -104,7 +128,7 @@
         "type": "states"
       },
       "controller": {
-        "location": "mbd:mana_extrapolator",
+        "location": "pluma:mana_extrapolator",
         "type": "component"
       },
       "B": {
@@ -152,9 +176,31 @@
         ],
         "type": "states"
       },
-      "Fluid": {
-        "capability": "fluid",
-        "type": "capability"
+      "fluid_input": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "fluid_output": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 0,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
       },
       "H": {
         "states": [
@@ -213,7 +259,8 @@
         "F"
       ],
       "G": [
-        "Fluid"
+        "fluid_input",
+        "fluid_output"
       ],
       "H": [
         "H"
@@ -228,6 +275,5 @@
         "K"
       ]
     }
-  },
-  "recipeMap": "mana_extrapolator"
+  }
 }

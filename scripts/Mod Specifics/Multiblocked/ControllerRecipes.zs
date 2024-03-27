@@ -49,3 +49,14 @@ recipes.addShaped(
         [<ore:cableGtSingleCopper>,         <ore:circuitMv>,         <ore:cableGtSingleCopper>]
     ]
 );
+
+// Bio Fabricator Controller
+<pluma:bio_fabricator>.addTooltip("A §eMassive Machine§f capable of §aManipulating and Simulating DNA Structures§f.");
+recipes.addShaped(
+    <pluma:bio_fabricator>,
+    [
+        [<ore:cableGtSingleVibrantAlloy>,         <ore:circuitEv>,         <ore:cableGtSingleVibrantAlloy>],
+        [<gendustry:env_processor>, <contenttweaker:modular_casing>,  <gendustry:genetics_processor>],
+        [<ore:cableGtSingleVibrantAlloy>,         <ore:circuitEv>,         <ore:cableGtSingleVibrantAlloy>]
+    ]
+);

@@ -20,7 +20,7 @@ import crafttweaker.entity.IEntity;
 import crafttweaker.player.IPlayer;
 import crafttweaker.util.IRandom;
 
-val definition = MBDRegistry.getDefinition("mbd:dwarven_matrix") as ControllerDefinition;
+val definition = MBDRegistry.getDefinition("pluma:dwarven_matrix") as ControllerDefinition;
 
 definition.updateFormed = function (controller as Controller) {
     if (!isNull(controller.recipeLogic) && controller.recipeLogic.isWorking) {
