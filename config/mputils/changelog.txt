@@ -17,6 +17,7 @@
 
 - Removed Caliper (Only a Dev Mod, actually impacts performance)
 - Removed Blood Moon (After some consideration and feedback, the pack is better without it)
+- Removed Multiblock Tweaker (Everything Moved to Multiblock'd)
 
 §2§lFixes§r§f:
 
@@ -31,6 +32,7 @@
 - Added a Quest about the Gregtech's Machine Cover.
 - Removed Unused Multiblocked Folder.
 - Added a New Quest Chapter about Farming and Food Related.
+- Ported ALL Multiblocks added with the MultiblockTweaker Mod to Multiblock'd (Huge! make sure to check your Multiblocks!)
 
 - Tinkers Scripting Rework:
     ~ Removed Material Osmiridium
