@@ -1,0 +1,6 @@
+{
+  "name": "large_phytogenic_insolator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": []
+}

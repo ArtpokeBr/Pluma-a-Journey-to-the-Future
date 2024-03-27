@@ -41,3 +41,8 @@ tile.pluma.fossil_ore_processing_plant.name=Fossil Ore Processing Plant
 pluma.fossil_ore_processing_plant.description=A §eMassive Machine§f capable of §aExtracting Materials§f out of §6Fossilized Ores§f.
 fossil_ore_processing_plant.name=Fossil Ore Processing Plant
 multiblocked.recipe_map.fossil_ore_processing_plant=Fossil Ore Processing Plant
+
+tile.pluma.large_phytogenic_insolator.name=Large Phytogenic Insolator
+pluma.large_phytogenic_insolator.description=A §eMassive Machine§f capable of §aCultivating Crops§f very §6quickly and efficiently§f.
+large_phytogenic_insolator.name=Large Phytogenic Insolator
+multiblocked.recipe_map.large_phytogenic_insolator=Large Phytogenic Insolator

@@ -72,3 +72,11 @@ recipes.addShaped(
     ]
 
 );
+
+// Large Phytogenic Insolator Controller
+<pluma:large_phytogenic_insolator>.addTooltip("A §eMassive Machine§f capable of §aCultivating Crops§f very §6quickly and efficiently§f.");
+recipes.addShaped("large_phytogenic_insolator_controller", <pluma:large_phytogenic_insolator>, [
+    [<actuallyadditions:block_greenhouse_glass>, <randomthings:naturecore>, <actuallyadditions:block_greenhouse_glass>],
+    [<ore:circuitEv>, <thermalexpansion:machine:4>, <ore:circuitEv>],
+    [<ore:lightPlateWatertightSteel>, <ore:heavyPlateWatertightSteel>, <ore:lightPlateWatertightSteel>]
+]);

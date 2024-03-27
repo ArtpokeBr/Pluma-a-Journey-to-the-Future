@@ -1,0 +1,285 @@
+{
+  "version": 2,
+  "location": "pluma:large_phytogenic_insolator",
+  "traits": {
+    "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 79,
+        "y": 71,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/watertight_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_1",
+        "formedAsController": true,
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/watertight_casing",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/casing/watertight_casing",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active_1",
+        "formedAsController": true,
+        "type": "gregtech"
+      },
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "gregtech:tick.miner",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "large_phytogenic_insolator",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAAAA",
+        " ABA ",
+        " ACA ",
+        " ACA ",
+        " ACA ",
+        "AABAA",
+        " AAA "
+      ],
+      [
+        "AAAAA",
+        "ADDDA",
+        "A   A",
+        "A   A",
+        "A   A",
+        "ACCCA",
+        "A   A"
+      ],
+      [
+        "AAAAA",
+        "BDDDB",
+        "C   C",
+        "C E C",
+        "C   C",
+        "BCFCB",
+        "A   A"
+      ],
+      [
+        "AAAAA",
+        "ADDDA",
+        "A   A",
+        "A   A",
+        "A   A",
+        "ACCCA",
+        "A   A"
+      ],
+      [
+        "AAAAA",
+        " A@A ",
+        " ACA ",
+        " ACA ",
+        " ACA ",
+        "AABAA",
+        " AAA "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gcym:large_multiblock_casing",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "pluma:large_phytogenic_insolator",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "botania:biomestoneb",
+            "meta": 12
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:elfglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "randomthings:fertilizeddirt",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "botania:pylon",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gregtech:lime_lamp",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "fluid_input": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "minCount": 2,
+        "maxCount": 2,
+        "previewCount": 2,
+        "io": "IN"
+      },
+      "Energy": {
+        "blocks": [
+          {
+            "id": "multiblocked:energy_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "item_input": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_input"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "item_output": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_output"
+          }
+        ],
+        "type": "blocks",
+        "minCount": 1,
+        "maxCount": 2,
+        "previewCount": 1,
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A",
+        "item_input",
+        "item_output",
+        "fluid_input",
+        "Energy"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}
