@@ -540,14 +540,12 @@ function unify (ore as IOreDictEntry, p as int) {
 
             if (item.definition.owner != mods[pos]) {
                 ore.remove(item);
-                JEI.removeAndHide(item);
                 
                 val actualItem = (item.damage == 0 && item.isDamageable)
                 ? item.anyDamage()
                 : item;
-                furnace.remove(<*>, actualItem);
-                furnace.remove(actualItem);
-                recipes.remove(actualItem);
+                JEI.removeAndHide(item);
+                JEI.removeAndHide(actualItem);
             }
         }
     } else if (pos < size) {

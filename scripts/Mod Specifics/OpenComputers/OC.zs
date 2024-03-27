@@ -9,7 +9,6 @@ var ItensRemovidos as IItemStack[] = [
 <opencomputers:material:29>
 ];
 for item in ItensRemovidos {
-	mods.jei.JEI.removeAndHide(item);
 
 	var ores = item.ores;
 	if (!isNull(ores)) {
@@ -21,9 +20,8 @@ for item in ItensRemovidos {
 	val actualItem = (item.damage == 0 && item.isDamageable)
         ? item.anyDamage()
         : item;
-    furnace.remove(<*>, actualItem);
-    furnace.remove(actualItem);
-    recipes.remove(actualItem);
+    mods.jei.JEI.removeAndHide(item);
+    mods.jei.JEI.removeAndHide(actualItem);
 }
 
 //Block of Chameleon
