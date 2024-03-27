@@ -15,6 +15,9 @@
 - Added ManaVisualizer
 - Added Better FTBQuest Popup
 
+- Removed Caliper (Only a Dev Mod, actually impacts performance)
+- Removed Blood Moon (After some consideration and feedback, the pack is better without it)
+
 §2§lFixes§r§f:
 
 - Fixed a Recipe Conflict in HarvestCraft (Schnitzel <-> Quesadilha).
