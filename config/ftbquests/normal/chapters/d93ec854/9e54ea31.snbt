@@ -25,7 +25,7 @@
 		uid: "f5ca03d8",
 		type: "item",
 		items: [{
-			item: "mbd:time_manipulator"
+			item: "pluma:time_manipulator"
 		}]
 	},
 	{

@@ -1,6 +1,6 @@
 {
 	title: "A Huge Ancient Multiblock Structure",
-	icon: "mbd:dwarven_matrix",
+	icon: "pluma:dwarven_matrix",
 	x: 13.0d,
 	y: 4.0d,
 	description: "The Dwarven Matrix!",
@@ -24,7 +24,7 @@
 		uid: "040981ec",
 		type: "item",
 		items: [{
-			item: "mbd:dwarven_matrix"
+			item: "pluma:dwarven_matrix"
 		}]
 	},
 	{

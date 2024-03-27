@@ -1,6 +1,6 @@
 {
 	title: "Improving your Creosote/Coke Production!",
-	icon: "gregtech:machine 1 32002",
+	icon: "pluma:improved_coke_oven",
 	x: -4.5d,
 	y: -13.5d,
 	description: "With a... you've guess it... Improved Coke Oven!",
@@ -8,8 +8,6 @@
 		"This §2Multiblock Structure§f can be a really good improvement to your current setup of §6Coke Oven's§f",
 		"",
 		"- It may actually stay §brelevant trough the Pack§f, since it has 1 special recipe, §3Charcoal§f → §9Coke§f.",
-		"",
-		"- Remember to §cnot obstruct§f the §6Muffling Hatch§f and also to §cprovide§f §6Maintenance§f to this machine when needed.",
 		"",
 		"~ It may be a wise decision to set up §23 of this Multiblock§f (Sharing walls of course) and §e§lOVERCLOCK§r§f them to §6MV§f in order to §9fully automate§f §3Steam§f!"
 	],
@@ -21,21 +19,7 @@
 		uid: "e4acb14d",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 32002"
-		}]
-	},
-	{
-		uid: "439dde00",
-		type: "item",
-		title: "An LV up to HV Muffling Hatch",
-		items: [{
-			item: "gregtech:machine 1 1657"
-		},
-		{
-			item: "gregtech:machine 1 1658"
-		},
-		{
-			item: "gregtech:machine 1 1659"
+			item: "pluma:improved_coke_oven"
 		}]
 	},
 	{

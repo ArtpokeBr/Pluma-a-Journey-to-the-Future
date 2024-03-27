@@ -1,6 +1,6 @@
 {
 	title: "A Mana Extrapolator!",
-	icon: "mbd:mana_extrapolator",
+	icon: "pluma:mana_extrapolator",
 	x: -1.0d,
 	y: -7.0d,
 	description: "Time to Convert Mana!",
@@ -19,7 +19,7 @@
 		uid: "d26e34f8",
 		type: "item",
 		items: [{
-			item: "mbd:mana_extrapolator"
+			item: "pluma:mana_extrapolator"
 		}]
 	},
 	{
