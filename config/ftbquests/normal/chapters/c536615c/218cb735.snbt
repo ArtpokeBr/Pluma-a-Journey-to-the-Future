@@ -9,7 +9,7 @@
 		"",
 		"- It may actually stay §brelevant trough the Pack§f, since it has 1 special recipe, §3Charcoal§f → §9Coke§f.",
 		"",
-		"~ It may be a wise decision to set up §23 of this Multiblock§f (Sharing walls of course) and §e§lOVERCLOCK§r§f them to §6MV§f in order to §9fully automate§f §3Steam§f!"
+		"§8§o~ 1 of this Multiblock should be enough to power a Bronze Boiler! just make sure that you have a decent wood production tho.§f"
 	],
 	dependencies: [
 		"7e379f4f"
@@ -25,43 +25,25 @@
 	{
 		uid: "eccc8a6e",
 		type: "item",
-		title: "An ULV up to MV Output Hatch",
+		title: "An Input Bus",
 		items: [{
-			item: "gregtech:machine 1 1195"
-		},
-		{
-			item: "gregtech:machine 1 1196"
-		},
-		{
-			item: "gregtech:machine 1 1197"
+			item: "multiblocked:item_input"
 		}]
 	},
 	{
 		uid: "da038c92",
 		type: "item",
-		title: "An ULV up to MV Output Bus",
+		title: "An Output Bus",
 		items: [{
-			item: "gregtech:machine 1 1165"
-		},
-		{
-			item: "gregtech:machine 1 1166"
-		},
-		{
-			item: "gregtech:machine 1 1167"
+			item: "multiblocked:item_output"
 		}]
 	},
 	{
 		uid: "043e1c9d",
 		type: "item",
-		title: "An ULV up to MV Input Bus",
+		title: "Fluid Output Hatch",
 		items: [{
-			item: "gregtech:machine 1 1150"
-		},
-		{
-			item: "gregtech:machine 1 1151"
-		},
-		{
-			item: "gregtech:machine 1 1152"
+			item: "multiblocked:fluid_output"
 		}]
 	},
 	{
@@ -83,14 +65,8 @@
 	{
 		uid: "13f9941a",
 		type: "item",
-		title: "An ULV up to MV Energy Hatch",
+		title: "An Energy Input Hatch",
 		items: [{
-			item: "gregtech:machine 1 1210"
-		},
-		{
-			item: "gregtech:machine 1 1211"
-		},
-		{
 			item: "gregtech:machine 1 1212"
 		}]
 	},

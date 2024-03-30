@@ -1,8 +1,8 @@
 {
 	title: "Ramping up your Steam Production!",
 	icon: "gregtech:machine 1 1013",
-	x: -4.5d,
-	y: -14.5d,
+	x: -4.036904761904772d,
+	y: -15.557142857142864d,
 	description: "A Huge Bronze Boiler!",
 	text: [
 		"This §6Boiler§f has a true potential, it can produce up to §9800L/t§f when working at §e100% Efficiency§f.",
@@ -13,15 +13,12 @@
 		"",
 		"- Also, struggling to keep it working? consider §ethrottling§f down the §6Boiler§f.",
 		"",
-		"- §4§lALWAYS PROVIDE IT WITH WATER!§r§f If you provide §eFuel§f without §bWater§f inside, §c§lKABOOM!§r§f",
-		"",
-		"~ Remember those 3 recommended §eOverclocked§f §6Improved Coke oven's§f from the previous quest?",
-		"",
-		"If you pipe out §2Charcoal's§f and the §9Creosote§f out of them, it will be enough to maintain §61 Bronze Boiler§f to §e100% Efficiency§f."
+		"- §4§lALWAYS PROVIDE IT WITH WATER!§r§f If you provide §eFuel§f without §bWater§f inside, §c§lKABOOM!§r§f"
 	],
 	dependencies: [
 		"218cb735"
 	],
+	size: 1.5d,
 	min_width: 300,
 	tasks: [{
 		uid: "0068fad5",
