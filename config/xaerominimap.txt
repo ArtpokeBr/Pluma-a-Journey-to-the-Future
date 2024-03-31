@@ -42,7 +42,7 @@ waypointsDistanceMin:0.0
 defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
 arrowScale:1.5000000223517418
-arrowColour:2
+arrowColour:1
 smoothDots:true
 worldMap:true
 terrainDepth:true

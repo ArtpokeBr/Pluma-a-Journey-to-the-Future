@@ -67,7 +67,7 @@
 		type: "item",
 		title: "An Energy Input Hatch",
 		items: [{
-			item: "gregtech:machine 1 1212"
+			item: "multiblocked:energy_input"
 		}]
 	},
 	{
