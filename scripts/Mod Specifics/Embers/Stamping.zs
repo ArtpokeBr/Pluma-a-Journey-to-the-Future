@@ -9,8 +9,8 @@ import crafttweaker.item.IItemStack;
 
 
 var StampingRemovals as IItemStack[] = [
-<embers:plate_iron>,
-<embers:plate_gold>,
+// <embers:plate_iron>,
+// <embers:plate_gold>,
 <embers:plate_lead>,
 <embers:plate_silver>,
 <embers:plate_copper>,
