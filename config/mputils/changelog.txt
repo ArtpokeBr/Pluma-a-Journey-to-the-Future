@@ -15,9 +15,10 @@
 - Updated Embers
 - Updated Craftpresence
 - Updated Alfheim
+- Updated HammerLib
 
 - Added ManaVisualizer
-- Added Better FTBQuest Popup
+- Added VintageFix
 
 - Removed Caliper (Only a Dev Mod, actually impacts performance)
 - Removed Blood Moon (After some consideration and feedback, the pack is better without it)
@@ -38,6 +39,7 @@
 - Removed Unused Multiblocked Folder.
 - Added a New Quest Chapter about Farming and Food Related.
 - Ported ALL Multiblocks added with the MultiblockTweaker Mod to Multiblock'd (Huge! make sure to check your Multiblocks!)
+- Advancements are now Disabled, this should improve a bit of performance and also clean up the logs.
 
 - Tinkers Scripting Rework:
     ~ Removed Material Osmiridium
