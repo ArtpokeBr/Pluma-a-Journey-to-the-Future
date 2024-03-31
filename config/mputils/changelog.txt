@@ -1,5 +1,15 @@
 §a§lVersion Beta§r§f 4.0.2:
 
+BREAKING CHANGES:
+
+The Following Multiblocks will break after this Update:
+- Improved Coke Oven
+- Large Phytogenic Insolator
+- Bio Fabricator
+- Fossil Ore Plant
+
+Please replace the controllers and IOs with the new ones added the @pluma Mod.
+
 §b§lMod Related Changes§r§f:
 
 - Updated EnderStorage Continuation
