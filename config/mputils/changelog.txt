@@ -11,6 +11,10 @@
 - Updated PackageDraconic
 - Updated CensoredASM
 - Updated FluidCrafting Rework
+- Updated Universal Tweaks
+- Updated Embers
+- Updated Craftpresence
+- Updated Alfheim
 
 - Added ManaVisualizer
 - Added Better FTBQuest Popup
@@ -24,6 +28,7 @@
 - Fixed a Recipe Conflict in HarvestCraft (Schnitzel <-> Quesadilha).
 - Fixed Missing Xtone Block Variants Missing Chiseling.
 - Removed Vanilla Stair Maceration Recipes (Allowed a Duplication of Materials).
+- Pyrotech's Mulch is now removed (Forestry's is now the only one), This Fixes a Server Side Issue.
 
 §5§lMiscellaneous§r§f:
 
