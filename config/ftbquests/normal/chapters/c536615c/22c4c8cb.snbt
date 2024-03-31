@@ -1,8 +1,8 @@
 {
 	title: "Ramping up your Steam Production!",
 	icon: "gregtech:machine 1 1013",
-	x: -4.036904761904772d,
-	y: -15.557142857142864d,
+	x: -4.5d,
+	y: -14.7d,
 	description: "A Huge Bronze Boiler!",
 	text: [
 		"This §6Boiler§f has a true potential, it can produce up to §9800L/t§f when working at §e100% Efficiency§f.",
@@ -18,7 +18,6 @@
 	dependencies: [
 		"218cb735"
 	],
-	size: 1.5d,
 	min_width: 300,
 	tasks: [{
 		uid: "0068fad5",

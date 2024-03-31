@@ -1,0 +1,33 @@
+{
+	title: "Congrats! You've fully automated Steam!",
+	icon: "ic2:superheated_steam",
+	x: -4.5d,
+	y: -15.6d,
+	shape: "rsquare",
+	description: "Kinda Expansive but very rewarding right?",
+	text: [
+		"If you've finished this Setup correctly you'll have the following:",
+		"",
+		"- §21§f §6ICO§f making §22§f §3Charcoal's§f out of §3Logs§f every §b1 Seconds§f (§21§f §3Charcoal§f every §b0.5 Seconds§f);",
+		"",
+		"- §22§f §6ICO's§f making §3Coke's§f out of §21§f §3Charcoal§f each, every §b2 Seconds§f;",
+		"",
+		"- A §6LBB§f Running at §2100% Efficiency§f and with some extra §3Coke§f sitting in the §9Input Bus§f;",
+		"",
+		"- You'll also end up with Excess §9Creosote§f so you may use it to also power your boiler, or store it for other processes down the line.",
+		"",
+		"§8§o(ICO = Improved Coke Oven & LBB = Large Bronze Boiler)§r§f",
+		"",
+		"§8§o~ Developer Note: It was really Hard to come with a Balanced way to automate this process this way... FTB Interactions is Weird Sometimes.§r§f"
+	],
+	dependencies: [
+		"22c4c8cb"
+	],
+	size: 0.75d,
+	optional: true,
+	min_width: 370,
+	tasks: [{
+		uid: "4e69a1cd",
+		type: "checkmark"
+	}]
+}

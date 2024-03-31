@@ -38,7 +38,7 @@
         "gtce_energy": [
           {
             "chance": 1.0,
-            "content": 2
+            "content": 12
           }
         ]
       }
@@ -63,7 +63,7 @@
             "chance": 1.0,
             "content": {
               "amount": 1,
-              "ore": "gemCoke"
+              "ore": "gemCharcoal"
             }
           }
         ],
@@ -78,7 +78,7 @@
         "gtce_energy": [
           {
             "chance": 1.0,
-            "content": 2
+            "content": 12
           }
         ]
       }
@@ -118,7 +118,7 @@
         "gtce_energy": [
           {
             "chance": 1.0,
-            "content": 2
+            "content": 12
           }
         ]
       }
@@ -158,7 +158,7 @@
         "gtce_energy": [
           {
             "chance": 1.0,
-            "content": 2
+            "content": 12
           }
         ]
       }
