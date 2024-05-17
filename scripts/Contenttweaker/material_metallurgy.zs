@@ -9,6 +9,7 @@ import mods.gregtech.material.Material;
 import mods.gregtech.material.MaterialRegistry;
 import mods.thaumcraft.Crucible;
 import mods.ic2.MetalFormer;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 val denseMetallurgy as IData[][string] = {
 	"Aluminium" : [ 2, [
@@ -209,10 +210,6 @@ for oreName, iData in denseMetallurgy {
     val cluster = oreDict["cluster" + oreName];
     val crushed = oreDict["crushed" + oreName];
 
-    val ingot = oreDict["ingot" + oreName];
-	val casing = oreDict["casing" + oreName];
-	val plate = oreDict["plate" + oreName];
-
     // Set up a metallurgy oreDict, this syncs to ensure all stone variations have a common dictionary
 	for sourceOre in sourceOreDicts {
 	    print("Source ore: " + sourceOre);
@@ -335,5 +332,81 @@ for plate, casing in casingMaterials {
 		.outputs(casing*2)
 		.EUt(45)
 		.duration(75)
+	.buildAndRegister();
+}
+
+
+var plate_materials  as string[] = [
+    "Aluminium",
+    "Ardite",
+    "Cobalt",
+    "Copper",
+    "Gold",
+    "Iridium",
+    "Iron",
+    "Lead",
+    "Naquadah",
+    "NaquadahEnriched",
+    "Nickel",
+    "Platinum",
+    "Silver",
+    "Titanium",
+    "Tin",
+    "Uranium235",
+    "Vinteum",
+    "Amethyst",
+    "Apatite",
+    "BlueTopaz",
+    "Diamond",
+    "Emerald",
+    "GreenSapphire",
+    "GarnetRed",
+    "GarnetYellow",
+    "Lapis",
+    "Olivine",
+    "Opal",
+    "Quartzite",
+    "Ruby",
+    "Sapphire",
+    "Topaz",
+    "Electrum",
+    "Cupronickel",
+    "Uranium",
+    "BlueAlloy",
+    "VibrantAlloy",
+    "ConstructionAlloy"
+];
+
+for oreName in plate_materials {
+
+	val plate = oreDict["plate" + oreName];
+	val lightPlate = oreDict["lightPlate" + oreName];
+	val heavyPlate = oreDict["heavyPlate" + oreName];
+
+	// Light Plates
+	<recipemap:bender>.recipeBuilder()
+			.inputs(plate*3)
+			.circuit(3)
+			.outputs(lightPlate.firstItem)
+			.EUt(24)
+			.duration(400)
+	.buildAndRegister();
+
+	RecipeBuilder.get("blacksmith")
+	.setShaped([
+		[plate],
+		[plate],
+		[plate]])
+	.addTool(<ore:gtceHardHammers>, 2)
+	.addOutput(lightPlate.firstItem)
+	.create();
+
+	// Heavy Plates
+	<recipemap:bender>.recipeBuilder()
+			.inputs(lightPlate*2)
+			.circuit(3)
+			.outputs(heavyPlate.firstItem)
+			.EUt(24)
+			.duration(800)
 	.buildAndRegister();
 }

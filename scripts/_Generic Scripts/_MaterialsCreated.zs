@@ -62,6 +62,8 @@ import mods.gregtech.material.MaterialRegistry;
 
 <material:iron>.addFlags("GENERATE_DOUBLE_PLATE");
 
+<material:apatite>.addFlags("GENERATE_PLATE");
+
 // ========================= //
 
 // Actually Additions Materials //
