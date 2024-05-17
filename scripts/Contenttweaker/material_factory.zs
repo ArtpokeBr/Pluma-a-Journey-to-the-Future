@@ -697,6 +697,8 @@ val materialColorMap as int[string] = {
     "UnstableMana": 2238330,
     "RedMatter": 9576205,
     "Ferroboron": 2829097,
+    "VibrantAlloy": 10813296,
+    "ConstructionAlloy": 5195095,
 };
 
 global denseOres as string[] = [
@@ -735,6 +737,7 @@ global denseOres as string[] = [
     "Almandine",
     "Amethyst",
     "Apatite",
+    "Topaz",
     "BlueTopaz",
     "Diamond",
     "Emerald",
@@ -754,13 +757,13 @@ global denseOres as string[] = [
     "Ruby",
     "Sapphire",
     "Sodalite",
-    "Spessartine",
-    "Topaz",
+    "Spessartine"
 ];
 
 for material in denseOres {
+    var cleaned_string = material.replaceAll("(.)([A-Z])", "$1 $2");
 	val part = MaterialSystem.getMaterialBuilder()
-		.setName(material)
+		.setName(cleaned_string)
 		.setColor(materialColorMap[material])
 		.build();
 	part.registerParts(["dense_ore", "ore_clump", "ore_crystal", "ore_cluster", "ore_shard"/*, "ore_purified"*/] as string[]);
@@ -826,12 +829,15 @@ global plate_materials  as string[] = [
     "Electrum",
     "Cupronickel",
     "Uranium",
-    "BlueAlloy"
+    "BlueAlloy",
+    "VibrantAlloy",
+    "ConstructionAlloy"
 ];
 
 for material in plate_materials {
+    var cleaned_string = material.replaceAll("(.)([A-Z])", "$1 $2");
 	val part = MaterialSystem.getMaterialBuilder()
-		.setName(material)
+		.setName(cleaned_string)
 		.setColor(materialColorMap[material])
 		.build();
 	part.registerParts(["light_plate", "heavy_plate"] as string[]);
