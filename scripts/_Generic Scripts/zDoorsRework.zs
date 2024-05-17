@@ -9,12 +9,8 @@ import mods.gregtech.recipe.RecipeMap;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Removing Existing ones from the Assembler
-assembler.findRecipe(4, [<minecraft:planks> * 4, <minecraft:trapdoor>], [<liquid:iron> * 16]).remove();
-assembler.findRecipe(4, [<minecraft:planks:1> * 4, <minecraft:trapdoor>], [<liquid:iron> * 16]).remove();
-assembler.findRecipe(4, [<minecraft:planks:2> * 4, <minecraft:trapdoor>], [<liquid:iron> * 16]).remove();
-assembler.findRecipe(4, [<minecraft:planks:3> * 4, <minecraft:trapdoor>], [<liquid:iron> * 16]).remove();
-assembler.findRecipe(4, [<minecraft:planks:4> * 4, <minecraft:trapdoor>], [<liquid:iron> * 16]).remove();
-assembler.findRecipe(4, [<minecraft:planks:5> * 4, <minecraft:trapdoor>], [<liquid:iron> * 16]).remove();
+<recipemap:assembler>.findRecipe(4, [<metaitem:plateWood> * 3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();
+
 
 var WoodDoors as IItemStack[IIngredient] = {
     <minecraft:planks>: <minecraft:wooden_door>,
