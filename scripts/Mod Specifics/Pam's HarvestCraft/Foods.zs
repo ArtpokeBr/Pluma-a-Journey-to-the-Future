@@ -250,7 +250,7 @@ for oreDictEntry, itemStacks in HCJuices {
 	val juiceOutput = itemStacks[0] as IItemStack;
 
     extractor.recipeBuilder()
-    .inputs([oreDictEntry.firstItem])
+    .inputs([oreDictEntry])
     .outputs(juiceOutput)
     .duration(300)
     .EUt(2)
