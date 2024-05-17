@@ -1,3 +1,11 @@
+contenttweaker.part.ore_cluster=Native %s Cluster
+contenttweaker.part.ore_shard=%s Concentrated Blood Shard
+contenttweaker.part.ore_clump=%s Ore Clump
+contenttweaker.part.ore_crystal=%s Crystal
+contenttweaker.part.ore_purified=Purified %s Ore
+contenttweaker.part.light_plate=Light %s Plate
+contenttweaker.part.heavy_plate=Heavy %s Plate
+
 tile.contenttweaker.ie_iron_sheetmetal.name=Iron Sheetmetal
 tile.contenttweaker.ie_aluminium_sheetmetal.name=Aluminium Sheetmetal
 tile.contenttweaker.ie_silver_sheetmetal.name=Silver Sheetmetal

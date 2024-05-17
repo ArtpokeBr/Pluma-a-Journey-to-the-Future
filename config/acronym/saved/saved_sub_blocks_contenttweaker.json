@@ -1,5 +1,68 @@
 {
   "savedSubBlockNames": {
-    "0": {}
+    "0": {
+      "0": "coal_dense_ore",
+      "1": "sodalite_dense_ore",
+      "2": "malachite_dense_ore",
+      "3": "iridium_dense_ore",
+      "4": "nickel_dense_ore",
+      "5": "opal_dense_ore",
+      "6": "pyrolusite_dense_ore",
+      "7": "copper_dense_ore",
+      "8": "cobalt_dense_ore",
+      "9": "sapphire_dense_ore",
+      "10": "quartzite_dense_ore",
+      "11": "saltpeter_dense_ore",
+      "12": "ardite_dense_ore",
+      "13": "tin_dense_ore",
+      "14": "redstone_dense_ore",
+      "15": "graphite_dense_ore"
+    },
+    "1": {
+      "0": "gold_dense_ore",
+      "1": "magnesite_dense_ore",
+      "2": "lepidolite_dense_ore",
+      "3": "silver_dense_ore",
+      "4": "lazurite_dense_ore",
+      "5": "stibnite_dense_ore",
+      "6": "pyrope_dense_ore",
+      "7": "blue_topaz_dense_ore",
+      "8": "spessartine_dense_ore",
+      "9": "lead_dense_ore",
+      "10": "bauxite_dense_ore",
+      "11": "monazite_dense_ore",
+      "12": "ilmenite_dense_ore",
+      "13": "realgar_dense_ore",
+      "14": "naquadah_dense_ore",
+      "15": "vinteum_dense_ore"
+    },
+    "2": {
+      "0": "grossular_dense_ore",
+      "1": "lapis_dense_ore",
+      "2": "tantalite_dense_ore",
+      "3": "uraninite_dense_ore",
+      "4": "platinum_dense_ore",
+      "5": "amethyst_dense_ore",
+      "6": "naquadah_enriched_dense_ore",
+      "7": "chromite_dense_ore",
+      "8": "iron_dense_ore",
+      "9": "topaz_dense_ore",
+      "10": "diamond_dense_ore",
+      "11": "ruby_dense_ore",
+      "12": "olivine_dense_ore",
+      "13": "almandine_dense_ore",
+      "14": "tungstate_dense_ore",
+      "15": "titanium_dense_ore"
+    },
+    "3": {
+      "0": "green_sapphire_dense_ore",
+      "1": "uranium235_dense_ore",
+      "2": "vanadium_magnetite_dense_ore",
+      "3": "aluminium_dense_ore",
+      "4": "apatite_dense_ore",
+      "5": "emerald_dense_ore",
+      "6": "garnet_red_dense_ore",
+      "7": "garnet_yellow_dense_ore"
+    }
   }
 }
