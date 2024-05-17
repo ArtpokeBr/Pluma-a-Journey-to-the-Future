@@ -13,8 +13,8 @@ import mods.bloodmagic.AlchemyArray as AlchemyArray;
     <recipemap:autoclave>.findRecipe(24, [<metaitem:dustCertusQuartz>], [<liquid:distilled_water> * 50]).remove();
     <recipemap:autoclave>.findRecipe(24, [<metaitem:dustCertusQuartz>], [<liquid:water> * 250]).remove();
     // Cinnabar * 1
-    <recipemap:autoclave>.findRecipe(24, [<metaitem:dustCinnabar>], [<liquid:distilled_water> * 50]).remove();
-    <recipemap:autoclave>.findRecipe(24, [<metaitem:dustCinnabar>], [<liquid:water> * 250]).remove();
+    //<recipemap:autoclave>.findRecipe(24, [<metaitem:dustCinnabar>], [<liquid:distilled_water> * 50]).remove();
+    // <recipemap:autoclave>.findRecipe(24, [<metaitem:dustCinnabar>], [<liquid:water> * 250]).remove();
     // Lazurite * 1
     <recipemap:autoclave>.findRecipe(24, [<metaitem:dustLazurite>], [<liquid:distilled_water> * 50]).remove();
     <recipemap:autoclave>.findRecipe(24, [<metaitem:dustLazurite>], [<liquid:water> * 250]).remove();
