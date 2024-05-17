@@ -8,10 +8,6 @@ import mods.gregtech.recipe.RecipeMap;
 //			         																														 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Removing Existing ones from the Assembler
-<recipemap:assembler>.findRecipe(4, [<metaitem:plateWood> * 3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();
-
-
 var WoodDoors as IItemStack[IIngredient] = {
     <minecraft:planks>: <minecraft:wooden_door>,
     <minecraft:planks:1>: <minecraft:spruce_door>,
@@ -175,7 +171,7 @@ for IItemStack, IIngredient in WoodDoors {
 // Iron Door
     recipes.remove(<minecraft:iron_door>);
     recipes.addShaped(<minecraft:iron_door> * 1, [[<ore:plateIron>, <ore:barsIron>, <ore:gtceScrewdrivers>], [<ore:plateIron>, <ore:ringIron>, <ore:screwIron>],[<ore:plateIron>, <ore:plateIron>, <ore:gtceSaws>]]);
-    <recipemap:assembler>.findRecipe(16, [<metaitem:plateIron> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+    <recipemap:assembler>.findRecipe(7, [<metaitem:plateIron> * 4, <minecraft:iron_bars:0>], [<liquid:steel> * 16]).remove();
 
 		assembler.recipeBuilder()
 			.inputs(<ore:plateIron> * 4, <ore:barsIron>)
