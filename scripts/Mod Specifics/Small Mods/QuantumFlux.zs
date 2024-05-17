@@ -25,7 +25,7 @@ chemical_bath.recipeBuilder()
 
 //Industrial Grade Graphite
 chemical_bath.recipeBuilder()
-    .inputs(<ore:orePurifiedGraphite>)
+    .inputs(<ore:denseOreGraphite>)
     .fluidInputs(<liquid:nacre> * 500)
     .outputs(<contenttweaker:industrial_grade_graphite_ore>)
     .duration(100)
