@@ -11,15 +11,15 @@ recipes.addShapeless(<ic2:crop_res:2>, [<gregtech:meta_item_1:1001>]);
 recipes.addShapeless(<gregtech:meta_item_1:1001>, [<ic2:crop_res:2>]);
 
 // Also Reworking Recipe for the GT's Fertilizer using Scrap
-<recipemap:mixer>.findRecipe(30, [<minecraft:dirt:0>, <metaitem:dustWood> * 2, <minecraft:sand:0> * 4], [<liquid:water> * 1000]).remove();
+// <recipemap:mixer>.findRecipe(30, [<minecraft:dirt:0>, <metaitem:dustWood> * 2, <minecraft:sand:0> * 4], [<liquid:water> * 1000]).remove();
 
-mixer.recipeBuilder()
-	.inputs(<ore:dirt>, <ore:dustWood>*2, <ore:sand>*4)
-    .fluidInputs(<liquid:water>*1000)
-    .outputs(<gregtech:meta_item_1:1001>*4)
-	.duration(100)
-	.EUt(30)
-.buildAndRegister();
+// mixer.recipeBuilder()
+// 	.inputs(<ore:dirt>, <ore:dustWood>*2, <ore:sand>*4)
+//     .fluidInputs(<liquid:water>*1000)
+//     .outputs(<gregtech:meta_item_1:1001>*4)
+// 	.duration(100)
+// 	.EUt(30)
+// .buildAndRegister();
 
 mixer.recipeBuilder()
 	.inputs(<ore:dirt>, <ore:itemScrap>*2, <ore:sand>*4)
