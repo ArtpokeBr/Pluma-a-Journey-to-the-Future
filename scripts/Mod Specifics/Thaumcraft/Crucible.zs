@@ -28,22 +28,6 @@ for item in CrucibleRemovals {
 mods.thaumcraft.Crucible.removeRecipe(item);
 }
 
-//Hiding Original Native Clusters
-var HidingThaumClusters as IItemStack[] = [
-<thaumcraft:cluster:6>,
-<thaumcraft:cluster:4>,
-<thaumcraft:cluster>,
-<thaumcraft:cluster:5>,
-<thaumcraft:cluster:7>,
-<thaumcraft:cluster:1>,
-<thaumcraft:cluster:2>,
-<thaumcraft:cluster:3>
-];
-for item in HidingThaumClusters {
-JEI.hide(item);
-furnace.remove(<*>, item);
-}
-
 # [Yellow Nitor]*8 from [Glowstone Nano-Particles][+3]
 mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
 mods.thaumcraft.Crucible.registerRecipe(

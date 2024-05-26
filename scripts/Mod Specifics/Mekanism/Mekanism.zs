@@ -70,48 +70,6 @@ recipes.remove(item);
 item.addTooltip(format.gold("Installers are used to get Factory versions."));
 }
 
-//Removing all Ore Processing Related Items
-var OreProcessingRemoval as IItemStack[] = [
-<mekanism:crystal:6>,
-<mekanism:dirtydust:1>,
-<mekanism:dirtydust>,
-<mekanism:clump:6>,
-<mekanism:clump:5>,
-<mekanism:clump:4>,
-<mekanism:clump:3>,
-<mekanism:clump:2>,
-<mekanism:clump:1>,
-<mekanism:clump>,
-<mekanism:shard:3>,
-<mekanism:shard:2>,
-<mekanism:shard:1>,
-<mekanism:shard>,
-<mekanism:dirtydust:6>,
-<mekanism:dirtydust:5>,
-<mekanism:dirtydust:4>,
-<mekanism:dirtydust:3>,
-<mekanism:dirtydust:2>,
-<mekanism:crystal:5>,
-<mekanism:crystal:4>,
-<mekanism:crystal:3>,
-<mekanism:crystal:2>,
-<mekanism:crystal:1>,
-<mekanism:crystal>,
-<mekanism:shard:6>,
-<mekanism:shard:5>,
-<mekanism:shard:4>
-];
-for item in OreProcessingRemoval {
-mods.jei.JEI.removeAndHide(item);
-	var ores = item.ores;
-	if (!isNull(ores)) {
-		for entry in ores {
-			entry.remove(item);
-		}
-	}
-}
-
-
 // var PurificationChamberClearing as IItemStack[] = [
 // <mekanism:clump:6>,
 // <mekanism:clump:5>,

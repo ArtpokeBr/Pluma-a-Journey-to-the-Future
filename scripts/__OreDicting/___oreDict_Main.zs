@@ -272,6 +272,71 @@ Melter.removeRecipeWithInput(<ic2:dust:2>);
 // Adding GT's Fertilizer to IC2's Fertilizer
 <ore:itemFertilizer>.add(<gregtech:meta_item_1:1001>);
 
+//Removing OreDicts from Meka's Ore Processing Related Items
+
+//Removing all Ore Processing Related Items
+var OreProcessingRemoval as IItemStack[] = [
+    <mekanism:clump:0>,
+    <mekanism:clump:1>,
+    <mekanism:clump:2>,
+    <mekanism:clump:3>,
+    <mekanism:clump:4>,
+    <mekanism:clump:5>,
+    <mekanism:clump:6>,
+    <mekanism:crystal:0>,
+    <mekanism:crystal:1>,
+    <mekanism:crystal:2>,
+    <mekanism:crystal:3>,
+    <mekanism:crystal:4>,
+    <mekanism:crystal:5>,
+    <mekanism:crystal:6>,
+    <mekanism:dirtydust:0>,
+    <mekanism:dirtydust:1>,
+    <mekanism:dirtydust:2>,
+    <mekanism:dirtydust:3>,
+    <mekanism:dirtydust:4>,
+    <mekanism:dirtydust:5>,
+    <mekanism:dirtydust:6>,
+    <mekanism:shard:0>,
+    <mekanism:shard:1>,
+    <mekanism:shard:2>,
+    <mekanism:shard:3>,
+    <mekanism:shard:4>,
+    <mekanism:shard:5>,
+    <mekanism:shard:6>
+];
+for item in OreProcessingRemoval {
+JEI.removeAndHide(item);
+	var ores = item.ores;
+	if (!isNull(ores)) {
+		for entry in ores {
+			entry.remove(item);
+		}
+	}
+}
+
+//Hiding Original Native Clusters
+var HidingThaumClusters as IItemStack[] = [
+    <thaumcraft:cluster:0>,
+    <thaumcraft:cluster:1>,
+    <thaumcraft:cluster:2>,
+    <thaumcraft:cluster:3>,
+    <thaumcraft:cluster:4>,
+    <thaumcraft:cluster:5>,
+    <thaumcraft:cluster:6>,
+    <thaumcraft:cluster:7>
+];
+for item in HidingThaumClusters {
+    JEI.hide(item);
+    furnace.remove(<*>, item);
+    var ores = item.ores;
+        if (!isNull(ores)) {
+            for entry in ores {
+                entry.remove(item);
+            }
+        }
+}
+
 // Adding OreDicts for Overloaded
 
 # Compressed Cobblestone ==========================================================================
@@ -504,7 +569,7 @@ Melter.removeRecipeWithInput(<ic2:dust:2>);
 
 // ======================================================================================================================================
 
-static mods as string[] = ["contenttweaker", "gregtech", "astralsorcery", "devtech", "minecraft", "ic2", "thermalfoundation", "enderio", "tconstruct", "tcomplement", "botania", "mekanism", "magneticraft", "embers", "thaumcraft", "bloodmagic", "projectred-core", "actuallyadditions", "forestry", "careebees", "biomesoplenty", "libvulpes"];
+static mods as string[] = ["contenttweaker", "gregtech", "astralsorcery", "minecraft", "ic2", "thermalfoundation", "enderio", "tconstruct", "tcomplement", "botania", "mekanism", "magneticraft", "embers", "thaumcraft", "bloodmagic", "projectred-core", "actuallyadditions", "forestry", "careebees", "biomesoplenty", "libvulpes"];
 static size as int = mods.length - 1;
 
 function unify_oredicts (oredict as [IOreDictEntry]) {
@@ -562,11 +627,17 @@ unify_oredicts(<ore:plate*>);
 unify_oredicts(<ore:dust*>);
 unify_oredicts(<ore:gear*>);
 unify_oredicts(<ore:stick*>);
-unify_oredicts(<ore:crystal*>);
 unify_oredicts(<ore:gem*>);
 unify_oredicts(<ore:lightPlate*>);
 unify_oredicts(<ore:heavyPlate*>);
 unify_oredicts(<ore:food*>);
+
+unify_oredicts(<ore:shard*>);
+unify_oredicts(<ore:clump*>);
+unify_oredicts(<ore:crystal*>);
+
+unify_oredicts(<ore:crushed*>);
+unify_oredicts(<ore:purified*>);
 
 unify_oredicts(<ore:fuel*>);
 
