@@ -1,57 +1,41 @@
-§a§lVersion Beta§r§f 4.0.2:
+§a§lVersion Beta§r§f 4.0.3:
 
 BREAKING CHANGES:
 
-The Following Multiblocks will break after this Update:
-- Improved Coke Oven
-- Large Phytogenic Insolator
-- Bio Fabricator
-- Fossil Ore Plant
+All DevTech Items will not exist anymore. wich means, all Ore Processing Custom Items (Crystal, Shards, Clumps etc).
+This is due to a Migration to ContentTweaker.
 
-Please replace the controllers and IOs with the new ones added the @pluma Mod.
+Also, some NuclearCraft Items/Blocks may break due to a migration to the Non-Overhauled Version.
+(Not Guaranteed since the ID's should still be the same, but some content will be missing)
+
 
 §b§lMod Related Changes§r§f:
 
-- Updated EnderStorage Continuation
-- Updated Pyrotech
-- Updated Packaged Auto
-- Updated PackagedEx Crafting
-- Updated PackageThaumic
-- Updated PackageAstral
-- Updated PackageDraconic
-- Updated CensoredASM
-- Updated FluidCrafting Rework
-- Updated Universal Tweaks
-- Updated Embers
-- Updated Craftpresence
-- Updated Alfheim
+- Removed DevTech.
+- Removed NuclearCraft:Overhauled
+
+- Added Mixing Bootstrap
+- Added NuclearCraft
+
+- Updated Xaeros Package.
+- Updated Just Enough Magiculture.
+- Updated NotEnough Energistics.
+- Updated AquaAcrobatics.
+- Updated CraftPresence.
+- Updated GeographicCraft
 - Updated HammerLib
+- Updated PackagedAuto
+- Updated Packaged Draconic
+- Updated All Gregtech related Mods (Finally to 2.8!).
+- Updated Particle Culling
+- Updated AE2 Fluid Crafting
+- Updated CensoredASM
+- Updated Had Enough Items 
+- Updated Roughly Enough IDs
 
-- Added ManaVisualizer
-- Added VintageFix
-
-- Removed Caliper (Only a Dev Mod, actually impacts performance)
-- Removed Blood Moon (After some consideration and feedback, the pack is better without it)
-- Removed Multiblock Tweaker (Everything Moved to Multiblock'd)
 
 §2§lFixes§r§f:
 
-- Fixed a Recipe Conflict in HarvestCraft (Schnitzel <-> Quesadilha).
-- Fixed Missing Xtone Block Variants Missing Chiseling.
-- Removed Vanilla Stair Maceration Recipes (Allowed a Duplication of Materials).
-- Pyrotech's Mulch is now removed (Forestry's is now the only one), This Fixes a Server Side Issue.
 
 §5§lMiscellaneous§r§f:
 
-- Added a Tooltip to Alert about the Incompatibility of the IChisel with Tinker's Casts.
-- The Compacting Drawer (Storage Management Chapter) Quest should grant you a Hand Framing Tool now.
-- Added a Quest about the Gregtech's Machine Cover.
-- Removed Unused Multiblocked Folder.
-- Added a New Quest Chapter about Farming and Food Related.
-- Ported ALL Multiblocks added with the MultiblockTweaker Mod to Multiblock'd (Huge! make sure to check your Multiblocks!)
-- Advancements are now Disabled, this should improve a bit of performance and also clean up the logs.
-
-- Tinkers Scripting Rework:
-    ~ Removed Material Osmiridium
-    ~ Removed Material Emerald
-    ~ Removed Material Titanium
