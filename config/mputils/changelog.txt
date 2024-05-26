@@ -36,6 +36,8 @@ Also, some NuclearCraft Items/Blocks may break due to a migration to the Non-Ove
 
 §2§lFixes§r§f:
 
+- Fixed some Quest Related Issues.
+- Fixed Mekanism's Steel Casing Recipe.
 
 §5§lMiscellaneous§r§f:
 
