@@ -9,7 +9,7 @@ import mods.gregtech.recipe.Recipe;
 import crafttweaker.item.IItemDefinition;
 import mods.jei.JEI;
 import mods.astralsorcery.Altar;
-import mods.nuclearcraft.Melter;
+import mods.nuclearcraft.melter;
 
 //Function to add recipes automatically for Gears and Plates created with Contenttweaker.
 function makeContenttweakerIntegration (inputMaterial as IItemStack, plate as IItemStack, gear as IItemStack, additionalStick as IItemStack){  
@@ -651,9 +651,9 @@ extruder.recipeBuilder()
 // # Starmetal
 recipes.remove(<astraladditions:block_starmetal>);
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/block_starmetal");
-mods.nuclearcraft.Melter.removeRecipeWithInput(<ore:ingotStarmetal>);
-mods.nuclearcraft.Melter.removeRecipeWithInput(<ore:nuggetStarmetal>);
-mods.nuclearcraft.Melter.removeRecipeWithInput(<ore:blockStarmetal>);
+mods.nuclearcraft.melter.removeRecipeWithInput(<ore:ingotStarmetal>);
+mods.nuclearcraft.melter.removeRecipeWithInput(<ore:nuggetStarmetal>);
+mods.nuclearcraft.melter.removeRecipeWithInput(<ore:blockStarmetal>);
 
 makeBlockIntegrationWithoutFluid (<ore:ingotAstralStarmetal>.firstItem, <ore:blockAstralStarmetal>.firstItem);
 makeDustIntegration(<ore:ingotAstralStarmetal>.firstItem, <ore:blockAstralStarmetal>.firstItem, <ore:dustAstralStarmetal>.firstItem);

@@ -21,7 +21,7 @@
 		uid: "ee4eb2e8",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:ingot_former"
+			item: "nuclearcraft:ingot_former_idle"
 		}]
 	}],
 	rewards: [{

@@ -374,7 +374,11 @@ var plate_materials  as string[] = [
     "Uranium",
     "BlueAlloy",
     "VibrantAlloy",
-    "ConstructionAlloy"
+    "ConstructionAlloy",
+	"MagnesiumDiboride",
+	"Ferroboron",
+	"Chrome",
+	"Tough"
 ];
 
 for oreName in plate_materials {

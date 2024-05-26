@@ -1,6 +1,6 @@
 #modloaded ic2
 
-import mods.nuclearcraft.Manufactory as Manufactory;
+import mods.nuclearcraft.manufactory as Manufactory;
 
 //Rubber Planks in the Manufactory
 Manufactory.addRecipe(<ore:woodRubber>, <gregtech:planks>*6);

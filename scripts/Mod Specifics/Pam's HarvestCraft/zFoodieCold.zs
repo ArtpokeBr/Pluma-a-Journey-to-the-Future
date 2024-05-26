@@ -51,7 +51,7 @@ val vacuumFreezerTable as IIngredient[][IItemStack] = {
 	<harvestcraft:bananamilkshakeitem:0>*1: [<harvestcraft:bananaitem:0>*1, <liquid:milk>*250],
 	<harvestcraft:apricotsmoothieitem:0>*1: [<harvestcraft:apricotitem:0>*1, <liquid:ice>*144],
 	<harvestcraft:applesmoothieitem:0>*1: [<minecraft:apple:0>*1, <liquid:ice>*144],
-	<harvestcraft:slimegummiesitem:0>*1: [<harvestcraft:venisonrawitem:0>*1, <liquid:slime>*250],
+	<harvestcraft:slimegummiesitem:0>*1: [<harvestcraft:venisonrawitem:0>*1, <liquid:ice>*144],
 } as IIngredient[][IItemStack];
 
 for output, inputs in vacuumFreezerTable {

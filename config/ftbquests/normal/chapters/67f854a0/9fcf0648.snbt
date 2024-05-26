@@ -21,7 +21,7 @@
 		uid: "11d0ef20",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:infuser"
+			item: "nuclearcraft:infuser_idle"
 		}]
 	}],
 	rewards: [{

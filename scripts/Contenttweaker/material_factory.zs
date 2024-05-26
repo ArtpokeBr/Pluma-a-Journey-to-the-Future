@@ -699,6 +699,7 @@ val materialColorMap as int[string] = {
     "Ferroboron": 2829097,
     "VibrantAlloy": 10813296,
     "ConstructionAlloy": 5195095,
+    "Tough": 2367787,
 };
 
 global denseOres as string[] = [
@@ -808,7 +809,11 @@ global plate_materials  as string[] = [
     "Uranium",
     "BlueAlloy",
     "VibrantAlloy",
-    "ConstructionAlloy"
+    "ConstructionAlloy",
+    "MagnesiumDiboride",
+	"Ferroboron",
+    "Chrome",
+    "Tough"
 ];
 
 for material in plate_materials {

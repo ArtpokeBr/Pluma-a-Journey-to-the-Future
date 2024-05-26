@@ -29,10 +29,10 @@
 		type: "item",
 		title: "An HEU or LEU-235 Isotope",
 		items: [{
-			item: "nuclearcraft:pellet_uranium 1 4"
+			item: "nuclearcraft:fuel_uranium 1 6"
 		},
 		{
-			item: "nuclearcraft:pellet_uranium 1 6"
+			item: "nuclearcraft:fuel_uranium 1 4"
 		}]
 	}],
 	rewards: [{

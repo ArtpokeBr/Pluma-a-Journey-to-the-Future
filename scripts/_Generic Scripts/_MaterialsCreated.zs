@@ -64,6 +64,8 @@ import mods.gregtech.material.MaterialRegistry;
 
 <material:apatite>.addFlags("GENERATE_PLATE");
 
+<material:magnesium_diboride>.addFlags("GENERATE_ROTOR");
+
 // ========================= //
 
 // Actually Additions Materials //

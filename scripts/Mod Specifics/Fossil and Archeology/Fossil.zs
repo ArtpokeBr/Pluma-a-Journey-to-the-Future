@@ -152,8 +152,8 @@ recipes.addShapeless(<fossil:ancient_wood_pillar>*3, [<fossil:ancient_wood>, <fo
 // Bio-Goo Recipe
 recipes.remove(<fossil:bio_goo>);
 mixer.recipeBuilder()
-    .fluidInputs(<liquid:milk>*1000, <liquid:slime>*288)
-    .inputs(<fossil:failuresaurus_flesh>, <ore:egg>)
+    .fluidInputs(<liquid:milk>*1000)
+    .inputs(<fossil:failuresaurus_flesh>, <ore:egg>, <ore:slimeball>*2)
     .outputs(<fossil:bio_goo>*6)
     .duration(1200)
     .EUt(300)

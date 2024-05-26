@@ -69,10 +69,20 @@ centrifuge.recipeBuilder()
 	.EUt(300)
 .buildAndRegister();
 
+//Adding Compat for the Void Dimension to obtain Air
+
+gas_collector.recipeBuilder()
+    .circuit(5)
+    .fluidOutputs(<liquid:air> *10000)
+    .property("dimension", 43) 
+	.duration(200)
+	.EUt(16)
+.buildAndRegister();
+
 //The Beneath Gas Implementation ========
 
 gas_collector.recipeBuilder()
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 4}))
+    .circuit(4)
     .fluidOutputs(<liquid:beneath_gas> *10000)
     .property("dimension", 10) 
 	.duration(200)
@@ -527,31 +537,31 @@ craft.reshapeless(<ore:dustWood>.firstItem * 6, "T#", {
 });
 
 # [Liquid Slime Compat]
-<recipemap:extractor>.findRecipe(2, [<minecraft:slime_ball:0>], null).remove();
+// <recipemap:extractor>.findRecipe(2, [<minecraft:slime_ball:0>], null).remove();
 
-extractor.recipeBuilder()
-    .inputs(<minecraft:slime_ball>)
-    .outputs(<ore:dustRawRubber>.firstItem*2)
-    .fluidOutputs(<liquid:slime>*144)
-    .duration(150)
-    .EUt(2)
-.buildAndRegister();
+// extractor.recipeBuilder()
+//     .inputs(<minecraft:slime_ball>)
+//     .outputs(<ore:dustRawRubber>.firstItem*2)
+//     .fluidOutputs(<liquid:slime>*144)
+//     .duration(150)
+//     .EUt(2)
+// .buildAndRegister();
 
-extractor.recipeBuilder()
-    .inputs(<ore:blockSlimeGreen>)
-    .outputs(<ore:dustRawRubber>.firstItem*18)
-    .fluidOutputs(<liquid:slime>*1296)
-    .duration(1350)
-    .EUt(16)
-.buildAndRegister();
+// extractor.recipeBuilder()
+//     .inputs(<ore:blockSlimeGreen>)
+//     .outputs(<ore:dustRawRubber>.firstItem*18)
+//     .fluidOutputs(<liquid:slime>*1296)
+//     .duration(1350)
+//     .EUt(16)
+// .buildAndRegister();
 
-extractor.recipeBuilder()
-    .inputs(<tconstruct:slime_congealed>)
-    .outputs(<ore:dustRawRubber>.firstItem*8)
-    .fluidOutputs(<liquid:slime>*576)
-    .duration(600)
-    .EUt(16)
-.buildAndRegister();
+// extractor.recipeBuilder()
+//     .inputs(<tconstruct:slime_congealed>)
+//     .outputs(<ore:dustRawRubber>.firstItem*8)
+//     .fluidOutputs(<liquid:slime>*576)
+//     .duration(600)
+//     .EUt(16)
+// .buildAndRegister();
 
 # [Paper Processing Rework] ===================================================================================
 

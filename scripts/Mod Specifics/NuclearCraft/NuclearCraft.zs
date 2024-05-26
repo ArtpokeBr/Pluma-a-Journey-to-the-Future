@@ -1,4 +1,4 @@
-import mods.nuclearcraft.AlloyFurnace as AlloyFurnace;
+import mods.nuclearcraft.alloy_furnace as AlloyFurnace;
 import mods.thaumcraft.ArcaneWorkbench as ArcaneWorkbench;
 
 # Chassis ============================
@@ -123,7 +123,7 @@ craft.remake(<nuclearcraft:cobblestone_generator_dense> * 2, ["pretty",
 
 
 # [Infinite Water Source] from [Aluminium Ingot][+2]
-recipes.removeByRecipeName("nuclearcraft:water_source");
+recipes.removeByRecipeName("nuclearcraft:tile.water_source");
 craft.make(<nuclearcraft:water_source>, ["pretty",
   "□ ▬ □",
   "E   E",
@@ -134,7 +134,7 @@ craft.make(<nuclearcraft:water_source>, ["pretty",
 });
 
 # [Compact Infinite Water Source] from [Stainless Steel Ingot][+2]
-recipes.removeByRecipeName("nuclearcraft:water_source_compact");
+recipes.removeByRecipeName("nuclearcraft:tile.water_source_compact");
 craft.make(<nuclearcraft:water_source_compact>, ["pretty",
   "□ ▬ □",
   "I   I",
@@ -145,7 +145,7 @@ craft.make(<nuclearcraft:water_source_compact>, ["pretty",
 });
 
 # [Dense Infinite Water Source] from [Cobalt Steel Ingot][+2]
-recipes.removeByRecipeName("nuclearcraft:water_source_dense");
+recipes.removeByRecipeName("nuclearcraft:tile.water_source_dense");
 craft.make(<nuclearcraft:water_source_dense>, ["pretty",
   "□ ▬ □",
   "C   C",
@@ -164,8 +164,8 @@ mixer.recipeBuilder()
 .buildAndRegister();
 
 # [Alloy Furnace] from [Ender Furnace][+4]
-recipes.removeByRecipeName("nuclearcraft:alloy_furnace");
-craft.make(<nuclearcraft:alloy_furnace>, ["pretty",
+recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.alloy_furnace_idle");
+craft.make(<nuclearcraft:alloy_furnace_idle>, ["pretty",
   "□ v □",
   "G E G",
   "□ C □"], {
@@ -177,7 +177,7 @@ craft.make(<nuclearcraft:alloy_furnace>, ["pretty",
 });
 
 # [Servomechanism] from [Fine Annealed Copper Wire][+4]
-recipes.removeByRecipeName("nuclearcraft:part_7");
+recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.part.servo");
 craft.make(<nuclearcraft:part:7>, ["pretty",
   "F F F",
   "□ □ □",
@@ -190,7 +190,7 @@ craft.make(<nuclearcraft:part:7>, ["pretty",
 });
 
 # [Electric Motor] from [EV Electric Motor][+3]
-recipes.removeByRecipeName("nuclearcraft:part_8");
+recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.part.motor");
 craft.make(<nuclearcraft:part:8>, ["pretty",
   "□ □ R",
   "C C E",
@@ -202,7 +202,7 @@ craft.make(<nuclearcraft:part:8>, ["pretty",
 });
 
 # [Linear Actuator] from [EV Electric Piston][+4]
-recipes.removeByRecipeName("nuclearcraft:part_9");
+recipes.removeByRecipeName("nuclearcraft:item.part.actuator");
 craft.make(<nuclearcraft:part:9>, ["pretty",
   "F   п",
   "□ E  ",
@@ -215,8 +215,8 @@ craft.make(<nuclearcraft:part:9>, ["pretty",
 });
 
 # [Manufactory] from [Servomechanism][+4]
-recipes.removeByRecipeName("nuclearcraft:manufactory");
-craft.make(<nuclearcraft:manufactory>, ["pretty",
+recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.manufactory_idle");
+craft.make(<nuclearcraft:manufactory_idle>, ["pretty",
   "□ E □",
   "п s п",
   "□ C □"], {
@@ -228,7 +228,7 @@ craft.make(<nuclearcraft:manufactory>, ["pretty",
 });
 
 # [Speed Upgrade]*2 from [Speed Upgrade][+3]
-recipes.removeByRecipeName("nuclearcraft:upgrade");
+recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.upgrade.speed");
 craft.make(<nuclearcraft:upgrade> * 2, ["pretty",
   "b □ b",
   "L S L",
@@ -240,8 +240,8 @@ craft.make(<nuclearcraft:upgrade> * 2, ["pretty",
 });
 
 # [Energy Upgrade]*2 from [Energy Upgrade][+3]
-recipes.removeByRecipeName("nuclearcraft:upgrade_1");
-recipes.removeByRecipeName("nuclearcraft:upgrade_2");
+recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.upgrade.energy");
+recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.upgrade.energy_1");
 craft.make(<nuclearcraft:upgrade:1> * 2, ["pretty",
   "b □ b",
   "G Ϟ G",
@@ -286,7 +286,7 @@ craft.make(<nuclearcraft:part:2> * 4, ["pretty",
   "▬ п ▬",
   "□ ▬ □"], {
   "□": <ore:plateAdvanced>, # Advanced Plating
-  "▬": <ore:ingotUranium238All> | <ore:ingotUranium238ZA>, # Uranium-238-Zirconium Alloy
+  "▬": <ore:ingotUranium238Base>, # Uranium-238 Isotope
   "п": <tconstruct:large_plate>.withTag({Material: "polyethylene"}), # HDPE Large Plate
 });
 
@@ -302,8 +302,8 @@ craft.make(<nuclearcraft:part:3>, ["pretty",
 });
 
 # [Rock Crusher] from [Radiation-Proof HSLA Steel Chassis][+4]
-recipes.removeByRecipeName("nuclearcraft:rock_crusher");
-craft.make(<nuclearcraft:rock_crusher>, ["pretty",
+recipes.removeByRecipeName("nuclearcraft:nuclearcraft:tile.nuclearcraft.rock_crusher_idle");
+craft.make(<nuclearcraft:rock_crusher_idle>, ["pretty",
   "□ E □",
   "a c a",
   "□ m □"], {
@@ -315,8 +315,8 @@ craft.make(<nuclearcraft:rock_crusher>, ["pretty",
 });
 
 # [Pressurizer] from [Radiation-Proof HSLA Steel Chassis][+4]
-recipes.removeByRecipeName("nuclearcraft:pressurizer");
-craft.make(<nuclearcraft:pressurizer>, ["pretty",
+recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.pressurizer_idle");
+craft.make(<nuclearcraft:pressurizer_idle>, ["pretty",
   "□ E □",
   "a c a",
   "□ п □"], {
@@ -328,8 +328,8 @@ craft.make(<nuclearcraft:pressurizer>, ["pretty",
 });
 
 # [Separator] from [Radiation-Proof HSLA Steel Chassis][+4]
-recipes.removeByRecipeName("nuclearcraft:separator");
-craft.make(<nuclearcraft:separator>, ["pretty",
+recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.isotope_separator_idle");
+craft.make(<nuclearcraft:isotope_separator_idle>, ["pretty",
   "□ b □",
   "E c E",
   "□ m □"], {
@@ -391,7 +391,7 @@ craft.make(<nuclearcraft:boots_hazmat>, ["pretty",
 });
 
 # [Light Radiation Shielding]*2 from [Compressed Carbon][+2]
-recipes.removeByRecipeName("nuclearcraft:rad_shielding");
+recipes.removeByRecipeName("nuclearcraft:item.rad_shielding");
 craft.make(<nuclearcraft:rad_shielding> * 2, ["pretty",
   "I I I",
   "C C C",
@@ -402,7 +402,7 @@ craft.make(<nuclearcraft:rad_shielding> * 2, ["pretty",
 });
 
 # [Medium Radiation Shielding]*2 from [Carbon Fiber Plate][+3]
-recipes.removeByRecipeName("nuclearcraft:rad_shielding_1");
+recipes.removeByRecipeName("nuclearcraft:item.rad_shielding_1");
 craft.make(<nuclearcraft:rad_shielding:1> * 2, ["pretty",
   "b b b",
   "L п L",
@@ -414,7 +414,7 @@ craft.make(<nuclearcraft:rad_shielding:1> * 2, ["pretty",
 });
 
 # [Heavy Radiation Shielding]*2 from [Light Hard Carbon Plate][+3]
-recipes.removeByRecipeName("nuclearcraft:rad_shielding_2");
+recipes.removeByRecipeName("nuclearcraft:item.rad_shielding_2");
 craft.make(<nuclearcraft:rad_shielding:2> * 2, ["pretty",
   "п п п",
   "M P M",
@@ -426,8 +426,8 @@ craft.make(<nuclearcraft:rad_shielding:2> * 2, ["pretty",
 });
 
 # [Ingot Former] from [Radiation-Proof HSLA Steel Chassis][+4]
-recipes.removeByRecipeName("nuclearcraft:ingot_former");
-craft.make(<nuclearcraft:ingot_former>, ["pretty",
+recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.ingot_former_idle");
+craft.make(<nuclearcraft:ingot_former_idle>, ["pretty",
   "□ E □",
   "◊ c ◊",
   "□ V □"], {
@@ -439,8 +439,8 @@ craft.make(<nuclearcraft:ingot_former>, ["pretty",
 });
 
 # [Fluid Infuser] from [Radiation-Proof HSLA Steel Chassis][+4]
-recipes.removeByRecipeName("nuclearcraft:infuser");
-craft.make(<nuclearcraft:infuser>, ["pretty",
+recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.infuser_idle");
+craft.make(<nuclearcraft:infuser_idle>, ["pretty",
   "□ V □",
   "E c E",
   "□ s □"], {
@@ -452,8 +452,8 @@ craft.make(<nuclearcraft:infuser>, ["pretty",
 });
 
 # [Fluid Enricher] from [Radiation-Proof HSLA Steel Chassis][+4]
-recipes.removeByRecipeName("nuclearcraft:enricher");
-craft.make(<nuclearcraft:enricher>, ["pretty",
+recipes.removeByRecipeName("nuclearcraft:tile.nuclearcraft.dissolver_idle");
+craft.make(<nuclearcraft:dissolver_idle>, ["pretty",
   "□ ▲ □",
   "E c E",
   "□ m □"], {
@@ -465,7 +465,7 @@ craft.make(<nuclearcraft:enricher>, ["pretty",
 });
 
 # [Rad-X] from [RadAway][+4]
-recipes.removeByRecipeName("nuclearcraft:rad_x");
+recipes.removeByRecipeName("nuclearcraft:item.rad_x");
 craft.make(<nuclearcraft:rad_x>, ["pretty",
   "▲ ■ ▲",
   "b R b",

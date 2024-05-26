@@ -24,13 +24,5 @@ for IItemStack, IIngredient in HotIngotsThatCanBeCooledWithCryotheum {
             .fluidOutputs(<liquid:ic2hot_coolant>*500)
 			.duration(120)
 			.EUt(40)
-		.buildAndRegister();
-
-		chemical_bath.recipeBuilder()
-			.inputs(IItemStack)
-            .fluidInputs(<liquid:emergency_coolant> * 250)
-			.outputs(IIngredient)
-			.duration(120)
-			.EUt(40)
-		.buildAndRegister();        
+		.buildAndRegister(); 
 }

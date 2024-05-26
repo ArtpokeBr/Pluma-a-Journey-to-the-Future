@@ -1,5 +1,5 @@
 import crafttweaker.liquid.ILiquidStack;
-import mods.nuclearcraft.Enricher as FluidEnricher;
+import mods.nuclearcraft.dissolver as FluidEnricher;
 
 # Fluid Enricher Cleaning
 val CleaningFluidEnricher = [

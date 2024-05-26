@@ -4,15 +4,15 @@ import mods.industrialforegoing.SludgeRefiner as SludgeRefiner;
 import mods.industrialforegoing.BioReactor as BioReactor;
 import mods.industrialforegoing.ProteinReactor as ProteinReactor;
 import crafttweaker.item.IItemStack;
-import mods.nuclearcraft.Extractor;
-import mods.nuclearcraft.AlloyFurnace;
+import mods.nuclearcraft.extractor as Extractor;
+import mods.nuclearcraft.alloy_furnace as AlloyFurnace;
 import crafttweaker.item.IIngredient;
 
 // Plastic Production ===============================================
 
 # Dry Rubber
 recipes.remove(<industrialforegoing:dryrubber>);
-mods.nuclearcraft.Extractor.addRecipe(<ic2:misc_resource:4>, <industrialforegoing:dryrubber>, <liquid:glue>*10);
+mods.nuclearcraft.extractor.addRecipe(<ic2:misc_resource:4>, <industrialforegoing:dryrubber>, <liquid:glue>*10);
 DryingRack.addRecipe(
   "DryRubber",
   <industrialforegoing:dryrubber>,

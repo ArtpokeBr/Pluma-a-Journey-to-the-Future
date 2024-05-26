@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import mods.nuclearcraft.Pressurizer as Pressurizer;
+import mods.nuclearcraft.pressurizer as Pressurizer;
 
 # Pressurizer Cleaning
 val CleaningPressurizer = [

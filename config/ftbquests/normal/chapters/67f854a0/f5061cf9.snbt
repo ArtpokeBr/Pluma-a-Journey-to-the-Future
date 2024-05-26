@@ -18,7 +18,7 @@
 		uid: "e709e101",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:enricher"
+			item: "nuclearcraft:dissolver_idle"
 		}]
 	}],
 	rewards: [{

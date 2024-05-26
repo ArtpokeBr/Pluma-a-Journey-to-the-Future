@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import mods.nuclearcraft.Manufactory as Manufactory;
+import mods.nuclearcraft.manufactory as Manufactory;
 
 # Manufactory Cleaning
 val CleaningManufactory = [

@@ -1,6 +1,6 @@
 import mods.tconstruct.Alloy as Alloying;
 import mods.enderio.AlloySmelter as AlloySmelter;
-import mods.nuclearcraft.IngotFormer as IngotFormer;
+import mods.nuclearcraft.ingot_former as IngotFormer;
 
 //mods.tconstruct.Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);
 
@@ -17,7 +17,7 @@ Alloying.removeRecipe(<liquid:ferroboron>);
 Alloying.removeRecipe(<liquid:tough>);
 Alloying.removeRecipe(<liquid:hard_carbon>);
 Alloying.removeRecipe(<liquid:magnesium_diboride>);
-Alloying.removeRecipe(<liquid:lead_platinum>);
+//Alloying.removeRecipe(<liquid:lead_platinum>);
 Alloying.removeRecipe(<liquid:enderium>);
 Alloying.removeRecipe(<liquid:energetic_silver>);
 Alloying.removeRecipe(<liquid:energetic_alloy>);

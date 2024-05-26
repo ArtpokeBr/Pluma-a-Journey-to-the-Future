@@ -366,8 +366,8 @@ craft.make(<opencomputers:screen3>, ["pretty",
 # [Grog]
 recipes.remove(<opencomputers:material:1>);
 mixer.recipeBuilder()
-	.inputs(<minecraft:fermented_spider_eye>, <ore:gemSugar>)
-  .fluidInputs(<liquid:slime>*288, <liquid:sulfuric_acid>*300)
+	.inputs(<minecraft:fermented_spider_eye>, <ore:gemSugar>, <ore:slimeball>*2)
+  .fluidInputs(<liquid:sulfuric_acid>*300)
 	.outputs(<opencomputers:material:1>*4)
 	.duration(300)
 	.EUt(60)

@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import mods.nuclearcraft.Separator as Separator;
+import mods.nuclearcraft.isotope_separator as Separator;
 
 # Separator Cleaning ==============================================================
 

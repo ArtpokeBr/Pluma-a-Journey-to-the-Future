@@ -4,7 +4,7 @@ import mods.astralsorcery.Altar;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.tconstruct.Casting as Casting;
 import mods.tconstruct.Melting as Melting;
-import mods.nuclearcraft.Melter;
+import mods.nuclearcraft.melter;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														                                                                 //
@@ -574,18 +574,18 @@ Casting.addTableRecipe(<extrautils2:ironwood_sapling>, <ore:treeSapling>, <liqui
 # Unburnt =====
 //extractor.recipeBuilder().inputs(<extrautils2:ironwood_log:0>).fluidOutputs(<liquid:iron> *  16).duration(80).EUt(16).buildAndRegister();
 Melting.addRecipe(<liquid:iron> * 16, <extrautils2:ironwood_log:0>);
-mods.nuclearcraft.Melter.addRecipe(<extrautils2:ironwood_log:0>, <liquid:iron> * 16);
+mods.nuclearcraft.melter.addRecipe(<extrautils2:ironwood_log:0>, <liquid:iron> * 16);
 
 //extractor.recipeBuilder().inputs(<extrautils2:ironwood_planks:0>).fluidOutputs(<liquid:iron> *  8).duration(80).EUt(16).buildAndRegister();
 Melting.addRecipe(<liquid:iron> * 8, <extrautils2:ironwood_planks:0>);
-mods.nuclearcraft.Melter.addRecipe(<extrautils2:ironwood_planks:0>, <liquid:iron> * 8);
+mods.nuclearcraft.melter.addRecipe(<extrautils2:ironwood_planks:0>, <liquid:iron> * 8);
 
 # Burnt =====
 //extractor.recipeBuilder().inputs(<extrautils2:ironwood_log:1>).fluidOutputs(<liquid:iron> * 144).duration(80).EUt(16).buildAndRegister();
 Melting.addRecipe(<liquid:iron> * 144, <extrautils2:ironwood_log:1>);
-mods.nuclearcraft.Melter.addRecipe(<extrautils2:ironwood_log:1>, <liquid:iron> * 144);
+mods.nuclearcraft.melter.addRecipe(<extrautils2:ironwood_log:1>, <liquid:iron> * 144);
 
 //extractor.recipeBuilder().inputs(<extrautils2:ironwood_planks:1>).fluidOutputs(<liquid:iron> *  80).duration(80).EUt(16).buildAndRegister();
 Melting.addRecipe(<liquid:iron> * 80, <extrautils2:ironwood_planks:1>);
-mods.nuclearcraft.Melter.addRecipe(<extrautils2:ironwood_planks:1>, <liquid:iron> * 80);
+mods.nuclearcraft.melter.addRecipe(<extrautils2:ironwood_planks:1>, <liquid:iron> * 80);
 

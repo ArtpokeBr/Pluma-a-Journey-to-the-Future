@@ -142,7 +142,7 @@ ArcFurnace.addRecipe(<ore:ingotTitaniumIridium>.firstItem*2, 800/*ticks*/, 16000
 recipes.remove(<advancedrocketry:structuretower>);
 chemical_bath.recipeBuilder()
     .inputs(<ore:frameGtStainlessSteel>)
-    .fluidInputs(<liquid:zirconium> * 288)
+    .fluidInputs(<liquid:vanadium_steel> * 288)
     .outputs(<advancedrocketry:structuretower>)
     .duration(100)
     .EUt(130)

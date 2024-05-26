@@ -19,7 +19,7 @@
 		uid: "40016a47",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:rock_crusher"
+			item: "nuclearcraft:rock_crusher_idle"
 		}],
 		count: 3L
 	}],

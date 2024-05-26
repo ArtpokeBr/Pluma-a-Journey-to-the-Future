@@ -11,7 +11,7 @@ import mods.gregtech.recipe.Recipe;
 import crafttweaker.item.IItemDefinition;
 import mods.jei.JEI as JEI;
 import mods.mekanism.enrichment as EnrichmentChamber;
-import mods.nuclearcraft.Melter as Melter;
+import mods.nuclearcraft.melter as Melter;
 
 ///////////////////////////////////////
 //  Adding OreDicts First            //

@@ -23,7 +23,7 @@
 		uid: "b3dad074",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:manufactory"
+			item: "nuclearcraft:manufactory_idle"
 		}]
 	}],
 	rewards: [{
