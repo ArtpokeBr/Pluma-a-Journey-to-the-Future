@@ -32,7 +32,12 @@ Also, some NuclearCraft Items/Blocks may break due to a migration to the Non-Ove
 - Updated CensoredASM
 - Updated Had Enough Items 
 - Updated Roughly Enough IDs
-
+- Updated Pyrotech
+- Updated VintageFix
+- Updated Mekanism Community Edition
+- Updated Embers Unnofficial
+- Updated Industrial Foregoing Patcher
+- Updated UniversalTweaks
 
 §2§lFixes§r§f:
 
