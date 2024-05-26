@@ -22,7 +22,7 @@ import mods.gregtech.material.MaterialRegistry;
 
 <material:vanadium_steel>.addFlags("GENERATE_FRAME");
 
-<material:red_steel>.addFlags("GENERATE_ROTOR", "GENERATE_DENSE");
+<material:red_steel>.addFlags("GENERATE_ROTOR", "GENERATE_DENSE", "GENERATE_DOUBLE_PLATE");
 
 <material:annealed_copper>.addFlags("GENERATE_FRAME");
 
