@@ -35,7 +35,14 @@
 - Roughly Enough ID'S
 - Pyrotech
 - Just Enough Magiculture
-- 
+- Xaeros Minimap
+- Xaeros WorldMap
+- VintageFix
+- UniversalTweaks
+- ThaumicJEI
+- Thaumic Energistics Extended Life
+- Storage Drawers
+- Thaumic Additions
 
 --------------------------------
 
