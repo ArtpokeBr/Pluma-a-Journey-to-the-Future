@@ -20,16 +20,16 @@
 		uid: "d2410c6f",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any sand"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "sand"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sand"
 				}
 			}
 		}],

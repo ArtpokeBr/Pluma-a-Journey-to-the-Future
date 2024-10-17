@@ -39,9 +39,6 @@
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.armara"
 				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_nbt: 1b
@@ -49,15 +46,7 @@
 	rewards: [{
 		uid: "1c1801cc",
 		type: "item",
-		item: {
-			id: "astralsorcery:itemjournal",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
-			}
-		}
+		item: "astralsorcery:itemjournal"
 	},
 	{
 		uid: "e3e2995a",

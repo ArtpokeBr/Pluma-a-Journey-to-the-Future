@@ -19,13 +19,13 @@
 		uid: "ee19c13b",
 		type: "item",
 		items: [{
-			id: "enderio:block_tank",
 			Damage: 1s,
+			id: "enderio:block_tank",
 			tag: {
 				"enderio:data": {
 					tank: {
-						Empty: "",
-						Capacity: 32000
+						Capacity: 32000,
+						Empty: ""
 					}
 				}
 			}

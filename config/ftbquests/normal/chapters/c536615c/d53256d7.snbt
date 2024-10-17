@@ -3,8 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "refinedcanolaoil",
-			Amount: 1000
+			Amount: 1000,
+			FluidName: "refinedcanolaoil"
 		}
 	},
 	x: -7.0d,

@@ -27,12 +27,7 @@
 	rewards: [{
 		uid: "80c99f44",
 		type: "item",
-		item: {
-			id: "cyclicmagic:ender_eye_orb",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "cyclicmagic:ender_eye_orb"
 	},
 	{
 		uid: "de42a168",

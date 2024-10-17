@@ -24,16 +24,16 @@
 		uid: "1ecb3632",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any blockSeared"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "blockSeared"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSeared"
 				}
 			}
 		}],
@@ -111,12 +111,12 @@
 		uid: "6dcbc81d",
 		type: "item",
 		item: {
-			id: "forestry:can",
 			Damage: 1s,
+			id: "forestry:can",
 			tag: {
 				Fluid: {
-					FluidName: "lava",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "lava"
 				}
 			}
 		},

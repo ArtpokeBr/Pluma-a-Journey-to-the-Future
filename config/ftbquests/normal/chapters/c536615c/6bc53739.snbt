@@ -3,8 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "empoweredoil",
-			Amount: 1000
+			Amount: 1000,
+			FluidName: "empoweredoil"
 		}
 	},
 	x: -5.0d,

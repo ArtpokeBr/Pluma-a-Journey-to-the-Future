@@ -13,10 +13,7 @@
 		uid: "ad4348fd",
 		type: "item",
 		items: [{
-			id: "totemic:rattle",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "totemic:rattle"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

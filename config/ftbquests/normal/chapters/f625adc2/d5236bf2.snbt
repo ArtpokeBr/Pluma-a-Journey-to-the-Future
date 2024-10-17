@@ -34,12 +34,12 @@
 		uid: "06f40f6e",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 85s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "phthalic_acid",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "phthalic_acid"
 				}
 			}
 		},

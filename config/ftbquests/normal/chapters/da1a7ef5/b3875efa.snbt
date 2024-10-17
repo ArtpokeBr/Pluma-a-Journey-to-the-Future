@@ -20,16 +20,16 @@
 		uid: "71b4dbef",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotRunicSteel"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotRunicSteel"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotRunicSteel"
 				}
 			}
 		}],

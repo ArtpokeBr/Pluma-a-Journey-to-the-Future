@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "oil_dwarf",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "oil_dwarf"
 		}
 	},
 	x: 10.5d,
@@ -43,12 +40,12 @@
 		uid: "fb44c3c2",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "oil_dwarf",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "oil_dwarf"
 				}
 			}
 		},

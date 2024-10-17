@@ -19,10 +19,12 @@
 		uid: "742a51bb",
 		type: "item",
 		items: [{
-			id: "thermalexpansion:machine",
 			Damage: 7s,
+			id: "thermalexpansion:machine",
 			tag: {
-				Facing: 3b,
+				Energy: 0,
+				RSControl: 0b,
+				Level: 0b,
 				SideCache: [B;
 					1b,
 					2b,
@@ -31,9 +33,7 @@
 					3b,
 					3b
 				],
-				RSControl: 0b,
-				Energy: 0,
-				Level: 0b
+				Facing: 3b
 			}
 		}]
 	}],

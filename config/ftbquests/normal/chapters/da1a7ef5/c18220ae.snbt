@@ -2,10 +2,7 @@
 	title: "Casting Spells with Roots!",
 	icon: {
 		id: "roots:staff",
-		tag: {},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
+		tag: {}
 	},
 	x: 13.5d,
 	y: 3.0d,
@@ -35,10 +32,7 @@
 		type: "item",
 		items: [{
 			id: "roots:staff",
-			tag: {},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			tag: {}
 		}],
 		ignore_nbt: 1b
 	},
@@ -46,10 +40,7 @@
 		uid: "afc2de58",
 		type: "item",
 		items: [{
-			id: "roots:gramary",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:gramary"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -82,9 +73,6 @@
 				spell_storage: {
 					s: "roots:spell_sky_soarer"
 				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	}]

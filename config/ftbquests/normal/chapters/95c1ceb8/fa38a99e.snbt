@@ -57,11 +57,11 @@
 		item: {
 			id: "evilcraft:dark_tank",
 			tag: {
-				capacity: 32000,
 				Fluid: {
-					FluidName: "hydrogen",
-					Amount: 32000
-				}
+					Amount: 32000,
+					FluidName: "hydrogen"
+				},
+				capacity: 32000
 			}
 		}
 	},

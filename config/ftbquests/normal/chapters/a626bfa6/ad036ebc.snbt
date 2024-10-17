@@ -29,10 +29,7 @@
 		uid: "4a80018f",
 		type: "item",
 		items: [{
-			id: "forestry:soldering_iron",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "forestry:soldering_iron"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -48,22 +45,22 @@
 			}
 		},
 		{
-			id: "forestry:chipsets",
 			Damage: 1s,
+			id: "forestry:chipsets",
 			tag: {
 				T: 1s
 			}
 		},
 		{
-			id: "forestry:chipsets",
 			Damage: 2s,
+			id: "forestry:chipsets",
 			tag: {
 				T: 2s
 			}
 		},
 		{
-			id: "forestry:chipsets",
 			Damage: 3s,
+			id: "forestry:chipsets",
 			tag: {
 				T: 3s
 			}

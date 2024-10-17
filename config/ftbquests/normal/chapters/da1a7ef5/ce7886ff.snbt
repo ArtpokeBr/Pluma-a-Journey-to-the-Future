@@ -19,10 +19,7 @@
 		uid: "fb23f592",
 		type: "item",
 		items: [{
-			id: "roots:wildwood_helmet",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:wildwood_helmet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -31,10 +28,7 @@
 		uid: "81bbe2ac",
 		type: "item",
 		items: [{
-			id: "roots:wildwood_chestplate",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:wildwood_chestplate"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -43,10 +37,7 @@
 		uid: "d6e78025",
 		type: "item",
 		items: [{
-			id: "roots:wildwood_leggings",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:wildwood_leggings"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -55,10 +46,7 @@
 		uid: "d743d62d",
 		type: "item",
 		items: [{
-			id: "roots:wildwood_boots",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:wildwood_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -76,8 +64,8 @@
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					lvl: 1s,
-					id: 70s
+					id: 70s,
+					lvl: 1s
 				}]
 			}
 		},

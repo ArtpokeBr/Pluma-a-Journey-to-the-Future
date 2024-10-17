@@ -18,31 +18,31 @@
 		{
 			id: "pyrotech:bucket_clay",
 			tag: {
+				durability: 12,
 				fluids: {
-					FluidName: "water",
-					Amount: 1000
-				},
-				durability: 12
+					Amount: 1000,
+					FluidName: "water"
+				}
 			}
 		},
 		{
 			id: "pyrotech:bucket_stone",
 			tag: {
+				durability: 16,
 				fluids: {
-					FluidName: "water",
-					Amount: 1000
-				},
-				durability: 16
+					Amount: 1000,
+					FluidName: "water"
+				}
 			}
 		},
 		{
 			id: "pyrotech:bucket_refractory",
 			tag: {
+				durability: 24,
 				fluids: {
-					FluidName: "water",
-					Amount: 1000
-				},
-				durability: 24
+					Amount: 1000,
+					FluidName: "water"
+				}
 			}
 		}],
 		ignore_damage: true,

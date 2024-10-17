@@ -18,9 +18,6 @@
 			id: "actuallyadditions:item_battery",
 			tag: {
 				Energy: 0
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_nbt: 1b
@@ -29,10 +26,7 @@
 		uid: "c14b483a",
 		type: "item",
 		items: [{
-			id: "actuallyadditions:item_battery_double",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "actuallyadditions:item_battery_double"
 		}],
 		ignore_nbt: 1b
 	}],

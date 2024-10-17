@@ -27,12 +27,12 @@
 		uid: "5a0b5235",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 80s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "oil",
-					Amount: 8000
+					Amount: 8000,
+					FluidName: "oil"
 				}
 			}
 		}

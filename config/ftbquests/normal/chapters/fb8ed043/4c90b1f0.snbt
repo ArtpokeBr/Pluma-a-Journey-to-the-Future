@@ -20,12 +20,7 @@
 	rewards: [{
 		uid: "2ca3af86",
 		type: "item",
-		item: {
-			id: "pyrotech:cog_diamond",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "pyrotech:cog_diamond"
 	},
 	{
 		uid: "b401e17d",

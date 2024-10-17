@@ -1,8 +1,8 @@
 {
 	title: "What's all this Info in the HUD?",
 	icon: {
-		id: "gregtech:meta_item_1",
 		Damage: 465s,
+		id: "gregtech:meta_item_1",
 		tag: {
 			terminal: {
 				_creative: 1b

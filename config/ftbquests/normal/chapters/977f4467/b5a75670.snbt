@@ -26,12 +26,9 @@
 			id: "twilightforest:yeti_helmet",
 			tag: {
 				ench: [{
-					lvl: 2s,
-					id: 0
+					id: 0,
+					lvl: 2s
 				}]
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		},
 		entity: "twilightforest:yeti_alpha",
@@ -58,9 +55,6 @@
 			id: "botania:brewvial",
 			tag: {
 				brewKey: "regen"
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},
@@ -71,12 +65,6 @@
 			id: "botania:brewvial",
 			tag: {
 				brewKey: "strength"
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
 			}
 		}
 	},
@@ -87,9 +75,6 @@
 			id: "botania:brewvial",
 			tag: {
 				brewKey: "resistance"
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

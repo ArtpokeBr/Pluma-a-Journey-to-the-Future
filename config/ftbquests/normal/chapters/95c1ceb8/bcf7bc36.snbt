@@ -35,10 +35,7 @@
 		uid: "f68aceae",
 		type: "item",
 		items: [{
-			id: "deepmoblearning:trial_key",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:trial_key"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -46,12 +43,7 @@
 	rewards: [{
 		uid: "c7d50eef",
 		type: "item",
-		item: {
-			id: "deepmoblearning:trial_key",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		},
+		item: "deepmoblearning:trial_key",
 		random_bonus: 3
 	},
 	{

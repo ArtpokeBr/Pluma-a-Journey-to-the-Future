@@ -21,9 +21,6 @@
 			id: "forestry:portable_alyzer",
 			tag: {
 				UID: 2047164578
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,

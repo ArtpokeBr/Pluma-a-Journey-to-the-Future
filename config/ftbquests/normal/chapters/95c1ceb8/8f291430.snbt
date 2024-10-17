@@ -23,12 +23,12 @@
 		uid: "b981aff3",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "time_vortex_fluid",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "time_vortex_fluid"
 				}
 			}
 		},

@@ -17,16 +17,16 @@
 		uid: "ed0c891c",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any cropCandleberry"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "cropCandleberry"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cropCandleberry"
 				}
 			}
 		}],

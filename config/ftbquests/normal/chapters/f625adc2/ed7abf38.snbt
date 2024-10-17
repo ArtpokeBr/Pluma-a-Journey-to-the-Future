@@ -20,12 +20,12 @@
 		uid: "4c29e2fc",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "nacre",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "nacre"
 				}
 			}
 		},

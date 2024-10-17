@@ -31,13 +31,13 @@
 		uid: "ba9c4d92",
 		type: "item",
 		items: [{
-			id: "tconstruct:tooltables",
 			Damage: 1s,
+			id: "tconstruct:tooltables",
 			tag: {
 				textureBlock: {
+					Damage: 0s,
 					id: "minecraft:planks",
-					Count: 1b,
-					Damage: 0s
+					Count: 1b
 				}
 			}
 		}],
@@ -56,13 +56,13 @@
 		uid: "e4551336",
 		type: "item",
 		items: [{
-			id: "tconstruct:tooltables",
 			Damage: 2s,
+			id: "tconstruct:tooltables",
 			tag: {
 				textureBlock: {
+					Damage: 0s,
 					id: "minecraft:log",
-					Count: 1b,
-					Damage: 0s
+					Count: 1b
 				}
 			}
 		}],
@@ -86,370 +86,370 @@
 		type: "item",
 		team_reward: false,
 		item: {
-			id: "tconstruct:tooltables",
 			Damage: 4s,
+			id: "tconstruct:tooltables",
 			tag: {
+				RepairCost: 1,
 				inventory: {
 					Items: [{
 						Slot: 0b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:binding"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 1b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "conarm:armor_trim"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 2b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:knife_blade"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 3b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:tough_tool_rod"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 4b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:tool_rod"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 5b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:scythe_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 6b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "conarm:chest_core"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 7b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:arrow_shaft"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 8b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:fletching"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 9b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:sharpening_kit"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 10b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "conarm:armor_plate"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 11b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:hand_guard"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 12b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tcomplement:sledge_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 13b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:shard"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 14b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:bow_string"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 15b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:sign_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 16b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:kama_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 17b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "plustic:pipe_piece"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 18b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:excavator_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 19b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:broad_axe_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 20b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:tough_binding"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 21b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "conarm:helmet_core"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 22b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "conarm:boots_core"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 23b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconevo:part_arcane_focus"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 24b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:bow_limb"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 25b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:arrow_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 26b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:axe_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 27b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:pan_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 28b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:hammer_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 29b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "plustic:battery_cell"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 30b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:pick_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 31b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:large_sword_blade"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 32b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:large_plate"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 33b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:sword_blade"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 34b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:shovel_head"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 35b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:cross_guard"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 36b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "conarm:polishing_kit"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 37b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "conarm:leggings_core"
-						}
+						},
+						Count: 1
 					},
 					{
 						Slot: 38b,
-						id: "tconstruct:pattern",
-						Count: 1,
 						Damage: 0s,
+						id: "tconstruct:pattern",
 						tag: {
 							PartType: "tconstruct:wide_guard"
-						}
+						},
+						Count: 1
 					}]
 				},
-				display: {
-					Name: "Super Pattern Chest"
-				},
-				RepairCost: 1,
 				ench: [{
 					id: 31,
 					lvl: 1s
-				}]
+				}],
+				display: {
+					Name: "Super Pattern Chest"
+				}
 			}
 		}
 	},

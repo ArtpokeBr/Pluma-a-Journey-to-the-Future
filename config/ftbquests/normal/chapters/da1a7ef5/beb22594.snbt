@@ -20,34 +20,19 @@
 		type: "item",
 		title: "Make Any Living Tool",
 		items: [{
-			id: "roots:living_pickaxe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:living_pickaxe"
 		},
 		{
-			id: "roots:living_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:living_axe"
 		},
 		{
-			id: "roots:living_shovel",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:living_shovel"
 		},
 		{
-			id: "roots:living_hoe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:living_hoe"
 		},
 		{
-			id: "roots:living_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:living_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

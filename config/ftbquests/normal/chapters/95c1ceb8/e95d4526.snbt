@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "naphthalene",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "naphthalene"
 		}
 	},
 	x: 12.5d,
@@ -31,12 +28,12 @@
 		uid: "8d3676ab",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "coal_tar",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "coal_tar"
 				}
 			}
 		},

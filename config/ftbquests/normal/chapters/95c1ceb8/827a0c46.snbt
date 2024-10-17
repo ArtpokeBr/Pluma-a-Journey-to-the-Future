@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "iron_iii_chloride",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "iron_iii_chloride"
 		}
 	},
 	x: 1.0d,
@@ -35,12 +32,12 @@
 		uid: "17ebdfb6",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "iron_iii_chloride",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "iron_iii_chloride"
 				}
 			}
 		},

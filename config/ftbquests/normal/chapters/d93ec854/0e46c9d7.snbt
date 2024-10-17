@@ -32,13 +32,10 @@
 		uid: "53e9a237",
 		type: "item",
 		item: {
-			id: "mekanism:machineblock",
 			Damage: 12s,
+			id: "mekanism:machineblock",
 			tag: {
 				mekData: {}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

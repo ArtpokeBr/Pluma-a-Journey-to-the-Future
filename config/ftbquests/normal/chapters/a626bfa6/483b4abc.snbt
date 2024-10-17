@@ -24,16 +24,16 @@
 		uid: "577f04c3",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotBrick"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotBrick"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBrick"
 				}
 			}
 		}],
@@ -43,16 +43,16 @@
 		uid: "aed1e75c",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any clay"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "clay"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any clay"
 				}
 			}
 		}],
@@ -62,16 +62,16 @@
 		uid: "e3394c34",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any cobblestone"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "cobblestone"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
 				}
 			}
 		}],
@@ -81,16 +81,16 @@
 		uid: "7e47690d",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustBrick"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustBrick"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBrick"
 				}
 			}
 		}],
@@ -100,16 +100,16 @@
 		uid: "578067f4",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustClay"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustClay"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustClay"
 				}
 			}
 		}],
@@ -143,12 +143,7 @@
 		uid: "c8a80156",
 		type: "item",
 		title: "A Reward for your Grind",
-		item: {
-			id: "minecraft:totem_of_undying",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "minecraft:totem_of_undying"
 	},
 	{
 		uid: "6da761c4",

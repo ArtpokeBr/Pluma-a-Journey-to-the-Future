@@ -25,14 +25,11 @@
 		item: {
 			id: "enderio:item_dark_steel_axe",
 			tag: {
+				RepairCost: 1,
 				ench: [{
-					lvl: 1s,
-					id: 70
-				}],
-				RepairCost: 1
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+					id: 70,
+					lvl: 1s
+				}]
 			}
 		}
 	},
@@ -42,14 +39,11 @@
 		item: {
 			id: "enderio:item_dark_steel_shears",
 			tag: {
+				RepairCost: 1,
 				ench: [{
-					lvl: 1s,
-					id: 70
-				}],
-				RepairCost: 1
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+					id: 70,
+					lvl: 1s
+				}]
 			}
 		}
 	},

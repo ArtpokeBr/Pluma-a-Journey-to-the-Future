@@ -2,147 +2,51 @@
 	title: "GT Paint Sprays",
 	loot_size: 1,
 	rewards: [{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 62s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 62"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 63s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 63"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 64s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 64"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 65s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 65"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 66s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 66"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 67s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 67"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 68s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 68"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 69s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 69"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 70s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 70"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 71s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 71"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 72s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 72"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 73s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 73"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 74s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 74"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 75s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 75"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 76s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 76"
 	},
 	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 77s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "gregtech:meta_item_1 1 77"
 	}]
 }

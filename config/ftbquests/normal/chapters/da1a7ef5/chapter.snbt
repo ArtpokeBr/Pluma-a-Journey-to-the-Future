@@ -1,19 +1,19 @@
 {
 	title: "&6►Chapter 3&f - Playing with Nature",
 	icon: {
-		id: "minecraft:skull",
 		Damage: 3s,
+		id: "minecraft:skull",
 		tag: {
+			display: {
+				Name: "Azalea Tree Leaves"
+			},
 			SkullOwner: {
-				Id: "6fcfd6b9-eaed-4bb9-b3b9-b9f2f2ca0fbc",
 				Properties: {
 					textures: [{
 						Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhMDkzZTlhNzE5Mjk2OWY2ZGE0Y2JhNzE4MjMyYTFlMDNlODZlMWVlMzI4NTI4OTJhNWMyN2E1NDZiMDk2MyJ9fX0="
 					}]
-				}
-			},
-			display: {
-				Name: "Azalea Tree Leaves"
+				},
+				Id: "6fcfd6b9-eaed-4bb9-b3b9-b9f2f2ca0fbc"
 			}
 		}
 	},

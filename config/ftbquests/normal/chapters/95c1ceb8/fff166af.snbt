@@ -105,17 +105,14 @@
 		item: {
 			id: "thermalexpansion:tank",
 			tag: {
+				Lock: 0b,
 				RSControl: 0b,
-				Creative: 0b,
-				Fluid: {
-					FluidName: "fish_oil",
-					Amount: 80000
-				},
 				Level: 1b,
-				Lock: 0b
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				Fluid: {
+					Amount: 80000,
+					FluidName: "fish_oil"
+				},
+				Creative: 0b
 			}
 		}
 	},

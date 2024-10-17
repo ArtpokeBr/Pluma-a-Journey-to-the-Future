@@ -16,10 +16,7 @@
 		uid: "a338fb5f",
 		type: "item",
 		items: [{
-			id: "forestry:imprinter",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "forestry:imprinter"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

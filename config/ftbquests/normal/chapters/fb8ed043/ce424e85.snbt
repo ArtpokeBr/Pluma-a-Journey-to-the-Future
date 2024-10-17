@@ -34,30 +34,30 @@
 		type: "item",
 		title: "Any \"Raw Leather\"",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any rawHide"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "rawHide"
 				}
-			}
-		},
-		{
+			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any rawSmallHide"
+					Name: "Any rawHide"
 				}
-			},
+			}
+		},
+		{
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "rawSmallHide"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rawSmallHide"
 				}
 			}
 		}]
@@ -120,42 +120,22 @@
 	rewards: [{
 		uid: "0e3f1a71",
 		type: "item",
-		item: {
-			id: "harvestcraft:hardenedleatherhelmitem",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "harvestcraft:hardenedleatherhelmitem"
 	},
 	{
 		uid: "009222a3",
 		type: "item",
-		item: {
-			id: "harvestcraft:hardenedleatherchestitem",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "harvestcraft:hardenedleatherchestitem"
 	},
 	{
 		uid: "a28b9aeb",
 		type: "item",
-		item: {
-			id: "harvestcraft:hardenedleatherleggingsitem",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "harvestcraft:hardenedleatherleggingsitem"
 	},
 	{
 		uid: "f9d15ce7",
 		type: "item",
-		item: {
-			id: "harvestcraft:hardenedleatherbootsitem",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "harvestcraft:hardenedleatherbootsitem"
 	},
 	{
 		uid: "0e4420eb",

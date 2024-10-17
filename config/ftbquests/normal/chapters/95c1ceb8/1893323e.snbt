@@ -21,16 +21,16 @@
 		uid: "7be4e325",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustGlitchInfused"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustGlitchInfused"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustGlitchInfused"
 				}
 			}
 		}]
@@ -39,16 +39,16 @@
 		uid: "fdfe9541",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotGlitchInfused"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotGlitchInfused"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotGlitchInfused"
 				}
 			}
 		}]

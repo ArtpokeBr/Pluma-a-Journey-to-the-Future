@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "gelatin_mixture",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "gelatin_mixture"
 		}
 	},
 	x: 6.0d,

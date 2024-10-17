@@ -19,10 +19,7 @@
 		uid: "d549096e",
 		type: "item",
 		items: [{
-			id: "totemic:tipi",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "totemic:tipi"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

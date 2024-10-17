@@ -18,10 +18,7 @@
 		uid: "4ae2a3d5",
 		type: "item",
 		items: [{
-			id: "magneticraft:inserter_upgrade",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "magneticraft:inserter_upgrade"
 		}],
 		ignore_nbt: 1b
 	},
@@ -29,11 +26,7 @@
 		uid: "b0ec82e2",
 		type: "item",
 		items: [{
-			id: "magneticraft:inserter_upgrade",
-			Damage: 1s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "magneticraft:inserter_upgrade 1 1"
 		}],
 		ignore_nbt: 1b
 	}],

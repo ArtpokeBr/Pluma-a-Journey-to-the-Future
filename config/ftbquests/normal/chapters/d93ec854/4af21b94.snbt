@@ -27,16 +27,16 @@
 		uid: "d3d200e3",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreCopper"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreCopper"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCopper"
 				}
 			}
 		}]
@@ -45,16 +45,16 @@
 		uid: "0f51b482",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any orePurifiedCopper"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "orePurifiedCopper"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any orePurifiedCopper"
 				}
 			}
 		}]
@@ -63,16 +63,16 @@
 		uid: "4a202ccf",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreShardCopper"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreShardCopper"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreShardCopper"
 				}
 			}
 		}]
@@ -81,16 +81,16 @@
 		uid: "cbd1e261",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreClusterCopper"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreClusterCopper"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreClusterCopper"
 				}
 			}
 		}],
@@ -100,16 +100,16 @@
 		uid: "ef327255",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any crushedCopper"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "crushedCopper"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any crushedCopper"
 				}
 			}
 		}],
@@ -119,12 +119,12 @@
 		uid: "62e50b41",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 80s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "dwarven_solution",
-					Amount: 8000
+					Amount: 8000,
+					FluidName: "dwarven_solution"
 				}
 			}
 		}

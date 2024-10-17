@@ -65,14 +65,11 @@
 			tag: {
 				chiseldata: {
 					target: {
+						Damage: 0s,
 						id: "minecraft:air",
-						Count: 2b,
-						Damage: 0s
+						Count: 2b
 					}
 				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

@@ -15,10 +15,7 @@
 		uid: "179a875d",
 		type: "item",
 		items: [{
-			id: "careerbees:bee.armor.head",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "careerbees:bee.armor.head"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -27,10 +24,7 @@
 		uid: "bc3a5a27",
 		type: "item",
 		items: [{
-			id: "careerbees:bee.armor.chest",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "careerbees:bee.armor.chest"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -39,10 +33,7 @@
 		uid: "4b45e24c",
 		type: "item",
 		items: [{
-			id: "careerbees:bee.armor.legs",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "careerbees:bee.armor.legs"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -51,10 +42,7 @@
 		uid: "8e5fa073",
 		type: "item",
 		items: [{
-			id: "careerbees:bee.armor.feet",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "careerbees:bee.armor.feet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

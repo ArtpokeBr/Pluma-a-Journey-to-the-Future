@@ -17,10 +17,7 @@
 		uid: "f1b2a61a",
 		type: "item",
 		items: [{
-			id: "careerbees:beegun",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "careerbees:beegun"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -32,25 +29,25 @@
 			id: "enderio:block_tank",
 			tag: {
 				"enderio:data": {
-					faceModes-: 1b,
-					voidMode: 2,
-					outputQueue: {
-						size: 0
-					},
-					tank: {
-						FluidName: "for.honey",
-						Capacity: 16000,
-						Amount: 2000
-					},
 					inventory: {
 						size: 5,
 						4+: 1b,
-						3+: 1b,
-						2+: 1b,
+						0+: 1b,
 						1+: 1b,
-						0+: 1b
+						2+: 1b,
+						3+: 1b
 					},
-					redstoneControlMode: 0
+					tank: {
+						Capacity: 16000,
+						Amount: 2000,
+						FluidName: "for.honey"
+					},
+					outputQueue: {
+						size: 0
+					},
+					faceModes-: 1b,
+					redstoneControlMode: 0,
+					voidMode: 2
 				}
 			}
 		}

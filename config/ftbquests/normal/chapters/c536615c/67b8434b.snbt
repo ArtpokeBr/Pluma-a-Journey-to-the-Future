@@ -18,10 +18,7 @@
 		type: "item",
 		items: [{
 			id: "logisticspipes:sign_creator",
-			tag: {},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			tag: {}
 		}],
 		ignore_nbt: 1b
 	}],

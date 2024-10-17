@@ -1,11 +1,6 @@
 {
 	title: "Welcome to the Bee Breeding Tab!               §e§oBzzzz",
-	icon: {
-		id: "forestry:book_forester",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "forestry:book_forester",
 	x: -5.5d,
 	y: -0.5d,
 	shape: "rsquare",
@@ -27,11 +22,6 @@
 		uid: "a1bb760c",
 		type: "item",
 		team_reward: false,
-		item: {
-			id: "forestry:book_forester",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "forestry:book_forester"
 	}]
 }

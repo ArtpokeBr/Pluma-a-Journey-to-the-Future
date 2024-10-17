@@ -37,10 +37,7 @@
 		uid: "cef1f3b0",
 		type: "item",
 		items: [{
-			id: "twilightforest:meef_stroganoff",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "twilightforest:meef_stroganoff"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -66,20 +63,17 @@
 			id: "twilightforest:mazebreaker_pickaxe",
 			tag: {
 				ench: [{
-					lvl: 4s,
-					id: 32
+					id: 32,
+					lvl: 4s
 				},
 				{
-					lvl: 3s,
-					id: 34
+					id: 34,
+					lvl: 3s
 				},
 				{
-					lvl: 2s,
-					id: 35
+					id: 35,
+					lvl: 2s
 				}]
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

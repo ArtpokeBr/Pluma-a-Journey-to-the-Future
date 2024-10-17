@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "sulfuric_acid",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "sulfuric_acid"
 		}
 	},
 	x: 3.0d,

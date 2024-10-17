@@ -18,16 +18,16 @@
 		type: "item",
 		title: "Electrical Steel",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotElectricalSteel"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotElectricalSteel"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotElectricalSteel"
 				}
 			}
 		}],

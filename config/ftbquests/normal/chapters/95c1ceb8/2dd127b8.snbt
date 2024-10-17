@@ -3,8 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "chloromethane",
-			Amount: 1000
+			Amount: 1000,
+			FluidName: "chloromethane"
 		}
 	},
 	x: -1.0d,
@@ -32,12 +32,12 @@
 		uid: "681fe0b9",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "chloromethane",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "chloromethane"
 				}
 			}
 		},

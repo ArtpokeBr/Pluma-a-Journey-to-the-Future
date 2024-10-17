@@ -106,8 +106,8 @@
 		type: "item",
 		team_reward: false,
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 471s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Charge: 100000L
 			}

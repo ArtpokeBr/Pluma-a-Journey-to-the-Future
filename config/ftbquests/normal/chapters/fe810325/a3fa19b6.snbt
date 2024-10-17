@@ -30,12 +30,7 @@
 	rewards: [{
 		uid: "c3fdd265",
 		type: "item",
-		item: {
-			id: "magneticraft:wrench",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "magneticraft:wrench"
 	},
 	{
 		uid: "299c1100",

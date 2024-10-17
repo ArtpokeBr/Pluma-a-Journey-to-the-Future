@@ -72,17 +72,6 @@
 		item: {
 			id: "actuallyadditions:item_bag",
 			tag: {
-				Filter: {
-					Meta: 1b,
-					NBT: 0b,
-					Mod: 0b,
-					Whitelist: 1b,
-					Items: [{},
-					{},
-					{},
-					{}],
-					Oredict: 2
-				},
 				AutoInsert: 0b,
 				Items: [{},
 				{},
@@ -111,10 +100,18 @@
 				{},
 				{},
 				{},
-				{}]
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				{}],
+				Filter: {
+					NBT: 0b,
+					Meta: 1b,
+					Oredict: 2,
+					Whitelist: 1b,
+					Items: [{},
+					{},
+					{},
+					{}],
+					Mod: 0b
+				}
 			}
 		}
 	},

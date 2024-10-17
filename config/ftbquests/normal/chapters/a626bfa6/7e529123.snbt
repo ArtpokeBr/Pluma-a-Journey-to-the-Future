@@ -23,9 +23,9 @@
 			id: "tconstruct:toolforge",
 			tag: {
 				textureBlock: {
+					Damage: 0s,
 					id: "minecraft:iron_block",
-					Count: 1,
-					Damage: 0s
+					Count: 1
 				}
 			}
 		},

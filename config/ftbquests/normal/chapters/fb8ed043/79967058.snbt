@@ -26,14 +26,11 @@
 		item: {
 			id: "pyrotech:stone_shears",
 			tag: {
+				RepairCost: 1,
 				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
-				RepairCost: 1
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+					id: 34s,
+					lvl: 3s
+				}]
 			}
 		}
 	},

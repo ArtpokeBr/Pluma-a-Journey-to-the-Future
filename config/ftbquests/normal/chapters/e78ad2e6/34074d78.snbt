@@ -16,10 +16,7 @@
 		uid: "8b8cd500",
 		type: "item",
 		items: [{
-			id: "forestry:smoker",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "forestry:smoker"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

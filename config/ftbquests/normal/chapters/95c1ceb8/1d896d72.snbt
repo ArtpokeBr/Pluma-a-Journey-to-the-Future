@@ -21,16 +21,16 @@
 		uid: "4b74041c",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any craftingLensGlass"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "craftingLensGlass"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingLensGlass"
 				}
 			}
 		}]

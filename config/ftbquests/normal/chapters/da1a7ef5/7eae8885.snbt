@@ -41,9 +41,6 @@
 			id: "totemic:flute",
 			tag: {
 				cooldown: 0
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,

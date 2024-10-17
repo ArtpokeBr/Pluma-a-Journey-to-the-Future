@@ -1,11 +1,6 @@
 {
 	title: "{pluma.logupgs.title}",
-	icon: {
-		id: "minecraft:writable_book",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "minecraft:writable_book",
 	x: -3.5d,
 	y: -3.5d,
 	description: "{pluma.logupgs.subtitle}",

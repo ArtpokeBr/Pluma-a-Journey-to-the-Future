@@ -20,16 +20,16 @@
 		uid: "1a1c9e04",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreBasaltFossil"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreBasaltFossil"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasaltFossil"
 				}
 			}
 		}],
@@ -39,16 +39,16 @@
 		uid: "1e5ca70f",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreBasaltAmber"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreBasaltAmber"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasaltAmber"
 				}
 			}
 		}],
@@ -58,16 +58,16 @@
 		uid: "e3c7f993",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreBasaltLigniteCoal"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreBasaltLigniteCoal"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasaltLigniteCoal"
 				}
 			}
 		}],
@@ -85,16 +85,16 @@
 		uid: "1fbf1280",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreClathrateOilShale"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreClathrateOilShale"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreClathrateOilShale"
 				}
 			}
 		}]
@@ -103,16 +103,16 @@
 		uid: "dd6ef205",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreBasaltBiotite"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreBasaltBiotite"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasaltBiotite"
 				}
 			}
 		}]

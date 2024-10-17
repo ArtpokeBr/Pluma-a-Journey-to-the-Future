@@ -18,16 +18,16 @@
 		uid: "ac813e5a",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotTerrastone"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotTerrastone"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotTerrastone"
 				}
 			}
 		}],

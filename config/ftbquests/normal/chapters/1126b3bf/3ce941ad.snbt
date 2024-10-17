@@ -28,10 +28,7 @@
 		uid: "a778a8f3",
 		type: "item",
 		items: [{
-			id: "bloodmagic:monster_soul",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "bloodmagic:monster_soul"
 		}],
 		ignore_nbt: 1b
 	}],
@@ -42,12 +39,6 @@
 			id: "bloodmagic:monster_soul",
 			tag: {
 				souls: 13.0d
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
 			}
 		}
 	},

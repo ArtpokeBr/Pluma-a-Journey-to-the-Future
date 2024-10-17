@@ -51,13 +51,7 @@
 	rewards: [{
 		uid: "275e0e80",
 		type: "item",
-		item: {
-			id: "extrautils2:luxsaber",
-			Damage: 5s,
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "extrautils2:luxsaber 1 5"
 	},
 	{
 		uid: "343faaf1",

@@ -22,12 +22,7 @@
 		uid: "cb76807e",
 		type: "item",
 		team_reward: false,
-		item: {
-			id: "jecalculation:item_calculator",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "jecalculation:item_calculator"
 	},
 	{
 		uid: "0bce330c",

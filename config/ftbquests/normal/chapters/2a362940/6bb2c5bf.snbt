@@ -25,16 +25,16 @@
 		uid: "36ac3caa",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any backpack"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "backpack"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any backpack"
 				}
 			}
 		}],

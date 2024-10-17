@@ -37,12 +37,12 @@
 		uid: "7c959bd4",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "if.pink_slime",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "if.pink_slime"
 				}
 			}
 		},
@@ -52,12 +52,12 @@
 		uid: "5f507686",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "meat",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "meat"
 				}
 			}
 		},

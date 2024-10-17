@@ -24,14 +24,14 @@
 		uid: "30251ade",
 		type: "item",
 		items: [{
-			id: "thaumicaugmentation:gauntlet",
-			tag: {
-				color: 8022208
-			},
 			ForgeCaps: {
 				Parent: {
 					slots: 3
 				}
+			},
+			id: "thaumicaugmentation:gauntlet",
+			tag: {
+				color: 8022208
 			}
 		}],
 		ignore_nbt: 1b
@@ -40,15 +40,15 @@
 		uid: "67f94a79",
 		type: "item",
 		items: [{
-			id: "thaumicaugmentation:augment_caster_rift_energy_storage",
 			ForgeCaps: {
 				Parent: {
-					augment: {},
 					energy: {
 						energy: 0L
-					}
+					},
+					augment: {}
 				}
-			}
+			},
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

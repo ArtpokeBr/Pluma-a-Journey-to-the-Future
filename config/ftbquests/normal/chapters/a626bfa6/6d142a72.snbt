@@ -17,16 +17,16 @@
 		uid: "d0ad9139",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustTin"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustTin"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustTin"
 				}
 			}
 		}],
@@ -36,16 +36,16 @@
 		uid: "e84d79b8",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustLead"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustLead"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustLead"
 				}
 			}
 		}],
@@ -55,16 +55,16 @@
 		uid: "d7da5304",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustAntimony"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustAntimony"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustAntimony"
 				}
 			}
 		}]
@@ -73,16 +73,16 @@
 		uid: "6962ad8d",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustSolderingAlloy"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustSolderingAlloy"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustSolderingAlloy"
 				}
 			}
 		}],

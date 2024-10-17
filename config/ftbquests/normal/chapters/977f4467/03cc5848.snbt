@@ -22,13 +22,7 @@
 		uid: "ef109110",
 		type: "item",
 		items: [{
-			id: "twilightforest:lamp_of_cinders",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
-			}
+			item: "twilightforest:lamp_of_cinders"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -40,12 +34,6 @@
 			id: "embers:glimmer_lamp",
 			tag: {
 				light: 1200
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
 			}
 		}
 	},

@@ -1,19 +1,19 @@
 {
 	title: "Time to kill the Baykok!",
 	icon: {
-		id: "minecraft:skull",
 		Damage: 3s,
+		id: "minecraft:skull",
 		tag: {
+			display: {
+				Name: "Skeleton"
+			},
 			SkullOwner: {
-				Id: "8e3b3535-a972-488d-9c09-ad844750ee50",
 				Properties: {
 					textures: [{
 						Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFkZDdlZTdkYzdmYmNiNWMxYWVlN2EyNTc5MTdmMDM0ZWViYTFlMDkzNzI3ZDcxMmRhYjBmYzM1ZmIwZTM4In19fQ=="
 					}]
-				}
-			},
-			display: {
-				Name: "Skeleton"
+				},
+				Id: "8e3b3535-a972-488d-9c09-ad844750ee50"
 			}
 		}
 	},
@@ -40,12 +40,7 @@
 	tasks: [{
 		uid: "485c0914",
 		type: "kill",
-		icon: {
-			id: "minecraft:iron_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		},
+		icon: "minecraft:iron_sword",
 		entity: "totemic:baykok",
 		value: 1L
 	},
@@ -73,8 +68,8 @@
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					lvl: 3s,
-					id: 34s
+					id: 34s,
+					lvl: 3s
 				}]
 			}
 		}

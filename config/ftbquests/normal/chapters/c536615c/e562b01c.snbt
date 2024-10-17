@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "bio.ethanol",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "bio.ethanol"
 		}
 	},
 	x: 3.0d,
@@ -36,12 +33,12 @@
 		uid: "8acbd7a3",
 		type: "item",
 		item: {
-			id: "binniecore:glass",
 			Damage: 1s,
+			id: "binniecore:glass",
 			tag: {
 				Fluid: {
-					FluidName: "binnie.spirit.sugarcane",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "binnie.spirit.sugarcane"
 				}
 			}
 		},

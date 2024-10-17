@@ -38,8 +38,8 @@
 		uid: "9ce7e51e",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 461s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Configuration: 2
 			}

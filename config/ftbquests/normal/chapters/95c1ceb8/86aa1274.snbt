@@ -17,16 +17,16 @@
 		type: "item",
 		title: "Soularium Ingot",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotSoularium"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotSoularium"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSoularium"
 				}
 			}
 		}],
@@ -36,12 +36,12 @@
 		uid: "5bd98910",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "scorched",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "scorched"
 				}
 			}
 		},

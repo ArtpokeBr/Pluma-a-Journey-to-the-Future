@@ -28,25 +28,25 @@
 			tag: {
 				BlockEntityTag: {
 					stackHandler: {
+						Size: 3,
 						Items: [{
 							Slot: 0,
+							Damage: 0s,
 							id: "minecraft:beef",
-							Count: 1b,
-							Damage: 0s
+							Count: 1b
 						},
 						{
 							Slot: 1,
+							Damage: 0s,
 							id: "pyrotech:pelt_cow",
-							Count: 1b,
-							Damage: 0s
+							Count: 1b
 						},
 						{
 							Slot: 2,
+							Damage: 49s,
 							id: "pyrotech:material",
-							Count: 2b,
-							Damage: 49s
-						}],
-						Size: 3
+							Count: 2b
+						}]
 					}
 				}
 			}

@@ -56,12 +56,7 @@
 	rewards: [{
 		uid: "41763ae3",
 		type: "item",
-		item: {
-			id: "embers:ember_detector",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "embers:ember_detector"
 	},
 	{
 		uid: "75f11ef7",

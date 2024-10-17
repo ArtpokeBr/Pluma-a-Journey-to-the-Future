@@ -19,10 +19,7 @@
 		uid: "5ec0e6a0",
 		type: "item",
 		items: [{
-			id: "enderio:item_dark_steel_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "enderio:item_dark_steel_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -31,10 +28,7 @@
 		uid: "f860a049",
 		type: "item",
 		items: [{
-			id: "enderio:item_dark_steel_pickaxe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "enderio:item_dark_steel_pickaxe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -43,10 +37,7 @@
 		uid: "db3978a1",
 		type: "item",
 		items: [{
-			id: "enderio:item_dark_steel_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "enderio:item_dark_steel_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

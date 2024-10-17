@@ -55,13 +55,10 @@
 		uid: "84ef5e43",
 		type: "item",
 		item: {
-			id: "botania:cosmetic",
 			Damage: 25s,
+			id: "botania:cosmetic",
 			tag: {
 				playerHashcode: 8729
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},
@@ -69,13 +66,10 @@
 		uid: "904fb07d",
 		type: "item",
 		item: {
-			id: "botania:cosmetic",
 			Damage: 1s,
+			id: "botania:cosmetic",
 			tag: {
 				playerHashcode: 8729
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

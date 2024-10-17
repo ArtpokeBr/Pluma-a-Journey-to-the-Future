@@ -1,11 +1,6 @@
 {
 	title: "Quick Tips",
-	icon: {
-		id: "minecraft:writable_book",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "minecraft:writable_book",
 	x: 9.5d,
 	y: -4.5d,
 	shape: "gear",

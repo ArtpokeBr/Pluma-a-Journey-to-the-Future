@@ -4,145 +4,142 @@
 		id: "forestry:bee_queen_ge",
 		tag: {
 			MaxH: 30,
+			Genome: {
+				Chromosomes: [{
+					Slot: 0b,
+					UID0: "forestry.speciesWintry",
+					UID1: "forestry.speciesWintry"
+				},
+				{
+					Slot: 1b,
+					UID0: "forestry.speedSlower",
+					UID1: "forestry.speedSlower"
+				},
+				{
+					Slot: 2b,
+					UID0: "forestry.lifespanShort",
+					UID1: "forestry.lifespanShort"
+				},
+				{
+					Slot: 3b,
+					UID0: "forestry.fertilityMaximum",
+					UID1: "forestry.fertilityMaximum"
+				},
+				{
+					Slot: 4b,
+					UID0: "forestry.toleranceUp1",
+					UID1: "forestry.toleranceUp1"
+				},
+				{
+					Slot: 5b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 6b,
+					UID0: "forestry.toleranceBoth1",
+					UID1: "forestry.toleranceBoth1"
+				},
+				{
+					Slot: 7b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 8b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 9b,
+					UID0: "forestry.flowersSnow",
+					UID1: "forestry.flowersSnow"
+				},
+				{
+					Slot: 10b,
+					UID0: "forestry.floweringSlowest",
+					UID1: "forestry.floweringSlowest"
+				},
+				{
+					Slot: 11b,
+					UID0: "forestry.territoryAverage",
+					UID1: "forestry.territoryAverage"
+				},
+				{
+					Slot: 12b,
+					UID0: "forestry.effectGlacial",
+					UID1: "forestry.effectGlacial"
+				}]
+			},
 			Mate: {
 				Chromosomes: [{
-					UID1: "forestry.speciesWintry",
+					Slot: 0b,
 					UID0: "forestry.speciesWintry",
-					Slot: 0b
+					UID1: "forestry.speciesWintry"
 				},
 				{
-					UID1: "forestry.speedSlower",
+					Slot: 1b,
 					UID0: "forestry.speedSlower",
-					Slot: 1b
+					UID1: "forestry.speedSlower"
 				},
 				{
-					UID1: "forestry.lifespanShort",
+					Slot: 2b,
 					UID0: "forestry.lifespanShort",
-					Slot: 2b
+					UID1: "forestry.lifespanShort"
 				},
 				{
-					UID1: "forestry.fertilityMaximum",
+					Slot: 3b,
 					UID0: "forestry.fertilityMaximum",
-					Slot: 3b
+					UID1: "forestry.fertilityMaximum"
 				},
 				{
-					UID1: "forestry.toleranceUp1",
+					Slot: 4b,
 					UID0: "forestry.toleranceUp1",
-					Slot: 4b
+					UID1: "forestry.toleranceUp1"
 				},
 				{
-					UID1: "forestry.boolFalse",
+					Slot: 5b,
 					UID0: "forestry.boolFalse",
-					Slot: 5b
+					UID1: "forestry.boolFalse"
 				},
 				{
-					UID1: "forestry.toleranceBoth1",
+					Slot: 6b,
 					UID0: "forestry.toleranceBoth1",
-					Slot: 6b
+					UID1: "forestry.toleranceBoth1"
 				},
 				{
-					UID1: "forestry.boolFalse",
+					Slot: 7b,
 					UID0: "forestry.boolFalse",
-					Slot: 7b
+					UID1: "forestry.boolFalse"
 				},
 				{
-					UID1: "forestry.boolFalse",
+					Slot: 8b,
 					UID0: "forestry.boolFalse",
-					Slot: 8b
+					UID1: "forestry.boolFalse"
 				},
 				{
-					UID1: "forestry.flowersSnow",
+					Slot: 9b,
 					UID0: "forestry.flowersSnow",
-					Slot: 9b
+					UID1: "forestry.flowersSnow"
 				},
 				{
-					UID1: "forestry.floweringSlowest",
+					Slot: 10b,
 					UID0: "forestry.floweringSlowest",
-					Slot: 10b
+					UID1: "forestry.floweringSlowest"
 				},
 				{
-					UID1: "forestry.territoryAverage",
+					Slot: 11b,
 					UID0: "forestry.territoryAverage",
-					Slot: 11b
+					UID1: "forestry.territoryAverage"
 				},
 				{
-					UID1: "forestry.effectGlacial",
+					Slot: 12b,
 					UID0: "forestry.effectGlacial",
-					Slot: 12b
+					UID1: "forestry.effectGlacial"
 				}]
 			},
 			Health: 30,
-			IsAnalyzed: 0b,
-			Genome: {
-				Chromosomes: [{
-					UID1: "forestry.speciesWintry",
-					UID0: "forestry.speciesWintry",
-					Slot: 0b
-				},
-				{
-					UID1: "forestry.speedSlower",
-					UID0: "forestry.speedSlower",
-					Slot: 1b
-				},
-				{
-					UID1: "forestry.lifespanShort",
-					UID0: "forestry.lifespanShort",
-					Slot: 2b
-				},
-				{
-					UID1: "forestry.fertilityMaximum",
-					UID0: "forestry.fertilityMaximum",
-					Slot: 3b
-				},
-				{
-					UID1: "forestry.toleranceUp1",
-					UID0: "forestry.toleranceUp1",
-					Slot: 4b
-				},
-				{
-					UID1: "forestry.boolFalse",
-					UID0: "forestry.boolFalse",
-					Slot: 5b
-				},
-				{
-					UID1: "forestry.toleranceBoth1",
-					UID0: "forestry.toleranceBoth1",
-					Slot: 6b
-				},
-				{
-					UID1: "forestry.boolFalse",
-					UID0: "forestry.boolFalse",
-					Slot: 7b
-				},
-				{
-					UID1: "forestry.boolFalse",
-					UID0: "forestry.boolFalse",
-					Slot: 8b
-				},
-				{
-					UID1: "forestry.flowersSnow",
-					UID0: "forestry.flowersSnow",
-					Slot: 9b
-				},
-				{
-					UID1: "forestry.floweringSlowest",
-					UID0: "forestry.floweringSlowest",
-					Slot: 10b
-				},
-				{
-					UID1: "forestry.territoryAverage",
-					UID0: "forestry.territoryAverage",
-					Slot: 11b
-				},
-				{
-					UID1: "forestry.effectGlacial",
-					UID0: "forestry.effectGlacial",
-					Slot: 12b
-				}]
-			}
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			IsAnalyzed: 0b
 		}
 	},
 	x: -0.5d,

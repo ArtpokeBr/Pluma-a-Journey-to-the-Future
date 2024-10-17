@@ -3,8 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "epoxy",
-			Amount: 1000
+			Amount: 1000,
+			FluidName: "epoxy"
 		}
 	},
 	x: 0.5561224489795933d,
@@ -33,12 +33,12 @@
 		uid: "b217d463",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 79s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "epoxy",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "epoxy"
 				}
 			}
 		},

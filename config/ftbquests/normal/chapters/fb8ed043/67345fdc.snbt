@@ -15,16 +15,16 @@
 		uid: "89ec9d7c",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any plankTreatedWood"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "plankTreatedWood"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankTreatedWood"
 				}
 			}
 		}]

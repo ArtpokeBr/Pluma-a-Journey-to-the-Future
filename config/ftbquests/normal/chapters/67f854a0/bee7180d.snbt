@@ -3,8 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "hydrochloric_acid",
-			Amount: 1000
+			Amount: 1000,
+			FluidName: "hydrochloric_acid"
 		}
 	},
 	x: -0.7666666666666586d,
@@ -40,12 +40,12 @@
 		uid: "97465e22",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 85s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "hydrochloric_acid",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "hydrochloric_acid"
 				}
 			}
 		},

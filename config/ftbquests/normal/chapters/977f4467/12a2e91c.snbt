@@ -24,16 +24,16 @@
 		uid: "4e85c283",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreAerInfused"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreAerInfused"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreAerInfused"
 				}
 			}
 		}]
@@ -42,16 +42,16 @@
 		uid: "d30b6c13",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreAquaInfused"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreAquaInfused"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreAquaInfused"
 				}
 			}
 		}]
@@ -60,16 +60,16 @@
 		uid: "90b32242",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreEntropyInfused"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreEntropyInfused"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreEntropyInfused"
 				}
 			}
 		}]
@@ -78,16 +78,16 @@
 		uid: "4d20a00f",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreIgnisInfused"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreIgnisInfused"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreIgnisInfused"
 				}
 			}
 		}]
@@ -96,16 +96,16 @@
 		uid: "a4b92eb3",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreOrdoInfused"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreOrdoInfused"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreOrdoInfused"
 				}
 			}
 		}]
@@ -114,16 +114,16 @@
 		uid: "a0ac14e7",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreTerraInfused"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreTerraInfused"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreTerraInfused"
 				}
 			}
 		}]

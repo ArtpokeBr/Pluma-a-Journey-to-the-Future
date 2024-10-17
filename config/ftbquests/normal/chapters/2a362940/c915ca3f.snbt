@@ -26,16 +26,16 @@
 		type: "item",
 		title: "Any Drawer or Framed Drawer",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any drawerBasic"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "drawerBasic"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerBasic"
 				}
 			}
 		},

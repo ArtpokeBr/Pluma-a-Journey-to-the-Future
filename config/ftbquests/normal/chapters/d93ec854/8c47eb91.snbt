@@ -29,22 +29,12 @@
 	rewards: [{
 		uid: "d166ee40",
 		type: "item",
-		item: {
-			id: "fossil:ancient_helmet",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "fossil:ancient_helmet"
 	},
 	{
 		uid: "9486463a",
 		type: "item",
-		item: {
-			id: "fossil:ancient_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "fossil:ancient_sword"
 	},
 	{
 		uid: "1ca1e245",

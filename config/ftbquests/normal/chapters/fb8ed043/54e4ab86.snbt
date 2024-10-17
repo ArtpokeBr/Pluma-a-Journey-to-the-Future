@@ -30,12 +30,7 @@
 	rewards: [{
 		uid: "362b5bff",
 		type: "item",
-		item: {
-			id: "pyrotech:flint_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "pyrotech:flint_axe"
 	},
 	{
 		uid: "6c5cd088",

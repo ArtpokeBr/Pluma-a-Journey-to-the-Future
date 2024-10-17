@@ -21,16 +21,16 @@
 		type: "item",
 		title: "Vibrant Alloy Ingot",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotVibrantAlloy"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotVibrantAlloy"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotVibrantAlloy"
 				}
 			}
 		}],

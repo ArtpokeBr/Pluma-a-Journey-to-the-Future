@@ -39,17 +39,11 @@
 		items: [{
 			id: "botania:twigwand",
 			tag: {
-				color1: 10,
 				color2: 10,
+				color1: 10,
 				boundTileZ: 0,
 				boundTileX: 0,
 				boundTileY: -1
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
 			}
 		}],
 		ignore_nbt: 1b
@@ -58,23 +52,17 @@
 		uid: "2cb5c095",
 		type: "item",
 		item: {
-			id: "botania:lens",
 			Damage: 2s,
+			id: "botania:lens",
 			tag: {
 				compositeLens: {
+					Damage: 1s,
 					ForgeCaps: {
 						"astralsorcery:cap_item_amulet_holder": {}
 					},
 					id: "botania:lens",
-					Count: 1b,
 					tag: {},
-					Damage: 1s
-				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
+					Count: 1b
 				}
 			}
 		}

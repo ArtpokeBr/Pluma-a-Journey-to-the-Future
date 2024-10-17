@@ -22,12 +22,12 @@
 		uid: "55f1af40",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 79s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "modularium",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "modularium"
 				}
 			}
 		},

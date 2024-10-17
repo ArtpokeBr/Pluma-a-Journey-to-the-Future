@@ -34,16 +34,16 @@
 		type: "item",
 		title: "Obsidian Dust",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustObsidian"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustObsidian"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustObsidian"
 				}
 			}
 		}]
@@ -53,16 +53,16 @@
 		type: "item",
 		title: "Refined Obsidian Dust",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any dustRefinedObsidian"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "dustRefinedObsidian"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustRefinedObsidian"
 				}
 			}
 		}],

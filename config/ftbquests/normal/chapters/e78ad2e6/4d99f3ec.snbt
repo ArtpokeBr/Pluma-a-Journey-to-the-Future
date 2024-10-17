@@ -1,11 +1,6 @@
 {
 	title: "Bee Protected",
-	icon: {
-		id: "forestry:apiarist_helmet",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "forestry:apiarist_helmet",
 	x: 2.5d,
 	y: -2.5d,
 	shape: "hexagon",
@@ -22,10 +17,7 @@
 		uid: "8d2f5bb3",
 		type: "item",
 		items: [{
-			id: "forestry:apiarist_helmet",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "forestry:apiarist_helmet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -34,10 +26,7 @@
 		uid: "7d948822",
 		type: "item",
 		items: [{
-			id: "forestry:apiarist_chest",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "forestry:apiarist_chest"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -46,10 +35,7 @@
 		uid: "f85facc2",
 		type: "item",
 		items: [{
-			id: "forestry:apiarist_legs",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "forestry:apiarist_legs"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -58,10 +44,7 @@
 		uid: "ce81ac32",
 		type: "item",
 		items: [{
-			id: "forestry:apiarist_boots",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "forestry:apiarist_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

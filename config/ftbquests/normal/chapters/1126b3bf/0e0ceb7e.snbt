@@ -61,16 +61,16 @@
 		type: "item",
 		icon: "minecraft:end_stone",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any endstone"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "endstone"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any endstone"
 				}
 			}
 		}],
@@ -80,12 +80,12 @@
 		uid: "c3a9b6f0",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 80s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "endacid",
-					Amount: 8000
+					Amount: 8000,
+					FluidName: "endacid"
 				}
 			}
 		}

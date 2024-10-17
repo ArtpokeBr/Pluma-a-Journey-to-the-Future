@@ -58,18 +58,15 @@
 		item: {
 			id: "cyclicmagic:tool_torch_launcher",
 			tag: {
+				RepairCost: 3,
 				ench: [{
-					lvl: 1s,
-					id: 70
+					id: 70,
+					lvl: 1s
 				},
 				{
-					lvl: 3s,
-					id: 34
-				}],
-				RepairCost: 3
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+					id: 34,
+					lvl: 3s
+				}]
 			}
 		}
 	},

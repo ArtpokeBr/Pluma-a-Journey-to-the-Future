@@ -3,8 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "nitric_acid",
-			Amount: 1000
+			Amount: 1000,
+			FluidName: "nitric_acid"
 		}
 	},
 	x: 9.0d,
@@ -60,8 +60,8 @@
 			id: "thermalexpansion:reservoir",
 			tag: {
 				Fluid: {
-					FluidName: "nitric_acid",
-					Amount: 10000
+					Amount: 10000,
+					FluidName: "nitric_acid"
 				}
 			}
 		}

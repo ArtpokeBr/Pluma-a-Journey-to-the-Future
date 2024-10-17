@@ -20,16 +20,16 @@
 		type: "item",
 		title: "Energetic Alloy",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotEnergeticAlloy"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "ingotEnergeticAlloy"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotEnergeticAlloy"
 				}
 			}
 		}],

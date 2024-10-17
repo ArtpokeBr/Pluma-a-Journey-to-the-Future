@@ -23,12 +23,9 @@
 		items: [{
 			id: "evilcraft:blood_infuser",
 			tag: {
-				x: 352,
+				z: 338,
 				y: 66,
-				z: 338
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+				x: 352
 			}
 		}],
 		ignore_damage: true,

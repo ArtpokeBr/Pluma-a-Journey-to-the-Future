@@ -52,12 +52,12 @@
 		uid: "320bb869",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "menril",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "menril"
 				}
 			}
 		},
@@ -66,12 +66,7 @@
 	{
 		uid: "a9c45086",
 		type: "item",
-		item: {
-			id: "integrateddynamics:on_the_dynamics_of_integration",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "integrateddynamics:on_the_dynamics_of_integration"
 	},
 	{
 		uid: "3f432360",

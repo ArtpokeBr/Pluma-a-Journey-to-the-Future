@@ -19,34 +19,19 @@
 		type: "item",
 		title: "Make  Any Terrastone Tool",
 		items: [{
-			id: "roots:terrastone_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:terrastone_sword"
 		},
 		{
-			id: "roots:terrastone_pickaxe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:terrastone_pickaxe"
 		},
 		{
-			id: "roots:terrastone_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:terrastone_axe"
 		},
 		{
-			id: "roots:terrastone_shovel",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:terrastone_shovel"
 		},
 		{
-			id: "roots:terrastone_hoe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:terrastone_hoe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -15,10 +15,7 @@
 		uid: "3e818dc6",
 		type: "item",
 		items: [{
-			id: "pyrotech:flint_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:flint_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -27,10 +24,7 @@
 		uid: "f28cb706",
 		type: "item",
 		items: [{
-			id: "pyrotech:flint_pickaxe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:flint_pickaxe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -39,10 +33,7 @@
 		uid: "3c0d7b77",
 		type: "item",
 		items: [{
-			id: "pyrotech:flint_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:flint_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -51,10 +42,7 @@
 		uid: "b95c2478",
 		type: "item",
 		items: [{
-			id: "pyrotech:flint_shovel",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:flint_shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -65,14 +53,11 @@
 		item: {
 			id: "pyrotech:flint_hammer",
 			tag: {
+				RepairCost: 1,
 				ench: [{
-					lvl: 3s,
-					id: 34s
-				}],
-				RepairCost: 1
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
+					id: 34s,
+					lvl: 3s
+				}]
 			}
 		}
 	},

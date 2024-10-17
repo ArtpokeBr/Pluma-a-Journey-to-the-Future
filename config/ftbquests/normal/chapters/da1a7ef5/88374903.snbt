@@ -23,10 +23,7 @@
 		uid: "3c977803",
 		type: "item",
 		items: [{
-			id: "roots:runic_shears",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:runic_shears"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

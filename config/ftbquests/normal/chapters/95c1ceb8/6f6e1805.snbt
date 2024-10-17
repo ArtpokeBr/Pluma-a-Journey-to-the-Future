@@ -25,12 +25,12 @@
 		uid: "1d78781f",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "binnie.dna.raw",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "binnie.dna.raw"
 				}
 			}
 		},

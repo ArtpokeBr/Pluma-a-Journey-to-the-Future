@@ -15,10 +15,7 @@
 		uid: "c9355706",
 		type: "item",
 		items: [{
-			id: "enderio:item_dark_steel_helmet",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "enderio:item_dark_steel_helmet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -27,10 +24,7 @@
 		uid: "66bb41fd",
 		type: "item",
 		items: [{
-			id: "enderio:item_dark_steel_chestplate",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "enderio:item_dark_steel_chestplate"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -39,10 +33,7 @@
 		uid: "f5d51570",
 		type: "item",
 		items: [{
-			id: "enderio:item_dark_steel_leggings",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "enderio:item_dark_steel_leggings"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -51,10 +42,7 @@
 		uid: "97c0ad06",
 		type: "item",
 		items: [{
-			id: "enderio:item_dark_steel_boots",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "enderio:item_dark_steel_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -63,14 +51,11 @@
 		uid: "08bea996",
 		type: "item",
 		item: {
-			id: "enderio:item_dark_steel_upgrade",
 			Damage: 1s,
+			id: "enderio:item_dark_steel_upgrade",
 			tag: {
 				"enderio:dsu": "enderiomachines:solar3",
 				"enderio:enabled": 1b
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

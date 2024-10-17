@@ -3,16 +3,16 @@
 	icon: {
 		id: "gregtech:mortar",
 		tag: {
-			DisallowContainerItem: 0b,
 			GT.Tool: {
-				Material: "gregtech:flint",
-				MaxDurability: 63,
-				Durability: 0,
 				AttackDamage: 0.0f,
-				AttackSpeed: -2.4f
+				MaxDurability: 63,
+				AttackSpeed: -2.4f,
+				Material: "gregtech:flint",
+				Durability: 0
 			},
 			HideFlags: 2,
-			GT.Behaviours: {}
+			GT.Behaviours: {},
+			DisallowContainerItem: 0b
 		}
 	},
 	x: 5.5d,
@@ -32,16 +32,16 @@
 		uid: "7ffc91aa",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceMortars"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "gtceMortars"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceMortars"
 				}
 			}
 		}],
@@ -51,16 +51,16 @@
 		uid: "19203811",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceKnife"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "gtceKnife"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceKnife"
 				}
 			}
 		}],

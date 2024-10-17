@@ -1,8 +1,8 @@
 {
 	title: "Automating Crops!",
 	icon: {
-		id: "forestry:ffarm",
 		Damage: 2s,
+		id: "forestry:ffarm",
 		tag: {
 			FarmBlock: 0
 		}
@@ -40,8 +40,8 @@
 		uid: "aae5fdd7",
 		type: "item",
 		items: [{
-			id: "forestry:ffarm",
 			Damage: 2s,
+			id: "forestry:ffarm",
 			tag: {
 				FarmBlock: 0
 			}
@@ -51,8 +51,8 @@
 		uid: "e6aee570",
 		type: "item",
 		items: [{
-			id: "forestry:ffarm",
 			Damage: 4s,
+			id: "forestry:ffarm",
 			tag: {
 				FarmBlock: 0
 			}
@@ -83,8 +83,8 @@
 		item: {
 			id: "thermalexpansion:cache",
 			tag: {
-				Facing: 3b,
-				Level: 0b
+				Level: 0b,
+				Facing: 3b
 			}
 		},
 		random_bonus: 3

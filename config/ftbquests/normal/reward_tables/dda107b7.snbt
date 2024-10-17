@@ -5,12 +5,12 @@
 	use_title: true,
 	rewards: [{
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "nitrogen",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "nitrogen"
 				}
 			}
 		},
@@ -18,12 +18,12 @@
 	},
 	{
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "oxygen",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "oxygen"
 				}
 			}
 		},

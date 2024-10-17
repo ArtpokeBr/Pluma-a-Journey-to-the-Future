@@ -30,52 +30,28 @@
 		type: "item",
 		title: "Any Roots Knife",
 		items: [{
-			id: "mysticalworld:amethyst_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "mysticalworld:amethyst_knife"
 		},
 		{
-			id: "mysticalworld:copper_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "mysticalworld:copper_knife"
 		},
 		{
-			id: "mysticalworld:silver_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "mysticalworld:silver_knife"
 		},
 		{
-			id: "roots:wood_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:wood_knife"
 		},
 		{
-			id: "roots:stone_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:stone_knife"
 		},
 		{
-			id: "roots:iron_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:iron_knife"
 		},
 		{
-			id: "roots:diamond_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:diamond_knife"
 		},
 		{
-			id: "roots:gold_knife",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:gold_knife"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -87,8 +63,8 @@
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					lvl: 2s,
-					id: 34s
+					id: 34s,
+					lvl: 2s
 				}]
 			}
 		}

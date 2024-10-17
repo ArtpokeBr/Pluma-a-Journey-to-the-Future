@@ -39,10 +39,10 @@
 		item: {
 			id: "harvestcraft:energydrinkitem",
 			tag: {
+				RepairCost: 0,
 				display: {
 					Name: "Thanks for the Energy to Read This!"
-				},
-				RepairCost: 0
+				}
 			}
 		}
 	}]

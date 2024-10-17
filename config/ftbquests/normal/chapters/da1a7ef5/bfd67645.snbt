@@ -30,40 +30,22 @@
 		type: "item",
 		title: "Any Runic Tool",
 		items: [{
-			id: "roots:runed_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:runed_sword"
 		},
 		{
-			id: "roots:runed_pickaxe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:runed_pickaxe"
 		},
 		{
-			id: "roots:runed_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:runed_axe"
 		},
 		{
-			id: "roots:runed_shovel",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:runed_shovel"
 		},
 		{
-			id: "roots:runed_hoe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:runed_hoe"
 		},
 		{
-			id: "roots:runed_dagger",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:runed_dagger"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

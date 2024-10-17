@@ -3,14 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "aqua_regia",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {
-				AS_Amulet_HolderLeast: -4833433468184046596L,
-				AS_Amulet_HolderMost: -8936466980767643917L
-			}
+			Amount: 1000,
+			FluidName: "aqua_regia"
 		}
 	},
 	x: 0.0d,
@@ -40,12 +34,12 @@
 		uid: "cbb965fd",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 85s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "aqua_regia",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "aqua_regia"
 				}
 			}
 		},

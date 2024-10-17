@@ -37,16 +37,16 @@
 		uid: "d0db66fe",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any blockSeared"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "blockSeared"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSeared"
 				}
 			}
 		}],

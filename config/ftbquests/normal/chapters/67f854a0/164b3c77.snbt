@@ -18,16 +18,16 @@
 		uid: "ae9ceac4",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreEndstoneLithium"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreEndstoneLithium"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreEndstoneLithium"
 				}
 			}
 		}]
@@ -36,16 +36,16 @@
 		uid: "413673f8",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreEndstoneScheelite"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreEndstoneScheelite"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreEndstoneScheelite"
 				}
 			}
 		}]
@@ -54,16 +54,16 @@
 		uid: "feb8c7fc",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreEndstoneTungstate"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "oreEndstoneTungstate"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreEndstoneTungstate"
 				}
 			}
 		}]

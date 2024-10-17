@@ -19,28 +19,19 @@
 		uid: "c1bb4c1f",
 		type: "item",
 		items: [{
-			id: "simplyjetpacks:itemjetpack",
 			Damage: 7s,
+			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		},
 		{
-			id: "simplyjetpacks:itemjetpack",
 			Damage: 8s,
+			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
 			}
 		}],
 		ignore_nbt: 1b
@@ -48,25 +39,12 @@
 	rewards: [{
 		uid: "42dd197f",
 		type: "item",
-		item: {
-			id: "simplyjetpacks:pilot_goggles",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "simplyjetpacks:pilot_goggles"
 	},
 	{
 		uid: "184c7d9f",
 		type: "item",
-		item: {
-			id: "tconstruct:slime_boots",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {
-					AS_Amulet_HolderLeast: -4833433468184046596L,
-					AS_Amulet_HolderMost: -8936466980767643917L
-				}
-			}
-		}
+		item: "tconstruct:slime_boots"
 	},
 	{
 		uid: "df102d73",

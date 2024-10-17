@@ -18,10 +18,7 @@
 		uid: "4c16133a",
 		type: "item",
 		items: [{
-			id: "pyrotech:crude_pickaxe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:crude_pickaxe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -30,10 +27,7 @@
 		uid: "36d9af78",
 		type: "item",
 		items: [{
-			id: "pyrotech:crude_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:crude_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -42,10 +36,7 @@
 		uid: "3176be9f",
 		type: "item",
 		items: [{
-			id: "pyrotech:crude_hoe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:crude_hoe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -54,10 +45,7 @@
 		uid: "7a8a5485",
 		type: "item",
 		items: [{
-			id: "pyrotech:crude_shovel",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:crude_shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -66,10 +54,7 @@
 		uid: "a79d26c2",
 		type: "item",
 		items: [{
-			id: "pyrotech:crude_hammer",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:crude_hammer"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

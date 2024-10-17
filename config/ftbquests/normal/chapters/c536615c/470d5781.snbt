@@ -19,16 +19,16 @@
 		uid: "7934e21b",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any fusedQuartz"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "fusedQuartz"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any fusedQuartz"
 				}
 			}
 		}],

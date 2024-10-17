@@ -1,22 +1,22 @@
 {
 	title: "Choose a Bronze Tool",
 	icon: {
-		id: "gregtech:meta_tool",
-		Damage: 9s,
-		tag: {
-			ench: [{
-				lvl: 3s,
-				id: 34s
-			}],
-			RepairCost: 1,
-			GT.ToolStats: {
-				Material: "bronze"
-			}
-		},
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
 		},
-		Count: 1b
+		Damage: 9s,
+		id: "gregtech:meta_tool",
+		Count: 1b,
+		tag: {
+			RepairCost: 1,
+			GT.ToolStats: {
+				Material: "bronze"
+			},
+			ench: [{
+				id: 34s,
+				lvl: 3s
+			}]
+		}
 	},
 	loot_size: 1,
 	use_title: true,
@@ -24,24 +24,24 @@
 		item: {
 			id: "gregtech:saw",
 			tag: {
-				DisallowContainerItem: 0b,
+				RepairCost: 1,
 				GT.Tool: {
-					Material: "bronze",
-					MaxDurability: 192,
-					Durability: 0,
 					AttackDamage: 1.0f,
+					HarvestLevel: 2,
+					MaxDurability: 192,
 					AttackSpeed: -2.6f,
-					HarvestLevel: 2
+					Material: "bronze",
+					Durability: 0
 				},
 				HideFlags: 2,
-				GT.Behaviours: {
-					HarvestIce: 1b
-				},
-				RepairCost: 1,
 				ench: [{
 					id: 34,
 					lvl: 3s
-				}]
+				}],
+				GT.Behaviours: {
+					HarvestIce: 1b
+				},
+				DisallowContainerItem: 0b
 			}
 		}
 	},
@@ -49,23 +49,23 @@
 		item: {
 			id: "gregtech:hammer",
 			tag: {
-				DisallowContainerItem: 0b,
+				RepairCost: 1,
 				GT.Tool: {
-					Material: "bronze",
-					MaxDurability: 192,
-					Durability: 0,
+					AttackDamage: 3.0f,
 					ToolSpeed: 7.0f,
 					HarvestLevel: 2,
-					AttackDamage: 3.0f,
-					AttackSpeed: -2.8f
+					MaxDurability: 192,
+					AttackSpeed: -2.8f,
+					Material: "bronze",
+					Durability: 0
 				},
 				HideFlags: 2,
-				GT.Behaviours: {},
-				RepairCost: 1,
 				ench: [{
 					id: 34,
 					lvl: 3s
-				}]
+				}],
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b
 			}
 		}
 	},
@@ -73,23 +73,23 @@
 		item: {
 			id: "gregtech:wrench",
 			tag: {
-				DisallowContainerItem: 0b,
+				RepairCost: 1,
 				GT.Tool: {
-					Material: "bronze",
-					MaxDurability: 192,
-					Durability: 0,
+					AttackDamage: 3.0f,
 					ToolSpeed: 7.0f,
 					HarvestLevel: 2,
-					AttackDamage: 3.0f,
-					AttackSpeed: -2.8f
+					MaxDurability: 192,
+					AttackSpeed: -2.8f,
+					Material: "bronze",
+					Durability: 0
 				},
 				HideFlags: 2,
-				GT.Behaviours: {},
-				RepairCost: 1,
 				ench: [{
 					id: 34,
 					lvl: 3s
-				}]
+				}],
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b
 			}
 		}
 	},
@@ -97,21 +97,21 @@
 		item: {
 			id: "gregtech:file",
 			tag: {
-				DisallowContainerItem: 0b,
+				RepairCost: 1,
 				GT.Tool: {
-					Material: "bronze",
-					MaxDurability: 192,
-					Durability: 0,
 					AttackDamage: 0.0f,
-					AttackSpeed: -2.4f
+					MaxDurability: 192,
+					AttackSpeed: -2.4f,
+					Material: "bronze",
+					Durability: 0
 				},
 				HideFlags: 2,
-				GT.Behaviours: {},
-				RepairCost: 1,
 				ench: [{
 					id: 34,
 					lvl: 3s
-				}]
+				}],
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b
 			}
 		}
 	},
@@ -119,21 +119,21 @@
 		item: {
 			id: "gregtech:screwdriver",
 			tag: {
-				DisallowContainerItem: 0b,
+				RepairCost: 1,
 				GT.Tool: {
-					Material: "bronze",
-					MaxDurability: 192,
-					Durability: 0,
 					AttackDamage: 1.0f,
-					AttackSpeed: 3.0f
+					MaxDurability: 192,
+					AttackSpeed: 3.0f,
+					Material: "bronze",
+					Durability: 0
 				},
 				HideFlags: 2,
-				GT.Behaviours: {},
-				RepairCost: 1,
 				ench: [{
 					id: 34,
 					lvl: 3s
-				}]
+				}],
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b
 			}
 		}
 	},
@@ -141,23 +141,23 @@
 		item: {
 			id: "gregtech:wire_cutter",
 			tag: {
-				DisallowContainerItem: 0b,
+				RepairCost: 1,
 				GT.Tool: {
-					Material: "bronze",
-					MaxDurability: 192,
-					Durability: 0,
+					AttackDamage: 1.0f,
 					ToolSpeed: 7.0f,
 					HarvestLevel: 2,
-					AttackDamage: 1.0f,
-					AttackSpeed: -2.4f
+					MaxDurability: 192,
+					AttackSpeed: -2.4f,
+					Material: "bronze",
+					Durability: 0
 				},
 				HideFlags: 2,
-				GT.Behaviours: {},
-				RepairCost: 1,
 				ench: [{
 					id: 34,
 					lvl: 3s
-				}]
+				}],
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b
 			}
 		}
 	}]

@@ -29,9 +29,6 @@
 			id: "evilcraft:blood_extractor",
 			tag: {
 				capacity: 8000
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

@@ -64,12 +64,12 @@
 		uid: "d2c2075c",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "steam",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "steam"
 				}
 			}
 		},

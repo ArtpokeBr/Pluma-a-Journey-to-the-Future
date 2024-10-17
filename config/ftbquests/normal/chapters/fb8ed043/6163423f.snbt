@@ -3,19 +3,19 @@
 	icon: {
 		id: "gregtech:wrench",
 		tag: {
-			DisallowContainerItem: 0b,
+			RepairCost: 1,
 			GT.Tool: {
-				Material: "bronze",
-				MaxDurability: 192,
-				Durability: 0,
+				AttackDamage: 3.0f,
 				ToolSpeed: 7.0f,
 				HarvestLevel: 2,
-				AttackDamage: 3.0f,
-				AttackSpeed: -2.8f
+				MaxDurability: 192,
+				AttackSpeed: -2.8f,
+				Material: "bronze",
+				Durability: 0
 			},
 			HideFlags: 2,
 			GT.Behaviours: {},
-			RepairCost: 1
+			DisallowContainerItem: 0b
 		}
 	},
 	x: 13.0d,
@@ -36,16 +36,16 @@
 		type: "item",
 		title: "Any Wrench",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceWrenches"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "gtceWrenches"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceWrenches"
 				}
 			}
 		}],
@@ -57,16 +57,16 @@
 		type: "item",
 		title: "Any Saw",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceSaws"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "gtceSaws"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceSaws"
 				}
 			}
 		}],
@@ -78,16 +78,16 @@
 		type: "item",
 		title: "Any File",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceFiles"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "gtceFiles"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceFiles"
 				}
 			}
 		}],
@@ -99,16 +99,16 @@
 		type: "item",
 		title: "Any Screwdriver",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any craftingToolScrewdriver"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "craftingToolScrewdriver"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
 				}
 			}
 		}],
@@ -120,16 +120,16 @@
 		type: "item",
 		title: "Any Wire Cutter",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceWireCutters"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "gtceWireCutters"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceWireCutters"
 				}
 			}
 		}],
@@ -143,23 +143,23 @@
 		icon: {
 			id: "gregtech:wrench",
 			tag: {
-				DisallowContainerItem: 0b,
+				RepairCost: 1,
 				GT.Tool: {
-					Material: "bronze",
-					MaxDurability: 192,
-					Durability: 0,
+					AttackDamage: 3.0f,
 					ToolSpeed: 7.0f,
 					HarvestLevel: 2,
-					AttackDamage: 3.0f,
-					AttackSpeed: -2.8f
+					MaxDurability: 192,
+					AttackSpeed: -2.8f,
+					Material: "bronze",
+					Durability: 0
 				},
 				HideFlags: 2,
-				GT.Behaviours: {},
-				RepairCost: 1,
 				ench: [{
 					id: 34,
 					lvl: 3s
-				}]
+				}],
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b
 			}
 		},
 		team_reward: false,

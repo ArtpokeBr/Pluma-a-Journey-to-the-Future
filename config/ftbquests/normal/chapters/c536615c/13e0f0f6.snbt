@@ -22,12 +22,7 @@
 	rewards: [{
 		uid: "a54bd82a",
 		type: "item",
-		item: {
-			id: "enderio:item_ender_food",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "enderio:item_ender_food"
 	},
 	{
 		uid: "3185903a",

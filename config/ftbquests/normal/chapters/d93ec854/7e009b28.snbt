@@ -41,10 +41,7 @@
 		type: "item",
 		items: [{
 			id: "embers:tinker_hammer",
-			tag: {},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -55,8 +52,8 @@
 		item: {
 			id: "embers:copper_cell",
 			tag: {
-				emberCapacity: 24000.0d,
-				ember: 0.0d
+				ember: 0.0d,
+				emberCapacity: 24000.0d
 			}
 		}
 	},

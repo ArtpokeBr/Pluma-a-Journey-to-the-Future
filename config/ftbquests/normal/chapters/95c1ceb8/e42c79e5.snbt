@@ -1,11 +1,6 @@
 {
 	title: "A §bDeep Learner§f",
-	icon: {
-		id: "deepmoblearning:deep_learner",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "deepmoblearning:deep_learner",
 	x: 10.5d,
 	y: -10.5d,
 	description: "Learning as you go",
@@ -30,10 +25,7 @@
 		uid: "c1c014d7",
 		type: "item",
 		items: [{
-			id: "deepmoblearning:deep_learner",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:deep_learner"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -50,64 +42,34 @@
 		type: "item",
 		title: "Any Overworldian Data Model",
 		items: [{
-			id: "deepmoblearning:data_model_zombie",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_zombie"
 		},
 		{
-			id: "deepmoblearning:data_model_spider",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_spider"
 		},
 		{
-			id: "deepmoblearning:data_model_tinker_slime",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_tinker_slime"
 		},
 		{
-			id: "deepmoblearning:data_model_guardian",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_guardian"
 		},
 		{
-			id: "deepmoblearning:data_model_enderman",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_enderman"
 		},
 		{
-			id: "deepmoblearning:data_model_witch",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_witch"
 		},
 		{
-			id: "deepmoblearning:data_model_creeper",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_creeper"
 		},
 		{
-			id: "deepmoblearning:data_model_slime",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_slime"
 		},
 		{
-			id: "deepmoblearning:data_model_skeleton",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_skeleton"
 		},
 		{
-			id: "deepmoblearning:data_model_thermal_elemental",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "deepmoblearning:data_model_thermal_elemental"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -119,8 +81,8 @@
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					lvl: 5s,
-					id: 16
+					id: 16,
+					lvl: 5s
 				}]
 			}
 		}

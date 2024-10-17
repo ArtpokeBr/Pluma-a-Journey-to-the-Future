@@ -18,10 +18,7 @@
 		uid: "7587f080",
 		type: "item",
 		items: [{
-			id: "pyrotech:flint_and_tinder",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:flint_and_tinder"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

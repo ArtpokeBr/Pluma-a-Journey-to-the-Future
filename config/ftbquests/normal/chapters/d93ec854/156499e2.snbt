@@ -15,10 +15,7 @@
 		uid: "ee3e93bc",
 		type: "item",
 		items: [{
-			id: "fossil:scarab_sword",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "fossil:scarab_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -27,10 +24,7 @@
 		uid: "b44af11e",
 		type: "item",
 		items: [{
-			id: "fossil:scarab_pickaxe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "fossil:scarab_pickaxe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -39,10 +33,7 @@
 		uid: "cbd8793d",
 		type: "item",
 		items: [{
-			id: "fossil:scarab_axe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "fossil:scarab_axe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -51,10 +42,7 @@
 		uid: "54981cb1",
 		type: "item",
 		items: [{
-			id: "fossil:scarab_hoe",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "fossil:scarab_hoe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -63,10 +51,7 @@
 		uid: "ff5de372",
 		type: "item",
 		items: [{
-			id: "fossil:scarab_shovel",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "fossil:scarab_shovel"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -78,8 +63,8 @@
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					lvl: 1s,
-					id: 70s
+					id: 70s,
+					lvl: 1s
 				}]
 			}
 		},
@@ -92,8 +77,8 @@
 			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					lvl: 3s,
-					id: 34s
+					id: 34s,
+					lvl: 3s
 				}]
 			}
 		},

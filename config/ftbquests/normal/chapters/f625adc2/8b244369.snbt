@@ -105,9 +105,9 @@
 		item: {
 			id: "thermalexpansion:tank",
 			tag: {
-				Creative: 0b,
+				RSControl: 0b,
 				Level: 2b,
-				RSControl: 0b
+				Creative: 0b
 			}
 		}
 	},

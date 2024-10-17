@@ -31,12 +31,9 @@
 			tag: {
 				durability: 16,
 				fluids: {
-					FluidName: "water",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "water"
 				}
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

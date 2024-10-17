@@ -16,10 +16,7 @@
 		uid: "10eb6640",
 		type: "item",
 		items: [{
-			id: "roots:sylvan_helmet",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:sylvan_helmet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -28,10 +25,7 @@
 		uid: "10706220",
 		type: "item",
 		items: [{
-			id: "roots:sylvan_chestplate",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:sylvan_chestplate"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -40,10 +34,7 @@
 		uid: "a463998d",
 		type: "item",
 		items: [{
-			id: "roots:sylvan_leggings",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:sylvan_leggings"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -52,10 +43,7 @@
 		uid: "bbf1639e",
 		type: "item",
 		items: [{
-			id: "roots:sylvan_boots",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "roots:sylvan_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

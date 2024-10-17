@@ -25,16 +25,16 @@
 		type: "item",
 		title: "Any Gregtech Hammer",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceHardHammers"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "gtceHardHammers"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceHardHammers"
 				}
 			}
 		}],
@@ -45,16 +45,16 @@
 		uid: "ad1b3325",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any plateBronze"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "plateBronze"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plateBronze"
 				}
 			}
 		}],

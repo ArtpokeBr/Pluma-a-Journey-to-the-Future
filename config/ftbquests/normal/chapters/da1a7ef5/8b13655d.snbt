@@ -1,11 +1,6 @@
 {
 	title: "Getting the Most out of your Chimes!",
-	icon: {
-		id: "minecraft:writable_book",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "minecraft:writable_book",
 	x: 1.0d,
 	y: 0.0d,
 	description: "It will probally sound Complicated, but jus follow up the Tutorial!",

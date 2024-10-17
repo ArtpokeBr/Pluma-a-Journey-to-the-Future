@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "plastic",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "plastic"
 		}
 	},
 	x: 5.0d,
@@ -40,12 +37,12 @@
 		uid: "3e578827",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "plastic",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "plastic"
 				}
 			}
 		},

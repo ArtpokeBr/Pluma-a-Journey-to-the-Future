@@ -54,9 +54,6 @@
 			id: "forestry:apiarist_bag",
 			tag: {
 				UID: -1281957919
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

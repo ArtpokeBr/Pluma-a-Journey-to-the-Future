@@ -139,12 +139,12 @@
 		uid: "4edc2461",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "polytetrafluoroethylene",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "polytetrafluoroethylene"
 				}
 			}
 		},

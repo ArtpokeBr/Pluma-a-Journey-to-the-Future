@@ -80,12 +80,12 @@
 		uid: "ed937559",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "mutagen",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "mutagen"
 				}
 			}
 		},
@@ -95,12 +95,12 @@
 		uid: "526f9fb5",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "distilled_water",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "distilled_water"
 				}
 			}
 		},

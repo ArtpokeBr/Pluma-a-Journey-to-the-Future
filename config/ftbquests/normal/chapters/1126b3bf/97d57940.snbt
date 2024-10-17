@@ -31,12 +31,7 @@
 	rewards: [{
 		uid: "596065ae",
 		type: "item",
-		item: {
-			id: "bloodmagic:lava_crystal",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "bloodmagic:lava_crystal"
 	},
 	{
 		uid: "70d5ba19",

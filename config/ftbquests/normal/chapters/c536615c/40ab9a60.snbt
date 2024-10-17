@@ -23,16 +23,16 @@
 			item: "enderio:item_yeta_wrench"
 		},
 		{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any gtceWrenches"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "gtceWrenches"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gtceWrenches"
 				}
 			}
 		},

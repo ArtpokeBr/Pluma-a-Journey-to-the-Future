@@ -24,8 +24,8 @@
 			tag: {
 				"enderio:data": {
 					tank: {
-						Empty: "",
-						Capacity: 16000
+						Capacity: 16000,
+						Empty: ""
 					}
 				}
 			}

@@ -63,11 +63,6 @@
 	{
 		uid: "15a62837",
 		type: "item",
-		item: {
-			id: "pyrotech:bag_simple",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "pyrotech:bag_simple"
 	}]
 }

@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "vinyl_chloride",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "vinyl_chloride"
 		}
 	},
 	x: 13.5d,
@@ -34,12 +31,12 @@
 		uid: "54bbc6f1",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "ethylene",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "ethylene"
 				}
 			}
 		},

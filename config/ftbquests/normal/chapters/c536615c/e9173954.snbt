@@ -3,11 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "biomass",
-			Amount: 1000
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
+			Amount: 1000,
+			FluidName: "biomass"
 		}
 	},
 	x: -0.5d,
@@ -46,12 +43,12 @@
 		uid: "95711219",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 78s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "biomass",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "biomass"
 				}
 			}
 		},

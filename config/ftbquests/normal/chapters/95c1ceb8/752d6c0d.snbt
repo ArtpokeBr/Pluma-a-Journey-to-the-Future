@@ -46,9 +46,6 @@
 			id: "patchouli:guide_book",
 			tag: {
 				"patchouli:book": "deepmoblearning:book"
-			},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
 	},

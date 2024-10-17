@@ -17,8 +17,8 @@
 		uid: "cc35bcfc",
 		type: "item",
 		items: [{
-			id: "actuallyadditions:item_drill",
 			Damage: 3s,
+			id: "actuallyadditions:item_drill",
 			tag: {
 				Energy: 0
 			}

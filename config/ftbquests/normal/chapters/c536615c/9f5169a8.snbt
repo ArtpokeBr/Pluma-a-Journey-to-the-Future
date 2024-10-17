@@ -3,8 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "crystaloil",
-			Amount: 1000
+			Amount: 1000,
+			FluidName: "crystaloil"
 		}
 	},
 	x: -6.0d,

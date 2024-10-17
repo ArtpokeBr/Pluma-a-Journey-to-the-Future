@@ -28,12 +28,12 @@
 		uid: "229acc9b",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
 			Damage: 80s,
+			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "mutagen",
-					Amount: 8000
+					Amount: 8000,
+					FluidName: "mutagen"
 				}
 			}
 		},

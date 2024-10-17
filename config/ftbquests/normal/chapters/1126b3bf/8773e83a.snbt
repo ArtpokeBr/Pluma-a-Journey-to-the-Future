@@ -28,11 +28,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "ef1ff48b",
-		type: "item",
-		item: "abyssalcraft:decorativestatue"
-	},
-	{
 		uid: "2009bfad",
 		type: "ftbmoney:money",
 		ftb_money: 50L

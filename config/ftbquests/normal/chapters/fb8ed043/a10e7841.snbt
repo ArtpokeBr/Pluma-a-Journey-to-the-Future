@@ -18,10 +18,7 @@
 		uid: "bd755fe9",
 		type: "item",
 		items: [{
-			id: "pyrotech:straw_bed",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:straw_bed"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -30,12 +27,7 @@
 		uid: "c233e467",
 		type: "item",
 		team_reward: false,
-		item: {
-			id: "pyrotech:straw_bed",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
-		}
+		item: "pyrotech:straw_bed"
 	},
 	{
 		uid: "3a754ba7",

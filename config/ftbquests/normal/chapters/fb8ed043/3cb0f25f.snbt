@@ -19,16 +19,16 @@
 		uid: "d8498c92",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any logWood"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "logWood"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
 				}
 			}
 		}],
@@ -46,16 +46,16 @@
 		uid: "23e5fc0f",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any rock"
-				}
-			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
 					data: "rock"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
 				}
 			}
 		}],

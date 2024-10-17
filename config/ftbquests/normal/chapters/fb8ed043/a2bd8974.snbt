@@ -28,46 +28,25 @@
 		type: "item",
 		title: "Any Sawmill Blade",
 		items: [{
-			id: "pyrotech:sawmill_blade_stone",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:sawmill_blade_stone"
 		},
 		{
-			id: "pyrotech:sawmill_blade_flint",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:sawmill_blade_flint"
 		},
 		{
-			id: "pyrotech:sawmill_blade_bone",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:sawmill_blade_bone"
 		},
 		{
-			id: "pyrotech:sawmill_blade_gold",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:sawmill_blade_gold"
 		},
 		{
-			id: "pyrotech:sawmill_blade_diamond",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:sawmill_blade_diamond"
 		},
 		{
-			id: "pyrotech:sawmill_blade_obsidian",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:sawmill_blade_obsidian"
 		},
 		{
-			id: "pyrotech:sawmill_blade_iron",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "pyrotech:sawmill_blade_iron"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
