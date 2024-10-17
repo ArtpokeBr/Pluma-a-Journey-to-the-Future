@@ -1,48 +1,46 @@
-§a§lVersion Beta§r§f 4.0.3:
-
-BREAKING CHANGES:
-
-All DevTech Items will not exist anymore. wich means, all Ore Processing Custom Items (Crystal, Shards, Clumps etc).
-This is due to a Migration to ContentTweaker.
-
-Also, some NuclearCraft Items/Blocks may break due to a migration to the Non-Overhauled Version.
-(Not Guaranteed since the ID's should still be the same, but some content will be missing)
-
+§a§lVersion Beta§r§f 5.0.0:
 
 §b§lMod Related Changes§r§f:
 
-- Removed DevTech.
-- Removed NuclearCraft:Overhauled
+- Added StellarCore
 
-- Added Mixing Bootstrap
-- Added NuclearCraft
+-- Updated the Following Mods --
 
-- Updated Xaeros Package.
-- Updated Just Enough Magiculture.
-- Updated NotEnough Energistics.
-- Updated AquaAcrobatics.
-- Updated CraftPresence.
-- Updated GeographicCraft
-- Updated HammerLib
-- Updated PackagedAuto
-- Updated Packaged Draconic
-- Updated All Gregtech related Mods (Finally to 2.8!).
-- Updated Particle Culling
-- Updated AE2 Fluid Crafting
-- Updated CensoredASM
-- Updated Had Enough Items 
-- Updated Roughly Enough IDs
-- Updated Pyrotech
-- Updated VintageFix
-- Updated Mekanism Community Edition
-- Updated Embers Unnofficial
-- Updated Industrial Foregoing Patcher
-- Updated UniversalTweaks
+- CraftPresence
+- MixinBooter
+- Alfheim
+- Crafttweaker
+- Dropt
+- Controlling
+- Entity Distance
+- Had Enough Items
+- HammerLib
+- AE2 Fluid Crafting
+- AE2 Extended Life
+- Embers Extended Life
+- Ender Storage Continuation
+- Binnies Mods
+- Geographic Craft
+- Multiblock'd
+- Packaged Astral
+- Packaged Draconic
+- Packaged Auto
+- Packaged Thaumic
+- Packaged ExCrafting
+- IC2 Patcher
+- Little Tiles
+- Legendary Tooltips
+- Quark
+- Roguelike Dungeons
+- Roughly Enough ID'S
+- Pyrotech
+- Just Enough Magiculture
+- 
+
+--------------------------------
 
 §2§lFixes§r§f:
 
-- Fixed some Quest Related Issues.
-- Fixed Mekanism's Steel Casing Recipe.
-
+- 
 §5§lMiscellaneous§r§f:
 
