@@ -46,3 +46,6 @@ config/cherishedworlds/favorites.dat
 local/ftbutilities/backups.json
 /local
 llibrary/debug/
+config/gregtech/persistent_data.dat
+config/cherishedworlds/favorites.dat
+config/AppliedEnergistics2/CustomRecipes.cfg
