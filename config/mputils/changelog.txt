@@ -43,6 +43,7 @@
 - Thaumic Energistics Extended Life
 - Storage Drawers
 - Thaumic Additions
+- Mouse Tweaks Unnofficial
 
 --------------------------------
 
