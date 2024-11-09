@@ -50,3 +50,7 @@ config/gregtech/persistent_data.dat
 config/cherishedworlds/favorites.dat
 config/AppliedEnergistics2/CustomRecipes.cfg
 /xaero
+config/jei/worldSettings.cfg
+config/JustEnoughCalculation/record.json
+config/cherishedworlds/favorites.dat
+BotaniaVars.dat
