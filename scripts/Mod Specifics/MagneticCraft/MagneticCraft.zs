@@ -58,6 +58,12 @@ recipes.addShaped(<magneticraft:steam_boiler:0> * 1, [[<ore:plateIron>, <ore:lig
 // Copper Coil
 recipes.remove(<magneticraft:copper_coil>);
 recipes.addShapeless("MagneticCraftCopperCoil",<magneticraft:copper_coil>,[<ore:gtceWireCutters>, <ore:lightPlateCopper>]);
+wiremill.recipeBuilder()
+	.inputs(<ore:lightPlateCopper>)
+	.outputs(<magneticraft:copper_coil>)   
+	.duration(100)
+	.EUt(2)
+.buildAndRegister();
 
 // Fine Copper Wire
 recipes.remove(<magneticraft:crafting:3>);
