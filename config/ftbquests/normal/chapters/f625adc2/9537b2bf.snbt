@@ -27,10 +27,10 @@
 		uid: "e6fcf329",
 		type: "item",
 		item: {
-			id: "astralsorcery:itemilluminationwand",
 			tag: {
 				astralsorcery: {}
-			}
+			},
+			id: "astralsorcery:itemilluminationwand"
 		}
 	},
 	{

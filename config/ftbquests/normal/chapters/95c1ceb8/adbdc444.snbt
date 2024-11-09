@@ -1,11 +1,11 @@
 {
 	title: "Lets make some Phosphoric Acid",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "phosphoric_acid"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 5.0d,
 	y: -5.5d,

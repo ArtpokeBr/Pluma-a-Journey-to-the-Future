@@ -1,11 +1,11 @@
 {
 	title: "The Gold Processing Line §6Part II.V§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "hydrochloric_acid"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 10.0d,
 	y: 3.5d,

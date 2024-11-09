@@ -15,9 +15,9 @@
 		uid: "b5d0df23",
 		type: "item",
 		items: [{
+			tag: {},
 			Damage: 72s,
-			id: "ic2:te",
-			tag: {}
+			id: "ic2:te"
 		}]
 	}],
 	rewards: [{

@@ -59,18 +59,18 @@
 	rewards: [{
 		uid: "f66cfc74",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: {
-			id: "chisel:chisel_iron",
 			tag: {
 				chiseldata: {
 					target: {
-						Damage: 0s,
+						Count: 2b,
 						id: "minecraft:air",
-						Count: 2b
+						Damage: 0s
 					}
 				}
-			}
+			},
+			id: "chisel:chisel_iron"
 		}
 	},
 	{

@@ -1,11 +1,11 @@
 {
 	title: "Lets automate PVC §6Final Part§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "polyvinyl_chloride"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 13.5d,
 	y: -10.5d,

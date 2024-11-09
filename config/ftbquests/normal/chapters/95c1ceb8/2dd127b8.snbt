@@ -1,11 +1,11 @@
 {
 	title: "Producing Silicone Rubber §6Part I§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "chloromethane"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: -1.0d,
 	y: -12.0d,
@@ -32,14 +32,14 @@
 		uid: "681fe0b9",
 		type: "item",
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "chloromethane"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	},

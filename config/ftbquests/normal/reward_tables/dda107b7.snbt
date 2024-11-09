@@ -1,31 +1,31 @@
 {
 	title: "Nitrogen or Oxygen Reward",
 	loot_size: 1,
-	hide_tooltip: true,
-	use_title: true,
+	hide_tooltip: 1b,
+	use_title: 1b,
 	rewards: [{
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "nitrogen"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8
 	},
 	{
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "oxygen"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	}]

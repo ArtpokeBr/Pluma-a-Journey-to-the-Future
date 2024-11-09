@@ -33,8 +33,8 @@
 		uid: "6ad5b49d",
 		type: "item",
 		items: [{
-			id: "bloodmagic:sacrificial_dagger",
-			tag: {}
+			tag: {},
+			id: "bloodmagic:sacrificial_dagger"
 		}],
 		ignore_nbt: 1b
 	}],

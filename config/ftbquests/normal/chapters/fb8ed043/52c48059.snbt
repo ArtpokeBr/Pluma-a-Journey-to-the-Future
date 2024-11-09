@@ -24,7 +24,7 @@
 		items: [{
 			item: "pyrotech:cobblestone 1 3"
 		}],
-		consume_items: false
+		consume_items: 0b
 	},
 	{
 		uid: "e6e905b9",

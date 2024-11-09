@@ -40,12 +40,12 @@
 					data: "rawHide"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any rawHide"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		},
 		{
 			ForgeCaps: {
@@ -54,12 +54,12 @@
 					data: "rawSmallHide"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any rawSmallHide"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{

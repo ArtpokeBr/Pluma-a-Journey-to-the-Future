@@ -15,12 +15,12 @@
 		uid: "adaa3826",
 		type: "item",
 		items: [{
-			id: "totemic:eagle_bone_whistle",
 			tag: {
 				cooldown: 0
-			}
+			},
+			id: "totemic:eagle_bone_whistle"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

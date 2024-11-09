@@ -33,12 +33,12 @@
 					data: "oreCopper"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreCopper"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -51,12 +51,12 @@
 					data: "orePurifiedCopper"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any orePurifiedCopper"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -69,12 +69,12 @@
 					data: "oreShardCopper"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreShardCopper"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -87,12 +87,12 @@
 					data: "oreClusterCopper"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreClusterCopper"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 4L
 	},
@@ -106,12 +106,12 @@
 					data: "crushedCopper"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any crushedCopper"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 16L
 	}],
@@ -119,14 +119,14 @@
 		uid: "62e50b41",
 		type: "item",
 		item: {
-			Damage: 80s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 8000,
 					FluidName: "dwarven_solution"
 				}
-			}
+			},
+			Damage: 80s,
+			id: "gregtech:meta_item_1"
 		}
 	},
 	{

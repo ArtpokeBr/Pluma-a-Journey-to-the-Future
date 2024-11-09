@@ -23,28 +23,28 @@
 		uid: "45ad9e6f",
 		type: "item",
 		item: {
-			id: "enderio:item_dark_steel_axe",
 			tag: {
 				RepairCost: 1,
 				ench: [{
-					id: 70,
-					lvl: 1s
+					lvl: 1s,
+					id: 70
 				}]
-			}
+			},
+			id: "enderio:item_dark_steel_axe"
 		}
 	},
 	{
 		uid: "34d8dd1e",
 		type: "item",
 		item: {
-			id: "enderio:item_dark_steel_shears",
 			tag: {
 				RepairCost: 1,
 				ench: [{
-					id: 70,
-					lvl: 1s
+					lvl: 1s,
+					id: 70
 				}]
-			}
+			},
+			id: "enderio:item_dark_steel_shears"
 		}
 	},
 	{

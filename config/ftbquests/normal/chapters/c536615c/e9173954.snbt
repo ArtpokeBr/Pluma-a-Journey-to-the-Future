@@ -1,11 +1,11 @@
 {
 	title: "Lets Automate Ethanol! §6Part I§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "biomass"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: -0.5d,
 	y: -13.0d,
@@ -43,14 +43,14 @@
 		uid: "95711219",
 		type: "item",
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "biomass"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8
 	},

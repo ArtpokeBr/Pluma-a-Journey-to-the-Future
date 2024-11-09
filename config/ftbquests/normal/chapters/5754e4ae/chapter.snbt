@@ -1,6 +1,6 @@
 {
 	title: "Circuitry Progression",
-	always_invisible: true,
+	always_invisible: 1b,
 	group: 0,
 	default_quest_shape: "",
 	images: [{
@@ -12,7 +12,7 @@
 		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: -0.5d,
@@ -23,7 +23,7 @@
 		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 0.5d,
@@ -34,7 +34,7 @@
 		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 1.5d,
@@ -45,7 +45,7 @@
 		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 2.5d,
@@ -56,7 +56,7 @@
 		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 3.5d,
@@ -67,7 +67,7 @@
 		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 4.5d,
@@ -78,7 +78,7 @@
 		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 5.5d,
@@ -89,6 +89,6 @@
 		image: "assets:pluma/quests/circuitrybanner.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	}]
 }

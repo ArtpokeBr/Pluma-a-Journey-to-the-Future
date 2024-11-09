@@ -18,7 +18,7 @@
 		"",
 		"§dBut Currently§f, you may be able to §aControl Radiation§f §3by not storing Radioactive Material near you§f, or by §econsuming Items that give you Rad Resistence and/or clean your Radiation directly§f."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"26b332de"
 	],

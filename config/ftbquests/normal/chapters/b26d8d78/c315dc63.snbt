@@ -1,11 +1,11 @@
 {
 	title: "Time to Play with Void Breaches!",
 	icon: {
-		id: "thaumicaugmentation:rift_jar",
 		tag: {
 			size: 100,
 			seed: 1337
-		}
+		},
+		id: "thaumicaugmentation:rift_jar"
 	},
 	x: 10.5d,
 	y: 0.0d,
@@ -56,7 +56,7 @@
 		items: [{
 			item: "thaumcraft:primordial_pearl"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

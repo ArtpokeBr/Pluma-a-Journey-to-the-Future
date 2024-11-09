@@ -8,7 +8,7 @@
 		"",
 		"- This machine and the Chemical Reactor are best friends!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"40ed11cf"
 	],

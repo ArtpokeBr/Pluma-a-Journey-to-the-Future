@@ -55,22 +55,22 @@
 		uid: "84ef5e43",
 		type: "item",
 		item: {
-			Damage: 25s,
-			id: "botania:cosmetic",
 			tag: {
 				playerHashcode: 8729
-			}
+			},
+			Damage: 25s,
+			id: "botania:cosmetic"
 		}
 	},
 	{
 		uid: "904fb07d",
 		type: "item",
 		item: {
-			Damage: 1s,
-			id: "botania:cosmetic",
 			tag: {
 				playerHashcode: 8729
-			}
+			},
+			Damage: 1s,
+			id: "botania:cosmetic"
 		}
 	},
 	{

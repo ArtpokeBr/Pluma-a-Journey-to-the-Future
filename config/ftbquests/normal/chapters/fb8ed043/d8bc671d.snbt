@@ -9,7 +9,7 @@
 		"",
 		"- This will §eincrease yields§f of products made out of §6Carcass§f."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"df224012"
 	],

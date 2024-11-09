@@ -24,12 +24,12 @@
 					data: "ingotTerrastone"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotTerrastone"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 8L
 	}],

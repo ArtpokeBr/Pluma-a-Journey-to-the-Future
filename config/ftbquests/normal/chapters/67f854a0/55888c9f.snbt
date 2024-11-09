@@ -29,13 +29,13 @@
 		uid: "4508acd6",
 		type: "item",
 		item: {
-			Damage: 33s,
-			id: "thermalfoundation:upgrade",
 			tag: {
 				display: {
 					Name: "\"Lumium\" Conversion Kit"
 				}
-			}
+			},
+			Damage: 33s,
+			id: "thermalfoundation:upgrade"
 		}
 	},
 	{

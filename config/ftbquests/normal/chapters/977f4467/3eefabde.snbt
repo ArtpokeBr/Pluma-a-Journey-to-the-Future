@@ -35,7 +35,7 @@
 		{
 			item: "twilightforest:fiery_tears"
 		}],
-		consume_items: false
+		consume_items: 0b
 	}],
 	rewards: [{
 		uid: "b2dbf63f",

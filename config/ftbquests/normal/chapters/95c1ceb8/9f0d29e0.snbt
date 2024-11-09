@@ -1,11 +1,11 @@
 {
 	title: "Time to make Diesel! §6Part III§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "diesel"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: -1.0d,
 	y: -14.5d,

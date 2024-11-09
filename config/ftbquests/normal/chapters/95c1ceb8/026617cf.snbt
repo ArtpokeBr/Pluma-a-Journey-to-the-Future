@@ -1,11 +1,11 @@
 {
 	title: "Lets Automate Platinum §6Part I§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "aqua_regia"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 0.0d,
 	y: -10.5d,
@@ -34,14 +34,14 @@
 		uid: "cbb965fd",
 		type: "item",
 		item: {
-			Damage: 85s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "aqua_regia"
 				}
-			}
+			},
+			Damage: 85s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4,
 		random_bonus: 4

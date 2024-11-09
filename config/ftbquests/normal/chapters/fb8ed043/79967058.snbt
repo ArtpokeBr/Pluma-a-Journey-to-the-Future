@@ -16,28 +16,28 @@
 		items: [{
 			item: "actuallyadditions:stone_paxel"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "af687b85",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: {
-			id: "pyrotech:stone_shears",
 			tag: {
 				RepairCost: 1,
 				ench: [{
-					id: 34s,
-					lvl: 3s
+					lvl: 3s,
+					id: 34s
 				}]
-			}
+			},
+			id: "pyrotech:stone_shears"
 		}
 	},
 	{
 		uid: "12f1dae7",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "actuallyadditions:item_food 1 13"
 	}]
 }

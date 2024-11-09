@@ -20,14 +20,14 @@
 		type: "item",
 		title: "A Tool Forge or Armor Forge",
 		icon: {
-			id: "tconstruct:toolforge",
 			tag: {
 				textureBlock: {
-					Damage: 0s,
+					Count: 1,
 					id: "minecraft:iron_block",
-					Count: 1
+					Damage: 0s
 				}
-			}
+			},
+			id: "tconstruct:toolforge"
 		},
 		items: [{
 			item: "tconstruct:toolforge"

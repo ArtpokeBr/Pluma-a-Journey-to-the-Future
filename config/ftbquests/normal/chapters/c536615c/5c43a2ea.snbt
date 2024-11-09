@@ -1,11 +1,11 @@
 {
 	title: "Using O² once again!",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "plastic"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 5.0d,
 	y: -12.0d,
@@ -37,14 +37,14 @@
 		uid: "3e578827",
 		type: "item",
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "plastic"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8
 	},

@@ -27,12 +27,12 @@
 					data: "craftingLensGlass"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingLensGlass"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{

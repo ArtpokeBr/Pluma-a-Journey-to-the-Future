@@ -74,14 +74,14 @@
 		uid: "38caaa5d",
 		type: "item",
 		item: {
-			Damage: 1s,
-			id: "forestry:can",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "lava"
 				}
-			}
+			},
+			Damage: 1s,
+			id: "forestry:can"
 		},
 		count: 4
 	},

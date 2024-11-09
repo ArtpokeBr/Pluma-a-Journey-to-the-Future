@@ -23,12 +23,12 @@
 					data: "ingotSoularium"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotSoularium"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 8L
 	}],
@@ -36,14 +36,14 @@
 		uid: "5bd98910",
 		type: "item",
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "scorched"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8,
 		random_bonus: 8

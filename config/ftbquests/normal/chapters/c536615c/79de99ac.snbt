@@ -43,10 +43,8 @@
 	rewards: [{
 		uid: "73e7bb0c",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: {
-			Damage: 464s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Page1: {
 					Task0: "",
@@ -56,8 +54,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page11: {
@@ -68,8 +66,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page5: {
@@ -80,8 +78,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				TotalPages: 0s,
@@ -93,8 +91,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page15: {
@@ -105,20 +103,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
-					Task7: ""
-				},
-				Page9: {
-					Task0: "",
-					Title: "",
-					Task4: "",
-					Task3: "",
-					Task1: "",
-					Task2: "",
-					ButStat: 0s,
 					Task5: "",
-					Task6: "",
 					Task7: ""
 				},
 				Page12: {
@@ -129,8 +115,20 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page9: {
+					Task0: "",
+					Title: "",
+					Task4: "",
+					Task3: "",
+					Task1: "",
+					Task2: "",
+					ButStat: 0s,
+					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page20: {
@@ -141,8 +139,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page22: {
@@ -153,8 +151,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page10: {
@@ -165,8 +163,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page2: {
@@ -177,8 +175,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page4: {
@@ -189,8 +187,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page6: {
@@ -201,8 +199,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page0: {
@@ -213,8 +211,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page23: {
@@ -225,8 +223,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page24: {
@@ -237,8 +235,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page21: {
@@ -249,20 +247,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
-					Task7: ""
-				},
-				Page17: {
-					Task0: "",
-					Title: "",
-					Task4: "",
-					Task3: "",
-					Task1: "",
-					Task2: "",
-					ButStat: 0s,
 					Task5: "",
-					Task6: "",
 					Task7: ""
 				},
 				Page3: {
@@ -273,8 +259,20 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
+					Task7: ""
+				},
+				Page17: {
+					Task0: "",
+					Title: "",
+					Task4: "",
+					Task3: "",
+					Task1: "",
+					Task2: "",
+					ButStat: 0s,
+					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page8: {
@@ -285,8 +283,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page7: {
@@ -297,8 +295,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page14: {
@@ -309,8 +307,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page13: {
@@ -321,8 +319,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				Page16: {
@@ -333,8 +331,8 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				},
 				PageIndex: 0s,
@@ -346,11 +344,13 @@
 					Task1: "",
 					Task2: "",
 					ButStat: 0s,
-					Task5: "",
 					Task6: "",
+					Task5: "",
 					Task7: ""
 				}
-			}
+			},
+			Damage: 464s,
+			id: "gregtech:meta_item_1"
 		}
 	},
 	{

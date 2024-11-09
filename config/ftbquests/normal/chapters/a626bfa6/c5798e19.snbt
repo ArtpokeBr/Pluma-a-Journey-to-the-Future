@@ -6,7 +6,7 @@
 	text: [
 		"Essential for basic Ore Processing and Easier Wrough Iron!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ffc88aa1",
 		"40ed11cf"

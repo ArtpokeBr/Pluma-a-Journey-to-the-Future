@@ -36,10 +36,10 @@
 		uid: "2a81a8d0",
 		type: "item",
 		item: {
-			id: "thaumadditions:vis_pod",
 			tag: {
 				Aspect: "fluctus"
-			}
+			},
+			id: "thaumadditions:vis_pod"
 		},
 		count: 8
 	},

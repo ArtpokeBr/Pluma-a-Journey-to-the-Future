@@ -8,7 +8,7 @@
 		"",
 		"- This Frame will be used to craft LP's Blocks."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"6bc53739",
 		"c498572f"

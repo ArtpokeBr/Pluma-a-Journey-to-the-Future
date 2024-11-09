@@ -25,12 +25,12 @@
 					data: "plankWood"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any plankWood"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -43,12 +43,12 @@
 					data: "slabWood"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any slabWood"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	}],
 	rewards: [{

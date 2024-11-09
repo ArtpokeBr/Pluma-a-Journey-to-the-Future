@@ -15,26 +15,17 @@
 	],
 	min_width: 300,
 	tasks: [{
-		uid: "5866d62a",
-		type: "item",
-		items: [{
-			item: "devtech:meta_light_plate 1 51"
-		}],
-		count: 4L
-	},
-	{
-		uid: "a41a5384",
-		type: "item",
-		items: [{
-			item: "devtech:meta_light_plate 1 55"
-		}],
-		count: 4L
-	},
-	{
 		uid: "86442450",
 		type: "item",
 		items: [{
 			item: "artisanworktables:worktable 1 3"
+		}]
+	},
+	{
+		uid: "5b342f2b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_light_plate"
 		}]
 	}],
 	rewards: [{

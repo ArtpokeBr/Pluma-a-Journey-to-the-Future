@@ -1,7 +1,7 @@
 {
 	title: "&6►Chapter 11&f - The Essence of the Living",
 	icon: "evilcraft:vengeance_essence",
-	always_invisible: false,
+	always_invisible: 0b,
 	group: 0,
 	default_quest_shape: "",
 	images: [{
@@ -13,6 +13,6 @@
 		image: "assets:pluma/quests/verticalline.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	}]
 }

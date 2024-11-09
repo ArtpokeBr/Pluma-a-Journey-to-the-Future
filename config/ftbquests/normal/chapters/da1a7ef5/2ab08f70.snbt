@@ -53,20 +53,20 @@
 		{
 			item: "roots:gold_knife"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "87ef049f",
 		type: "item",
 		item: {
-			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					id: 34s,
-					lvl: 2s
+					lvl: 2s,
+					id: 34s
 				}]
-			}
+			},
+			id: "minecraft:enchanted_book"
 		}
 	},
 	{

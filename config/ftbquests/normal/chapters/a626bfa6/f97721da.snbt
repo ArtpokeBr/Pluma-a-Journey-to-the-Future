@@ -10,7 +10,7 @@
 		"",
 		"- Oh, but most of its recipes require Oxygen, so you might need to revisit this quest once you have acess to an O² automation"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"40ed11cf"
 	],

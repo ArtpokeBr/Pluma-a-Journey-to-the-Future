@@ -37,14 +37,14 @@
 		type: "item",
 		title: "Any Botania Wand",
 		items: [{
-			id: "botania:twigwand",
 			tag: {
-				color2: 10,
 				color1: 10,
+				color2: 10,
 				boundTileZ: 0,
 				boundTileX: 0,
 				boundTileY: -1
-			}
+			},
+			id: "botania:twigwand"
 		}],
 		ignore_nbt: 1b
 	}],
@@ -52,19 +52,19 @@
 		uid: "2cb5c095",
 		type: "item",
 		item: {
-			Damage: 2s,
-			id: "botania:lens",
 			tag: {
 				compositeLens: {
-					Damage: 1s,
+					Count: 1b,
+					tag: {},
+					id: "botania:lens",
 					ForgeCaps: {
 						"astralsorcery:cap_item_amulet_holder": {}
 					},
-					id: "botania:lens",
-					tag: {},
-					Count: 1b
+					Damage: 1s
 				}
-			}
+			},
+			Damage: 2s,
+			id: "botania:lens"
 		}
 	},
 	{

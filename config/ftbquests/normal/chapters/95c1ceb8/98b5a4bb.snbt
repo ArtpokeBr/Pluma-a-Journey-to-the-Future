@@ -108,14 +108,14 @@
 		uid: "0fca562c",
 		type: "item",
 		item: {
-			Damage: 80s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 8000,
 					FluidName: "plastic"
 				}
-			}
+			},
+			Damage: 80s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	},

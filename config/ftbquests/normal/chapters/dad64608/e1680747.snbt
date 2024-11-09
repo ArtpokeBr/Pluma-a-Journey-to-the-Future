@@ -20,17 +20,17 @@
 		items: [{
 			item: "openglider:hang_glider_basic"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "68e3594f",
 		type: "item",
 		item: {
-			id: "minecraft:splash_potion",
 			tag: {
 				Potion: "cofhcore:leaping2+"
-			}
+			},
+			id: "minecraft:splash_potion"
 		}
 	}]
 }

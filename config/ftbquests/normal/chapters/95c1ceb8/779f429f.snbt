@@ -29,13 +29,13 @@
 		uid: "0bb53855",
 		type: "item",
 		items: [{
-			id: "minecraft:splash_potion",
 			tag: {
 				Potion: "minecraft:strong_harming"
-			}
+			},
+			id: "minecraft:splash_potion"
 		}],
 		count: 3L,
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{

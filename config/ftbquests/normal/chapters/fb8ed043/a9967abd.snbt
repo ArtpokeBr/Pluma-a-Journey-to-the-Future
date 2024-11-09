@@ -20,7 +20,7 @@
 		items: [{
 			item: "pyrotech:crude_pickaxe"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -29,7 +29,7 @@
 		items: [{
 			item: "pyrotech:crude_axe"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -38,7 +38,7 @@
 		items: [{
 			item: "pyrotech:crude_hoe"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -47,7 +47,7 @@
 		items: [{
 			item: "pyrotech:crude_shovel"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -56,7 +56,7 @@
 		items: [{
 			item: "pyrotech:crude_hammer"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

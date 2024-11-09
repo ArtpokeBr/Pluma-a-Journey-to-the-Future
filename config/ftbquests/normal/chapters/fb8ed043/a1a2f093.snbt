@@ -31,14 +31,14 @@
 					data: "gtceHardHammers"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gtceHardHammers"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -51,19 +51,19 @@
 					data: "plateBronze"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any plateBronze"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 4L
 	}],
 	rewards: [{
 		uid: "b883b189",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "pyrotech:egg_roasted",
 		count: 4
 	},

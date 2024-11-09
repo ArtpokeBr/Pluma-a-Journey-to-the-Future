@@ -29,12 +29,12 @@
 					data: "gtceWrenches"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gtceWrenches"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		},
 		{
 			item: "appliedenergistics2:nether_quartz_wrench"
@@ -42,7 +42,7 @@
 		{
 			item: "appliedenergistics2:certus_quartz_wrench"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

@@ -13,7 +13,7 @@
 		"",
 		"- §bDeep Mob Learning§f will be an really good mod to utilize, §2enhance your infrastructure§f!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"e534879a",
 		"4e304f83"

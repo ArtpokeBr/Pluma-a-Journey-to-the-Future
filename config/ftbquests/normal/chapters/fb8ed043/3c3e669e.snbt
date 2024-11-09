@@ -24,34 +24,34 @@
 		uid: "6ea6e87b",
 		type: "item",
 		items: [{
-			id: "pyrotech:carcass",
 			tag: {
 				BlockEntityTag: {
 					stackHandler: {
 						Size: 3,
 						Items: [{
 							Slot: 0,
-							Damage: 0s,
+							Count: 1b,
 							id: "minecraft:beef",
-							Count: 1b
+							Damage: 0s
 						},
 						{
 							Slot: 1,
-							Damage: 0s,
+							Count: 1b,
 							id: "pyrotech:pelt_cow",
-							Count: 1b
+							Damage: 0s
 						},
 						{
 							Slot: 2,
-							Damage: 49s,
+							Count: 2b,
 							id: "pyrotech:material",
-							Count: 2b
+							Damage: 49s
 						}]
 					}
 				}
-			}
+			},
+			id: "pyrotech:carcass"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -76,7 +76,7 @@
 		{
 			item: "pyrotech:bone_hunters_knife"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

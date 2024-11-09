@@ -14,14 +14,14 @@
 		"0fa27f33",
 		"ced47586"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "fb23f592",
 		type: "item",
 		items: [{
 			item: "roots:wildwood_helmet"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -30,7 +30,7 @@
 		items: [{
 			item: "roots:wildwood_chestplate"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -39,7 +39,7 @@
 		items: [{
 			item: "roots:wildwood_leggings"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -48,7 +48,7 @@
 		items: [{
 			item: "roots:wildwood_boots"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
@@ -61,13 +61,13 @@
 		uid: "89b6e2fd",
 		type: "item",
 		item: {
-			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					id: 70s,
-					lvl: 1s
+					lvl: 1s,
+					id: 70s
 				}]
-			}
+			},
+			id: "minecraft:enchanted_book"
 		},
 		random_bonus: 1
 	},

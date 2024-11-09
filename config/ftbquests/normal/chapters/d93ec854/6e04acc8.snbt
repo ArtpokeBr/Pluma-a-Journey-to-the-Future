@@ -110,10 +110,10 @@
 		uid: "cbd66b1a",
 		type: "item",
 		item: {
-			id: "embers:ignition_cannon",
 			tag: {
 				cooldown: 0
-			}
+			},
+			id: "embers:ignition_cannon"
 		}
 	},
 	{

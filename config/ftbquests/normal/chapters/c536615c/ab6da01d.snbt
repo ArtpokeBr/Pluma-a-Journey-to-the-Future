@@ -19,20 +19,20 @@
 		uid: "c1bb4c1f",
 		type: "item",
 		items: [{
-			Damage: 7s,
-			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			}
+			},
+			Damage: 7s,
+			id: "simplyjetpacks:itemjetpack"
 		},
 		{
-			Damage: 8s,
-			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			}
+			},
+			Damage: 8s,
+			id: "simplyjetpacks:itemjetpack"
 		}],
 		ignore_nbt: 1b
 	}],

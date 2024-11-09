@@ -32,14 +32,14 @@
 		uid: "43bba22b",
 		type: "item",
 		item: {
-			Damage: 79s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "acetone"
 				}
-			}
+			},
+			Damage: 79s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	},
@@ -47,14 +47,14 @@
 		uid: "36272076",
 		type: "item",
 		item: {
-			Damage: 79s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "phenol"
 				}
-			}
+			},
+			Damage: 79s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	},

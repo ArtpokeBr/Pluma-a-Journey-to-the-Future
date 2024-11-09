@@ -25,12 +25,12 @@
 					data: "ingotEndSteel"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotEndSteel"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 4L
 	}],

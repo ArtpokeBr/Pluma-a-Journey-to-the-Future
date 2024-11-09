@@ -6,7 +6,7 @@
 	text: [
 		"Lathes are essential for crafting with Rods as they make the process really cheaper."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ffc88aa1",
 		"40ed11cf"

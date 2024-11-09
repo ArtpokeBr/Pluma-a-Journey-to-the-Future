@@ -28,12 +28,12 @@
 					data: "oreTin"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreTin"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 16L
 	},

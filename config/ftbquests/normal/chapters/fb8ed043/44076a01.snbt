@@ -23,12 +23,12 @@
 					data: "dustSlakedComposite"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustSlakedComposite"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 5L
 	},

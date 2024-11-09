@@ -19,14 +19,14 @@
 	rewards: [{
 		uid: "d2159dee",
 		type: "gamestage",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		stage: "WorktableJEI"
 	},
 	{
 		uid: "4b2842ea",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		item: "minecraft:bread",
 		count: 10
@@ -34,7 +34,7 @@
 	{
 		uid: "e803111a",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		item: "minecraft:torch"
 	},

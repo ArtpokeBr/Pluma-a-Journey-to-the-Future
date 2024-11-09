@@ -26,12 +26,12 @@
 					data: "ingotEnergeticAlloy"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotEnergeticAlloy"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 4L
 	},

@@ -103,17 +103,17 @@
 		uid: "a1181139",
 		type: "item",
 		item: {
-			id: "thermalexpansion:tank",
 			tag: {
-				Lock: 0b,
+				Creative: 0b,
 				RSControl: 0b,
+				Lock: 0b,
 				Level: 1b,
 				Fluid: {
 					Amount: 80000,
 					FluidName: "fish_oil"
-				},
-				Creative: 0b
-			}
+				}
+			},
+			id: "thermalexpansion:tank"
 		}
 	},
 	{

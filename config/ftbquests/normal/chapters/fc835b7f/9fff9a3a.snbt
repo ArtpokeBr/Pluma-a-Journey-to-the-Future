@@ -35,10 +35,10 @@
 		uid: "fdaeca22",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:memory_card",
-			tag: {}
+			tag: {},
+			id: "appliedenergistics2:memory_card"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

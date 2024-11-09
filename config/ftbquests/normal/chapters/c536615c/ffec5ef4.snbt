@@ -10,7 +10,7 @@
 		"",
 		"{pluma.oredictsink.desc3}"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"99b7a703"
 	],

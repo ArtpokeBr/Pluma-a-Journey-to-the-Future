@@ -20,19 +20,19 @@
 		items: [{
 			item: "pyrotech:straw_bed"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "c233e467",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "pyrotech:straw_bed"
 	},
 	{
 		uid: "3a754ba7",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "actuallyadditions:item_food 1 13"
 	}]
 }

@@ -31,13 +31,13 @@
 		uid: "f272873d",
 		type: "item",
 		item: {
-			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
 					amount: 1,
 					key: "ignis"
 				}]
-			}
+			},
+			id: "thaumcraft:crystal_essence"
 		},
 		count: 10
 	},
@@ -45,13 +45,13 @@
 		uid: "f4fae83d",
 		type: "item",
 		item: {
-			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
 					amount: 1,
 					key: "terra"
 				}]
-			}
+			},
+			id: "thaumcraft:crystal_essence"
 		},
 		count: 10
 	},
@@ -59,13 +59,13 @@
 		uid: "c5226960",
 		type: "item",
 		item: {
-			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
 					amount: 1,
 					key: "perditio"
 				}]
-			}
+			},
+			id: "thaumcraft:crystal_essence"
 		},
 		count: 10
 	},
@@ -73,13 +73,13 @@
 		uid: "7520799e",
 		type: "item",
 		item: {
-			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
 					amount: 1,
 					key: "ordo"
 				}]
-			}
+			},
+			id: "thaumcraft:crystal_essence"
 		},
 		count: 10
 	},
@@ -87,13 +87,13 @@
 		uid: "874c0ca0",
 		type: "item",
 		item: {
-			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
 					amount: 1,
 					key: "aqua"
 				}]
-			}
+			},
+			id: "thaumcraft:crystal_essence"
 		},
 		count: 10
 	},
@@ -101,13 +101,13 @@
 		uid: "67f0c678",
 		type: "item",
 		item: {
-			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
 					amount: 1,
 					key: "aer"
 				}]
-			}
+			},
+			id: "thaumcraft:crystal_essence"
 		},
 		count: 10
 	},

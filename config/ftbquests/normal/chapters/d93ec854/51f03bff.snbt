@@ -30,20 +30,20 @@
 		uid: "613dec53",
 		type: "item",
 		item: {
-			id: "minecraft:splash_potion",
 			tag: {
 				Potion: "minecraft:long_fire_resistance"
-			}
+			},
+			id: "minecraft:splash_potion"
 		}
 	},
 	{
 		uid: "70d0896a",
 		type: "item",
 		item: {
-			id: "minecraft:splash_potion",
 			tag: {
 				Potion: "minecraft:strong_strength"
-			}
+			},
+			id: "minecraft:splash_potion"
 		}
 	},
 	{

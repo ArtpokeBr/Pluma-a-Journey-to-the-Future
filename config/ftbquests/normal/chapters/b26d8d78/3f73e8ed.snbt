@@ -2,7 +2,7 @@
 	title: "Smelting Essentia",
 	icon: "thaumcraft:smelter_basic",
 	x: 6.744897959183675d,
-	y: -3.000000000000007d,
+	y: -3.0d,
 	description: "An Important \"Aspect\" of Thaumcraft",
 	text: [
 		"Now that you have acess to §6Rare Earths§f, you can start making §bArcane Mechanisms§f and subsequentially an §6Essentia Smelter§f!",

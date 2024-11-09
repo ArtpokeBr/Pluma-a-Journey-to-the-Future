@@ -24,12 +24,12 @@
 					data: "oreEndstoneLithium"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreEndstoneLithium"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -42,12 +42,12 @@
 					data: "oreEndstoneScheelite"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreEndstoneScheelite"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -60,22 +60,22 @@
 					data: "oreEndstoneTungstate"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreEndstoneTungstate"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	}],
 	rewards: [{
 		uid: "aeda4709",
 		type: "item",
 		item: {
-			id: "tconstruct:pick_head",
 			tag: {
 				Material: "enderium"
-			}
+			},
+			id: "tconstruct:pick_head"
 		}
 	},
 	{

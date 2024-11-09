@@ -1,11 +1,11 @@
 {
 	title: "The Gold Processing Line §6Part II§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "nitric_acid"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 9.0d,
 	y: 3.0d,
@@ -57,13 +57,13 @@
 		uid: "ce029650",
 		type: "item",
 		item: {
-			id: "thermalexpansion:reservoir",
 			tag: {
 				Fluid: {
 					Amount: 10000,
 					FluidName: "nitric_acid"
 				}
-			}
+			},
+			id: "thermalexpansion:reservoir"
 		}
 	},
 	{

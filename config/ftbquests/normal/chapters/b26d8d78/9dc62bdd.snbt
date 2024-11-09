@@ -13,7 +13,7 @@
 		"a4a3a36e"
 	],
 	size: 0.75d,
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "3255c7ee",
 		type: "item",

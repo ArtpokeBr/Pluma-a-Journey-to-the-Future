@@ -1,11 +1,11 @@
 {
 	title: "Lets automate PVC §6Part I§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "vinyl_chloride"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 13.5d,
 	y: -9.0d,
@@ -17,7 +17,7 @@
 		"",
 		"§8§o(PVC = Polyvinyl Chloride, PTFE = Polytetrafluoroethylene, DML = Deep Mob Learning.)§r§f"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"54ca0e8a"
 	],
@@ -31,14 +31,14 @@
 		uid: "54bbc6f1",
 		type: "item",
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "ethylene"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8,
 		random_bonus: 8

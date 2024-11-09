@@ -67,12 +67,12 @@
 					data: "endstone"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any endstone"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 64L
 	}],
@@ -80,14 +80,14 @@
 		uid: "c3a9b6f0",
 		type: "item",
 		item: {
-			Damage: 80s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 8000,
 					FluidName: "endacid"
 				}
-			}
+			},
+			Damage: 80s,
+			id: "gregtech:meta_item_1"
 		}
 	},
 	{

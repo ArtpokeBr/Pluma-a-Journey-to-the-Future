@@ -23,13 +23,13 @@
 	rewards: [{
 		uid: "e738736c",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "industrialforegoing:straw"
 	},
 	{
 		uid: "18952938",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "industrialforegoing:book_manual"
 	}]
 }

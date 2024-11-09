@@ -21,14 +21,14 @@
 		uid: "0a1e3257",
 		type: "item",
 		items: [{
-			id: "evilcraft:blood_infuser",
 			tag: {
+				x: 352,
 				z: 338,
-				y: 66,
-				x: 352
-			}
+				y: 66
+			},
+			id: "evilcraft:blood_infuser"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

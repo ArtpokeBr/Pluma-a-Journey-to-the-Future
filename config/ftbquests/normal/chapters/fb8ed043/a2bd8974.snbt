@@ -48,7 +48,7 @@
 		{
 			item: "pyrotech:sawmill_blade_iron"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

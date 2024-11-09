@@ -20,7 +20,7 @@
 		items: [{
 			item: "totemic:flute 1 1"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}],
 	rewards: [{
 		uid: "c844125a",

@@ -31,12 +31,12 @@
 					data: "sand"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any sand"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 195L
 	}],

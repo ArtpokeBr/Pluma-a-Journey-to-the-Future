@@ -120,14 +120,14 @@
 		uid: "9f80b61e",
 		type: "item",
 		item: {
-			Damage: 79s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "sulfuric_gas"
 				}
-			}
+			},
+			Damage: 79s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	},
@@ -135,14 +135,14 @@
 		uid: "b7ed2eb5",
 		type: "item",
 		item: {
-			Damage: 79s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "sulfuric_heavy_fuel"
 				}
-			}
+			},
+			Damage: 79s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	},
@@ -150,14 +150,14 @@
 		uid: "fd1a5bc4",
 		type: "item",
 		item: {
-			Damage: 79s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "sulfuric_light_fuel"
 				}
-			}
+			},
+			Damage: 79s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	},
@@ -165,14 +165,14 @@
 		uid: "87266ed0",
 		type: "item",
 		item: {
-			Damage: 79s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "sulfuric_naphtha"
 				}
-			}
+			},
+			Damage: 79s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 4
 	},

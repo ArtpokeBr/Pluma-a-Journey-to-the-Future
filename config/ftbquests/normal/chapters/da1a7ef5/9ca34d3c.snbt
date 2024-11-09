@@ -40,21 +40,21 @@
 	rewards: [{
 		uid: "0b2ff627",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "gregtech:ore_sulfur_0 1 1",
 		count: 8
 	},
 	{
 		uid: "c1eba4ef",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "gregtech:ore_pyrite_0 1 1",
 		count: 8
 	},
 	{
 		uid: "96c1d956",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "gregtech:ore_sphalerite_0 1 1",
 		count: 8
 	},

@@ -1,11 +1,11 @@
 {
 	title: "Lets automate PTFE (Teflon) §6Part I§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "chloroform"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 0.0d,
 	y: -6.5d,

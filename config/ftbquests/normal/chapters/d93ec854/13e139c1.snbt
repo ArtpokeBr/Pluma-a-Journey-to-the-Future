@@ -1,11 +1,11 @@
 {
 	title: "A Dwarven Oil",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "oil_dwarf"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 10.5d,
 	y: 2.5d,
@@ -40,14 +40,14 @@
 		uid: "fb44c3c2",
 		type: "item",
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "oil_dwarf"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8
 	},

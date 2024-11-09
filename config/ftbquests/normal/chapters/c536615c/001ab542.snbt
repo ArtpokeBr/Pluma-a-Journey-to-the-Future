@@ -1,11 +1,11 @@
 {
 	title: "Ethanol + Sulfuric Acid",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "ethylene"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 4.0d,
 	y: -12.0d,

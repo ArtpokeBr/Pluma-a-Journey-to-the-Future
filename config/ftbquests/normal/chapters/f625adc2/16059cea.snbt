@@ -74,20 +74,20 @@
 		uid: "e1742061",
 		type: "item",
 		item: {
-			id: "astralsorcery:itemsextant",
 			tag: {
 				astralsorcery: {}
-			}
+			},
+			id: "astralsorcery:itemsextant"
 		}
 	},
 	{
 		uid: "a57880bf",
 		type: "item",
 		item: {
-			id: "astralsorcery:itemskyresonator",
 			tag: {
 				astralsorcery: {}
-			}
+			},
+			id: "astralsorcery:itemskyresonator"
 		}
 	},
 	{

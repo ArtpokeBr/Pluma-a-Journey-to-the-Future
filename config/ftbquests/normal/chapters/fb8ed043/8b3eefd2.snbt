@@ -19,7 +19,7 @@
 		items: [{
 			item: "pyrotech:unfired_clay_shears"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -28,7 +28,7 @@
 		items: [{
 			item: "pyrotech:clay_shears"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

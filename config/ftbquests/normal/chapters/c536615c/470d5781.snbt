@@ -25,12 +25,12 @@
 					data: "fusedQuartz"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any fusedQuartz"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 3L
 	},

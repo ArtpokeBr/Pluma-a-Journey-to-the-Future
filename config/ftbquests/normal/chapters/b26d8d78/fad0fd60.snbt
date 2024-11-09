@@ -29,10 +29,10 @@
 					slots: 3
 				}
 			},
-			id: "thaumicaugmentation:gauntlet",
 			tag: {
 				color: 8022208
-			}
+			},
+			id: "thaumicaugmentation:gauntlet"
 		}],
 		ignore_nbt: 1b
 	},
@@ -50,7 +50,7 @@
 			},
 			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

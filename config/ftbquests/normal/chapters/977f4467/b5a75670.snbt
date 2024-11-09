@@ -23,13 +23,13 @@
 		uid: "8b839f2c",
 		type: "kill",
 		icon: {
-			id: "twilightforest:yeti_helmet",
 			tag: {
 				ench: [{
-					id: 0,
-					lvl: 2s
+					lvl: 2s,
+					id: 0
 				}]
-			}
+			},
+			id: "twilightforest:yeti_helmet"
 		},
 		entity: "twilightforest:yeti_alpha",
 		value: 1L
@@ -52,30 +52,30 @@
 		uid: "5f58b6cc",
 		type: "item",
 		item: {
-			id: "botania:brewvial",
 			tag: {
 				brewKey: "regen"
-			}
+			},
+			id: "botania:brewvial"
 		}
 	},
 	{
 		uid: "ef8265bc",
 		type: "item",
 		item: {
-			id: "botania:brewvial",
 			tag: {
 				brewKey: "strength"
-			}
+			},
+			id: "botania:brewvial"
 		}
 	},
 	{
 		uid: "e090387a",
 		type: "item",
 		item: {
-			id: "botania:brewvial",
 			tag: {
 				brewKey: "resistance"
-			}
+			},
+			id: "botania:brewvial"
 		}
 	},
 	{

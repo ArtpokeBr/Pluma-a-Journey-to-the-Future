@@ -1,11 +1,11 @@
 {
 	title: "Lets Automate Ethanol! §6Final Part§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "bio.ethanol"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 3.0d,
 	y: -13.0d,
@@ -33,14 +33,14 @@
 		uid: "8acbd7a3",
 		type: "item",
 		item: {
-			Damage: 1s,
-			id: "binniecore:glass",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "binnie.spirit.sugarcane"
 				}
-			}
+			},
+			Damage: 1s,
+			id: "binniecore:glass"
 		},
 		count: 8
 	},

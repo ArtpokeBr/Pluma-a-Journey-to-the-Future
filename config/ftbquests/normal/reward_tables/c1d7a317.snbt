@@ -1,7 +1,7 @@
 {
 	title: "Choose a Tesseract",
 	loot_size: 1,
-	use_title: true,
+	use_title: 1b,
 	rewards: [{
 		item: "enderio:block_transceiver"
 	},

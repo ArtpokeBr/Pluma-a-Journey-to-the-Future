@@ -6,7 +6,7 @@
 	text: [
 		"Tired of waiting long times to compress some blocks in the Steam Version?"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ffc88aa1",
 		"40ed11cf"

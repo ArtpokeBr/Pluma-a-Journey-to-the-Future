@@ -9,7 +9,7 @@
 	dependencies: [
 		"4a1419e2"
 	],
-	optional: true,
+	optional: 1b,
 	min_width: 260,
 	tasks: [{
 		uid: "c9355706",
@@ -17,7 +17,7 @@
 		items: [{
 			item: "enderio:item_dark_steel_helmet"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -26,7 +26,7 @@
 		items: [{
 			item: "enderio:item_dark_steel_chestplate"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -35,7 +35,7 @@
 		items: [{
 			item: "enderio:item_dark_steel_leggings"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -44,19 +44,19 @@
 		items: [{
 			item: "enderio:item_dark_steel_boots"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "08bea996",
 		type: "item",
 		item: {
-			Damage: 1s,
-			id: "enderio:item_dark_steel_upgrade",
 			tag: {
 				"enderio:dsu": "enderiomachines:solar3",
 				"enderio:enabled": 1b
-			}
+			},
+			Damage: 1s,
+			id: "enderio:item_dark_steel_upgrade"
 		}
 	},
 	{

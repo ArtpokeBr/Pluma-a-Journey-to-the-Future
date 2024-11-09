@@ -37,7 +37,7 @@
 	],
 	dependency_requirement: "one_completed",
 	min_width: 400,
-	or_tasks: true,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "3c0b0922",
 		type: "item",

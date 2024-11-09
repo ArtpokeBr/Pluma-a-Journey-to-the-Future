@@ -23,12 +23,12 @@
 					data: "dustTin"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustTin"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 6L
 	},
@@ -42,12 +42,12 @@
 					data: "dustLead"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustLead"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 3L
 	},
@@ -61,12 +61,12 @@
 					data: "dustAntimony"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustAntimony"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -79,12 +79,12 @@
 					data: "dustSolderingAlloy"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustSolderingAlloy"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 10L
 	},

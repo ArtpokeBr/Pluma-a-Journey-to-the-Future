@@ -1,7 +1,7 @@
 {
 	title: "&6►Chapter 8&f - Into the Magical Woods!",
 	icon: "twilightforest:miniature_structure 1 10",
-	always_invisible: false,
+	always_invisible: 0b,
 	group: 0,
 	default_quest_shape: ""
 }

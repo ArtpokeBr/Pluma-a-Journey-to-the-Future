@@ -24,26 +24,26 @@
 		uid: "9c16aa5d",
 		type: "item",
 		item: {
-			id: "advancedrocketry:jackhammer",
 			tag: {
 				RepairCost: 15,
 				ench: [{
-					id: 70,
-					lvl: 1s
+					lvl: 1s,
+					id: 70
 				},
 				{
-					id: 34,
-					lvl: 3s
+					lvl: 3s,
+					id: 34
 				},
 				{
-					id: 32,
-					lvl: 5s
+					lvl: 5s,
+					id: 32
 				},
 				{
-					id: 12,
-					lvl: 1s
+					lvl: 1s,
+					id: 12
 				}]
-			}
+			},
+			id: "advancedrocketry:jackhammer"
 		}
 	}]
 }

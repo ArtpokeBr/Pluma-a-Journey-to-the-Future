@@ -16,20 +16,20 @@
 		uid: "cb8c5237",
 		type: "item",
 		items: [{
-			id: "evilcraft:blood_extractor",
-			tag: {}
+			tag: {},
+			id: "evilcraft:blood_extractor"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "fa51777c",
 		type: "item",
 		item: {
-			id: "evilcraft:blood_extractor",
 			tag: {
 				capacity: 8000
-			}
+			},
+			id: "evilcraft:blood_extractor"
 		}
 	},
 	{

@@ -19,10 +19,9 @@
 		uid: "742a51bb",
 		type: "item",
 		items: [{
-			Damage: 7s,
-			id: "thermalexpansion:machine",
 			tag: {
 				Energy: 0,
+				Facing: 3b,
 				RSControl: 0b,
 				Level: 0b,
 				SideCache: [B;
@@ -32,9 +31,10 @@
 					3b,
 					3b,
 					3b
-				],
-				Facing: 3b
-			}
+				]
+			},
+			Damage: 7s,
+			id: "thermalexpansion:machine"
 		}]
 	}],
 	rewards: [{

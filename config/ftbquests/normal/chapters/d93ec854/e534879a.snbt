@@ -26,12 +26,12 @@
 					data: "oreBasaltFossil"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreBasaltFossil"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 16L
 	},
@@ -45,12 +45,12 @@
 					data: "oreBasaltAmber"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreBasaltAmber"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 16L
 	},
@@ -64,12 +64,12 @@
 					data: "oreBasaltLigniteCoal"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreBasaltLigniteCoal"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 16L
 	},
@@ -91,12 +91,12 @@
 					data: "oreClathrateOilShale"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreClathrateOilShale"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -109,12 +109,12 @@
 					data: "oreBasaltBiotite"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreBasaltBiotite"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	}],
 	rewards: [{

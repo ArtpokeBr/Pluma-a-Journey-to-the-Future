@@ -1,10 +1,10 @@
 {
 	title: "Storing Large Quantites of Items Easily",
 	icon: {
-		id: "storagedrawers:basicdrawers",
 		tag: {
 			material: "oak"
-		}
+		},
+		id: "storagedrawers:basicdrawers"
 	},
 	x: -3.9d,
 	y: -4.2d,
@@ -32,12 +32,12 @@
 					data: "drawerBasic"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any drawerBasic"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		},
 		{
 			item: "storagedrawers:customdrawers"

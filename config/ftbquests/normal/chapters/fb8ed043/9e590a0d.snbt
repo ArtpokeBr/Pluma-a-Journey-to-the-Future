@@ -1,19 +1,19 @@
 {
 	title: "Tools for Crafting!",
 	icon: {
-		id: "gregtech:mortar",
 		tag: {
+			GT.Behaviours: {},
+			DisallowContainerItem: 0b,
 			GT.Tool: {
 				AttackDamage: 0.0f,
-				MaxDurability: 63,
 				AttackSpeed: -2.4f,
 				Material: "gregtech:flint",
+				MaxDurability: 63,
 				Durability: 0
 			},
-			HideFlags: 2,
-			GT.Behaviours: {},
-			DisallowContainerItem: 0b
-		}
+			HideFlags: 2
+		},
+		id: "gregtech:mortar"
 	},
 	x: 5.5d,
 	y: -1.5d,
@@ -38,14 +38,14 @@
 					data: "gtceMortars"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gtceMortars"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	},
 	{
 		uid: "19203811",
@@ -57,14 +57,14 @@
 					data: "gtceKnife"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gtceKnife"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}],
 	rewards: [{
 		uid: "8bbb64d0",

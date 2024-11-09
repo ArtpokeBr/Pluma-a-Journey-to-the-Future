@@ -13,7 +13,7 @@
 		"",
 		"§8§o~ And yes, you can pipe in or out from it.§f"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"38fa477e"
 	],

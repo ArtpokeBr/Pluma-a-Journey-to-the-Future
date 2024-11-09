@@ -31,14 +31,14 @@
 					data: "backpack"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any backpack"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

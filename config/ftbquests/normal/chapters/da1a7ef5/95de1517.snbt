@@ -23,12 +23,12 @@
 					data: "cropCandleberry"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any cropCandleberry"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 12L
 	},

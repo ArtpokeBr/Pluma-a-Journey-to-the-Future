@@ -1,55 +1,56 @@
 {
 	title: "Choose a Bronze Tool",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		Damage: 9s,
-		id: "gregtech:meta_tool",
-		Count: 1b,
 		tag: {
 			RepairCost: 1,
 			GT.ToolStats: {
 				Material: "bronze"
 			},
 			ench: [{
-				id: 34s,
-				lvl: 3s
+				lvl: 3s,
+				id: 34s
 			}]
-		}
+		},
+		Count: 1b,
+		id: "gregtech:meta_tool",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		Damage: 9s
 	},
 	loot_size: 1,
-	use_title: true,
+	use_title: 1b,
 	rewards: [{
 		item: {
-			id: "gregtech:saw",
 			tag: {
 				RepairCost: 1,
-				GT.Tool: {
-					AttackDamage: 1.0f,
-					HarvestLevel: 2,
-					MaxDurability: 192,
-					AttackSpeed: -2.6f,
-					Material: "bronze",
-					Durability: 0
-				},
-				HideFlags: 2,
-				ench: [{
-					id: 34,
-					lvl: 3s
-				}],
 				GT.Behaviours: {
 					HarvestIce: 1b
 				},
-				DisallowContainerItem: 0b
-			}
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 1.0f,
+					AttackSpeed: -2.6f,
+					Material: "bronze",
+					HarvestLevel: 2,
+					MaxDurability: 192,
+					Durability: 0
+				},
+				HideFlags: 2,
+				ench: [{
+					lvl: 3s,
+					id: 34
+				}]
+			},
+			id: "gregtech:saw"
 		}
 	},
 	{
 		item: {
-			id: "gregtech:hammer",
 			tag: {
 				RepairCost: 1,
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b,
 				GT.Tool: {
 					AttackDamage: 3.0f,
 					ToolSpeed: 7.0f,
@@ -61,19 +62,19 @@
 				},
 				HideFlags: 2,
 				ench: [{
-					id: 34,
-					lvl: 3s
-				}],
-				GT.Behaviours: {},
-				DisallowContainerItem: 0b
-			}
+					lvl: 3s,
+					id: 34
+				}]
+			},
+			id: "gregtech:hammer"
 		}
 	},
 	{
 		item: {
-			id: "gregtech:wrench",
 			tag: {
 				RepairCost: 1,
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b,
 				GT.Tool: {
 					AttackDamage: 3.0f,
 					ToolSpeed: 7.0f,
@@ -85,63 +86,63 @@
 				},
 				HideFlags: 2,
 				ench: [{
-					id: 34,
-					lvl: 3s
-				}],
-				GT.Behaviours: {},
-				DisallowContainerItem: 0b
-			}
+					lvl: 3s,
+					id: 34
+				}]
+			},
+			id: "gregtech:wrench"
 		}
 	},
 	{
 		item: {
-			id: "gregtech:file",
 			tag: {
 				RepairCost: 1,
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b,
 				GT.Tool: {
 					AttackDamage: 0.0f,
-					MaxDurability: 192,
 					AttackSpeed: -2.4f,
 					Material: "bronze",
+					MaxDurability: 192,
 					Durability: 0
 				},
 				HideFlags: 2,
 				ench: [{
-					id: 34,
-					lvl: 3s
-				}],
-				GT.Behaviours: {},
-				DisallowContainerItem: 0b
-			}
+					lvl: 3s,
+					id: 34
+				}]
+			},
+			id: "gregtech:file"
 		}
 	},
 	{
 		item: {
-			id: "gregtech:screwdriver",
 			tag: {
 				RepairCost: 1,
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b,
 				GT.Tool: {
 					AttackDamage: 1.0f,
-					MaxDurability: 192,
 					AttackSpeed: 3.0f,
 					Material: "bronze",
+					MaxDurability: 192,
 					Durability: 0
 				},
 				HideFlags: 2,
 				ench: [{
-					id: 34,
-					lvl: 3s
-				}],
-				GT.Behaviours: {},
-				DisallowContainerItem: 0b
-			}
+					lvl: 3s,
+					id: 34
+				}]
+			},
+			id: "gregtech:screwdriver"
 		}
 	},
 	{
 		item: {
-			id: "gregtech:wire_cutter",
 			tag: {
 				RepairCost: 1,
+				GT.Behaviours: {},
+				DisallowContainerItem: 0b,
 				GT.Tool: {
 					AttackDamage: 1.0f,
 					ToolSpeed: 7.0f,
@@ -153,12 +154,11 @@
 				},
 				HideFlags: 2,
 				ench: [{
-					id: 34,
-					lvl: 3s
-				}],
-				GT.Behaviours: {},
-				DisallowContainerItem: 0b
-			}
+					lvl: 3s,
+					id: 34
+				}]
+			},
+			id: "gregtech:wire_cutter"
 		}
 	}]
 }

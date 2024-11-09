@@ -12,7 +12,7 @@
 		"",
 		"► Upon Completing this §6Quest§f you'll §aUnlock a New Chapter in \"Expanding your Knowledge\"§f!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"40ed11cf"
 	],

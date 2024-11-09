@@ -22,10 +22,10 @@
 		uid: "3e48162a",
 		type: "item",
 		items: [{
-			id: "thaumicaugmentation:fracture_locator",
 			tag: {
 				found: 0b
-			}
+			},
+			id: "thaumicaugmentation:fracture_locator"
 		}]
 	}],
 	rewards: [{

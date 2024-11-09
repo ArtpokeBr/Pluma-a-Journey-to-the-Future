@@ -22,13 +22,13 @@
 		uid: "bb633796",
 		type: "item",
 		item: {
-			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					id: 70s,
-					lvl: 1s
+					lvl: 1s,
+					id: 70s
 				}]
-			}
+			},
+			id: "minecraft:enchanted_book"
 		}
 	},
 	{

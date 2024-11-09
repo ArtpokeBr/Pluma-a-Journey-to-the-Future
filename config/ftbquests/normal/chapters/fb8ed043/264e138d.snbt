@@ -21,22 +21,22 @@
 	rewards: [{
 		uid: "cb76807e",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "jecalculation:item_calculator"
 	},
 	{
 		uid: "0bce330c",
 		type: "gamestage",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		stage: "OutOfPrimal"
 	},
 	{
 		uid: "fff376d4",
 		type: "gamestage",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		stage: "WorktableJEI",
-		remove: true
+		remove: 1b
 	}]
 }

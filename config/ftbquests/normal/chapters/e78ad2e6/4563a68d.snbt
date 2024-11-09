@@ -11,14 +11,14 @@
 	dependencies: [
 		"e38ce5bc"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "a338fb5f",
 		type: "item",
 		items: [{
 			item: "forestry:imprinter"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

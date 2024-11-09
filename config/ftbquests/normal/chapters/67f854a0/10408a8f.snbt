@@ -29,12 +29,12 @@
 					data: "dustTitanium"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustTitanium"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -47,12 +47,12 @@
 					data: "dustVanadium"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustVanadium"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -65,12 +65,12 @@
 					data: "dustInvar"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustInvar"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 2L
 	},
@@ -84,12 +84,12 @@
 					data: "dustMolybdenum"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustMolybdenum"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -102,12 +102,12 @@
 					data: "dustHslaSteel"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustHslaSteel"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 5L
 	},
@@ -121,12 +121,12 @@
 					data: "ingotHslaSteel"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotHslaSteel"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	}],
 	rewards: [{

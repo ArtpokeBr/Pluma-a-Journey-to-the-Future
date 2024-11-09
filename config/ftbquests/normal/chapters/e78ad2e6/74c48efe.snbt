@@ -1,76 +1,10 @@
 {
 	title: "The Tropical Lady",
 	icon: {
-		id: "forestry:bee_queen_ge",
 		tag: {
 			MaxH: 30,
-			Genome: {
-				Chromosomes: [{
-					Slot: 0b,
-					UID0: "forestry.speciesTropical",
-					UID1: "forestry.speciesTropical"
-				},
-				{
-					Slot: 1b,
-					UID0: "forestry.speedSlower",
-					UID1: "forestry.speedSlower"
-				},
-				{
-					Slot: 2b,
-					UID0: "forestry.lifespanShort",
-					UID1: "forestry.lifespanShort"
-				},
-				{
-					Slot: 3b,
-					UID0: "forestry.fertilityNormal",
-					UID1: "forestry.fertilityNormal"
-				},
-				{
-					Slot: 4b,
-					UID0: "forestry.toleranceUp1",
-					UID1: "forestry.toleranceUp1"
-				},
-				{
-					Slot: 5b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 6b,
-					UID0: "forestry.toleranceUp1",
-					UID1: "forestry.toleranceUp1"
-				},
-				{
-					Slot: 7b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 8b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 9b,
-					UID0: "forestry.flowersJungle",
-					UID1: "forestry.flowersJungle"
-				},
-				{
-					Slot: 10b,
-					UID0: "forestry.floweringSlowest",
-					UID1: "forestry.floweringSlowest"
-				},
-				{
-					Slot: 11b,
-					UID0: "forestry.territoryAverage",
-					UID1: "forestry.territoryAverage"
-				},
-				{
-					Slot: 12b,
-					UID0: "forestry.effectMiasmic",
-					UID1: "forestry.effectMiasmic"
-				}]
-			},
+			Health: 30,
+			IsAnalyzed: 0b,
 			Mate: {
 				Chromosomes: [{
 					Slot: 0b,
@@ -138,9 +72,75 @@
 					UID1: "forestry.effectMiasmic"
 				}]
 			},
-			Health: 30,
-			IsAnalyzed: 0b
-		}
+			Genome: {
+				Chromosomes: [{
+					Slot: 0b,
+					UID0: "forestry.speciesTropical",
+					UID1: "forestry.speciesTropical"
+				},
+				{
+					Slot: 1b,
+					UID0: "forestry.speedSlower",
+					UID1: "forestry.speedSlower"
+				},
+				{
+					Slot: 2b,
+					UID0: "forestry.lifespanShort",
+					UID1: "forestry.lifespanShort"
+				},
+				{
+					Slot: 3b,
+					UID0: "forestry.fertilityNormal",
+					UID1: "forestry.fertilityNormal"
+				},
+				{
+					Slot: 4b,
+					UID0: "forestry.toleranceUp1",
+					UID1: "forestry.toleranceUp1"
+				},
+				{
+					Slot: 5b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 6b,
+					UID0: "forestry.toleranceUp1",
+					UID1: "forestry.toleranceUp1"
+				},
+				{
+					Slot: 7b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 8b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 9b,
+					UID0: "forestry.flowersJungle",
+					UID1: "forestry.flowersJungle"
+				},
+				{
+					Slot: 10b,
+					UID0: "forestry.floweringSlowest",
+					UID1: "forestry.floweringSlowest"
+				},
+				{
+					Slot: 11b,
+					UID0: "forestry.territoryAverage",
+					UID1: "forestry.territoryAverage"
+				},
+				{
+					Slot: 12b,
+					UID0: "forestry.effectMiasmic",
+					UID1: "forestry.effectMiasmic"
+				}]
+			}
+		},
+		id: "forestry:bee_queen_ge"
 	},
 	x: 1.0d,
 	y: -1.5d,

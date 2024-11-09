@@ -20,40 +20,40 @@
 		uid: "43ccf216",
 		type: "item",
 		items: [{
-			id: "nuclearcraft:helm_hazmat",
-			tag: {}
+			tag: {},
+			id: "nuclearcraft:helm_hazmat"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
 		uid: "99e379bf",
 		type: "item",
 		items: [{
-			id: "nuclearcraft:chest_hazmat",
-			tag: {}
+			tag: {},
+			id: "nuclearcraft:chest_hazmat"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
 		uid: "f70c0890",
 		type: "item",
 		items: [{
-			id: "nuclearcraft:legs_hazmat",
-			tag: {}
+			tag: {},
+			id: "nuclearcraft:legs_hazmat"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
 		uid: "3189e778",
 		type: "item",
 		items: [{
-			id: "nuclearcraft:boots_hazmat",
-			tag: {}
+			tag: {},
+			id: "nuclearcraft:boots_hazmat"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

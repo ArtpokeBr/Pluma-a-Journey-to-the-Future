@@ -1,76 +1,10 @@
 {
 	title: "The Cultivated Lady",
 	icon: {
-		id: "forestry:bee_queen_ge",
 		tag: {
 			MaxH: 10,
-			Genome: {
-				Chromosomes: [{
-					Slot: 0b,
-					UID0: "forestry.speciesCultivated",
-					UID1: "forestry.speciesCultivated"
-				},
-				{
-					Slot: 1b,
-					UID0: "forestry.speedFast",
-					UID1: "forestry.speedFast"
-				},
-				{
-					Slot: 2b,
-					UID0: "forestry.lifespanShortest",
-					UID1: "forestry.lifespanShortest"
-				},
-				{
-					Slot: 3b,
-					UID0: "forestry.fertilityNormal",
-					UID1: "forestry.fertilityNormal"
-				},
-				{
-					Slot: 4b,
-					UID0: "forestry.toleranceNone",
-					UID1: "forestry.toleranceNone"
-				},
-				{
-					Slot: 5b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 6b,
-					UID0: "forestry.toleranceNone",
-					UID1: "forestry.toleranceNone"
-				},
-				{
-					Slot: 7b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 8b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 9b,
-					UID0: "forestry.flowersVanilla",
-					UID1: "forestry.flowersVanilla"
-				},
-				{
-					Slot: 10b,
-					UID0: "forestry.floweringSlowest",
-					UID1: "forestry.floweringSlowest"
-				},
-				{
-					Slot: 11b,
-					UID0: "forestry.territoryAverage",
-					UID1: "forestry.territoryAverage"
-				},
-				{
-					Slot: 12b,
-					UID0: "forestry.effectNone",
-					UID1: "forestry.effectNone"
-				}]
-			},
+			Health: 10,
+			IsAnalyzed: 0b,
 			Mate: {
 				Chromosomes: [{
 					Slot: 0b,
@@ -138,9 +72,75 @@
 					UID1: "forestry.effectNone"
 				}]
 			},
-			Health: 10,
-			IsAnalyzed: 0b
-		}
+			Genome: {
+				Chromosomes: [{
+					Slot: 0b,
+					UID0: "forestry.speciesCultivated",
+					UID1: "forestry.speciesCultivated"
+				},
+				{
+					Slot: 1b,
+					UID0: "forestry.speedFast",
+					UID1: "forestry.speedFast"
+				},
+				{
+					Slot: 2b,
+					UID0: "forestry.lifespanShortest",
+					UID1: "forestry.lifespanShortest"
+				},
+				{
+					Slot: 3b,
+					UID0: "forestry.fertilityNormal",
+					UID1: "forestry.fertilityNormal"
+				},
+				{
+					Slot: 4b,
+					UID0: "forestry.toleranceNone",
+					UID1: "forestry.toleranceNone"
+				},
+				{
+					Slot: 5b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 6b,
+					UID0: "forestry.toleranceNone",
+					UID1: "forestry.toleranceNone"
+				},
+				{
+					Slot: 7b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 8b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 9b,
+					UID0: "forestry.flowersVanilla",
+					UID1: "forestry.flowersVanilla"
+				},
+				{
+					Slot: 10b,
+					UID0: "forestry.floweringSlowest",
+					UID1: "forestry.floweringSlowest"
+				},
+				{
+					Slot: 11b,
+					UID0: "forestry.territoryAverage",
+					UID1: "forestry.territoryAverage"
+				},
+				{
+					Slot: 12b,
+					UID0: "forestry.effectNone",
+					UID1: "forestry.effectNone"
+				}]
+			}
+		},
+		id: "forestry:bee_queen_ge"
 	},
 	x: 7.0d,
 	y: -1.5d,

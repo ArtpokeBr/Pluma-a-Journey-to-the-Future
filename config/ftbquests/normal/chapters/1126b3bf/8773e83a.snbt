@@ -12,7 +12,7 @@
 		"",
 		"§2§oMaybe it will be usefull somehow?§r§f"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"9ac09a4c",
 		"bcdfbc37",

@@ -50,7 +50,7 @@
 		uid: "725d8e06",
 		type: "gamestage",
 		title: "Unlocking some Visibility for Advanced Rocketry",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		stage: "AstronomyStage"
 	}]

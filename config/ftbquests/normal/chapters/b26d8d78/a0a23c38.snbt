@@ -1,12 +1,12 @@
 {
 	title: "A Thaumic Tip",
 	icon: {
-		Damage: 1s,
-		id: "thaumicaugmentation:rift_seed",
 		tag: {
-			grown: 1b,
-			flux: 1000
-		}
+			flux: 1000,
+			grown: 1b
+		},
+		Damage: 1s,
+		id: "thaumicaugmentation:rift_seed"
 	},
 	x: 2.75d,
 	y: -1.5d,

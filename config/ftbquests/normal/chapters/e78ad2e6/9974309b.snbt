@@ -21,7 +21,7 @@
 	rewards: [{
 		uid: "a1bb760c",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "forestry:book_forester"
 	}]
 }

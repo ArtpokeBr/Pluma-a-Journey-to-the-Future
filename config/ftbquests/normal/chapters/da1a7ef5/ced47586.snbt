@@ -11,14 +11,14 @@
 	dependencies: [
 		"34c7ed17"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "10eb6640",
 		type: "item",
 		items: [{
 			item: "roots:sylvan_helmet"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -27,7 +27,7 @@
 		items: [{
 			item: "roots:sylvan_chestplate"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -36,7 +36,7 @@
 		items: [{
 			item: "roots:sylvan_leggings"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -45,7 +45,7 @@
 		items: [{
 			item: "roots:sylvan_boots"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

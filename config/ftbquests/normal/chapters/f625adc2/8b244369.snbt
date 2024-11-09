@@ -103,12 +103,12 @@
 		uid: "bdb2b4cb",
 		type: "item",
 		item: {
-			id: "thermalexpansion:tank",
 			tag: {
+				Creative: 0b,
 				RSControl: 0b,
-				Level: 2b,
-				Creative: 0b
-			}
+				Level: 2b
+			},
+			id: "thermalexpansion:tank"
 		}
 	},
 	{

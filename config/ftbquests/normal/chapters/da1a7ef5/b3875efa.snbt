@@ -26,12 +26,12 @@
 					data: "ingotRunicSteel"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotRunicSteel"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 8L
 	}],

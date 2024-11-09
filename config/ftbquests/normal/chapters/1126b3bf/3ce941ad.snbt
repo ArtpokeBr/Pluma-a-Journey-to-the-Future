@@ -36,10 +36,10 @@
 		uid: "e5853a81",
 		type: "item",
 		item: {
-			id: "bloodmagic:monster_soul",
 			tag: {
 				souls: 13.0d
-			}
+			},
+			id: "bloodmagic:monster_soul"
 		}
 	},
 	{

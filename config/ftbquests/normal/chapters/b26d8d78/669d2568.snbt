@@ -35,7 +35,6 @@
 		type: "item",
 		title: "Spawn a Wild Thaumaturge",
 		item: {
-			id: "minecraft:spawn_egg",
 			tag: {
 				RepairCost: 0,
 				EntityTag: {
@@ -44,7 +43,8 @@
 				display: {
 					Name: "Gkiritol"
 				}
-			}
+			},
+			id: "minecraft:spawn_egg"
 		}
 	},
 	{

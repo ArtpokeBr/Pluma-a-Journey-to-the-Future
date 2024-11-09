@@ -15,10 +15,10 @@
 		uid: "a3e77208",
 		type: "item",
 		items: [{
-			id: "actuallyadditions:item_battery",
 			tag: {
 				Energy: 0
-			}
+			},
+			id: "actuallyadditions:item_battery"
 		}],
 		ignore_nbt: 1b
 	},

@@ -17,11 +17,11 @@
 		uid: "cc35bcfc",
 		type: "item",
 		items: [{
-			Damage: 3s,
-			id: "actuallyadditions:item_drill",
 			tag: {
 				Energy: 0
-			}
+			},
+			Damage: 3s,
+			id: "actuallyadditions:item_drill"
 		}],
 		ignore_nbt: 1b
 	}],

@@ -1,11 +1,11 @@
 {
 	title: "Let's Automate Epoxy Resin §6Final Part§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "epoxy"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 0.5561224489795933d,
 	y: -5.848569036989787d,
@@ -33,14 +33,14 @@
 		uid: "b217d463",
 		type: "item",
 		item: {
-			Damage: 79s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "epoxy"
 				}
-			}
+			},
+			Damage: 79s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8
 	},

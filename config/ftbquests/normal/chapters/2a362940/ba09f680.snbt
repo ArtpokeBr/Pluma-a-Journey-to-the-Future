@@ -8,7 +8,7 @@
 		"",
 		"- Any §aNon-Stackable item§f can go in here, §6256 per Slot§f and a total of §2270 Slots§f."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"a1c4223f"
 	],

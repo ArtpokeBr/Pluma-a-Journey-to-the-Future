@@ -27,12 +27,12 @@
 					data: "dustGlitchInfused"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustGlitchInfused"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -45,12 +45,12 @@
 					data: "ingotGlitchInfused"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotGlitchInfused"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	}],
 	rewards: [{

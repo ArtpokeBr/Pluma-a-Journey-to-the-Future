@@ -47,10 +47,10 @@
 		uid: "b9d6c5a4",
 		type: "item",
 		item: {
-			id: "botania:brewvial",
 			tag: {
 				brewKey: "thaumcraft:warpward"
-			}
+			},
+			id: "botania:brewvial"
 		}
 	},
 	{

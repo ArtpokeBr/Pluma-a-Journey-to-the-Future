@@ -35,12 +35,12 @@
 					data: "ingotConductiveIron"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotConductiveIron"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 4L
 	}],

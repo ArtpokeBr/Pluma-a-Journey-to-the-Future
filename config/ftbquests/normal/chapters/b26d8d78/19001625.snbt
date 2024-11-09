@@ -29,20 +29,20 @@
 		uid: "4f745936",
 		type: "item",
 		item: {
-			id: "tconstruct:axe_head",
 			tag: {
 				Material: "thaumium"
-			}
+			},
+			id: "tconstruct:axe_head"
 		}
 	},
 	{
 		uid: "2ce6b4ff",
 		type: "item",
 		item: {
-			id: "tconstruct:shovel_head",
 			tag: {
 				Material: "thaumium"
-			}
+			},
+			id: "tconstruct:shovel_head"
 		}
 	},
 	{

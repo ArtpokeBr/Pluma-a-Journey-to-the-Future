@@ -25,16 +25,16 @@
 	rewards: [{
 		uid: "378bc9c9",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: {
-			id: "pyrotech:bucket_stone",
 			tag: {
 				durability: 16,
 				fluids: {
 					Amount: 1000,
 					FluidName: "water"
 				}
-			}
+			},
+			id: "pyrotech:bucket_stone"
 		}
 	},
 	{

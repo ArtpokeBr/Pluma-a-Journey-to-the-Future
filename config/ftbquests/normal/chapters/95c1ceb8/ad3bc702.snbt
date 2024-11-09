@@ -1,11 +1,11 @@
 {
 	title: "Lets automate Growth Medium §6Part I§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "gelatin_mixture"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 6.0d,
 	y: -5.5d,

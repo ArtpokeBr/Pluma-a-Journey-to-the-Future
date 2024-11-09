@@ -13,7 +13,7 @@
 		"1717c1b6",
 		"beb22594"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "92c61708",
 		type: "item",
@@ -33,7 +33,7 @@
 		{
 			item: "roots:terrastone_hoe"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

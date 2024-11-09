@@ -102,7 +102,7 @@
 	{
 		uid: "efda90e5",
 		type: "item",
-		team_reward: true,
+		team_reward: 1b,
 		item: "minecraft:iron_ingot",
 		count: 16
 	}]

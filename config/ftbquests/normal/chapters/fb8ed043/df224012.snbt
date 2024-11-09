@@ -25,7 +25,7 @@
 			item: "pyrotech:planks_tarred"
 		}],
 		count: 4L,
-		consume_items: false
+		consume_items: 0b
 	}],
 	rewards: [{
 		uid: "0e0cc3ac",

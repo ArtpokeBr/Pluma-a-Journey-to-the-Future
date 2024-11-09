@@ -21,7 +21,7 @@
 		items: [{
 			item: "totemic:tipi"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
@@ -33,7 +33,7 @@
 	{
 		uid: "f1774f1c",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "minecraft:pumpkin_pie"
 	}]
 }

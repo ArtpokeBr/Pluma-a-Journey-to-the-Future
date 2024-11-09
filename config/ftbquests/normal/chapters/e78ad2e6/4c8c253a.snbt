@@ -12,7 +12,7 @@
 	dependencies: [
 		"d9b1b409"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "3748589f",
 		type: "item",
@@ -44,17 +44,17 @@
 		{
 			item: "railcraft:backpack_trackman_t2"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "3e90ab85",
 		type: "item",
 		item: {
-			id: "forestry:apiarist_bag",
 			tag: {
 				UID: -1281957919
-			}
+			},
+			id: "forestry:apiarist_bag"
 		}
 	},
 	{

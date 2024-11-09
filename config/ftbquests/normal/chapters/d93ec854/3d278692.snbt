@@ -37,25 +37,25 @@
 		uid: "270a2389",
 		type: "item",
 		item: {
-			id: "embers:sword_lead",
 			tag: {
 				RepairCost: 7,
-				ench: [{
-					id: 16,
-					lvl: 3s
-				},
-				{
-					id: 34,
-					lvl: 3s
-				},
-				{
-					id: 20,
-					lvl: 2s
-				}],
 				display: {
 					Name: "A Dwarven Sword"
-				}
-			}
+				},
+				ench: [{
+					lvl: 3s,
+					id: 16
+				},
+				{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 2s,
+					id: 20
+				}]
+			},
+			id: "embers:sword_lead"
 		}
 	},
 	{

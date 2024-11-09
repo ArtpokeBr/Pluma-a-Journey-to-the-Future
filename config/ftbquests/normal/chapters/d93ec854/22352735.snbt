@@ -38,10 +38,10 @@
 		uid: "7ba315d2",
 		type: "item",
 		item: {
-			id: "tconstruct:sword_blade",
 			tag: {
 				Material: "fierymetal"
-			}
+			},
+			id: "tconstruct:sword_blade"
 		}
 	}]
 }

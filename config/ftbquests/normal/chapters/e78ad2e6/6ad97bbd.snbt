@@ -18,12 +18,12 @@
 		uid: "4f7e9de1",
 		type: "item",
 		items: [{
-			id: "forestry:portable_alyzer",
 			tag: {
 				UID: 2047164578
-			}
+			},
+			id: "forestry:portable_alyzer"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

@@ -55,14 +55,14 @@
 		uid: "3f56c6b0",
 		type: "item",
 		item: {
-			id: "evilcraft:dark_tank",
 			tag: {
+				capacity: 32000,
 				Fluid: {
 					Amount: 32000,
 					FluidName: "hydrogen"
-				},
-				capacity: 32000
-			}
+				}
+			},
+			id: "evilcraft:dark_tank"
 		}
 	},
 	{

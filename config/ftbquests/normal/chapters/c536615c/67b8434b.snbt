@@ -8,7 +8,7 @@
 		"",
 		"{pluma.logcraftsign.desc2}"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"59e8425d"
 	],
@@ -17,8 +17,8 @@
 		uid: "5f36e117",
 		type: "item",
 		items: [{
-			id: "logisticspipes:sign_creator",
-			tag: {}
+			tag: {},
+			id: "logisticspipes:sign_creator"
 		}],
 		ignore_nbt: 1b
 	}],

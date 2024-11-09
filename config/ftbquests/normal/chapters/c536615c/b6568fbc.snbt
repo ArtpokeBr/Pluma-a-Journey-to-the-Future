@@ -104,19 +104,19 @@
 	rewards: [{
 		uid: "0bf50e4d",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: {
-			Damage: 471s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Charge: 100000L
-			}
+			},
+			Damage: 471s,
+			id: "gregtech:meta_item_1"
 		}
 	},
 	{
 		uid: "39f845d2",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "harvestcraft:supremepizzaitem",
 		count: 4
 	},

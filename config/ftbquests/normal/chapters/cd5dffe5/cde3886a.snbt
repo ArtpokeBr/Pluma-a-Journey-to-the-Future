@@ -35,20 +35,20 @@
 		uid: "1e54fe1b",
 		type: "item",
 		item: {
-			id: "tconstruct:pick_head",
 			tag: {
 				Material: "pink_metal"
-			}
+			},
+			id: "tconstruct:pick_head"
 		}
 	},
 	{
 		uid: "bf7f38e9",
 		type: "item",
 		item: {
-			id: "tconstruct:axe_head",
 			tag: {
 				Material: "meat_metal"
-			}
+			},
+			id: "tconstruct:axe_head"
 		}
 	},
 	{

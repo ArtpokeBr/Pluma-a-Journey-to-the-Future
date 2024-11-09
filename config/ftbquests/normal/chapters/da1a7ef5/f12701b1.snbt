@@ -24,14 +24,14 @@
 		uid: "498923af",
 		type: "item",
 		item: {
-			Damage: 79s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "binnie.turpentine"
 				}
-			}
+			},
+			Damage: 79s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8
 	},

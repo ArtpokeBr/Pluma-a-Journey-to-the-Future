@@ -39,7 +39,7 @@
 	{
 		uid: "1007fa10",
 		type: "gamestage",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		stage: "Embers"
 	}]

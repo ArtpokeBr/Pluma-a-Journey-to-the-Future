@@ -16,36 +16,36 @@
 			item: "minecraft:water_bucket"
 		},
 		{
-			id: "pyrotech:bucket_clay",
 			tag: {
 				durability: 12,
 				fluids: {
 					Amount: 1000,
 					FluidName: "water"
 				}
-			}
+			},
+			id: "pyrotech:bucket_clay"
 		},
 		{
-			id: "pyrotech:bucket_stone",
 			tag: {
 				durability: 16,
 				fluids: {
 					Amount: 1000,
 					FluidName: "water"
 				}
-			}
+			},
+			id: "pyrotech:bucket_stone"
 		},
 		{
-			id: "pyrotech:bucket_refractory",
 			tag: {
 				durability: 24,
 				fluids: {
 					Amount: 1000,
 					FluidName: "water"
 				}
-			}
+			},
+			id: "pyrotech:bucket_refractory"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

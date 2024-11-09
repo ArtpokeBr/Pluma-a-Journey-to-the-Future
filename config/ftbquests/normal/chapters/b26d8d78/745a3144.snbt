@@ -20,7 +20,7 @@
 		items: [{
 			item: "thaumcraft:cloth_chest"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -29,7 +29,7 @@
 		items: [{
 			item: "thaumcraft:cloth_legs"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -38,15 +38,15 @@
 		items: [{
 			item: "thaumcraft:cloth_boots"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "3d07e2b8",
 		type: "item",
 		item: {
-			id: "botania:manaweavehelm",
-			tag: {}
+			tag: {},
+			id: "botania:manaweavehelm"
 		}
 	},
 	{

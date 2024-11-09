@@ -1,10 +1,10 @@
 {
 	title: "The Tier 1 Blood Orb",
 	icon: {
-		id: "bloodmagic:blood_orb",
 		tag: {
 			orb: "bloodmagic:weak"
-		}
+		},
+		id: "bloodmagic:blood_orb"
 	},
 	x: 10.5d,
 	y: -3.0d,
@@ -31,10 +31,10 @@
 		uid: "46b0681e",
 		type: "item",
 		items: [{
-			id: "bloodmagic:blood_orb",
 			tag: {
 				orb: "bloodmagic:weak"
-			}
+			},
+			id: "bloodmagic:blood_orb"
 		}],
 		ignore_nbt: 1b
 	}],

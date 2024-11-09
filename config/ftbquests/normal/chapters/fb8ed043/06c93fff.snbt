@@ -20,15 +20,15 @@
 		uid: "a0c5569f",
 		type: "item",
 		item: {
-			id: "enderio:block_tank",
 			tag: {
 				"enderio:data": {
 					tank: {
-						Capacity: 16000,
-						Empty: ""
+						Empty: "",
+						Capacity: 16000
 					}
 				}
-			}
+			},
+			id: "enderio:block_tank"
 		}
 	},
 	{

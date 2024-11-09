@@ -6,7 +6,7 @@
 	text: [
 		"Just the essentials here, you can use it to Automate any Smelting process!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"40ed11cf"
 	],

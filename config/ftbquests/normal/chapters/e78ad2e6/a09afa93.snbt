@@ -1,76 +1,10 @@
 {
 	title: "The Smelter Lady",
 	icon: {
-		id: "forestry:bee_queen_ge",
 		tag: {
 			MaxH: 50,
-			Genome: {
-				Chromosomes: [{
-					Slot: 0b,
-					UID0: "careerbees.smelter",
-					UID1: "careerbees.smelter"
-				},
-				{
-					Slot: 1b,
-					UID0: "forestry.speedSlow",
-					UID1: "forestry.speedSlow"
-				},
-				{
-					Slot: 2b,
-					UID0: "forestry.lifespanLong",
-					UID1: "forestry.lifespanLong"
-				},
-				{
-					Slot: 3b,
-					UID0: "forestry.fertilityNormal",
-					UID1: "forestry.fertilityNormal"
-				},
-				{
-					Slot: 4b,
-					UID0: "forestry.toleranceNone",
-					UID1: "forestry.toleranceNone"
-				},
-				{
-					Slot: 5b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 6b,
-					UID0: "forestry.toleranceNone",
-					UID1: "forestry.toleranceNone"
-				},
-				{
-					Slot: 7b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 8b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 9b,
-					UID0: "forestry.flowersVanilla",
-					UID1: "forestry.flowersVanilla"
-				},
-				{
-					Slot: 10b,
-					UID0: "forestry.floweringSlow",
-					UID1: "forestry.floweringSlow"
-				},
-				{
-					Slot: 11b,
-					UID0: "forestry.territoryAverage",
-					UID1: "forestry.territoryAverage"
-				},
-				{
-					Slot: 12b,
-					UID0: "careerbees.effect.smelt",
-					UID1: "careerbees.effect.smelt"
-				}]
-			},
+			Health: 50,
+			IsAnalyzed: 0b,
 			Mate: {
 				Chromosomes: [{
 					Slot: 0b,
@@ -138,9 +72,75 @@
 					UID1: "careerbees.effect.smelt"
 				}]
 			},
-			Health: 50,
-			IsAnalyzed: 0b
-		}
+			Genome: {
+				Chromosomes: [{
+					Slot: 0b,
+					UID0: "careerbees.smelter",
+					UID1: "careerbees.smelter"
+				},
+				{
+					Slot: 1b,
+					UID0: "forestry.speedSlow",
+					UID1: "forestry.speedSlow"
+				},
+				{
+					Slot: 2b,
+					UID0: "forestry.lifespanLong",
+					UID1: "forestry.lifespanLong"
+				},
+				{
+					Slot: 3b,
+					UID0: "forestry.fertilityNormal",
+					UID1: "forestry.fertilityNormal"
+				},
+				{
+					Slot: 4b,
+					UID0: "forestry.toleranceNone",
+					UID1: "forestry.toleranceNone"
+				},
+				{
+					Slot: 5b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 6b,
+					UID0: "forestry.toleranceNone",
+					UID1: "forestry.toleranceNone"
+				},
+				{
+					Slot: 7b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 8b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 9b,
+					UID0: "forestry.flowersVanilla",
+					UID1: "forestry.flowersVanilla"
+				},
+				{
+					Slot: 10b,
+					UID0: "forestry.floweringSlow",
+					UID1: "forestry.floweringSlow"
+				},
+				{
+					Slot: 11b,
+					UID0: "forestry.territoryAverage",
+					UID1: "forestry.territoryAverage"
+				},
+				{
+					Slot: 12b,
+					UID0: "careerbees.effect.smelt",
+					UID1: "careerbees.effect.smelt"
+				}]
+			}
+		},
+		id: "forestry:bee_queen_ge"
 	},
 	x: 6.5d,
 	y: -2.5d,

@@ -1,11 +1,11 @@
 {
 	title: "Lets make an Ender Plastic §6Final Part§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "polyenderlyne"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 8.5d,
 	y: -1.5d,

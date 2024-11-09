@@ -1,11 +1,11 @@
 {
 	title: "An Chemical for Coating Boards!",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "iron_iii_chloride"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 1.0d,
 	y: -7.5d,
@@ -32,14 +32,14 @@
 		uid: "17ebdfb6",
 		type: "item",
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "iron_iii_chloride"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 8
 	},

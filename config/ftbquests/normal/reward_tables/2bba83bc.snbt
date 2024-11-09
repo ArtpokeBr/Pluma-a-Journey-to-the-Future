@@ -2,8 +2,8 @@
 	title: "Choose ULV Motor or Alternator",
 	icon: "magneticraft:crafting 1 2",
 	loot_size: 1,
-	hide_tooltip: true,
-	use_title: true,
+	hide_tooltip: 1b,
+	use_title: 1b,
 	rewards: [{
 		item: "magneticraft:crafting 1 2",
 		count: 2

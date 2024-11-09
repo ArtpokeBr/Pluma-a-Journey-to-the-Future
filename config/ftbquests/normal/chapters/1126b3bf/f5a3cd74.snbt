@@ -48,8 +48,8 @@
 		uid: "377319d1",
 		type: "item",
 		item: {
-			id: "cyclicmagic:glowing_helmet",
-			tag: {}
+			tag: {},
+			id: "cyclicmagic:glowing_helmet"
 		}
 	},
 	{

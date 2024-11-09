@@ -1,11 +1,11 @@
 {
 	title: "Lets automate PTFE (Teflon) §6Final Part§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "polytetrafluoroethylene"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 2.0d,
 	y: -5.5d,

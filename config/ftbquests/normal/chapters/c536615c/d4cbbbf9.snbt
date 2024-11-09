@@ -104,14 +104,14 @@
 		uid: "4de7df98",
 		type: "item",
 		item: {
-			Damage: 78s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 1000,
 					FluidName: "steam"
 				}
-			}
+			},
+			Damage: 78s,
+			id: "gregtech:meta_item_1"
 		},
 		count: 16
 	},
@@ -119,25 +119,25 @@
 		uid: "c4a416a7",
 		type: "item",
 		item: {
-			id: "railcraft:armor_overalls",
 			tag: {
 				RepairCost: 7,
-				ench: [{
-					id: 3s,
-					lvl: 4s
-				},
-				{
-					id: 34s,
-					lvl: 3s
-				},
-				{
-					id: 70s,
-					lvl: 1s
-				}],
 				display: {
 					Name: "Engineer's Anti-Blast Trousers"
-				}
-			}
+				},
+				ench: [{
+					lvl: 4s,
+					id: 3s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}]
+			},
+			id: "railcraft:armor_overalls"
 		}
 	},
 	{

@@ -21,12 +21,12 @@
 					data: "ingotBronze"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotBronze"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 3L
 	}],

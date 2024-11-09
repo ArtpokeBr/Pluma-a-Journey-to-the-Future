@@ -40,7 +40,7 @@
 	{
 		uid: "53e91dce",
 		type: "gamestage",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		stage: "BeneathDimensionUnlock"
 	}]

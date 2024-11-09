@@ -36,10 +36,10 @@
 		uid: "7bbff307",
 		type: "item",
 		item: {
-			id: "evilcraft:dark_tank",
 			tag: {
 				capacity: 256000
-			}
+			},
+			id: "evilcraft:dark_tank"
 		}
 	},
 	{

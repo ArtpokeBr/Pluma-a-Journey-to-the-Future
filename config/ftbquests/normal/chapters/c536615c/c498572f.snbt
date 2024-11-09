@@ -22,15 +22,15 @@
 					data: "ingotConstructionAlloy"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotConstructionAlloy"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 8L,
-		consume_items: false
+		consume_items: 0b
 	}],
 	rewards: [{
 		uid: "5f4cd4a7",

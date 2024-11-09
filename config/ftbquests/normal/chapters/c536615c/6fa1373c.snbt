@@ -1,11 +1,11 @@
 {
 	title: "Lets Automate Sulfuric Acid §6Part I§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "sulfur_dioxide"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 1.0d,
 	y: -11.0d,

@@ -6,7 +6,7 @@
 	text: [
 		"Essential specially for automation! much better than the steam version!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ffc88aa1",
 		"40ed11cf"

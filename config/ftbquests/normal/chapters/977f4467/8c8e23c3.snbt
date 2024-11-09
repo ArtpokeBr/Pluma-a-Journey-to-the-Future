@@ -39,7 +39,7 @@
 		items: [{
 			item: "twilightforest:meef_stroganoff"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -60,21 +60,21 @@
 		uid: "5a61b1e5",
 		type: "item",
 		item: {
-			id: "twilightforest:mazebreaker_pickaxe",
 			tag: {
 				ench: [{
-					id: 32,
-					lvl: 4s
+					lvl: 4s,
+					id: 32
 				},
 				{
-					id: 34,
-					lvl: 3s
+					lvl: 3s,
+					id: 34
 				},
 				{
-					id: 35,
-					lvl: 2s
+					lvl: 2s,
+					id: 35
 				}]
-			}
+			},
+			id: "twilightforest:mazebreaker_pickaxe"
 		}
 	},
 	{

@@ -8,7 +8,7 @@
 		"",
 		"- Some recipes might also use Liquids or Mix liquids in the process!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ffc88aa1",
 		"40ed11cf"

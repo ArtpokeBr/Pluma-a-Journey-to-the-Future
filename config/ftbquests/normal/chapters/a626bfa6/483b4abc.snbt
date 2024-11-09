@@ -30,12 +30,12 @@
 					data: "ingotBrick"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotBrick"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 66L
 	},
@@ -49,12 +49,12 @@
 					data: "clay"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any clay"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 91L
 	},
@@ -68,12 +68,12 @@
 					data: "cobblestone"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any cobblestone"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 49L
 	},
@@ -87,12 +87,12 @@
 					data: "dustBrick"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustBrick"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 66L
 	},
@@ -106,12 +106,12 @@
 					data: "dustClay"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustClay"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 66L
 	},

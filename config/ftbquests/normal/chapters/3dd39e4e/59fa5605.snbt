@@ -35,15 +35,15 @@
 	rewards: [{
 		uid: "d42f4938",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: {
-			id: "harvestcraft:energydrinkitem",
 			tag: {
 				RepairCost: 0,
 				display: {
 					Name: "Thanks for the Energy to Read This!"
 				}
-			}
+			},
+			id: "harvestcraft:energydrinkitem"
 		}
 	}]
 }

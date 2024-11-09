@@ -23,7 +23,7 @@
 	dependencies: [
 		"2330acee"
 	],
-	optional: true,
+	optional: 1b,
 	min_width: 300,
 	tasks: [{
 		uid: "3848904d",

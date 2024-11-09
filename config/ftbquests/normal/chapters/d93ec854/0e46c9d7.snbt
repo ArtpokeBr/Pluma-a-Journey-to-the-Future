@@ -32,11 +32,11 @@
 		uid: "53e9a237",
 		type: "item",
 		item: {
-			Damage: 12s,
-			id: "mekanism:machineblock",
 			tag: {
 				mekData: {}
-			}
+			},
+			Damage: 12s,
+			id: "mekanism:machineblock"
 		}
 	},
 	{

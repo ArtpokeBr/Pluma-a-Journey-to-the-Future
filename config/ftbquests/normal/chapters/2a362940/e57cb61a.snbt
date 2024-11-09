@@ -10,7 +10,7 @@
 		"",
 		"▬ Basically a §5Blast-Proof Item Storage§f!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"177fd87f"
 	],

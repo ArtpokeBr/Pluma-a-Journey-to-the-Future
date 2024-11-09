@@ -56,13 +56,13 @@
 		uid: "d1bf35d5",
 		type: "item",
 		item: {
-			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					id: 41,
-					lvl: 4s
+					lvl: 4s,
+					id: 41
 				}]
-			}
+			},
+			id: "minecraft:enchanted_book"
 		}
 	},
 	{

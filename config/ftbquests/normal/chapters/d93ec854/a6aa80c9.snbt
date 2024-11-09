@@ -35,7 +35,7 @@
 	{
 		uid: "ca099163",
 		type: "gamestage",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "invisible",
 		stage: "Fossil_Stage"
 	}]

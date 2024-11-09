@@ -16,31 +16,31 @@
 		type: "item",
 		title: "Craft Any Herb Pouch",
 		items: [{
-			id: "roots:herb_pouch",
-			tag: {}
+			tag: {},
+			id: "roots:herb_pouch"
 		},
 		{
-			id: "roots:component_pouch",
 			tag: {
 				bag_idLeast: -7769360574875277051L,
 				bag_idMost: -2345399370781800248L
-			}
+			},
+			id: "roots:component_pouch"
 		},
 		{
-			id: "roots:fey_pouch",
 			tag: {
 				bag_idLeast: -8694814746773943266L,
 				bag_idMost: 3085390459885668063L
-			}
+			},
+			id: "roots:fey_pouch"
 		},
 		{
-			id: "roots:apothecary_pouch",
 			tag: {
 				bag_idLeast: -5972172761046592330L,
 				bag_idMost: -210668047279307249L
-			}
+			},
+			id: "roots:apothecary_pouch"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

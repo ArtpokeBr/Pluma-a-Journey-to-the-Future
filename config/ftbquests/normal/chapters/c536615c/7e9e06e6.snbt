@@ -16,28 +16,28 @@
 		type: "item",
 		title: "Any Universal Cable",
 		items: [{
-			id: "mekanism:transmitter",
 			tag: {
 				tier: 0
-			}
+			},
+			id: "mekanism:transmitter"
 		},
 		{
-			id: "mekanism:transmitter",
 			tag: {
 				tier: 1
-			}
+			},
+			id: "mekanism:transmitter"
 		},
 		{
-			id: "mekanism:transmitter",
 			tag: {
 				tier: 2
-			}
+			},
+			id: "mekanism:transmitter"
 		},
 		{
-			id: "mekanism:transmitter",
 			tag: {
 				tier: 3
-			}
+			},
+			id: "mekanism:transmitter"
 		}],
 		count: 8L
 	}],
@@ -50,10 +50,10 @@
 		uid: "c4ecd36e",
 		type: "item",
 		item: {
-			id: "ic2:tool_box",
 			tag: {
 				Items: []
-			}
+			},
+			id: "ic2:tool_box"
 		}
 	}]
 }

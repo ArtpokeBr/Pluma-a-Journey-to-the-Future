@@ -48,28 +48,28 @@
 	rewards: [{
 		uid: "493d8c52",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "gregtech:ore_cobalt_0 1 1",
 		count: 8
 	},
 	{
 		uid: "dc4156c2",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "gregtech:ore_black_quartz_0 1 1",
 		count: 8
 	},
 	{
 		uid: "92f64bb3",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "gregtech:ore_cobaltite_0 1 1",
 		count: 8
 	},
 	{
 		uid: "e3fdbfed",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "gregtech:ore_ardite_0 1 1",
 		count: 8
 	},

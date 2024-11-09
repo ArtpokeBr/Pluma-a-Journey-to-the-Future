@@ -70,9 +70,7 @@
 		uid: "7a9e7139",
 		type: "item",
 		item: {
-			id: "actuallyadditions:item_bag",
 			tag: {
-				AutoInsert: 0b,
 				Items: [{},
 				{},
 				{},
@@ -101,18 +99,20 @@
 				{},
 				{},
 				{}],
+				AutoInsert: 0b,
 				Filter: {
-					NBT: 0b,
-					Meta: 1b,
-					Oredict: 2,
-					Whitelist: 1b,
 					Items: [{},
 					{},
 					{},
 					{}],
-					Mod: 0b
+					NBT: 0b,
+					Mod: 0b,
+					Meta: 1b,
+					Whitelist: 1b,
+					Oredict: 2
 				}
-			}
+			},
+			id: "actuallyadditions:item_bag"
 		}
 	},
 	{

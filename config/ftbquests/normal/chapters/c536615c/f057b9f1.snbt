@@ -40,12 +40,12 @@
 					data: "dustObsidian"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustObsidian"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	},
 	{
@@ -59,12 +59,12 @@
 					data: "dustRefinedObsidian"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustRefinedObsidian"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 3L
 	}],

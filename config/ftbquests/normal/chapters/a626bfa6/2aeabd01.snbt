@@ -10,7 +10,7 @@
 		"",
 		"- Each number will represent a type of operation, Plates, Foils or even Small Coils"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ffc88aa1",
 		"40ed11cf"
@@ -31,11 +31,11 @@
 		uid: "0146dd7e",
 		type: "item",
 		item: {
-			Damage: 461s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Configuration: 1
-			}
+			},
+			Damage: 461s,
+			id: "gregtech:meta_item_1"
 		}
 	},
 	{

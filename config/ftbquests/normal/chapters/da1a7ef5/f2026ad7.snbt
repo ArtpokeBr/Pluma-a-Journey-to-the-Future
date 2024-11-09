@@ -1,11 +1,11 @@
 {
 	title: "Lets go to the Nether!",
 	icon: {
-		Damage: 4s,
-		id: "microblockcbe:microblock",
 		tag: {
 			mat: "minecraft:obsidian"
-		}
+		},
+		Damage: 4s,
+		id: "microblockcbe:microblock"
 	},
 	x: 5.0d,
 	y: -1.5d,

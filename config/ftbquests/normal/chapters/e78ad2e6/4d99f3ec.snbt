@@ -19,7 +19,7 @@
 		items: [{
 			item: "forestry:apiarist_helmet"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -28,7 +28,7 @@
 		items: [{
 			item: "forestry:apiarist_chest"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -37,7 +37,7 @@
 		items: [{
 			item: "forestry:apiarist_legs"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -46,7 +46,7 @@
 		items: [{
 			item: "forestry:apiarist_boots"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

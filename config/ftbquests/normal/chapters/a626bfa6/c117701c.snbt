@@ -6,7 +6,7 @@
 	text: [
 		"This Machine will Unlock you some unique Recipes but it is specially usefull for Leather Treating."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"de02f604",
 		"8324a27b"

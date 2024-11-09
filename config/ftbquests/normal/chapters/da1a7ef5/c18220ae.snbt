@@ -1,8 +1,8 @@
 {
 	title: "Casting Spells with Roots!",
 	icon: {
-		id: "roots:staff",
-		tag: {}
+		tag: {},
+		id: "roots:staff"
 	},
 	x: 13.5d,
 	y: 3.0d,
@@ -31,8 +31,8 @@
 		uid: "88a2ee2b",
 		type: "item",
 		items: [{
-			id: "roots:staff",
-			tag: {}
+			tag: {},
+			id: "roots:staff"
 		}],
 		ignore_nbt: 1b
 	},
@@ -42,7 +42,7 @@
 		items: [{
 			item: "roots:gramary"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -68,12 +68,12 @@
 		uid: "b4b45a9a",
 		type: "item",
 		item: {
-			id: "roots:spell_dust",
 			tag: {
 				spell_storage: {
 					s: "roots:spell_sky_soarer"
 				}
-			}
+			},
+			id: "roots:spell_dust"
 		}
 	}]
 }

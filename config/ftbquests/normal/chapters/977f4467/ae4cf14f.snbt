@@ -32,10 +32,10 @@
 		uid: "b623dc7f",
 		type: "item",
 		item: {
-			id: "minecraft:splash_potion",
 			tag: {
 				Potion: "minecraft:long_night_vision"
-			}
+			},
+			id: "minecraft:splash_potion"
 		}
 	},
 	{

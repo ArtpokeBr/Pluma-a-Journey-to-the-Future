@@ -1,11 +1,11 @@
 {
 	title: "Lets automate Polymer Clay §6Part II§f",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "phthalic_acid"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: 12.5d,
 	y: -10.5d,

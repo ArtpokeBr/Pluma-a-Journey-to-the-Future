@@ -19,11 +19,11 @@
 		uid: "86b777d3",
 		type: "item",
 		items: [{
-			Damage: 467s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Mode: 1
-			}
+			},
+			Damage: 467s,
+			id: "gregtech:meta_item_1"
 		}],
 		ignore_nbt: 1b
 	}],

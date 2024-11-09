@@ -1,13 +1,13 @@
 {
 	title: "Blood Magic Automation Quest",
 	icon: {
-		id: "bloodmagic:blood_orb",
 		tag: {
 			orb: "bloodmagic:weak"
-		}
+		},
+		id: "bloodmagic:blood_orb"
 	},
 	loot_size: 1,
-	use_title: true,
+	use_title: 1b,
 	rewards: [{
 		item: "enderio:block_impulse_hopper",
 		count: 3

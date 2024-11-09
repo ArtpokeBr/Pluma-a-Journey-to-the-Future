@@ -1,11 +1,11 @@
 {
 	title: "Time to Automate Empowered Canola Oil §6Part II",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "refinedcanolaoil"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: -7.0d,
 	y: -10.0d,

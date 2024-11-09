@@ -6,7 +6,7 @@
 	text: [
 		"That's right! now you're pretty much able to Cut Wood efficiently and also make Slabs more Efficiently!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"58656a37",
 		"09cfb20d"

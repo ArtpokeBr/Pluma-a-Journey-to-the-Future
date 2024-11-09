@@ -34,12 +34,12 @@
 		type: "item",
 		title: "Any Constellation Paper",
 		items: [{
-			id: "astralsorcery:itemconstellationpaper",
 			tag: {
 				astralsorcery: {
 					constellationName: "astralsorcery.constellation.armara"
 				}
-			}
+			},
+			id: "astralsorcery:itemconstellationpaper"
 		}],
 		ignore_nbt: 1b
 	}],

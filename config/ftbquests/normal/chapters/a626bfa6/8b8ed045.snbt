@@ -12,7 +12,7 @@
 		"",
 		"~ Want an Example of utility? All recipes normally done in a Forestry Carpenter, are now done inside of this guy."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ffc88aa1",
 		"40ed11cf",
@@ -43,12 +43,12 @@
 		uid: "d361838e",
 		type: "item",
 		item: {
-			id: "randomthings:timeinabottle",
 			tag: {
 				timeData: {
 					storedTime: 0
 				}
-			}
+			},
+			id: "randomthings:timeinabottle"
 		}
 	},
 	{

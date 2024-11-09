@@ -6,7 +6,7 @@
 	text: [
 		"The Steam version of this Machine could not handle Fluids, but it is diferent with this guy!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"ffc88aa1",
 		"40ed11cf",

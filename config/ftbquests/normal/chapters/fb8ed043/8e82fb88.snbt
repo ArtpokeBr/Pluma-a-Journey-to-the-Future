@@ -13,7 +13,7 @@
 		"",
 		"- Simply place the heat source bellow the melter, and use faucets to extract the fluids from the Melter."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"c426da7b",
 		"c6214f56"
@@ -56,18 +56,18 @@
 		type: "item",
 		title: "Did you know you can make a Clay Armor?",
 		item: {
-			id: "ceramics:clay_chestplate",
 			tag: {
 				RepairCost: 3,
 				ench: [{
-					id: 34,
-					lvl: 3s
+					lvl: 3s,
+					id: 34
 				},
 				{
-					id: 4,
-					lvl: 4s
+					lvl: 4s,
+					id: 4
 				}]
-			}
+			},
+			id: "ceramics:clay_chestplate"
 		}
 	},
 	{

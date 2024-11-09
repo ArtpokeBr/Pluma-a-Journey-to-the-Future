@@ -14,7 +14,7 @@
 	dependencies: [
 		"2ab08f70"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "f04c4e49",
 		type: "item",
@@ -34,7 +34,7 @@
 		{
 			item: "roots:living_sword"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{

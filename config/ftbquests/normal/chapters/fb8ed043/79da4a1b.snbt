@@ -43,12 +43,12 @@
 					data: "blockSeared"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSeared"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}],
 		count: 24L
 	}],

@@ -25,7 +25,7 @@
 	rewards: [{
 		uid: "d18f6743",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "harvestcraft:lemonchickenitem",
 		count: 4
 	},

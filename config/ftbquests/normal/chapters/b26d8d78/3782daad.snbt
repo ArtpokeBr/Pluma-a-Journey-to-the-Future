@@ -14,7 +14,7 @@
 		"b9be9446"
 	],
 	size: 0.75d,
-	optional: true,
+	optional: 1b,
 	min_width: 250,
 	tasks: [{
 		uid: "ccacc8c8",

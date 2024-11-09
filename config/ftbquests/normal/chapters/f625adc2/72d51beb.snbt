@@ -1,10 +1,10 @@
 {
 	title: "Purifying this World!",
 	icon: {
-		id: "botania:specialflower",
 		tag: {
 			type: "puredaisy"
-		}
+		},
+		id: "botania:specialflower"
 	},
 	x: -3.0d,
 	y: -1.0d,
@@ -33,10 +33,10 @@
 		uid: "5a48ba5d",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "puredaisy"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	},
 	{

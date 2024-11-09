@@ -23,10 +23,10 @@
 		uid: "ce7dd292",
 		type: "item",
 		item: {
-			id: "tconstruct:pick_head",
 			tag: {
 				Material: "thaumium"
-			}
+			},
+			id: "tconstruct:pick_head"
 		}
 	},
 	{

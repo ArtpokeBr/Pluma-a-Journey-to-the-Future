@@ -22,7 +22,7 @@
 	rewards: [{
 		uid: "0f42cbf2",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "harvestcraft:toastedwesternitem"
 	},
 	{

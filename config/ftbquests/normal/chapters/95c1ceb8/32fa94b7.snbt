@@ -10,7 +10,7 @@
 		"",
 		"- Also, don't remember that for this §6Machine§f, you'll need a little bit of §5Black Bronze§f!"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"5ac28673",
 		"9909954b"

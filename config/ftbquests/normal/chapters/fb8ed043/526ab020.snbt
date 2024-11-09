@@ -47,7 +47,7 @@
 	rewards: [{
 		uid: "ee61f9e2",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "minecraft:pumpkin_pie",
 		count: 2
 	},

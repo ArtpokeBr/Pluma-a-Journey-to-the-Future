@@ -24,7 +24,7 @@
 	dependencies: [
 		"999c8ee9"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "0ae44980",
 		type: "item",
@@ -47,7 +47,7 @@
 		{
 			item: "roots:runed_dagger"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

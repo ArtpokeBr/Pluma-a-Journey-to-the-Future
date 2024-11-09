@@ -24,7 +24,7 @@
 		uid: "ab8d0f62",
 		type: "command",
 		title: "Unlock all Thaumcraft Research!",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "no_toast",
 		command: "/thaumcraft research @p all"
 	},
@@ -32,7 +32,7 @@
 		uid: "75fb3418",
 		type: "command",
 		title: "But with a Warpy Cost...",
-		team_reward: false,
+		team_reward: 0b,
 		auto: "no_toast",
 		command: "/thaumcraft warp @p set 80 PERM"
 	}]

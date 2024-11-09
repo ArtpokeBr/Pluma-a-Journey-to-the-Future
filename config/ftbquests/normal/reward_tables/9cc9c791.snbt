@@ -2,7 +2,7 @@
 	title: "Choice Rubber Bar Quest",
 	icon: "gregtech:meta_ingot 1 1068",
 	loot_size: 1,
-	use_title: true,
+	use_title: 1b,
 	rewards: [{
 		item: "gregtech:meta_ingot 1 1068",
 		count: 16

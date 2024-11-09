@@ -45,14 +45,14 @@
 		uid: "f5b5e379",
 		type: "item",
 		item: {
-			Damage: 6s,
-			id: "mekanism:basicblock",
 			tag: {
 				mekData: {
 					itemCount: 0
 				},
 				tier: 3
-			}
+			},
+			Damage: 6s,
+			id: "mekanism:basicblock"
 		},
 		count: 2
 	},

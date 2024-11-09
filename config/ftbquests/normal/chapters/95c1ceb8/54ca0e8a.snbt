@@ -1,11 +1,11 @@
 {
 	title: "Infinite Salt = Infinite Chlorine!",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "chlorine"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: -1.0d,
 	y: -6.0d,

@@ -17,24 +17,24 @@
 		uid: "fb3bdcfd",
 		type: "item",
 		items: [{
-			id: "botania:specialflower",
 			tag: {
 				type: "petro_petunia"
-			}
+			},
+			id: "botania:specialflower"
 		}]
 	}],
 	rewards: [{
 		uid: "5a0b5235",
 		type: "item",
 		item: {
-			Damage: 80s,
-			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
 					Amount: 8000,
 					FluidName: "oil"
 				}
-			}
+			},
+			Damage: 80s,
+			id: "gregtech:meta_item_1"
 		}
 	},
 	{

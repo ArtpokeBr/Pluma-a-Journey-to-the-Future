@@ -10,7 +10,7 @@
 		"",
 		"- Second, simply place your §6Transmitter§f near the §2spot you wish to transfer§f and voilá! it will §etransfer about 80 RF/t§f §8§o(or about 20 EU/t)§f."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"1f69ab74"
 	],

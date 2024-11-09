@@ -10,7 +10,7 @@
 		"",
 		"{pluma.fuzcraftlog.desc3}"
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"59e8425d"
 	],

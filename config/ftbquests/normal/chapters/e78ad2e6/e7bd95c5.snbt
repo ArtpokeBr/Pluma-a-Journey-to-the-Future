@@ -1,76 +1,10 @@
 {
 	title: "The Modest Lady",
 	icon: {
-		id: "forestry:bee_queen_ge",
 		tag: {
 			MaxH: 30,
-			Genome: {
-				Chromosomes: [{
-					Slot: 0b,
-					UID0: "forestry.speciesModest",
-					UID1: "forestry.speciesModest"
-				},
-				{
-					Slot: 1b,
-					UID0: "forestry.speedSlower",
-					UID1: "forestry.speedSlower"
-				},
-				{
-					Slot: 2b,
-					UID0: "forestry.lifespanShort",
-					UID1: "forestry.lifespanShort"
-				},
-				{
-					Slot: 3b,
-					UID0: "forestry.fertilityNormal",
-					UID1: "forestry.fertilityNormal"
-				},
-				{
-					Slot: 4b,
-					UID0: "forestry.toleranceBoth1",
-					UID1: "forestry.toleranceBoth1"
-				},
-				{
-					Slot: 5b,
-					UID0: "forestry.boolTrue",
-					UID1: "forestry.boolTrue"
-				},
-				{
-					Slot: 6b,
-					UID0: "forestry.toleranceDown1",
-					UID1: "forestry.toleranceDown1"
-				},
-				{
-					Slot: 7b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 8b,
-					UID0: "forestry.boolFalse",
-					UID1: "forestry.boolFalse"
-				},
-				{
-					Slot: 9b,
-					UID0: "forestry.flowersCacti",
-					UID1: "forestry.flowersCacti"
-				},
-				{
-					Slot: 10b,
-					UID0: "forestry.floweringSlowest",
-					UID1: "forestry.floweringSlowest"
-				},
-				{
-					Slot: 11b,
-					UID0: "forestry.territoryAverage",
-					UID1: "forestry.territoryAverage"
-				},
-				{
-					Slot: 12b,
-					UID0: "forestry.effectNone",
-					UID1: "forestry.effectNone"
-				}]
-			},
+			Health: 30,
+			IsAnalyzed: 0b,
 			Mate: {
 				Chromosomes: [{
 					Slot: 0b,
@@ -138,9 +72,75 @@
 					UID1: "forestry.effectNone"
 				}]
 			},
-			Health: 30,
-			IsAnalyzed: 0b
-		}
+			Genome: {
+				Chromosomes: [{
+					Slot: 0b,
+					UID0: "forestry.speciesModest",
+					UID1: "forestry.speciesModest"
+				},
+				{
+					Slot: 1b,
+					UID0: "forestry.speedSlower",
+					UID1: "forestry.speedSlower"
+				},
+				{
+					Slot: 2b,
+					UID0: "forestry.lifespanShort",
+					UID1: "forestry.lifespanShort"
+				},
+				{
+					Slot: 3b,
+					UID0: "forestry.fertilityNormal",
+					UID1: "forestry.fertilityNormal"
+				},
+				{
+					Slot: 4b,
+					UID0: "forestry.toleranceBoth1",
+					UID1: "forestry.toleranceBoth1"
+				},
+				{
+					Slot: 5b,
+					UID0: "forestry.boolTrue",
+					UID1: "forestry.boolTrue"
+				},
+				{
+					Slot: 6b,
+					UID0: "forestry.toleranceDown1",
+					UID1: "forestry.toleranceDown1"
+				},
+				{
+					Slot: 7b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 8b,
+					UID0: "forestry.boolFalse",
+					UID1: "forestry.boolFalse"
+				},
+				{
+					Slot: 9b,
+					UID0: "forestry.flowersCacti",
+					UID1: "forestry.flowersCacti"
+				},
+				{
+					Slot: 10b,
+					UID0: "forestry.floweringSlowest",
+					UID1: "forestry.floweringSlowest"
+				},
+				{
+					Slot: 11b,
+					UID0: "forestry.territoryAverage",
+					UID1: "forestry.territoryAverage"
+				},
+				{
+					Slot: 12b,
+					UID0: "forestry.effectNone",
+					UID1: "forestry.effectNone"
+				}]
+			}
+		},
+		id: "forestry:bee_queen_ge"
 	},
 	x: 0.0d,
 	y: -1.5d,

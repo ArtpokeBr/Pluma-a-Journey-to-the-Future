@@ -1,11 +1,11 @@
 {
 	title: "Lets get some Methane",
 	icon: {
-		id: "forge:bucketfilled",
 		tag: {
 			Amount: 1000,
 			FluidName: "methane"
-		}
+		},
+		id: "forge:bucketfilled"
 	},
 	x: -1.0d,
 	y: -7.0d,

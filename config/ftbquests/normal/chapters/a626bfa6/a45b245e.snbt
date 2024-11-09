@@ -31,7 +31,7 @@
 			item: "gregtech:metal_casing 1 1"
 		}],
 		count: 32L,
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -44,12 +44,12 @@
 					data: "ingotSteel"
 				}
 			},
-			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotSteel"
 				}
-			}
+			},
+			id: "itemfilters:filter"
 		}]
 	}],
 	rewards: [{

@@ -17,24 +17,24 @@
 		uid: "a6ac469b",
 		type: "item",
 		items: [{
-			id: "cyclicmagic:tool_launcher",
-			tag: {}
+			tag: {},
+			id: "cyclicmagic:tool_launcher"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e393f1c4",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: {
-			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					id: 2,
-					lvl: 4s
+					lvl: 4s,
+					id: 2
 				}]
-			}
+			},
+			id: "minecraft:enchanted_book"
 		}
 	},
 	{

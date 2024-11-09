@@ -1,14 +1,14 @@
 {
 	title: "&6►Chapter 10&f - From Flowers to the Sky",
 	icon: {
-		id: "astralsorcery:itemshiftingstar",
 		tag: {
 			astralsorcery: {
 				starAttunement: "astralsorcery.constellation.aevitas"
 			}
-		}
+		},
+		id: "astralsorcery:itemshiftingstar"
 	},
-	always_invisible: false,
+	always_invisible: 0b,
 	group: 0,
 	default_quest_shape: ""
 }

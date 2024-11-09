@@ -27,7 +27,7 @@
 		items: [{
 			item: "deepmoblearning:deep_learner"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -71,20 +71,20 @@
 		{
 			item: "deepmoblearning:data_model_thermal_elemental"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "f2d48ef8",
 		type: "item",
 		item: {
-			id: "minecraft:enchanted_book",
 			tag: {
 				StoredEnchantments: [{
-					id: 16,
-					lvl: 5s
+					lvl: 5s,
+					id: 16
 				}]
-			}
+			},
+			id: "minecraft:enchanted_book"
 		}
 	},
 	{

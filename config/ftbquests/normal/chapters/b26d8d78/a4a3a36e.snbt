@@ -25,10 +25,10 @@
 		uid: "f11b91cc",
 		type: "item",
 		item: {
-			id: "tconstruct:pick_head",
 			tag: {
 				Material: "void_metal"
-			}
+			},
+			id: "tconstruct:pick_head"
 		}
 	},
 	{

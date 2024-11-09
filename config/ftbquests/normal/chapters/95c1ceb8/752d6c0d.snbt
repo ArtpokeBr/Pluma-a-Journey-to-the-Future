@@ -43,10 +43,10 @@
 		uid: "4ecf64fc",
 		type: "item",
 		item: {
-			id: "patchouli:guide_book",
 			tag: {
 				"patchouli:book": "deepmoblearning:book"
-			}
+			},
+			id: "patchouli:guide_book"
 		}
 	},
 	{

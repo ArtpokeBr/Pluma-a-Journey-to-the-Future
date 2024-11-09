@@ -52,7 +52,7 @@
 		type: "choice",
 		title: "Choose your Reward",
 		icon: "gregtech:meta_ingot 1 1068",
-		team_reward: false,
+		team_reward: 0b,
 		table: 2
 	},
 	{

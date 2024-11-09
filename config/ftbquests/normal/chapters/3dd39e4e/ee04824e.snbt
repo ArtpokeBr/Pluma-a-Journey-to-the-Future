@@ -23,12 +23,12 @@
 		uid: "7dec835d",
 		type: "item",
 		item: {
-			id: "harvestcraft:colasodaitem",
 			tag: {
 				display: {
 					Name: "Unfortunatly, this is not an Infinite Source of Water..."
 				}
-			}
+			},
+			id: "harvestcraft:colasodaitem"
 		}
 	}]
 }

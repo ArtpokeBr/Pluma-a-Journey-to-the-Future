@@ -33,7 +33,7 @@
 	rewards: [{
 		uid: "fff9517b",
 		type: "item",
-		team_reward: false,
+		team_reward: 0b,
 		item: "solcarrot:food_book"
 	}]
 }
