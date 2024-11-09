@@ -21,10 +21,10 @@ var TinkerSmeltingAndCastingFixes as ILiquidStack[IItemStack] = {
 
     //Osmium
     <mekanism:gastank>.withTag({tier: 0}): osmium,
-    <magneticraft:chunks:11>: osmium,
-    <magneticraft:rocky_chunks:11>: osmium,
-    <magneticraft:light_plates:11>: osmium,
-    <magneticraft:heavy_plates:11>: osmium,
+    // <magneticraft:chunks:11>: osmium,
+    // <magneticraft:rocky_chunks:11>: osmium,
+    // <magneticraft:light_plates:11>: osmium,
+    // <magneticraft:heavy_plates:11>: osmium,
     <tconstruct:shard>.withTag({Material: "osmium"}): osmium,
     <mekanism:nugget:1>: osmium,
     <mekanism:ingot:1>: osmium,
@@ -37,10 +37,10 @@ var TinkerSmeltingAndCastingFixes as ILiquidStack[IItemStack] = {
     <tconstruct:shard>.withTag({Material: "osmium"}): osmium,
 
     //Aluminium
-    <magneticraft:chunks:7>: aluminium,
-    <magneticraft:rocky_chunks:7>: aluminium,
-    <magneticraft:light_plates:7>: aluminium,
-    <magneticraft:heavy_plates:7>: aluminium,
+    // <magneticraft:chunks:7>: aluminium,
+    // <magneticraft:rocky_chunks:7>: aluminium,
+    // <magneticraft:light_plates:7>: aluminium,
+    // <magneticraft:heavy_plates:7>: aluminium,
     <gregtech:meta_dust_tiny:2>: aluminium,
     <gregtech:meta_dust_small:2>: aluminium,
     <gregtech:meta_ingot:2>: aluminium,
@@ -71,16 +71,16 @@ var TinkerSmeltingAndCastingFixes as ILiquidStack[IItemStack] = {
     <ore:blockOsmiridium>.firstItem: osmiridium,
 
     //Tungsten
-    <magneticraft:chunks:5>: tungsten,
-    <magneticraft:rocky_chunks:5>: tungsten,
-    <magneticraft:light_plates:5>: tungsten,
-    <magneticraft:heavy_plates:5>: tungsten,
+    // <magneticraft:chunks:5>: tungsten,
+    // <magneticraft:rocky_chunks:5>: tungsten,
+    // <magneticraft:light_plates:5>: tungsten,
+    // <magneticraft:heavy_plates:5>: tungsten,
 
     //Steel
-    <magneticraft:chunks:6>: steel,
-    <magneticraft:rocky_chunks:6>: steel,
-    <magneticraft:light_plates:6>: steel,
-    <magneticraft:heavy_plates:6>: steel,
+    // <magneticraft:chunks:6>: steel,
+    // <magneticraft:rocky_chunks:6>: steel,
+    // <magneticraft:light_plates:6>: steel,
+    // <magneticraft:heavy_plates:6>: steel,
     <mekanism:nugget:4>: steel,
     <mekanism:ingot:4>: steel,
     <gregtech:meta_dust_tiny:324>: steel,

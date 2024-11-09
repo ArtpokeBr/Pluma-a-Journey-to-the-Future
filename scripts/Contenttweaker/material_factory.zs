@@ -813,7 +813,9 @@ global plate_materials  as string[] = [
     "MagnesiumDiboride",
 	"Ferroboron",
     "Chrome",
-    "Tough"
+    "Tough",
+    "Steel",
+    "Tungsten",
 ];
 
 for material in plate_materials {

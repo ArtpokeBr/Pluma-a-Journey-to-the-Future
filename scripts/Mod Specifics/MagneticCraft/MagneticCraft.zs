@@ -8,12 +8,12 @@ import mods.gregtech.recipe.RecipeMap;
 
 // Renaming MagneticCraft's Plates
 
-<magneticraft:light_plates>.displayName = "Iron Light Plate";
-<magneticraft:light_plates:1>.displayName = "Gold Light Plate";
-<magneticraft:light_plates:2>.displayName = "Copper Light Plate";
-<magneticraft:light_plates:3>.displayName = "Lead Light Plate";
-<magneticraft:light_plates:5>.displayName = "Tungsten Light Plate";
-<magneticraft:light_plates:6>.displayName = "Steel Light Plate";
+// <magneticraft:light_plates>.displayName = "Iron Light Plate";
+// <magneticraft:light_plates:1>.displayName = "Gold Light Plate";
+// <magneticraft:light_plates:2>.displayName = "Copper Light Plate";
+// <magneticraft:light_plates:3>.displayName = "Lead Light Plate";
+// <magneticraft:light_plates:5>.displayName = "Tungsten Light Plate";
+// <magneticraft:light_plates:6>.displayName = "Steel Light Plate";
 
 // Renaming MagneticCraft's Copper Stuff
 <magneticraft:crafting:3>.displayName = "Fine Copper Wire Coil";

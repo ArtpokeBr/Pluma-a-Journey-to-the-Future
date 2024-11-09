@@ -16,20 +16,20 @@ import mods.gregtech.recipe.RecipeMap;
 ### Removing Sieve Recipes ###
 
 var RemovingFromTheSieving as IItemStack[] = [
-<magneticraft:rocky_chunks>,
-<magneticraft:rocky_chunks:1>,
-<magneticraft:rocky_chunks:2>,
-<magneticraft:rocky_chunks:3>,
-<magneticraft:rocky_chunks:4>,
-<magneticraft:rocky_chunks:5>,
-<magneticraft:rocky_chunks:7>,
-<magneticraft:rocky_chunks:8>,
-<magneticraft:rocky_chunks:9>,
-<magneticraft:rocky_chunks:10>,
-<magneticraft:rocky_chunks:11>,
-<magneticraft:rocky_chunks:12>,
-<magneticraft:rocky_chunks:13>,
-<magneticraft:rocky_chunks:14>
+// <magneticraft:rocky_chunks>,
+// <magneticraft:rocky_chunks:1>,
+// <magneticraft:rocky_chunks:2>,
+// <magneticraft:rocky_chunks:3>,
+// <magneticraft:rocky_chunks:4>,
+// <magneticraft:rocky_chunks:5>,
+// <magneticraft:rocky_chunks:7>,
+// <magneticraft:rocky_chunks:8>,
+// <magneticraft:rocky_chunks:9>,
+// <magneticraft:rocky_chunks:10>,
+// <magneticraft:rocky_chunks:11>,
+// <magneticraft:rocky_chunks:12>,
+// <magneticraft:rocky_chunks:13>,
+// <magneticraft:rocky_chunks:14>
 ];
 for i in RemovingFromTheSieving {
 SluiceBox.removeRecipe(i);
