@@ -380,7 +380,8 @@ var plate_materials  as string[] = [
 	"Chrome",
 	"Tough",
 	"Steel",
-	"Tungsten"
+	"Tungsten",
+	"RedSteel"
 ];
 
 for oreName in plate_materials {
