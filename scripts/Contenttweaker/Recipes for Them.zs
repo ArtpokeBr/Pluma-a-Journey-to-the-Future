@@ -933,7 +933,7 @@ craft.make(<contenttweaker:base_focal_sphere>, ["pretty",
   "□ ⌂ □",
   "S E S",
   "□ ⌂ □"], {
-  "□": <ore:lightPlateBorosilicateGlass>, # Light Borosilicate Glass Plate
+  "□": <ore:lightPlateSilver>, # Light Silver Plate
   "⌂": <ore:casingStainlessSteel>,        # Stainless Steel Casing
   "S": <thaumcraft:salis_mundus>,         # Salis Mundus
   "E": <evilcraft:blood_orb>,             # Empty Orb
