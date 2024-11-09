@@ -816,7 +816,9 @@ global plate_materials  as string[] = [
     "Tough",
     "Steel",
     "Tungsten",
-    "RedSteel"
+    "RedSteel",
+    "RedAlloy",
+    "PolyvinylChloride"
 ];
 
 for material in plate_materials {
