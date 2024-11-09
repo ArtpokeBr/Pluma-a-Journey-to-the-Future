@@ -60,6 +60,7 @@ recipes.remove(<magneticraft:copper_coil>);
 recipes.addShapeless("MagneticCraftCopperCoil",<magneticraft:copper_coil>,[<ore:gtceWireCutters>, <ore:lightPlateCopper>]);
 wiremill.recipeBuilder()
 	.inputs(<ore:lightPlateCopper>)
+	.circuit(1)
 	.outputs(<magneticraft:copper_coil>)   
 	.duration(100)
 	.EUt(2)
