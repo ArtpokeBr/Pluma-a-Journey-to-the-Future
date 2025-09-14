@@ -312,7 +312,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe(
   "B": <ore:boltBrass>,               # Brass Bolt
   "¤": <ore:gearBrass>,               # Brass Gear
   "□": <thaumcraft:nugget:10>,      # Rare Earths
-  "п": <ore:lightPlateVanadiumSteel>, # Light Vanadiumsteel Plate
+  "п": <ore:plateVanadiumSteel>, # Light Vanadiumsteel Plate
 }).shaped());
 
 # [Complex Arcane Mechanism] from [HV Electric Piston][+6]

@@ -36,7 +36,7 @@ autoclave.recipeBuilder()
 
 // Machine Block
 recipes.remove(<extrautils2:machine:0>);
-recipes.addShaped(<extrautils2:machine:0> * 2, [[<ore:lightPlateVanadiumSteel>, <ore:plateSteel>, <ore:lightPlateVanadiumSteel>], [<ore:plateSteel>, <ore:gearRedSteel>, <ore:plateSteel>],[<ore:lightPlateVanadiumSteel>, <ore:plateSteel>, <ore:lightPlateVanadiumSteel>]]);
+recipes.addShaped(<extrautils2:machine:0> * 2, [[<ore:plateVanadiumSteel>, <ore:plateSteel>, <ore:plateVanadiumSteel>], [<ore:plateSteel>, <ore:gearRedSteel>, <ore:plateSteel>],[<ore:plateVanadiumSteel>, <ore:plateSteel>, <ore:plateVanadiumSteel>]]);
 
 // Drop of Evil
 <extrautils2:ingredients:10>.addTooltip(format.darkRed("Can also be Crafted"));

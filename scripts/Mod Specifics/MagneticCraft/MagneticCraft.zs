@@ -211,5 +211,5 @@ craft.make(<magneticraft:crafting:5>, ["pretty",
   "t □ t",
   "t t t"], {
   "t": <pyrotech:material:26>,        # Durable Twine
-  "□": <ore:lightPlateVanadiumSteel>, # Light Vanadiumsteel Plate
+  "□": <ore:plateVanadiumSteel>, # Light Vanadiumsteel Plate
 });
