@@ -1,0 +1,6 @@
+{
+  "Config.LastModified_comment": "Do not modify this field. Stores the time when the default config values have been updated.",
+  "Config.LastModified": "1788727606647",
+  "World.ITickable.Override_comment": "Should HammerLib transform world update method: Enhance ITickable.update method call with TickSlip technology? This is probably incompatible with Sponge.",
+  "World.ITickable.Override": false
+}
