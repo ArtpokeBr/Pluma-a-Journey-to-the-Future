@@ -55,3 +55,6 @@ config/JustEnoughCalculation/record.json
 config/cherishedworlds/favorites.dat
 BotaniaVars.dat
 relauncher/
+config/cleanroom_load_timings.dat
+cache/
+config/relauncher.json
