@@ -136,7 +136,7 @@ recipes.addShaped(<industrialforegoing:enchantment_extractor> * 1, [[<industrial
 
 // Enchantment Applicator
 recipes.remove(<industrialforegoing:enchantment_aplicator>);
-recipes.addShaped(<industrialforegoing:enchantment_aplicator> * 1, [[<industrialforegoing:plastic>, <gregtech:meta_item_1:159>, <industrialforegoing:plastic>], [<railcraft:anvil:0>, <teslacorelib:machine_case>, <railcraft:anvil:0>],[<ore:plateStainlessSteel>, <ore:circuitHv>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<industrialforegoing:enchantment_aplicator> * 1, [[<industrialforegoing:plastic>, <gregtech:meta_item_1:159>, <industrialforegoing:plastic>], [<ore:craftingAnvil>, <teslacorelib:machine_case>, <ore:craftingAnvil>],[<ore:plateStainlessSteel>, <ore:circuitHv>, <ore:plateStainlessSteel>]]);
 
 // Enchantment Sorter
 recipes.remove(<industrialforegoing:enchantment_refiner>);
