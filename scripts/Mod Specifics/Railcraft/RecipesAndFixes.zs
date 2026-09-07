@@ -4,7 +4,7 @@ import moretweaker.railcraft.RockCrusher as RockCrusher;
 import mods.inworldcrafting.FluidToItem as FluidToItem;
 
 //Removing Creosote Bottle from Furnace
-furnace.remove(<railcraft:fluid_bottle_creosote>);
+// furnace.remove(<railcraft:fluid_bottle_creosote>);
 
 # Tooltips to inform the Color Variations ========
 
