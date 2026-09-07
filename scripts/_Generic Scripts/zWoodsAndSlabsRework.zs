@@ -5,7 +5,7 @@ import mods.pyrotech.StoneSawmill as StoneSawmill;
 import mods.pyrotech.GraniteAnvil;
 import mods.astralsorcery.Altar as Altar;
 import mods.enderio.SagMill as SagMill;
-import mods.advancedrocketry.CuttingMachine;
+import mods.advancedrocketry.RecipeTweaker;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
@@ -323,7 +323,12 @@ for IItemStack, IIngredient in Woods {
 			.EUt(8)
 		.buildAndRegister();
 
-        mods.advancedrocketry.CuttingMachine.addRecipe(IIngredient*8, 180/*ticks*/, 800/*rf/t*/, IItemStack);
+        RecipeTweaker.forMachine("CuttingMachine").builder()
+            .input(IItemStack)
+            .outputItem(IIngredient*8)
+            .timeRequired(180)
+            .power(800)
+        .build();
 
 }
 
@@ -485,7 +490,12 @@ for IItemStack, IIngredient in PlanksToSlabs {
 			.EUt(8)
 		.buildAndRegister();
 
-        mods.advancedrocketry.CuttingMachine.addRecipe(IIngredient*4, 100/*ticks*/, 800/*rf/t*/, IItemStack);
+        RecipeTweaker.forMachine("CuttingMachine").builder()
+            .input(IItemStack)
+            .outputItem(IIngredient*4)
+            .timeRequired(100)
+            .power(800)
+        .build();
 
 }
 
@@ -825,7 +835,12 @@ for IItemStack, IIngredient in NonWoodSlabs {
 			.EUt(8)
 			.buildAndRegister();
         
-        mods.advancedrocketry.CuttingMachine.addRecipe(IIngredient*4, 100/*ticks*/, 800/*rf/t*/, IItemStack);
+        RecipeTweaker.forMachine("CuttingMachine").builder()
+            .input(IItemStack)
+            .outputItem(IIngredient*4)
+            .timeRequired(100)
+            .power(800)
+        .build();
 }
 
 # Specific Vanilla Woods that need a Recipe with a Saw by Hand
@@ -872,7 +887,12 @@ var LogToPlanksWithoutGT as IItemStack[IIngredient] = {
 for IItemStack, IIngredient in LogToPlanksWithoutGT {
         recipes.remove(IIngredient);
 
-        mods.advancedrocketry.CuttingMachine.addRecipe(IIngredient*4, 100/*ticks*/, 800/*rf/t*/, IItemStack);
+        RecipeTweaker.forMachine("CuttingMachine").builder()
+            .input(IItemStack)
+            .outputItem(IIngredient*4)
+            .timeRequired(100)
+            .power(800)
+        .build();
 
 }
 
@@ -890,6 +910,11 @@ var PlanksToSlabsWithoutGT as IItemStack[IIngredient] = {
 for IItemStack, IIngredient in PlanksToSlabsWithoutGT {
         recipes.remove(IIngredient);
 
-        mods.advancedrocketry.CuttingMachine.addRecipe(IIngredient*4, 100/*ticks*/, 800/*rf/t*/, IItemStack);
+        RecipeTweaker.forMachine("CuttingMachine").builder()
+            .input(IItemStack)
+            .outputItem(IIngredient*4)
+            .timeRequired(100)
+            .power(800)
+        .build();
 
 }

@@ -1,7 +1,7 @@
 import mods.jei.JEI as JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.recipestages.Recipes;
-import mods.advancedrocketry.ArcFurnace as ArcFurnace;
+import mods.advancedrocketry.RecipeTweaker;
 
 //Restricting Advanced Rocketry (currenltly in DEV)
 mods.recipestages.Recipes.setRecipeStageByMod("advancedrocketrylock", "advancedrocketry");
@@ -16,7 +16,7 @@ JEI.removeAndHide(<advancedrocketry:advbipropellantrocketmotor>);
 JEI.removeAndHide(<advancedrocketry:bipropellantfueltank>);
 
 //Lathe Recipe Fixes
-mods.advancedrocketry.Lathe.clear();
+RecipeTweaker.forMachine("Lathe").removeAll();
 
 //Fixing the Planks
 recipes.remove(<advancedrocketry:planks>);
@@ -127,16 +127,31 @@ implosion.recipeBuilder()
 // Artisan's ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Arc Furnace Fixes ///////////////////////////////////////////////////////////////////////////////////////////////////////
-ArcFurnace.clear();
+RecipeTweaker.forMachine("ElectricArcFurnace").removeAll();
 
 #Titanium ingot
-ArcFurnace.addRecipe(<ore:ingotTitanium>.firstItem*1, 800/*ticks*/, 8000/*rf/t*/, <ore:dustConcentratedTitanium>.firstItem);
+RecipeTweaker.forMachine("ElectricArcFurnace").builder()
+    .inputs(<ore:dustConcentratedTitanium>.firstItem)
+    .outputItem(<ore:ingotTitanium>.firstItem*1)
+    .timeRequired(800)
+    .power(8000)
+.build();
 
 #Titanium Aluminide
-ArcFurnace.addRecipe(<ore:ingotTitaniumAluminide>.firstItem*3, 800/*ticks*/, 8000/*rf/t*/, <ore:ingotTitanium>.firstItem*3, <ore:ingotAluminium>.firstItem*7);
+RecipeTweaker.forMachine("ElectricArcFurnace").builder()
+    .inputs(<ore:ingotTitanium>.firstItem*3, <ore:ingotAluminium>.firstItem*7)
+    .outputItem(<ore:ingotTitaniumAluminide>.firstItem*3)
+    .timeRequired(800)
+    .power(8000)
+.build();
 
 #Titanium Iridium Alloy
-ArcFurnace.addRecipe(<ore:ingotTitaniumIridium>.firstItem*2, 800/*ticks*/, 16000/*rf/t*/, <ore:ingotTitanium>.firstItem*1, <ore:ingotIridium>.firstItem*1);
+RecipeTweaker.forMachine("ElectricArcFurnace").builder()
+    .inputs(<ore:ingotTitanium>.firstItem*1, <ore:ingotIridium>.firstItem*1)
+    .outputItem(<ore:ingotTitaniumIridium>.firstItem*2)
+    .timeRequired(800)
+    .power(16000)
+.build();
 
 # Structure Tower
 recipes.remove(<advancedrocketry:structuretower>);

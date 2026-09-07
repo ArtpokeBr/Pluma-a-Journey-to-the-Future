@@ -1,4 +1,4 @@
-import mods.advancedrocketry.ArcFurnace as ArcFurnace;
+import mods.advancedrocketry.RecipeTweaker;
 
 //1. Making Gold Alloy ==========
 
@@ -36,10 +36,30 @@ alloy.recipeBuilder()
 
 # Alternate Recipe for the Arc Furnace from Advanced Rocketry making it possible to use directly Gold if the player wish.
 
-ArcFurnace.addRecipe(<ore:ingotGoldAlloy>.firstItem*4, 400/*ticks*/, 300/*rf/t*/, <ore:ingotCopper>.firstItem*3, <ore:dustGold>.firstItem*1);
-ArcFurnace.addRecipe(<ore:ingotGoldAlloy>.firstItem*4, 400/*ticks*/, 300/*rf/t*/, <ore:dustCopper>.firstItem*3, <ore:ingotGold>.firstItem*1);
-ArcFurnace.addRecipe(<ore:ingotGoldAlloy>.firstItem*4, 400/*ticks*/, 300/*rf/t*/, <ore:ingotCopper>.firstItem*3, <ore:ingotGold>.firstItem*1);
-ArcFurnace.addRecipe(<ore:ingotGoldAlloy>.firstItem*4, 400/*ticks*/, 300/*rf/t*/, <ore:dustCopper>.firstItem*3, <ore:dustGold>.firstItem*1);
+RecipeTweaker.forMachine("ElectricArcFurnace").builder()
+    .inputs(<ore:ingotCopper>.firstItem*3, <ore:dustGold>.firstItem*1)
+    .outputItem(<ore:ingotGoldAlloy>.firstItem*4)
+    .timeRequired(400)
+    .power(300)
+.build();
+RecipeTweaker.forMachine("ElectricArcFurnace").builder()
+    .inputs(<ore:dustCopper>.firstItem*3, <ore:ingotGold>.firstItem*1)
+    .outputItem(<ore:ingotGoldAlloy>.firstItem*4)
+    .timeRequired(400)
+    .power(300)
+.build();
+RecipeTweaker.forMachine("ElectricArcFurnace").builder()
+    .inputs(<ore:ingotCopper>.firstItem*3, <ore:ingotGold>.firstItem*1)
+    .outputItem(<ore:ingotGoldAlloy>.firstItem*4)
+    .timeRequired(400)
+    .power(300)
+.build();
+RecipeTweaker.forMachine("ElectricArcFurnace").builder()
+    .inputs(<ore:dustCopper>.firstItem*3, <ore:dustGold>.firstItem*1)
+    .outputItem(<ore:ingotGoldAlloy>.firstItem*4)
+    .timeRequired(400)
+    .power(300)
+.build();
 
 //2. Gold Alloy --> Gold Leach ==========
 
