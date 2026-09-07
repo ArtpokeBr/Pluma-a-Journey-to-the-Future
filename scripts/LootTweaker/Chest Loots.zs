@@ -1,7 +1,5 @@
 import loottweaker.LootTweaker;
-import loottweaker.vanilla.loot.LootTable;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Functions;
+import loottweaker.Functions;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 
@@ -30,7 +28,9 @@ function addLootList(table as string, pool as string, map as int[IItemStack], co
 		if(countMin <= 0 || countMax <= 0)
 			loot_pool.addItemEntry(item, weight);
 		else
-			loot_pool.addItemEntryHelper(item, weight, 0, [Functions.setCount(countMin, max(countMin, countMax))], []);
+			// LootPool.addItemEntryHelper() was removed; addItemEntry() gained the same
+			// (item, weight, quality, functions[], conditions[]) overload directly.
+			loot_pool.addItemEntry(item, weight, 0, [Functions.setCount(countMin, max(countMin, countMax))], []);
 	}
 }
 
