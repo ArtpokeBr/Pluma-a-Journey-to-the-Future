@@ -8,21 +8,17 @@ import crafttweaker.item.IItemStack;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+// Embers' copper/silver/lead/dawnstone materials (and their plates/ingots) are configured as
+// "SMART" registration in config/Embers/material.cfg, which skips registering them entirely
+// because GregTech is loaded. Those items don't exist in this pack (use the <ore:...> tags
+// GregTech provides instead), so their removals below were always dead no-ops and are removed.
 var StampingRemovals as IItemStack[] = [
 // <embers:plate_iron>,
 // <embers:plate_gold>,
-<embers:plate_lead>,
-<embers:plate_silver>,
-<embers:plate_copper>,
-<embers:ingot_lead>,
-<embers:ingot_silver>,
-<embers:ingot_copper>,
 <minecraft:blaze_powder>*4,
-<embers:plate_dawnstone>,
 <minecraft:gold_ingot>,
 <minecraft:iron_ingot>,
 <embers:dust_ash>,
-<embers:ingot_dawnstone>,
 ];
 for i in StampingRemovals {
 Stamper.remove(i);

@@ -404,14 +404,14 @@ craft.make(<embers:vacuum>, ["pretty",
 # [Automatic Breaker] from [Redstone Gear][+4]
 recipes.removeByRecipeName("embers:breaker");
 craft.make(<embers:breaker>, ["pretty",
-  "□ L □",
-  "п ♥ п",
-  "P   P"], {
-  "□": <ore:plateWroughtIron>,            # Wrought Iron Plate
-  "L": <embers:pickaxe_lead>.anyDamage(), # Lead Pickaxe
-  "п": <ore:plateLead>,                   # Lead Plate
-  "♥": <ore:gearRedstone>,                # Redstone Gear
-  "P": <ore:lightPlateLead>,              # Light Lead Plate
+ "□ L □",
+ "п ♥ п",
+ "P   P"], {
+ "□": <ore:plateWroughtIron>,            # Wrought Iron Plate
+ "L": <tconstruct:pick_head>.withTag({Material: "lead"}), # Lead Pickaxe Head
+ "п": <ore:plateLead>,                   # Lead Plate
+ "♥": <ore:gearRedstone>,                # Redstone Gear
+ "P": <ore:lightPlateLead>,              # Light Lead Plate
 });
 
 # [Item Transfer]*4 from [Item Pipe][+2]

@@ -259,15 +259,15 @@ craft.make(<industrialforegoing:crop_enrich_material_injector>, ["pretty",
 # [Plant Gatherer] from [Machine Case][+5]
 recipes.removeByRecipeName("industrialforegoing:crop_recolector");
 craft.make(<industrialforegoing:crop_recolector>, ["pretty",
-  "R a R",
-  "D M D",
-  "¤ S ¤"], {
-  "R": <ore:itemRubber>,                   # Industrial Plastic
-  "a": <embers:hoe_dawnstone>.anyDamage(), # Dawnstone Hoe
-  "D": <embers:axe_dawnstone>.anyDamage(), # Dawnstone Axe
-  "M": <teslacorelib:machine_case>,        # Machine Case
-  "¤": <ore:gearStainlessSteel>,           # Stainless Steel Gear
-  "S": <ore:springSignalum>,               # Signalum Spring
+ "R a R",
+ "D M D",
+ "¤ S ¤"], {
+ "R": <ore:itemRubber>,                   # Industrial Plastic
+ "a": <thaumcraft:thaumium_hoe>.anyDamage(), # Dawnstone Hoe
+ "D": <thaumcraft:thaumium_axe>.anyDamage(), # Dawnstone Axe
+ "M": <teslacorelib:machine_case>,        # Machine Case
+ "¤": <ore:gearStainlessSteel>,           # Stainless Steel Gear
+ "S": <ore:springSignalum>,               # Signalum Spring
 });
 
 # [Black Hole Unit] from [Massive Storage Unit][+4]
@@ -327,18 +327,20 @@ craft.make(<industrialforegoing:mob_duplicator>, ["pretty",
 });
 
 # [Block Breaker] from [Machine Case][+5]
-recipes.removeByRecipeName("industrialforegoing:block_destroyer");
-craft.make(<industrialforegoing:block_destroyer>, ["pretty",
-  "R D R",
-  "H M H",
-  "□ ¤ □"], {
-  "R": <ore:itemRubber>,                       # Industrial Plastic
-  "D": <embers:pickaxe_dawnstone>.anyDamage(), # Dawnstone Pickaxe
-  "H": <gregtech:meta_item_1:129>,             # HV Electric Motor
-  "M": <teslacorelib:machine_case>,            # Machine Case
-  "□": <ore:plateStainlessSteel>,              # Stainless Steel Plate
-  "¤": <ore:gearModularium>,                   # Modularium Gear
-});
+// Same "SMART"-disabled dawnstone material issue as [Plant Gatherer] above:
+// <embers:pickaxe_dawnstone> doesn't exist while GregTech is loaded.
+//recipes.removeByRecipeName("industrialforegoing:block_destroyer");
+//craft.make(<industrialforegoing:block_destroyer>, ["pretty",
+//  "R D R",
+//  "H M H",
+//  "□ ¤ □"], {
+//  "R": <ore:itemRubber>,                       # Industrial Plastic
+//  "D": <embers:pickaxe_dawnstone>.anyDamage(), # Dawnstone Pickaxe
+//  "H": <gregtech:meta_item_1:129>,             # HV Electric Motor
+//  "M": <teslacorelib:machine_case>,            # Machine Case
+//  "□": <ore:plateStainlessSteel>,              # Stainless Steel Plate
+//  "¤": <ore:gearModularium>,                   # Modularium Gear
+//});
 
 # [Block Placer] from [Machine Case][+5]
 recipes.removeByRecipeName("industrialforegoing:block_placer");

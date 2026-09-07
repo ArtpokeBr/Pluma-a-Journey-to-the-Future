@@ -893,9 +893,8 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 			<tconstruct:shovel_head>.withTag({Material: "slime"})  	: 10,
 			<tconstruct:sword_blade>.withTag({Material: "invar"})  	: 10,
 			<tconstruct:hammer_head>.withTag({Material: "certus_quartz"})  	: 10,
-			<embers:sword_copper>.withTag({ench: [{lvl: 1 as short, id: 34}, {lvl: 1 as short, id: 56}, {lvl: 1 as short, id: 71}], RepairCost: 7}): 15,
-			<embers:pickaxe_copper>.withTag({ench: [{lvl: 1 as short, id: 34}, {lvl: 1 as short, id: 56}, {lvl: 1 as short, id: 24}, {lvl: 1 as short, id: 71}], RepairCost: 15}): 15,
-			<embers:axe_copper>.withTag({ench: [{lvl: 1 as short, id: 34}, {lvl: 1 as short, id: 56}, {lvl: 1 as short, id: 71}], RepairCost: 7}): 15,
+			// Embers' copper material is "SMART"-disabled because GregTech is loaded
+			// (config/Embers/material.cfg), so sword_copper/pickaxe_copper/axe_copper don't exist.
 			<minecraft:compass>  	: 20,
 			<minecraft:shears>  	: 20,
 			<minecraft:fishing_rod>.withTag({ench: [{lvl: 3 as short, id: 62}, {lvl: 3 as short, id: 61}], RepairCost: 3, display: {Name: "Agropesca Jacaré"}})  	: 5,
