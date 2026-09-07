@@ -390,29 +390,21 @@ recipes.addShaped(<railcraft:charge:1> * 1, [[<ore:plateBrass>, <ore:plateBrass>
 // recipes.remove(<railcraft:flux_transformer:0>);
 // recipes.addShaped(<railcraft:flux_transformer:0> * 4, [[<railcraft:charge:3>, <railcraft:charge:6>, <railcraft:charge:3>], [<forestry:thermionic_tubes:4>, <ore:batteryMv>, <forestry:thermionic_tubes:4>],[<railcraft:charge:3>, <railcraft:charge:1>, <railcraft:charge:3>]]);
 
-// Iron Tank Gauge
-recipes.remove(<railcraft:tank_iron_gauge:0>);
-recipes.addShaped(<railcraft:tank_iron_gauge:0> * 4, [[<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>], [<ore:plateIron>, <ore:paneGlassColorless>, <ore:plateIron>],[<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>]]);
-
 // Iron Tank Valve
-recipes.remove(<railcraft:tank_iron_valve:0>);
-recipes.addShaped(<railcraft:tank_iron_valve:0> * 1, [[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>], [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>],[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>]]);
+recipes.remove(<railcraft:tank_iron_valve>);
+recipes.addShaped(<railcraft:tank_iron_valve> * 1, [[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>], [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>],[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>]]);
 
 // Iron Tank Wall
 recipes.remove(<railcraft:tank_iron_wall:0>);
 recipes.addShaped(<railcraft:tank_iron_wall:0> * 8, [[<ore:plateIron>, <ore:lightPlateIron>, <ore:plateIron>], [<ore:lightPlateIron>, null, <ore:lightPlateIron>],[<ore:plateIron>, <ore:lightPlateIron>, <ore:plateIron>]]);
-
-// Steel Tank Gauge
-recipes.remove(<railcraft:tank_steel_gauge>);
-recipes.addShaped(<railcraft:tank_steel_gauge> * 4, [[<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>], [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>],[<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>]]);
 
 // Steel Tank Valve
 recipes.remove(<railcraft:tank_steel_valve>);
 recipes.addShaped(<railcraft:tank_steel_valve> * 1, [[<ore:barsIron>, <ore:plateSteel>, <ore:barsIron>], [<ore:plateSteel>, <minecraft:lever>, <ore:plateSteel>],[<ore:barsIron>, <ore:plateSteel>, <ore:barsIron>]]);
 
 // Steel Tank Wall
-recipes.remove(<railcraft:tank_steel_wall>);
-recipes.addShaped(<railcraft:tank_steel_wall> * 8, [[<ore:plateSteel>, <ore:lightPlateSteel>, <ore:plateSteel>], [<ore:lightPlateSteel>, null, <ore:lightPlateSteel>],[<ore:plateSteel>, <ore:lightPlateSteel>, <ore:plateSteel>]]);
+recipes.remove(<railcraft:tank_steel_valve>);
+recipes.addShaped(<railcraft:tank_steel_valve> * 8, [[<ore:plateSteel>, <ore:lightPlateSteel>, <ore:plateSteel>], [<ore:lightPlateSteel>, null, <ore:lightPlateSteel>],[<ore:plateSteel>, <ore:lightPlateSteel>, <ore:plateSteel>]]);
 
 // Steam Locomotive
 recipes.remove(<railcraft:locomotive_steam_solid:0>);
