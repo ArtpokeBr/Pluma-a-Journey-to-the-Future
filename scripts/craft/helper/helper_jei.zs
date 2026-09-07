@@ -2,20 +2,21 @@
 
 #priority -1
 
-#loader crafttweaker reloadable
+#reloadable
 
 /*
 
 Configure your tool, by giving yourself bone with NBT tag.
 use command:
 
-/give @p bone 1 0 {style: "tags with spaces between"}
+/give @p bone 1 0 {style: 'tags with spaces between'}
 
 Avaliable style tags:
 
-noFancy       : No item names and comments
+comment       : Add recipe coment
 noPretty      : No spaces in grid
 noTrail       : No trailing comma in ingredients map
+names         : Add item names in ingredient list (if not dense)
 noBucket      : No transforming <forge:bucketfilled> into global Bucket()
 dense         : Always pack recipe in one line
 5x5           : For big chests (Like Draconium chest) use 5x5 grids
@@ -32,12 +33,11 @@ noTransformers: No `.anyDamage()` or `.withTag({})` if ingredient
 
 */
 
-
 val toolItem = itemUtils.getItem(scripts.craft.helper.helper.toolItemID);
 mods.jei.JEI.addItem(toolItem.withTag({
-  style: "noFancy noPretty noBucket noTrail noTransformers noOre noForceAmount",
+  style: 'comment noPretty noBucket noTrail names noTransformers noOre noForceAmount',
 
-  ench:[{lvl:1,id:0}], // Add enchant glow
+  ench:[{ lvl:1,id:0 }], // Add enchant glow
   enchantmentColor:16711680, // Random Things can change color with this tag
-  display:{Name:"Bone §b(no styles)"},
+  display:{ Name:'Bone §b(no styles)' },
 }));
