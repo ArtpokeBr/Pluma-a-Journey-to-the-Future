@@ -21,7 +21,7 @@ var RemovingFromTheCrushing as IItemStack[] = [
 <minecraft:skull>,
 <minecraft:skull:2>,
 <minecraft:iron_ore>,
-<minecraft:gold_ore>,
+// <minecraft:gold_ore>,
 <forestry:resources:1>,
 <tconstruct:ore>,
 <forestry:resources:2>,
