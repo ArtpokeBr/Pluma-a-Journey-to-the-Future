@@ -58,3 +58,5 @@ relauncher/
 config/cleanroom_load_timings.dat
 cache/
 config/relauncher.json
+config/tconstruct_oredictcache.dat
+config/gregtech/persistent_data.dat
