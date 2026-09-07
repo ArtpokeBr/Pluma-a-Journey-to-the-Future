@@ -168,7 +168,7 @@ recipes.addShapeless("WoodenBoxMAC_1",<minecraft:chest>,[<magneticraft:box>, <or
 <magneticraft:tile_limestone:1>.displayName = "Ghastly Stone Tiles (Inverted)";
 
 mixer.recipeBuilder()
-    .inputs(<railcraft:brick_red_nether:2>)
+    .inputs(<railcraft:red_nether:2>)
 	.circuit("12")
     .fluidInputs([<liquid:ghastlycerin> * 100])
     .outputs(<magneticraft:limestone>)
@@ -177,7 +177,7 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 mixer.recipeBuilder()
-    .inputs(<railcraft:brick_red_nether:2> * 2)
+    .inputs(<railcraft:red_nether:2> * 2)
     .circuit("13")
     .fluidInputs([<liquid:ghastlycerin> * 200])
     .outputs(<magneticraft:limestone> * 4)

@@ -62,109 +62,109 @@ craft.make(<railcraft:reinforced_concrete:8> * 16, ["pretty",
 
 var AbyssalStone as IItemStack[] = [
     <railcraft:generic:8>,
-    <railcraft:brick_abyssal>,
-    <railcraft:brick_abyssal:1>,
-    <railcraft:brick_abyssal:2>,
-    <railcraft:brick_abyssal:3>,
-    <railcraft:brick_abyssal:4>,
-    // <railcraft:brick_abyssal_brick_stairs>,
-    // <railcraft:brick_abyssal_paver_stairs>,
-    // <railcraft:brick_abyssal_slab>,
-    // <railcraft:brick_abyssal_slab:1>
+    <railcraft:abyssal>,
+    <railcraft:abyssal:1>,
+    <railcraft:abyssal:2>,
+    <railcraft:abyssal:3>,
+    <railcraft:abyssal:4>,
+    // <railcraft:abyssal_brick_stairs>,
+    // <railcraft:abyssal_paver_stairs>,
+    // <railcraft:abyssal_slab>,
+    // <railcraft:abyssal_slab:1>
     ];
 
 for i in AbyssalStone {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_abyssal:5>)
+        .outputs(<railcraft:abyssal:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var BleachedBone as IItemStack[] = [
-    <railcraft:brick_bleachedbone>,
-    <railcraft:brick_bleachedbone:1>,
-    <railcraft:brick_bleachedbone:2>,
-    <railcraft:brick_bleachedbone:3>,
-    <railcraft:brick_bleachedbone:4>,
-    // <railcraft:brick_bleachedbone_brick_stairs>,
-    // <railcraft:brick_bleachedbone_paver_stairs>,
-    // <railcraft:brick_bleachedbone_slab>
+    <railcraft:bleachedbone>,
+    <railcraft:bleachedbone:1>,
+    <railcraft:bleachedbone:2>,
+    <railcraft:bleachedbone:3>,
+    <railcraft:bleachedbone:4>,
+    // <railcraft:bleachedbone_brick_stairs>,
+    // <railcraft:bleachedbone_paver_stairs>,
+    // <railcraft:bleachedbone_slab>
     ];
 
 for i in BleachedBone {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_bleachedbone:5>)
+        .outputs(<railcraft:bleachedbone:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var BloodStained as IItemStack[] = [
-    <railcraft:brick_bloodstained>,
-    <railcraft:brick_bloodstained:1>,
-    <railcraft:brick_bloodstained:2>,
-    <railcraft:brick_bloodstained:3>,
-    <railcraft:brick_bloodstained:4>,
-    // <railcraft:brick_bloodstained_brick_stairs>,
-    // <railcraft:brick_bloodstained_paver_stairs>,
-    // <railcraft:brick_bloodstained_slab>,
-    // <railcraft:brick_bloodstained_slab:1>
+    <railcraft:bloodstained>,
+    <railcraft:bloodstained:1>,
+    <railcraft:bloodstained:2>,
+    <railcraft:bloodstained:3>,
+    <railcraft:bloodstained:4>,
+    // <railcraft:bloodstained_brick_stairs>,
+    // <railcraft:bloodstained_paver_stairs>,
+    // <railcraft:bloodstained_slab>,
+    // <railcraft:bloodstained_slab:1>
     ];
 
 for i in BloodStained {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_bloodstained:5>)
+        .outputs(<railcraft:bloodstained:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var FrostBound as IItemStack[] = [
-    <railcraft:brick_frostbound>,
-    <railcraft:brick_frostbound:1>,
-    <railcraft:brick_frostbound:2>,
-    <railcraft:brick_frostbound:3>,
-    <railcraft:brick_frostbound:4>,
-    // <railcraft:brick_frostbound_brick_stairs>,
-    // <railcraft:brick_frostbound_paver_stairs>,
-    // <railcraft:brick_frostbound_slab>,
-    // <railcraft:brick_frostbound_slab:1>
+    <railcraft:frostbound>,
+    <railcraft:frostbound:1>,
+    <railcraft:frostbound:2>,
+    <railcraft:frostbound:3>,
+    <railcraft:frostbound:4>,
+    // <railcraft:frostbound_brick_stairs>,
+    // <railcraft:frostbound_paver_stairs>,
+    // <railcraft:frostbound_slab>,
+    // <railcraft:frostbound_slab:1>
     ];
 
 for i in FrostBound {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_frostbound:5>)
+        .outputs(<railcraft:frostbound:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var Infernal as IItemStack[] = [
-    <railcraft:brick_infernal>,
-    <railcraft:brick_infernal:1>,
-    <railcraft:brick_infernal:2>,
-    <railcraft:brick_infernal:3>,
-    <railcraft:brick_infernal:4>,
-    // <railcraft:brick_infernal_brick_stairs>,
-    // <railcraft:brick_infernal_paver_stairs>,
-    // <railcraft:brick_infernal_slab>,
-    // <railcraft:brick_infernal_slab:1>
+    <railcraft:infernal>,
+    <railcraft:infernal:1>,
+    <railcraft:infernal:2>,
+    <railcraft:infernal:3>,
+    <railcraft:infernal:4>,
+    // <railcraft:infernal_brick_stairs>,
+    // <railcraft:infernal_paver_stairs>,
+    // <railcraft:infernal_slab>,
+    // <railcraft:infernal_slab:1>
     ];
 
 for i in Infernal {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_infernal:5>)
+        .outputs(<railcraft:infernal:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
@@ -199,124 +199,124 @@ for i in Jaded {
 
 var Quarried as IItemStack[] = [
     <railcraft:generic:9>,
-    <railcraft:brick_quarried>,
-    <railcraft:brick_quarried:1>,
-    <railcraft:brick_quarried:2>,
-    <railcraft:brick_quarried:3>,
-    <railcraft:brick_quarried:4>,
-    // <railcraft:brick_quarried_brick_stairs>,
-    // <railcraft:brick_quarried_paver_stairs>,
-    // <railcraft:brick_quarried_slab>,
-    // <railcraft:brick_quarried_slab:1>
+    <railcraft:quarried>,
+    <railcraft:quarried:1>,
+    <railcraft:quarried:2>,
+    <railcraft:quarried:3>,
+    <railcraft:quarried:4>,
+    // <railcraft:quarried_brick_stairs>,
+    // <railcraft:quarried_paver_stairs>,
+    // <railcraft:quarried_slab>,
+    // <railcraft:quarried_slab:1>
     ];
 
 for i in Quarried {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_quarried:5>)
+        .outputs(<railcraft:quarried:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var Sandy as IItemStack[] = [
-    <railcraft:brick_sandy>,
-    <railcraft:brick_sandy:1>,
-    <railcraft:brick_sandy:2>,
-    <railcraft:brick_sandy:3>,
-    <railcraft:brick_sandy:4>,
-    // <railcraft:brick_sandy_brick_stairs>,
-    // <railcraft:brick_sandy_paver_stairs>,
-    // <railcraft:brick_sandy_slab>,
-    // <railcraft:brick_sandy_slab:1>
+    <railcraft:sandy>,
+    <railcraft:sandy:1>,
+    <railcraft:sandy:2>,
+    <railcraft:sandy:3>,
+    <railcraft:sandy:4>,
+    // <railcraft:sandy_brick_stairs>,
+    // <railcraft:sandy_paver_stairs>,
+    // <railcraft:sandy_slab>,
+    // <railcraft:sandy_slab:1>
     ];
 
 for i in Sandy {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_sandy:5>)
+        .outputs(<railcraft:sandy:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var Badlands as IItemStack[] = [
-    <railcraft:brick_red_sandy>,
-    <railcraft:brick_red_sandy:1>,
-    <railcraft:brick_red_sandy:2>,
-    <railcraft:brick_red_sandy:3>,
-    <railcraft:brick_red_sandy:4>,
-    // <railcraft:brick_red_sandy_brick_stairs>,
-    // <railcraft:brick_red_sandy_paver_stairs>,
-    // <railcraft:brick_red_sandy_slab>,
-    // <railcraft:brick_red_sandy_slab:1>
+    <railcraft:badlands>,
+    <railcraft:badlands:1>,
+    <railcraft:badlands:2>,
+    <railcraft:badlands:3>,
+    <railcraft:badlands:4>,
+    // <railcraft:badlands_brick_stairs>,
+    // <railcraft:badlands_paver_stairs>,
+    // <railcraft:badlands_slab>,
+    // <railcraft:badlands_slab:1>
     ];
 
 for i in Badlands {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_red_sandy:5>)
+        .outputs(<railcraft:badlands:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var Nether as IItemStack[] = [
-    <railcraft:brick_nether>,
-    <railcraft:brick_nether:1>,
-    <railcraft:brick_nether:2>,
-    <railcraft:brick_nether:3>,
-    <railcraft:brick_nether:4>
+    <railcraft:nether>,
+    <railcraft:nether:1>,
+    <railcraft:nether:2>,
+    <railcraft:nether:3>,
+    <railcraft:nether:4>
     ];
 
 for i in Nether {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_nether:5>)
+        .outputs(<railcraft:nether:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var RedNether as IItemStack[] = [
-    <railcraft:brick_red_nether>,
-    <railcraft:brick_red_nether:1>,
-    <railcraft:brick_red_nether:2>,
-    <railcraft:brick_red_nether:3>,
-    <railcraft:brick_red_nether:4>
+    <railcraft:red_nether>,
+    <railcraft:red_nether:1>,
+    <railcraft:red_nether:2>,
+    <railcraft:red_nether:3>,
+    <railcraft:red_nether:4>
     ];
 
 for i in RedNether {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_red_nether:5>)
+        .outputs(<railcraft:red_nether:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
 }
 
 var Pearlized as IItemStack[] = [
-    <railcraft:brick_pearlized>,
-    <railcraft:brick_pearlized:1>,
-    <railcraft:brick_pearlized:2>,
-    <railcraft:brick_pearlized:3>,
-    <railcraft:brick_pearlized:4>,
-    // <railcraft:brick_pearlized_brick_stairs>,
-    // <railcraft:brick_pearlized_paver_stairs>,
-    // <railcraft:brick_pearlized_slab>,
-    // <railcraft:brick_pearlized_slab:1>
+    <railcraft:pearlized>,
+    <railcraft:pearlized:1>,
+    <railcraft:pearlized:2>,
+    <railcraft:pearlized:3>,
+    <railcraft:pearlized:4>,
+    // <railcraft:pearlized_brick_stairs>,
+    // <railcraft:pearlized_paver_stairs>,
+    // <railcraft:pearlized_slab>,
+    // <railcraft:pearlized_slab:1>
     ];
 
 for i in Pearlized {
 
 	macerator.recipeBuilder()
         .inputs(i)
-        .outputs(<railcraft:brick_pearlized:5>)
+        .outputs(<railcraft:pearlized:5>)
         .duration(80)
         .EUt(8)
     .buildAndRegister();    
@@ -338,8 +338,8 @@ macerator.recipeBuilder()
 <railcraft:charge:10>.displayName = "Silver Electrode";
 
 // Pearlized Block
-recipes.remove(<railcraft:brick_pearlized:2>);
-recipes.addShaped(<railcraft:brick_pearlized:2> * 8, [[<ore:endstone>, <ore:endstone>, <ore:endstone>], [<ore:endstone>, <ore:dustEnderPearl>, <ore:endstone>],[<ore:endstone>, <ore:endstone>, <ore:endstone>]]);
+recipes.remove(<railcraft:pearlized:2>);
+recipes.addShaped(<railcraft:pearlized:2> * 8, [[<ore:endstone>, <ore:endstone>, <ore:endstone>], [<ore:endstone>, <ore:dustEnderPearl>, <ore:endstone>],[<ore:endstone>, <ore:endstone>, <ore:endstone>]]);
 
 // Force Track Emitter
 //recipes.remove(<railcraft:force_track_emitter>);
@@ -423,28 +423,28 @@ recipes.remove(<railcraft:bore:0>);
 recipes.addShaped(<railcraft:bore:0> * 1, [[<ore:blockSteel>, <minecraft:minecart>, <ore:blockSteel>], [<gregtech:machine:16>, <minecraft:minecart>, <gregtech:machine:16>],[null, <minecraft:chest_minecart>, null]]);
 
 //Steel Anvil /* Currently Disabled */
-recipes.remove(<railcraft:anvil>);
+// recipes.remove(<railcraft:anvil>);
 
-recipes.addShaped(<railcraft:anvil>, [
-[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],
-[<ore:screwSteel>, <ore:blockSteel>, <ore:screwSteel>],
-[<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>]]);
+// recipes.addShaped(<railcraft:anvil>, [
+// [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],
+// [<ore:screwSteel>, <ore:blockSteel>, <ore:screwSteel>],
+// [<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>]]);
 
-alloy.recipeBuilder()
-    .inputs(<ore:ingotSteel>*31)
-    .notConsumable(<gregtech:meta_item_1:21>)
-    .outputs(<railcraft:anvil>)
-    .duration(120)
-    .EUt(16)
-.buildAndRegister();
+// alloy.recipeBuilder()
+//     .inputs(<ore:ingotSteel>*31)
+//     .notConsumable(<gregtech:meta_item_1:21>)
+//     .outputs(<railcraft:anvil>)
+//     .duration(120)
+//     .EUt(16)
+// .buildAndRegister();
 
-solidifier.recipeBuilder()
-    .fluidInputs(<liquid:steel>*4464)
-    .notConsumable(<gregtech:meta_item_1:21>)
-    .outputs(<railcraft:anvil>)
-    .duration(120)
-    .EUt(16)
-.buildAndRegister();
+// solidifier.recipeBuilder()
+//     .fluidInputs(<liquid:steel>*4464)
+//     .notConsumable(<gregtech:meta_item_1:21>)
+//     .outputs(<railcraft:anvil>)
+//     .duration(120)
+//     .EUt(16)
+// .buildAndRegister();
 
 // Railcraft Circuits ======================================================================
 
@@ -531,11 +531,11 @@ engraver.recipeBuilder()
 .buildAndRegister();
 
 //Blood Stained Brick
-recipes.remove(<railcraft:brick_bloodstained:2>);
+recipes.remove(<railcraft:bloodstained:2>);
 mixer.recipeBuilder()
     .fluidInputs(<liquid:blood> * 250)
-    .inputs(<railcraft:brick_red_nether:2>)
-    .outputs(<railcraft:brick_bloodstained:2>)
+    .inputs(<railcraft:red_nether:2>)
+    .outputs(<railcraft:bloodstained:2>)
     .duration(120)
     .EUt(20)
 .buildAndRegister();

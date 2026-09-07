@@ -78,11 +78,11 @@ mods.chisel.Carving.addVariation("mason", i);
 mods.chisel.Carving.addGroup("Quarried Stone");
 var QuarriedStone as IItemStack[] = [
 <railcraft:generic:9>,
-<railcraft:brick_quarried>,
-<railcraft:brick_quarried:1>,
-<railcraft:brick_quarried:2>,
-<railcraft:brick_quarried:3>,
-<railcraft:brick_quarried:4>
+<railcraft:quarried>,
+<railcraft:quarried:1>,
+<railcraft:quarried:2>,
+<railcraft:quarried:3>,
+<railcraft:quarried:4>
 ];
 for i in QuarriedStone {
 mods.chisel.Carving.addVariation("Quarried Stone", i);
@@ -94,11 +94,11 @@ mods.chisel.Carving.addVariation("Quarried Stone", i);
 mods.chisel.Carving.addGroup("Abyssal Stone");
 var AbyssalStone as IItemStack[] = [
 <railcraft:generic:8>,
-<railcraft:brick_abyssal>,
-<railcraft:brick_abyssal:1>,
-<railcraft:brick_abyssal:2>,
-<railcraft:brick_abyssal:3>,
-<railcraft:brick_abyssal:4>
+<railcraft:abyssal>,
+<railcraft:abyssal:1>,
+<railcraft:abyssal:2>,
+<railcraft:abyssal:3>,
+<railcraft:abyssal:4>
 ];
 for i in AbyssalStone {
 mods.chisel.Carving.addVariation("Abyssal Stone", i);
@@ -129,11 +129,11 @@ mods.chisel.Carving.addVariation("Jaded Stone", i);
 
 mods.chisel.Carving.addGroup("Bleached Stone");
 var BleachedStone as IItemStack[] = [
-<railcraft:brick_bleachedbone>,
-<railcraft:brick_bleachedbone:1>,
-<railcraft:brick_bleachedbone:2>,
-<railcraft:brick_bleachedbone:3>,
-<railcraft:brick_bleachedbone:4>
+<railcraft:bleachedbone>,
+<railcraft:bleachedbone:1>,
+<railcraft:bleachedbone:2>,
+<railcraft:bleachedbone:3>,
+<railcraft:bleachedbone:4>
 ];
 for i in BleachedStone {
 mods.chisel.Carving.addVariation("Bleached Stone", i);
@@ -144,11 +144,11 @@ mods.chisel.Carving.addVariation("Bleached Stone", i);
 
 mods.chisel.Carving.addGroup("Blodstained Stone");
 var Blodstained as IItemStack[] = [
-<railcraft:brick_bloodstained>,
-<railcraft:brick_bloodstained:1>,
-<railcraft:brick_bloodstained:2>,
-<railcraft:brick_bloodstained:3>,
-<railcraft:brick_bloodstained:4>
+<railcraft:bloodstained>,
+<railcraft:bloodstained:1>,
+<railcraft:bloodstained:2>,
+<railcraft:bloodstained:3>,
+<railcraft:bloodstained:4>
 ];
 for i in Blodstained {
 mods.chisel.Carving.addVariation("Blodstained Stone", i);
@@ -159,11 +159,11 @@ mods.chisel.Carving.addVariation("Blodstained Stone", i);
 
 mods.chisel.Carving.addGroup("Frost Bound");
 var Frostbound as IItemStack[] = [
-<railcraft:brick_frostbound>,
-<railcraft:brick_frostbound:1>,
-<railcraft:brick_frostbound:2>,
-<railcraft:brick_frostbound:3>,
-<railcraft:brick_frostbound:4>
+<railcraft:frostbound>,
+<railcraft:frostbound:1>,
+<railcraft:frostbound:2>,
+<railcraft:frostbound:3>,
+<railcraft:frostbound:4>
 ];
 for i in Frostbound {
 mods.chisel.Carving.addVariation("Frost Bound", i);
@@ -174,11 +174,11 @@ mods.chisel.Carving.addVariation("Frost Bound", i);
 
 mods.chisel.Carving.addGroup("Infernal Block");
 var InfernalBlock as IItemStack[] = [
-<railcraft:brick_infernal>,
-<railcraft:brick_infernal:1>,
-<railcraft:brick_infernal:2>,
-<railcraft:brick_infernal:3>,
-<railcraft:brick_infernal:4>
+<railcraft:infernal>,
+<railcraft:infernal:1>,
+<railcraft:infernal:2>,
+<railcraft:infernal:3>,
+<railcraft:infernal:4>
 ];
 for i in InfernalBlock {
 mods.chisel.Carving.addVariation("Infernal Block", i);
@@ -189,11 +189,11 @@ mods.chisel.Carving.addVariation("Infernal Block", i);
 
 mods.chisel.Carving.addGroup("Sandy Stone");
 var SandyStone as IItemStack[] = [
-<railcraft:brick_sandy>,
-<railcraft:brick_sandy:1>,
-<railcraft:brick_sandy:2>,
-<railcraft:brick_sandy:3>,
-<railcraft:brick_sandy:4>
+<railcraft:sandy>,
+<railcraft:sandy:1>,
+<railcraft:sandy:2>,
+<railcraft:sandy:3>,
+<railcraft:sandy:4>
 ];
 for i in SandyStone {
 mods.chisel.Carving.addVariation("Sandy Stone", i);
@@ -204,11 +204,11 @@ mods.chisel.Carving.addVariation("Sandy Stone", i);
 
 mods.chisel.Carving.addGroup("Badlands Stone");
 var RedSandyStone as IItemStack[] = [
-<railcraft:brick_red_sandy>,
-<railcraft:brick_red_sandy:1>,
-<railcraft:brick_red_sandy:2>,
-<railcraft:brick_red_sandy:3>,
-<railcraft:brick_red_sandy:4>
+<railcraft:badlands>,
+<railcraft:badlands:1>,
+<railcraft:badlands:2>,
+<railcraft:badlands:3>,
+<railcraft:badlands:4>
 ];
 for i in RedSandyStone {
 mods.chisel.Carving.addVariation("Badlands Stone", i);
@@ -219,10 +219,10 @@ mods.chisel.Carving.addVariation("Badlands Stone", i);
 
 mods.chisel.Carving.addGroup("NetherStone");
 var NetherStone as IItemStack[] = [
-<railcraft:brick_nether:1>,
-<railcraft:brick_nether:2>,
-<railcraft:brick_nether:3>,
-<railcraft:brick_nether:4>
+<railcraft:nether:1>,
+<railcraft:nether:2>,
+<railcraft:nether:3>,
+<railcraft:nether:4>
 ];
 for i in NetherStone {
 mods.chisel.Carving.addVariation("NetherStone", i);
@@ -233,10 +233,10 @@ mods.chisel.Carving.addVariation("NetherStone", i);
 
 mods.chisel.Carving.addGroup("RedNetherStone");
 var RedNetherStone as IItemStack[] = [
-<railcraft:brick_red_nether:1>,
-<railcraft:brick_red_nether:2>,
-<railcraft:brick_red_nether:3>,
-<railcraft:brick_red_nether:4>
+<railcraft:red_nether:1>,
+<railcraft:red_nether:2>,
+<railcraft:red_nether:3>,
+<railcraft:red_nether:4>
 ];
 for i in RedNetherStone {
 mods.chisel.Carving.addVariation("RedNetherStone", i);
@@ -247,11 +247,11 @@ mods.chisel.Carving.addVariation("RedNetherStone", i);
 
 mods.chisel.Carving.addGroup("PearlizedBlock");
 var PearlizedBlock as IItemStack[] = [
-<railcraft:brick_pearlized>,
-<railcraft:brick_pearlized:1>,
-<railcraft:brick_pearlized:2>,
-<railcraft:brick_pearlized:3>,
-<railcraft:brick_pearlized:4>
+<railcraft:pearlized>,
+<railcraft:pearlized:1>,
+<railcraft:pearlized:2>,
+<railcraft:pearlized:3>,
+<railcraft:pearlized:4>
 ];
 for i in PearlizedBlock {
 mods.chisel.Carving.addVariation("PearlizedBlock", i);
