@@ -286,15 +286,6 @@ recipes.addShaped(<minecraft:enchanting_table> * 1, [[<ore:plateDiamond>, <minec
 recipes.remove(<minecraft:brewing_stand>);
 recipes.addShaped(<minecraft:brewing_stand> * 1, [[<ore:ringRunicSteel>, <ore:rodBlaze>, <ore:ringRunicSteel>], [<ore:stickAluminium>, <ore:rodBlaze>, <ore:stickAluminium>],[<ore:screwAluminium>, <minecraft:cauldron>, <ore:screwAluminium>]]);
 
-// Block of Paper (actually from MIA)
-recipes.remove(<mia:packed_paper>);
-compressor.recipeBuilder()
-    .inputs(<ore:paper> * 9)
-    .outputs(<mia:packed_paper>)
-    .duration(200)
-    .EUt(2)
-.buildAndRegister();
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //			         																														 //
 //			Fishing Rods                                                                                                                     //

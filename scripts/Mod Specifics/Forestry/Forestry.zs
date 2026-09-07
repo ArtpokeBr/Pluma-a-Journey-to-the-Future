@@ -429,13 +429,13 @@ craft.make(<forestry:habitat_screen>, ["pretty",
 # [Rainmaker] from [Hardened Chassis][+3]
 recipes.removeByRecipeName("forestry:rainmaker");
 craft.make(<forestry:rainmaker>, ["pretty",
-  "¤ b ¤",
-  "O H O",
-  "¤ b ¤"], {
-  "¤": <ore:gearElectricalSteel>,      # Electrical Steel Gear
-  "b": <mia:armored_glass>,            # Obsidian Glass
-  "O": <forestry:thermionic_tubes:13>, # Orchid Electron Tube
-  "H": <forestry:hardened_machine>,    # Hardened Chassis
+ "¤ b ¤",
+ "O H O",
+ "¤ b ¤"], {
+ "¤": <ore:gearElectricalSteel>,      # Electrical Steel Gear
+ "b": <ore:blockGlass>,            # Glass
+ "O": <forestry:thermionic_tubes:13>, # Orchid Electron Tube
+ "H": <forestry:hardened_machine>,    # Hardened Chassis
 });
 
 # [Rain Tank] from [Sturdy Chassis][+3]

@@ -14,8 +14,7 @@ var categoriesToHide as string[] = [
 	"embers.geologic_separator",
 	"EIOWC",
 	"botania.orechid",
-	"botania.orechid_ignem",
-	"jei_uncrafting"
+	"botania.orechid_ignem"
 ];
 
 for category in categoriesToHide {

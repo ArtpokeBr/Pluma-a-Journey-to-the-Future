@@ -141,15 +141,14 @@ for i in HalfBasic1x4Drawers {
 // Basic Fluid Drawer
 <fluiddrawers:tank:0>.displayName = "Basic Fluid Drawer";
 recipes.remove(<fluiddrawers:tank:0>);
-
 assembler.recipeBuilder()
-    .inputs([<ore:plateDarkSteel> * 8, <mia:armored_glass> * 4])
-    .fluidInputs([<liquid:super_glue> * 500]) 
-    .circuit(8)
-    .outputs(<fluiddrawers:tank:0>)
-    .duration(100)
-    .EUt(16)
-    .buildAndRegister();
+   .inputs([<ore:plateDarkSteel> * 8, <ore:blockGlass> * 4])
+   .fluidInputs([<liquid:super_glue> * 500])
+   .circuit(8)
+   .outputs(<fluiddrawers:tank:0>)
+   .duration(100)
+   .EUt(16)
+.buildAndRegister();
 
 
 //Basic Drawer (All Types)

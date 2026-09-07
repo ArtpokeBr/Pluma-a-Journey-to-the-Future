@@ -118,16 +118,6 @@ mixer.recipeBuilder()
     .EUt(32)
 .buildAndRegister();
 
-//Obsidian Glass
-<mia:armored_glass>.displayName = "Obsidian Glass";
-recipes.remove(<mia:armored_glass>);
-alloy.recipeBuilder()
-    .inputs(<extrautils2:decorativeglass>, <ore:dustObsidian>*4)
-    .outputs(<mia:armored_glass>)
-    .duration(150)
-    .EUt(40)
-.buildAndRegister();    
-
 //Sooty Energetic Compound
 mixer.recipeBuilder()
     .inputs(<thermalfoundation:material:892>*2, <fossil:tardrop>*2, <ore:dustObscureCompound>*2, <gregtech:meta_item_1:491>*9)

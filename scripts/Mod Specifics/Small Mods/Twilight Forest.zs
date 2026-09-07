@@ -1,9 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import mods.twilighttweaks.uncrafting;
 import mods.thermalexpansion.Insolator as Insolator;
-
-mods.twilighttweaks.uncrafting.banUncraft(<botanicadds:mana_tesseract>);
 
 //Ironwood Must be found instead of just Crafted.
 furnace.remove(<twilightforest:ironwood_ingot>);

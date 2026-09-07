@@ -535,11 +535,11 @@ recipes.addShaped(<mekanism:basicblock:9> * 4, [[null, <ore:plateDarkSteel>, nul
 // Structural Glass
 recipes.remove(<mekanism:basicblock:10>);
 chemical_bath.recipeBuilder()
-    .inputs(<mia:armored_glass>)
-    .fluidInputs(<liquid:dark_steel>*576)
-    .outputs(<mekanism:basicblock:10>*4)
-    .duration(180)
-    .EUt(200)
+   .inputs(<ore:blockGlass>)
+   .fluidInputs(<liquid:dark_steel>*576)
+   .outputs(<mekanism:basicblock:10>*4)
+   .duration(180)
+   .EUt(200)
 .buildAndRegister();
 
 //Dynamic Valve
@@ -737,7 +737,7 @@ recipes.addShaped(<mekanism:machineblock:14> * 1, [[null, null, null], [<minecra
 
 // Security Desk
 recipes.remove(<mekanism:basicblock2:9>);
-recipes.addShaped(<mekanism:basicblock2:9> * 1, [[<ore:lightPlateSteel>, <mia:armored_glass>, <ore:lightPlateSteel>], [<mekanism:controlcircuit:2>, <mekanism:basicblock:8>, <mekanism:controlcircuit:2>],[<ore:lightPlateSteel>, <ore:circuitMv>, <ore:lightPlateSteel>]]);
+recipes.addShaped(<mekanism:basicblock2:9> * 1, [[<ore:lightPlateSteel>, <ore:blockGlass>, <ore:lightPlateSteel>], [<mekanism:controlcircuit:2>, <mekanism:basicblock:8>, <mekanism:controlcircuit:2>],[<ore:lightPlateSteel>, <ore:circuitMv>, <ore:lightPlateSteel>]]);
 
 // Rotary Condensentrator
 recipes.remove(<mekanism:machineblock2:0>);
