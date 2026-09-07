@@ -105,6 +105,7 @@ var WoodDoors as IItemStack[IIngredient] = {
     <natura:overworld_planks:7>: <natura:overworld_doors:2>,
     <natura:overworld_planks:8>: <natura:overworld_doors:3>,
     <natura:redwood_logs>: <natura:overworld_doors:4>,
+    <natura:overworld_planks:9>: <natura:overworld_doors:10>,
     <natura:nether_planks>: <natura:nether_doors>,
     <natura:nether_planks:1>: <natura:nether_doors:1>,
     <natura:nether_planks:2>: <natura:nether_doors:2>,

@@ -153,6 +153,7 @@ var WoodGates as IItemStack[IIngredient] = {
     // <natura:overworld_planks:7>: <natura:overworld_fences:2>,
     // <natura:overworld_planks:8>: <natura:overworld_fences:3>,
     // <natura:redwood_logs>: <natura:overworld_fences:4>,
+    // <natura:overworld_planks:9>: <natura:apple_fence>,
     // <natura:nether_planks>: <natura:nether_fences>,
     // <natura:nether_planks:1>: <natura:nether_fences:1>,
     // <natura:nether_planks:2>: <natura:nether_fences:2>,

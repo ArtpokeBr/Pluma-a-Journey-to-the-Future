@@ -182,7 +182,7 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 // // Village Blacksmith (Vanilla)
 
 	clear_pool("minecraft:chests/village_blacksmith", "main");
-	clear_pool("minecraft:chests/village_blacksmith", "magicHood");
+	// clear_pool("minecraft:chests/village_blacksmith", "magicHood");
 	clear_pool("minecraft:chests/village_blacksmith", "randomthings:biomeCrystal");
 	clear_pool("minecraft:chests/village_blacksmith", "botania_inject_pool");
 	clear_pool("railcraft:chests/village_blacksmith", "railcraft_general");
@@ -851,9 +851,9 @@ clear_pool("minecraft:chests/spawn_bonus_chest", "main");
 	clear_pool("minecraft:chests/simple_dungeon", "pool1");
 	clear_pool("minecraft:chests/simple_dungeon", "pool2");
 	//clear_pool("minecraft:chests/simple_dungeon", "railcraft_general");
-	clear_pool("minecraft:chests/simple_dungeon", "magicHood");
+	// clear_pool("minecraft:chests/simple_dungeon", "magicHood");
 	clear_pool("minecraft:chests/simple_dungeon", "botania_inject_pool");
-	clear_pool("minecraft:chests/simple_dungeon", "lavaCharm");
+	// clear_pool("minecraft:chests/simple_dungeon", "lavaCharm");
 
 	//clear_pool("minecraft:chests/simple_dungeon", "randomthings:biomeCrystal");
 
